@@ -1,6 +1,7 @@
 version: 1.0.0
 country: usa
 last_updated: 2026-04-30
+disclaimer: "Data provided AS IS. Verify with official sources before use. See DISCLAIMER.md for full terms."
 description: "Internet legal framework and privacy laws (LGPD/GDPR equivalents)"
 
 # Section 230 of the Communications Decency Act (1996)

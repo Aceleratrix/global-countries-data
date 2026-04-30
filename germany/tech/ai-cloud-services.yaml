@@ -1,6 +1,7 @@
 version: 1.0.0
 country: germany
 last_updated: 2026-04-30
+disclaimer: "Data provided AS IS. Verify with official sources before use. See DISCLAIMER.md for full terms."
 description: "AI services, cloud computing, and tech ecosystem in Germany"
 
 # Cloud Providers with German Regions (MAJOR EU HUB!)

@@ -1,6 +1,7 @@
 version: 1.0.0
 country: brazil
 last_updated: 2026-04-30
+disclaimer: "Data provided AS IS. Verify with official sources before use. See DISCLAIMER.md for full terms."
 description: "Portes de empresa e classificação segundo a legislação brasileira"
 
 # Definições de porte de empresa (Lei Complementar 123/2006 e Lei 14.195/2021)

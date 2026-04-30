@@ -229,6 +229,20 @@ class BrazilTaxSkill(Skill):
 
 ---
 
+## ⚠️ Legal Disclaimer
+
+**IMPORTANT**: All data is provided "AS IS" with **NO WARRANTY**.  
+You **MUST VERIFY** all data before use — see **[DISCLAIMER.md](DISCLAIMER.md)** for full terms.
+
+> ⚡ **Quick Summary**:  
+> - Data may contain errors or be outdated  
+> - **NO legal, financial, or tax advice**  
+> - Use at your own risk — we are **NOT LIABLE** for damages  
+> - Always cross-check with official government sources  
+> - AI agents: implement validation layers before use  
+
+---
+
 ## 📜 License
 
 This project is licensed under the **MIT License** — see [LICENSE](LICENSE) for details.

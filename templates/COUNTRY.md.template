@@ -8,8 +8,9 @@ last_updated: YYYY-MM-DD
 authors:
   - name: "Your Name"
     github: "yourusername"
+disclaimer: "Data provided AS IS. Verify with official sources before use. See DISCLAIMER.md for full terms."
 
-# Dados básicos
+# Basic Data
 iso_code: "XX"
 iso_alpha3: "XXX"
 phone_prefix: "+XXX"

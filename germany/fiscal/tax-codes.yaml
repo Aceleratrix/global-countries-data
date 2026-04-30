@@ -1,6 +1,7 @@
 version: 1.0.0
 country: germany
 last_updated: 2026-04-30
+disclaimer: "Data provided AS IS. Verify with official sources before use. See DISCLAIMER.md for full terms."
 description: "VAT (19%/7%), Corporate Tax (29.9%), R&D credit 25% for AI/tech"
 
 # VAT (Value Added Tax - Umsatzsteuer)

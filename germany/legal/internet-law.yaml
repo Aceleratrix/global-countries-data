@@ -1,6 +1,7 @@
 version: 1.0.0
 country: germany
 last_updated: 2026-04-30
+disclaimer: "Data provided AS IS. Verify with official sources before use. See DISCLAIMER.md for full terms."
 description: "GDPR (gold standard privacy law), EU AI Act (world's first comprehensive AI law), NetzDG"
 
 # GDPR - General Data Protection Regulation (EU 2016/679)

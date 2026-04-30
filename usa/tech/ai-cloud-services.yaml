@@ -1,6 +1,7 @@
 version: 1.0.0
 country: usa
 last_updated: 2026-04-30
+disclaimer: "Data provided AS IS. Verify with official sources before use. See DISCLAIMER.md for full terms."
 description: "AI services, cloud computing, and the Silicon Valley tech ecosystem"
 
 # Cloud Providers with US Regions (20+ Regions Total)

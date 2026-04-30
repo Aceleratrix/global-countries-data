@@ -1,6 +1,7 @@
 version: 1.0.0
 country: japan
 last_updated: 2026-04-30
+disclaimer: "Data provided AS IS. Verify with official sources before use. See DISCLAIMER.md for full terms."
 description: "Company sizes, types, and business structures for Japanese AI First businesses"
 
 # Company Types (Business Entities)
