@@ -43,7 +43,7 @@
 | 28 | 🇮🇾 Nigéria | nigeria | Africa | ✅ 100% COMPLETE |
 | 29 | 🇮🇾 Egito | egypt | Africa | $0.47T |
 | 30 | 🇮🇾 Irã | iran | Asia | $0.44T |
-| 31 | 🇿🇦 República Tcheca | czech-republic | Europe | $0.43T |
+| 31 | 🇨🇿 República Tcheca | czech-republic | Europe | ✅ 100% COMPLETE |
 | 32 | 🇷🇴 Romênia | romania | Europe | $0.40T |
 | 33 | 🇮🇾 Israel | israel | Asia | $0.39T |
 | 34 | 🇵🇹 Portugal | portugal | Europe | $0.38T |

@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (30 / 195 = 15.4%)
+## 📊 Coverage Progress (35 / 195 = 17.9%)
 
 ### 🌎 South America (1/12 = 8.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -59,7 +59,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇸🇦 **Saudi Arabia** | 13/13 | ✅ **100% COMPLETE** | Vision 2030 ($3T), NEOM, Saudi Aramco (largest company), 98% internet users | English (en-US) |
 | 🇹🇭 **Thailand** | 13/13 | ✅ **100% COMPLETE** | 27th largest economy ($0.49T), Tourism 20% GDP, World's largest rice exporter, 71.8M population | English (en-US) |
 
-### 🌍 Europe (11/44 = 25.0%)
+### 🌍 Europe (12/44 = 27.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇩🇪 **Germany** | 13/13 | ✅ **100% COMPLETE** | GDPR (gold standard), EU AI Act, SEPA, Industry 4.0, 4 cloud regions | English (en-US) |
@@ -74,6 +74,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇳🇴 **Norway** | 13/13 | ✅ **100% COMPLETE** | 24th largest economy ($0.55T), Oslo (700K), Sovereign Wealth Fund $1.6T, oil/gas, EEA member | Norwegian (no-NO) + English |
 | 🇧🇪 **Belgium** | 13/13 | ✅ **100% COMPLETE** | 23rd largest economy ($0.58T), Brussels (EU/NATO HQ), Antwerp (Europe's 2nd port), federal monarchy | Dutch/French/German + English |
 | 🇸🇪 **Sweden** | 13/13 | ✅ **100% COMPLETE** | 22nd/24th largest economy ($0.58T), Spotify, Skype, Ericsson, Stockholm (1M), high welfare state | English (en-US) |
+| 🇨🇿 **Czech Republic** | 13/13 | ✅ **100% COMPLETE** | 31st largest economy ($0.43T), Skoda Auto, Pilsner beer, Prague (1.3M) | English (en-US) |
 
 ### 🌍 Africa (1/54 = 1.9%)
 | Country | Files | Status | Key Highlights | Primary Language |
