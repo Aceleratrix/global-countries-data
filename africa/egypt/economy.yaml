@@ -1,0 +1,14 @@
+country: Egypt
+nominal_gdp_trillion_usd: 0.47
+world_gdp_rank: 29
+gdp_per_capita_usd: ~4200
+key_sectors:
+  - Tourism
+  - Suez Canal operations
+  - Agriculture
+  - Natural gas extraction
+  - Manufacturing
+suez_canal_revenue_2023_usd_billion: 8.2
+inflation_rate_2024_percent: ~15
+unemployment_rate_2024_percent: ~7
+fiscal_deficit_percent_of_gdp_2024: ~6

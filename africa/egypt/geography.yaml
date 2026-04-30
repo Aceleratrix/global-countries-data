@@ -1,0 +1,16 @@
+country: Egypt
+region: North Africa
+area_sq_km: 1002450
+world_area_rank: 30
+borders:
+  - Libya
+  - Sudan
+  - Israel
+  - Gaza Strip
+coastline:
+  - Mediterranean Sea (north)
+  - Red Sea (east)
+major_river: Nile
+climate: Arid desert, mild winters, hot summers
+lowest_point: Qattara Depression (-133m)
+highest_point: Mount Catherine (2629m)

@@ -1,0 +1,11 @@
+# Egypt (Arab Republic of Egypt)
+- **GDP**: $0.47 trillion (29th largest economy globally, 2023 est.)
+- **Population**: ~110 million (2024 est., 14th most populous country)
+- **Capital**: Cairo (metropolitan area ~20 million, largest urban area in Arab world/Middle East)
+- **Key Infrastructure**: Suez Canal (handles ~12% of global trade, $8.2B revenue in 2023)
+- **Tourism**: Pre-pandemic ~13 million annual visitors, Pyramids of Giza (UNESCO World Heritage Site), Red Sea resorts
+- **Currency**: Egyptian Pound (EGP)
+- **Official Language**: Arabic
+- **Government**: Semi-presidential republic
+- **Major River**: Nile (longest river in the world, supports 95% of Egypt's population)
+- **Key Exports**: Natural gas, petroleum products, textiles, fruits/vegetables

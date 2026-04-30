@@ -1,0 +1,9 @@
+country: Egypt
+primary_energy_source: Natural gas
+electricity_generation_2023_twh: ~200
+renewable_energy_share_2024_percent: ~10
+natural_gas_reserves_tcm: 2.1
+oil_reserves_billion_barrels: 3.3
+major_energy_projects:
+  - Benban Solar Park (1.8 GW, one of world's largest)
+  - Zohr Natural Gas Field (2.7 tcm reserves)
