@@ -1,0 +1,172 @@
+---
+country: "United Kingdom"
+category: "legal"
+type: "labor_law"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.gov.uk/government/organisations/hm-revenue-customs"
+  - "https://www.acas.org.uk"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Labor Law - United Kingdom#
+
+## Legal Framework#
+primary_law: "Employment Rights Act 1996 (consolidated)"
+secondary_laws:
+  - "Equality Act 2010 (discrimination)"
+  - "National Minimum Wage Act 1998"
+  - "Working Time Regulations 1998 (EU-derived, retained)"
+  - "Employment Relations Act 1999/2004"
+authority: "ACAS (Advisory, Conciliation and Arbitration Service)"
+
+## Employment Contracts#
+contract_types:
+  - type: "Permanent (长期雇佣)"
+    description: "Indefinite contract with full benefits"
+    probation: "3-6 months (statutory, not mandatory)"
+    notice_period: "1 week - 12 weeks (by tenure)"
+    
+  - type: "Fixed-term (固定期限)"
+    description: "Contract for specific period or task"
+    max_duration: "4 years (then becomes permanent)"
+    benefits: "Same as permanent employees (after 2+ renewals)"
+    
+  - type: "Zero-hours (零小时合同)"
+    description: "No guaranteed hours (flexible)"
+    rights: "National Living Wage, holiday pay, rest breaks"
+    note: "Controversial, being reformed (2024-2026)"
+    
+  - type: "Agency Worker (劳务派遣)"
+    description: "Employed by agency, works for hirer"
+    rights: "Equal treatment after 12 weeks"
+    
+  - type: "Self-employed (自雇)"
+    description: "Independent contractor, not employee"
+    rights: "Limited (basic health/safety only)"
+
+## Working Hours#
+standard_hours:
+  per_day: 8
+  per_week: 40-48
+  rest_periods: "11 hours rest between shifts"
+  
+working_time_regulations:
+  max_weekly: 48  # hours (average over 17 weeks)
+  opt_out: "Allowed (employee can agree to work >48hrs)"
+  night_work: "Max 8 hours avg (over 17 weeks)"
+  
+overtime_rules:
+  pay: "No statutory overtime (contractual)"
+  typical_rates: "Time-and-half (1.5x) or double-time (2x)"
+  note: "Most professionals do unpaid overtime (culture)"
+
+## Minimum Wage#
+national_living_wage:  # for 21+ (from April 2024)
+  age_21_plus: 11.44  # £ per hour
+  age_18_20: 8.60
+  under_18: 6.40
+  apprentice: 6.40
+  
+employer_duty: "Must pay at least NLW/NMW (criminal offense if not)"
+penalties: "Up to £20,000 per underpaid worker"
+
+## Employment Tribunal#
+employment_tribunal:
+  claim_types: "Unfair dismissal, discrimination, wage disputes"
+  time_limit: "3 months minus 1 day from incident"
+  fees: "Abolished (2017 Supreme Court ruling)"
+  
+acas_early_conciliation:
+  mandatory: "Before tribunal claim (except certain cases)"
+  timeline: "1 month conciliation (can extend to 2)"
+  cost: "Free (funded by government)"
+
+## Termination & Redundancy#
+termination_notice:
+  employer_initiated: "1 week - 12 weeks (by tenure)"
+  employee_initiated: "1 week - 4 weeks (contractual)"
+  
+unfair_dismissal:
+  qualifying_period: "2 years continuous service (for most claims)"
+  automatically_unfair: "Pregnancy, whistlelowing, health/safety, union activities"
+  compensation: "Up to £115,115 (basic + compensatory awards)"
+  
+redundancy_pay:
+  eligibility: "2+ years service"
+  calculation: "Half week's pay per year (age <22), 1 week (22-40), 1.5 weeks (41+)"
+  max_weekly_pay: "£643 (for calculation, April 2024)"
+  statutory_max: "£19,290 (max payout)"
+
+## Mandatory Leave#
+leave_entitlements:
+  annual_leave:
+    full_time: "5.6 weeks (28 days inc. bank holidays)"
+    part_time: "Pro-rata"
+  sick_leave:
+    statutory_sick_pay: "£116.75/week (up to 28 weeks)"
+    eligibility: "Earn >£123/week, worked >4 days"
+  maternity_leave:
+    ordinary: "52 weeks (26 weeks OML + 26 weeks AML)"
+    pay: "Statutory Maternity Pay (SMP) - £184.03/week or 90% of avg earnings"
+    eligibility: "26 weeks continuous service"
+  paternity_leave:
+    ordinary: "1-2 weeks"
+    pay: "Statutory Paternity Pay (SPP) - £184.03/week"
+  adoption_leave: "Same as maternity (52 weeks, SAdP pay)"
+  shared_parental_leave: "Up to 50 weeks (parents can share)"
+  parental_bereavement: "2 weeks (child death <18 or stillbirth)"
+
+## Probation Period#
+probation_rules:
+  standard: "3-6 months (not statutory, contractual)"
+  extension: "Up to 12 months (by employer)"
+  during_probation: "Shorter notice period (1 week typical)"
+  confirmation: "Based on performance review"
+
+## Non-Compete Agreements#
+non_compete:
+  validity: "Generally enforceable (if reasonable)"
+  criteria: "Time (6-12 months), geographic scope, business protection"
+  garden_leave: "Paid notice period, kept away from work"
+
+## Employment Tribunals#
+tribunal_process:
+  step1: "ACAS Early Conciliation (mandatory)"
+  step2: "Tribunal claim (ET1 form)"
+  step3: "Response (ET3 form)"
+  step4: "Hearing (1-3 days, can be virtual)"
+  
+timeline:
+  conciliation: "1-2 months"
+  tribunal: "6-12 months (from claim to hearing)"
+  appeal: "Employment Appeal Tribunal (point of law only)"
+
+## Special Rules for Foreigners#
+work_visa:
+  required: "Skilled Worker Visa (replaces Tier 2)"
+  duration: "Up to 5 years (renewable)"
+  employer_sponsorship: "Mandatory (licensed sponsor)"
+  minimum_salary: "£38,700 (from April 2024, higher than before)"
+  
+right_to_work:
+  check_mandatory: "All employees (civil penalty £45,000 for illegal workers)"
+  documents: "Passport, biometric residence permit, etc."
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "National Living Wage: £11.44/hour (21+, from April 2024)"
+  - "Working Time Regs: 48-hour week max (average over 17 weeks)"
+  - "Employment Tribunal: 3-month deadline, ACAS conciliation mandatory"
+  - "Unfair dismissal: 2-year qualifying period (most cases)"
+  - "Redundancy: half-1.5 weeks pay/year (max £19,290 payout)"
+  - "Maternity: 52 weeks leave, SMP £184.03/week (26 weeks service)"
+  - "Zero-hours contracts: controversial, being reformed (2024-2026)"
+  - "Notice period: 1 week - 12 weeks (by tenure)"
+  - "Non-compete: enforceable if reasonable (6-12 months typical)"
+  - "Skilled Worker Visa: £38,700 min salary (from April 2024)"
+  - "Right to work check: MANDATORY (£45K penalty for illegal)"
+  - "ACAS: early conciliation FREE (mandatory before tribunal)"
+  - "Sick pay: SSP £116.75/week (up to 28 weeks)"
+  - "Part-time: pro-rata annual leave (5.6 weeks full-time equivalent)"

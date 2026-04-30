@@ -1,0 +1,238 @@
+---
+country: "United Kingdom"
+category: "business"
+type: "real_estate"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.ons.gov.uk"
+  - "https://www.gov.uk/government/organisations/hm-land-registry"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Real Estate Market - United Kingdom#
+
+## Market Overview#
+market_size_gbp: 1_800_000_000_000  # £1.8 trillion
+residential_share: 82  # percentage of market
+commercial_share: 18
+
+## Major Cities (By Property Value)#
+major_cities:
+  - name: "London (伦敦)"
+    population: 9_600_000
+    avg_price_gbp_sqft: 650  # ~$780/sqft
+    prime_central_london: 2_500  # £2,500/sqft (super-prime)
+    rental_yield: 3.5  # percentage
+    vacancy_rate: 2.1
+    
+  - name: "Manchester (曼彻斯特)"
+    population: 2_700_000
+    avg_price_gbp_sqft: 280  # ~$335/sqft
+    rental_yield: 5.8
+    vacancy_rate: 3.2
+    
+  - name: "Birmingham (伯明翰)"
+    population: 2_900_000
+    avg_price_gbp_sqft: 250  # ~$300/sqft
+    rental_yield: 6.2
+    vacancy_rate: 3.5
+    
+  - name: "Glasgow (格拉斯哥)"
+    population: 1_700_000
+    avg_price_gbp_sqft: 220  # ~$265/sqft
+    rental_yield: 6.5
+    vacancy_rate: 3.8
+    
+  - name: "Liverpool (利物浦)"
+    population: 1_500_000
+    avg_price_gbp_sqft: 200  # ~$240/sqft
+    rental_yield: 7.2
+    vacancy_rate: 4.1
+
+## Residential Real Estate#
+residential:
+  price_trend: "Growing 3-8% annually (London slower, regions faster)"
+  average_price_gbp_national: 295_000  # ~$355K (2026)
+  
+  property_types:
+    - "Detached houses - 25% of market"
+    - "Semi-detached - 30%"
+    - "Terraced houses - 25%"
+    - "Flats/apartments - 20%"
+    
+  purchase_process:
+    - "Agree offer (subject to contract)"
+    - "Instruct solicitor/conveyancer"
+    - "Surveys + mortgage application"
+    - "Searches (local authority, environmental)"
+    - "Exchange contracts (legally binding)"
+    - "Completion (move in, pay balance)"
+    
+  deposit:
+    first_buyer: 5-10  # percentage (Help to Buy schemes)
+    home_mover: 10-25
+    
+  mortgage_rates:
+    fixed_2_year: 4.8  # percentage (2026 avg)
+    tracker_variable: 5.2
+    
+  loan_terms:
+    max_years: 35
+    max_amount: "4.5x annual income (typical)"
+
+## Commercial Real Estate#
+commercial:
+  office_spaces:
+    grade_a_rent_gbp_sqft_year: 75  # London City
+    grade_a_outside_london: 35  # Manchester, Birmingham, etc.
+    vacancy_rate_national: 12.5
+    
+  retail:
+    high_street_rent_gbp_sqft_year: 120-450  # by location
+    vacancy_rate: 18.5  # growing (e-commerce impact)
+    
+  industrial_warehouse:
+    rent_gbp_sqft_year: 12-25
+    vacancy_rate: 6.8
+    growth: "E-commerce driving demand"
+
+## Legal Framework#
+legal:
+  property_ownership:
+    - "Freehold (永久产权) - absolute ownership"
+    - "Leasehold (租赁产权) - 99-999 years (common for flats)"
+    
+  foreign_ownership:
+    - "No restrictions (anyone can buy)"
+    - "Additional 3% SDLT for non-UK residents (from 2021)"
+    
+  transaction_costs_percent: 4-7
+  breakdown:
+    stamp_duty_land_tax: 2-15  # by property value + buyer status
+    legal_fees: 1-2
+    survey: 0.3-0.5
+    estate_agent: 1-3  # percentage (vendor pays)
+    
+  leasehold_reform: "Leasehold Reform Act 2024 (cheaper extensions, enfranchisement)"
+
+## Financing#
+financing:
+  mortgage_types:
+    - name: "Repayment Mortgage (还本付息)"
+      rate: 4.8-5.2
+      ltv_max: 90-95  # percentage
+      
+    - name: "Interest-Only Mortgage (仅付息)"
+      rate: 4.5-5.0
+      ltv_max: 75  # stricter since 2008
+      
+  deposit_sources:
+    - "Personal savings"
+    - "Help to Buy ISA (government bonus)"
+    - "Gift from family"
+    
+  top_lenders:
+    - "Lloyds Banking Group - 18% market share"
+    - "Nationwide Building Society - 15%"
+    - "NatWest Group - 12%"
+    - "Santander UK - 10%"
+    - "HSBC UK - 9%"
+
+## Investment Market#
+investment:
+  foreign_investment_usd: 68_000_000_000  # $68B (2025)
+  top_investors:
+    - "USA (30%)"
+    - "Germany (12%)"
+    - "France (10%)"
+    - "Singapore (8%)"
+    
+  yield_rates_percent:
+    residential_rental: 3.5-7.2  # by region
+    office: 5.5-8.0
+    retail: 6.0-9.0
+    industrial: 7.0-10.0
+
+## Development & Construction#
+development:
+  top_developers:
+    - "Barratt Developments (largest housebuilder)"
+    - "Persimmon Homes"
+    - "Taylor Wimpey"
+    - "Berkeley Group (London focus)"
+    
+  construction_costs_gbp_sqft:
+    residential_standard: 180
+    residential_luxury: 350
+    office_standard: 250
+    industrial: 120
+    
+  building_codes:
+    - "Building Regulations (Part L - energy efficiency)"
+    - "Fire safety: post-Grenfell reforms (2023+)"
+    - "BREEAM (sustainability certification)"
+
+## PropTech & Digital#
+proptech:
+  market_leaders:
+    - "Rightmove (房产搜索) - 60% market share"
+    - "Zoopla (rightmove's rival) - 25%"
+    - "OnTheMarket - 10%"
+    - "SpareRoom (flat shares) - 5%"
+    
+  digital_trends:
+    - "Virtual tours (standard since 2020)"
+    - "Online conveyancing (simplified)"
+    - "PropTech: 450+ startups (£2B+ funding)"
+    - "Blockchain property records (pilot in 3 cities)"
+
+## Rent Control & Tenant Rights#
+rental_market:
+  rent_control: "Limited (private sector unregulated)"
+  tenant_rights:
+    - "Assured Shorthold Tenancy (AST) - 6+ months"
+    - "Deposit protection: mandatory (3 schemes)"
+    - "Notice period: 2 months (Section 21)"
+    - "Eviction: Section 8 (breach) or Section 21 (no-fault)"
+    
+  rental_yields:
+    london: 3.5  # low yields
+    manchester: 5.8
+    birmingham: 6.2
+    glasgow: 6.5
+    liverpool: 7.2  # highest yields
+
+## Help to Buy & Government Schemes#
+government_schemes:
+  - name: "Help to Buy ISA"
+    benefit: "25% government bonus (max £3K/year)"
+    use: "First-time buyers (save £200-4K/year)"
+    
+  - name: "Lifetime ISA"
+    benefit: "25% bonus (max £1K/year, £4K limit)"
+    use: "First home or retirement (age 60+)"
+    
+  - name: "Shared Ownership (共有产权)"
+    description: "Buy 10-75% share, rent rest"
+    use: "Lower-income buyers, key workers"
+    
+  - name: "Right to Buy (购买权)"
+    description: "Council tenants can buy at discount"
+    use: "Social housing tenants (up to 70% discount)"
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "Property ownership: Freehold (permanent) or Leasehold (99-999 years)"
+  - "SDLT (Stamp Duty): 2-15% (additional 3% for non-UK residents)"
+  - "Mortgage rates: 4.8-5.2% (2026 avg), max 90-95% LTV"
+  - "Rightmove (60%) + Zoopla (25%) dominate listings"
+  - "Rental yields: London 3.5%, Liverpool 7.2% (huge variation)"
+  - "Deposit: 5-10% (first buyers), 10-25% (home movers)"
+  - "Leasehold Reform Act 2024: cheaper extensions, enfranchisement"
+  - "Licensed conveyancers/solicitors MANDATORY for purchases"
+  - "Tenant rights: AST (6+ months), 2-month notice (Section 21)"
+  - "Help to Buy ISA: 25% government bonus (first-time buyers)"
+  - "Building Regs Part L: energy efficiency standards (EPC required)"
+  - "PropTech: 450+ startups, £2B+ funding (2025)"
+  - "Fire safety reforms post-Grenfell (2023+ stricter rules)"

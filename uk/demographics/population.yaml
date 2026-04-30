@@ -1,0 +1,202 @@
+---
+country: "United Kingdom"
+category: "demographics"
+type: "population"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.ons.gov.uk"
+  - "https://www.nomisweb.co.uk"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Demographics - United Kingdom
+
+## Population Overview
+total_population: 67_600_000
+population_2025: 67_800_000
+population_2030_projection: 69_500_000
+population_2050_projection: 72_000_000
+growth_rate_percent: 0.6
+rank_global: 21
+
+## Age Distribution
+age_groups:
+  "0-14":
+    population: 11_800_000
+    percentage: 17.4
+  "15-64":
+    population: 42_700_000
+    percentage: 63.2
+  "65+":
+    population: 13_100_000
+    percentage: 19.4
+    
+median_age: 40.5
+dependency_ratio: 58.2  # dependents per 100 working-age
+
+## Urban vs Rural
+urbanization_rate: 84.2  # percentage
+urban_population: 56_900_000
+rural_population: 10_700_000
+
+urbanization_trend: "Stable, 84-85% (migration to London/South East)"
+
+## Major Cities (Population)
+major_cities:
+  - name: "London (伦敦)"
+    population: 9_600_000
+    type: "Capital, financial hub"
+  - name: "Birmingham (伯明翰)"
+    population: 2_900_000
+    type: "Industrial, cultural hub"
+  - name: "Manchester (曼彻斯特)"
+    population: 2_700_000
+    type: "Northern powerhouse"
+  - name: "Glasgow (格拉斯哥)"
+    population: 1_700_000
+    type: "Scotland's largest city"
+  - name: "Liverpool (利物浦)"
+    population: 1_500_000
+    type: "Port city, cultural hub"
+  - name: "Leeds (利兹)"
+    population: 1_400_000
+    type: "Financial services"
+  - name: "Sheffield (谢菲尔德)"
+    population: 1_200_000
+    type: "Industrial heritage"
+  - name: "Edinburgh (爱丁堡)"
+    population: 900_000
+    type: "Scotland's capital"
+
+## Gender Distribution
+gender_ratio:
+  male: 49.2  # percentage
+  female: 50.8
+  sex_ratio_births: 105  # boys per 100 girls
+
+## Nations & Regions
+constituent_nations:
+  - name: "England (英格兰)"
+    population: 56_500_000
+    percentage: 83.6
+  - name: "Scotland (苏格兰)"
+    population: 5_400_000
+    percentage: 8.0
+  - name: "Wales (威尔士)"
+    population: 3_100_000
+    percentage: 4.6
+  - name: "Northern Ireland (北爱尔兰)"
+    population: 1_900_000
+    percentage: 2.8
+
+## Languages
+languages:
+  official: "English (English)"
+  regional:
+    - "Scots (1.5M speakers, Scotland)"
+    - "Welsh (Wales - 900K speakers, 20% of Wales)"
+    - "Scottish Gaelic (Scotland - 60K speakers)"
+    - "Irish (Northern Ireland - 50K speakers)"
+    - "Cornish (Cornwall - 2K speakers, revived)"
+  
+welsh_speakers:
+  fluent: 900_000
+  can_speak_some: 300_000
+  note: "Welsh-medium education available in Wales"
+
+## Education
+education_levels:
+  literacy_rate: 99  # (age 15+)
+  degree_or_above: 12_400_000  # 25.3% of adults
+  higher_education: 8_200_000  # 16.7%
+  a_levels: 10_500_000  # 21.4%
+  gcse_or_equivalent: 15_800_000  # 32.2%
+  no_qualifications: 6_200_000  # 12.6%
+
+## Income & Wealth
+gdp_per_capita_usd: 53_000
+median_household_income_gbp: 32_300  # per year
+gini_coefficient: 0.374  # moderate inequality)
+
+income_distribution:
+  high_income: 20  # percentage (top 20% earn >£100K/year)
+  middle_income: 55  # percentage (£30K-100K/year)
+  low_income: 25  # percentage (<£30K/year)
+
+## Digital Demographics
+internet_users: 65_000_000
+internet_penetration: 96
+mobile_users: 71_000_000  # 105% (multi-SIM)
+social_media_users: 62_000_000
+
+top_social_platforms:
+  - "WhatsApp: 55M users (DOMINANT)"
+  - "Facebook: 45M users"
+  - "Instagram: 38M users"
+  - "TikTok: 20M users"
+  - "LinkedIn: 30M users"
+  - "X (Twitter): 18M users"
+
+## Ethnicity (2021 Census)
+ethnicity:
+  white:
+    population: 48_200_000
+    percentage: 81.0
+    breakdown:
+      english_welsh_scottish_n_irish_british: 74.4
+      other_white: 6.6
+  asian_asian_british:
+    population: 5_400_000
+    percentage: 9.1
+    breakdown:
+      indian: 3.1
+      pakistani: 2.1
+      bangladeshi: 0.9
+      chinese: 0.7
+      other_asian: 2.3
+  black_african_caribbean_black_british:
+    population: 2_600_000
+    percentage: 4.4
+  mixed_multiple_ethnic_groups:
+    population: 1_800_000
+    percentage: 3.0
+  other_ethnic_group:
+    population: 1_400_000
+    percentage: 2.4
+
+## Religion (2021 Census)
+religion:
+  christian: 46.2  # percentage (significant decline from 59.3% in 2011)
+  no_religion: 37.2  # growing rapidly
+  islam: 6.5
+  hinduism: 1.7
+  sikhism: 0.9
+  judaism: 0.5
+  buddhism: 0.5
+  other: 0.6
+  not_stated: 6.0
+
+## Migration
+migration:
+  net_migration_2025: 740_000  # record high
+  eu_migration_post_brexit: "Reduced significantly (2020+)"
+  main_origins: "India, Pakistan, Nigeria, China, Philippines"
+  remittances: "$25B sent abroad (2025)"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "Population: 67.6M, 21st largest globally"
+  - "English is official language, Welsh official in Wales (900K speakers)"
+  - "WhatsApp 55M users - CRITICAL for customer engagement"
+  - "Urbanization: 84.2%, stable (London dominates)"
+  - "Internet users: 65M (96% penetration), mobile 105%"
+  - "Median age: 40.5 (aging population, 19.4% over 65)"
+  - "Income: median £32.3K, 25% low-income, 20% high-income"
+  - "London: 9.6M people (financial hub, 14% of UK population)"
+  - "Brexit: reduced EU migration (2020+), increased from India/Commonwealth"
+  - "Ethnicity: 81% White, 9.1% Asian, 4.4% Black"
+  - "Religion: 46.2% Christian (declining), 37.2% no religion (growing)"
+  - "Education: 25.3% degree or above, 12.6% no qualifications"
+  - "Net migration: 740K (2025 record high, policy debate)"
+  - "Digital: LinkedIn 30M (professional), TikTok 20M (Gen Z)"

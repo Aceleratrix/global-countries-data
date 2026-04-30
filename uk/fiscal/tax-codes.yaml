@@ -1,0 +1,174 @@
+---
+country: "United Kingdom"
+category: "fiscal"
+type: "tax_codes"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.gov.uk/government/organisations/hm-revenue-customs"
+  - "https://www.gov.uk/topic/business-tax"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Tax Codes & Fiscal Information - United Kingdom
+
+## Tax Authority
+authority: "HM Revenue & Customs (HMRC - 陛下税务海关总署)"
+website: "https://www.gov.uk/government/organisations/hm-revenue-customs"
+local_offices: "Regional offices + online services dominate"
+
+## Corporate Tax
+corporate_tax:
+  main_rate: 25  # percentage (from April 2026)
+  small_profits_rate: 19  # for profits <£50K
+  rate_change: "Increased from 19% (2008-2023) to 25% (April 2023)"
+  
+  profit_thresholds:
+    lower_limit: 0  # start of corporation tax
+    small_profit_limit: 50_000  # 19% rate applies
+    upper_limit: 250_000  # marginal relief applies
+    main_rate_applies: 250_000  # 25% rate from here
+    
+  marginal_relief: "For profits £50K-£250K (gradual increase from 19% to 25%)"
+
+## Value Added Tax (VAT)
+vat:
+  standard_rate: 20  # percentage (most goods and services)
+  reduced_rates:
+    - rate: 5
+      applies_to: "Domestic fuel, energy-saving materials, children's car seats"
+    - rate: 0
+      applies_to: "Food (most), books, newspapers, children's clothing"
+    - rate: 0
+      applies_to: "Exports, intra-EU supplies (zero-rated)"
+    
+  registration_threshold: 85_000  # £85K annual turnover (mandatory)
+  voluntary_registration: "Below threshold (reclaims input VAT)"
+  
+  making_tax_digital: "MANDATORY for VAT (quarterly digital submissions)"
+  penalies: "Up to 100% of tax due + surcharges"
+
+## Income Tax (Individuals)
+individual_income_tax:
+  personal_allowance: 12_570  # tax-free amount (2026-27)
+  
+  tax_brackets:
+    - range: "£0 - £12,570"
+      rate: 0
+      band: "Personal Allowance"
+    - range: "£12,571 - £50,270"
+      rate: 20
+      band: "Basic Rate"
+    - range: "£50,271 - £125,140"
+      rate: 40
+      band: "Higher Rate"
+    - range: "£125,141+"
+      rate: 45
+      band: "Additional Rate"
+      
+  scotland_different: "Scottish Income Tax has different bands (10%, 20%, 21%, 42%, 47%)"
+  
+  dividend_income:
+    - range: "£0 - £500"
+      rate: 0
+    - range: "£501 - £37,700"
+      rate: 8.75
+    - range: "£37,701 - £125,140"
+      rate: 19.25
+    - range: "£125,141+"
+      rate: 19.25
+
+## National Insurance (NI)
+national_insurance:
+  employee_rates:
+    primary_threshold: 12_570  # per year
+    rate_8-50k: 8  # 8% on £12,570-£50,270
+    rate_over_50k: 2  # 2% on £50,270+
+    
+  employer_rates:
+    secondary_threshold: 9_100  # per year
+    rate: 15.05  # percentage (from April 2024)
+    
+  self_employed:
+    flat_rate: 3.15  # Class 2 (if profits >£12,570)
+    class_4: "6-12% (based on profit level)"
+
+## Digital Services Tax (DST)
+digital_services_tax:
+  rate: 2  # percentage
+  threshold: "Global revenue >£500M AND UK revenue >£25M"
+  effective: "April 2020"
+  applies_to: "Search engines, social media platforms, online marketplaces"
+  revenue_recognized: "£600M+ (2025, from Google, Meta, Amazon, etc.)"
+
+## Making Tax Digital (MTD)
+making_tax_digital:
+  requirement: "MANDATORY for VAT-registered businesses (since 2019)"
+  income_tax: "Phased rollout from April 2026 (MTD for Income Tax)"
+  corporation_tax: "Planned for future (timeline TBC)"
+  
+  software_requirements:
+    - "Digital record-keeping"
+    - "Quarterly updates via compatible software"
+    - "End-of-year declaration"
+
+## Business Rates (Property Tax)
+business_rates:
+  description: "Tax on non-domestic properties (similar to council tax for businesses)"
+  small_business_rate_relief: "Up to 100% relief for properties with RV <£15K"
+  annual_bill: "Based on Rateable Value (RV) × Multiplier (poundage)"
+  
+  multiplier_2026_27: 0.512  # for properties with RV >£51K
+  small_business_multiplier: 0.499  # for properties with RV ≤£51K
+
+## Tax Filing & Payment
+filing_frequency:
+  corporation_tax: "Annual (12 months after accounting period ends)"
+  vat: "Quarterly (Making Tax Digital - digital submission)"
+  income_tax: "Annual (Self Assessment - by 31 January)"
+  paye: "Monthly/quarterly (for employers)"
+  
+payment_methods:
+  - "Online banking (faster payments, BACS, CHAPS)"
+  - "Direct Debit (most common)"
+  - "Corporate credit card"
+  - "At post office (cash/cheque, limited use)"
+
+## Unique Taxpayer Reference (UTR)
+utr:
+  description: "10-digit unique identifier for tax purposes"
+  format: "12345 67890"
+  use: "All tax returns, correspondence with HMRC"
+  penalty: "Failure to quote on returns = £100 penalty"
+
+## Tax Incentives
+incentives:
+  research_development_rd_tax_credit:
+    sme_rate: 18.6  # percentage of qualifying costs (credit rate)
+    large_company_rate: 13.0  # percentage (RDEC - Research & Development Expenditure Credit)
+    cap: "£500K cap on SME payable credit (from April 2023)"
+    
+  annual_investment_allowance:
+    limit: 1_000_000  # £1M per year (100% first-year allowance)
+    use: "Plant & machinery, integral features"
+    
+  creative_industries:
+    - "Film Tax Relief (up to 25% of qualifying expenditure)"
+    - "Video Games Tax Relief (up to 25%)"
+    - "Animation Tax Relief (up to 25%)"
+    - "High-end TV Production Relief (up to 25%)"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "Corporation Tax: 25% (main rate), 19% (small profits <£50K)"
+  - "VAT: 20% standard rate, £85K registration threshold"
+  - "MTD (Making Tax Digital) MANDATORY for VAT (digital submissions)"
+  - "Income Tax: 0-45% progressive (personal allowance £12,570)"
+  - "National Insurance: 8-15.05% (employer) + 8-2% (employee)"
+  - "DST: 2% on tech giants (£500M global, £25M UK revenue)"
+  - "UTR (10-digit) MANDATORY for all tax filings"
+  - "Business Rates: property tax (small business relief available)"
+  - "R&D Tax Credits: 18.6% (SMEs), 13% (large companies)"
+  - "Self Assessment deadline: 31 January (online), 31 October (paper)"
+  - "Corporation Tax filing: 12 months after year-end"
+  - "Making Tax Digital expanding to Income Tax (April 2026+)"

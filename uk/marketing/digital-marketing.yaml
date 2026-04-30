@@ -1,0 +1,230 @@
+---
+country: "United Kingdom"
+category: "marketing"
+type: "digital_marketing"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.ofcom.org.uk"
+  - "https://www.advertisingstandards.org.uk"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Digital Marketing Landscape - United Kingdom#
+
+## Market Overview#
+population_online: 65_000_000  # 96% internet penetration
+smartphone_penetration: 105  # percentage (71M subscriptions)
+social_media_users: 62_000_000
+ecommerce_penetration: 88  # percentage of internet users
+
+## Top Social Media Platforms#
+platforms:
+  - name: "WhatsApp"
+    users: 55_000_000
+    business_relevance: "CRITICAL - customer support, groups"
+    
+  - name: "Facebook"
+    users: 45_000_000
+    business_relevance: "HIGH - ads, marketplace, groups"
+    
+  - name: "Instagram"
+    users: 38_000_000
+    business_relevance: "HIGH - fashion, lifestyle, Reels ads"
+    
+  - name: "TikTok"
+    users: 20_000_000
+    business_relevance: "HIGH for Gen Z, creative ads"
+    
+  - name: "LinkedIn"
+    users: 30_000_000
+    business_relevance: "HIGH for B2B, recruiting"
+    
+  - name: "X (Twitter)"
+    users: 18_000_000
+    business_relevance: "MEDIUM - news, politics, tech"
+
+## Digital Advertising#
+advertising_spend_gbp: 35_000_000_000  # ~$44B USD
+spend_by_channel:
+  search: 38  # percentage (Google Ads dominant)
+  social: 32
+  display: 18
+  video: 12
+
+## Top Ad Networks & Platforms#
+ad_platforms:
+  - "Google Ads (Google UK) - 65% digital ad market"
+  - "Meta Ads (Facebook, Instagram, WhatsApp) - 25%"
+  - "Amazon Ads - growing fast (e-commerce)"
+  - "TikTok Ads - Gen Z, creative formats"
+  - "LinkedIn Ads - B2B professional"
+  - "Programmatic: DV360, The Trade Desk"
+
+## E-commerce Platforms#
+ecommerce_platforms:
+  - name: "Amazon UK"
+    users: 45_000_000
+    market_share: 32
+    features: "Sponsored products, A+ content"
+    
+  - name: "Tesco"
+    users: 12_000_000
+    market_share: 8
+    features: "Grocery, general merchandise"
+    
+  - name: "Sainsbury's"
+    users: 10_000_000
+    market_share: 7
+    features: "Grocery, Argos integration"
+    
+  - name: "ASOS"
+    users: 8_000_000
+    market_share: 5
+    features: "Fashion, beauty, global shipping"
+    
+  - name: "AO.com"
+    users: 5_000_000
+    market_share: 3
+    features: "Electricals, appliances"
+
+## Influencer Marketing#
+kol_marketing:
+  tiers:
+    - "Mega influencers (1M+ followers): £10K-100K+ per post"
+    - "Macro influencers (100K-1M): £2K-10K per post"
+    - "Micro influencers (10K-100K): £200-2K per post"
+    - "Nano influencers (1K-10K): £50-200 per post"
+    
+  top_platforms:
+    - "Instagram (fashion, beauty, lifestyle)"
+    - "TikTok (Gen Z, creative content)"
+    - "YouTube (long-form, reviews, tutorials)"
+    - "LinkedIn (B2B thought leadership)"
+    
+  costs:
+    mega_campaign: "£50K - £1M+ (multi-platform)"
+    regional_influencers: "£500-5K per post (varies by city)"
+
+## Search Engines#
+search_engines:
+  - name: "Google"
+    market_share: 92
+  - name: "Bing"
+    market_share: 5
+  - name: "DuckDuckGo"
+    market_share: 1.5
+  - name: "Yahoo"
+    market_share: 1
+
+## Email Marketing#
+email_usage:
+  penetration: 85  # percentage
+  popular_providers:
+    - "Gmail (dominant - 70%+ of users)"
+    - "Outlook/Hotmail (legacy)"
+    - "Yahoo Mail (older demographics)"
+  business_use: "Widely used (newsletters, promotions, transactional)"
+
+## Content Marketing#
+content_platforms:
+  - name: "LinkedIn"
+    users: 30_000_000
+    use: "B2B content, thought leadership, company pages"
+    
+  - name: "Medium"
+    users: 8_000_000
+    use: "Long-form articles, tech, business"
+    
+  - name: "YouTube"
+    users: 55_000_000
+    use: "Video content, tutorials, ads"
+    
+  - name: "Substack"
+    users: 3_000_000
+    use: "Newsletters, paid subscriptions, journalism"
+
+## Messaging Apps#
+messaging:
+  - name: "WhatsApp"
+    users: 55_000_000
+    marketing_use: "Customer support, groups, catalogs"
+    
+  - name: "Facebook Messenger"
+    users: 35_000_000
+    marketing_use: "DMs, customer service"
+    
+  - name: "iMessage (iOS)"
+    users: 25_000_000
+    marketing_use: "Limited (iOS-only)"
+    
+  - name: "Telegram"
+    users: 12_000_000
+    marketing_use: "Channels, bots, communities"
+    
+  - name: "Signal"
+    users: 8_000_000
+    marketing_use: "Limited (privacy-focused)"
+
+## Payment Integration in Marketing#
+payment_linked_marketing:
+  faster_payments: "3.2B txns/year, real-time (24/7)"
+  open_banking: "600+ fintechs (Monzo, Starling, Chase UK)"
+  digital_wallets: "Apple Pay, Google Pay, PayPal (widely used)"
+  
+ecommerce_checkout:
+  paypal: "35% of online checkouts"
+  card_payments: "55% (Visa, Mastercard, Amex)"
+  open_banking: "Growing fast (instant bank transfers)"
+
+## Compliance & Regulations#
+content_regulation:
+  authority: "ASA (Advertising Standards Authority)"
+  rules:
+    - "CAP Code (UK Code of Non-broadcast Advertising)"
+    - "No misleading claims, social responsibility"
+    - "Alcohol/tobacco ads restricted"
+    - "Political ads require imprint (who paid)"
+    
+  online_safety_act_2023:
+    - "Duty of care for user-generated content"
+    - "Age verification for pornographic content"
+    - "Rapid takedown of illegal content"
+    
+  penalties:
+    - "ASA adjudications: ad withdrawal, compliance"
+    - "CMA (Competition and Markets Authority): fines up to 10% global turnover"
+    - "OFCOM: up to £18M or 10% turnover (Online Safety Act)"
+
+## Marketing Channels by Business Type#
+b2b_channels:
+  - "LinkedIn (primary - 30M users)"
+  - "Google Ads (lead generation)"
+  - "Industry events (exhibitions, conferences)"
+  - "Email marketing (newsletters)"
+  - "B2B publications, trade media"
+
+b2c_channels:
+  - "WhatsApp (CRITICAL - 55M users, support, groups)"
+  - "Instagram (fashion, lifestyle, Reels ads)"
+  - "TikTok (Gen Z, creative content)"
+  - "Amazon UK (32% e-commerce share)"
+  - "Google Ads (search, shopping)"
+  - "Facebook (older demographics, marketplace)"
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "WhatsApp 55M users - CRITICAL for customer engagement"
+  - "Google Ads dominates (65% digital ad market)"
+  - "Faster Payments: 3.2B txns/year, real-time (24/7)"
+  - "Open Banking: 600+ fintechs (Monzo, Starling, Chase UK)"
+  - "Instagram 38M users (fashion, lifestyle, Reels ads)"
+  - "TikTok 20M users (Gen Z, creative formats)"
+  - "Amazon UK 32% e-commerce market share"
+  - "LinkedIn 30M users (B2B, recruiting, thought leadership)"
+  - "Influencer tiers: Nano (1K) to Mega (1M+) followers"
+  - "Email penetration: 85% (Gmail dominant, 70%+)"
+  - "Telegram 12M users (channels, bots, communities)"
+  - "ASA self-regulation (ad complaints, withdrawal)"
+  - "Online Safety Act 2023: duty of care, age verification"
+  - "Open Banking APIs: MANDATORY (600+ fintechs authorized)"

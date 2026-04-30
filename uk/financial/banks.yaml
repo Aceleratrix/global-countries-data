@@ -1,0 +1,183 @@
+---
+country: "United Kingdom"
+category: "financial"
+type: "banks"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.bankofengland.co.uk"
+  - "https://www.fca.org.uk"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Banks & Payment Systems - United Kingdom
+
+## Central Bank
+central_bank:
+  name: "Bank of England (BoE - 英格兰银行)"
+  website: "https://www.bankofengland.co.uk"
+  role: "Monetary policy, banknote issuance, financial stability"
+  governor: "Andrew Bailey (2020-present)"
+
+## Top Banks (High Street + Digital)
+high_street_banks:  # traditional banks
+  - name: "HSBC UK (汇丰银行)"
+    assets_gbp: 600_000_000_000
+    market_share: 15
+    branches: 325+ (downsizing rapidly)
+    digital: "HSBC UK Mobile (8M+ users)"
+    
+  - name: "Barclays (巴克莱银行)"
+    assets_gbp: 480_000_000_000
+    market_share: 12
+    branches: 200+
+    digital: "Barclays Mobile (7M+ users)"
+    
+  - name: "Lloyds Banking Group (劳埃德银行集团)"
+    assets_gbp: 450_000_000_000
+    market_share: 11
+    brands: "Lloyds Bank, Halifax, Bank of Scotland"
+    digital: "Lloyds Mobile (6M+ users)"
+    
+  - name: "NatWest Group (国民威斯敏斯特银行集团)"
+    assets_gbp: 420_000_000_000
+    market_share: 10.5
+    brands: "NatWest, Royal Bank of Scotland, Ulster Bank"
+    digital: "NatWest Mobile (5M+ users)"
+    
+  - name: "Santander UK (桑坦德银行)"
+    assets_gbp: 280_000_000_000
+    market_share: 7
+    branches: 450+
+    digital: "Santander Mobile (4M+ users)"
+
+digital_only_banks:  # challenger/neobanks
+  - name: "Monzo (【门佐】)"
+    users: 5_000_000
+    valuation: 4_500_000_000  # $4.5B (2024)
+    features: "Fee-free spending abroad, instant notifications"
+    
+  - name: "Starling Bank (【星灵银行】)"
+    users: 4_000_000
+    valuation: 3_000_000_000  # $3B (2024)
+    features: "Business banking, mobile-first"
+    
+  - name: "Chase UK (JP Morgan Chase)"
+    users: 3_000_000
+    launched: 2021
+    features: "Cashback, fee-free spending, 1.5% savings"
+    
+  - name: "Revolut (partial UK banking license)"
+    users: 8_000_000  # UK users
+    global_users: 35_000_000
+    features: "Multi-currency, crypto, trading (app-based)"
+
+## Payment Systems
+payment_systems:
+  faster_payments:
+    launched: 2008
+    volume_annual: 3_200_000_000  # 3.2B transactions
+    value_annual_gbp: 3_800_000_000_000  # £3.8T
+    limit: "£1M per transaction"
+    availability: "24/7/365 (real-time)"
+    use: "Bank transfers, P2P, bill payments (dominant)"
+    
+  bac:  # Bankers' Automated Clearing Services
+    launched: 1968
+    use: "Salaries, direct debits, standing orders"
+    timeline: "3 working days (being replaced by Faster Payments)"
+    
+  chaps:  # Clearing House Automated Payment System
+    launched: 1984
+    limit: "No limit (high-value, same-day)"
+    use: "House purchases, large business payments"
+    
+  bacs:  # same as BACs (variant)
+    use: "Batch processing (payroll, benefits)"
+
+## Digital Wallets & Fintech
+digital_wallets:
+  - name: "PayPal"
+    users: 24_000_000
+    use: "Online purchases, P2P (limited vs US)"
+    
+  - name: "Apple Pay"
+    users: 18_000_000
+    use: "Contactless payments (NFC, in-app)"
+    
+  - name: "Google Pay"
+    users: 12_000_000
+    use: "Contactless payments, online checkout"
+    
+  - name: "Revolut (multi-currency wallet)"
+    users: 8_000_000
+    use: "Travel, currency exchange, crypto"
+
+fintech_unicorns:
+  - "Checkout.com (payment processing - $40B valuation)"
+  - "Revolut (neobank - $33B valuation)"
+  - "TransferWise (now Wise - $11B valuation)"
+  - "Monzo (neobank - $4.5B)"
+  - "Starling Bank (neobank - $3B)"
+
+## Open Banking (PSD2 UK Equivalent)
+open_banking:
+  launched: "2018-01-13 (PSD2 requirement)"
+  providers: "600+ fintechs and banks"
+  services:
+    - "Account Information Services (AIS)"
+    - "Payment Initiation Services (PIS)"
+  users: "6_000_000+ (via apps like Yolt, Moneybox)"
+  api_standards: "OBIE (Open Banking Implementation Entity)"
+  
+  success_story: "Monzo, Starling, Chase UK all use Open Banking APIs"
+
+## Cross-Border Payments
+international_transfers:
+  swift: "Active (all major banks connected)"
+  wise_former_transferwise: "£5B+ transfers/year (low fees, real exchange rate)"
+  reovlut: "£2B+ transfers/year (multi-currency accounts)"
+  western_union: "4,000+ agent locations"
+  
+  brexit_impact:
+    - "Lost access to EU SEPA payments (now more expensive)"
+    - "Euros transfers now use SWIFT or specialist providers (Wise)"
+    - "New UK-EU trade deals affect payment flows"
+
+## Banking Regulations
+regulator: "Financial Conduct Authority (FCA - 金融行为监管局)"
+website: "https://www.fca.org.uk"
+
+key_regulations:
+  - "All banks need FCA authorization + PRA (Prudential Regulation Authority) approval"
+  - "Capital Requirements: CRR (Capital Requirements Regulation) retained post-Brexit"
+  - "Deposit Protection: FSCS (Financial Services Compensation Scheme) - £85K protection"
+  - "Open Banking: MANDATORY under PSD2 (600+ providers authorized)"
+  - "Cryptoassets: FCA registration required (anti-money laundering)"
+
+## Cryptocurrency & Digital Assets
+crypto_assets:
+  regulation: "FCA cryptoasset registration (AML/CTF)"
+  ban: "No ban, but tight restrictions (no advertising without FCA approval)"
+  stablecoins: "Discussions on GBP-backed stablecoins (BoE exploring CBDC)"
+  
+ cbd_c_uk:  # Central Bank Digital Currency
+    status: "Research phase (BoE exploring 'digital pound')"
+    timeline: "Possible launch 2025-2030 (not confirmed)"
+    name: "Digital Pound (nickname: 'Britcoin' - informal)"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "Faster Payments: 3.2B txns/year, £1M limit, 24/7/365 (real-time)"
+  - "Open Banking: 600+ providers (AIS + PIS services since 2018)"
+  - "Monzo (5M), Starling (4M), Chase UK (3M) lead neobanks"
+  - "HSBC (15%), Barclays (12%), Lloyds (11%) are top traditional"
+  - "CHECKOUT.COM ($40B valuation) - UK's biggest fintech unicorn"
+  - "Faster Payments dominates: replaced BACS/CHAPS for most transfers"
+  - "FCA regulates banking + crypto (registration required)"
+  - "Deposit protection: FSCS £85K per person per bank"
+  - "Brexit: lost SEPA access, Euro transfers now costlier"
+  - "Wise (ex-TransferWise): £5B+/year transfers (low-cost international)"
+  - "Digital Pound (CBDC) in research phase (BoE exploring 2025-2030)"
+  - "Corporate banking: Open Banking APIs mandatory (600+ providers)"
+  - "Crypto advertising: FCA approval required (strict rules since 2023)"

@@ -1,0 +1,166 @@
+---
+country: "United Kingdom"
+category: "legal"
+type: "internet_law"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://ico.org.uk"
+  - "https://www.gov.uk"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Internet & Data Protection Laws - United Kingdom
+
+## Legal Framework Overview
+data_protection_law: "UK GDPR + Data Protection Act 2018"
+cybersecurity_law: "Network and Information Systems (NIS) Regulations 2018"
+ai_regulation: "AI Safety Act (draft 2023, expected 2026)"
+ecommerce_law: "Consumer Rights Act 2015, Digital Markets Act 2024"
+brexit_changes: "Left EU Single Market (2020), UK GDPR replaces EU GDPR"
+
+## UK GDPR (Post-Brexit)
+effective_date: "2020-12-31 (post-Brexit transition)"
+scope: "Processing personal data in UK or by UK organizations"
+
+key_requirements:
+  - "Lawful basis for processing (6 lawful bases under Art. 6)"
+  - "Consent must be freely given, specific, informed, unambiguous"
+  - "Data subject rights: access, rectification, erasure, portability"
+  - "Data Protection Officer (DPO) required for public authorities + certain processing"
+  - "Data Protection Impact Assessments (DPIAs) for high-risk processing"
+  - "Breach notification to ICO within 72 hours"
+
+penalties:
+  standard: "Up to £8.7M or 2% of global turnover"
+  more_serious: "Up to £17.5M or 4% of global turnover"
+  note: "Same as EU GDPR maximums"
+
+## Data Protection Act 2018
+effective_date: "2018-05-25 (replaced DPA 1998)"
+scope: "Complements UK GDPR, covers law enforcement processing"
+
+key_provisions:
+  - "Law enforcement processing (Part 3)"
+  - "Intelligence services processing (Part 4)"
+  - "Iransfers: adequacy decisions, standard contractual clauses"
+  - "Data Protection Officer: same as UK GDPR"
+  - "Age appropriate design code (Children's code) - 2021"
+
+penalties:
+  non_compliance: "Up to £8.7M or 2% turnover"
+  serious_breach: "Up to £17.5M or 4% turnover"
+
+## NIS Regulations 2018
+effective_date: "2018-05-10"
+scope: "Essential services (energy, transport, banking, health, water, digital infrastructure)"
+
+key_requirements:
+  - "Security measures proportional to risk"
+  - "Incident reporting to NCA (National Cyber Security Centre)"
+  - "Supply chain security obligations"
+  - "Regular security assessments"
+
+penalties:
+  breach: "Up to £17M or 4% of turnover"
+
+## AI Safety Act (Draft 2023)
+status: "Draft for consultation (expected finalization 2026)"
+approach: "Risk-based, innovation-friendly (compared to EU AI Act)"
+
+risk_categories:
+  unacceptable_risk: "Banned (manipulative techniques, social scoring, real-time remote biometric ID)"
+  high_risk: "Regulated (biometric ID, critical infrastructure, law enforcement)"
+  limited_risk: "Transparency obligations (chatbots, emotion recognition)"
+  minimal_risk: "No obligations (most AI systems)"
+
+key_requirements:
+  - "AI safety testing and evaluation"
+  - "Transparency and explainability"
+  - "Human oversight for high-risk systems"
+  - "AI Safety Summit legacy (Bletchley Park 2023, Seoul 2024)"
+
+## Digital Markets Act 2024
+effective_date: "2024-05-01"
+scope: "Large digital platforms with strategic market status"
+
+key_requirements:
+  - "Interoperability obligations"
+  - "Transparency in algorithms and ranking"
+  - "Fair dealing with business users"
+  - "Data access for competition authorities"
+
+penalties:
+  non_compliance: "Up to 10% of global turnover"
+
+## Online Safety Act 2023
+effective_date: "2023-10-26 (phased implementation)"
+scope: "User-generated content platforms, search engines"
+
+key_requirements:
+  - "Duty of care to protect users from harmful content"
+  - "Age verification for pornographic content"
+  - "Rapid takedown of illegal content (terrorism, CSEA)"
+  - "Transparency reporting to OFCOM"
+
+penalties:
+  non_compliance: "Up to £18M or 10% of global turnover (whichever higher)"
+
+## Open Banking & PSD2 UK
+open_banking:
+  launched: "2018-01-13"
+  framework: "PSD2 equivalent (UK retained EU law)"
+  providers: "600+ fintechs (Monzo, Starling, etc.)"
+  services: "Account information, payment initiation"
+  
+faster_payments:
+  launched: "2008"
+  volume: "3.2B transactions/year"
+  limit: "£1M per transaction"
+  availability: "24/7/365 (real-time)"
+
+## Brexit Impact on Data Flows
+eu_adequacy_decision: "Yes (valid until 2025-06-27, renewable)"
+transfers_to_eu: "Adequacy decision covers most transfers"
+transfers_from_eu: "UK adequacy decision allows EU→UK flows"
+
+transfer_mechanisms:
+  - "Adequacy decisions (EU→UK, UK→EU)"
+  - "Standard Contractual Clauses (SCCs - UK version)"
+  - "Binding Corporate Rules (BCRs)"
+  - "Derogations for specific situations"
+
+## Enforcement Agencies
+agencies:
+  - name: "ICO (Information Commissioner's Office)"
+    role: "UK GDPR, DPA 2018, PECR enforcement"
+    powers: "Fines up to £17.5M or 4% turnover"
+    
+  - name: "OFCOM"
+    role: "Online Safety Act enforcement, media regulation"
+    powers: "Fines up to £18M or 10% turnover"
+    
+  - name: "FCA (Financial Conduct Authority)"
+    role: "Open Banking, financial services regulation"
+    
+  - name: "NCSC (National Cyber Security Centre)"
+    role: "NIS Regulations, cyber incident response"
+    
+  - name: "DSIT (Dept for Science, Innovation & Tech)"
+    role: "AI policy, Digital Markets Act, tech regulation"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "UK GDPR (post-Brexit) is PRIMARY law - similar to EU GDPR"
+  - "ICO is the data protection regulator (ico.org.uk)"
+  - "Faster Payments: 3.2B txns/year, £1M limit, 24/7/365"
+  - "Open Banking: 600+ fintechs (Monzo, Starling, Chase UK)"
+  - "AI Safety Act: risk-based, innovation-friendly (expected 2026)"
+  - "Online Safety Act 2023: duty of care for harmful content"
+  - "Brexit: left EU Single Market (2020), UKCA marking replaces CE"
+  - "EU adequacy decision valid until June 2025 (renewable)"
+  - "Data transfers: adequacy, SCCs (UK version), BCRs"
+  - "Corporate Tax increased to 25% (April 2023, was 19%)"
+  - "VAT: 20% standard, £85K registration threshold"
+  - "FCA regulates Open Banking (600+ fintechs authorized)"
+  - "AI Safety Summit legacy: Bletchley Park 2023, Seoul 2024"

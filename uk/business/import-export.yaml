@@ -1,0 +1,219 @@
+---
+country: "United Kingdom"
+category: "business"
+type: "import_export"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.gov.uk/government/organisations/department-for-business-and-trade"
+  - "https://www.uktradeinfo.com"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Import/Export Regulations - United Kingdom#
+
+## Trade Overview#
+wto_member: true
+eu_member: false  # LEFT EU (2020-12-31)
+usmca_member: false
+currency: "GBP (British Pound Sterling) - £"
+top_trading_partners:
+  - "European Union (EU27)"
+  - "USA"
+  - "China"
+  - "Germany"
+  - "Netherlands"
+  - "France"
+
+## Export Data#
+export_value_gbp_2025: 850_000_000_000  # £850 billion
+top_export_products:
+  - product: "Financial services"
+    value_gbp: 115_000_000_000
+    share_percent: 13.5
+  - product: "Motor vehicles & parts"
+    value_gbp: 68_000_000_000
+    share_percent: 8.0
+  - product: "Pharmaceuticals"
+    value_gbp: 52_000_000_000
+    share_percent: 6.1
+  - product: "Crude oil (North Sea)"
+    value_gbp: 48_000_000_000
+    share_percent: 5.6
+  - product: "Aerospace products"
+    value_gbp: 42_000_000_000
+    share_percent: 4.9
+  - product: "Whisky & spirits"
+    value_gbp: 38_000_000_000
+    share_percent: 4.5
+
+## Import Data#
+import_value_gbp_2025: 920_000_000_000  # £920 billion
+top_import_products:
+  - product: "Motor vehicles"
+    value_gbp: 62_000_000_000
+    share_percent: 6.7
+  - product: "Machinery"
+    value_gbp: 58_000_000_000
+    share_percent: 6.3
+  - product: "Pharmaceuticals"
+    value_gbp: 45_000_000_000
+    share_percent: 4.9
+  - product: "Crude oil"
+    value_gbp: 42_000_000_000
+    share_percent: 4.6
+  - product: "Electronics & computers"
+    value_gbp: 38_000_000_000
+    share_percent: 4.1
+
+## Post-Brexit Trade Framework#
+brexit_trade:
+  eu_trade: "Trade and Cooperation Agreement (TCA) - zero tariffs/quotas"
+  eu_rules: "Rules of Origin (ROO) - 50-60% UK content required"
+  customs_border: "Full customs controls (from 2021-01-01)"
+  
+  eu_uk_trade_2025:
+    exports_to_eu: 280_000_000_000  # £280B (down vs pre-Brexit)
+    imports_from_eu: 320_000_000_000  # £320B
+    effect: "Increased paperwork, delays, costs"
+
+## Customs & Tariffs#
+customs_authority: "HM Revenue & Customs (HMRC)"
+website: "https://www.gov.uk/government/organisations/hm-revenue-customs"
+
+tariff_structure:
+  post_brexit_uk_gp: "UK Global Tariff (UKGT) - from 2021-01-01"
+  average_tariff_percent: 5.5
+  
+  categories:
+    - "Most goods: 0-10% (industrial, consumer goods)"
+    - "Agricultural: 0-50% (protected sectors)"
+    - "Textiles: 0-12%"
+    - "Vehicles: 10% (EU imports now subject)"
+
+## New Free Trade Agreements (Post-Brexit)#
+ftas:
+  - name: "UK-EU Trade and Cooperation Agreement (TCA)"
+    effective: "2021-01-01"
+    benefits: "Zero tariffs/quotas (with Rules of Origin)"
+    
+  - name: "UK-Australia FTA"
+    effective: "2023-05-31"
+    benefits: "Phased tariff elimination (5-15 years)"
+    
+  - name: "UK-New Zealand FTA"
+    effective: "2023-05-31"
+    benefits: "Phased tariff elimination"
+    
+  - name: "CPTPP (Comprehensive Progressive Trans-Pacific Partnership)"
+    joined: "2023-07-16"
+    members: "Japan, Canada, Australia, Mexico, etc. (11 countries)"
+    benefits: "Market access across Pacific Rim"
+    
+  - name: "UK-Singapore Digital Economy Agreement (DEA)"
+    effective: "2022-06-14"
+    benefits: "Digital trade facilitation"
+
+## Import Requirements#
+import_licensing:
+  general_rule: "No license for most goods (open trade regime)"
+  restricted_goods:
+    - "Firearms & ammunition"
+    - "Narcotics & controlled drugs"
+    - "Certain chemicals (dual-use)"
+    - "Endangered species (CITES)"
+    - "Food & agricultural products (health certificates)"
+
+## Documentation#
+required_documents:
+  - "Customs Declaration (CDS - Customs Declaration Service)"
+  - "Commercial Invoice"
+  - "Packing List"
+  - "Bill of Lading / Air Waybill"
+  - "Certificate of Origin (for FTA benefits)"
+  - "EORI Number (Economic Operator Registration & Identification)"
+  - "SPS Certificate (for food/plants/animals)"
+
+## EORI Number#
+eori:
+  description: "12-character identifier (GB + 9 digits + suffix)"
+  format: "GB123456789000"
+  use: "All customs declarations (MANDATORY since Brexit)"
+  application: "Online via HMRC (gov.uk)"
+  timeline: "3-5 working days"
+
+## Export Controls#
+export_controls:
+  authority: "Department for Business and Trade (DBT)"
+  controlled_items:
+    - "Dual-use items (military + civilian)"
+    - "Military equipment (Strategic Export Control Lists)"
+    - "Torture goods (restricted)"
+    - "Cultural goods (over 50 years old)"
+    
+  export_licenses:
+    - "Standard Individual Export Licence (SIEL)"
+    - "Open General Export Licence (OGEL) - for low-risk"
+    - "Open Individual Export Licence (OIEL)"
+
+## Special Economic Zones#
+sezs:
+  - name: "No traditional SEZs (unlike Asia)"
+  - name: "Freeports (自由港) - NEW (2022+)"
+    count: 8
+    locations: "East Midlands, Felixstowe, Thames, etc."
+    benefits: "Customs benefits, tax reliefs, simplified planning"
+    use: "Manufacturing, logistics, innovation"
+
+## Incoterms#
+common_incoterms:
+  - "FOB (Free on Board) - common for sea freight"
+  - "CIF (Cost, Insurance, Freight)"
+  - "EXW (Ex Works)"
+  - "DDP (Delivered Duty Paid) - e-commerce"
+  - "FCA (Free Carrier)"
+
+## Customs Procedures#
+procedures:
+  - "CDS (Customs Declaration Service) - online system"
+  - "Simplified Procedures (authorized traders)"
+  - "Transit (T1/T2 documents for EU movements)"
+  
+timeline:
+  air_freight: "1-2 days (after documentation)"
+  sea_freight: "2-5 days (after vessel arrival)"
+
+## Major Ports & Logistics Hubs#
+major_ports:
+  - name: "Port of Felixstowe"
+    type: "Sea port"
+    throughput_teu: 4_200_000
+  - name: "Port of Southampton"
+    type: "Sea port"
+    throughput_teu: 2_100_000
+  - name: "Port of London"
+    type: "Sea port"
+    throughput_teu: 1_800_000
+  - name: "Heathrow Airport"
+    type: "Air cargo"
+    throughput_tons: 1_500_000
+  - name: "Manchester Airport"
+    type: "Air cargo"
+    throughput_tons: 120_000
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "EORI (12-char GB + 9 digits) MANDATORY for ALL customs (post-Brexit)"
+  - "HMRC is customs authority (gov.uk/government/organisations/hm-revenue-customs)"
+  - "Average tariff: 5.5% (UK Global Tariff, post-Brexit)"
+  - "UK exports £850B (2025), imports £920B - trade deficit"
+  - "Top exports: financial services (13.5%), autos (8%), pharma (6.1%)"
+  - "Top imports: autos (6.7%), machinery (6.3%), pharma (4.9%)"
+  - "CDS (Customs Declaration Service) - online filing system"
+  - "Freeports: 8 zones (2022+), customs benefits + tax reliefs"
+  - "EU trade: TCA agreement (zero tariffs WITH Rules of Origin)"
+  - "CPTPP member (2023) - 11 Pacific Rim countries"
+  - "Export licenses: SIEL, OGEL, OIEL (dual-use, military)"
+  - "Major ports: Felixstowe (4.2M TEU), Southampton (2.1M TEU)"
+  - "Brexit effect: increased paperwork, delays, costs vs pre-2020"
+  - "UK-Australia/NZ FTAs (2023) - phased tariff elimination"

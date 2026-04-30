@@ -1,0 +1,151 @@
+---
+country: "United Kingdom"
+category: "telecom"
+type: "phone_formats"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.ofcom.org.uk"
+  - "https://www.bt.com"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Phone & Telecom Formats - United Kingdom
+
+## Country Code
+country_calling_code: "+44"
+international_prefix: "00"
+trunk_prefix: "0"
+e164_format: true
+
+## Mobile Phone Format
+mobile_format:
+  pattern: "+44 7XXX XXX XXX"
+  length: 10  # digits (after removing leading 0)
+  example: "+44 7700 900123"
+  regex: "^(\\+44)?7\\d{9}$"
+  
+mobile_prefixes:
+  - prefix: "07XXX"
+    operators: ["EE", "O2", "Vodafone", "Three", "Tesco Mobile", "Giffgaff"]
+    note: "All UK mobile numbers start with 07XXX"
+
+## Landline Format
+landline_format:
+  pattern: "+44 (area code) XXX XXXX"
+  area_code_length: 2-5  # varies by region
+  local_number_length: 4-8
+  example: "+44 20 7946 0123"  # London
+  regex: "^(\\+44)?(1\\d{8,9}|2\\d{8,9})$"
+  
+major_city_codes:
+  london: "20"
+  birmingham: "121"
+  manchester: "161"
+  glasgow: "141"
+  liverpool: "151"
+  edinburgh: "131"
+  cardiff: "29"
+  belfast: "28"
+
+## Toll-Free Numbers
+toll_free:
+  prefixes: ["0800", "0808"]
+  format: "+44 800 XXX XXXX"
+  note: "Free to caller from all UK landlines and mobiles"
+  availability: "Available to businesses via telecom operators"
+
+## Special Service Numbers
+emergency:
+  police: "999"
+  ambulance: "999"
+  fire: "999"
+  coastguard: "999"
+  non_emergency_police: "101"
+  non_emergency_crimestoppers: "0800 555 111"
+
+## Telecom Operators
+mobile_operators:
+  - name: "EE (Everything Everywhere - BT Group)"
+    market_share: 32
+    users: 22_000_000
+    note: "Largest network, BT-owned"
+    
+  - name: "O2 (Telefónica UK)"
+    market_share: 26
+    users: 18_000_000
+    note: "Virgin Media O2 merger (2021)"
+    
+  - name: "Vodafone UK"
+    market_share: 18
+    users: 12_000_000
+    note: "Sold to CK Hutchison (Three) pending approval"
+    
+  - name: "Three UK"
+    market_share: 12
+    users: 8_000_000
+    note: "3G/4G/5G focus, data-centric"
+    
+  - name: "MVNOs (Tesco Mobile, Giffgaff, etc.)"
+    market_share: 12
+    users: 8_000_000
+    note: "Mobile Virtual Network Operators"
+
+## Internet & Connectivity
+internet_penetration: 96  # percentage
+internet_users: 65_000_000
+mobile_penetration: 105  # percentage
+broadband_speed_avg_mbps: 85
+
+## 5G Coverage
+five_g:
+  launched: "2019-05 (EE first)"
+  coverage: "85% of population"
+  operators: "EE (fastest), O2, Vodafone, Three"
+  speed_avg_mbps: 200
+  users: 25_000_000  # growing fast
+
+## VoIP & Instant Messaging
+voip_services:
+  - "WhatsApp (55M users)"
+  - "Skype (18M users)"
+  - "Zoom (business)"
+  - "Microsoft Teams (enterprise)"
+  - "FaceTime (iOS users)"
+  
+instant_messaging:
+  - "WhatsApp: 55M users (DOMINANT)"
+  - "Facebook Messenger: 35M users"
+  - "Instagram DM: 30M users"
+  - "Telegram: 12M users"
+  - "Signal: 8M users"
+
+## Phone Number Portability
+number_portability:
+  available: true
+  introduced: "1999 (mobile), 2003 (landline)"
+  process: "Via operator (PAC code)"
+  timeline: "1 working day"
+  fee: "Free (since 2019)"
+
+## Virtual Phone Numbers
+virtual_numbers:
+  availability: "Available via Twilio, MessageBird, etc."
+  use_cases: "Business SMS, customer support, OTP"
+  regulatory: "Ofcom oversight, GDPR compliance"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "Mobile numbers: ALWAYS 10 digits starting with 07XXX (after 0)"
+  - "Landlines: area codes 2-5 digits (London 20, Birmingham 121)"
+  - "WhatsApp has 55M users - CRITICAL for business"
+  - "EE leads (32% share, 22M users), O2 2nd (26%, 18M)"
+  - "Emergency: 999 (police/fire/ambulance all same)"
+  - "5G launched May 2019, 85% population coverage"
+  - "Number portability: 1 day, FREE (since 2019)"
+  - "Non-emergency police: 101 (non-urgent crimes)"
+  - "Area codes: London 20, Manchester 161, Glasgow 141"
+  - "Ofcom (Office of Communications) regulates telecom"
+  - "MVNOs: Tesco Mobile, Giffgaff popular (12% share)"
+  - "Broadband avg: 85 Mbps, growing to 150+ Mbps (FTTC/FTTH)"
+  - "iMessage/FaceTime: iOS default (significant user base)"

@@ -1,0 +1,189 @@
+---
+country: "United Kingdom"
+category: "business"
+type: "company_sizes"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.gov.uk/government/organisations/companies-house"
+  - "https://www.fsb.org.uk"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Company Sizes & Types - United Kingdom#
+
+## Company Size Classifications#
+classification_standard: "Companies House + FSB (Federation of Small Businesses)"
+
+### Small and Medium Enterprises (SMEs)#
+sme_definition:
+  - category: "Micro Enterprise"
+    employees: "0-9"
+    turnover_gbp: "< £2M"
+    balance_sheet_total: "< £2M"
+    count: 5_600_000
+    share_percent: 96.0
+    
+  - category: "Small Enterprise"
+    employees: "10-49"
+    turnover_gbp: "£2M - £10M"
+    balance_sheet_total: "£2M - £10M"
+    count: 210_000
+    share_percent: 3.6
+    
+  - category: "Medium Enterprise"
+    employees: "50-249"
+    turnover_gbp: "£10M - £50M"
+    balance_sheet_total: "£10M - £43M"
+    count: 24_000
+    share_percent: 0.4
+
+### Large Enterprises#
+large_enterprises:
+  employees: "250+"
+  turnover_gbp: "> £50M"
+  balance_sheet_total: "> £43M"
+  count: 7_000
+  share_percent: 0.1
+
+total_smes: 5_834_000
+employment_sme: 16_800_000  # 61% of total private sector employment
+
+## Company Types (Legal Forms)#
+company_types:
+  - name: "Private Limited Company (Ltd - 私人有限公司)"
+    min_directors: 1
+    max_shareholders: "Unlimited (but usually <50 for SMEs)"
+    min_capital: "£1 (nominal value)"
+    use_case: "Most common for SMEs, startups"
+    count: 4_800_000
+    
+  - name: "Public Limited Company (PLC - 公共有限公司)"
+    min_directors: 2
+    min_shareholders: 2
+    min_capital: "£50,000 (at least 25% paid up)"
+    use_case: "Listed companies, IPO-ready"
+    count: 7_500
+    
+  - name: "Limited Liability Partnership (LLP)"
+    min_partners: 2
+    features: "Limited liability, flexible profit sharing"
+    use_case: "Professional services (law, accounting, consulting)"
+    count: 45_000
+    
+  - name: "Sole Trader (个体经营者)"
+    features: "Single owner, unlimited liability"
+    registration: "With HMRC (not Companies House)"
+    use_case: "Freelancers, small shops, consultants"
+    count: 3_500_000  # not all registered
+    
+  - name: "Partnership (普通合伙)"
+    min_partners: 2
+    max_partners: "No limit"
+    features: "Joint liability (unlimited)"
+    use_case: "Small professional firms, family businesses"
+    count: 85_000
+    
+  - name: "Community Interest Company (CIC)"
+    purpose: "Social enterprises, community benefit"
+    taxation: "Asset lock, some tax advantages"
+    use_case: "Social enterprises, charities with trading"
+    count: 25_000
+
+## Foreign Investment Vehicles#
+foreign_investment:
+  - type: "UK Subsidiary (Ltd/PLC)"
+    description: "UK-registered company, owned by foreign parent"
+    fdi_route: "Automatic (no restrictions in most sectors)"
+    timeline: "1-2 weeks"
+    
+  - type: "Branch Office"
+    description: "UK branch of foreign company"
+    registration: "With Companies House + HMRC"
+    use_case: "Banks, insurance (regulated sectors)"
+    
+  - type: "Representative Office"
+    description: "Liaison office (no trading allowed)"
+    use_case: "Market research, pre-entry"
+
+## Startup Ecosystem#
+startup_uk:
+  unicorns: 120+  # $1B+ valuation
+  valuation_total: 350_000_000_000  # $350B
+  top_hubs:
+    - "London (Silicon Roundabout) - 80+ unicorns"
+    - "Manchester - 12 unicorns"
+    - "Cambridge (Silicon Fen) - 10 unicorns"
+    - "Bristol - 5 unicorns"
+    
+  funding_2025: 28_000_000_000  # $28B (VC investment)
+  
+  sectors:
+    - "FinTech (world's 2nd largest, $15B+ funding)"
+    - "AI/ML (4,200+ startups)"
+    - "HealthTech (600+ companies)"
+    - "CleanTech (400+ companies)"
+
+## Special Economic Areas#
+special_areas:
+  - name: "Enterprise Zones"
+    count: 48
+    benefits: "Business rates discount (up to £275K), simplified planning"
+    
+  - name: "Opportunity Zones (Scotland)"
+    benefits: "Tax reliefs, capital allowances"
+    
+  - name: "Silicon Roundabout (London)"
+    benefits: "Tech cluster, talent pool, VC access"
+    
+  - name: "Silicon Fen (Cambridge)"
+    benefits: "University links, biotech + AI focus"
+
+## Registration Process#
+business_registration:
+  authority: "Companies House (公司注册局)"
+  online_platform: "Companies House WebFiling"
+  timeline: "24 hours (online), 5-10 days (post)"
+  
+steps:
+  - "Company name check (availability)"
+  - "Register directors, shareholders, registered office"
+  - "Memorandum + Articles of Association"
+  - "Pay £12 (online) or £40 (post)"
+  - "Corporation Tax registration (within 3 months)"
+  - "VAT registration (if turnover >£85K)"
+  - "PAYE registration (if hiring employees)"
+
+## Tax & Compliance#
+tax_filing:
+  corporation_tax: "Online via HMRC (12 months after year-end)"
+  vat: "Quarterly (MTD - Making Tax Digital)"
+  paye: "Monthly/quarterly (employer duties)"
+  
+companies_house_requirements:
+  annual_confirmation_statement: "Every 12 months (£13 online)"
+  annual_accounts: "9 months after year-end (for Ltd/PLC)"
+
+## Unique Taxpayer Reference (UTR)#
+utr:
+  description: "10-digit unique identifier (mandatory for all companies)"
+  format: "12345 67890"
+  use: "All tax filings, HMRC correspondence"
+  penalty: "Failure to quote = £100 penalty"
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "SMEs = 96% of UK enterprises (5.8M companies)"
+  - "Most common type: Private Ltd (4.8M companies)"
+  - "Sole Trader: 3.5M (not all registered with Companies House)"
+  - "UTR (10-digit) is MANDATORY for all tax filings"
+  - "Companies House: register online (£12, 24 hours)"
+  - "VAT threshold: £85K (mandatory registration)"
+  - "Corporation Tax: 25% (main rate), 19% (small profits)"
+  - "Making Tax Digital (MTD): mandatory for VAT, expanding to Income Tax"
+  - "London = Silicon Roundabout (Europe's largest tech hub, 80+ unicorns)"
+  - "Startup ecosystem: 120+ unicorns, $28B VC funding (2025)"
+  - "FinTech: world's 2nd largest ($15B+ funding)"
+  - "Enterprise Zones: 48 zones, business rates discount up to £275K"
+  - "Annual Confirmation Statement: £13 online, every 12 months"
+  - "PLC (Public Ltd): min £50K capital, 2+ directors (for IPOs)"
