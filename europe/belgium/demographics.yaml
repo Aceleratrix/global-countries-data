@@ -1,0 +1,15 @@
+country: Belgium
+population: 11600000
+population_year: 2023
+population_rank_europe: 8
+population_density: 380 per km²
+languages:
+  - Dutch (Flemish) - 60%
+  - French (Walloon) - 40%
+  - German - <1%
+religion:
+  - Christianity (Catholic majority)
+  - Non-religious - 30%
+life_expectancy: 81.5 years
+median_age: 41.5 years
+urban_population: 98%

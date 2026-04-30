@@ -1,0 +1,13 @@
+country: Belgium
+gdp_usd: 580000000000  # $0.58 Trillion
+gdp_rank: 23
+gdp_per_capita_usd: 50000
+economy_type: Service-oriented, export-driven
+key_sectors:
+  - Chemicals
+  - Pharmaceuticals
+  - Automotive
+  - Port logistics (Antwerp)
+  - Diamonds processing
+unemployment_rate: 5.6% (2023)
+inflation_rate: 2.3% (2023)

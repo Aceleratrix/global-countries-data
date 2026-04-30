@@ -1,0 +1,12 @@
+country: Belgium
+major_ports:
+  - Antwerp (2nd largest in Europe by container traffic)
+  - Zeebrugge
+  - Ghent
+major_airports:
+  - Brussels Airport (BRU)
+  - Brussels South Charleroi Airport (CRL)
+highways_km: 118000
+rail_network_km: 3600
+electrified_rail: 98%
+internet_penetration: 94%

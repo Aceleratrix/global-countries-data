@@ -1,0 +1,10 @@
+country: Belgium
+energy_sources:
+  - Nuclear: 40%
+  - Natural gas: 25%
+  - Renewables: 20%
+  - Coal: 15%
+nuclear_plants: 2 (2023)
+renewable_target: 30% by 2030
+offshore_wind_farms: 4 (North Sea)
+energy_import_dependency: 85%

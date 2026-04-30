@@ -1,0 +1,17 @@
+country: Belgium
+region: Western Europe
+area_km2: 30528
+area_rank_europe: 14
+borders:
+  - France (620 km)
+  - Netherlands (450 km)
+  - Germany (167 km)
+  - Luxembourg (148 km)
+terrain:
+  - Coastal plains (north)
+  - Central plateau
+  - Ardennes forest (south)
+capital: Brussels
+largest_city: Antwerp
+climate: Maritime temperate
+highest_point: Signal de Botrange (694 m)
