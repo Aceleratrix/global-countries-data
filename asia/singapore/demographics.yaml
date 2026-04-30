@@ -1,0 +1,19 @@
+country: Singapore
+population: 5703600 # 2023 estimate
+population_density: 7816 # per km² (one of highest globally)
+median_age: 42.2 # 2023
+life_expectancy: 83.7 years (2023)
+ethnic_groups:
+  - Chinese: 74.3%
+  - Malay: 13.5%
+  - Indian: 9.0%
+  - Others: 3.2%
+religions:
+  - Buddhism: 31.1%
+  - Christianity: 18.9%
+  - Islam: 15.6%
+  - Taoism: 8.8%
+  - Hinduism: 5.0%
+  - No religion: 20.0%
+urban_population: 100% # City-state
+literacy_rate: 97.4% # Aged 15+

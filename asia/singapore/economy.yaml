@@ -1,0 +1,23 @@
+country: Singapore
+gdp_nominal: 350000000000 # $0.35T
+gdp_rank_global: 40
+gdp_per_capita: 61000 # 2023 estimate
+economy_type: Developed free-market economy
+key_sectors:
+  - Financial services
+  - Manufacturing (electronics, biomedical sciences, chemicals)
+  - Shipping and logistics
+  - Tourism
+  - Information technology
+major_exports:
+  - Integrated circuits
+  - Refined petroleum
+  - Pharmaceuticals
+  - Office machine parts
+major_imports:
+  - Integrated circuits
+  - Crude petroleum
+  - Gold
+  - Telecommunications equipment
+currency: Singapore Dollar (SGD)
+exchange_rate_usd: 1.35 # Approx 1 SGD = 0.74 USD

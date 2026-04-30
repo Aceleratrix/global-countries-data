@@ -1,0 +1,11 @@
+country: Singapore
+healthcare_system: Mixed public-private system
+universal_coverage: MediShield Life (mandatory national insurance)
+life_expectancy: 83.7 years (2023)
+infant_mortality_rate: 2.1 per 1000 live births (2023)
+healthcare_expenditure: 4.5% of GDP (2023)
+key_hospitals:
+  - Singapore General Hospital
+  - Tan Tock Seng Hospital
+  - National University Hospital
+covid_19_response: Strict containment measures, high vaccination rate (92% fully vaccinated 2021)
