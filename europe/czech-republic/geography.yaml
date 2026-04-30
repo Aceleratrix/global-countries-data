@@ -1,0 +1,12 @@
+area_km2: 78865
+region: "Central Europe"
+borders:
+  - "Germany"
+  - "Austria"
+  - "Slovakia"
+  - "Poland"
+highest_point: "Sněžka (1,603 m)"
+major_rivers:
+  - "Vltava"
+  - "Elbe"
+climate: "Temperate oceanic and continental"

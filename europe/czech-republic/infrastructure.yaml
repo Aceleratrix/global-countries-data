@@ -1,0 +1,10 @@
+motorways_km: 1311
+railway_km: 9585
+major_airports:
+  - "Václav Havel Airport Prague"
+internet_penetration_percent: 96
+energy_sources:
+  - "Nuclear: 38%"
+  - "Coal: 35%"
+  - "Renewables: 27%"
+electrification_rate_percent: 100

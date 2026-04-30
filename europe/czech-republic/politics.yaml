@@ -1,0 +1,10 @@
+government_type: "Parliamentary republic"
+president: "Petr Pavel"
+prime_minister: "Petr Fiala"
+legislature: "Parliament of the Czech Republic"
+memberships:
+  - "European Union"
+  - "NATO"
+  - "Schengen Area"
+  - "OECD"
+independence_date: "1993-01-01 (Dissolution of Czechoslovakia)"

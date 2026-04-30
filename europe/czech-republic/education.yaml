@@ -1,0 +1,7 @@
+literacy_rate_percent: 99
+compulsory_education_age: "6-15"
+top_universities:
+  - "Charles University (Prague)"
+  - "Czech Technical University"
+tertiary_education_rate_percent: 32
+public_education_spending_percent_gdp: 4.5

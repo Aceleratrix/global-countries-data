@@ -1,0 +1,10 @@
+population: 10500000
+population_eu_rank: 12
+capital_population: 1300000
+ethnic_groups:
+  - "Czech: 64%"
+  - "Moravian: 5%"
+  - "Other: 31%"
+life_expectancy_years: 79.5
+median_age: 43.2
+urban_population_percent: 74

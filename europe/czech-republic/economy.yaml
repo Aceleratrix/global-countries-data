@@ -1,0 +1,15 @@
+gdp_usd: 430000000000
+gdp_global_rank: 31
+gdp_per_capita_usd: 41000
+major_industries:
+  - "Automotive"
+  - "Machinery"
+  - "Beer production"
+  - "Electronics"
+top_exports:
+  - "Motor vehicles and parts"
+  - "Machinery"
+  - "Beer"
+  - "Pharmaceuticals"
+unemployment_rate_percent: 2.8
+foreign_direct_investment_usd: 18000000000
