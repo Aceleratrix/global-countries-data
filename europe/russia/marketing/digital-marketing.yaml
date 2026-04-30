@@ -1,0 +1,141 @@
+# Russia - Digital Marketing (Marketing)
+# Fonte: IAB Russia, Yandex, VK
+
+country: "Russia"
+iso_code: "RU"
+population: 144000000
+internet_users: 130000000  # (90%)
+
+digital_marketing_spend_2024:
+  total: "$5.2B"
+  growth: "18% YoY (import substitution)"
+  per_capita: "$36"
+  
+channels:
+  search_ads:
+    share: "40%"
+    platforms:
+      - name: "Yandex Ads"
+        market_share: "80%"
+        revenue_2024: "$2B"
+      - name: "Google Ads"
+        market_share: "15%"  # (Restricted since 2022)
+      - name: "Rambler&Co"
+        market_share: "5%"
+    cpc_average: "15 RUB ($0.16)"
+    top_keywords: ["купить квартиру", "автозапчасти", "кредит наличными"]
+    
+  social_media_ads:
+    share: "35%"
+    platforms:
+      - name: "VK (Vkontakte)"
+        market_share: "60%"
+        ad_spend: "$1.1B"
+        users: "80M"
+      - name: "Telegram"
+        market_share: "25%"
+        ad_spend: "$450M"
+        users: "50M (in Russia)"
+      - name: "Odnoklassniki"
+        market_share: "10%"
+        users: "30M"
+      - name: "Meta (Facebook/Instagram)"
+        market_share: "0%"  # (Banned as extremist 2022)
+    cpm_average: "150 RUB ($1.6)"
+    
+  display_ads:
+    share: "15%"
+    programmatic_share: "70%"
+    top_networks: ["Yandex Display", "VK Ads", "SberDisplay"]
+    
+  video_ads:
+    share: "10%"
+    platforms:
+      - "YouTube (70%)"  # (Restricted 2024)
+      - "VK Video (20%)"
+      - "Rutube (10%)"  # (Domestic YouTube alternative)
+    ctv_growth: "25% YoY"
+    
+social_media_usage:
+  vk_vkontakte: "80M users (80% penetration)"
+  telegram: "50M users (Russia-only)"
+  odnoklassniki: "30M users (older demographic)"
+  youtube: "90M users (restricted 2024, VPN needed)"
+  instagram: "Banned (March 2022)"
+  facebook: "Banned (March 2022)"
+  tiktok: "Restricted (no new uploads since 2022)"
+  
+influencer_marketing:
+  market_size: "$300M"
+  top_influencers:
+    - "@nastya (10M subscribers)"
+    - "@yury dud (8M subscribers)"
+    - "@sasha-spiritual (6M subscribers)"
+  platforms: "VK, Telegram, YouTube"
+  regulation: "Mandatory disclosure (#reklama, #advertising)"
+  
+seo:
+  top_search_engine: "Yandex (60% share), Google (35%)"
+  local_seo: "Yandex Business (Google Business alternative)"
+  voice_search: "10% of searches (Yandex Alice, 40M users)"
+  top_seo_agencies: ["Artics Internet", "i-Media", "Trinet"]
+  
+content_marketing:
+  formats:
+    video: "55%"
+    blog_articles: "25%"
+    infographics: "15%"
+    podcasts: "5%"
+  top_platforms: ["YouTube", "VK", "Telegram channels"]
+  
+email_marketing:
+  penetration: "75% of users"
+  open_rate_average: "20%"
+  click_rate_average: "3%"
+  top_tools: ["UniSender", "Pepper"], "Mailchimp (restricted)"
+  
+affiliate_marketing:
+  market_size: "$200M"
+  top_networks: ["Actionpay", "Admitad", "GdeSlon"]
+  top_verticals: ["Electronics", "Fashion", "Finance"]
+  
+mobile_marketing:
+  smartphone_penetration: "75%"
+  mobile_ad_spend_share: "70%"
+  in_app_ads: "Growing (45% of mobile spend)"
+  sms_marketing: "Regulated (opt-in required, Sender ID mandatory)"
+  
+privacy_regulation:
+  data_localization: "Mandatory (Law 153-FZ)"
+  cookie_banners: "Required (if collecting data)"
+  third_party_cookies: "Phasing out (Yandex browser, VK)"
+  
+marketing_technology:
+  top_crms: ["Bitrix24 (Russian)", "AmoCRM (Russian)", "Salesforce (restricted)"]
+  top_automation: ["Yandex Audience", "VK Ads Manager", "SberMarket"]
+  top_analytics: ["Yandex Metrica", "Google Analytics (restricted)", "VK Insights"]
+  
+b2b_marketing:
+  top_channels: ["Yandex Ads", "Telegram Channels", "Email", "Webinars"]
+  decision_makers: "VK, Telegram, business forums"
+  trade_shows: ["CyberMarketing", "Russian Internet Forum", "SPIEF (St. Petersburg)"]
+  
+cultural_notes:
+  language: "Russian primary (all ads must be in Russian)"
+  peak_hours: "12:00-14:00, 19:00-22:00"
+  payment_preferences: "Bank cards (60%), SberPay (20%), cash (15%)"
+  seasonal_peaks: ["New Year (December)", "Black Friday (November)", "8 March (Women's Day)"]
+  
+sanctions_impact:
+  western_platforms: "Meta banned, Google restricted, TikTok limited"
+  domestic_growth: "Yandex, VK, Telegram ads growing 30% YoY"
+  ad_spending_shift: "From Western platforms to domestic alternatives"
+  influencer_market: "Thriving (focus on VK, Telegram, YouTube via VPN)"
+  
+notes: >
+  Russia's digital marketing landscape shifted dramatically since 2022.
+  Yandex (60% search) and VK (80M users) dominate, replacing Western platforms.
+  Meta platforms (Facebook/Instagram) banned, TikTok restricted, YouTube slowed.
+  Telegram grew to 50M Russian users, becoming a major ad channel.
+  Yandex Ads and VK Ads grew 30% YoY as Western alternatives exited.
+  Domestic martech (Bitrix24, AmoCRM, Yandex Metrica) now dominates.

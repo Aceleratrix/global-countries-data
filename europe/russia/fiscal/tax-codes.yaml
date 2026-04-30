@@ -1,0 +1,101 @@
+# Russia - Tax Codes (Fiscal)
+# Fonte: Federal Tax Service (FTS), Ministry of Finance
+
+country: "Russia"
+iso_code: "RU"
+currency: "RUB"
+
+tax_identification:
+  personal:
+    name: "INN (Individual Taxpayer Number)"
+    format: "12 digits (for individuals)"
+    issue_authority: "Federal Tax Service (FTS)"
+    
+  corporate:
+    name: "INN/KPP"
+    format: "INN: 10 digits, KPP: 9 digits (for organizations)"
+    issue_authority: "Federal Tax Service (FTS)"
+    
+  foreign:
+    name: "INN for foreigners"
+    format: "12 digits (same as locals)"
+    required_for: "Any economic activity in Russia"
+    
+corporate_income_tax:
+  standard_rate: 20
+  it_companies_rate: 3  # Special rate for accredited IT firms
+  small_business_rate: 6  # Simplified tax system (USN)
+  mining_companies_rate: 20  # + mineral extraction tax (MET)
+  
+  mineral_extraction_tax:
+    oil: "35% of production value"
+    gas: "23% of production value"
+    gold: "6% of production value"
+    
+personal_income_tax:
+  name: "NDFL (Personal Income Tax)"
+  brackets_2024:
+    - bracket: "Up to 5M RUB/year"
+      rate: 13
+    - bracket: "5M - 20M RUB/year"
+      rate: 15
+    - bracket: "20M - 50M RUB/year"
+      rate: 18
+    - bracket: "50M+ RUB/year"
+      rate: 20
+      
+  foreign_nationals:
+    rate: 30  # Non-residents (unless tax treaty applies)
+    tax_treaty_countries: ["CIS countries", "China", "India", "South Africa"]
+    
+vat:
+  standard_rate: 20
+  reduced_rates:
+    - rate: 10
+      applies_to: ["Food (except deli)", "Children's goods", "Books", "Medical supplies"]
+    - rate: 0
+      applies_to: ["Exports", "International transport"]
+  registration_threshold: "180M RUB revenue/year (~$2M)"
+  
+simplified_tax_system:
+  name: "USN (Uproschennaya Sistema Nalogooblozheniya)"
+  options:
+    - "6% of revenue (no expenses deduction)"
+    - "15% of profit (revenue minus expenses)"
+  eligibility: "Revenue < 219.2M RUB/year (~$2.4M)"
+  
+payroll_taxes:
+  employer_contribution: 30  # % (pension 22%, medical 5.1%, social 2.9%)
+  employee_contribution: 0  # Paid by employer
+  it_employees: 7.6  # Reduced rate for accredited IT companies
+  
+withholding_taxes:
+  dividends_domestic: 13  # (15% for non-residents)
+  dividends_foreign: 15  # (if tax treaty)
+  interest: 0  # For residents
+  royalties: 13  # (30% for non-residents)
+  
+tax_treaties:
+  count: 80+
+  major_partners: ["China", "India", "Germany", "France", "Italy"]
+  brics_treaties: ["China", "India", "Brazil", "South Africa"]
+  
+special_economic_zones:
+  types: ["Industrial", "Technological", "Tourist", "Port"]
+  benefits:
+    - "0-5% corporate tax (first 5-10 years)"
+    - "Reduced property tax"
+    - "Customs duty exemptions"
+    
+sanctions_impact:
+  foreign_companies: "Many suspended operations, tax residency issues"
+  parallel_imports: "Legalized (2022) - no trademark owner consent needed"
+  transfer_pricing: "Stricter controls since 2023"
+  
+notes: >
+  Russia's tax system was simplified in 2022-2023 to support businesses
+  under sanctions. The IT sector enjoys a 3% corporate tax rate and
+  reduced payroll taxes (7.6%). Personal income tax is progressive
+  (13-20%) since 2021. The VAT rate of 20% is one of the highest
+  in the world, but reduced rates apply to essentials. The "simplified
+  tax system" (USN) is popular among SMEs (6-15% rate).

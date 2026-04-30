@@ -1,0 +1,149 @@
+# Russia - Import & Export (Business)
+# Fonte: Ministry of Economic Development, Federal Customs Service
+
+country: "Russia"
+iso_code: "RU"
+currency: "RUB"
+brics_member: true
+sanctions_status: "Extensive Western sanctions (2022-2024)"
+
+trade_overview:
+  total_exports_2024: "$450B"
+  total_imports_2024: "$320B"
+  trade_balance: "+$130B (surplus)"
+  rank_world: 12  # (Exports)
+  
+top_export_destinations:
+  - destination: "China"
+    value: "$180B"
+    share: "40%"
+    growth: "35% YoY (sanctions shift)"
+    
+  - destination: "India"
+    value: "$65B"
+    share: "14.4%"
+    growth: "50% YoY"
+    
+  - destination: "Turkey"
+    value: "$35B"
+    share: "7.8%"
+    
+  - destination: "Belarus"
+    value: "$28B"
+    share: "6.2%"
+    
+  - destination: "Kazakhstan"
+    value: "$22B"
+    share: "4.9%"
+    
+top_export_products:
+  - product: "Crude oil & petroleum products"
+    value: "$220B"
+    share: "48.9%"
+    major_companies: ["Rosneft", "Lukoil", "Gazprom Neft"]
+    
+  - product: "Natural gas"
+    value: "$65B"
+    share: "14.4%"
+    note: "Pipeline (China, Turkey) + LNG"
+    
+  - product: "Wheat & grains"
+    value: "$50B"
+    share: "11.1%"
+    note: "World's largest wheat exporter"
+    
+  - product: "Metals (steel, aluminum, nickel)"
+    value: "$45B"
+    share: "10.0%"
+    note: "Nornickel, Rusal, Severstal"
+    
+  - product: "Fertilizers"
+    value: "$25B"
+    share: "5.6%"
+    
+top_import_sources:
+  - source: "China"
+    value: "$150B"
+    share: "46.9%"
+    growth: "40% YoY"
+    
+  - source: "Turkey"
+    value: "$28B"
+    share: "8.8%"
+    
+  - source: "India"
+    value: "$22B"
+    share: "6.9%"
+    
+  - source: "Belarus"
+    value: "$18B"
+    share: "5.6%"
+    
+top_import_products:
+  - product: "Electronics & machinery"
+    value: "$80B"
+    share: "25%"
+    note: "Parallel imports legalized"
+    
+  - product: "Vehicles & auto parts"
+    value: "$45B"
+    share: "14%"
+    note: "Chinese brands dominate (Haval, Chery)"
+    
+  - product: "Pharmaceuticals"
+    value: "$30B"
+    share: "9.4%"
+    
+trade_agreements:
+  brics: "Brazil, India, China, South Africa + new members"
+  eaeu: "Eurasian Economic Union (Russia, Belarus, Kazakhstan, Armenia, Kyrgyzstan)"
+  cis: "Commonwealth of Independent States (post-Soviet countries)"
+  
+customs:
+  import_duties:
+    wto_member: true
+    average_tariff: "5.5%"
+    eaeu_common_tariff: true
+    
+  documentation:
+    - "Commercial invoice"
+    - "Packing list"
+    - "Certificate of origin (Form A for GSP)"
+    - "Bill of lading/AWB"
+    - "Customs declaration (DT)"
+    
+  parallel_imports: "Legalized (2022)"
+  description: "No trademark owner consent needed"
+  covered_goods: "50,000+ items (electronics, cars, cosmetics)"
+  
+export_controls:
+  dual_use_goods: "Licensed (Ministry of Industry and Trade)"
+  strategic_goods: "Federal Service for Technical and Export Control (FSTEC)"
+  sanctioned_countries: "Western countries (EU, USA, UK, Canada, Japan)"
+  
+special_zones:
+  - name: "Special Economic Zones (SEZ)"
+    count: 40+
+    benefits: "0-5% corporate tax, customs duty exemptions"
+    
+  - name: "Arctic Zone"
+    benefits: "Reduced profit tax (0-5%), social security cuts"
+    
+sanctions_impact:
+  western_trade: "Reduced by 60% (2022-2024)"
+  redirect_to_east: "Trade with China/India up 40%"
+  payment_difficulties: "SWIFT disconnection, Mir system, CIPS (China)"
+  parallel_imports: "Allowed for 50,000+ goods (solves supply gaps)"
+  
+e_commerce_exports:
+  cross_border_sales: "$8B (2024)"
+  platforms: ["AliExpress Russia", "Wildberries Global", "Ozon Global"]
+  top_categories: ["Fashion", "Electronics", "Home goods"]
+  
+notes: >
+  Russia's trade has completely reoriented since 2022 sanctions.
+  China is now the top partner ($180B exports, $150B imports).
+  Oil, gas, wheat remain top exports (73% of total).
+  Parallel imports legalization saved supply chains for electronics, cars.
+  The EEU (Eurasian Economic Union) provides a duty-free bloc of 180M people.
+  SWIFT disconnection led to Mir payment system dominance and CIPS (China) use.

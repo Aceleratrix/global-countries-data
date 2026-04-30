@@ -1,0 +1,97 @@
+# Russia - Labor Law (Legal)
+# Fonte: Labor Code of the Russian Federation
+
+country: "Russia"
+iso_code: "RU"
+
+employment_contracts:
+  types:
+    - name: "Indefinite (Permanent)"
+      description: "Standard contract with no end date"
+      max_probation: "3 months (6 months for executives)"
+      
+    - name: "Fixed-term"
+      description: "Up to 5 years"
+      max_duration: "5 years"
+      renewal: "Possible but limited to 2 times"
+      
+    - name: "Seasonal"
+      description: "For seasonal work (agriculture, tourism)"
+      max_duration: "6 months"
+      
+working_hours:
+  standard_week: 40
+  max_daily_hours: 8
+  rest_between_shifts: "12 hours"
+  weekly_rest: "42 consecutive hours minimum"
+  night_work_premium: "20% minimum"
+  
+minimum_wage:
+  year_2024: "19,242 RUB/month (~$210)"
+  regional_variations: true
+  moscow_minimum: "24,801 RUB (~$270)"
+  
+overtime:
+  max_per_year: 120
+  compensation: "Double pay or time off (1.5x/2x)"
+  notification_required: true
+  
+vacation:
+  minimum_days: 28
+  paid_vacation: true
+  additional_days:
+    - "Disability: +3 days"
+    - "Hazardous work: +7 days"
+    - "Irregular schedule: +3 days"
+  public_holidays: 14
+  
+termination:
+  probation_period: "3 months (6 months executives)"
+  severance_pay:
+    - "Reduction in force: 3 months average salary"
+    - "Liquidation: 3 months average salary"
+  notice_period:
+    - "Employee: 2 weeks"
+    - "Employer: 2 months (redundancy)"
+    
+social_security:
+  pension_fund: "Russian Pension Fund (SPF)"
+  employee_rate: "0%"  # Paid by employer
+  employer_rate: "30%"  # Split: pension 22%, medical 5.1%, social 2.9%
+  unemployment_benefit: "Up to 8,000 RUB/month (~$87)"
+  
+remote_work:
+  law: "Federal Law No. 407-FZ (2022)"
+  rights:
+    - "Right to remote work (by agreement)"
+    - "Reimbursement of expenses (internet, electricity)"
+    - "Right to disconnect after work hours"
+  maximum_remote: "No legal limit"
+  
+non_compete:
+  enforceability: "Rarely enforced"
+  max_duration: "Up to 2 years (if compensated)"
+  compensation: "Not mandatory but recommended"
+  
+strikes:
+  legal_requirements:
+    - "Pre-notice 7 days"
+    - "Minimum services maintained"
+  protection: "Retaliation prohibited"
+  
+unions:
+  major_unions: ["Federation of Independent Trade Unions of Russia (FNPR)"]
+  collective_bargaining_coverage: "30%"
+  union_density: "20%"
+  
+sanctions_impact:
+  foreign_companies_exit: "1,000+ firms left since 2022"
+  wage_adjustments: "Many companies increased salaries to retain staff"
+  remote_work_surge: "60% increase in remote work since 2022"
+  
+notes: >
+  Russia's labor code is employee-friendly with strong protections.
+  The 28-day vacation is one of the most generous in the world.
+  Sanctions have led to a tight labor market, with IT specialists
+  seeing 30-50% salary increases since 2022. Remote work became
+  mainstream, with many companies adopting hybrid models.

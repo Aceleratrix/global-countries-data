@@ -1,0 +1,97 @@
+# Russia - Banks (Financial)
+# Fonte: Central Bank of Russia (CBR)
+
+country: "Russia"
+iso_code: "RU"
+currency: "RUB"
+
+central_bank:
+  name: "Central Bank of Russia (CBR)"
+  website: "https://cbr.ru"
+  governor: "Elvira Nabiullina"
+  role: "Monetary policy, banking regulation, financial stability"
+  
+banking_system:
+  total_assets: "80T RUB (~$880B)"
+  number_of_banks: 300+  # (Reduced from 1,000+ in 2014)
+  concentration: "High (top 5 = 60% market share)"
+  regulation: "Central Bank of Russia"
+  
+major_banks:
+  - name: "Sberbank"
+    headquarters: "Moscow, Russia"
+    assets: "40T RUB (~$440B)"
+    market_share: "50% of retail deposits"
+    status: "State-owned (50% + 1 share)"
+    sanctions: "Disconnected from SWIFT (2022)"
+    digital: "Sber ecosystem (SberPay, SberCloud, SberHealth)"
+    
+  - name: "VTB Bank"
+    headquarters: "Moscow, Russia"
+    assets: "20T RUB (~$220B)"
+    market_share: "20% corporate loans"
+    status: "State-owned (60%)"
+    sanctions: "SWIFT disconnected, US/UK/EU sanctions"
+    
+  - name: "Gazprombank"
+    headquarters: "Moscow, Russia"
+    assets: "10T RUB (~$110B)"
+    status: "Owned by Gazprom (energy giant)"
+    sanctions: "Limited (能源 sector focus)"
+    
+  - name: "Alfa-Bank"
+    headquarters: "Moscow, Russia"
+    assets: "5T RUB (~$55B)"
+    status: "Private (largest private bank)"
+    sanctions: "EU sanctions (2022)"
+    
+  - name: "Sovcombank"
+    headquarters: "Kostroma, Russia"
+    assets: "3T RUB (~$33B)"
+    focus: "Retail banking, SMEs"
+    
+payment_systems:
+  domestic:
+    name: "Mir Payment System"
+    launch: 2015
+    market_share: "80% (replaced Visa/Mastercard since 2022)"
+    acceptance: "All Russian merchants"
+    international: "Accepted in Turkey, Vietnam, Cuba, Iran"
+    
+  foreign:
+    visa_mastercard: "Suspended (March 2022)"
+    china_unionpay: "Accepted (alternative for tourists)"
+    crypto: "Prohibited as payment (2024), mining allowed in some regions"
+    
+fintech_ecosystem:
+  - name: "Yandex.Money -> YuMoney"
+    users: "50M"
+    features: ["Payments", "Transfers", "Utility bills"]
+    
+  - name: "SberPay"
+    users: "30M"
+    features: ["QR payments", "Online shopping", "P2P transfers"]
+    
+  - name: "Tinkoff Bank (part of TCS Group)"
+    users: "20M"
+    focus: "Digital-only bank"
+    features: ["Mobile app", "Credit cards", "Investments"]
+    
+sanctions_impact:
+  swift_disconnection: "7 major banks (March 2022)"
+  frozen_assets: "$300B Central Bank reserves"
+  correspondent_accounts: "Most Western banks closed"
+  mir_expansion: "Now accepted in 10+ countries (BRICS, allies)"
+  
+open_banking:
+  status: "Limited (domestic only)"
+  apis: "Sber API, Tinkoff API"
+  third_party_providers: "Regulated since 2023"
+  
+notes: >
+  Russia's banking system has undergone massive transformation since 2022.
+  Mir payment system replaced Visa/Mastercard almost overnight.
+  Sberbank dominates with 50% retail deposits. SWIFT disconnection
+  led to development of domestic financial infrastructure (SPFS -
+  System for Transfer of Financial Messages). Fintech is booming
+  with Yandex, Sber, Tinkoff leading digital payments.

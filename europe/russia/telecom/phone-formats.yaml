@@ -1,0 +1,94 @@
+# Russia - Phone Formats (Telecom)
+# Fonte: Ministry of Digital Development, Roskomnadzor
+
+country: "Russia"
+iso_code: "RU"
+country_code: "+7"
+international_prefix: "8~10"  # (8 for domestic long distance, 10 for international)
+trunk_prefix: "8"  # Domestic long distance prefix
+
+phone_number_format:
+  general_pattern: "\\+7[3-9]\\d{9}"
+  total_digits: 10  # After country code
+  area_code_required: false  # Direct dialing nationwide
+  mobile_prefixes: ["3", "4", "5", "6", "7", "8", "9"]
+  landline_prefixes: ["2", "3", "4", "5"]
+  
+landline:
+  format: "+7 4XX XXX XX XX (regional) or +7 2XX XXX XX XX (Moscow/SPb)"
+  examples: ["+7 495 123 45 67 (Moscow)", "+7 812 345 67 89 (St. Petersburg)"]
+  major_area_codes:
+    Moscow: "495", "499", "498"
+    St_Petersburg: "812"
+    Novosibirsk: "383"
+    Yekaterinburg: "343"
+    Kazan: "843"
+  number_portability: true
+  portability_time: "3 business days"
+  
+mobile:
+  format: "+7 9XX XXX XX XX"
+  examples: ["+7 912 345 67 89", "+7 925 123 45 67"]
+  major_operators:
+    - name: "MTS"
+      market_share: "35%"
+      prefix_range: "910-919, 980-989"
+    - name: "Beeline (VimpelCom)"
+      market_share: "25%"
+      prefix_range: "900-909, 920-929"
+    - name: "Megafon"
+      market_share: "22%"
+      prefix_range: "920-929, 930-939"
+    - name: "Tele2 Russia"
+      market_share: "15%"
+      prefix_range: "940-949, 950-959"
+  number_portability: true
+  portability_time: "1 business day"
+  prepaid_vs_postpaid: "60% prepaid, 40% postpaid"
+  
+special_numbers:
+  emergency: "112"  # (Unified emergency number since 2012)
+  police: "102"
+  fire: "101"
+  ambulance: "103"
+  gas_emergency: "104"
+  operator: "11808"
+  toll_free:
+    prefix: "8800"
+    format: "+7 8800 XXX XX XX"
+    cost: "Free for caller"
+  premium_rate:
+    prefix: "8900"
+    format: "+7 8900 XXX XX XX"
+    cost: "Variable (up to 300 RUB/min)"
+  short_codes:
+    time: "062"
+    weather: "063"
+    
+voip:
+  regulation: "Licensed (Roskomnadzor)"
+  major_providers: ["Zadarma", "Sipuni", "Mango Office"]
+  number_porting: "Allowed for fixed operators"
+  
+satellite:
+  providers: ["Gonets", "Yamal", "Express"]
+  coverage: "All Russian territory (11 time zones)"
+  
+5g:
+  rollout_status: "Limited"
+  coverage_population: "15% (Moscow, St. Petersburg only)"
+  operators: ["MTS", "Beeline", "Megafon"]
+  sanctions_impact: "No Huawei/NSN equipment (shift to ZTE, domestic solutions)"
+  
+telecom_regulator:
+  name: "Ministry of Digital Development, Communications and Mass Media"
+  website: "https://digital.gov.ru"
+  responsibilities: ["Spectrum", "Competition", "Consumer protection"]
+  
+notes: >
+  Russia has 11 time zones, so phone numbers span a wide range of prefixes.
+  The +7 country code is shared with Kazakhstan (mobile ranges differ).
+  Mobile penetration is 170% (multiple SIM cards per person).
+  5G rollout is slow due to sanctions (no Western equipment).
+  Domestic telecom equipment (Rostelecom, MTS) is replacing Western gear.
+  The unified emergency number 112 works across all carriers.

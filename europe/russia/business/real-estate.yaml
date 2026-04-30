@@ -1,0 +1,103 @@
+# Russia - Real Estate (Business)
+# Fonte: Rosreestr, Analytical Center of Government
+
+country: "Russia"
+iso_code: "RU"
+currency: "RUB"
+
+market_overview:
+  total_value_2024: "120T RUB (~$1.3T)"
+  residential_share: "70%"
+  commercial_share: "25%"
+  industrial_share: "5%"
+  
+price_trends:
+  residential_growth_2024: "15%"  # (Due to mortgage subsidies)
+  commercial_growth_2024: "5%"
+  forecast_2025: "10-12% growth"
+  bubble_risk: "Low (tight lending standards)"
+  
+residential:
+  average_price_m2_moscow: "300,000 RUB (~$3,300)"
+  average_price_m2_spb: "150,000 RUB (~$1,650)"
+  average_price_m2_regions: "80,000 RUB (~$880)"
+  
+  property_types:
+    apartment: "85% of transactions"
+    detached_house: "10%"
+    dacha: "5%"  # (Country cottage, Russian tradition)
+    
+  foreign_buyers: "2% of transactions"
+  top_origins: ["CIS countries", "China", "Turkey"]
+  restrictions: "Foreigners cannot buy land in border areas"
+  
+  rental_market:
+    average_rent_moscow: "50,000 RUB/month (60m², ~$550)"
+    average_rent_spb: "35,000 RUB/month (60m², ~$385)"
+    yield: "5-6% (investment properties)"
+    regulation: "Rental contracts registered with Rosreestr"
+    
+commercial:
+  office:
+    prime_rent_moscow: "2,500 RUB/m²/month (~$27)"
+    prime_rent_spb: "1,500 RUB/m²/month (~$16)"
+    vacancy_rate: "15% (Moscow), 20% (SPb)"
+    
+  retail:
+    high_street_rent_moscow: "15,000 RUB/m²/month (~$165)"
+    shopping_centers: "1,200+ nationwide"
+    e_commerce_impact: "15% of retail sales"
+    
+  hospitality:
+    hotel_investment_2024: "$1.5B"
+    occupancy_rate: "65% (post-COVID recovery)"
+    adr: "5,000 RUB/night (~$55)"
+    
+industrial:
+  logistics:
+    prime_rent: "800 RUB/m²/month (~$8.8)"
+    vacancy_rate: "8%"
+    major_markets: ["Moscow", "St. Petersburg", "Novosibirsk"]
+  warehouses:
+    average_size: "15,000 m²"
+    e_commerce_demand: "Growing 20% YoY"
+    
+zoning:
+  residential_zones: "Classified by city governments"
+  commercial_zones: "City centers, business parks"
+  industrial_zones: "Peripheral areas, special economic zones"
+  agricultural_land: "Restricted for non-agricultural use"
+  
+foreign_investment:
+  total_2024: "$5B"
+  top_buyers: ["China", "Turkey", "India", "CIS countries"]
+  restrictions: "Foreigners cannot buy agricultural land"
+  sanctions_impact: "Western investors exited, Asian investors entering"
+  
+proptech:
+  startups: ["Cian (listing platform)", "Avito Nedvizhimost", "Domklik"]
+  innovations: ["Virtual tours", "AI price prediction", "Digital contracts"]
+  
+real_estate_agents:
+  regulation: "Mandatory license (since 2023)"
+  commission: "3-5% (seller pays)"
+  mls_system: "No unified MLS, fragmentation"
+  
+mortgage_market:
+  average_rate_2024: "10-12%"
+  government_subsidy: "6.5% for families with children"
+  mortgage_debt_gdp: "5%"  # (Low by global standards)
+  
+sanctions_impact:
+  western_investors: "Exited (2022-2023)"
+  chinese_investment: "Growing ($2B in 2024)"
+  construction_materials: "Import substitution (cement, steel)"
+  dacha_demand: "30% increase (pandemic + sanctions effect)"
+  
+notes: >
+  Russia's real estate market is dominated by residential (70% of value).
+  Moscow prices are 2x higher than regions (300k vs 80k RUB/m²).
+  Government mortgage subsidies (6.5%) boosted residential growth 15% in 2024.
+  Dacha culture remains strong (country cottages for weekends).
+  Sanctions led to exit of Western investors, but Chinese investment
+  is filling the gap. The mortgage market is small (5% of GDP).

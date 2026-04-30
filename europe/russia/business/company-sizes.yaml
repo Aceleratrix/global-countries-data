@@ -1,0 +1,102 @@
+# Russia - Company Sizes (Business)
+# Fonte: Federal Tax Service, Ministry of Economic Development
+
+country: "Russia"
+iso_code: "RU"
+
+classification:
+  micro_enterprise:
+    employees: "1-15"
+    revenue: "< 120M RUB/year (~$1.3M)"
+    examples: ["Freelancers", "Small shops", "Consultants"]
+    count: 5500000  # 85% of all companies
+    
+  small_enterprise:
+    employees: "16-100"
+    revenue: "120M - 800M RUB/year (~$1.3M-$8.8M)"
+    examples: ["Local manufacturers", "SMEs", "Tech startups"]
+    count: 800000
+    
+  medium_enterprise:
+    employees: "101-250"
+    revenue: "800M - 2B RUB/year (~$8.8M-$22M)"
+    examples: ["Regional companies", "Growing tech firms"]
+    count: 50000
+    
+  large_enterprise:
+    employees: "250+"
+    revenue: "> 2B RUB/year (~$22M)"
+    examples: ["State corporations", "Gazprom", "Sberbank", "Yandex"]
+    count: 10000
+
+total_companies: 6400000
+sme_share: "99.2%"  # Of all enterprises
+
+by_sector:
+  services: "45%"
+  trade: "22%"
+  manufacturing: "15%"
+  construction: "10%"
+  tech: "8%"
+  
+it_companies:
+  total: 50000
+  accredited_it: 30000  # (Receive tax benefits)
+  it_employees: 1500000
+  tax_benefits:
+    - "Corporate tax: 3% (instead of 20%)"
+    - "Payroll tax: 7.6% (instead of 30%)"
+    - "VAT exemption (optional)"
+    
+startup_ecosystem:
+  total_startups: 8000
+  unicorns: 0  # (None yet, but 10+ valued >$100M)
+  top_startups:
+    - "VisionLabs (computer vision)"
+    - "NtechLab (facial recognition)"
+    - "Kaspersky (AI cybersecurity)"
+  startup_law: "Federal Law No. 149-FZ (support for innovation)"
+  government_funding: "RVC (Russian Venture Company) $1B fund"
+  
+foreign_companies:
+  status: "1,000+ exited since 2022"
+  remaining: "Chinese, Indian, Turkish, Serbian firms"
+  challenges: ["Sanctions", "Asset freezes", "Payment difficulties"]
+  
+government_incentives:
+  it_accreditation: "Ministry of Digital Development"
+  skolkovo_residents: "1,500+ tech companies"
+  benefits:
+    - "Tax exemptions (3% corporate tax)"
+    - "Customs duty exemptions for equipment"
+    - "Grants up to 10M RUB (~$110k)"
+    
+  parallel_imports: "Legalized (2022)"
+  description: "No trademark owner consent needed for imports"
+  impact: "Helped SMEs source electronics, machinery"
+  
+business_creation:
+  new_companies_2024: 400000
+  dissolution_rate: "12%"
+  average_lifespan: "5 years"
+  main_barriers: ["Bureaucracy", "Payment system issues", "Sanctions"]
+  
+remote_work_companies:
+  fully_remote: "25% of tech companies"
+  hybrid: "50% of tech companies"
+  office_only: "25%"
+  law: "Federal Law No. 407-FZ (2022) guarantees rights"
+  
+sanctions_impact:
+  foreign_exit: "1,000+ companies left (mostly Western)"
+  import_substitution: "40% increase in domestic production"
+  it_salary_growth: "40% since 2022 (labor shortage)"
+  new_market: "Shift to China, India, BRICS countries"
+  
+notes: >
+  Russia's business landscape changed dramatically since 2022.
+  SMEs (99.2% of companies) face challenges with payments and
+  imports, but IT companies enjoy massive tax breaks (3% corporate tax).
+  The startup ecosystem is growing, with 8,000 startups (no unicorns yet).
+  Parallel imports legalization helped SMEs survive sanctions.
+  Labor shortage (2M workers) is pushing salary growth, especially in IT.

@@ -1,0 +1,71 @@
+# Russia - Internet Law (Legal)
+# Fonte: Roskomnadzor, Federal Law No. 153-FZ
+
+country: "Russia"
+iso_code: "RU"
+
+data_protection:
+  law: "Federal Law No. 152-FZ (Personal Data)"
+  effective_date: "2006-07-27"
+  updates: "2023 - stricter localization"
+  data_localization: "MANDATORY"
+  requirement: "All personal data of Russian citizens must be stored on servers within Russia"
+  penalty: "Up to 18M RUB (~$200k) per violation"
+  
+  authority: "Roskomnadzor (RKN)"
+  website: "https://rkn.gov.ru"
+  
+internet_sovereignty:
+  law: "Federal Law No. 90-FZ (Sovereign Internet Law)"
+  effective_date: "2019-11-01"
+  purpose: "Ensure internet stability if disconnected from global infrastructure"
+  runet: "Russia's sovereign internet infrastructure"
+  
+  provisions:
+    - "Traffic routing through domestic exchange points"
+    - "Deep Packet Inspection (DPI) equipment mandatory"
+    - "Disconnection tests (2024 - successful test)"
+    
+blocking_mechanisms:
+  registry: "Unified Registry of Prohibited Sites"
+  blocks: ["Extremism", "Terrorism", "Child porn", "VPN services (some)", "Meta platforms (Facebook/Instagram banned)"]
+  vpn_ban: "Promoting VPNs to bypass blocks is illegal"
+  telegram_ban: "2018-2020 (lifted after cooperation)"
+  
+content_regulation:
+  fake_news: "Administrative liability (up to 1.5M RUB)"
+  discrediting_army: "Criminal liability (up to 15 years)"
+  lgbtq_propaganda: "Ban on 'non-traditional sexual relations' content"
+  
+domain_registration:
+  registry: "Coordination Center of the TLD .RU/.РФ"
+  requirements: "Russian legal entity or resident"
+  average_price: "500-1500 RUB/ano"
+  foreign_ownership: "Restricted since 2023"
+  
+ai_regulation:
+  status: "Draft law (2024)"
+  planned_requirements:
+    - "Mandatory registration of AI systems with Roskomnadzor"
+    - "Transparency in algorithmic decision-making"
+    - "Prohibition of deepfakes without labeling"
+    
+social_media_bans:
+  meta_platforms: "Banned as 'extremist' (March 2022)"
+  instagram: "Blocked (March 2022)"
+  facebook: "Blocked (March 2022)"
+  twitter: "Restricted (slowed down since 2021)"
+  tiktok: "Restricted for Russian users (April 2022)"
+  
+messaging:
+  telegram: "Operates (cooperates with authorities since 2020)"
+  whatsapp: "Operates (owned by Meta, technically blocked but accessible via VPN)"
+  wechat: "Available (Chinese platform)"
+  
+notes: >
+  Russia has one of the most controlled internet environments globally.
+  The "Sovereign Internet Law" allows disconnection from global web.
+  All tech companies serving Russians must have a local representative.
+  Yandex, VK, Telegram are the dominant domestic platforms.
+  Sanctions have led to exit of Meta, TikTok restrictions, and
+  replacement of Western services with domestic alternatives.

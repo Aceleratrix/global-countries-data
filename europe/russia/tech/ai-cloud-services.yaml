@@ -1,0 +1,112 @@
+# Russia - AI & Cloud Services (Tech)
+# Fonte: Ministry of Digital Development, Yandex, Sber
+
+country: "Russia"
+iso_code: "RU"
+
+cloud_adoption:
+  market_size_2024: "$3.2B"
+  growth_rate: "35% YoY (due to import substitution)"
+  penetration: "45% enterprises"
+  public_cloud_share: "60%"
+  private_cloud_share: "40%"
+  
+major_providers:
+  - name: "Yandex Cloud"
+    market_share: "35%"
+    data_centers: 5  # (Moscow, St. Petersburg, Yekaterinburg)
+    ai_services: ["YandexGPT", "Yandex SpeechKit", "Yandex Vision"]
+    launch: 2019
+    sanctions_impact: "Cut off from NVIDIA A100/H100 (shift to domestic chips)"
+    
+  - name: "SberCloud"
+    market_share: "25%"
+    data_centers: 3
+    ai_services: ["GigaChat (LLM)", "Sber AI", "ML Space"]
+    launch: 2018
+    parent: "Sberbank (state-owned)"
+    
+  - name: "Rostelecom Cloud"
+    market_share: "15%"
+    focus: "Government, state corporations"
+    data_centers: 4
+    
+  - name: "Cloud.ru (Sber + Yandex joint venture)"
+    market_share: "10%"
+    launch: 2023
+    focus: "Enterprise, SMEs"
+    
+  - name: "Selectel"
+    market_share: "5%"
+    focus: "Developers, startups"
+    
+western_providers_status:
+  aws: "Restricted (2022) - no new signups"
+  azure: "Restricted (2022) - existing customers only"
+  gcp: "Exited (2023)"
+  oracle: "Suspended operations (2022)"
+  
+domestic_ai_models:
+  - name: "YandexGPT"
+    parameters: "100B+"
+    benchmark: "Top 5 in Russian language tasks"
+    use_cases: ["Chatbots", "Content generation", "Code assist"]
+    
+  - name: "GigaChat"
+    developer: "Sberbank"
+    parameters: "50B+"
+    integration: "Sber ecosystem (banking, retail, health)"
+    
+  - name: "Kandinsky"
+    developer: "Sberbank"
+    type: "Text-to-image"
+    comparable_to: "Stable Diffusion, Midjourney"
+    
+ai_ecosystem:
+  national_strategy: "AI Development Strategy 2030"
+  investment: "$2B (2023-2030)"
+  priorities: ["Healthcare AI", "Industrial AI", "Agricultural AI"]
+  
+  research_centers:
+    - "Skolkovo Innovation Center (Moscow)"
+    - "MIPT (Moscow Institute of Physics and Technology)"
+    - "HSE University (AI Research)"
+    
+  startups:
+    - "VisionLabs (computer vision)"
+    - "NtechLab (facial recognition)"
+    - "Kaspersky (AI cybersecurity)"
+    
+  unicorns: "None (yet) - 10+ startups valued >$100M"
+  
+computing_infrastructure:
+  supercomputers: "2 in top 500 (MSU, SKIF)"
+  domestic_chips: "Baikal (processors), Elbrus (military-grade)"
+  gpu_shortage: "Severe (sanctions on NVIDIA/AMD chips)"
+  import_substitution: "30% by 2025 target"
+  
+data_sovereignty:
+  data_localization: "Mandatory (Law 153-FZ)"
+  foreign_cloud_restrictions: "Must have Russian legal entity"
+  government_clouds: "All state data on domestic clouds by 2025"
+  
+5g_rollout:
+  status: "Delayed"
+  coverage: "5% population (Moscow only)"
+  equipment: "ZTE, Huawei (no Western gear)"
+  industrial_use_cases: ["Smart factories", "Mining"]
+  
+digital_government:
+  strategy: "Digital Economy of Russian Federation"
+  targets:
+    - "90% public services online by 2025"
+    - "100% digital signatures adoption"
+    - "AI in 50% of government decisions"
+    
+notes: >
+  Russia's cloud market is growing 35% YoY due to import substitution.
+  Yandex Cloud and SberCloud dominate with 60% market share combined.
+  Western providers (AWS, Azure, GCP) exited or restricted services.
+  AI development focuses on domestic LLMs (YandexGPT, GigaChat).
+  Sanctions caused a severe GPU shortage, pushing development of
+  domestic chips (Baikal, Elbrus) and import substitution.

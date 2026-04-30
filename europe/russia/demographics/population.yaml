@@ -1,0 +1,108 @@
+# Russia - Population (Demographics)
+# Fonte: Rosstat (Federal State Statistics Service)
+
+country: "Russia"
+iso_code: "RU"
+
+population:
+  total_2024: 144000000
+  rank_world: 9
+  density: "8.5 per km²"
+  land_area_km2: 17100000  # Largest country in world
+  
+growth:
+  rate_2024: "-0.3%"  # Declining due to low birth rate + emigration
+  trend: "Aging + emigration of skilled workers (2022-2024)"
+  projection_2050: 135000000
+  
+age_structure:
+  "0-14": "17.5%"
+  "15-64": "67.0%"
+  "65+": "15.5%"
+  median_age: 39.6
+  life_expectancy: 72.4  # (Male: 67.2, Female: 77.6)
+  
+gender:
+  male: "46.3%"
+  female: "53.7%"
+  sex_ratio: "86 males per 100 females"  # (Due to WWII + alcoholism)
+  
+urbanization:
+  urban_population: "75.2%"
+  rural_population: "24.8%"
+  largest_cities:
+    - name: "Moscow"
+      population: 13000000  # Metropolitan area
+    - name: "St. Petersburg"
+      population: 5600000
+    - name: "Novosibirsk"
+      population: 1600000
+    - name: "Yekaterinburg"
+      population: 1500000
+    - name: "Kazan"
+      population: 1300000
+      
+federal_districts:
+  largest_by_population:
+    - name: "Central Federal District (Moscow)"
+      population: 40000000
+    - name: "Northwestern (St. Petersburg)"
+      population: 14000000
+    - name: "Siberian"
+      population: 17000000
+      
+migration:
+  net_migration_2024: "-500,000"  # Emigration > immigration
+  top_destinations: ["Kazakhstan", "Serbia", "Georgia", "UAE", "Thailand"]
+  reasons: ["Sanctions", "Mobilization (2022)", "Tech sector opportunities"]
+  
+languages:
+  official: "Russian"
+  regional_official: ["Tatar", "Chechen", "Bashkir", "others (35 total)"]
+  english_proficiency: "Very Low (EF EPI: 80/88 countries)"
+  
+religion:
+  orthodox_christian: "71%"
+  muslim: "10%"
+  non_religious: "15%"
+  other: "4%"  # Buddhism, Judaism, others
+  
+education:
+  literacy_rate: "99.7%"
+  tertiary_education: "56%"  # (One of highest in world)
+  stem_graduates: "30% of all graduates"  # (Strong math/physics tradition)
+  
+households:
+  average_size: 2.7
+  single_person: "30%"
+  families_with_children: "50%"
+  home_ownership: "85%"  # High (Soviet legacy)
+  
+digital_adoption:
+  internet_users: "130M (90%)"
+  smartphone_penetration: "75%"
+  social_media_users: "85%"
+  top_platforms:
+    - "VK (Vkontakte): 80M users"
+    - "Telegram: 50M users"
+    - "Odnoklassniki: 30M users"
+    - "YouTube: 90M users (restricted 2024)"
+    
+labor_force:
+  total: 75000000
+  participation_rate: "62%"
+  unemployment_rate: "3.0%"  # (Record low due to labor shortage)
+  it_specialists: "1.5M"  # (500k emigrated since 2022)
+  
+sanctions_impact:
+  emigration: "1M+ people left since 2022 (tech, creative sectors)"
+  labor_shortage: "2M workers needed (construction, IT, manufacturing)"
+  salary_growth: "IT salaries up 40% since 2022"
+  
+notes: >
+  Russia has the largest land area but a declining population (-0.3%/year).
+  The country faces a demographic crisis: low birth rate (1.5 children/woman)
+  and emigration of skilled workers. Moscow and St. Petersburg account for
+  30% of the population. The IT sector lost 500k specialists to emigration
+  but salaries rose 40%, attracting workers from other sectors.
+  Internet penetration is 90%, with VK and Telegram dominating social media.
