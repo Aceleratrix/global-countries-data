@@ -1,0 +1,151 @@
+# South Korea Tax Codes & Fiscal Information
+# AI-Ready: Structured for multi-agent systems
+
+country: south-korea
+last_updated: "2024-12-15"
+currency: KRW
+oecd_member: true
+
+# VAT (Value-Added Tax)
+vat:
+  standard_rate: 10
+  reduced_rates:
+    - rate: 0
+      applies_to: ["Basic foodstuffs", "Newspapers", "Books"]
+  exempt: ["Financial services", "Insurance", "Healthcare", "Education"]
+  registration_threshold_krw: 48000000
+  notes: "Mandatory registration from first sale"
+  filing_frequency: "Quarterly (forms 6-1, 7-1)"
+  official_url: "https://www.nts.go.kr"
+
+# Corporate Income Tax
+corporate_tax:
+  brackets_2024:
+    - up_to_krw: 200000000
+      rate: 10
+    - from_krw: 200000000
+      up_to_krw: 2000000000
+      rate: 20
+    - from_krw: 2000000000
+      up_to_krw: 30000000000
+      rate: 22
+    - from_krw: 30000000000
+      rate: 24
+  notes: "Additional 10% surtax on tax > ₩1 billion"
+  filing_deadline: "3 months after fiscal year-end"
+  advance_payments: "Quarterly estimated tax"
+  official_url: "https://www.nts.go.kr"
+
+# Personal Income Tax
+personal_income_tax:
+  type: "Progressive"
+  brackets_2024:
+    - up_to_krw: 14000000
+      rate: 6
+    - from_krw: 14000000
+      up_to_krw: 50000000
+      rate: 15
+    - from_krw: 50000000
+      up_to_krw: 88000000
+      rate: 24
+    - from_krw: 88000000
+      up_to_krw: 150000000
+      rate: 35
+    - from_krw: 150000000
+      up_to_krw: 300000000
+      rate: 38
+    - from_krw: 300000000
+      up_to_krw: 500000000
+      rate: 40
+    - from_krw: 500000000
+      rate: 42
+  residence_based: true
+  filing_deadline: "May 31"
+
+# Social Security Contributions
+social_security:
+  national_pension:
+    employee_rate: 4.5
+    employer_rate: 4.5
+    max_monthly_base_krw: 5900000
+  
+  health_insurance:
+    employee_rate: 3.43
+    employer_rate: 3.43
+    notes: "Covers 60-80% of medical costs"
+  
+  employment_insurance:
+    employee_rate: 0.8
+    employer_rate: 1.05
+    notes: "Job training + unemployment benefits"
+  
+  industrial_accident:
+    employer_rate: "Varies by industry (0.6-20.5%)"
+    employee_contribution: 0
+
+# Withholding Taxes
+withholding_tax:
+  dividends:
+    domestic: 14
+    foreign: 20
+    treaty_relief: true
+  interest:
+    domestic: 14
+    foreign: 20
+  royalties:
+    domestic: 14
+    foreign: 20
+
+# Tax Identification Numbers
+tax_ids:
+  - name: "Resident Registration Number (RRN)"
+    format: "YYMMDD-SXXXXXX (13 digits)"
+    example: "950101-1234567"
+    for: "Residents (citizens and long-term foreigners)"
+  
+  - name: "Business Registration Number (BRN)"
+    format: "XXX-XX-XXXXX (10 digits)"
+    example: "123-45-67890"
+    for: "Businesses (corporations, sole proprietors)"
+    official_url: "https://www.nts.go.kr"
+  
+  - name: "Foreign Registration Number"
+    format: "13 digits (similar to RRN)"
+    for: "Foreign residents"
+
+# Tax Treaties
+tax_treaties: "Over 90 treaties to avoid double taxation"
+official_treaty_list: "https://www.nts.go.kr"
+
+# Digital Services Tax
+digital_services_tax:
+  status: "No specific DST (VAT applies to digital services)"
+  notes: "Digital services subject to standard 10% VAT"
+
+# Local Taxes
+local_taxes:
+  - name: "Resident Tax"
+    rate: "10% of income tax"
+    notes: "Paid in addition to national income tax"
+  
+  - name: "Property Tax"
+    basis: "Assessed value"
+    rate_range: "0.2% - 5%"
+    collected_by: "Municipalities"
+  
+  - name: "Acquisition Tax"
+    rate_range: "1% - 12%"
+    applies_to: "Real estate purchases"
+
+# Customs & Duties
+customs:
+  authority: "Korea Customs Service (KCS)"
+  official_url: "https://www.customs.go.kr"
+  average_tariff: "8.5% (MFN rate)"
+  free_trade_agreements: ["KORUS (US)", "KAFTA (Australia)", "RCEP", "CPTPP"]
+  customs_value: "Transaction value (WTO Valuation Agreement)"
+
+# Fiscal Year
+fiscal_year:
+  standard: "January 1 - December 31"
+  notes: "Businesses can choose different fiscal year with approval"

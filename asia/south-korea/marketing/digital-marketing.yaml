@@ -1,0 +1,319 @@
+# South Korea Digital Marketing Landscape
+# AI-Ready: Structured for multi-agent systems#
+
+country: south-korea
+last_updated: "2024-12-15"
+oecd_member: true
+pipa_equivalent: "PIPA"
+
+# Digital Marketing Overview
+digital_ad_spend_2024_usd_billions: 8.2
+growth_rate_percent: 16
+digital_share_of_total_ad_spend: 78
+global_rank: 14
+
+# Digital Platform Market Share (2024)
+platforms:
+  - name: "Naver"
+    share_percent: 35
+    services: ["Search Ads", "Naver Shopping", "Naver Blog", "Naver Cafe"]
+    billing_currency: "KRW"
+    notes: "Korea's dominant search engine (70% market share!)"
+  
+  - name: "Meta (Facebook/Instagram)"
+    share_percent: 25
+    services: ["Feed Ads", "Stories", "Reels", "Facebook Ads"]
+    billing_currency: "USD"
+  
+  - name: "Google"
+    share_percent: 15
+    services: ["Search Ads", "Display", "YouTube"]
+    billing_currency: "USD"
+    notes: "Limited by Naver dominance"
+  
+  - name: "Kakao"
+    share_percent: 12
+    services: ["KakaoTalk Ads", "KakaoStory Ads"]
+    billing_currency: "KRW"
+    notes: "Integrated with KakaoTalk messenger (95% penetration)"
+  
+  - name: "YouTube"
+    share_percent: 8
+    services: ["Video Ads", "Shorts", "Influencer campaigns"]
+    billing_currency: "USD"
+  
+  - name: "TikTok"
+    share_percent: 3
+    services: ["In-feed Ads", "Branded Hashtag Challenges"]
+    billing_currency: "USD"
+  
+  - name: "Other (LinkedIn, Twitter/X, etc.)"
+    share_percent: 2.
+
+# Social Media Usage (monthly active users, 2024)
+social_media:
+  - platform: "KakaoTalk"
+    users_millions: 49
+    penetration_percent: 95
+    primary_use: "Messaging, integrated services, payments"
+    notes: "Korea's WhatsApp + WeChat combined!"
+  
+  - platform: "YouTube"
+    users_millions: 45
+    penetration_percent: 87
+    primary_use: "Video consumption, K-pop MV watching"
+  
+  - platform: "Instagram"
+    users_millions: 22
+    penetration_percent: 43
+    primary_use: "Visual content, K-pop fandom, Stories"
+  
+  - platform: "Facebook"
+    users_millions: 18
+    penetration_percent: 35
+    trend: "Declining among youth, 40+ demographic"
+  
+  - platform: "TikTok"
+    users_millions: 15
+    penetration_percent: 29
+    primary_use: "K-pop dance challenges, short-form video"
+  
+  - platform: "Naver Cafe"
+    users_millions: 28
+    penetration_percent: 54
+    primary_use: "Community forums, fandom spaces"
+  
+  - platform: "LinkedIn"
+    users_millions: 8
+    penetration_percent: 15
+    primary_use: "B2B, recruitment, professional content"
+  
+  - platform: "Twitter/X"
+    users_millions: 6
+    penetration_percent: 12
+    primary_use: "News, K-pop fandom interactions"
+
+# K-pop Marketing
+kpop_marketing:
+  market_size_usd_millions: 1200
+  growth_rate_percent: 25
+  key_elements:
+    - "Fandom engagement (Twitter/X, Weverse)"
+    - "Music video premieres (YouTube)"
+    - "Album sales + photocards"
+    - "Virtual concerts (metaverse)"
+    - "Brand ambassadorships (BTS, Blackpink, etc.)"
+  top_agencies:
+    - "HYBE (BTS, NewJeans)"
+    - "SM Entertainment (aespa, NCT)"
+    - "YG Entertainment (Blackpink)"
+    - "JYP Entertainment (TWICE, Stray Kids)"
+
+# Influencer Marketing
+influencer_marketing:
+  market_size_usd_millions: 380
+  growth_rate_percent: 28
+  top_categories:
+    - "Beauty & K-beauty (skincare)"
+    - "Fashion & Streetwear"
+    - "Food & Cooking (mukbangs)"
+    - "Gaming (PUBG, Lineage)"
+    - "Travel & Lifestyle"
+  influencer_agencies:
+    - "Seoul Agency"
+    - "Beauty of Joseon"
+  regulations: "Ad disclosure required (KCC guidelines)"
+
+# Search Engine Market Share
+search_engines:
+  - name: "Naver"
+    share_percent: 70
+    notes: "Dominant in Korea, separate ecosystem"
+  
+  - name: "Google"
+    share_percent: 25
+    notes: "Growing, especially for English searches"
+  
+  - name: "Daum"
+    share_percent: 4
+    notes: "Fading, part of Kakao now"
+  
+  - name: "Other"
+    share_percent: 1
+  seo_local_focus: "Naver SEO critical (different from Google!)"
+  top_searches_2024:
+    - "K-pop lyrics"
+    - "Travel destinations"
+    - "Online shopping"
+    - "Job postings"
+    - "Real estate"
+
+# Email Marketing
+email_marketing:
+  average_open_rate_percent: 22
+  average_click_rate_percent: 3.2
+  top_esp_providers:
+    - "Naver Works Mail"
+    - "Google Workspace"
+    - "Microsoft 365"
+  pipa_compliance: "Express consent required, easy unsubscribe"
+
+# Programmatic Advertising
+programmatic:
+  share_of_display_ads_percent: 82
+  top_dsps:
+    - "Google DV360"
+    - "The Trade Desk"
+    - "Naver DSP"
+  header_bidding_adoption_percent: 70
+  connected_tv_ctv_growth_percent: 55
+
+# E-Commerce Platforms
+ecommerce_platforms:
+  - name: "Naver Shopping"
+    market_share: 35
+    origin: "South Korea"
+    korean_support: true
+    api_available: true
+    website: "https://shopping.naver.com"
+  
+  - name: "Coupang"
+    market_share: 25
+    origin: "South Korea"
+    korean_support: true
+    api_available: true
+    notes: "Rocket Delivery (dawn delivery!)"
+    website: "https://www.coupang.com"
+  
+  - name: "11st (Eleven Street)"
+    market_share: 15
+    origin: "South Korea"
+    korean_support: true
+    api_available: true
+    website: "https://www.11st.co.kr"
+  
+  - name: "Gmarket & Auction"
+    market_share: 12
+    origin: "South Korea"
+    korean_support: true
+    api_available: true
+    website: "https://www.gmarket.co.kr"
+  
+  - name: "Wemakeprice"
+    market_share: 5
+    origin: "South Korea"
+    korean_support: true
+    website: "https://www.wemakeprice.com"
+
+# Affiliate Marketing
+affiliate_marketing:
+  market_size_usd_millions: 180
+  top_networks:
+    - "Naver Affiliate"
+    - "Coupang Partners"
+    - "Linkshare (Rakuten)"
+  top_verticals:
+    - "K-beauty products"
+    - "Fashion & cosmetics"
+    - "Electronics"
+    - "Travel & hotels"
+
+# Content Marketing
+content_marketing:
+  top_formats:
+    - "K-pop music videos (YouTube)"
+    - "Webtoons (digital comics)"
+    - "Mukbangs (eating shows)"
+    - "Gaming streams (Twitch, AfreecaTV)"
+    - "Beauty tutorials (YouTube, Instagram)"
+  content_trends:
+    - "Short-form video (TikTok, YouTube Shorts, Reels)"
+    - "Webtoon marketing (Naver Webtoon ads)"
+    - "Virtual influencers (AI-generated K-pop idols)"
+    - "Metaverse experiences (ZEPETO, Roblox)"
+    - "K-content global expansion (Squid Game effect)"
+
+# Marketing Regulations
+marketing_laws:
+  - law: "PIPA (Personal Information Protection Act)"
+    applies_to: "Data collection, email marketing, cookies"
+    penalty_range: "Up to ₩500 million (~$375,000) or 3% revenue"
+  
+  - law: "Act on Consumer Protection in Electronic Commerce"
+    applies_to: "Online advertising standards"
+    requirements: "Truth in advertising, ad labels"
+    penalty_range: "Up to ₩100 million"
+  
+  - law: "KCC Guidelines on Influencer Marketing"
+    applies_to: "Social media influencers"
+    requirements: "#ad labels, disclosure of sponsored content"
+    penalty_range: "Fines + reputational damage"
+
+# Marketing Automation & AI
+marketing_tech_stack:
+  marketing_automation: ["Salesforce", "HubSpot", "ActiveCampaign", "Naver Works"]
+  ai_tools:
+    - "ChatGPT (content generation)"
+    - "Midjourney (visual content)"
+    - "Clova AI (Naver's AI for ads)"
+    - "Kakao i (AI assistant for marketing)"
+  personalization_platforms: ["Naver Personalization", "Google Optimize", "Adobe Target"]
+  attribution_modeling: "Multi-touch attribution growing (from last-click)"
+
+# Mobile Marketing
+mobile_marketing:
+  mobile_ad_spend_percent: 72
+  mobile_video_ads_percent: 78
+  sms_marketing: "Limited (KakaoTalk at取代, requires consent under PIPA)"
+  in_app_advertising: "Strong growth (gaming, V-Life apps)"
+  location_based_marketing: "Geofencing in shopping districts (Gangnam, Myeongdong)"
+
+# Regional Marketing Considerations
+regional_specifics:
+  seoul:
+    market_size_percent: 48
+    focus: "Luxury brands, tech, K-pop headquarters"
+  
+  busan:
+    market_size_percent: 12
+    focus: "Maritime industry, tourism"
+  
+  incheon:
+    market_size_percent: 10
+    focus: "Airport retail, international brands"
+  
+  daegu:
+    market_size_percent: 8
+    focus: "Textiles, traditional markets"
+  
+  notes: "Marketing in Korea is highly Seoul-centric"
+
+# Marketing Agencies & MarTech
+top_agencies:
+  - name: "Cheil Worldwide"
+    type: "Global network (Samsung affiliate)"
+    focus: "Creative, digital, experiential"
+    website: "https://www.cheil.com"
+  
+  - name: "Innocean Worldwide"
+    type: "Global network (Hyundai affiliate)"
+    focus: "Automotive, lifestyle"
+    website: "https://www.innocean.com"
+  
+  - name: "HSAD (Hyundai)"
+    type: "In-house agency"
+    focus: "Automotive marketing"
+  
+  - name: "Digital Marketing Agencies"
+    type: "Boutique agencies"
+    focus: "Performance marketing, Naver SEO"
+
+# Measurement & Analytics
+analytics_tools:
+  - "Naver Analytics - 65% adoption (critical for Korea!)"
+  - "Google Analytics 4 (GA4) - 70% adoption"
+  - "Adobe Analytics - 10% adoption"
+  - "Naver Search Advisor - 80% adoption"
+  - "Google Tag Manager - 65% adoption"
+  attribution_models: "Shift from last-click to data-driven attribution"
+  naver_specific: "Naver Analytics different from Google - must track both!"

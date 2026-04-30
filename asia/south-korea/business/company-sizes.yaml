@@ -1,0 +1,207 @@
+# South Korea Business: Company Sizes & Classifications
+# AI-Ready: Structured for multi-agent systems
+
+country: south-korea
+last_updated: "2024-12-15"
+oecd_member: true
+
+# Company Size Definitions (Statistics Korea / SME Framework)
+size_categories:
+  - category: "Micro-enterprise (소기업)"
+    employees_max: 10
+    revenue_max_krw_billions: 1.2
+    percentage_of_total: 85
+    notes: "Most restaurants, small shops, freelancers"
+  
+  - category: "Small enterprise (소기업)"
+    employees_min: 10
+    employees_max: 50
+    revenue_max_krw_billions: 12
+    percentage_of_total: 10
+    notes: "Local SMEs, family businesses"
+  
+  - category: "Medium enterprise (중소기업)"
+    employees_min: 50
+    employees_max: 300
+    revenue_max_krw_billions: 120
+    percentage_of_total: 3
+    notes: "Regional to national reach"
+  
+  - category: "Large enterprise (대기업)"
+    employees_min: 300
+    revenue_min_krw_billions: 120
+    percentage_of_total: 0.1
+    notes: "Chaebols (conglomerates) like Samsung, Hyundai"
+  
+  - category: "Self-employed (개인사업자)"
+    employees: 0
+    description: "Sole proprietors, freelancers"
+    count_2024: 6800000
+    percentage_of_total: "N/A (separate category)"
+    notes: "Not counted in enterprise statistics"
+
+# Chaebols (Conglomerates)
+chaebols:
+  description: "Family-controlled conglomerates dominating Korean economy"
+  top_chaebols:
+    - name: "Samsung Group"
+      revenue_usd_billions: 305
+      employees: 270000
+      sectors: ["Electronics", "Semiconductors", "Shipbuilding", "Insurance"]
+    
+    - name: "Hyundai Motor Group"
+      revenue_usd_billions: 135
+      employees: 200000
+      sectors: ["Automotive", "Steel", "Construction"]
+    
+    - name: "SK Group"
+      revenue_usd_billions: 125
+      employees: 180000
+      sectors: ["Telecom", "Semiconductors", "Energy"]
+    
+    - name: "LG Group"
+      revenue_usd_billions: 65
+      employees: 110000
+      sectors: ["Electronics", "Chemicals", "Telecom"]
+    
+    - name: "Lotte Group"
+      revenue_usd_billions: 60
+      employees: 100000
+      sectors: ["Retail", "Food", "Hotels", "Chemicals"]
+
+# Regional Distribution
+regional_breakdown:
+  - region: "Seoul Capital Area (Seoul + Gyeonggi)"
+    total_companies: 1800000
+    sme_percentage: 99.8
+    large_companies: 3500
+    gdp_share_percent: 48
+  
+  - region: "Busan-Ulsan-Gyeongsang"
+    total_companies: 900000
+    sme_percentage: 99.7
+    large_companies: 1800
+    gdp_share_percent: 22
+  
+  - region: "Daegu-Gyeongsang North"
+    total_companies: 400000
+    sme_percentage: 99.8
+    large_companies: 600
+  
+  - region: "Gwangju-Jeolla"
+    total_companies: 350000
+    sme_percentage: 99.9
+    large_companies: 400
+
+# Sectoral Distribution (by number of companies)
+sectoral_breakdown:
+  - sector: "Wholesale & Retail"
+    percentage: 22
+    examples: ["Convenience stores", "Markets", "E-commerce"]
+  
+  - sector: "Accommodation & Food Service"
+    percentage: 18
+    examples: ["Restaurants", "Hotels", "Cafes"]
+  
+  - sector: "Manufacturing"
+    percentage: 15
+    examples: ["Semiconductors", "Automotive", "Shipbuilding"]
+  
+  - sector: "Professional/Scientific/Technical"
+    percentage: 12
+    examples: ["Consulting", "R&D", "IT services"]
+  
+  - sector: "Construction"
+    percentage: 10
+    examples: ["Residential", "Commercial", "Infrastructure"]
+  
+  - sector: "Other"
+    percentage: 23
+    examples: ["Agriculture", "Transportation", "Finance"]
+
+# Business Creation & Closure
+business_dynamics:
+  new_companies_2023: 1200000
+  dissolved_companies_2023: 450000
+  net_growth_2023: 750000
+  survival_rate_5_years_percent: 58
+  survival_rate_10_years_percent: 38
+
+# Foreign Companies in South Korea
+foreign_companies:
+  total_count: 18000
+  top_origin_countries:
+    - country: "United States"
+      count: 6500
+    - country: "Japan"
+      count: 4200
+    - country: "Germany"
+      count: 1500
+    - country: "France"
+      count: 900
+    - country: "China"
+      count: 800
+  main_sectors: ["Electronics", "Automotive", "Finance", "Chemicals"]
+  employment_generated: 650000
+
+# Startup Ecosystem
+startups:
+  total_2024: 5500
+  valuation_usd_millions: 120000
+  unicorns_count: 22
+  top_unicorns:
+    - name: "Coupang (e-commerce)"
+      valuation_usd_billions: 35
+    - name: "Krafton (gaming - PUBG)"
+      valuation_usd_billions: 18
+    - name: "Toss (fintech)"
+      valuation_usd_billions: 7
+    - name: "Market Kurly (e-grocery)"
+      valuation_usd_billions: 3.5
+  startup_hubs:
+    - city: "Seoul (Gangnam, Seocho)"
+      startups: 3500
+    - city: "Pangyo (Silicon Valley of Korea)"
+      startups: 1200
+    - city: "Busan"
+      startups: 800
+
+# Franchise Sector
+franchises:
+  total_brands: 5600
+  total_outlets: 280000
+  top_sectors:
+    - sector: "Food & Beverage"
+      percentage: 55
+    - sector: "Retail"
+      percentage: 25
+    - sector: "Services"
+      percentage: 15
+    - sector: "Education"
+      percentage: 5
+  top_franchises: ["CU Convenience", "GS25", "Lotte Convenience", "Baskin-Robbins"]
+
+# Business Count by Size (2024)
+business_counts:
+  self_employed_freelancers: 6800000
+  micro_enterprises: 3200000
+  small_enterprises: 380000
+  medium_enterprises: 115000
+  large_enterprises: 3500
+  total_active_companies: 3700000
+
+# High-Growth Enterprises
+high_growth:
+  count_2023: 18000
+  employment_generated: 280000
+  sectors: ["Technology", "E-commerce", "Biotech", "Fintech"]
+  definition: "20%+ annual growth over 3 years"
+
+# Digital Transformation
+digital_adoption:
+  digital_intensity_high_percent: 38
+  digital_intensity_medium_percent: 45
+  digital_intensity_low_percent: 17
+  cloud_adoption_percent: 52
+  ecommerce_adoption_percent: 65
+  ai_adoption_percent: 28

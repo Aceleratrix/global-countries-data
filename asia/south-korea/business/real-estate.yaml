@@ -1,0 +1,177 @@
+# South Korea Business: Real Estate
+# AI-Ready: Structured for multi-agent systems#
+
+country: south-korea
+last_updated: "2024-12-15"
+oecd_member: true
+currency: KRW
+
+# Real Estate Market Overview
+market_overview:
+  total_value_usd_trillions: 4.8
+  residential_percent: 75
+  commercial_percent: 20
+  industrial_percent: 5
+  market_trend: "Seoul prices cooling after rapid growth 2020-2022"
+
+# Property Prices (2024, KRW per m²)
+residential_prices_krw_m2:
+  seoul:
+    average: 12500000
+    gangnam_district: 25000000
+    gangbuk_district: 8000000
+  busan:
+    average: 5500000
+    downtown: 8000000
+    suburbs: 4000000
+  incheon:
+    average: 4500000
+    downtown: 6500000
+    suburbs: 3500000
+  daegu:
+    average: 4000000
+    downtown: 6000000
+    suburbs: 3000000
+
+# Commercial Real Estate
+commercial_prices_krw_m2_month:
+  seoul_office_prime: 85000
+  busan_office_prime: 35000
+  incheon_office_prime: 28000
+  retail_high_street_seoul: 250000
+  industrial_logistics_seoul: 15000
+  industrial_logistics_busan: 12000
+
+# Rental Market
+rental_market:
+  seoul:
+    apartment_2bed_krw_month: 1800000
+    apartment_3bed_krw_month: 2800000
+  busan:
+    apartment_2bed_krw_month: 900000
+    apartment_3bed_krw_month: 1400000
+  rental_yield_percent: 2.8
+  notes: "Rental prices declining in 2024 after peak in 2022"
+
+# Legal Framework
+legal_framework:
+  property_law: "Civil Act (민법)"
+  foreign_ownership: "Restricted (requires approval for certain areas)"
+  official_url: "https://www.law.go.kr"
+
+# Property Purchase Process
+purchase_process:
+  steps:
+    - "Foreigner registration (if not resident)"
+    - "Verify property type (apartment vs. house)"
+    - "Sign purchase agreement (계약서)"
+    - "Pay acquisition tax (취득세)"
+    - "Register at District Office (구청)"
+  timeline_days: 30
+  legal_fees_krw: 15000000
+  acquisition_tax_percent: "1% - 12% (regressive)"
+  notes: "Foreigners need permit for land near military bases"
+
+# Property Taxes
+property_taxes:
+  - name: "Property Tax (재산세)"
+    basis: "Assessed value"
+    rate_range: "0.1% - 5% annually"
+    collected_by: "Municipalities"
+  
+  - name: "Acquisition Tax (취득세)"
+    applies_to: "Property purchases"
+    rate_range: "1% - 12% (depends on property value)"
+    collected_by: "Local government"
+  
+  - name: "Capital Gains Tax"
+    applies_to: "Property sales"
+    rate_range: "6% - 45% (progressive, higher for short-term)"
+    notes: "Hold >2 years for lower rates"
+
+# Commercial Leases
+commercial_leases:
+  typical_term_years: 3
+  break_clause_years: 1
+  rent_review: "Annual (fixed % or CPI)"
+  security_deposit_months: 10
+  legal_framework: "Commercial Lease Act"
+  notes: "Security deposits very high in Korea"
+
+# Foreign Investment
+foreign_ownership:
+  restrictions: "Special areas (military, ecological) require approval"
+  approval_required: true
+  reporting: "Report to Ministry of Land, Infrastructure and Transport"
+  notes: "Seoul real estate very expensive for foreigners"
+
+# Real Estate Investment Trusts (REITs)
+reits:
+  description: "Listed real estate investment trusts"
+  tax_advantages: "Flow-through entity"
+  major_reits:
+    - name: "NPS REIT"
+      assets_usd_billions: 12
+      focus: "Commercial properties"
+    - name: "KORAIL REIT"
+      assets_usd_billions: 8
+      focus: "Railway-adjacent properties"
+  
+  - name: "Lotte REIT"
+      assets_usd_billions: 5
+      focus: "Retail & commercial"
+
+# Construction & Development
+construction:
+  permits_required: true
+  authority: "District Offices (구청)"
+  timeline_residential_months: 18
+  timeline_commercial_months: 30
+  building_costs_krw_m2: 3500000
+  sustainable_building_percent: 35
+  leed_certified_buildings: 2500
+
+# Zoning & Land Use
+zoning:
+  categories:
+    - "Residential (주거지역)"
+    - "Commercial (상업지역)"
+    - "Industrial (공업지역)"
+    - "Green Belt (개발제한구역) - highly restricted"
+  official_plan: "Urban Planning Act"
+
+# Real Estate Platforms & APIs
+real_estate_platforms:
+  - name: "Naver Real Estate (네이버 부동산)"
+    market_share: 60
+    api_available: true
+    api_url: "https://developers.naver.com"
+    website: "https://land.naver.com"
+  
+  - name: "Zigbang (직방)"
+    market_share: 25
+    api_available: false
+    website: "https://www.zigbang.com"
+  
+  - name: "Danawa Real Estate"
+    market_share: 10
+    api_available: false
+    website: "https://real.danawa.com"
+  
+  - name: "Bunjangeo (분양정보)"
+    market_share: 5
+    api_available: false
+    website: "https://www.bunjangeo.com"
+
+# Mortgage Market
+mortgages:
+  average_interest_rate: 4.8
+  ltv_max_percent: 70
+  dti_max_percent: 40
+  dti_fullform: "Debt-to-Income ratio limit"
+  requirements:
+    - "Proof of income"
+    - "Credit score (NICE or KCB)"
+    - "Down payment (min 30%)"
+  top_lenders: ["KB Kookmin Bank", "Shinhan Bank", "Hana Bank", "Woori Bank"]
+  government_support: "First-time buyer programs available"

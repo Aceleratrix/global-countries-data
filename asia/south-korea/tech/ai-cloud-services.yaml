@@ -1,0 +1,249 @@
+# South Korea AI & Cloud Services
+# AI-Ready: Structured for multi-agent systems
+
+country: south-korea
+last_updated: "2024-12-15"
+oecd_member: true
+
+# National AI Strategy
+national_strategy:
+  name: "Korean AI Strategy (2024-2027)"
+  budget_usd_billions: 176
+  launched: 2024
+  key_pillars:
+    - "AI semiconductor leadership (Samsung, SK Hynix)"
+    - "AI adoption in 11 key sectors"
+    - "AI talent development (200,000 specialists)"
+    - "AI ethical framework & governance"
+  official_url: "https://www.msit.go.kr"
+
+# AI Research & Supercomputing
+ai_research:
+  - name: "NAVER AI Lab (Clova)"
+    location: "Seongnam (near Seoul)"
+    researchers: 500
+    focus: ["NLP", "Computer vision", "Speech recognition"]
+    products: ["Clova X (LLM)", "Clova Note", "Clova Face"]
+    website: "https://clova.ai"
+  
+  - name: "KakaoBrain"
+    location: "Seoul"
+    researchers: 200
+    focus: ["KoGPT (Korean LLM)", "Karlo (image generation)", "AI assistants"]
+    products: ["Kakao i (AI speaker)", "Karlo AI"]
+    website: "https://brin.kakao.com"
+  
+  - name: "LG AI Research"
+    location: "Seoul"
+    researchers: 300
+    focus: ["Vision AI", "Manufacturing AI", "Smart factories"]
+    products: ["LG CNS AI solutions"]
+  
+  - name: "Samsung Research (AI Division)"
+    location: "Seoul, Suwon"
+    researchers: 1000
+    focus: ["Edge AI", "On-device AI", "Smart home AI"]
+    products: ["Bixby (voice assistant)", "SmartThings AI"]
+
+# Supercomputing
+supercomputing:
+  - name: "KISTI Supercomputer 5 (Nurion)"
+    peak_performance_petaflops: 25.7
+    rank_global: 20
+    ai_capable: true
+    location: "Daejeon"
+    website: "https://www.kisti.re.kr"
+  
+  - name: "NAVER AI Cluster"
+    peak_performance_petaflops: 18.5
+    ai_capable: true
+    location: "Seongnam"
+    notes: "Private sector supercomputer"
+
+# Cloud Providers (Korea regions)
+cloud_providers:
+  - name: "AWS (Amazon Web Services)"
+    region: "ap-northeast-2 (Seoul)"
+    launched: 2016
+    services: ["EC2", "S3", "RDS", "Lambda", "Bedrock (AI)"]
+    compliance: ["PIPA", "KISA requirements"]
+    market_share: 25
+    website: "https://aws.amazon.com/kr"
+  
+  - name: "Microsoft Azure"
+    region: "korea-central (Seoul)"
+    launched: 2017
+    services: ["Virtual Machines", "Azure AI", "Cosmos DB", "OpenAI Service"]
+    compliance: ["PIPA"]
+    market_share: 20
+    website: "https://azure.microsoft.com/ko-kr"
+  
+  - name: "Google Cloud"
+    region: "asia-northeast3 (Seoul)"
+    launched: 2020
+    services: ["Compute Engine", "Vertex AI", "Cloud Storage"]
+    compliance: ["PIPA"]
+    market_share: 8
+    website: "https://cloud.google.com"
+  
+  - name: "Naver Cloud"
+    region: "Korea (multiple zones)"
+    launched: 2017
+    services: ["Compute", "Clova AI", "DB", "Storage"]
+    compliance: ["PIPA", "Government cloud"]
+    market_share: 35
+    website: "https://www.ncloud.com"
+  
+  - name: "KT Cloud"
+    region: "Korea"
+    launched: 2015
+    services: ["Compute", "AI services", "IoT"]
+    market_share: 10
+    website: "https://cloud.kt.com"
+
+# Korean AI Companies & Startups
+ai_companies:
+  - name: "Upstage"
+    focus: "Large Language Models (Solar LLM)"
+    funding_usd_millions: 50
+    valuation_usd_millions: 200
+    location: "Seoul"
+    website: "https://upstage.ai"
+  
+  - name: "Scatter Lab"
+    focus: "AI chatbot (Lee Luda controversy)"
+    status: "Rebranded, focused on enterprise AI"
+  
+  - name: "Suda"
+    focus: "Conversational AI, customer service"
+    users_millions: 5
+  
+  - name: "Rebellions"
+    focus: "AI semiconductors (NPU - Neural Processing Unit)"
+    funding_usd_millions: 124
+    website: "https://www.rebellions.ai"
+
+# AI Research Institutions
+ai_research_institutions:
+  - name: "KAIST AI"
+    location: "Daejeon"
+    focus: ["Machine learning", "Robotics", "Computer vision"]
+    researchers: 200
+    rank_global: "Top 50 AI programs"
+    website: "https://kaist.ac.kr"
+  
+  - name: "Seoul National University (SNU) AI"
+    location: "Seoul"
+    focus: ["Deep learning", "NLP", "AI ethics"]
+    researchers: 150
+  
+  - name: "Korea University AI"
+    location: "Seoul"
+    focus: ["AI security", "Federated learning"]
+
+# AI Ethics & Regulation
+ai_ethics:
+  framework: "AI Ethics Guidelines (Ministry of Science)"
+  pending_legislation: "AI Basic Act (2025)"
+  ethical_principles:
+    - "Human dignity and rights"
+    - "Transparency and explainability"
+    - "Fairness and non-discrimination"
+    - "Safety and security"
+    - "Privacy protection"
+  high_risk_ai_systems: "Registration required (planned)"
+  ai_sandboxes: "Regulatory sandboxes for AI startups"
+
+# AI Talent & Education
+ai_talent:
+  universities_with_ai_programs: 65
+  ai_graduates_per_year: 5500
+  top_ai_universities:
+    - "KAIST (Top AI program)"
+    - "Seoul National University"
+    - "Korea Advanced Institute of Science & Technology"
+    - "POSTECH"
+    - "Yonsei University"
+  ai_researchers: 8500
+  international_ai_talent_percent: 12
+
+# AI Adoption by Sector
+sectoral_adoption:
+  - sector: "Electronics & Semiconductors"
+    adoption_percent: 85
+    use_cases: ["Chip design AI", "Yield optimization", "Quality control"]
+  
+  - sector: "Automotive"
+    adoption_percent: 75
+    use_cases: ["Autonomous driving", "Smart factories", "Predictive maintenance"]
+  
+  - sector: "Entertainment (K-pop/K-drama)"
+    adoption_percent: 80
+    use_cases: ["Content recommendation", "AI music composition", "Visual effects"]
+  
+  - sector: "Finance & Fintech"
+    adoption_percent: 60
+    use_cases: ["Credit scoring", "Fraud detection", "Robo-advisory"]
+  
+  - sector: "Retail & E-commerce"
+    adoption_percent: 65
+    use_cases: ["Personalized recommendations", "Inventory optimization"]
+
+# AI Funding & Investment
+ai_investment:
+  vc_investment_2023_usd_billions: 3.2
+  government_grants_2024_usd_billions: 4.4
+  top_funding_rounds:
+    - company: "Upstage"
+      amount_usd_millions: 50
+    - company: "Rebellions"
+      amount_usd_millions: 124
+
+# AI Conferences & Events
+ai_events:
+  - name: "AI Korea Conference"
+    frequency: "Annual"
+    location: "Seoul"
+  
+  - name: "Korea AI Expo"
+    frequency: "Annual"
+    location: "Seoul, COEX"
+
+# AI APIs & Services Available
+available_ai_apis:
+  - provider: "Naver Clova"
+    services: ["Clova X API", "Clova Note API", "OCR API"]
+    api_url: "https://clova.ai/api"
+  
+  - provider: "Kakao API"
+    services: ["Kakao i API", "Translation API", "Vision API"]
+    api_url: "https://developers.kakao.com"
+  
+  - provider: "Google Cloud AI"
+    services: ["Vision API", "Natural Language API", "Vertex AI"]
+    region: "asia-northeast3"
+  
+  - provider: "Azure AI"
+    services: ["Cognitive Services", "Azure OpenAI Service"]
+    region: "korea-central"
+
+# Language Models (Korean-focused)
+korean_llms:
+  - name: "Solar (Upstage)"
+    parameters: 7000000000
+    languages: ["Korean", "English"]
+    open_source: false
+    api_available: true
+    website: "https://upstage.ai/solar"
+  
+  - name: "KoGPT (KakaoBrain)"
+    parameters: 6000000000
+    languages: ["Korean"]
+    open_source: true
+    website: "https://github.com/kakaobrain/kogpt"
+  
+  - name: "HyperCLOVA (NAVER)"
+    parameters: 82000000000
+    languages: ["Korean", "English"]
+    open_source: false
+    notes: "One of world's largest Korean LLMs"

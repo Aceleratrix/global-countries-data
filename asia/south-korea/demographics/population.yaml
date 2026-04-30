@@ -1,0 +1,191 @@
+# South Korea Demographics & Population
+# AI-Ready: Structured for multi-agent systems
+
+country: south-korea
+last_updated: "2024-12-15"
+oecd_member: true
+
+# Population Overview
+population:
+  total_2024: 51700000
+  total_2023: 51600000
+  trend: "Declining (-0.2% from 2023, aging society)"
+  population_density_per_km2: 529
+  rank_global: 28
+  median_age: 44.5
+  life_expectancy_years: 83.5
+
+# Regional Distribution (Special Cities, Metropolitan Cities, Provinces)
+regions:
+  - name: "Seoul Special City"
+    population: 9500000
+    density_km2: 16000
+    type: "Capital / Special City"
+  
+  - name: "Gyeonggi Province"
+    population: 13500000
+    density_km2: 1300
+    type: "Surrounding Seoul"
+  
+  - name: "Busan Metropolitan City"
+    population: 3300000
+    density_km2: 2800
+    type: "Metropolitan city"
+  
+  - name: "Incheon Metropolitan City"
+    population: 3000000
+    density_km2: 2800
+    type: "Metropolitan city"
+  
+  - name: "Daegu Metropolitan City"
+    population: 2400000
+    density_km2: 2800
+    type: "Metropolitan city"
+  
+  - name: "Gwangju Metropolitan City"
+    population: 1400000
+    density_km2: 2900
+  
+  - name: "Daejeon Metropolitan City"
+    population: 1500000
+    density_km2: 2800
+  
+  - name: "Ulsan Metropolitan City"
+    population: 1100000
+    density_km2: 1100
+
+# Urbanization
+urbanization:
+  urban_percent: 82
+  rural_percent: 18
+  largest_cities:
+    - city: "Seoul"
+      population_2024: 9500000
+      metro_area: 26000000
+    - city: "Busan"
+      population_2024: 3300000
+      metro_area: 4000000
+    - city: "Incheon"
+      population_2024: 3000000
+      metro_area: 3300000
+    - city: "Daegu"
+      population_2024: 2400000
+      metro_area: 2800000
+    - city: "Daejeon"
+      population_2024: 1500000
+      metro_area: 1800000
+
+# Age Structure
+age_groups:
+  "0-14": 12
+  "15-29": 18
+  "30-44": 22
+  "45-64": 28
+  "65+": 20
+  notes: "One of the world's fastest-aging societies"
+
+# Gender Distribution
+gender:
+  male_percent: 49.8
+  female_percent: 50.2
+  gender_ratio_males_per_100_females: 99.2
+
+# Birth & Death Rates
+vital_statistics:
+  birth_rate_per_1000: 4.8
+  death_rate_per_1000: 7.2
+  natural_increase_rate: -2.4
+  fertility_rate_children_per_woman: 0.72
+  notes: "LOWEST fertility rate in the world! Population declining since 2020"
+
+# Immigration
+immigration:
+  foreign_residents_2024: 2200000
+  foreign_share_percent: 4.3
+  top_origin_countries:
+    - country: "Vietnam"
+      percentage: 28
+    - country: "China"
+      percentage: 24
+    - country: "Thailand"
+      percentage: 10
+    - country: "United States"
+      percentage: 6
+    - country: "Uzbekistan"
+      percentage: 5
+  refugees_2024: 1200
+  marriage_migrants: 180000
+  notes: "Growing foreign worker population (E-9, E-7 visas)"
+
+# Languages
+languages:
+  official_national: "Korean (Hangul)"
+  writing_system: "Hangul (한글)"
+  english_proficiency: "Medium (EF EPI score: 56, rank 37/113)"
+  chinese_speakers_percent: 2
+  english_speakers_percent: 25
+  notes: "Korean is mandatory in all schools, English taught from 3rd grade"
+
+# Religion
+religion:
+  christian_percent: 29
+  buddhist_percent: 23
+  non_religious_percent: 46
+  other_religions_percent: 2
+  muslim_population: 150000
+  notes: "Rapid secularization, particularly among youth"
+
+# Education
+education:
+  literacy_rate_percent: 99
+  tertiary_education_percent: 70
+  school_life_expectancy_years: 17
+  top_universities:
+    - name: "Seoul National University (SNU)"
+      rank_global: 31
+    - name: "KAIST (Korea Advanced Institute of Science & Technology)"
+      rank_global: 56
+    - name: "Korea University"
+      rank_global: 79
+    - name: "Yonsei University"
+      rank_global: 85
+  tuition_domestic_universities_krw_year: 4500000
+  tuition_international_universities_krw_year: 18000000
+
+# Ethnicity & Race
+ethnicity:
+  korean_percent: 96
+  other_percent: 4
+  notes: "One of the world's most ethnically homogeneous countries"
+
+# Digital Demographics
+digital:
+  internet_users_percent: 97
+  social_media_users_percent: 85
+  facebook_users_millions: 18
+  instagram_users_millions: 15
+  twitter_users_millions: 8
+  tiktok_users_millions: 22
+  kakao_talk_users_millions: 49
+  naver_users_millions: 42
+  smartphone_penetration_percent: 95
+  ecommerce_users_percent: 88
+
+# Income & Socioeconomic
+socioeconomic:
+  gini_coefficient: 31.4
+  poverty_rate_percent: 14.5
+  household_income_median_krw_year: 52000000
+  youth_unemployment_rate: 6.8
+  long_term_unemployment_rate: 0.8
+
+# Health Statistics
+health:
+  public_healthcare: "National Health Insurance (NHIS) - mandatory"
+  doctors_per_1000_population: 2.4
+  hospital_beds_per_1000: 12.5
+  obesity_rate_percent: 5.8
+  smoking_rate_percent: 18
+  life_expectancy_female: 86.2
+  life_expectancy_male: 80.8
+  medical_tourism_annual: 500000

@@ -1,0 +1,185 @@
+# South Korea Banking & Financial System
+# AI-Ready: Structured for multi-agent systems
+
+country: south-korea
+last_updated: "2024-12-15"
+currency: KRW
+oecd_member: true
+
+# Banking System Overview
+system:
+  type: "Universal banking model"
+  regulator: "Financial Services Commission (FSC)"
+  supervisor: "Financial Supervisory Service (FSS)"
+  deposit_guarantee: "₩50 million per depositor (KDIC)"
+  official_url: "https://www.fsc.go.kr"
+  kdic_url: "https://www.kdic.or.kr"
+
+# Major Banks (by total assets, 2024)
+major_banks:
+  - name: "KB Kookmin Bank"
+    type: "Commercial bank"
+    headquarters: "Seoul"
+    total_assets_krw_trillions: 680
+    assets_usd_billions: 510
+    api_available: true
+    website: "https://www.kbstar.com"
+  
+  - name: "Shinhan Bank"
+    type: "Commercial bank"
+    headquarters: "Seoul"
+    total_assets_krw_trillions: 620
+    assets_usd_billions: 465
+    api_available: true
+    website: "https://www.shinhan.com"
+  
+  - name: "Woori Bank"
+    type: "Commercial bank"
+    headquarters: "Seoul"
+    total_assets_krw_trillions: 440
+    assets_usd_billions: 330
+    api_available: true
+    website: "https://www.wooribank.com"
+  
+  - name: "Hana Bank"
+    type: "Commercial bank"
+    headquarters: "Seoul"
+    total_assets_krw_trillions: 410
+    assets_usd_billions: 308
+    api_available: true
+    website: "https://www.hanabank.com"
+  
+  - name: "NH Bank (Nonghyup)"
+    type: "Agricultural cooperative bank"
+    headquarters: "Seoul"
+    total_assets_krw_trillions: 380
+    assets_usd_billions: 285
+    api_available: false
+    website: "https://www.nhbank.com"
+
+# Payment Methods (by transaction volume, 2024)
+payment_methods:
+  - method: "Credit/Debit Cards"
+    market_share: 55
+    major_providers: ["BC Card", "Shinhan Card", "Samsung Card", "KB Kookmin Card"]
+    contactless_limit_krw: 50000
+    notes: "Widely used, tokenization common"
+  
+  - method: "Bank Transfers (Real-time)"
+    market_share: 25
+    system: "FasTonet (RTGS system)"
+    notes: "Instant 24/7, max ₩1 billion per transaction"
+  
+  - method: "KakaoPay"
+    market_share: 15
+    type: "Mobile payment (Kakao ecosystem)"
+    users_millions: 40
+    max_transfer_krw: 2000000
+    notes: "Integrated with KakaoTalk messenger"
+    website: "https://www.kakaopay.com"
+  
+  - method: "Naver Pay"
+    market_share: 8
+    type: "Mobile payment (Naver ecosystem)"
+    users_millions: 28
+    notes: "Integrated with Naver services"
+    website: "https://pay.naver.com"
+  
+  - method: "Cash"
+    market_share: 2
+    notes: "Declining rapidly"
+
+# Payment APIs & Open Banking
+open_banking:
+  launched: 2021
+  regulation: "Enforcement Decree of Electronic Financial Transactions Act"
+  major_aggregators:
+    - name: "Korea Open Banking"
+      coverage: "All major banks"
+      api_url: "https://openbanking.or.kr"
+    - name: "Plaid (Korea)"
+      coverage: "Selected banks"
+  
+  instant_payment_scheme: "FasTonet (real-time gross settlement)"
+  notes: "Open banking mandated for all financial institutions"
+
+# IBAN & SWIFT
+iban:
+  format: "Not used (Korea uses account number system)"
+  swift_codes: "8-11 characters, e.g., KOBOKRSE (KB Kookmin)"
+  account_format: "Bank code (3) + Branch code (4) + Account number (6-14)"
+  example: "011-1234-56789012"
+
+# Fintech & Neobanks
+fintech_landscape:
+  - name: "KakaoBank"
+    origin: "South Korea"
+    users_millions: 22
+    type: "Digital bank (Kakao Corp)"
+    valuation_usd_billions: 9
+    website: "https://www.kakaobank.com"
+    
+  - name: "Toss Bank"
+    origin: "South Korea"
+    users_millions: 18
+    type: "Digital bank (Viva Republic)"
+    valuation_usd_billions: 7
+    website: "https://www.tossbank.com"
+  
+  - name: "Toss Payments"
+    origin: "South Korea"
+    users_millions: 50
+    type: "Fintech payments (Viva Republic)"
+    transactions_billions_per_year: 150
+  
+  - name: "Tada (Kakao Mobility)"
+    users_millions: 25
+    type: "Mobility payments"
+
+# E-Commerce Payment Gateways
+payment_gateways:
+  - name: "KCP (Korea Computer Payment)"
+    market_share: 35
+    api_available: true
+    website: "https://www.kcp.co.kr"
+  
+  - name: "INICIS"
+    market_share: 25
+    api_available: true
+    website: "https://www.inicis.com"
+  
+  - name: "Nice Payments"
+    market_share: 20
+    api_available: true
+    website: "https://www.nicepay.co.kr"
+  
+  - name: "Stripe"
+    market_share: 5
+    api_available: true
+    notes: "Limited Korea support"
+
+# Cryptocurrency Regulations
+cryptocurrency:
+  legal_status: "Legal (Virtual Asset Service Providers)"
+  regulator: "FSC (Financial Services Commission)"
+  registration_required: true
+  reporting: "VASP reporting requirements (travel rule)"
+  tax: "Subject to 20% capital gains tax (over ₩2.5M profit)"
+  vat: "Not subject to VAT"
+  major_exchanges: ["Upbit", "Bithumb", "Coinone", "Korbit"]
+  notes: "Strict regulation since 2021, real-name verification mandatory"
+
+# Invoicing Requirements
+invoicing:
+  mandatory_fields:
+    - "Invoice number and date"
+    - "Supplier and customer tax IDs"
+    - "Description of goods/services"
+    - "VAT amount (if applicable)"
+    - "Total amount including VAT"
+  electronic_invoicing:
+    b2g_required: true
+    b2b_optional: true
+    system: "e-Tax Invoice (mandatory for B2G)"
+  retention: "5 years"
+  official_url: "https://www.etax.go.kr"

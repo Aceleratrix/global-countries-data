@@ -1,0 +1,129 @@
+# South Korea Internet & Data Protection Laws
+# AI-Ready: Structured for multi-agent systems
+
+country: south-korea
+last_updated: "2024-12-15"
+jurisdiction: KR
+
+# Primary Legislation
+laws:
+  - name: "PIPA (Personal Information Protection Act)"
+    code: "Act No. 18643"
+    scope: "Personal data protection, privacy rights"
+    official_url: "https://www.pipc.go.kr"
+  
+  - name: "Network Act (Telecommunications Business Act)"
+    code: "Act No. 19156"
+    scope: "Internet service providers, online content"
+    official_url: "https://www.law.go.kr"
+  
+  - name: "Copyright Act"
+    code: "Act No. 19599"
+    scope: "Copyright, digital rights, fair use"
+    official_url: "https://www.copyright.or.kr"
+  
+  - name: "AI Basic Act (pending)"
+    status: "Proposed (2025 enactment expected)"
+    scope: "AI governance, ethical AI, high-impact AI systems"
+    notes: "World's first comprehensive AI law (planned)"
+
+# AI-Specific Regulations
+ai_regulations:
+  current_status: "Sectoral guidelines (no comprehensive AI law yet)"
+  pending_legislation: "AI Basic Act (2025)"
+  high_risk_ai_categories:
+    - "Biometric identification (face recognition)"
+    - "Critical infrastructure"
+    - "Employment decisions"
+    - "Financial services"
+  
+  requirements:
+    - "Transparency in AI-generated content"
+    - "Human oversight for critical systems"
+    - "Data quality standards"
+    - "Security measures for AI systems"
+
+# Data Localization
+data_localization:
+  requirement: "partial"
+  notes: "Cross-border data transfer restrictions under PIPA"
+  restricted_sectors:
+    - "Health data (medical records)"
+    - "Financial data (credit information)"
+    - "Government data (public sector)"
+  data_transfer_rules:
+    - "Adequate protection required (EU adequacy-like)"
+    - "Consent for transferring sensitive data"
+    - "Data breach notification (72 hours)"
+
+# Cookies & Tracking
+cookie_law:
+  basis: "PIPA"
+  consent_required: true
+  exceptions:
+    - "Strictly necessary cookies"
+    - "Session cookies for functionality"
+  penalty_range: "Up to ₩500 million (~$375,000) or 3% of revenue"
+
+# Consumer Protection
+ecommerce_consumer_protection:
+  law: "Act on Consumer Protection in Electronic Commerce"
+  cooling_off_period: "7 days (online purchases)"
+  mandatory_disclosure:
+    - "Business identity and contact"
+    - "Product/service description"
+    - "Total price including taxes"
+    - "Delivery and refund terms"
+  dispute_resolution: "Korean Consumer Agency"
+
+# Cybersecurity
+cybersecurity_framework:
+  strategy: "National Cyber Security Strategy"
+  authority: "KISA (Korea Internet & Security Agency)"
+  incident_reporting: "Mandatory (critical infrastructure)"
+  official_url: "https://www.kisa.or.kr"
+  5g_security: "Strong focus (world's first nationwide 5G)"
+
+# AI Training Data Restrictions
+training_data_rules:
+  personal_data: "Requires consent or legal basis under PIPA"
+  copyrighted_material: "Fair use exceptions (research, education)"
+  government_data: "Open Government License Korea"
+  exceptions:
+    - "Research purposes"
+    - "Publicly available information"
+    - "Anonymous data"
+
+# Notable Enforcement Cases
+enforcement_examples:
+  - year: 2023
+    authority: "PIPC (Personal Information Protection Commission)"
+    fine: "₩6.9 billion (~$5.2M)"
+    company: "Tech giant"
+    violation: "PIPA - insufficient data protection"
+  
+  - year: 2022
+    authority: "KISA"
+    fine: "₩500 million (~$375,000)"
+    company: "E-commerce platform"
+    violation: "Data breach notification failure"
+
+# Domain & Hosting
+domain_registration:
+  registry: "KRNIC (Korea Network Information Center)"
+  ccTLD: ".kr"
+  annual_cost_krw: 15000
+  requirements:
+    - "Korean resident or registered business"
+    - "Foreign companies need local presence"
+  official_url: "https://www.krnic.or.kr"
+
+# Social Media & Platform Regulations
+platform_laws:
+  - law: "Act on Promotion of Information and Communications Network"
+    scope: "Online content, fake news, harmful content"
+    requirements: "Content moderation, user reporting mechanisms"
+  
+  - law: "Data 3 Act (2023)"
+    components: ["Data Act", "Data Use Act", "Basic Data Act"]
+    purpose: "Facilitate data economy, data sharing between businesses"

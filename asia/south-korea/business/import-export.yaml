@@ -1,0 +1,213 @@
+# South Korea Business: Import & Export
+# AI-Ready: Structured for multi-agent systems#
+
+country: south-korea
+last_updated: "2024-12-15"
+oecd_member: true
+currency: KRW
+
+# Trade Overview
+trade_overview:
+  total_exports_usd_billions: 683
+  total_imports_usd_billions: 732
+  trade_balance_usd_billions: -49
+  rank_global_exports: 6
+  rank_global_imports: 8
+
+# Top Export Destinations (2024)
+top_export_destinations:
+  - country: "China"
+    value_usd_billions: 145
+    share_percent: 21.2
+  
+  - country: "United States"
+    value_usd_billions: 115
+    share_percent: 16.8
+  
+  - country: "Vietnam"
+    value_usd_billions: 58
+    share_percent: 8.5
+  
+  - country: "Japan"
+    value_usd_billions: 32
+    share_percent: 4.7
+  
+  - country: "Hong Kong"
+    value_usd_billions: 28
+    share_percent: 4.1
+  
+  - country: "Taiwan"
+    value_usd_billions: 25
+    share_percent: 3.7
+
+# Top Export Products (2024)
+top_export_products:
+  - product: "Semiconductors (memory chips)"
+    value_usd_billions: 125
+    share_percent: 18.3
+    hs_code: "8542"
+    notes: "Samsung + SK Hynix = 60% global market"
+  
+  - product: "Petroleum products"
+    value_usd_billions: 68
+    share_percent: 10.0
+    hs_code: "27"
+  
+  - product: "Motor vehicles & parts"
+    value_usd_billions: 65
+    share_percent: 9.5
+    hs_code: "87"
+    notes: "Hyundai, Kia dominate"
+  
+  - product: "Ships & vessels"
+    value_usd_billions: 42
+    share_percent: 6.1
+    hs_code: "89"
+    notes: "World's largest shipbuilder"
+  
+  - product: "Wireless communication devices"
+    value_usd_billions: 38
+    share_percent: 5.6
+    hs_code: "8517"
+  
+  - product: "Display panels (OLED, LCD)"
+    value_usd_billions: 35
+    share_percent: 5.1
+    hs_code: "9013"
+
+# Top Import Sources (2024)
+top_import_sources:
+  - country: "China"
+    value_usd_billions: 158
+    share_percent: 21.6
+  
+  - country: "United States"
+    value_usd_billions: 98
+    share_percent: 13.4
+  
+  - country: "Japan"
+    value_usd_billions: 62
+    share_percent: 8.5
+  
+  - country: "Saudi Arabia"
+    value_usd_billions: 38
+    share_percent: 5.2
+    notes: "Crude oil imports"
+  
+  - country: "Australia"
+    value_usd_billions: 32
+    share_percent: 4.4
+    notes: "Iron ore, coal"
+
+# Top Import Products (2024)
+top_import_products:
+  - product: "Crude oil & petroleum"
+    value_usd_billions: 98
+    share_percent: 13.4
+    hs_code: "27"
+  
+  - product: "Semiconductors"
+    value_usd_billions: 68
+    share_percent: 9.3
+    hs_code: "8542"
+  
+  - product: "Natural gas"
+    value_usd_billions: 42
+    share_percent: 5.7
+    hs_code: "27"
+  
+  - product: "Coal"
+    value_usd_billions: 38
+    share_percent: 5.2
+    hs_code: "27"
+
+# Trade Agreements
+trade_agreements:
+  - name: "KORUS FTA (with USA)"
+   生效: 2012-03-15
+    benefits: "Duty-free trade, intellectual property protection"
+    official_url: "https://www.fta.go.kr"
+  
+  - name: "KAFTA (with Australia)"
+   生效: 2014-12-12
+    benefits: "98% tariff elimination"
+  
+  - name: "RCEP (Regional Comprehensive Economic Partnership)"
+   生效: 2022-01-01
+    members: ["ASEAN", "China", "Japan", "Korea", "Australia", "New Zealand"]
+    benefits: "Reduced tariffs across Asia-Pacific"
+  
+  - name: "CPTPP (Comprehensive and Progressive TPP)"
+    joined: 2023-01-01
+    benefits: "Market access to 11 Pacific economies"
+  
+  - name: "Korea-EU FTA"
+   生效: 2011-07-01
+    benefits: "98.7% tariff elimination over 15 years"
+
+# Customs & Duties
+customs:
+  authority: "Korea Customs Service (KCS)"
+  official_url: "https://www.customs.go.kr"
+  average_tariff: "6.5% (MFN rate)"
+  customs_tariff: "Customs Act"
+  import_vat_rate: 10
+  customs_value: "Transaction value (WTO Valuation Agreement)"
+  non_tariff_barriers: "Sanitary and Phytosanitary (SPS) measures, technical standards"
+
+# Import/Export Procedures
+procedures:
+  exports:
+    - "No export license required for most goods"
+    - "Export declaration (B2 form)"
+    - "Certificate of Origin for FTA preferences"
+    - "Export controls for strategic items (dual-use)"
+  
+  imports:
+    - "Import declaration (B3 form)"
+    - "Payment of duties and taxes at border"
+    - "Release after customs clearance"
+    - "Food inspection (MFDS) for food/cosmetics"
+
+# Special Economic Zones
+special_zones:
+  - name: "Free Economic Zones (FEZs)"
+    locations: ["Incheon", "Busan-Jinhae", "Gwangyang", "Daegu-Gyeongbuk"]
+    benefits: "Tax incentives, deregulation, infrastructure support"
+    official_url: "https://www.fez.go.kr"
+  
+  - name: "Korea Free Trade Zones"
+    benefits: "Duty-free zone, simplified procedures"
+    locations: "Major ports and airports"
+
+# Trade Finance
+trade_finance:
+  export_credit_agency: "Korea Trade Insurance Corporation (K-SURE)"
+  official_url: "https://www.ksure.or.kr"
+  services: ["Export credit insurance", "Trade finance", "Political risk insurance"]
+  letter_of_credit_providers: ["KB Kookmin", "Shinhan", "Hana", "Woori"]
+  export_financing: "K-SURE direct loans, working capital"
+
+# Incoterms 2020
+common_incoterms:
+  - "EXW (Ex Works)"
+  - "FCA (Free Carrier)"
+  - "FOB (Free on Board)"
+  - "CIF (Cost, Insurance, Freight)"
+  - "DDP (Delivered Duty Paid)"
+  official_rules: "ICC Incoterms 2020"
+
+# E-Commerce Cross-Border
+ecommerce_imports:
+  us_fta_orders: "Duty-free under KORUS (under $200 USD)"
+  non_fta_orders: "Duties + 10% VAT apply"
+  platform_responsibility: "Marketplace sellers responsible for compliance"
+  customs_broker: "Required for commercial imports >$2,000 USD"
+
+# Export Promotion
+export_promotion:
+  agency: "Korea Trade-Investment Promotion Agency (KOTRA)"
+  official_url: "https://www.kotra.or.kr"
+  services: ["Market research", "Trade missions", "Trade shows", "Investment promotion"]
+  trade_offices_worldwide: 127
+  focus_sectors: ["Semiconductors", "Automotive", "Shipbuilding", "K-beauty", "K-pop"]

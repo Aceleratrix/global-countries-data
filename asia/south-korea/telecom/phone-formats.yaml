@@ -1,0 +1,203 @@
+# South Korea Telecom & Phone Formats
+# AI-Ready: Structured for multi-agent systems
+
+country: south-korea
+last_updated: "2024-12-15"
+calling_code: "+82"
+international_prefix: "001"
+emergency_numbers:
+  police: 112
+  ambulance: 119
+  fire: 119
+
+# Phone Number Format
+phone_format:
+  general_pattern: "+82 XX-XXX-XXXX"
+  country_code: "82"
+  national_prefix: "0 (for domestic calls)"
+  regex_national: "^0[1-6][0-9]{3,4}-?[0-9]{4}$"
+  regex_international: "^\\+82[1-6][0-9]{7,8}$"
+  example_national: "02-1234-5678"
+  example_international: "+82 2-1234-5678"
+  total_length_national: 9-11
+  notes: "Seoul numbers start with 02, mobile starts with 010"
+
+# Area Codes by Region (2024)
+area_codes:
+  - region: "Seoul"
+    codes: ["02"]
+    type: "Metropolitan"
+    population: 9500000
+  
+  - region: "Incheon & Gyeonggi"
+    codes: ["031", "032"]
+    type: "Metropolitan area"
+    population: 26000000
+  
+  - region: "Busan"
+    codes: ["051"]
+    type: "Metropolitan city"
+    population: 3300000
+  
+  - region: "Daegu"
+    codes: ["053"]
+    type: "Metropolitan city"
+    population: 2400000
+  
+  - region: "Gwangju"
+    codes: ["062"]
+    type: "Metropolitan city"
+    population: 1400000
+  
+  - region: "Daejeon"
+    codes: ["042"]
+    type: "Metropolitan city"
+    population: 1500000
+  
+  - region: "Ulsan"
+    codes: ["052"]
+    type: "Metropolitan city"
+    population: 1100000
+  
+  - region: "Gyeongsang (North/South)"
+    codes: ["053", "054", "055"]
+    type: "Province"
+  
+  - region: "Jeolla (North/South)"
+    codes: ["061", "063"]
+    type: "Province"
+  
+  - region: "Chungcheong (North/South)"
+    codes: ["041", "043"]
+    type: "Province"
+  
+  - region: "Gangwon"
+    codes: ["033"]
+    type: "Province"
+  
+  - region: "Jeju"
+    codes: ["064"]
+    type: "Island province"
+
+# Mobile Numbers
+mobile:
+  prefixes: ["010", "011", "016", "017", "018", "019"]
+  format: "010-XXXX-XXXX"
+  example: "010-1234-5678"
+  penetration_percent: 125
+  notes: "Multiple phones per person common, 010 is standard"
+
+# Landline Numbers
+landline:
+  prefixes: ["02", "031-064"]
+  format: "0XX-XXX-XXXX"
+  notes: "Declining rapidly, replaced by mobile"
+
+# Toll-Free & Special Numbers
+special_numbers:
+  - type: "Toll-free"
+    prefixes: ["080", "1588", "1544"]
+    format: "080-XXX-XXXX"
+    cost: "Free for caller"
+    notes: "Used by businesses and customer service"
+  
+  - type: "Premium rate"
+    prefixes: ["060"]
+    cost: "₩300-₩5000 per minute"
+    regulation: "KCC oversight"
+  
+  - type: "Emergency"
+    number: "112 (Police), 119 (Fire/Ambulance)"
+    description: "Unified emergency services"
+  
+  - type: "Government Services"
+    numbers: ["110 (Civil Service)", "120 (Seoul City)"]
+    description: "Public sector hotlines"
+
+# Mobile Operators (2024)
+mobile_operators:
+  - name: "SK Telecom"
+    market_share: 42
+    network: "5G/4G LTE"
+    mnpo: "SK Telecom"
+    api_available: false
+    website: "https://www.sktelecom.com"
+  
+  - name: "KT (Korea Telecom)"
+    market_share: 31
+    network: "5G/4G LTE"
+    mnpo: "KT"
+    api_available: false
+    website: "https://www.kt.com"
+  
+  - name: "LG U+"
+    market_share: 27
+    network: "5G/4G LTE"
+    mnpo: "LG U+"
+    api_available: false
+    website: "https://www.uplus.co.kr"
+
+# Internet Service Providers
+isps:
+  - name: "KT"
+    technology: ["Fiber (FTTH)", "5G Home", "DSL"]
+    max_speed_mbps: 2500
+    coverage_percent: 55
+  
+  - name: "SK Broadband"
+    technology: ["Fiber (FTTH)", "5G Home"]
+    max_speed_mbps: 2500
+    coverage_percent: 30
+  
+  - name: "LG U+"
+    technology: ["Fiber (FTTH)", "5G Home"]
+    max_speed_mbps: 2000
+    coverage_percent: 25
+
+# Internet Penetration
+internet:
+  penetration_percent: 97
+  broadband_households_percent: 95
+  fiber_penetration_percent: 85
+  avg_fixed_speed_mbps: 205
+  avg_mobile_speed_mbps: 180
+  rank_global_speed: 3
+  notes: "World's fastest average internet (Ookla 2024)"
+
+# 5G & Future
+mobile_generation:
+  "3G": "Sunset completed 2021"
+  "4G LTE": "99.5% population coverage"
+  "5G": "95% population coverage (2024) - WORLD'S FIRST NATIONWIDE 5G!"
+  "5G_standalone": "Launched 2021, 85% coverage"
+  notes: "Korea was first country to launch nationwide 5G (April 2019)"
+
+# VoIP & Business Telephony
+voip_providers:
+  - name: "Teams Phone (Microsoft)"
+  - name: "Zoom Phone"
+  - name: "RingCentral"
+  - name: "Naver Cloud Works Phone"
+  - name: "KakaoWork Call"
+
+# SMS & Messaging APIs
+sms_apis:
+  - provider: "Twilio"
+    supported: true
+    sender_id: "Alphanumeric (11 chars max)"
+  - provider: "Vonage"
+    supported: true
+  - provider: "Local operators"
+    api_available: true
+    notes: "All 3 operators offer SMS API services"
+    - "SK Telecom: https://developers.sktelecom.com"
+    - "KT: https://api.kt.com"
+    - "LG U+: https://opendev.uplus.co.kr"
+
+# Number Portability
+portability:
+  available: true
+  timeframe_days: 1
+  cost: "Free"
+  regulator: "KCC (Korea Communications Commission)"
+  notes: "Port between all operators instantly"

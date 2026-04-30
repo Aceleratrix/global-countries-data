@@ -1,0 +1,135 @@
+# South Korea Labor Laws
+# AI-Ready: Structured for multi-agent systems
+
+country: south-korea
+last_updated: "2024-12-15"
+jurisdiction: KR
+
+# Primary Legislation
+primary_law:
+  name: "Labor Standards Act (LSA)"
+  code: "Act No. 19507"
+  official_url: "https://www.law.go.kr"
+  scope: "Working conditions, employment standards"
+
+# Employment Contracts
+contract_types:
+  - type: "Regular (Permanent)"
+    description: "No end date, full labor protections"
+    probation_period_months: 3
+    severance: "One month salary per year worked (mandatory)"
+  
+  - type: "Fixed-term"
+    description: "Fixed duration contract"
+    max_duration_months: 24
+    renewal_limit: "2 times (after which becomes permanent)"
+    severance: "Pro-rated"
+  
+  - type: "Contract (Parts/Bytes)"
+    description: "Hourly or daily work"
+    severance: "If employed >1 year"
+
+# Working Hours
+working_hours:
+  standard_weekly_hours: 40
+  standard_daily_hours: 8
+  rest_between_shifts_hours: 11
+  overtime_max_per_week: 12
+  overtime_rate: "150% of regular wage"
+  night_work_premium: "150% (10 PM - 6 AM)"
+
+# Minimum Wage
+minimum_wage:
+  amount_2024_krw: 9860
+  amount_usd_approx: 7.40
+  payment_schedule: "Hourly"
+  annual_increase: "Determined by Minimum Wage Commission"
+  notes: "One of the highest minimum wages in Asia"
+
+# Sick Leave & Benefits
+sick_leave:
+  paid_sick_days: 0
+  unpaid_sick_days: "By agreement"
+  company_practice: "Most provide 3-10 paid sick days"
+  medical_insurance: "National Health Insurance (NHIS) covers 60-80%"
+
+# Vacation & Leave
+vacation:
+  minimum_days_per_year: 15
+  after_3_years: "Additional 1 day per 2 years (max 25 days)"
+  public_holidays: 15
+  notes: "Employers must provide paid annual leave"
+
+# Parental Leave
+parental_leave:
+  maternity:
+    duration_weeks: 90
+    paid: true
+    pay_rate: "100% (capped at ₩2.1M/month) for first 60 days, 80% thereafter"
+    paid_by: "Employment Insurance"
+  
+  paternity:
+    duration_weeks: 10
+    paid: true
+    pay_rate: "80% (capped)"
+    notes: "Can be taken flexibly within 1 year after birth"
+  
+  childcare_leave:
+    duration_months: 12
+    paid: true
+    pay_rate: "80% (capped)"
+    until_child_age: 8
+
+# Termination
+termination:
+  notice_period_days: 30
+  severance_pay: "Mandatory (1 month per year worked)"
+  unfair_dismissal: "Employer must have just cause"
+  mass_redundancies: "Special procedures, 60 days advance notice"
+
+# Remote Work
+remote_work:
+  law: "No specific remote work law (COVID-19 changed practices)"
+  current_practice: "Hybrid work common in tech/office jobs"
+  requirements: "Written agreement recommended"
+  equipment_provision: "Employer typically provides"
+
+# AI in Employment
+ai_employment_rules:
+  automated_decision_making: "Transparency required (guidelines, not law yet)"
+  worker_monitoring: "Privacy laws apply (PIPA)"
+  algorithmic_management: "Disclosure required"
+  prohibited_practices:
+    - "Discriminatory AI in hiring"
+    - "Biometric monitoring without consent"
+    - "Automated termination without human review"
+  ai_hiring_tools: "Must undergo bias testing (guidelines)"
+
+# Collective Bargaining
+collective_bargaining:
+  coverage_rate: 12
+  union_density: 10.3
+  law: "Trade Union and Labor Relations Adjustment Act"
+  certification: "Majority support required"
+  strikes_legal: "After mediation, 50%+ vote"
+
+# Social Security
+social_security:
+  system: "Four Major Insurances"
+  components:
+    - "National Pension (9% employee + 9% employer)"
+    - "National Health Insurance (3.43% average)"
+    - "Employment Insurance (1.8% total)"
+    - "Industrial Accident Compensation (varies by industry)"
+  notes: "Mandatory for all employees"
+
+# Foreign Workers
+foreign_workers:
+  total_2024: 950000
+  top_origin_countries: ["Vietnam", "China", "Nepal", "Cambodia", "Uzbekistan"]
+  work_visa_types:
+    - "E-7 (Specially Skilled Workers)"
+    - "E-9 (Non-Professional Employment)"
+    - "H-2 (Working Visit)"
+  minimum_wage_applies: true
+  notes: "Strong regulations to protect foreign workers"
