@@ -1,0 +1,59 @@
+---
+name: "🔧 Fix / Update Country Data"
+description: "Fix errors or update outdated information for an existing country"
+title: "[FIX] Update COUNTRY_NAME (COUNTRY_CODE)"
+labels: ["fix", "data-update"]
+assignees: []
+---
+
+## 🌍 Country Affected
+
+**Country:** [e.g., Spain]  
+**ISO Code:** [e.g., es]  
+**Continent:** [Africa/Asia/Europe/North America/South America/Oceania]  
+
+## 🐛 What Needs Fixing?
+
+Describe what is wrong or outdated:
+
+[Explain the issue - wrong data, outdated statistics, missing fields, etc.]
+
+## 📊 Correct Data
+
+Provide the correct information with sources:
+
+**Field:** [e.g., population.total_2024]  
+**Current Value:** [wrong/outdated value]  
+**Correct Value:** [correct value]  
+**Source:** [URL to official source]  
+
+## 📂 Files to Update
+
+Which files need changes? (check all that apply)
+
+- [ ] `COUNTRY.md`
+- [ ] `README.md`
+- [ ] `legal/internet-law.yaml`
+- [ ] `legal/labor-law.yaml`
+- [ ] `fiscal/tax-codes.yaml`
+- [ ] `financial/banks.yaml`
+- [ ] `telecom/phone-formats.yaml`
+- [ ] `demographics/population.yaml`
+- [ ] `tech/ai-cloud-services.yaml`
+- [ ] `business/company-sizes.yaml`
+- [ ] `business/real-estate.yaml`
+- [ ] `business/import-export.yaml`
+- [ ] `marketing/digital-marketing.yaml`
+
+## 🤖 Why This Matters for AI
+
+Explain why this fix is important for AI agents and multi-agent systems:
+
+[Describe impact - e.g., "Incorrect tax rate would cause compliance errors in AI-generated invoices"]
+
+## ✅ Checklist
+
+- [ ] I have verified the correct data with official sources
+- [ ] I have checked that this data is current (within 12 months)
+- [ ] I will provide sources for all changes
+- [ ] I will validate YAML syntax after changes

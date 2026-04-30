@@ -1,0 +1,204 @@
+# Spain Banking & Financial System
+# AI-Ready: Structured for multi-agent systems
+
+country: spain
+last_updated: "2024-12-15"
+currency: EUR
+eu_member: true
+eurozone: true
+
+# Banking System Overview
+system:
+  type: "Universal banking model"
+  regulator: "Banco de España (Central Bank)"
+  supervisor: "European Central Bank (ECB) for significant institutions"
+  deposit_guarantee: "€100,000 per depositor (Fondo de Garantía de Depósitos)"
+  official_url: "https://www.bde.es"
+
+# Major Banks (by total assets, 2024)
+major_banks:
+  - name: "Banco Santander"
+    type: "Commercial bank"
+    headquarters: "Santander, Spain"
+    total_assets_eur_b: 1700
+    global_rank: 15
+    api_available: true
+    api_url: "https://developer.santander.com"
+    open_banking: true
+    website: "https://www.santander.com"
+  
+  - name: "BBVA (Banco Bilbao Vizcaya Argentaria)"
+    type: "Commercial bank"
+    headquarters: "Bilbao, Spain"
+    total_assets_eur_b: 800
+    global_rank: 35
+    api_available: true
+    api_url: "https://bbvaopenplatform.com"
+    open_banking: true
+    website: "https://www.bbva.com"
+  
+  - name: "CaixaBank"
+    type: "Retail bank"
+    headquarters: "Barcelona, Spain"
+    total_assets_eur_b: 600
+    market_share_es: 25
+    api_available: true
+    open_banking: true
+    website: "https://www.caixabank.com"
+  
+  - name: "Sabadell"
+    type: "Commercial bank"
+    headquarters: "Barcelona, Spain"
+    total_assets_eur_b: 300
+    api_available: true
+    open_banking: true
+    website: "https://www.bancsabadell.com"
+  
+  - name: "Bankinter"
+    type: "Commercial bank"
+    headquarters: "Madrid, Spain"
+    total_assets_eur_b: 110
+    api_available: true
+    open_banking: true
+    website: "https://www.bankinter.com"
+
+# Payment Methods (by transaction volume, 2024)
+payment_methods:
+  - method: "Credit/Debit Cards"
+    market_share: 45
+    major_providers: ["Visa", "Mastercard", "American Express"]
+    contactless_limit_eur: 50
+    notes: "Widely accepted, €0.01 minimum for card payments"
+  
+  - method: "Bank Transfers (SEPA)"
+    market_share: 30
+    instant_available: true
+    instant_limit_eur: 100000
+    fee: "Usually free for consumers"
+    notes: "SEPA zone transfers, IBAN format: ES + 20 digits"
+  
+  - method: "Bizum"
+    market_share: 15
+    type: "Instant mobile payment (Spain-only)"
+    user_base_millions: 24
+    max_transfer_eur: 1000
+    min_transfer_eur: 0.50
+    api_available: true
+    notes: "Most popular P2P payment method in Spain"
+  
+  - method: "Digital Wallets"
+    market_share: 8
+    providers:
+      - name: "Apple Pay"
+        adoption: "High"
+      - name: "Google Pay"
+        adoption: "High"
+      - name: "PayPal"
+        adoption: "Medium"
+  
+  - method: "Cash"
+    market_share: 2
+    notes: "Declining rapidly, max payment €1000 for businesses without justification"
+
+# Payment APIs & Open Banking
+open_banking:
+  regulation: "PSD2 (EU Directive)"
+  implementation: "RD 311/2022"
+  required_apis:
+    - "Account Information Services (AIS)"
+    - "Payment Initiation Services (PIS)"
+  major_aggregators:
+    - name: "Plaid"
+      coverage: "Major Spanish banks"
+      api_url: "https://plaid.com"
+    - name: "Tink (Visa)"
+      coverage: "All major banks"
+      api_url: "https://tink.com"
+    - name: "Yapily"
+      coverage: "EU-wide including Spain"
+      api_url: "https://yapily.com"
+  
+  instant_payment_scheme: "SEPA Instant Credit Transfer (SCT Inst)"
+  bizum_api: "Available for banks, not directly for merchants"
+
+# IBAN Format
+iban:
+  format: "ES + 2 check digits + 4 digit bank + 4 digit branch + 2 check digits + 10 digit account"
+  example: "ES9121000418450200051332"
+  length: 24
+  validation_regex: "^ES[0-9]{2}[0-9]{4}[0-9]{4}[0-9]{2}[0-9]{10}$"
+
+# Fintech & Neobanks
+fintech_landscape:
+  - name: "Revolut"
+    origin: "UK"
+    users_es_millions: 3
+    license: "Lithuanian (EU passport)"
+  
+  - name: "N26"
+    origin: "Germany"
+    users_es_millions: 2
+    license: "German (EU passport)"
+  
+  - name: "Wise"
+    origin: "Estonia/UK"
+    users_es_millions: 1.5
+    services: ["International transfers", "Multi-currency accounts"]
+  
+  - name: "Verse"
+    origin: "Spain"
+    users_millions: 2
+    parent: "BBVA"
+    focus: "P2P payments, youth market"
+
+# E-Commerce Payment Gateways
+payment_gateways:
+  - name: "Stripe"
+    market_share: 25
+    api_available: true
+    accepts_bizum: false
+  
+  - name: "PayPal"
+    market_share: 20
+    api_available: true
+  
+  - name: "Redsys"
+    market_share: 30
+    type: "Spanish payment gateway (banks consortium)"
+    api_available: true
+    accepts_bizum: true
+    website: "https://www.redsys.es"
+  
+  - name: "Adyen"
+    market_share: 10
+    api_available: true
+  
+  - name: "Mollie"
+    market_share: 5
+    api_available: true
+
+# Cryptocurrency Regulations
+cryptocurrency:
+  legal_status: "Legal (not recognized as currency)"
+  regulator: "Banco de España"
+  registration_required: true
+  reporting: "Model 721 (foreign crypto assets > €50,000)"
+  tax: "Subject to capital gains tax (19-26%)"
+  vat: "Not subject to VAT (EU ruling)"
+  notes: "Spanish banks launching crypto custody services (Santander, BBVA)"
+
+# Invoicing Requirements
+invoicing:
+  mandatory_fields:
+    - "Invoice number and series"
+    - "Issue date"
+    - "Supplier and customer tax IDs (NIF/NIE)"
+    - "Description of goods/services"
+    - "VAT rate and amount"
+    - "Total amount with/without VAT"
+  electronic_invoicing:
+    b2g_required: true
+    b2b_optional: true
+    standard: "Facturae (XML format)"
+    platform: "FACe (punto general de entrada)"
+  retention: "5 years minimum"

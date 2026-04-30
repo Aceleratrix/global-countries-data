@@ -1,0 +1,193 @@
+# Spain Business: Import & Export
+# AI-Ready: Structured for multi-agent systems
+
+country: spain
+last_updated: "2024-12-15"
+eu_member: true
+eurozone: true
+currency: EUR
+
+# Trade Overview
+trade_overview:
+  total_exports_eur_billions: 450
+  total_imports_eur_billions: 420
+  trade_balance_eur_billions: 30
+  rank_global_exports: 18
+  rank_global_imports: 16
+
+# Top Export Destinations (2024)
+top_export_destinations:
+  - country: "France"
+    value_eur_billions: 75
+    share_percent: 16.7
+  - country: "Germany"
+    value_eur_billions: 62
+    share_percent: 13.8
+  - country: "Portugal"
+    value_eur_billions: 38
+    share_percent: 8.4
+  - country: "Italy"
+    value_eur_billions: 32
+    share_percent: 7.1
+  - country: "United Kingdom"
+    value_eur_billions: 28
+    share_percent: 6.2
+  - country: "United States"
+    value_eur_billions: 25
+    share_percent: 5.6
+  - country: "China"
+    value_eur_billions: 15
+    share_percent: 3.3
+
+# Top Export Products (2024)
+top_export_products:
+  - product: "Motor vehicles & parts"
+    value_eur_billions: 85
+    share_percent: 18.9
+    hs_code: "87"
+  - product: "Machinery & mechanical appliances"
+    value_eur_billions: 52
+    share_percent: 11.6
+    hs_code: "84"
+  - product: "Pharmaceuticals"
+    value_eur_billions: 35
+    share_percent: 7.8
+    hs_code: "30"
+  - product: "Food & beverages (olive oil, wine, citrus)"
+    value_eur_billions: 48
+    share_percent: 10.7
+    hs_code: "16-24"
+  - product: "Electrical machinery"
+    value_eur_billions: 30
+    share_percent: 6.7
+    hs_code: "85"
+  - product: "Plastics & articles"
+    value_eur_billions: 22
+    share_percent: 4.9
+    hs_code: "39"
+
+# Top Import Sources (2024)
+top_import_sources:
+  - country: "Germany"
+    value_eur_billions: 68
+    share_percent: 16.2
+  - country: "China"
+    value_eur_billions: 55
+    share_percent: 13.1
+  - country: "France"
+    value_eur_billions: 52
+    share_percent: 12.4
+  - country: "Italy"
+    value_eur_billions: 38
+    share_percent: 9.0
+  - country: "United States"
+    value_eur_billions: 32
+    share_percent: 7.6
+  - country: "Netherlands"
+    value_eur_billions: 25
+    share_percent: 6.0
+
+# Top Import Products (2024)
+top_import_products:
+  - product: "Motor vehicles & parts"
+    value_eur_billions: 65
+    share_percent: 15.5
+  - product: "Machinery & mechanical appliances"
+    value_eur_billions: 48
+    share_percent: 11.4
+  - product: "Electrical machinery"
+    value_eur_billions: 42
+    share_percent: 10.0
+  - product: "Mineral fuels & oils"
+    value_eur_billions: 38
+    share_percent: 9.0
+  - product: "Pharmaceuticals"
+    value_eur_billions: 25
+    share_percent: 6.0
+
+# Trade Agreements
+trade_agreements:
+  eu_membership: "Full EU member (single market, customs union)"
+  eu_trade_agreements: "All EU FTAs apply (Canada CETA, Japan JEFTA, etc.)"
+  bilateral_agreements:
+    - name: "EU-Mercosur FTA (pending ratification)"
+      status: "Signed 2019, ratification delayed"
+      covers: "Preferential access to Latin America"
+    - name: "EU-Mexico FTA (modernized)"
+      status: "Provisionally applied"
+  wto_member: true
+  gsp_beneficiaries: "Developing countries receive preferential tariffs"
+
+# Customs & Duties
+customs:
+  authority: "Aduanas (Customs) - Tax Agency (AEAT)"
+  official_url: "https://sede.agenciatributaria.gob.es"
+  eu_customs_union: true
+  average_tariff_outside_eu: "Varies by product (0-17%)"
+  common_customs_tariff: "EU Common Customs Tariff (TARIC)"
+  import_vat_rate: 21
+  reduced_vat_rates:
+    - rate: 10
+      applies_to: ["Food", "Books", "Medical equipment"]
+    - rate: 4
+      applies_to: ["Basic foodstuffs", "Medicines"]
+  customs_value: "CIF (Cost, Insurance, Freight)"
+  non_tariff_barriers: "EU Sanitary and Phytosanitary (SPS) measures, CE marking"
+
+# Import/Export Procedures
+procedures:
+  exports:
+    - "No export license required for most goods within EU"
+    - "Intrastat declaration for EU trade > €400,000/year"
+    - "Customs export declaration (DUA) for non-EU exports"
+    - "EUR.1 certificate for preferential tariffs"
+  imports:
+    - "Customs import declaration (DUA) for non-EU goods"
+    - "Payment of customs duties and VAT at import"
+    - "Sanitary/phytosanitary inspections for food, plants, animals"
+    - "CE marking mandatory for industrial products"
+
+# Special Economic Zones
+special_zones:
+  - name: "Canary Islands (REF - Régimen Económico y Fiscal)"
+    benefits: "4% corporate tax, 0% VAT"
+    special_import_duties: "Not part of EU customs union"
+  - name: "ZEC (Zona Especial Canaria)"
+    benefits: "4% corporate tax for qualifying companies"
+    requirements: "Min. investment €100,000, create 5 jobs"
+  - name: "Barcelona Free Trade Zone"
+    benefits: "Duty-free storage, simplified customs"
+  - name: "Vigo Free Trade Zone"
+    benefits: "Automotive sector focus"
+
+# Trade Finance
+trade_finance:
+  letter_of_credit_providers: ["Santander", "BBVA", "CaixaBank", "Bankinter"]
+  export_credit_agency: "CESCE (Compañía Española de Seguros de Crédito a la Exportación)"
+  official_url: "https://www.cesce.es"
+  export_insurance: "Available through CESCE"
+  export_financing: "ICO (Instituto de Crédito Oficial) export loans"
+
+# Incoterms 2020
+common_incoterms:
+  - "EXW (Ex Works) - seller's premises"
+  - "FCA (Free Carrier) - seller delivers to carrier"
+  - "FOB (Free on Board) - seller loads onto vessel"
+  - "CIF (Cost, Insurance, Freight) - seller pays to destination"
+  - "DAP (Delivered at Place) - seller delivers to destination"
+  official_rules: "ICC Incoterms 2020"
+
+# E-Commerce Cross-Border
+ecommerce_imports:
+  eu_orders: "No customs, VAT MOSS scheme"
+  non_eu_orders_under_150eur: "VAT due at import (IOSS simplification)"
+  non_eu_orders_over_150eur: "Customs declaration + duties + VAT"
+  platform_responsibility: "Amazon, AliExpress collect VAT at checkout (IOSS)"
+
+# Export Promotion
+export_promotion:
+  agency: "ICEX España Exportación e Inversiones"
+  official_url: "https://www.icex.es"
+  services: ["Market research", "Trade missions", "Export training", "Trade shows"]
+  trade_offices_worldwide: 98
+  focus_sectors: ["Food & wine", "Infrastructure", "Renewable energy", "Tourism", "Fashion"]

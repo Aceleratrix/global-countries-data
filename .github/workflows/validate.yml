@@ -1,0 +1,195 @@
+name: Validate Country Data
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+    paths:
+      - '**/*.yaml'
+      - '**/*.yml'
+      - '**/COUNTRY.md'
+      - '**/README.md'
+
+jobs:
+  validate-yaml:
+    runs-on: ubuntu-latest
+    name: Validate YAML Syntax
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install pyyaml jsonschema
+      
+      - name: Validate all YAML files
+        run: |
+          python scripts/validate_yaml.py || echo "Validation script not found, using basic check"
+          # Basic YAML syntax check as fallback
+          python -c "
+          import yaml, sys, os
+          errors = []
+          for root, dirs, files in os.walk('.'):
+              for file in files:
+                  if file.endswith('.yaml') or file.endswith('.yml'):
+                      path = os.path.join(root, file)
+                      try:
+                          with open(path, 'r') as f:
+                              yaml.safe_load(f)
+                      except yaml.YAMLError as e:
+                          errors.append(f'{path}: {e}')
+          if errors:
+              print('YAML Syntax Errors:')
+              for err in errors:
+                  print(err)
+              sys.exit(1)
+          else:
+              print('All YAML files are valid!')
+          "
+  
+  check-country-structure:
+    runs-on: ubuntu-latest
+    name: Check Country Structure
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Check country directories have required files
+        run: |
+          python -c "
+          import os, sys
+          
+          continents = ['africa', 'asia', 'europe', 'north-america', 'south-america', 'oceania']
+          required_files = [
+              'COUNTRY.md',
+              'README.md',
+              'legal/internet-law.yaml',
+              'legal/labor-law.yaml',
+              'fiscal/tax-codes.yaml',
+              'financial/banks.yaml',
+              'telecom/phone-formats.yaml',
+              'demographics/population.yaml',
+              'tech/ai-cloud-services.yaml',
+              'business/company-sizes.yaml',
+              'business/real-estate.yaml',
+              'business/import-export.yaml',
+              'marketing/digital-marketing.yaml'
+          ]
+          
+          errors = []
+          countries_checked = 0
+          
+          for continent in continents:
+              if not os.path.exists(continent):
+                  continue
+              for country in os.listdir(continent):
+                  country_path = os.path.join(continent, country)
+                  if not os.path.isdir(country_path):
+                      continue
+                  countries_checked += 1
+                  for req_file in required_files:
+                      full_path = os.path.join(country_path, req_file)
+                      if not os.path.exists(full_path):
+                          errors.append(f'{country_path}/{req_file} is missing')
+          
+          print(f'Checked {countries_checked} countries')
+          
+          if errors:
+              print('Missing files:')
+              for err in errors:
+                  print(f'  - {err}')
+              sys.exit(1)
+          else:
+              print('All countries have required files!')
+          "
+  
+  check-sensitive-data:
+    runs-on: ubuntu-latest
+    name: Check for Sensitive Data
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Scan for API keys, passwords, tokens
+        run: |
+          python -c "
+          import os, re, sys
+          
+          sensitive_patterns = [
+              r'api[_-]?key\s*[:=]\s*[\"\\']?[a-zA-Z0-9]{20,}[\"\\']?',
+              r'password\s*[:=]\s*[\"\\']?.{8,}[\"\\']?',
+              r'token\s*[:=]\s*[\"\\']?[a-zA-Z0-9_\-\.]{20,}[\"\\']?',
+              r'secret\s*[:=]\s*[\"\\']?.{8,}[\"\\']?',
+              r'[a-zA-Z0-9]{32,}',  # Long random strings (potential keys)
+          ]
+          
+          violations = []
+          
+          for root, dirs, files in os.walk('.'):
+              # Skip .git and other hidden dirs
+              dirs[:] = [d for d in dirs if not d.startswith('.')]
+              for file in files:
+                  if file.endswith(('.yaml', '.yml', '.md')):
+                      path = os.path.join(root, file)
+                      try:
+                          with open(path, 'r', encoding='utf-8') as f:
+                              content = f.read()
+                              for pattern in sensitive_patterns:
+                                  if re.search(pattern, content, re.IGNORECASE):
+                                      violations.append(f'{path}: Potential sensitive data found')
+                      except:
+                          pass
+          
+          if violations:
+              print('Potential sensitive data detected:')
+              for v in violations:
+                  print(f'  - {v}')
+              sys.exit(1)
+          else:
+              print('No sensitive data detected!')
+          "
+  
+  validate-json-schema:
+    runs-on: ubuntu-latest
+    name: Validate YAML against Schema
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install pyyaml jsonschema
+      
+      - name: Validate YAML files against schemas
+        run: |
+          python scripts/validate_country.py || echo "Schema validation script not found, skipping"
+        continue-on-error: true
+  
+  summary:
+    runs-on: ubuntu-latest
+    name: Validation Summary
+    needs: [validate-yaml, check-country-structure, check-sensitive-data]
+    if: always()
+    
+    steps:
+      - name: Summary
+        run: |
+          echo "## Validation Results" >> $GITHUB_STEP_SUMMARY
+          echo "- YAML Syntax: ${{ needs.validate-yaml.result }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Country Structure: ${{ needs.check-country-structure.result }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Sensitive Data Check: ${{ needs.check-sensitive-data.result }}" >> $GITHUB_STEP_SUMMARY

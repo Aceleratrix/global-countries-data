@@ -1,0 +1,169 @@
+# Spain Tax Codes & Fiscal Information
+# AI-Ready: Structured for multi-agent systems
+
+country: spain
+last_updated: "2024-12-15"
+currency: EUR
+eu_member: true
+
+# VAT (IVA - Impuesto sobre el Valor Añadido)
+vat:
+  standard_rate: 21
+  reduced_rates:
+    - rate: 10
+      applies_to: ["Food and beverages", "Water supply", "Pharmaceutical products", "Medical equipment"]
+    - rate: 4
+      applies_to: ["Basic foodstuffs", "Books and newspapers", "Wheelchairs and prosthetics", "Social housing"]
+  exempt: ["Healthcare services", "Education", "Financial services", "Postal services"]
+  registration_threshold_eur: 0
+  notes: "Mandatory registration from first sale, no threshold"
+  filing_frequency: "Quarterly (models 303, 390)"
+  official_url: "https://sede.agenciatributaria.gob.es"
+
+# Corporate Income Tax (IS - Impuesto sobre Sociedades)
+corporate_tax:
+  standard_rate: 25
+  reduced_rates:
+    - rate: 15
+      applies_to: ["Newly created companies (first 2 profitable years)"]
+    - rate: 20
+      applies_to: ["Companies with turnover < €10M (partial reduction)"]
+    - rate: 0
+      applies_to: ["Non-profit entities (certain activities)"]
+  special_regimes:
+    - name: "Canary Islands (REF)"
+      rate: 4
+      notes: "Special low-tax zone"
+    - name: "ZEC (Canary Islands Special Zone)"
+      rate: 4
+      requirements: "Minimum investment, job creation"
+  filing_deadline: "25 days after 6 months from fiscal year-end"
+  advance_payments: "Quarterly (models 202, 222)"
+
+# Personal Income Tax (IRPF - Impuesto sobre la Renta)
+personal_income_tax:
+  type: "Progressive"
+  brackets_2024:
+    - up_to_eur: 12450
+      rate: 19
+    - from_eur: 12450
+      up_to_eur: 20200
+      rate: 24
+    - from_eur: 20200
+      up_to_eur: 35200
+      rate: 30
+    - from_eur: 35200
+      up_to_eur: 60000
+      rate: 37
+    - from_eur: 60000
+      rate: 45
+  regional_variations: "Each Autonomous Community sets its own rates (can vary ±3-5%)"
+  savings_tax:
+    - up_to_eur: 6000
+      rate: 19
+    - from_eur: 6000
+      up_to_eur: 50000
+      rate: 21
+    - from_eur: 50000
+      rate: 23
+  filing_deadline: "June 30 (for previous tax year)"
+
+# Social Security Contributions
+social_security:
+  employer_rate: 29.9
+  employee_rate: 6.35
+  breakdown_employer:
+    - item: "Common contingencies"
+      rate: 23.6
+    - item: "Unemployment"
+      rate: 5.5
+    - item: "Training"
+      rate: 0.8
+  breakdown_employee:
+    - item: "Common contingencies"
+      rate: 4.7
+    - item: "Unemployment"
+      rate: 1.55
+    - item: "Training"
+      rate: 0.1
+  minimum_base_eur_month: 1323
+  maximum_base_eur_month: 4788
+
+# Regional & Local Taxes
+regional_taxes:
+  - name: "Income tax (IRPF regional portion)"
+    average_rate: 12.5
+    varies_by_region: true
+  - name: "Wealth tax (Patrimonio)"
+    notes: "Abolished in most regions, still applies in Andalusia, Catalonia, Valencia"
+    threshold_eur: 700000
+    rate_range: "0.2% - 3.75%"
+  
+local_taxes:
+  - name: "IBI (Property tax)"
+    basis: "Cadastral value"
+    rate_range: "0.4% - 1.1%"
+    collected_by: "Municipalities"
+  - name: "IAE (Business tax)"
+    notes: "Abolished for most businesses (still applies to large companies)"
+    threshold: "Turnover > €1M"
+
+# Digital Services Tax
+digital_services_tax:
+  name: "Tasa Google"
+  rate: 3
+  applies_to: "Digital services revenue (online ads, platforms, data sales)"
+  threshold: "Global revenue > €750M AND Spanish revenue > €3M"
+
+# Withholding Taxes
+withholding_tax:
+  dividends:
+    eu_residents: 19
+    non_eu_residents: 19
+    treaty_relief: true
+  interest:
+    standard: 19
+    eu_payments: 0
+  royalties:
+    standard: 24
+    eu_payments: 0
+
+# Tax Identification Numbers
+tax_ids:
+  - name: "NIF (Número de Identificación Fiscal)"
+    format: "Letter + 8 digits (Spanish citizens)"
+    example: "A12345678"
+    for: "Spanish individuals and companies"
+  
+  - name: "NIE (Número de Identidad de Extranjero)"
+    format: "X/Y/Z + 7 digits + letter"
+    example: "X1234567L"
+    for: "Foreigners with economic activities in Spain"
+  
+  - name: "CIF (Código de Identificación Fiscal)"
+    format: "Letter + 7 digits + control letter"
+    example: "A12345678"
+    for: "Companies (being replaced by NIF)"
+  
+  - name: "VAT ID (NIF-IVA)"
+    format: "ES + NIF"
+    example: "ESB12345678"
+    for: "VAT identification in EU"
+
+# Fiscal Year
+fiscal_year:
+  standard: "Calendar year (Jan 1 - Dec 31)"
+  optional: "Companies may choose different fiscal year (must apply to Tax Agency)"
+  closing_deadline: "25 days after 6 months from fiscal year-end"
+
+# Tax Treaties
+tax_treaties: "Over 90 treaties to avoid double taxation"
+official_treaty_list: "https://www.agenciatributaria.es"
+
+# Digital Tax Administration
+tax_administration:
+  name: "Agencia Tributaria (AEAT)"
+  digital_services: "Required for all businesses (modelos 111, 115, 303, etc.)"
+  online_filing: "Mandatory for corporations, optional for individuals"
+  certification_required: "Digital certificate (Certificado Digital) or Cl@ve"
+  official_url: "https://www.agenciatributaria.es"

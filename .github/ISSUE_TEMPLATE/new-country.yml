@@ -1,0 +1,66 @@
+---
+name: "🌍 Add New Country"
+description: "Add a new country to the repository"
+title: "[NEW] Add COUNTRY_NAME (COUNTRY_CODE)"
+labels: ["new-country", "help wanted"]
+assignees: []
+---
+
+## 🌍 Country Information
+
+**Country Name:** [e.g., Canada]  
+**ISO Code (Alpha-2):** [e.g., ca]  
+**Continent:** [Africa/Asia/Europe/North America/South America/Oceania]  
+**GDP (Nominal):** $[amount]  
+**Population:** [number]  
+
+## 📂 Files to Create
+
+Please confirm you will create all 13 required files:
+
+- [ ] `COUNTRY.md` - Country overview
+- [ ] `README.md` - AI-ready summary
+- [ ] `legal/internet-law.yaml` - Internet & data protection laws
+- [ ] `legal/labor-law.yaml` - Employment laws
+- [ ] `fiscal/tax-codes.yaml` - Tax codes & VAT
+- [ ] `financial/banks.yaml` - Banking & payment methods
+- [ ] `telecom/phone-formats.yaml` - Phone formats & telecom
+- [ ] `demographics/population.yaml` - Population & demographics
+- [ ] `tech/ai-cloud-services.yaml` - AI strategy & cloud providers
+- [ ] `business/company-sizes.yaml` - Company size definitions
+- [ ] `business/real-estate.yaml` - Real estate market
+- [ ] `business/import-export.yaml` - Trade & customs
+- [ ] `marketing/digital-marketing.yaml` - Digital marketing landscape
+
+## 📊 Data Sources
+
+Please list your primary data sources (prefer official government websites):
+
+- 
+- 
+- 
+
+## 🤖 AI/LLM Context
+
+Describe how this data can be used by AI agents and multi-agent systems:
+
+[Describe use cases, e.g., tax calculation, compliance checking, market analysis]
+
+## ✅ Checklist
+
+- [ ] I have read the [Contributing Guidelines](CONTRIBUTING.md)
+- [ ] I will create all 13 required files
+- [ ] I will validate YAML files before submitting
+- [ ] I will use official/government sources
+- [ ] I will not include any credentials or sensitive data
+
+## 📸 Preview (Optional)
+
+If you have a draft, paste a snippet of one YAML file here:
+
+```yaml
+# Example
+country: ca
+last_updated: "2024-12-15"
+# ...
+```
