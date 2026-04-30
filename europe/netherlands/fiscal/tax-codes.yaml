@@ -1,0 +1,114 @@
+# Netherlands Tax Codes & Fiscal Information
+# AI-Ready: Structured for multi-agent systems
+
+country: netherlands
+last_updated: "2024-12-15"
+currency: EUR
+eu_member: true
+
+# VAT (BTW - Belasting over de Toegevoegde Waarde)
+vat:
+  standard_rate_percent: 21.0
+  reduced_rate_percent: 9.0
+  zero_rated: ["Exports", "International transportation"]
+  registration_threshold_eur: 20000
+  voluntary_registration: true
+  url: "https://www.belastingdienst.nl"
+  
+# Corporate Income Tax (Vpb - Vennootschapsbelasting)
+corporate_tax:
+  rate_1_percent: 19.0
+  threshold_1_eur: 200000
+  rate_2_percent: 25.8
+  threshold_2_eur: 200001
+  url: "https://www.belastingdienst.nl"
+  
+# Personal Income Tax (IB - Inkomstenbelasting)
+personal_income_tax:
+  brackets:
+    - threshold_eur: 0
+      threshold_usd: 0
+      rate_percent: 9.42
+      type: "Social security contributions"
+    - threshold_eur: 38514
+      threshold_usd: 41600
+      rate_percent: 36.97
+      type: "Taxable income"
+    - threshold_eur: 75551
+      threshold_usd: 81600
+      rate_percent: 49.50
+      type: "Taxable income"
+  url: "https://www.belastingdienst.nl"
+  
+# Withholding Tax
+withholding_tax:
+  dividends_percent: 15
+  interest_percent: 0
+  royalties_percent: 0
+  treaty_relief: true
+  dtp_countries: 90
+  url: "https://www.belastingdienst.nl"
+  
+# 30% Ruling (Skilled Migrants)
+thirty_percent_ruling:
+  tax_benefit: "30% of gross salary tax-free"
+  eligibility: "Income >€46,660 (2024), highly skilled"
+  max_duration_years: 5
+  url: "https://www.belastingdienst.nl"
+  
+# Social Security Contributions
+social_security:
+  employee_rate_percent: 27.65
+  employer_rate_percent: 19.80
+  max_pensionable_salary_eur: 37500
+  includes: ["Unemployment", "Disability", "Orphan/Alimony"]
+  url: "https://www.belastingdienst.nl"
+  
+# Capital Gains Tax
+capital_gains_tax:
+  applicable: false
+  note: "Capital gains taxed as income (box 1, 2, or 3)"
+  box_1_rate_percent: 36.97 to 49.50
+  box_2_rate_percent: 26.9
+  box_3_rate_percent: 36.93
+  
+# Environmental Taxes
+environmental_taxes:
+  energy_tax: true
+  co2_emissions_tax: true
+  waste_tax: true
+  water_board_tax: true
+  
+# Import Duties
+import_duties:
+  eu_customs_union: true
+  standard_rate_percent: 0 to 12
+  wto_most_favored_nation: true
+  url: "https://www.belastingdienst.nl"
+  
+# Reporting & Compliance
+reporting:
+  fiscal_year: "January 1 to December 31"
+  corporate_filing_deadline: "May 1"
+  vat_returns: "Quarterly"
+  electronic_filing: true
+  url: "https://www.belastingdienst.nl"
+  
+# Tax Incentives
+incentives:
+  innovation_box:
+    rate_percent: 9.0
+    eligibility: "RD-intensive companies"
+    url: "https://www.belastingdienst.nl"
+    
+  rd_deduction:
+    rate_percent: 40.0
+    eligibility: "Self-employed with RD"
+    
+  energy_investment_allowance:
+    rate_percent: 45.5
+    eligibility: "Energy-saving investments"
+    
+  self_employed_deduction:
+    amount_eur: 15310
+    eligibility: "ZZP (self-employed)"

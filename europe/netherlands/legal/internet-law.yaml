@@ -1,0 +1,109 @@
+# Netherlands Internet & Data Protection Laws
+# AI-Ready: Structured for multi-agent systems
+
+country: netherlands
+last_updated: "2024-12-15"
+jurisdiction: NL
+eu_member: true
+
+# Primary Legislation
+laws:
+  - name: "Algemene verordening gegevensbescherming (AVG - GDPR)"
+    type: "Data Protection"
+    scope: "EU/National"
+    key_points: ["GDPR implementation", "Data subject rights", "DPIA required", "Breach notification 72h"]
+    effective_date: "2018-05-25"
+    url: "https://autoriteitpersoonsgegevens.nl"
+    
+  - name: "Auteurswet (Copyright Act)"
+    type: "Copyright"
+    scope: "National"
+    key_points: ["Moral rights", "Economic rights", "Safe harbor for ISPs", "Upload filters debate"]
+    effective_date: "1912-06-28"
+    url: "https://wetten.overheid.nl"
+    
+  - name: "Telecommunicatiewet (Tw)"
+    type: "Telecommunications"
+    scope: "National"
+    key_points: ["Net neutrality", "Data retention (partial)", "Cookie consent", "ISP liability"]
+    effective_date: "1998-12-15"
+    url: "https://wetten.overheid.nl"
+    
+# AI-Specific Regulations
+ai_regulations:
+  framework: "EU AI Act (directly applicable)"
+  regulator: "Autoriteit Persoonsgegevens (AP)"
+  key_principles: ["Ethical AI", "Human rights protection", "Transparency", "Accountability", "EU AI Act compliance"]
+  mandatory_reporting: true
+  high_risk_ai: "EU AI Act classification"
+  ai_act_implementation: "2024-08-02 (graded implementation)"
+  
+# Privacy & Data Protection
+privacy:
+  authority: "Autoriteit Persoonsgegevens (AP) - Dutch DPA"
+  url: "https://autoriteitpersoonsgegevens.nl"
+  gdpr_equivalent: true
+  adequacy_decision: true
+  data_localization: false
+  breach_notification_hours: 72
+  
+# Internet Censorship
+internet_censorship:
+  level: "Very Low"
+  blocked_content: ["Child pornography", "Terrorist content (on order)"]
+  filters: "DNS blocking on court orders only"
+  social_media_bans: false
+  
+# Digital Platform Regulation
+digital_platforms:
+  content_removal: "Notice and takedown (EU Directive)"
+  hate_speech_laws: true
+  disinformation_code: "EU Digital Services Act (DSA)"
+  platforms_under_oversight: ["Meta", "Google", "TikTok", "X"]
+  
+# E-Commerce
+ecommerce:
+  consumer_law: "EU Consumer Rights Directive (implemented)"
+  online_purchases: "Same protections as in-store"
+  cooling_off_period_days: 14
+  digital_products_covered: true
+  platform_regulation: "Digital Services Act (DSA)"
+  
+# Telecommunications
+telecommunications:
+  act: "Telecommunicatiewet (Tw)"
+  regulator: "Autoriteit Consument & Markt (ACM)"
+  url: "https://www.acm.nl"
+  metadata_retention: "Limited (privacy concerns)"
+  retention_period_years: "Not systematically (privacy-first)"
+  
+# Cybersecurity
+cybersecurity:
+  strategy: "National Cyber Security Agenda (NCSA)"
+  lead_agency: "NCSC-NL (National Cyber Security Centre)"
+  url: "https://www.ncsc.nl"
+  key_initiatives: ["Critical infrastructure protection", "Public-private partnerships", "Cyber security skills"]
+  eu_nis2_directive: true
+  
+# Cross-Border Data Flows
+cross_border:
+  eu_gdpr: true
+  adequacy_countries: 16
+  data_transfer_mechanisms: ["Standard contractual clauses", "Binding corporate rules", "Adequacy decisions"]
+  
+# Digital Identity
+digital_identity:
+  framework: "DigiD (Digitaal Identiteitsysteem)"
+  gov_identity: "DigiD"
+  url: "https://www.digid.nl"
+  adoption_2024: 16000000
+  eidas_compliant: true
+  
+# Online Gaming
+online_gaming:
+  regulation: "Kansspelautoriteit (Ksa)"
+  online_gambling: "Legal (regulated 2021)"
+  sports_betting: true
+  license_required: true
+  regulator: "Ksa"
+  url: "https://www.ksa.nl"

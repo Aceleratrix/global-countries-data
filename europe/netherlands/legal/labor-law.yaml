@@ -1,0 +1,157 @@
+# Netherlands Labor Laws
+# AI-Ready: Structured for multi-agent systems
+
+country: netherlands
+last_updated: "2024-12-15"
+jurisdiction: NL
+eu_member: true
+
+# Primary Legislation
+federal_law:
+  name: "Burgerlijk Wetboek Boek 7 (Dutch Civil Code Book 7 - Employment)"
+  scope: "National"
+  coverage: "Most employees"
+  url: "https://wetten.overheid.nl"
+  effective_date: "1992-01-01"
+  
+# Collective Labor Agreements
+collective_agreements:
+  name: "Collectieve Arbeidsovereenkomst (CAO)"
+  coverage_percent: 80
+  url: "https://www.ser.nl"
+  
+# Working Hours
+working_hours:
+  standard_week: 38 to 40
+  standard_day: 8
+  max_daily: 12
+  overtime_threshold: 40
+  overtime_rate: 1.5
+  night_shift_multiplier: 1.15
+  sunday_multiplier: 1.25
+  break_required_hours: 5.5
+  
+# Minimum Wage (2024)
+minimum_wage:
+  hourly_eur: 13.68
+  hourly_usd: 14.80
+  monthly_eur_21_plus: 2366
+  monthly_usd_21_plus: 2560
+  monthly_eur_20: 1893
+  monthly_eur_19: 1420
+  monthly_eur_18: 946
+  monthly_eur_15_to_17: 473
+  effective_date: "2024-07-01"
+  review_body: "Ministry of Social Affairs and Employment"
+  url: "https://www.rijksoverheid.nl"
+  
+# Leave Entitlements
+leave:
+  annual_leave_days: 20
+  annual_leave_based_on: "4x weekly working hours"
+  sick_leave: "Paid by employer (first 104 weeks)"
+  sick_pay_percent: 70
+  maternity_leave_weeks: 16
+  maternity_pay_percent: 100
+  paternity_leave_weeks: 1
+  paternity_pay_percent: 100
+  parental_leave_weeks: 26
+  parental_pay_percent: 70
+  care_leave_days: 10
+  
+# Employment Types
+employment_types:
+  permanent:
+    definition: "Onbepaalde tijd (indefinite)"
+    benefits: ["Annual leave", "Sick pay", "Unemployment insurance", "Severance pay"]
+  fixed_term:
+    definition: "Bepaalde tijd (fixed-term)"
+    max_renewals: 3
+    max_duration_months: 36
+    benefits: ["Pro-rata benefits", "Same as permanent"]
+  zero_hours:
+    definition: "Oproepcontract (on-call)"
+    min_gurantee_hours: 4
+    benefits: ["Pro-rata leave", "Sick pay after 26 weeks"]
+  self_employed:
+    definition: "Zelfstandige zonder personeel (ZZP)"
+    benefits: ["No social security", "No sick pay", "DIG allowance"]
+    
+# Termination
+termination:
+  notice_period_months: "1 to 2 (employee), 2 to 4 (employer)"
+  severance_pay: true
+  formula: "Transition allowance (1/3 month per year worked)"
+  dismissal_protection: true
+  UWV_permission: true
+  cantonal_court: true
+  
+# Social Security (SVB)
+social_security:
+  system: "Sociale Verzekeringsbank (SVB)"
+  employer_contribution_percent: 19.80
+  employee_contribution_percent: 27.65
+  coverage: ["Unemployment", "Disability", "Health insurance", "Pension"]
+  url: "https://www.svb.nl"
+  
+# Pension
+pension:
+  system: "Mandatory pension (90% of employees)"
+  employer_contribution_percent: 15.0
+  employee_contribution_percent: 15.0
+  state_pension_age: 67
+  url: "https://www.svb.nl"
+  
+# Works Councils
+works_councils:
+  threshold_employees: 50
+  rights: ["Consultation", "Co-determination (ART. 27)"]
+  url: "https://www.or-nederland.nl"
+  
+# Unions & Collective Bargaining
+unions:
+  coverage_percent: 17.5
+  major_unions:
+    - "FNV (Federatie Nederlandse Vakbeweging)"
+    - "CNV (Christelijk Nationaal Vakverbond)"
+    - "VCP (Vakcentrale voor Professionals)"
+  collective_bargaining: true
+  cao_coverage_percent: 80
+  
+# Health & Safety
+work_health_safety:
+  act: "Arbeidsomstandighedenwet (Working Conditions Act)"
+  regulator: "Inspectie SZW"
+  url: "https://www.inspectieszw.nl"
+  arbo_service_required: true
+  workplace_inspections: true
+  
+# Equal Opportunity
+equal_opportunity:
+  law: "Algemene wet gelijke behandeling (AWGB)"
+  gender_pay_gap_percent: 13.0
+  parental_leave_gender_neutral: true
+  sexual_harassment_protections: true
+  
+# Remote Work
+remote_work:
+  legal_right: true
+  employer_discretion: false
+  employer_obligations: ["Provide equipment", "Reimburse travel/home office costs"]
+  work_from_home_expenses: "€2.33/day (tax-free)"
+  right_to_disconnect: true
+  
+# AI in the Workplace
+ai_workplace:
+  regulation_status: "EU AI Act compliance"
+  ethical_framework: true
+  employer_notification_required: true
+  human_oversight_required: true
+  algorithmic_management: "Restricted (EU AI Act)"
+  
+# 30% Ruling (Skilled Migrants)
+thirty_percent_ruling:
+  tax_benefit: "30% of gross salary tax-free"
+  eligibility: "Highly skilled migrants, scientists"
+  max_duration_years: 5
+  url: "https://www.belastingdienst.nl"

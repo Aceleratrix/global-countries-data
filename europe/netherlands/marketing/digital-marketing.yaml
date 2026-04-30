@@ -1,0 +1,180 @@
+# Netherlands Digital Marketing Landscape
+# AI-Ready: Structured for multi-agent systems
+
+country: netherlands
+last_updated: "2024-12-15"
+eu_member: true
+privacy_law_equivalent: "GDPR (AVG)"
+
+# Digital Marketing Overview
+digital_marketing_overview:
+  market_size_usd_millions: 4800
+  market_size_eur_billions: 4.4
+  annual_growth_percent: 14.5
+  percent_of_total_ad_spend: 76
+  programmatic_share_percent: 82
+  
+# Top Social Media Platforms
+social_media:
+  - platform: "Facebook"
+    users_millions: 15.2
+    penetration_percent: 85
+    business_adoption_percent: 92
+    ad_revenue_usd_millions: 1200
+    
+  - platform: "Instagram"
+    users_millions: 12.5
+    penetration_percent: 70
+    business_adoption_percent: 85
+    ad_revenue_usd_millions: 980
+    
+  - platform: "LinkedIn"
+    users_millions: 8.5
+    penetration_percent: 47
+    business_adoption_percent: 78
+    ad_revenue_usd_millions: 450
+    
+  - platform: "TikTok"
+    users_millions: 6.8
+    penetration_percent: 38
+    business_adoption_percent: 42
+    ad_revenue_usd_millions: 320
+    
+  - platform: "YouTube"
+    users_millions: 14.8
+    penetration_percent: 83
+    business_adoption_percent: 88
+    ad_revenue_usd_millions: 850
+    
+  - platform: "Twitter/X"
+    users_millions: 3.2
+    penetration_percent: 18
+    business_adoption_percent: 48
+    ad_revenue_usd_millions: 120
+    
+# Search Engines
+search_engines:
+  - engine: "Google"
+    market_share_percent: 94.5
+    
+  - engine: "Bing"
+    market_share_percent: 3.8
+    
+  - engine: "DuckDuckGo"
+    market_share_percent: 1.2
+    
+  - engine: "Others"
+    market_share_percent: 0.5
+    
+# E-commerce Platforms
+ecommerce_platforms:
+  - platform: "Bol.com"
+    market_share_percent: 32
+    top_users: ["Retailers", "Brands", "SMEs"]
+    url: "https://www.bol.com"
+    
+  - platform: "Amazon Netherlands"
+    market_share_percent: 22
+    launched: 2020
+    url: "https://www.amazon.nl"
+    
+  - platform: "Coolblue"
+    market_share_percent: 18
+    top_users: ["Electronics", "Home appliances"]
+    url: "https://www.coolblue.nl"
+    
+  - platform: "Zalando"
+    market_share_percent: 12
+    top_users: ["Fashion", "Apparel"]
+    url: "https://www.zalando.nl"
+    
+  - platform: "Shopify"
+    market_share_percent: 8
+    top_users: ["SMEs", "D2C brands"]
+    
+# Digital Ad Spend by Channel
+ad_spend_by_channel:
+  search_ads_percent: 38
+  social_media_ads_percent: 42
+  display_ads_percent: 14
+  video_ads_percent: 18
+  email_marketing_percent: 12
+  influencer_marketing_usd_millions: 280
+  
+# Email Marketing
+email_marketing:
+  top_platforms: ["Mailchimp", "ActiveCampaign", "HubSpot", "Spotler"]
+  average_open_rate_percent: 24.5
+  average_click_rate_percent: 3.2
+  business_adoption_percent: 82
+  
+# SEO & Content Marketing
+seo_content:
+  top_agencies: ["BlueMango", "Togather", "Traffic Builders", "Growtth Bundle"]
+  average_monthly_budget_eur: 2000 to 8000
+  content_marketing_adoption_percent: 84
+  blog_adoption_percent: 72
+  
+# Influencer Marketing
+influencer_marketing:
+  market_size_usd_millions: 280
+  top_influencer_types: ["Lifestyle", "Fashion", "Cycling", "Sustainability", "Tech"]
+  instagram_influencers_100k_plus: 650
+  tiktok_creators_100k_plus: 380
+  micro_influencers_growth_percent: 72
+  
+# Marketing Automation
+marketing_automation:
+  top_platforms: ["HubSpot", "Marketo", "Salesforce Marketing Cloud", "ActiveCampaign"]
+  adoption_percent: 52
+  average_cost_eur_monthly: 400 to 2500
+  
+# Privacy & Compliance
+privacy_compliance:
+  law: "AVG (GDPR)"
+  consent_required: true
+  cookies_banner_required: true
+  email_opt_in: true
+  url: "https://autoriteitpersoonsgegevens.nl"
+  
+# Mobile Marketing
+mobile_marketing:
+  smartphone_penetration_percent: 94
+  mobile_ad_spend_percent: 72
+  sms_marketing_adoption_percent: 45
+  app_advertising_growth_percent: 38
+  
+# Video Marketing
+video_marketing:
+  youtube_dominance: true
+  tiktok_growth_percent: 115
+  live_streaming_growth_percent: 52
+  video_content_types: ["Tutorials", "Product demos", "Cycling content", "Sustainability stories"]
+  
+# B2B Marketing
+b2b_marketing:
+  top_channels: ["LinkedIn", "Email", "Webinars", "Whitepapers"]
+  average_deal_size_usd: 125000
+  sales_cycle_days: 60 to 180
+  account_based_marketing_adoption_percent: 48
+  
+# Marketing Technology Stack
+martech_stack:
+  crm: ["Salesforce", "HubSpot", "Zoho CRM", "Microsoft Dynamics"]
+  analytics: ["Google Analytics 4", "Adobe Analytics", "Piwik PRO"]
+  social_media_management: ["Hootsuite", "Sprout Social", "Buffer"]
+  seo_tools: ["SEMrush", "Ahrefs", "Moz", "Siteimprove"]
+  
+# Local Marketing
+local_marketing:
+  google_my_business_adoption_percent: 78
+  local_seo_investment_growth_percent: 48
+  review_platforms: ["Google Reviews", "Trustpilot", "Kiyoh"]
+  location_based_ads_growth_percent: 42
+  
+# Sustainability Marketing
+sustainability_marketing:
+  focus: "Sustainable business practices"
+  green_marketing_percent: 68
+  b_corp_certification_growth: true
+  top_themes: ["Circular economy", "Climate action", "Ethical production"]

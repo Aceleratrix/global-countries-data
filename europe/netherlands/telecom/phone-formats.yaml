@@ -1,0 +1,125 @@
+# Netherlands Telecom & Phone Formats
+# AI-Ready: Structured for multi-agent systems
+
+country: netherlands
+last_updated: "2024-12-15"
+calling_code: "+31"
+international_prefix: "00"
+emergency_numbers:
+  police: "112"
+  fire: "112"
+  ambulance: "112"
+  unified: true
+  
+# Phone Number Formats
+phone_formats:
+  landline:
+    pattern: "+31 XX XXXXXXXX"
+    digits: 9
+    area_codes: ["020 (Amsterdam)", "010 (Rotterdam)", "030 (Utrecht)", "040 (Eindhoven)", "050 (Groningen)"]
+    example: "+31 20 123 4567"
+    regex: "^\\+31[1-9]\\d{8}$"
+    
+  mobile:
+    pattern: "+31 6 XXXXXXXX"
+    digits: 9
+    prefixes: ["06"]
+    example: "+31 6 1234 5678"
+    regex: "^\\+316\\d{8}$"
+    
+  toll_free:
+    pattern: "0800 XXX XXXX"
+    example: "0800 123 456"
+    regex: "^0800\\d{6,7}$"
+    
+  premium_rate:
+    pattern: "0900 XXX XXXX"
+    example: "0900 123 456"
+    regex: "^0900\\d{6,7}$"
+    
+# Mobile Operators
+mobile_operators:
+  - name: "KPN (Koninklijke PTT Nederland)"
+    market_share_percent: 42
+    network: "4G/5G nationwide"
+    coverage_population_percent: 99.8
+    url: "https://www.kpn.com"
+    
+  - name: "VodafoneZiggo"
+    market_share_percent: 35
+    network: "4G/5G nationwide"
+    coverage_population_percent: 99.5
+    url: "https://www.vodafoneziggo.nl"
+    
+  - name: "T-Mobile (including Tele2)"
+    market_share_percent: 18
+    network: "4G/5G major cities"
+    coverage_population_percent: 98
+    url: "https://www.t-mobile.nl"
+    
+  - name: "Odido (formerly T-Mobile)"
+    market_share_percent: 5
+    network: "4G/5G selected areas"
+    coverage_population_percent: 95
+    url: "https://www.odido.nl"
+    
+# Internet & Broadband
+internet:
+  average_speed_mbps: 97.8
+  fiber_coverage_percent: 85
+  major_providers: ["KPN", "VodafoneZiggo", "T-Mobile", "Delta"]
+  url: "https://www.acm.nl"
+  
+# 4G/5G Coverage
+mobile_data:
+  _4g_coverage_percent: 99.5
+  _5g_coverage_percent: 95
+  major_cities_5g: ["Amsterdam", "Rotterdam", "The Hague", "Utrecht", "Eindhoven"]
+  kpn_5g_launched: 2020
+  
+# VoIP & Digital Services
+voip_services:
+  providers: ["KPN", "VodafoneZiggo", "T-Mobile", "Skype", "WhatsApp"]
+  business_voip: true
+  emergency_calls_requires: "Registered address"
+  
+# Area Codes by Province
+area_codes:
+  amsterdam: "020"
+  rotterdam: "010"
+  the_hague: "070"
+  utrecht: "030"
+  eindhoven: "040"
+  groningen: "050"
+  enschede: "053"
+  maastricht: "043"
+  
+# SMS & Messaging
+sms:
+  max_length_chars: 160
+  unicode_support: true
+  mms_support: true
+  whatsapp_users_millions: 15.5
+  telegram_users_millions: 2.5
+  
+# Telecom Regulation
+regulation:
+  regulator: "Autoriteit Consument & Markt (ACM)"
+  url: "https://www.acm.nl"
+  number_portability: true
+  porting_time_days: 1
+  mobile_number_portability: true
+  
+# International Calling
+international_calling:
+  prefix: "00"
+  voip_providers: ["Skype", "WhatsApp", "Viber", "Viber"]
+  calling_cards: false
+  rates_eur_per_minute: 0.05 to 0.50
+  
+# Cycling Culture Impact
+cycling_culture:
+  bicycles: 23000000
+  population: 17900000
+  ratio: "1.3 bikes per person"
+  impact_on_telecom: "Cycling navigation apps (TomTom, Google Maps)"

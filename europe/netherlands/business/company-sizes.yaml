@@ -1,0 +1,172 @@
+# Netherlands Business: Company Sizes & Classifications
+# AI-Ready: Structured for multi-agent systems
+
+country: netherlands
+last_updated: "2024-12-15"
+eu_member: true
+
+# Company Size Definitions (Dutch Standard Industrial Classification - SBI)
+size_definitions:
+  micro:
+    employees_max: 9
+    revenue_eur_max: 2000000
+    revenue_usd_max: 2160000
+    percent_of_businesses: 72.5
+    examples: ["Sole traders", "Small shops", "Freelancers", "ZZP"]
+    
+  small:
+    employees_range: "10-49"
+    revenue_eur_max: 10000000
+    revenue_usd_max: 10800000
+    percent_of_businesses: 20.8
+    examples: ["Local retailers", "Small manufacturers", "Service providers"]
+    
+  medium:
+    employees_range: "50-249"
+    revenue_eur_max: 50000000
+    revenue_usd_max: 54000000
+    percent_of_businesses: 5.5
+    examples: ["Regional manufacturers", "Mid-size tech firms", "Growing exporters"]
+    
+  large:
+    employees_min: 250
+    revenue_eur_min: 50000000
+    revenue_usd_min: 54000000
+    percent_of_businesses: 1.2
+    examples: ["Multinationals", "Major manufacturers", "Listed companies"]
+    
+# Total Businesses
+total_businesses: 1900000
+listed_companies_aex: 25
+private_companies_percent: 99.9
+
+# Business Structure Types
+business_structures:
+  - type: "Eenmanszaak (Sole Proprietorship)"
+    description: "Single owner, unlimited liability"
+    kvk_required: true
+    percent_of_businesses: 68
+    tax_treatment: "Personal income tax (Box 1)"
+    
+  - type: "Vennootschap onder Firma (VOF)"
+    description: "General partnership"
+    kvk_required: true
+    percent_of_businesses: 12
+    tax_treatment: "Pass-through to partners"
+    
+  - type: "Besloten Vennootschap (BV)"
+    description: "Private limited company"
+    kvk_required: true
+    percent_of_businesses: 18
+    tax_treatment: "Corporate tax (Vpb)"
+    
+  - type: "Naamloze Vennootschap (NV)"
+    description: "Public limited company"
+    kvk_required: true
+    percent_of_businesses: 1.5
+    tax_treatment: "Corporate tax (Vpb)"
+    
+  - type: "Stichting"
+    description: "Foundation (non-profit)"
+    kvk_required: true
+    percent_of_businesses: 0.5
+    tax_treatment: "Special tax rules"
+    
+# KVK (Chamber of Commerce)
+kvk_registration:
+  name: "Kamer van Koophandel (KVK)"
+  format: "8 digits"
+  required_for: "All business activities"
+  url: "https://www.kvk.nl"
+  registration_fee_eur: 50
+  
+# Small Business Support
+small_business_support:
+  rvo:
+    name: "Rijksdienst voor Ondernemers (RVO)"
+    url: "https://www.rvo.nl"
+    
+  incentives:
+    - name: "KOR (Kleineondernemersregeling)"
+      description: "VAT exemption for small businesses"
+      threshold_eur: 20000
+      vat_exemption: true
+      
+    - name: "Innovation Box"
+      description: "Reduced tax rate for innovative companies"
+      rate_percent: 9.0
+      eligibility: "RD-intensive companies"
+      
+    - name: "30% Ruling"
+      description: "Tax-free allowance for skilled migrants"
+      percentage: 30
+      eligibility: "Income >€46,660 (2024)"
+      
+    - name: "WBSO (RD Deduction)"
+      description: "Tax deduction for RD personnel"
+      rate_percent: 40.0
+      eligibility: "Self-employed with RD"
+      
+# Industry Concentrations
+industry_concentrations:
+  top_industries_by_sme_count:
+    - "Business services & Consulting"
+    - "Trade & Retail"
+    - "Agriculture & Horticulture"
+    - "Construction"
+    - "ICT & Tech"
+    
+# Startup Ecosystem
+startups:
+  ecosystem_value_usd_billions: 85
+  unicorns: ["Adyen ($50B)", "MessageBird ($3B)", "Mollie ($6.5B)", "Bird ($1.5B)"]
+  startup_hubs: ["Amsterdam", "Eindhoven", "Utrecht", "Rotterdam", "The Hague"]
+  accelerators: ["Startupbootcamp", "Rockstart", "YES!Delft", "ACE"]
+  coworking_spaces: ["WeWork", "Spaces", "Vipera", "Kazerne"]
+  
+# 30% Ruling (Skilled Migrants)
+thirty_percent_ruling:
+  tax_benefit: "30% of gross salary tax-free"
+  eligibility: "Highly skilled migrants, scientists"
+  max_duration_years: 5
+  income_threshold_2024_eur: 46660
+  url: "https://www.belastingdienst.nl"
+  
+# Business Licenses & Permits
+licenses_permits:
+  federal:
+    - "KVK registration"
+    - "VAT number (if applicable)"
+    - "RSIN number (legal entities)"
+    
+  municipal:
+    - "Municipal business license"
+    - "Environmental permits (if applicable)"
+    
+  professional_registration:
+    required_for: ["Doctors", "Lawyers", "Architects", "Accountants"]
+    regulators: ["BIG register", "Nederlandse Orde van Advocaten", "Architectenregister"]
+    
+# Business Insurance
+business_insurance:
+  compulsory:
+    - "Aansprakelijkheidsverzekering (Liability)"
+    - "Arbeidsongeschiktheidsverzekering (Disability)"
+    
+  recommended:
+    - "Bedrijfsschadeverzekering (Property)"
+    - "Rechtsbijstandverzekering (Legal)"
+    - "Cyberverzekering (Cyber)"
+    
+# Import/Export Business
+import_export:
+  eu_member: true
+  export_facilitation: "RVO (Netherlands Foreign Investment Agency)"
+  url: "https://www.nfia.nl"
+  
+# Self-Employed (ZZP)
+zzp_self_employed:
+  count_millions: 1.8
+  percent_of_workforce: 16.5
+  no_social_security: true
+  dga_status: "Director-major shareholder"

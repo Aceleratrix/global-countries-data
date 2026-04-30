@@ -1,0 +1,153 @@
+# Netherlands Banking & Financial System
+# AI-Ready: Structured for multi-agent systems
+
+country: netherlands
+last_updated: "2024-12-15"
+currency: EUR
+eu_member: true
+
+# Banking System Overview
+system:
+  type: "Universal banking (few large banks)"
+  regulator: "De Nederlandsche Bank (DNB)"
+  url: "https://www.dnb.nl"
+  central_bank: "De Nederlandsche Bank (DNB)"
+  dnb_url: "https://www.dnb.nl"
+  deposit_guarantee_eur: 100000
+  deposit_guarantee_usd: 108000
+  guarantee_scheme: "Deposit Guarantee Scheme (DGS)"
+  
+# Major Banks
+major_banks:
+  - name: "ING Group"
+    market_share_percent: 40
+    assets_eur_trillions: 1.1
+    assets_usd_trillions: 1.2
+    branches: 1500
+    digital_users_millions: 14.5
+    ai_initiatives: ["ING AI Labs", "Fraud detection", "Customer insights", "Robo-advisory"]
+    headquarters: "Amsterdam"
+    
+  - name: "ABN AMRO"
+    market_share_percent: 25
+    assets_eur_billions: 450
+    assets_usd_billions: 486
+    branches: 700
+    digital_users_millions: 8.2
+    ai_initiatives: ["AI trading", "Risk models", "Chatbots"]
+    headquarters: "Amsterdam"
+    
+  - name: "Rabobank"
+    market_share_percent: 22
+    assets_eur_billions: 520
+    assets_usd_billions: 562
+    branches: 1000
+    digital_users_millions: 7.8
+    ai_initiatives: ["Agri-food AI", "Fraud detection", "Credit scoring"]
+    headquarters: "Utrecht"
+    
+  - name: "Triodos Bank"
+    market_share_percent: 3
+    assets_eur_billions: 20
+    assets_usd_billions: 21.6
+    branches: 50
+    digital_users_millions: 0.8
+    ai_initiatives: ["Sustainable finance AI", "Impact measurement"]
+    headquarters: "Zeist"
+    
+  - name: "Bunq"
+    market_share_percent: 2
+    type: "Neobank"
+    users_millions: 11
+    ai_initiatives: ["AI-driven personal finance", "Automated budgeting"]
+    headquarters: "Amsterdam"
+    
+# Payment Methods
+payment_methods:
+  - name: "iDEAL"
+    type: "Direct bank transfer"
+    market_share_percent: 65
+    coverage: "All major Dutch banks"
+    url: "https://www.ideal.nl"
+    api_available: true
+    
+  - name: "Credit/Debit Cards"
+    major_brands: ["Visa", "Mastercard", "Maestro", "VPAY"]
+    market_share_percent: 45
+    average_credit_limit_eur: 3500
+    
+  - name: "Tikkie (ABN AMRO)"
+    type: "Mobile payment (based on iDEAL)"
+    users_millions: 12
+    url: "https://www.tikkie.nl"
+    
+  - name: "PayPal"
+    type: "Digital wallet"
+    market_share_percent: 15
+    coverage: "E-commerce dominant"
+    
+  - name: "Cash"
+    market_share_percent: 12
+    declining: true
+    
+# Digital Banking
+digital_banking:
+  adoption_percent: 96
+  mobile_banking_percent: 92
+  neobanks: ["Bunq", "Revolut", "N26"]
+  open_banking: true
+  open_banking_url: "https://www.dnb.nl"
+  
+# ATMs & Branches
+atms:
+  total: 8500
+  major_bank_ownership_percent: 85
+  independent_operators: false
+  declining_branches: true
+  
+# International Transfers
+international_transfers:
+  swift_codes: true
+  major_providers: ["Western Union", "MoneyGram", "Wise", "Revolut"]
+  average_fee_eur: 5 to 25
+  processing_time_days: 1 to 3
+  
+# Stock Exchange
+stock_exchange:
+  name: "Euronext Amsterdam"
+  market_cap_usd_trillions: 1.6
+  listed_companies: 145
+  aex_index: true
+  url: "https://www.euronext.com"
+  
+# Fintech Ecosystem
+fintech:
+  companies_count: 850
+  total_investment_2023_usd_millions: 1800
+  unicorns: ["Adyen ($50B)", "MessageBird ($3B)", "Mollie ($6.5B)"]
+  hot_sectors: ["Payments", "Lending", "Insurtech", "Wealth management"]
+  url: "https://www.fintechnederland.nl"
+  
+# Cryptocurrency
+cryptocurrency:
+  legal_status: "Legal (regulated)"
+  major_exchanges: ["Bitvavo", "BL3P", "Litebit"]
+  dnb_regulation: true
+  url: "https://www.dnb.nl"
+  
+# Business Banking
+business_banking:
+  business_accounts_required: true
+  kvk_required: true
+  tax_registration_linked: true
+  business_loans:
+    major_providers: ["ING", "ABN AMRO", "Rabobank", "Triodos"]
+    typical_rate_percent: 4.5 to 8.5
+  factoring: true
+  
+# Insurance
+insurance:
+  major_providers: ["Achmea", "VGZ", "CZ Groep", "Menzis"]
+  private_health_insurance: true
+  mandatory_health_insurance: true
+  pensions: "Mandatory pension system"

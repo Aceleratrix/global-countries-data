@@ -1,0 +1,157 @@
+# Netherlands Business: Real Estate
+# AI-Ready: Structured for multi-agent systems
+
+country: netherlands
+last_updated: "2024-12-15"
+eu_member: true
+currency: EUR
+
+# Real Estate Market Overview
+market_overview:
+  total_value_eur_trillions: 3.2
+  total_value_usd_trillions: 3.46
+  residential_percent: 70
+  commercial_percent: 22
+  industrial_percent: 8
+  
+# Major Cities Property Prices (2024)
+property_prices:
+  amsterdam:
+    median_house_eur: 485000
+    median_house_usd: 524000
+    annual_growth_percent: 4.2
+    prime_districts: ["Grachtengordel", "Museumkwartier", "Jordaan", "De Pijp"]
+    
+  rotterdam:
+    median_house_eur: 325000
+    median_house_usd: 351000
+    annual_growth_percent: 5.8
+    top_areas: ["Kralingen", "Centrum", "Blijdorp"]
+    
+  the_hague:
+    median_house_eur: 385000
+    median_house_usd: 416000
+    annual_growth_percent: 3.9
+    
+  utrecht:
+    median_house_eur: 425000
+    median_house_usd: 459000
+    annual_growth_percent: 4.5
+    
+  eindhoven:
+    median_house_eur: 395000
+    median_house_usd: 427000
+    annual_growth_percent: 5.2
+    
+# Rental Market
+rental_market:
+  amsterdam:
+    median_monthly_eur: 1800
+    median_monthly_usd: 1945
+    vacancy_rate_percent: 2.5
+    expat_areas: ["Oud-Zuid", "De Pijp", "Jordaan", "Centrum"]
+    
+  rotterdam:
+    median_monthly_eur: 1250
+    median_monthly_usd: 1350
+    vacancy_rate_percent: 3.2
+    
+  the_hague:
+    median_monthly_eur: 1400
+    median_monthly_usd: 1512
+    vacancy_rate_percent: 2.8
+    
+# Commercial Real Estate
+commercial:
+  office:
+    amsterdam_cbd_eur_m2: 375
+    amsterdam_cbd_usd_m2: 405
+    vacancy_rate_percent: 12.5
+    prime_locations: ["Zuidas", "Amsterdam Sloterdijk", "Amsterdam Zuidoost"]
+    
+  retail:
+    prime_rent_eur_m2: 80 to 250
+    vacancy_rate_percent: 8.5
+    
+  industrial:
+    average_rent_eur_m2: 85
+    vacancy_rate_percent: 4.2
+    demand_drivers: ["Logistics", "Last-mile delivery", "Data centers"]
+    port_of_rotterdam_impact: true
+    
+# Real Estate Investment
+investment:
+  foreign_investment_eur_billions: 18
+  foreign_investment_usd_billions: 19.4
+  top_foreign_buyers: ["Germany", "USA", "UK", "Belgium"]
+  institutional_investors_percent: 45
+  
+# Property Taxes & Costs
+property_taxes:
+  onroerendezaakbelasting_ozb:
+    rate_percent: 0.1 to 0.3
+    based_on: "WOZ value (market value)"
+    
+  transfer_tax:
+    rate_percent: 10.4
+    applies_to: "Residential properties"
+    first_time_buyers_exemption: "Under €525,000 (2024)"
+    
+  notary_fees_eur: 1500 to 3500
+  notary_required: true
+  
+# Real Estate Agents
+real_estate_agents:
+  major_agencies: ["REMAX Netherlands", "ERA Netherlands", "Van der Vorm Makelaars", "Makelaarsland"]
+  average_commission_percent: 1.0 to 2.0
+  licensing: "Makelaar (qualified real estate agent)"
+  
+# Buying Process
+buying_process:
+  steps: ["Offer", "Purchase agreement (voorlopig koopcontract)", "Financing", "Notary deed (leveringsakte)", "Registration at Kadaster"]
+  deposit_percent: 10
+  closing_costs_percent: 5.0 to 8.0
+  notary_required: true
+  kadaster_registration: true
+  
+# Renting Process
+renting_process:
+  lease_term_months: 12 to 24
+  deposit_months: 1 to 2
+  guarantor_required: "For expats without Dutch income"
+  rent_control: true
+  rent_increase_cap_percent: "Inflation + 1% to 4%"
+  
+# New Construction
+new_construction:
+  target_2024: 90000
+  major_projects: ["Amsterdam Southeast expansion", "Rotterdam Merwe-Vierhavens", "Utrecht Leidsche Rijn"]
+  sustainability_requirements: "Energy label A or better"
+  
+# Foreign Buyers
+foreign_buyers:
+  eu_citizens: "No restrictions"
+  non_eu_citizens: "No restrictions (residence permit may be required for mortgage)"
+  financing_available: true
+  expat_mortgage_programs: true
+  
+# Real Estate Portals
+property_portals:
+  - name: "Funda"
+    market_share_percent: 65
+    url: "https://www.funda.nl"
+    
+  - name: "Pararius"
+    market_share_percent: 20
+    url: "https://www.pararius.nl"
+    
+  - name: "Kamernet"
+    market_share_percent: 10
+    url: "https://www.kamernet.nl"
+    
+# Sustainability
+sustainability:
+  energy_label_required: true
+  energy_label_a_plus_plus_percent: 35
+  heat_pumps_adoption_percent: 42
+  solar_panels_percent: 38

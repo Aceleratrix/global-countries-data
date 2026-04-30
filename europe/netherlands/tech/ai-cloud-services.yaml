@@ -1,0 +1,128 @@
+# Netherlands AI & Cloud Services
+# AI-Ready: Structured for multi-agent systems
+
+country: netherlands
+last_updated: "2024-12-15"
+eu_member: true
+
+# National AI Strategy
+national_strategy:
+  name: "AI Delta Plan (Nationaal Delta Plan Kunstmatige Intelligentie)"
+  launched: 2019
+  budget_eur_billions: 1.0
+  budget_usd_billions: 1.08
+  url: "https://aideltaindplasm.nl"
+  key_pillars: ["AI talent development", "AI adoption in industry", "AI ethics & governance", "AI infrastructure"]
+  target_gdp_contribution_eur: "Significant by 2030"
+  talent_target: 100000
+  
+# AI Delta Network
+ai_delta_network:
+  name: "AI Delta Network"
+  members: ["Government", "Industry", "Research institutions", "Civil society"]
+  hubs: ["AI Hub Amsterdam", "AI Hub Eindhoven", "AI Hub Delft"]
+  url: "https://www.aidelta.nl"
+  
+# Major AI Companies & Startups
+ai_companies:
+  - name: "ASML"
+    valuation_usd_billions: 300
+    ai_products: ["EUV lithography AI", "Chip manufacturing optimization", "Yield prediction"]
+    employees: 42000
+    headquarters: "Veldhoven"
+    note: "World's only EUV lithography system supplier"
+    
+  - name: "Booking.com"
+    valuation_usd_billions: 120
+    ai_products: ["Recommendation engine", "Dynamic pricing", "Chatbots", "Fraud detection"]
+    employees: 20000
+    headquarters: "Amsterdam"
+    
+  - name: "Adyen"
+    valuation_usd_billions: 50
+    ai_products: ["Fraud detection", "Risk scoring", "Payment optimization"]
+    employees: 3500
+    headquarters: "Amsterdam"
+    
+  - name: "TomTom"
+    focus: "AI navigation & geospatial data"
+    ai_products: ["Traffic prediction", "Route optimization", "Map automation"]
+    employees: 4000
+    headquarters: "Amsterdam"
+    
+  - name: "Bird (formerlcip)"
+    focus: "AI weather forecasting"
+    ai_products: ["Weather models", "Climate prediction", "Agricultural forecasting"]
+    url: "https://www.bird.ai"
+    
+# AI Research & Academia
+ai_research:
+  top_universities:
+    - "University of Amsterdam - AI Institute (UvA)"
+    - "Eindhoven University of Technology (TU/e) - AI Systems Institute"
+    - "Delft University of Technology - QUVA Lab (with Qualcomm)"
+    - "Utrecht University - AI & Data Science"
+    - "Wageningen University - Agri-Food AI"
+    
+  research_institutes:
+    - "CWI (Centrum Wiskunde & Informatica) - Machine Learning"
+    - "TNO (Netherlands Organisation for Applied Scientific Research) - AI"
+    
+# Cloud Regions
+cloud_regions:
+  aws:
+    regions: ["Europe (Amsterdam)"]
+    availability_zones: 3
+    url: "https://aws.amazon.com/about-aws/global-infrastructure/regions_az/"
+    
+  azure:
+    regions: ["Netherlands North", "Netherlands West"]
+    availability_zones: 6
+    url: "https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/"
+    
+  google_cloud:
+    regions: ["Netherlands (Amsterdam)"]
+    availability_zones: 3
+    url: "https://cloud.google.com/about/locations"
+    
+  oracle_cloud:
+    regions: ["Netherlands (Amsterdam)"]
+    availability_zones: 2
+    
+# Government AI Initiatives
+government_ai:
+  digital_transformation: "Digital Government Agenda"
+  ai_procurement_policy: "EU AI Act implementation"
+  ai_ethics_certification: true
+  gov_ai_use_cases: ["Tax fraud detection (Belastingdienst)", "Customs optimization", "Health diagnostics", "Education personalization"]
+  url: "https://www.government.nl"
+  
+# AI Investment & Funding
+ai_investment:
+  venture_capital_2023_usd_millions: 2800
+  major_investors: ["Prime Ventures", "Connected Ventures", "Endeit Capital", "ING Ventures"]
+  gov_ai_funding_eur_millions: 1000
+  
+# AI Skills & Talent
+ai_skills:
+  ai_workers_estimate: 85000
+  skills_shortage: true
+  government_training_budget_eur_millions: 150
+  visa_pathways: ["30% ruling", "Highly Skilled Migrant Visa"]
+  ai_courses_universities: 180
+  
+# AI Regulations - EU AI Act
+ai_regulation_roadmap:
+  2024: "EU AI Act enters into force (August)"
+  2025: "Prohibited AI practices banned (February)"
+  2026: "High-risk AI requirements apply"
+  alignment: "EU AI Act, OECD AI Principles, GDPR"
+  
+# AI in Key Industries
+industry_ai_adoption:
+  semiconductors: ["EUV lithography optimization", "Yield prediction", "Defect detection (ASML)", "Supply chain AI"]
+  agri_food: ["Precision farming", "Crop monitoring (drones)", "Yield prediction", "Vertical farming AI"]
+  logistics: ["Route optimization", "Predictive maintenance", "Autonomous vehicles", "Port automation (Rotterdam)"]
+  fintech: ["Credit scoring", "Fraud detection", "Robo-advisory", "KYC automation"]
+  healthtech: ["Medical imaging AI", "Drug discovery", "Patient risk scoring", "Telemedicine AI"]
+  water_management: ["Flood prediction", "Water quality monitoring", "Dike monitoring (IoT + AI)"]

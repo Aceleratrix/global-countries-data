@@ -1,0 +1,143 @@
+# Netherlands Demographics & Population
+# AI-Ready: Structured for multi-agent systems
+
+country: netherlands
+last_updated: "2024-12-15"
+eu_member: true
+
+# Population Overview
+population:
+  total_2024: 17900000
+  total_2023: 17800000
+  growth_rate_percent: 0.56
+  density_per_km2: 424
+  density_per_mi2: 1098
+  median_age: 42.5
+  life_expectancy_years: 82.1
+  fertility_rate: 1.66
+  
+# Urbanization
+urbanization:
+  urban_population_percent: 93.5
+  rural_population_percent: 6.5
+  major_cities:
+    - name: "Amsterdam"
+      population: 872000
+      metro_area: 2480000
+      
+    - name: "Rotterdam"
+      population: 654000
+      metro_area: 1180000
+      
+    - name: "The Hague (Den Haag)"
+      population: 560000
+      metro_area: 1050000
+      
+    - name: "Utrecht"
+      population: 361000
+      metro_area: 660000
+      
+    - name: "Eindhoven"
+      population: 237000
+      metro_area: 750000
+      
+# Migration
+migration:
+  net_migration_rate: 3.2
+  immigrants_2023: 252000
+  top_source_countries: ["Germany", "Poland", "Turkey", "Suriname", "Moroco"]
+  asylum_seekers_2023: 38000
+  url: "https://www.cbs.nl"
+  
+# Languages
+languages:
+  official: "Dutch (Nederlands)"
+  spoken_at_home:
+    - language: "Dutch"
+      percent: 96.5
+    - language: "English"
+      percent: 90.0
+      as_second_language: true
+    - language: "German"
+      percent: 71.0
+      as_second_language: true
+    - language: "Turkish"
+      percent: 2.3
+    - language: "Arabic"
+      percent: 1.8
+      
+# Ethnicity
+ethnicity:
+  dutch_percent: 75.8
+  immigrant_background_percent: 24.2
+  top_origins: ["Turkish", "Morocan", "Surinamese", "Indonesian", "German"]
+  
+# Religion
+religion:
+  no_religion_percent: 57.8
+  christian_percent: 33.5
+  islam_percent: 5.8
+  hindu_percent: 1.0
+  buddhist_percent: 0.6
+  jewish_percent: 0.2
+  
+# Education
+education:
+  literacy_rate_percent: 99.0
+  tertiary_education_percent: 41
+  school_life_expectancy_years: 18
+  higher_education_institutions: 40
+  top_universities: ["University of Amsterdam", "Utrecht University", "Leiden University", "Eindhoven University of Technology (TU/e)", "Wageningen University"]
+  english_taught_programs: 1200
+  
+# Income & Wealth
+income:
+  median_household_income_eur: 47500
+  median_household_income_usd: 51300
+  gini_coefficient: 0.26
+  poverty_rate_percent: 8.5
+  extreme_poverty_percent: 0.5
+  minimum_wage_eur: 2366
+  minimum_wage_usd: 2560
+  
+# Employment
+employment:
+  labor_force_participation_percent: 83.2
+  unemployment_rate_percent: 3.4
+  youth_unemployment_percent: 9.5
+  part_time_employment_percent: 38.5
+  major_industries: ["Agriculture", "Logistics", "Energy", "Technology", "Financial Services"]
+  self_employed_percent: 16.5
+  
+# Digital Adoption
+digital_adoption:
+  internet_users_percent: 98.5
+  smartphone_penetration_percent: 94
+  social_media_users_percent: 88
+  ecommerce_penetration_percent: 92
+  digital_payment_adoption_percent: 97
+  
+# Demographics by Age
+age_distribution:
+  _0_to_14_percent: 15.8
+  _15_to_64_percent: 64.2
+  _65_plus_percent: 20.0
+  median_age: 42.5
+  
+# Housing
+housing:
+  home_ownership_percent: 68
+  renting_percent: 32
+  median_house_price_amsterdam_eur: 485000
+  median_house_price_amsterdam_usd: 524000
+  median_house_price_rotterdam_eur: 325000
+  average_rent_amsterdam_eur_month: 1800
+  average_rent_rotterdam_eur_month: 1250
+  
+# Health
+health:
+  public_healthcare: "Zorgverzekeringswet (Zvw)"
+  private_healthcare_percent: 100
+  mandatory_insurance: true
+  doctors_per_1000: 3.2
+  hospital_beds_per_1000: 3.1

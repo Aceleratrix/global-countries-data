@@ -1,0 +1,187 @@
+# Netherlands Business: Import & Export
+# AI-Ready: Structured for multi-agent systems
+
+country: netherlands
+last_updated: "2024-12-15"
+eu_member: true
+currency: EUR
+
+# Trade Overview
+trade_overview:
+  total_exports_usd_billions: 964
+  total_imports_usd_billions: 871
+  trade_balance_usd_billions: 93
+  top_trading_partner: "Germany"
+  eu_share_percent: 65
+  port_of_rotterdam_rank: "Europe's largest port"
+
+# Major Exports
+exports:
+  top_commodities:
+    - commodity: "Machinery & Equipment"
+      value_usd_billions: 185
+      percent_of_total: 19.2
+      major_markets: ["Germany", "Belgium", "France", "UK"]
+      
+    - commodity: "Chemicals & Pharmaceuticals"
+      value_usd_billions: 165
+      percent_of_total: 17.1
+      major_markets: ["Germany", "USA", "Belgium", "China"]
+      
+    - commodity: "Mineral Fuels & Oil"
+      value_usd_billions: 145
+      percent_of_total: 15.0
+      major_markets: ["Germany", "Belgium", "UK", "France"]
+      
+    - commodity: "Electrical Machinery"
+      value_usd_billions: 128
+      percent_of_total: 13.3
+      major_markets: ["Germany", "Belgium", "France", "USA"]
+      
+    - commodity: "Agricultural Products (Flowers, Vegetables)"
+      value_usd_billions: 120
+      percent_of_total: 12.4
+      major_markets: ["Germany", "UK", "Belgium", "France"]
+      note: "World's 2nd largest agricultural exporter"
+      
+    - commodity: "Precision Instruments (ASML)"
+      value_usd_billions: 98
+      percent_of_total: 10.2
+      major_markets: ["Taiwan", "South Korea", "China", "USA"]
+      
+# Major Imports
+imports:
+  top_commodities:
+    - commodity: "Machinery & Equipment"
+      value_usd_billions: 198
+      percent_of_total: 22.7
+      
+    - commodity: "Chemical Products"
+      value_usd_billions: 145
+      percent_of_total: 16.6
+      
+    - commodity: "Mineral Fuels & Oil"
+      value_usd_billions: 132
+      percent_of_total: 15.2
+      
+    - commodity: "Electrical Machinery"
+      value_usd_billions: 118
+      percent_of_total: 13.5
+      
+    - commodity: "Vehicles & Auto Parts"
+      value_usd_billions: 85
+      percent_of_total: 9.8
+      
+# Top Trading Partners
+trading_partners:
+  exports:
+    - country: "Germany"
+      value_usd_billions: 245
+      percent_of_total: 25.4
+    - country: "Belgium"
+      value_usd_billions: 125
+      percent_of_total: 13.0
+    - country: "France"
+      value_usd_billions: 98
+      percent_of_total: 10.2
+    - country: "UK"
+      value_usd_billions: 85
+      percent_of_total: 8.8
+    - country: "USA"
+      value_usd_billions: 72
+      percent_of_total: 7.5
+      
+  imports:
+    - country: "Germany"
+      value_usd_billions: 195
+      percent_of_total: 22.4
+    - country: "Belgium"
+      value_usd_billions: 115
+      percent_of_total: 13.2
+    - country: "China"
+      value_usd_billions: 98
+      percent_of_total: 11.3
+    - country: "USA"
+      value_usd_billions: 85
+      percent_of_total: 9.8
+    - country: "France"
+      value_usd_billions: 72
+      percent_of_total: 8.3
+      
+# Free Trade Agreements
+free_trade_agreements:
+  - name: "EU Single Market"
+    type: "Single market"
+    members: 27
+    url: "https://ec.europa.eu"
+    
+  - name: "EU Customs Union"
+    members: 27
+    
+  - name: "EU-Japan EPA"
+    signed: 2018
+    effective: 2019
+    
+  - name: "EU-Canada CETA"
+    signed: 2016
+    effective: 2017
+    
+  - name: "EU-Vietnam FTA"
+    signed: 2019
+    effective: 2020
+    
+# Port of Rotterdam
+port_of_rotterdam:
+  rank: "Europe's largest port"
+  throughput_teu_millions: 15.3
+  throughput_tons_millions: 467
+  main_cargo: ["Containers", "Bulk", "Liquid bulk (oil)"]
+  ai_innovations: ["Automated container handling", "Predictive maintenance", "Port community system"]
+  url: "https://www.portofrotterdam.com"
+  
+# Agri-Food Powerhouse
+agri_food:
+  rank_global: 2
+  exports_usd_billions: 120
+  top_products: ["Flowers (tulips)", "Vegetables (tomatoes, peppers)", "Dairy (cheese)", "Meat (pork, poultry)"]
+  innovations: ["Vertical farming AI", "Precision agriculture", "Climate-controlled greenhouses"]
+  
+# Trade Promotion
+trade_promotion:
+  nfia:
+    name: "Netherlands Foreign Investment Agency"
+    url: "https://www.nfia.nl"
+    services: ["Investment facilitation", "Trade missions", "Market intelligence"]
+    
+  rvo:
+    name: "Rijksdienst voor Ondernemers (RVO)"
+    url: "https://www.rvo.nl"
+    services: ["Export credit insurance", "Trade finance", "Market access"]
+    
+# Import Regulations
+import_regulations:
+  customs_union: "EU Customs Union"
+  vat_on_imports: true
+  vat_rate_percent: 21
+  duty_rates: "0% to 12% (EU external tariff)"
+  url: "https://www.belastingdienst.nl"
+  
+# Export Controls
+export_controls:
+  eu_dual_use_regulation: true
+  licensing_authority: "Central Import and Export Office (CDIU)"
+  url: "https://www.cdiu.nl"
+  
+# Export Finance
+export_finance:
+  atradius_dutch_state_business:
+    name: "Atradius Dutch State Business (DSB)"
+    url: "https://www.atradius.nl/dsb"
+    services: ["Export credit insurance", "Working capital", "Guarantees"]
+    
+# Regional Trade
+regional_trade:
+  eu_member: true
+  schengen_area: true
+  benelux_union: true
+  members_with: ["Belgium", "Luxembourg"]
