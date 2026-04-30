@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Country Metadata",
+  "type": "object",
+  "required": ["name", "slug", "iso_code", "currency", "language"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Nome do país em inglês"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Identificador único (lowercase, hífens)"
+    },
+    "iso_code": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$",
+      "description": "Código ISO 3166-1 alpha-2"
+    },
+    "iso_alpha3": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}$",
+      "description": "Código ISO 3166-1 alpha-3"
+    },
+    "schema": {
+      "type": "string",
+      "pattern": "^countries-data/v\\d+$",
+      "default": "countries-data/v1"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "license": {
+      "type": "string",
+      "default": "MIT"
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "authors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": {"type": "string"},
+          "github": {"type": "string"}
+        }
+      }
+    },
+    "currency": {
+      "type": "object",
+      "required": ["code", "symbol"],
+      "properties": {
+        "code": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$"
+        },
+        "symbol": {"type": "string"},
+        "name": {"type": "string"}
+      }
+    },
+    "language": {
+      "type": "object",
+      "required": ["primary"],
+      "properties": {
+        "primary": {"type": "string"},
+        "secondary": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "population": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "phone_prefix": {
+      "type": "string",
+      "pattern": "^\\+\\d+$"
+    },
+    "completeness": {
+      "type": "object",
+      "properties": {
+        "fiscal": {"type": "number", "minimum": 0, "maximum": 100},
+        "telecom": {"type": "number", "minimum": 0, "maximum": 100},
+        "legal": {"type": "number", "minimum": 0, "maximum": 100},
+        "financial": {"type": "number", "minimum": 0, "maximum": 100},
+        "demographics": {"type": "number", "minimum": 0, "maximum": 100},
+        "business": {"type": "number", "minimum": 0, "maximum": 100}
+      }
+    }
+  }
+}

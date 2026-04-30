@@ -1,0 +1,94 @@
+---
+name: "Country Name"
+slug: country-slug
+schema: countries-data/v1
+version: 1.0.0
+license: MIT
+last_updated: YYYY-MM-DD
+authors:
+  - name: "Your Name"
+    github: "yourusername"
+
+# Dados básicos
+iso_code: "XX"
+iso_alpha3: "XXX"
+phone_prefix: "+XXX"
+currency:
+  code: "XXX"
+  symbol: "$"
+  name: "Currency Name"
+language:
+  primary: "en-XX"
+  secondary: ["es", "fr"]
+population: 1000000
+area_km2: 100000
+
+# URLs úteis
+government_url: "https://www.government.gov"
+central_bank: "https://www.centralbank.gov"
+tax_authority: "https://www.tax.gov"
+
+# Status de completude
+completeness:
+  fiscal: 0%
+  telecom: 0%
+  legal: 0%
+  financial: 0%
+  demographics: 0%
+  business: 0%
+---
+
+# Country Name
+
+Repositório completo de dados para operar em [Country Name].
+
+## Visão Geral
+- **Moeda:** Currency Name (XXX)
+- **Idioma:** Primary Language
+- **População:** X.X milhões
+- **PIB:** USD X.X trilhões
+
+## Como Usar Estes Dados
+
+Para sistemas de IA multi-agente:
+```python
+import yaml
+with open('country-slug/fiscal/tax-codes.yaml') as f:
+    tax_data = yaml.safe_load(f)
+```
+
+## Estrutura de Dados
+- [Fiscal](#fiscal) - Impostos, códigos fiscais, notas fiscais
+- [Telecom](#telecom) - Formatos de telefone, CEP, endereços
+- [Legal](#legal) - Tipos de empresa, registro, compliance
+- [Financial](#financial) - Bancos, métodos de pagamento, moeda
+- [Demographics](#demographics) - População, idiomas, cultura
+- [Business](#business) - Portes de empresa, setores, horários
+
+---
+
+## Dados Detalhados
+
+### Fiscal
+(see fiscal/ directory)
+
+### Telecom
+(see telecom/ directory)
+
+### Legal
+(see legal/ directory)
+
+### Financial
+(see financial/ directory)
+
+### Demographics
+(see demographics/ directory)
+
+### Business
+(see business/ directory)
+
+---
+
+**Mantido por:** [Comunidade Open Source](https://github.com/seu-usuario/global-countries-data)
+**Licença:** MIT
+**Schema:** countries-data/v1
