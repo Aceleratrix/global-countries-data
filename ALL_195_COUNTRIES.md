@@ -37,7 +37,7 @@
 | 22 | 🇸🇪 Suécia | sweden | Europe | $0.58T |
 | 23 | 🇧🇪 Bélgica | belgium | Europe | $0.58T |
 | 24 | 🇳🇴 Noruega | norway | Europe | $0.55T |
-| 25 | 🇦🇹 Áustria | austria | Europe | $0.52T |
+| 25 | 🇦🇹 Áustria | austria | Europe | $0.85T | ✅ 100% COMPLETE |
 | 26 | 🇦🇪 Emirados Árabes | uae | Asia | $0.50T |
 | 27 | 🇹🇭 Tailândia | thailand | Asia | $0.49T |
 | 28 | 🇮🇾 Nigéria | nigeria | Africa | $0.48T |
