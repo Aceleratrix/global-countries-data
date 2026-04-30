@@ -1,0 +1,72 @@
+# Arábia Saudita - Internet Law (Proteção de Dados)
+# Fonte: CISA, SDAIA, Communications and Information Technology Commission
+
+country: "Saudi Arabia"
+iso_code: "SA"
+data_protection_authority: "SDAIA (Saudi Data and Artificial Intelligence Authority)"
+website: "https://sdaia.gov.sa"
+
+laws:
+  - name: "PDPL (Personal Data Protection Law)"
+    description: "Lei de Proteção de Dados Pessoais (similar ao GDPR)"
+    effective_date: "2023-09-14"
+    gdpr_alignment: "partial"
+    
+  - name: "Anti-Cyber Crime Law (Royal Decree M/26)"
+    description: "Lei contra crimes cibernéticos"
+    effective_date: "2007-03-26"
+    amendments: "2019, 2023"
+    
+  - name: "Cloud First Policy (CISA)"
+    description: "Política de priorização de serviços em nuvem governamentais"
+    effective_date: "2021-01-01"
+    
+  - name: "E-Transactions Law"
+    description: "Lei de transações eletrônicas e assinaturas digitais"
+    effective_date: "2007-08-08"
+
+data_protection:
+  dpo_required:
+    public_authorities: true
+    large_scale_processing: true
+    sensitive_data: true
+    threshold_employees: 100
+    
+  penalties:
+    max_administrative_fine:
+      tier_1: "SAR 3M (~$800k) ou 3% faturamento anual"
+      tier_2: "SAR 5M (~$1.3M) ou 5% faturamento anual"
+      
+  rights:
+    access: true
+    rectification: true
+    erasure: true
+    portability: false
+    objection: true
+    automated_decision_making: false
+
+e_commerce:
+  cookie_consent: "implied (opt-out)"
+  privacy_policy_required: true
+  data_breach_notification: "72 hours"
+  commercial_communications: "opt-in"
+  
+domain_registration:
+  registry: "CITC (Communications and Information Technology Commission)"
+  requirements:
+    - "Saudi national ID (for residents)"
+    - "Commercial registration (for companies)"
+    - ".sa domain requires local presence"
+  average_price: "SAR 50-150/ano (~$13-40)"
+
+ai_regulation:
+  national_strategy: "National Strategy for Data and AI (NSDAI)"
+  high_risk_systems: "regulated (under development)"
+  transparency_requirements: "mandatory for government AI"
+  global_rank: "Top 10 in AI readiness (2025)"
+  
+notes: >
+  Arábia Saudita está rapidamente modernizando sua legislação digital via
+  SDAIA e CISA. O PDPL é o principal marco de proteção de dados, com
+  multas significativas para violações. O país é líder regional em
+  adoção de IA e serviços em nuvem, com data centers de grandes techs.

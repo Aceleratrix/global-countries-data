@@ -1,0 +1,90 @@
+# Arábia Saudita - Phone Formats (Telecomunicações)
+# Fonte: CITC (Communications and Information Technology Commission)
+
+country: "Saudi Arabia"
+iso_code: "SA"
+country_code: "+966"
+international_prefix: "00"
+trunk_prefix: "0"  # Para chamadas nacionais
+
+phone_number_format:
+  general_pattern: "\\+966[5]\\d{8}"
+  total_digits: 9  # After country code
+  area_code_required: false  # Direct dialing nationwide
+  mobile_prefixes: ["5"]
+  landline_prefixes: ["1", "2", "3", "4", "6", "7", "8"]
+  
+landline:
+  format: "+966 1X XXX XXXX (Riade), +966 2X XXX XXXX (Jeddah)"
+  examples: ["+966 11 123 4567", "+966 21 123 4567"]
+  major_area_codes:
+    Riyadh: "11"
+    Jeddah: "21"
+    Mecca: "22"
+    Medina: "23"
+    Dammam: "31"
+    Khobar: "32"
+  number_portability: true
+  portability_time: "2 business days"
+
+mobile:
+  format: "+966 5XX XXX XXXX"
+  examples: ["+966 512 345 678", "+966 550 123 456"]
+  major_operators:
+    - name: "STC (Saudi Telecom Company)"
+      market_share: "45%"
+      prefix_range: "50-54, 59"
+    - name: "Zain Saudi Arabia"
+      market_share: "30%"
+      prefix_range: "55-58"
+    - name: "Mobily"
+      market_share: "25%"
+      prefix_range: "51-54, 56-57"
+  number_portability: true
+  portability_time: "2 business days"
+  prepaid_vs_postpaid: "60% prepaid, 40% postpaid"
+
+special_numbers:
+  emergency: "911"
+  police: "999"
+  fire: "998"
+  ambulance: "997"
+  operator: "900"
+  toll_free:
+    prefix: "800"
+    format: "+966 800 XXX XXXX"
+    cost: "Free for caller"
+  premium_rate:
+    prefix: "700"
+    format: "+966 700 XXX XXXX"
+    cost: "Variable (SAR 0.5-5.00/min)"
+  short_codes:
+    time: "140"
+    weather: "940"
+
+voip:
+  regulation: "Liberalized with licensing"
+  major_providers: ["WhatsApp", "Telegram", "Skype", "Zoom", "Teams"]
+  number_porting: "Allows VoIP numbers from licensed operators"
+
+satellite:
+  providers: ["Arabsat", "Nilesat", "Intelsat"]
+  coverage: "Middle East, Africa, Europe"
+  
+5g:
+  rollout_status: "Advanced"
+  coverage_population: "85%"
+  major_cities: "Riade, Jeddah, Mecca, Medina, Dammam covered"
+  operators: ["STC", "Zain", "Mobily"]
+
+telecom_regulator:
+  name: "CITC"
+  website: "https://www.citc.gov.sa"
+  responsibilities: ["Competition", "Spectrum", "Consumer protection", "5G rollout"]
+
+notes: >
+  Arábia Saudita tem um dos mercados de telecomunicações mais avançados
+  do Oriente Médio, com 85% de cobertura 5G. STC é a maior operadora,
+  seguida por Zain e Mobily. WhatsApp é o app de VOIP mais usado.
+  O country code +966 é curto e fácil de memorizar. A portabilidade
+  numérica leva 2 dias úteis. O número de emergência é 911 (unificado).

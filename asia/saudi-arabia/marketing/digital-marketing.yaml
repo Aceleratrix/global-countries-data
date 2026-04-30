@@ -1,0 +1,134 @@
+# Arábia Saudita - Digital Marketing (Marketing Digital)
+# Fonte: IAB Saudi Arabia, Snapchat, Meta
+
+country: "Saudi Arabia"
+iso_code: "SA"
+population: 36900000
+internet_users: 36100000  # 98%
+
+digital_marketing_spend_2024:
+  total: "$2.8B"
+  growth: "28% YoY"
+  per_capita: "$76"
+  
+channels:
+  social_media_ads:
+    share: "45%"
+    platforms:
+      - name: "Snapchat"
+        market_share: "35%"
+        ad_spend: "$440M"
+        unique_users: "25M (68% penetration)"
+      - name: "Instagram (Meta)"
+        market_share: "30%"
+        ad_spend: "$380M"
+      - name: "TikTok"
+        market_share: "20%"
+        growth: "55% YoY"
+      - name: "LinkedIn"
+        market_share: "10%"
+        focus: "B2B"
+      - name: "Twitter/X"
+        market_share: "5%"
+        
+  search_ads:
+    share: "30%"
+    platforms:
+      - name: "Google Ads"
+        market_share: "92%"
+      - name: "Microsoft Advertising"
+        market_share: "8%"
+    cpc_average: "$0.35"
+    top_keywords: ["عقار رياض" (Riyadh real estate), "سيارات جديدة" (new cars), "طيران رخيص" (cheap flights)]
+    
+  video_ads:
+    share: "15%"
+    platforms:
+      - "YouTube (65%)"
+      - "TikTok (25%)"
+      - "Snapchat (10%)"
+    ctv_growth: "40% YoY"  # Connected TV
+    
+  display_ads:
+    share: "10%"
+    programmatic_share: "75%"
+    top_networks: ["Google Display", "Snapchat Audience Network", "Meta Audience Network"]
+
+social_media_usage:
+  whatsapp: "96% penetration (35M users)"
+  snapchat: "68% (25M users)"
+  instagram: "78% (28M users)"
+  tiktok: "70% among 18-34 (18M users)"
+  linkedin: "30% professionals (11M users)"
+  twitter_x: "45% (16M users)"
+  
+influencer_marketing:
+  market_size: "$220M"
+  top_influencers:
+    - "@sauditrends (5M followers)"
+    - "@riyadh_foodie (3M followers)"
+    - "@ksa_tech (2M followers)"
+  platforms: "Snapchat, Instagram, TikTok"
+  regulation: "Mandatory disclosure (#إعلان #Ad)"
+
+seo:
+  top_search_engine: "Google (98% share)"
+  bing: "2%"
+  local_seo: "Important (Google Business Profile)"
+  voice_search: "Growing (20% of searches, Arabic)"
+  top_seo_agencies: ["Chain Reaction", "Sandstorm Digital", "Be Unique"]
+
+content_marketing:
+  formats:
+    video: "60%"
+    blog_articles: "20%"
+    infographics: "15%"
+    podcasts: "5%"
+  top_platforms: ["YouTube", "Spotify", "Anghami"]
+
+email_marketing:
+  penetration: "80% of users"
+  open_rate_average: "25%"
+  click_rate_average: "4.2%"
+  top_tools: ["Mailchimp", "HubSpot", "SendGrid"]
+
+affiliate_marketing:
+  market_size: "$180M"
+  top_networks: ["Amazon Associates", "Noon Affiliates", "Namshi Affiliates"]
+  top_verticals: ["Fashion", "Electronics", "Travel"]
+
+mobile_marketing:
+  smartphone_penetration: "95%"
+  mobile_ad_spend_share: "75%"
+  in_app_ads: "Growing (50% of mobile spend)"
+  sms_marketing: "Regulated (opt-in required)"
+
+privacy_regulation:
+  pdpl_compliance: "Mandatory (Personal Data Protection Law)"
+  cookie_banners: "Implied consent (opt-out)"
+  third_party_cookies: "Phasing out (Google Privacy Sandbox)"
+  
+marketing_technology:
+  top_crms: ["Salesforce", "HubSpot", "Zoho"]
+  top_automation: ["HubSpot", "ActiveCampaign", "SharpSpring"]
+  top_analytics: ["Google Analytics 4", "Adobe Analytics", "Snapchat Insights"]
+  
+b2b_marketing:
+  top_channels: ["LinkedIn Ads", "Google Search", "Email", "Webinars"]
+  decision_makers: "LinkedIn primary platform"
+  trade_shows: ["LEAP Tech", "Black Hat ME", "GITEX Saudi"]
+
+cultural_notes:
+  language: "Arabic primary, English secondary"
+  peak_hours: "20:00-23:00 (after Isha prayer)"
+  payment_preferences: "Credit card (40%), STC Pay (35%), Apple Pay (15%)"
+  seasonal_peaks: ["Ramadan", "Eid al-Fitr", "Eid al-Adha", "White Friday"]
+  
+notes: >
+  Arábia Saudita tem um dos mercados de marketing digital de mais rápido
+  crescimento do mundo (28% YoY). Snapchat é líder em penetração (68%
+  da população), seguido por Instagram e TikTok. O WhatsApp é onipresente
+  (96% uso) e muitas campanhas usam WhatsApp Business API. O país tem
+  uma população jovem (mediana 29.7 anos) que consome altas doses de
+  conteúdo em vídeo (60% do marketing de conteúdo). Durante o Ramadan,
+  o gasto com anúncios aumenta 40% em relação à média anual.

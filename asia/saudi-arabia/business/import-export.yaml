@@ -1,0 +1,149 @@
+# Arábia Saudita - Import & Export (Comércio Exterior)
+# Fonte: ZATCA, General Authority for Statistics
+
+country: "Saudi Arabia"
+iso_code: "SA"
+currency: "SAR"
+
+trade_overview:
+  total_exports_2024: "$380B"
+  total_imports_2024: "$220B"
+  trade_balance: "+$160B (surplus)"
+  rank_world: 19  # (Exports)
+  
+top_export_destinations:
+  - destination: "China"
+    value: "$65B"
+    share: "17.1%"
+    
+  - destination: "India"
+    value: "$52B"
+    share: "13.7%"
+    
+  - destination: "Japan"
+    value: "$38B"
+    share: "10.0%"
+    
+  - destination: "South Korea"
+    value: "$32B"
+    share: "8.4%"
+    
+  - destination: "USA"
+    value: "$28B"
+    share: "7.4%"
+    
+  - destination: "UAE"
+    value: "$25B"
+    share: "6.6%"
+
+top_export_products:
+  - product: "Crude Petroleum"
+    value: "$240B"
+    share: "63.2%"
+    major_companies: ["Saudi Aramco"]
+    
+  - product: "Petrochemicals (SABIC)"
+    value: "$65B"
+    share: "17.1%"
+    
+  - product: "Refined Petroleum"
+    value: "$35B"
+    share: "9.2%"
+    
+  - product: "Plastics & Polymers"
+    value: "$18B"
+    share: "4.7%"
+    
+  - product: "Dates & Food Products"
+    value: "$8B"
+    share: "2.1%"
+
+top_import_sources:
+  - source: "China"
+    value: "$55B"
+    share: "25.0%"
+    
+  - source: "USA"
+    value: "$38B"
+    share: "17.3%"
+    
+  - source: "UAE"
+    value: "$28B"
+    share: "12.7%"
+    
+  - source: "Germany"
+    value: "$20B"
+    share: "9.1%"
+    
+  - source: "Japan"
+    value: "$15B"
+    share: "6.8%"
+
+top_import_products:
+  - product: "Machinery & Electronics"
+    value: "$65B"
+    share: "29.5%"
+    
+  - product: "Automobiles & Parts"
+    value: "$38B"
+    share: "17.3%"
+    
+  - product: "Chemicals"
+    value: "$28B"
+    share: "12.7%"
+    
+  - product: "Food & Beverages"
+    value: "$25B"
+    share: "11.4%"
+
+trade_agreements:
+  gcc_customs_union: true  # Gulf Cooperation Council
+  bilateral_treaties: 60+
+  major_partners: ["USA", "China", "UAE", "India"]
+  wto_member: true
+
+customs:
+  import_duties_gcc: "0-5% (GCC countries)"
+  import_duties_non_gcc: "5-20% (average 12%)"
+  customs_authority: "ZATCA"
+  average_tariff: "12%"
+  customs_value: "CIF (Cost, Insurance, Freight)"
+  
+  documentation:
+    - "Commercial invoice"
+    - "Packing list"
+    - "Certificate of origin (GCC Form)"
+    - "Bill of lading/AWB"
+    - "SASO certificate (Saudi Standards)"
+    
+  incoterms_2020: "Widely used"
+  
+export_controls:
+  dual_use_goods: "SAMA + MOI regulations"
+  strategic_goods: "Required export license"
+  sanctioned_countries: "UN, US, EU sanctions list"
+
+special_zones:
+  neom:
+    customs: "Duty-free zone"
+    incentives: "0% import duties"
+    
+  king_abdullah_economic_city:
+    customs: "Reduced duties (5%)"
+    incentives: "Fast clearance"
+    
+  red_sea_project:
+    customs: "Duty-free for tourism projects"
+
+e_commerce_exports:
+  cross_border_sales: "$8B (2024)"
+  platforms: ["Amazon", "Noon", "Alibaba"]
+  top_categories: ["Fashion", "Electronics", "Home goods"]
+
+notes: >
+  Arábia Saudita é uma potência exportadora (19ª do mundo) com superávit
+  massivo devido ao petróleo. A China é o maior parceiro comercial tanto
+  para exportações quanto importações. O país está diversificando
+  exportações via SABIC (petroquímicos) e reduzindo dependência de
+  petróleo via Vision 2030. O GCC Customs Union facilita comércio com
+  países vizinhos (UAE, Kuwait, Bahrain, Oman, Qatar).

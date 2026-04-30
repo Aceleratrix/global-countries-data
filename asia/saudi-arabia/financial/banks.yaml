@@ -1,0 +1,114 @@
+# Arábia Saudita - Banks (Sistema Bancário)
+# Fonte: Saudi Central Bank (SAMA)
+
+country: "Saudi Arabia"
+iso_code: "SA"
+currency: "SAR"
+
+central_bank:
+  name: "SAMA (Saudi Central Bank)"
+  website: "https://www.sama.gov.sa"
+  governor: "Ayman Al-Sayari"
+  role: "Central bank, regulates banking and insurance"
+
+banking_system:
+  total_assets: "SAR 3.5T (~$933B)"
+  number_of_banks: 30
+  concentration: "High (top 5 = 75% market share)"
+  regulation: "SAMA + Vision 2030 financial reforms"
+
+major_banks:
+  - name: "Al Rajhi Bank"
+    headquarters: "Riyadh, Saudi Arabia"
+    assets: "SAR 750B (~$200B)"
+    market_cap: "$50B"
+    global_rank: 150
+    retail_presence: ["Saudi Arabia", "Malaysia", "Kuwait", "Jordan"]
+    focus: "Islamic banking leader"
+    digital_banking: "Al Rajhi Mobile (5M+ users)"
+    
+  - name: "Saudi National Bank (SNB)"
+    headquarters: "Riyadh, Saudi Arabia"
+    assets: "SAR 600B (~$160B)"
+    market_cap: "$40B"
+    domestic_market_share: "20%"
+    focus: "Corporate & investment banking"
+    digital_users: "8M"
+    
+  - name: "SABB (Saudi British Bank)"
+    headquarters: "Riyadh, Saudi Arabia"
+    assets: "SAR 300B (~$80B)"
+    market_cap: "$15B"
+    international: "HSBC subsidiary"
+    focus: "Corporate banking, wealth management"
+    
+  - name: "Riyad Bank"
+    headquarters: "Riyadh, Saudi Arabia"
+    assets: "SAR 250B (~$67B)"
+    market_cap: "$12B"
+    focus: "Retail & SMEs"
+    digital_banking: "Riyad Online"
+    
+  - name: "Bank Aljazira"
+    headquarters: "Jeddah, Saudi Arabia"
+    assets: "SAR 150B (~$40B)"
+    market_cap: "$8B"
+    focus: "Islamic banking, SME lending"
+
+digital_banks:
+  - name: "STC Bank"
+    customers: "4M"
+    features: ["Zero fees", "Mobile-first", "STC Pay integration"]
+    
+  - name: "D360 Bank"
+    customers: "2M"
+    features: ["Digital-only", "AI-powered budgeting", "Crypto-ready"]
+    
+  - name: "Saudi Digital Bank (SDB)"
+    customers: "1.5M"
+    features: ["Sharia-compliant", "Instant loans", "Open banking"]
+
+payment_methods:
+  credit_cards:
+    market_share: "20%"
+    major_issuers: ["Visa", "Mastercard", "American Express"]
+  debit_cards:
+    market_share: "70%"
+  digital_wallets:
+    - name: "STC Pay"
+      users: "28M"
+      transactions_per_year: "1.5B"
+      coverage: "80% of Saudi adults"
+    - name: "Apple Pay"
+      adoption: "35%"
+    - name: "Google Pay"
+      adoption: "25%"
+  cash_usage: "15% (declining rapidly)"
+
+fintech_ecosystem:
+  unicorns:
+    - "STC Pay ($3B valuation)"
+    - "Tamara ($1.2B - BNPL)"
+  notable_startups:
+    - "Moyasar (payments infrastructure)"
+    - "Lean (open banking API)"
+    - "Lendo (SME lending)"
+    
+regulatory_sandbox:
+  name: "SAMA Fintech Sandbox"
+  launched: 2019
+  participants: 100+
+  focus: "Open banking, BNPL, crypto custody"
+
+open_banking:
+  compliance: "Full (Open Banking Framework 2023)"
+  apis_available: true
+  major_providers: ["Lean API", "STC Pay API", "SNB API"]
+  
+notes: >
+  Arábia Saudita tem o maior sistema bancário do Oriente Médio, com
+  forte presença de bancos islâmicos (Sharia-compliant). STC Pay é o
+  maior meio de pagamento digital do país, mais usado que cartões de
+  crédito. SAMA é pioneira em open banking na região, com regulamentação
+  completa desde 2023. Bancos estão investindo pesado em IA para
+  detecção de fraudes e personalização de serviços.

@@ -1,0 +1,112 @@
+# Arábia Saudita - AI & Cloud Services (Tecnologia)
+# Fonte: SDAIA, CISA, Ministry of Communications and IT
+
+country: "Saudi Arabia"
+iso_code: "SA"
+
+cloud_adoption:
+  market_size_2024: "$3.8B"
+  growth_rate: "35% YoY"
+  penetration: "55% enterprises"
+  public_cloud_share: "75%"
+  private_cloud_share: "25%"
+
+major_providers:
+  - name: "Microsoft Azure"
+    region: "Azure Saudi Arabia (Riade, Jeddah)"
+    market_share: "32%"
+    data_centers: 2
+    ai_services: ["Azure AI", "Copilot", "Cognitive Services"]
+    
+  - name: "Amazon Web Services (AWS)"
+    region: "AWS Middle East (Riade)"
+    market_share: "28%"
+    data_centers: 1
+    ai_services: ["Bedrock", "SageMaker", "Rekognition"]
+    
+  - name: "Google Cloud Platform"
+    region: "GCP Saudi Arabia (NEOM)"
+    market_share: "18%"
+    data_centers: 1
+    ai_services: ["Vertex AI", "Gemini", "Document AI"]
+    
+  - name: "Oracle Cloud"
+    market_share: "10%"
+    focus: "Government, enterprise"
+    ai_services: ["OCI AI", "Generative AI"]
+    
+  - name: "STC Cloud"
+    market_share: "8%"
+    focus: "Local businesses, Sharia-compliant cloud"
+    ai_services: ["STC AI Platform"]
+
+saudi_tech_hubs:
+  - name: "Riyadh"
+    focus: ["Fintech", "Enterprise software", "Government AI"]
+    unicorns: ["STC Pay", "Tamara"]
+    
+  - name: "NEOM (The Line)"
+    focus: ["Smart city tech", "AI infrastructure", "Metaverse"]
+    unicorns: ["NEOM Tech (partnership with Meta/Google)"]
+    
+  - name: "Jeddah"
+    focus: ["Port tech", "Logistics AI", "E-commerce"]
+    
+  - name: "King Abdullah Economic City (KAEC)"
+    focus: ["Industrial AI", "Supply chain tech"]
+
+ai_ecosystem:
+  national_strategy: "National Strategy for Data and AI (NSDAI) 2030"
+  investment: "$20B (2024-2030)"
+  priorities: ["Healthcare AI", "Smart cities", "Energy AI", "Education AI"]
+  
+  research_centers:
+    - "SDAIA AI Research Center (Riade)"
+    - "KAUST (King Abdullah University of Science and Technology)"
+    - "NEOM AI Lab"
+    
+  startups:
+    - name: "Tamara"
+      focus: "BNPL AI-powered"
+      valuation: "$1.2B"
+    - name: "Moyasar"
+      focus: "Payments infrastructure AI"
+    - name: "Lean"
+      focus: "Open banking AI"
+      
+  unicorns:
+    - "STC Pay ($3B valuation)"
+    - "Tamara ($1.2B valuation)"
+
+data_sovereignty:
+  cloud_first_policy: true  # CISA mandate for government
+  data_localization: "Mandatory for government data"
+  schrems_ii_compliance: "Not required (non-EU)"
+  
+5g_rollout:
+  status: "Advanced"
+  coverage: "85% population"
+  industrial_use_cases: ["NEOM smart city", "Smart ports", "Connected cars"]
+
+digital_government:
+  strategy: "Vision 2030 Digital Government"
+  budget: "$100B (2024-2030)"
+  targets:
+    - "100% digital government services by 2030"
+    - "90% e-invoicing adoption"
+    - "5M digital skills trained"
+
+arabic_language_ai:
+  models:
+    - "ALLaM (SDAIA Arabic LLM)"
+    - "Arabic BERT variants (multiple research centers)"
+  corpora: "Arabic Social Media Corpus, Quranic texts"
+  market_size: "400M Arabic speakers worldwide"
+
+notes: >
+  Arábia Saudita está investindo massivamente em IA e cloud via Vision 2030,
+  com $20B destinados a tornar o país líder regional em IA. NEOM será
+  a primeira cidade do mundo totalmente integrada com IA ondulada.
+  Microsoft, Amazon e Google estabeleceram data centers locais para
+  atender à política Cloud First do governo. ALLaM é o modelo de
+  linguagem árabe mais avançado do mundo, desenvolvido pela SDAIA.

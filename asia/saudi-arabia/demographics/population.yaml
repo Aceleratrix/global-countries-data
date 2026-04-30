@@ -1,0 +1,112 @@
+# Arábia Saudita - Population (Demografia)
+# Fonte: General Authority for Statistics (GASTAT)
+
+country: "Saudi Arabia"
+iso_code: "SA"
+
+population:
+  total_2024: 36900000
+  rank_world: 41
+  density: "17.3 per km²"
+  land_area_km2: 2149690
+  
+growth:
+  rate_2024: "1.8%"  # High birth rate + some immigration
+  trend: "Young population, rapid urbanization"
+  projection_2050: 45000000
+  
+age_structure:
+  "0-14": "28.5%"
+  "15-64": "68.2%"
+  "65+": "3.3%"
+  median_age: 29.7
+  life_expectancy: 75.8  # (Male: 74.2, Female: 77.5)
+  
+gender:
+  male: "56.1%"  # Higher male share due to expatriate workers
+  female: "43.9%"
+  sex_ratio: "127.8 males per 100 females"
+
+urbanization:
+  urban_population: "84.5%"
+  rural_population: "15.5%"
+  largest_cities:
+    - name: "Riyadh"
+      population: 7500000  # Metropolitan area
+    - name: "Jeddah"
+      population: 4500000
+    - name: "Mecca"
+      population: 2300000
+    - name: "Medina"
+      population: 1500000
+    - name: "Dammam"
+      population: 1400000
+
+regions:
+  largest_by_population:
+    - name: "Riyadh Region"
+      population: 8500000
+    - name: "Makkah Region"
+      population: 8200000
+    - name: "Eastern Province"
+      population: 5100000
+    - name: "Madinah Region"
+      population: 2200000
+
+immigration:
+  foreign_born: "40.8%"  # 15M expatriate workers
+  top_origin_countries:
+    - "India (2.5M)"
+    - "Pakistan (2.2M)"
+    - "Bangladesh (1.8M)"
+    - "Egypt (1.5M)"
+    - "Yemen (1.2M)"
+  saudi_citizens: "59.2%"  # 21.8M people
+
+languages:
+  official: "Arabic"
+  english_proficiency: "Medium (EF EPI: 58/88 countries)"
+  other_languages: ["Urdu", "Hindi", "Tagalog", "Bengali"]  # Expatriate languages
+  
+religion:
+  muslim: "97%"  # (Sunni 85-90%, Shia 10-15%)
+  other_religions: "3%"  # Christianity, Hinduism, Buddhism (expatriates)
+  islamic_law: "Sharia is the basis of legislation"
+
+education:
+  literacy_rate: "95.3%"
+  tertiary_education: "32%"  # (Male: 35%, Female: 29%)
+  stem_graduates: "28% of all graduates"
+  
+households:
+  average_size: 5.2  # Larger families than Europe
+  single_person: "8%"
+  families_with_children: "72%"
+  home_ownership: "62%"  # Rising due to government programs
+
+digital_adoption:
+  internet_users: "98%"  # (2024)
+  smartphone_penetration: "95%"
+  social_media_users: "88%"
+  top_platforms:
+    - "WhatsApp (96%)"
+    - "Snapchat (85%)"
+    - "Instagram (78%)"
+    - "TikTok (70% among youth)"
+    - "Twitter/X (45%)"
+
+labor_force:
+  total: 14500000  # (Including expatriates)
+  saudi_participation_rate: "51.2%"  # (Male: 66%, Female: 36%)
+  expatriate_participation: "48.8%"
+  unemployment_rate: "8.5%"  # (Saudi citizens: 12.5%)
+  youth_unemployment: "18%"  # (Major focus of Vision 2030)
+
+notes: >
+  Arábia Saudita tem uma população jovem (mediana 29.7 anos) com forte
+  presença de trabalhadores expatriados (40.8% da população). O país
+  está rapidamente se urbanizando (84.5% urbana), com Riade como a
+  maior metrópole. O alto uso de smartphones (95%) e redes sociais
+  (Snapchat líder) reflete uma população jovem e conectada. O
+  desemprego entre sauditas é um desafio, com o programa Nitaqat
+  buscando aumentar a empregabilidade local via Saudização.

@@ -1,0 +1,103 @@
+# Arábia Saudita - Real Estate (Mercado Imobiliário)
+# Fonte: Ministry of Municipal and Rural Affairs, Knight Frank
+
+country: "Saudi Arabia"
+iso_code: "SA"
+currency: "SAR"
+
+market_overview:
+  total_value_2024: "SAR 1.2T (~$320B)"
+  residential_share: "65%"
+  commercial_share: "25%"
+  industrial_share: "10%"
+  
+price_trends:
+  residential_growth_2024: "8.5%"
+  commercial_growth_2024: "6.2%"
+  forecast_2025: "7-9% growth"
+  bubble_risk: "Low (Vision 2030 demand)"
+
+residential:
+  average_price_m2: "SAR 4,500 (~$1,200)"
+  by_city:
+    Riyadh: "SAR 6,200/m² (~$1,650)"
+    Jeddah: "SAR 5,800/m² (~$1,550)"
+    Mecca: "SAR 8,500/m² (~$2,265) (premium areas)"
+    Medina: "SAR 5,500/m² (~$1,465)"
+    Dammam: "SAR 3,800/m² (~$1,012)"
+    
+  property_types:
+    apartment: "60% of transactions"
+    villa: "35%"
+    townhouse: "5%"
+    
+  foreign_buyers: "5% of transactions (limited to licensed areas)"
+  top_origins: ["UAE", "Kuwait", "Bahrain", "Qatar"]
+  
+  rental_market:
+    average_rent_riyadh: "SAR 45,000/year (100m²) (~$12k)"
+    average_rent_jeddah: "SAR 40,000/year (100m²) (~$10.6k)"
+    yield: "5-7% (investment properties)"
+    regulation: "Rent cap 10% annually (Vision 2030)"
+
+commercial:
+  office:
+    prime_rent_riyadh: "SAR 1,200/m²/year (~$320)"
+    prime_rent_jeddah: "SAR 1,000/m²/year (~$266)"
+    vacancy_rate: "15% (Riyadh), 18% (Jeddah)"
+    
+  retail:
+    high_street_rent_riyadh: "SAR 3,500/m²/year (~$933)"
+    shopping_centers: "300+ nationwide"
+    e_commerce_impact: "25% of retail sales"
+    
+  hospitality:
+    hotel_investment_2024: "SAR 25B (~$6.6B)"
+    occupancy_rate: "68% (recovering post-COVID)"
+    adr: "SAR 650/night (~$173) (average daily rate)"
+
+industrial:
+  logistics:
+    prime_rent: "SAR 250/m²/year (~$66)"
+    vacancy_rate: "8%"
+    major_markets: ["Riyadh", "Jeddah", "Dammam", "NEOM"]
+  warehouses:
+    average_size: "15,000 m²"
+    e_commerce_demand: "Growing 20% YoY"
+
+major_projects_vision2030:
+  - name: "NEOM (The Line, Oxagon, Trojena)"
+    investment: "SAR 1.9T (~$500B)"
+    area: "26,500 km²"
+    completion: "2030-2050"
+    
+  - name: "Red Sea Global (AMAALA, Sindalah)"
+    investment: "SAR 300B (~$80B)"
+    focus: "Luxury tourism real estate"
+    
+  - name: "Qiddiya (Entertainment City)"
+    investment: "SAR 200B (~$53B)"
+    focus: "Theme parks, sports, residential"
+
+foreign_investment:
+  total_2024: "SAR 45B (~$12B)"
+  top_buyers: ["UAE", "Kuwait", "USA", "China"]
+  legal_protection: "100% foreign ownership allowed (since 2020)"
+  real_estate_visa: "SAR 1M+ property = residency"
+
+proptech:
+  startups: ["Aqar", "Housing", "Mawgouf"]
+  innovations: ["Virtual tours", "AI pricing", "Blockchain titles"]
+
+real_estate_agents:
+  regulation: "Required license from Ministry of Commerce"
+  commission: "2.5% (seller pays)"
+  mls_system: "No unified MLS, fragmentation"
+
+notes: >
+  O mercado imobiliário saudita está em forte expansão impulsionado pelo
+  Vision 2030 e projetos gigantes como NEOM e Red Sea Global. Riade lidera
+  preços residenciais, enquanto cidades secundárias oferecem boas
+  oportunidades. A permissão de 100% de propriedade estrangeira desde
+  2020 aumentou investimentos. O setor logístico cresce 20% ao ano
+  devido ao e-commerce e NEOM supply chain demands.

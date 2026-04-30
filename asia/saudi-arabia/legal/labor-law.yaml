@@ -1,0 +1,95 @@
+# Arábia Saudita - Labor Law (Nitaqat/Saudization)
+# Fonte: Ministry of Human Resources and Social Development (MHRSD)
+
+country: "Saudi Arabia"
+iso_code: "SA"
+
+employment_contracts:
+  types:
+    - name: "Indefinido (Permanent)"
+      description: "Contrato sem prazo determinado"
+      max_probation: "90 days"
+      
+    - name: "Temporal (Temporary)"
+      description: "Máximo 12 meses (renovável uma vez)"
+      max_duration: "12 months"
+      
+    - name: "Seasonal (Hajj/Umrah)"
+      description: "Para trabalhadores temporários de turismo religioso"
+      max_duration: "6 months"
+
+working_hours:
+  max_weekly_hours: 48
+  max_daily_hours: 8
+  rest_between_shifts: "12 hours"
+  weekly_rest: "Friday (full day) + Saturday (half day)"
+  night_work_limit: "8 hours/day (22:00-06:00)"
+  ramadan_hours: "6 hours/day for Muslims"
+
+minimum_wage:
+  year_2024: "SAR 4,000/month (~$1,066) para sauditas"
+  expatriate_minimum: "SAR 1,500/month (~$400)"
+  coverage: "Private sector only"
+
+overtime:
+  max_per_year: 150
+  compensation: "150% of regular pay"
+  night_shift_premium: "25% extra"
+  mandatory_payment: "Within 7 days"
+
+vacation:
+  minimum_days: 21 (first 5 years)
+  after_5_years: 30 days
+  public_holidays: 12 (inclui Eid al-Fitr, Eid al-Adha)
+  annual_leave_accrual: "1.75 days/month"
+
+termination:
+  probation_period: "90 days (max)"
+  severance_permanent: "15 days/year (first 5 years), 30 days/year after"
+  severance_temporary: "Proportional to time worked"
+  notice_period: "60 days (employer), 30 days (employee)"
+
+social_security:
+  employee_rate: "9% (pension 7%, unemployment 2%)"
+  employer_rate: "12% (pension 9%, unemployment 2%, occupational hazard 1%)"
+  unemployment_coverage: "60% salário (max 12 months)"
+
+remote_work:
+  law: "MHRSD Remote Work Regulations 2022"
+  rights:
+    - "Right to request remote work"
+    - "Reimbursement of internet/expenses"
+    - "Written agreement required"
+  maximum_remote: "100% allowed (with approval)"
+
+non_compete:
+  max_duration: "2 years"
+  max_duration_executives: "3 years"
+  compensation_required: true
+  compensation_min: "50% salary during restriction"
+
+saudization_nitaqat:
+  program_name: "Nitaqat (Saudization Program)"
+  current_target: "70% Saudi employees by 2030"
+  thresholds:
+    - "Platinum: 35%+ Saudi"
+    - "Green: 25-34% Saudi"
+    - "Yellow: 10-24% Saudi"
+    - "Red: <10% Saudi (fined/penalized)"
+  penalties: "Visa blocks, fines, contract bans for low compliance"
+
+strikes:
+  legal_requirements: "Strikes are prohibited by law (Royal Decree 2023)"
+  protection: "No legal protection for strikers"
+
+unions:
+  major_unions: "None (independent unions prohibited)"
+  collective_bargaining_coverage: "0% (not allowed)"
+  works_councils: "Mandatory for 50+ employees"
+
+notes: >
+  Arábia Saudita está rapidamente reformando suas leis trabalhistas via
+  Vision 2030. O programa Nitaqat é o principal mecanismo para aumentar
+  a participação de sauditas no mercado de trabalho. Trabalhadores
+  expatriados representam 40% da força de trabalho, com proteções
+  legais específicas para evitar exploração.

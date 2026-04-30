@@ -1,0 +1,89 @@
+# Arábia Saudita - Company Sizes (Negócios)
+# Fonte: Ministry of Commerce, Monsha'at (SME Authority)
+
+country: "Saudi Arabia"
+iso_code: "SA"
+
+classification:
+  micro_enterprise:
+    employees: "1-9"
+    turnover: "< SAR 3M (~$800k)"
+    balance_sheet: "< SAR 3M"
+    examples: ["Freelancers", "Small shops", "Consultants"]
+    count: 1200000  # 92% of all companies
+    
+  small_enterprise:
+    employees: "10-49"
+    turnover: "≤ SAR 15M (~$4M)"
+    balance_sheet: "≤ SAR 15M"
+    examples: ["Local manufacturers", "SMEs", "Tech startups"]
+    count: 85000
+    
+  medium_enterprise:
+    employees: "50-249"
+    turnover: "≤ SAR 100M (~$26.6M)"
+    balance_sheet: "≤ SAR 85M"
+    examples: ["Regional companies", "Growing tech firms"]
+    count: 12000
+    
+  large_enterprise:
+    employees: "250+"
+    turnover: "> SAR 100M"
+    examples: ["Multinationals", "Major oil companies", "Saudi Aramco"]
+    count: 2500
+
+total_companies: 1302500
+sme_share: "99.4%"  # Of all enterprises
+
+by_sector:
+  services: "38%"
+  construction: "28%"
+  manufacturing: "15%"
+  retail: "12%"
+  tech: "7%"
+
+startup_ecosystem:
+  total_startups: 8500
+  unicorns: 2
+  unicorn_list:
+    - "STC Pay ($3B)"
+    - "Tamara ($1.2B)"
+  startup_law: "Vision 2030 Investment Law (2024)"
+  benefits:
+    - "5-year tax holiday for tech startups"
+    - "Reduced Zakat (1.5% for SMEs)"
+    - "Fast-track licensing for foreign investors"
+    - "STC, Saudi Aramco venture arms active"
+
+foreign_companies:
+  usa: ["Microsoft", "Google", "Amazon", "Apple", "Meta"]
+  china: ["Huawei", "ZTE", "Lenovo"]
+  uae: ["Emirates Group", "Etisalat"]
+  europe: ["Siemens", "BMW", "Shell"]
+  total_foreign_subsidiaries: 12000
+
+government_incentives:
+  saudization_nitaqat: "Incentives for hiring Saudis (lower Zakat)"
+  monshaat_loans: "SME loans (SAR 50k-10M, ~$13k-2.6M)"
+  vision_2030_grants: "Up to SAR 1M for tech startups"
+  industrial_cities: "Reduced rates in industrial zones"
+
+business_creation:
+  new_companies_2024: 150000
+  dissolution_rate: "6%"
+  average_lifespan: "8 years"
+  main_barriers: ["Saudization quotas", "Bureaucracy", "Access to finance"]
+
+remote_work_companies:
+  fully_remote: "10% of tech companies"
+  hybrid: "50% of tech companies"
+  office_only: "40%"
+  law: "MHRSD Remote Work Regulations (2022)"
+
+notes: >
+  Arábia Saudita tem um tecido empresarial dominado por micro e pequenas
+  empresas (99.4% das empresas são PMEs). O governo está fortemente
+  apoiando startups via Monsha'at, com 2 unicórnios já estabelecidos.
+  O desafio principal é o cumprimento das cotas de Saudização (Nitaqat),
+  que exige até 70% de funcionários sauditas em algumas empresas.
+  O país está se tornando um hub regional para tech startups no Oriente Médio.

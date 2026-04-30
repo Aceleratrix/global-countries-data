@@ -1,0 +1,102 @@
+# Arábia Saudita - Tax Codes (Sistema Fiscal)
+# Fonte: Zakat, Tax and Customs Authority (ZATCA)
+
+country: "Saudi Arabia"
+iso_code: "SA"
+currency: "SAR"
+
+tax_identification:
+  personal:
+    name: "TIN (Tax Identification Number)"
+    format: "10 dígitos (ex: 1234567890)"
+    issue_authority: "ZATCA"
+    
+  corporate:
+    name: "CR Number (Commercial Registration)"
+    format: "10 dígitos + dígito verificador"
+    issue_authority: "Ministry of Commerce"
+    
+  foreign:
+    name: "Foreign Investor License"
+    format: "MISA license number"
+    required_for: "Foreign businesses, branches"
+
+corporate_income_tax:
+  standard_rate: 20  # Para empresas com capital estrangeiro
+  zakat_rate: 2.5   # Para empresas com capital saudita (Zakat islâmico)
+  mixed_ownership: "Proporcional ao capital estrangeiro"
+  penalties_rate: 25  # Late payment
+  
+vat:
+  standard_rate: 15
+  reduced_rate: 0     # Alimentos básicos, medicamentos, exportações
+  registration_threshold: "SAR 375,000 (~$100k) faturamento anual"
+  filing_frequency: "Quarterly"
+  
+personal_income_tax:
+  name: "Imposto de Renda para Expatriados"
+  brackets_2024:
+    - bracket: "SAR 0 - 200,000 (~$53k)"
+      rate: 0  # Isento para sauditas
+    - bracket: "SAR 200,001 - 500,000 (~$133k)"
+      rate: 10  # Expatriados
+    - bracket: "SAR 500,001+"
+      rate: 20  # Expatriados
+      
+  saudi_citizens: "Isentos (pagam apenas Zakat 2.5%)"
+  regional_variations: false
+
+payroll_taxes:
+  employer_contribution: 12  # % (pensão 9%, desemprego 2%, risco 1%)
+  employee_contribution: 9   # % (pensão 7%, desemprego 2%)
+  unemployment_employer: 2
+  unemployment_employee: 2
+  overtime_surcharge: 0  # No surcharge
+
+withholding_taxes:
+  dividends_domestic: 5  # Para sauditas
+  dividends_foreign: 20
+  interest: 15
+  royalties: 15
+  professional_services: 5  # Para residentes
+
+tax_treaties:
+  count: 60+
+  major_partners: ["USA", "UK", "Germany", "France", "China", "UAE"]
+  double_taxation_relief: "Exemption method for Zakat payers"
+
+tax_filing:
+  corporate_deadline: "120 days after fiscal year-end"
+  personal_deadline: "31 March (previous year)"
+  electronic_filing_mandatory: true
+  penalties_late_filing: "1% per month + 5% annual interest"
+
+special_zones:
+  neom:
+    corporate_tax_rate: 0  # Tax-free por 50 anos
+    vat: "Exempt for businesses"
+    customs: "Duty-free zone"
+    
+  king_abdullah_economic_city:
+    corporate_tax_rate: 5
+    special_incentives: true
+    
+  red_sea_project:
+    corporate_tax_rate: 0  # Tax-free
+    special_incentives: true
+
+startup_incentives:
+  law: "Vision 2030 Investment Law 2024"
+  benefits:
+    - "5-year tax holiday for tech startups"
+    - "Reduced Zakat for SMEs (1.5%)"
+    - "Fast-track licensing for foreign investors"
+    - "No withholding tax on foreign talent salaries"
+
+notes: >
+  Arábia Saudita tem um sistema fiscal dual: Zakat (2.5%) para empresas
+  com capital saudita, e imposto de renda (20%) para empresas com capital
+  estrangeiro. O VAT de 15% foi introduzido em 2020. O país eliminou
+  impostos sobre renda pessoal para cidadãos sauditas, cobrando apenas
+  Zakat. Zonas econômicas especiais como NEOM oferecem isenções fiscais
+  significativas para atrair investimento estrangeiro.
