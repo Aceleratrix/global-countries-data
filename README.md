@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (38 / 195 = 19.5%)
+## 📊 Coverage Progress (37 / 195 = 19.0%)
 
 ### 🌎 South America (1/12 = 8.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -49,9 +49,10 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇨🇦 **Canada** | 13/13 | ✅ **100% COMPLETE** | Pan-Canadian AI $2.4B, Cohere $5.5B, Interac, bilingual (EN/FR) | English (en-CA) + French |
 | 🇲🇽 **Mexico** | 13/13 | ✅ **100% COMPLETE** | Nearshoring boom, Kavak $8.7B, OXXO 21K stores, 96% remittances from USA | Spanish (es-MX) |
 
-### 🌏 Asia (7/50 = 14.0%)
+### 🌏 Asia (8/50 = 16.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
+| 🇮🇱 **Israel** | 13/13 | ✅ **100% COMPLETE** | 33rd largest economy ($0.39T), Startup Nation, 8K+ tech startups, 100+ unicorns | English (en-US) |
 | 🇯🇵 **Japan** | 14/14 | ✅ **100% COMPLETE** | Konbini (25% e-commerce!), LINE (95%), Society 5.0 | English (en-US) |
 | 🇨🇳 **China** | 13/13 | ✅ **100% COMPLETE** | WeChat (1.3B users), PIPL, Alibaba Cloud (37%), Digital Yuan, Great Firewall | English (en-US) |
 | 🇮🇳 **India** | 13/13 | ✅ **100% COMPLETE** | UPI (12B+ txns/month), WhatsApp (530M), BharatGPT, Digital India, 1.43B population | English (en-US) |
