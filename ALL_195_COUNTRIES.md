@@ -23,7 +23,7 @@
 | 15 | 🇲🇽 México | mexico | North America | $1.66T | ✅ 100% COMPLETE |
 | 16 | 🇮🇩 Indonésia | indonesia | Asia | $1.49T | ✅ 100% COMPLETE |
 | 17 | 🇳🇱 Holanda (Países Baixos) | netherlands | Europe | $1.09T | 🔄 INICIANDO AGORA |
-| 18 | 🇹🇷 Turquia | turkey | Asia/Europe | $1.03T | ⏳ Pending |
+| 18 | 🇹🇷 Turquia | turkey | Asia/Europe | $1.03T | ✅ 100% COMPLETE |
 | 19 | 🇸🇦 Arábia Saudita | saudi-arabia | Asia | $1.01T | ⏳ Pending |
 | 20 | 🇨🇭 Suíça | switzerland | Europe | $0.91T | ⏳ Pending |
 
@@ -162,20 +162,20 @@
 |-----------|---------|-----------|-----------|------------|
 | 🌎 North America | 3 | 3 | 0 | **100%** ✅ |
 | 🌏 Asia | 50 | 5 | 45 | 10.0% |
-| 🌍 Europe | 44 | 4 | 40 | 9.1% |
+| 🌍 Europe | 44 | 5 | 39 | 11.4% |
 | 🌎 South America | 12 | 1 | 11 | 8.3% |
 | 🌏 Oceania | 14 | 1 | 13 | 7.1% |
 | 🌍 Africa | 54 | 0 | 54 | 0% |
-| **TOTAL** | **195** | **14** | **181** | **7.2%** |
+| **TOTAL** | **195** | **15** | **180** | **7.7%** |
 
 ---
 
 ## 🎯 Estratégia de Execução
 
 ### Fase 1: Top 20 Economias (ALTA PRIORIDADE)
-- Já completos: 14/20 (70%)
-- Restantes: Rússia, Espanha, Turquia, Arábia Saudita, Suíça
-- Estimativa: 5 países × 17 min = ~85 min
+- Já completos: 15/20 (75%)
+- Restantes: Arábia Saudita, Suíça
+- Estimativa: 2 países × 17 min = ~34 min
 
 ### Fase 2: Top 21-50 (MÉDIA PRIORIDADE)
 - 30 países
