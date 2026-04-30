@@ -12,3 +12,25 @@
 # Temp files
 *.tmp
 *.swp
+
+# Internal automation scripts (keep local, don't push to public repo)
+scripts/
+
+# Internal documentation (operational docs, not for public)
+docs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment files
+.env
+.env.*
+
+# Credentials and secrets
+*.key
+*.pem
+*.cert
+secrets.*
+credentials.*
