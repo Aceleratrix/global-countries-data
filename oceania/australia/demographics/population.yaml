@@ -1,0 +1,156 @@
+# Australia Demographics & Population
+# AI-Ready: Structured for multi-agent systems
+
+country: australia
+last_updated: "2024-12-15"
+apec_member: true
+
+# Population Overview
+population:
+  total_2024: 27200000
+  total_2023: 26800000
+  growth_rate_percent: 1.5
+  density_per_km2: 3.5
+  density_per_mi2: 9.1
+  median_age: 38.5
+  life_expectancy_years: 83.2
+  fertility_rate: 1.58
+  
+# Urbanization
+urbanization:
+  urban_population_percent: 86.5
+  rural_population_percent: 13.5
+  major_cities:
+    - name: "Sydney"
+      population: 5300000
+      state: "New South Wales"
+    - name: "Melbourne"
+      population: 5100000
+      state: "Victoria"
+    - name: "Brisbane"
+      population: 2600000
+      state: "Queensland"
+    - name: "Perth"
+      population: 2200000
+      state: "Western Australia"
+    - name: "Adelaide"
+      population: 1400000
+      state: "South Australia"
+      
+# Immigration
+immigration:
+  foreign_born_percent: 30
+  annual_migration_quota: 190000
+  top_source_countries: ["India", "China", "United Kingdom", "Philippines", "Vietnam"]
+  skilled_migration_percent: 70
+  refugee_program: 13750
+  visa_types: ["Skilled (189/190)", "Student", "Working Holiday", "Family", "Business Innovation"]
+  url: "https://www.homeaffairs.gov.au"
+  
+# Languages
+languages:
+  official: "English"
+  spoken_at_home:
+    - language: "English"
+      percent: 72
+    - language: "Mandarin"
+      percent: 2.7
+    - language: "Arabic"
+      percent: 1.4
+    - language: "Cantonese"
+      percent: 1.2
+    - language: "Vietnamese"
+      percent: 1.2
+    - language: "Italian"
+      percent: 1.1
+    - language: "Greek"
+      percent: 1.0
+    - language: "Hindi"
+      percent: 0.9
+      
+# Ethnicity & Ancestry
+ethnicity:
+  top_ancestries:
+    - ancestry: "English"
+      percent: 33
+    - ancestry: "Australian"
+      percent: 29.9
+    - ancestry: "Irish"
+      percent: 9.5
+    - ancestry: "Scottish"
+      percent: 8.6
+    - ancestry: "Chinese"
+      percent: 5.5
+    - ancestry: "Italian"
+      percent: 4.4
+    - ancestry: "German"
+      percent: 4.0
+    - ancestry: "Indian"
+      percent: 3.1
+      
+# Religion
+religion:
+  christian_percent: 43.9
+  no_religion_percent: 38.9
+  islam_percent: 3.2
+  hinduism_percent: 2.7
+  buddhism_percent: 2.4
+  judaism_percent: 0.4
+  sikhism_percent: 0.8
+  
+# Education
+education:
+  literacy_rate_percent: 99
+  tertiary_education_percent: 51
+  school_leaving_age: 17
+  higher_education_institutions: 43
+  international_students_2024: 700000
+  top_universities: ["University of Melbourne", "ANU", "UNSW", "University of Sydney", "Monash"]
+  
+# Income & Wealth
+income:
+  median_household_income_aud: 96800
+  median_household_income_usd: 63800
+  gini_coefficient: 0.33
+  poverty_rate_percent: 13.6
+  minimum_wage_aud: 23.23
+  minimum_wage_usd: 15.30
+  
+# Employment
+employment:
+  labor_force_participation_percent: 66.7
+  unemployment_rate_percent: 3.7
+  youth_unemployment_percent: 8.5
+  major_industries: ["Health care", "Retail", "Construction", "Education", "Professional services"]
+  union_membership_percent: 14.3
+  
+# Digital Adoption
+digital_adoption:
+  internet_users_percent: 96
+  smartphone_penetration_percent: 88
+  social_media_users_percent: 79
+  ecommerce_penetration_percent: 74
+  digital_payment_adoption_percent: 92
+  
+# Indigenous Australians
+indigenous:
+  population: 812000
+  percent_of_total: 3.2
+  median_age: 23
+  life_expectancy_gap_years: 8
+  
+# Age Distribution
+age_distribution:
+  _0_to_14_percent: 18.2
+  _15_to_64_percent: 65.1
+  _65_plus_percent: 16.7
+  median_age: 38.5
+  
+# Housing
+housing:
+  home_ownership_percent: 66
+  renting_percent: 31
+  median_house_price_sydney_aud: 1300000
+  median_house_price_melbourne_aud: 950000
+  average_rent_sydney_aud_week: 650
+  average_rent_melbourne_aud_week: 500

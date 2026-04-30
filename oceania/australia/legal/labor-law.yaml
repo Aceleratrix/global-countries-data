@@ -1,0 +1,154 @@
+# Australia Labor Laws
+# AI-Ready: Structured for multi-agent systems
+
+country: australia
+last_updated: "2024-12-15"
+jurisdiction: AU
+federal_system: true
+
+# Primary Federal Legislation
+federal_law:
+  name: "Fair Work Act 2009 (Cth)"
+  scope: "Federal"
+  coverage: "Most private sector employees"
+  url: "https://www.legislation.gov.au/Details/C2024C00001"
+  effective_date: "2009-07-01"
+  
+# State/Territory Variations
+state_variations:
+  note: "Fair Work Act applies federally; some state-specific laws for public sector"
+  states:
+    - name: "New South Wales"
+      specific_laws: ["Industrial Relations Act 1996 (NSW)"]
+    - name: "Victoria"
+      specific_laws: ["Equal Opportunity Act 2010 (Vic)"]
+    - name: "Queensland"
+      specific_laws: ["Industrial Relations Act 2016 (Qld)"]
+    - name: "Western Australia"
+      specific_laws: ["Industrial Relations Act 1979 (WA)"]
+    - name: "South Australia"
+      specific_laws: ["Fair Work Act applies"]
+    - name: "Tasmania"
+      specific_laws: ["Fair Work Act applies"]
+    - name: "Northern Territory"
+      specific_laws: ["Fair Work Act applies"]
+    - name: "Australian Capital Territory"
+      specific_laws: ["Fair Work Act applies"]
+
+# Working Hours
+working_hours:
+  standard_week: 38
+  standard_day: 7.6
+  max_daily: 12
+  overtime_threshold: 38
+  overtime_rate: 1.5
+  night_shift_multiplier: 1.15
+  sunday_multiplier: 2.0
+  
+# Minimum Wage (2024)
+minimum_wage:
+  hourly_aud: 23.23
+  hourly_usd: 15.30
+  monthly_aud: 3860
+  monthly_usd: 2540
+  effective_date: "2024-07-01"
+  review_body: "Fair Work Commission"
+  url: "https://www.fairwork.gov.au"
+  note: "National minimum wage applies to all employees"
+  
+# Leave Entitlements
+leave:
+  annual_leave_days: 20
+  personal_carers_leave_days: 10
+  parental_leave_weeks: 12
+  paid_parental_leave: true
+  paternity_leave_weeks: 2
+  bereavement_leave_days: 2
+  study_leave: false
+  sabbatical: false
+  
+# Employment Types
+employment_types:
+  full_time:
+    definition: "38+ hours/week, ongoing"
+    benefits: ["Annual leave", "Sick leave", "Superannuation"]
+  part_time:
+    definition: "Less than 38 hours/week, regular hours"
+    benefits: ["Pro-rata leave", "Superannuation"]
+  casual:
+    definition: "No guaranteed hours, irregular"
+    benefits: ["Casual loading 25%", "No leave entitlements"]
+  contract:
+    definition: "Fixed-term, specific project"
+    benefits: ["Pro-rata leave if >12 months"]
+    
+# Termination
+termination:
+  notice_period_weeks:
+    less_than_1_year: 1
+    _1_to_3_years: 2
+    _3_to_5_years: 3
+    more_than_5_years: 4
+  severance_pay: false
+  redundancy_pay: true
+  formula: "Based on years of service (min 4 weeks for 1 year)"
+  
+# Superannuation (Pension)
+superannuation:
+  compulsory: true
+  current_rate_percent: 11.5
+  rate_2025_percent: 12.0
+  employer_contribution: true
+  employee_contribution: false
+  preservation_age: 60
+  url: "https://www.ato.gov.au/super"
+  
+# Industrial Relations
+industrial_relations:
+  system: "Conciliation and Arbitration"
+  tribunal: "Fair Work Commission"
+  unions:
+    coverage_percent: 14.3
+    major_unions:
+      - "Australian Council of Trade Unions (ACTU)"
+      - "Australian Workers' Union (AWU)"
+      - "Construction, Forestry, Maritime, Mining and Energy Union (CFMMEU)"
+  enterprise_bargaining: true
+  url: "https://www.fwc.gov.au"
+  
+# Health & Safety
+work_health_safety:
+  act: "Work Health and Safety Act 2011 (Cth)"
+  regulator: "Safe Work Australia"
+  url: "https://www.safeworkaustralia.gov.au"
+  workers_compensation: true
+  coverage: "All employees"
+  
+# Equal Opportunity
+equal_opportunity:
+  federal_law: "Age Discrimination Act 2004, Sex Discrimination Act 1984, Racial Discrimination Act 1975"
+  pay_equity: true
+  gender_pay_gap_percent: 13.0
+  parental_leave_gender_neutral: true
+  
+# Remote Work
+remote_work:
+  legal_right: false
+  employer_discretion: true
+  work_from_home_expenses: "Tax-deductible"
+  covid_impact: "Hybrid work normalized"
+  
+# AI in the Workplace
+ai_workplace:
+  regulation_status: "Under development"
+  ethical_framework: true
+  employer_notification_required: false
+  human_oversight_required: true
+  
+# Seasonal & Migrant Workers
+migrant_workers:
+  working_holiday_makers: 150000
+  temporary_skill_shortage_visa: "TSS Visa (subclass 482)"
+  minimum_wage_applies: true
+  exploitation_protections: true
+  url: "https://www.homeaffairs.gov.au"

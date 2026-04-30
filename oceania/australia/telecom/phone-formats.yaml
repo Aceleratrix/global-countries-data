@@ -1,0 +1,130 @@
+# Australia Telecom & Phone Formats
+# AI-Ready: Structured for multi-agent systems
+
+country: australia
+last_updated: "2024-12-15"
+calling_code: "+61"
+international_prefix: "0011"
+emergency_numbers:
+  police: "000"
+  fire: "000"
+  ambulance: "000"
+  triple_zero: true
+  preferred: "000"
+  
+# Phone Number Formats
+phone_formats:
+  landline:
+    pattern: "+61 X XXXX XXXX"
+    digits: 9
+    area_codes: ["02 (NSW/ACT)", "03 (VIC/TAS)", "07 (QLD)", "08 (SA/WA/NT)", "04 (Mobile)"]
+    example: "+61 2 1234 5678"
+    regex: "^\\+61[2-478]\\d{8}$"
+    
+  mobile:
+    pattern: "+61 4XX XXX XXX"
+    digits: 9
+    prefixes: ["04", "05"]
+    example: "+61 412 345 678"
+    regex: "^\\+614\\d{8}$"
+    
+  toll_free:
+    pattern: "1800 XXX XXX"
+    example: "1800 123 456"
+    regex: "^1800\\d{6}$"
+    
+  premium_rate:
+    pattern: "190X XXX XXX"
+    example: "1900 123 456"
+    regex: "^190\\d\\d{6}$"
+    
+# Mobile Operators
+mobile_operators:
+  - name: "Telstra"
+    market_share_percent: 44
+    network: "4G/5G nationwide"
+    coverage_population_percent: 99.5
+    url: "https://www.telstra.com.au"
+    
+  - name: "Optus"
+    market_share_percent: 32
+    network: "4G/5G major cities"
+    coverage_population_percent: 98
+    url: "https://www.optus.com.au"
+    
+  - name: "Vodafone"
+    market_share_percent: 17
+    network: "4G/5G major cities"
+    coverage_population_percent: 96
+    url: "https://www.vodafone.com.au"
+    
+  - name: "TPG Telecom"
+    market_share_percent: 7
+    network: "4G/5G selected areas"
+    coverage_population_percent: 85
+    url: "https://www.tpg.com.au"
+    
+# Internet & Broadband
+internet:
+  average_speed_mbps: 59.4
+  fiber_coverage_percent: 35
+  nbn_rollout: true
+  nbn_url: "https://www.nbnco.com.au"
+  nbn_speeds:
+    basic: "12/1 Mbps"
+    standard: "50/20 Mbps"
+    fast: "100/40 Mbps"
+    ultrafast: "250/100 Mbps and up"
+    
+# 5G Coverage
+_5g:
+  coverage_population_percent: 85
+  major_cities: ["Sydney", "Melbourne", "Brisbane", "Perth", "Adelaide"]
+  telstra_5g_cities: 400
+  optus_5g_cities: 250
+  vodafone_5g_cities: 150
+  
+# VoIP & Digital Services
+voip_services:
+  providers: ["Telstra", "Optus", "Vodafone", "Skype", "Zoom"]
+  business_voip: true
+  emergency_calls_requires: "Fixed address registration"
+  
+# Area Codes by State/Territory
+area_codes:
+  new_south_wales_act: "02"
+  victoria_tasmania: "03"
+  queensland: "07"
+  south_australia_nt_wa: "08"
+  mobile: "04"
+  satellite: "014"
+  
+# SMS & Messaging
+sms:
+  max_length_chars: 160
+  unicode_support: true
+  mms_support: true
+  whatsapp_users_millions: 18
+  wechat_users: "Minimal"
+  
+# Telecom Regulation
+regulation:
+  regulator: "Australian Communications and Media Authority (ACMA)"
+  url: "https://www.acma.gov.au"
+  number_portability: true
+  porting_time_days: 1 to 3
+  mobile_number_portability: true
+  
+# International Calling
+international_calling:
+  prefix: "0011"
+  voip_providers: ["Skype", "Viber", "WhatsApp"]
+  calling_cards: true
+  rates_aud_per_minute: 0.50 to 3.00
+  
+# Fax (Still used in some sectors)
+fax:
+  still_used: true
+  medical_sector: true
+  legal_sector: true
+  online_fax_services: ["eFax", "MyFax"]

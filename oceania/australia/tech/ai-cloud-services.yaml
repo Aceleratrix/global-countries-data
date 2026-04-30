@@ -1,0 +1,136 @@
+# Australia AI & Cloud Services
+# AI-Ready: Structured for multi-agent systems
+
+country: australia
+last_updated: "2024-12-15"
+apec_member: true
+
+# National AI Strategy
+national_strategy:
+  name: "Australia's AI Action Plan"
+  launched: 2021
+  budget_aud: 124000000
+  budget_usd: 82000000
+  url: "https://www.industry.gov.au/strategies-and-initiatives/australias-artificial-intelligence-action-plan"
+  key_pillars: ["AI ethics & governance", "AI skills & talent", "AI adoption & innovation", "International collaboration"]
+  focus_areas: ["Responsible AI", "AI in mining/resources", "AI in agriculture", "AI in health"]
+  
+# National AI Centre (NAIC)
+naic:
+  name: "National AI Centre"
+  launched: 2021
+  host: "CSIRO's Data61"
+  budget_aud: 50000000
+  url: "https://www.industry.gov.au/nic"
+  mission: "Accelerate responsible AI adoption in Australia"
+  programs: ["AI Adoption Fund", "AI Bridges", "AI Ecosystem Development"]
+  
+# AI Ethics & Governance
+ai_ethics:
+  framework: "AI Ethics Framework (Voluntary)"
+  principles: ["Human, social, environmental wellbeing", "Human-centred values", "Fairness", "Privacy protection and security", "Reliability and safety", "Transparency and explainability", "Contestability", "Accountability"]
+  mandatory_requirements: false
+  high_risk_ai_framework: "Under development (aligned with EU AI Act)"
+  ai_act_alignment: true
+  
+# Major AI Companies & Startups
+ai_companies:
+  - name: "Canva"
+    valuation_usd_billions: 40
+    ai_products: ["Magic Resize", "Magic Write", "Text to Image", "Brand Kit AI"]
+    employees: 4000
+    headquarters: "Sydney"
+    
+  - name: "Atlassian"
+    valuation_usd_billions: 50
+    ai_products: ["Jira AI", "Confluence AI", "Bitbucket AI"]
+    employees: 10000
+    headquarters: "Sydney"
+    
+  - name: "Airwallex"
+    valuation_usd_billions: 5.5
+    ai_products: ["Fraud detection", "Risk scoring", "Expense categorization"]
+    employees: 1500
+    headquarters: "Melbourne"
+    
+  - name: "Civic Ledger"
+    focus: "Blockchain & AI for government"
+    url: "https://civicledger.com"
+    
+  - name: "Hyper Anna"
+    focus: "Conversational AI for business intelligence"
+    url: "https://hyperanna.com"
+    
+# AI Research & Academia
+ai_research:
+  csiros_data61:
+    name: "CSIRO's Data61"
+    description: "Australia's national science agency AI research"
+    url: "https://www.data61.csiro.au"
+    focus: ["Machine learning", "Computer vision", "Natural language processing"]
+    
+  top_universities:
+    - "University of Melbourne (AI research group)"
+    - "Australian National University (ANU) - AI/ML"
+    - "UNSW Sydney (AI Institute)"
+    - "University of Technology Sydney (UTS) - AI"
+    
+# Cloud Regions
+cloud_regions:
+  aws:
+    regions: ["Asia Pacific (Sydney)", "Asia Pacific (Melbourne)"]
+    availability_zones: 6
+    url: "https://aws.amazon.com/about-aws/global-infrastructure/regions_az/"
+    
+  azure:
+    regions: ["Australia East (Sydney)", "Australia Southeast (Melbourne)"]
+    availability_zones: 6
+    url: "https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/"
+    
+  google_cloud:
+    regions: ["Australia Southeast (Melbourne)", "Australia East (Sydney - announced)"]
+    availability_zones: 3
+    url: "https://cloud.google.com/about/locations"
+    
+  oracle_cloud:
+    regions: ["Sydney", "Melbourne"]
+    availability_zones: 3
+    
+# Government AI Initiatives
+government_ai:
+  digital_transformation_strategy: true
+  ai_procurement_policy: "Under development"
+  ai_ethics_certification: false
+  gov_ai_use_cases: ["Service delivery", "Policy analysis", "Regulatory compliance", "Grant assessment"]
+  url: "https://www.digital.gov.au"
+  
+# AI Investment & Funding
+ai_investment:
+  venture_capital_2023_aud_millions: 850
+  venture_capital_2023_usd_millions: 560
+  major_investors: ["Blackbird", "Square Peg", "AirTree", "Main Sequence"]
+  gov_ai_funding_aud_millions: 124
+  rd_tax_incentive_percent: 43.5
+  
+# AI Skills & Talent
+ai_skills:
+  ai_workers_estimate: 150000
+  skills_shortage: true
+  government_training_budget_aud_millions: 25
+  visa_pathways: ["Global Talent Visa", "Skilled Independent Visa (189)"]
+  ai_courses_universities: 85
+  
+# AI Regulations in Development
+ai_regulation_roadmap:
+  2024: "Discussion paper on AI regulation released"
+  2025: "Draft legislation for high-risk AI"
+  2026: "AI Act implementation (expected)"
+  alignment: "EU AI Act, OECD AI Principles"
+  
+# AI in Key Industries
+industry_ai_adoption:
+  mining: ["Predictive maintenance", "Autonomous vehicles", "Drone surveys"]
+  agriculture: ["Precision farming", "Crop monitoring", "Livestock tracking"]
+  healthcare: ["Medical imaging AI", "Patient risk scoring", "Drug discovery"]
+  financial_services: ["Fraud detection", "Credit scoring", "Robo-advisory"]
+  education: ["Personalized learning", "Automated grading", "Student analytics"]

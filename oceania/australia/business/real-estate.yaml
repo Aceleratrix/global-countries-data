@@ -1,0 +1,165 @@
+# Australia Business: Real Estate
+# AI-Ready: Structured for multi-agent systems
+
+country: australia
+last_updated: "2024-12-15"
+apec_member: true
+currency: AUD
+
+# Real Estate Market Overview
+market_overview:
+  total_value_aud_trillions: 10.1
+  total_value_usd_trillions: 6.7
+  residential_percent: 65
+  commercial_percent: 25
+  industrial_percent: 10
+  
+# Major Cities Property Prices (2024)
+property_prices:
+  sydney:
+    median_house_aud: 1300000
+    median_house_usd: 858000
+    median_unit_aud: 800000
+    median_unit_usd: 528000
+    annual_growth_percent: 6.5
+    
+  melbourne:
+    median_house_aud: 950000
+    median_house_usd: 627000
+    median_unit_aud: 600000
+    median_unit_usd: 396000
+    annual_growth_percent: 4.2
+    
+  brisbane:
+    median_house_aud: 800000
+    median_house_usd: 528000
+    median_unit_aud: 500000
+    median_unit_usd: 330000
+    annual_growth_percent: 8.1
+    
+  perth:
+    median_house_aud: 650000
+    median_house_usd: 429000
+    median_unit_aud: 420000
+    median_unit_usd: 277000
+    annual_growth_percent: 5.3
+    
+  adelaide:
+    median_house_aud: 700000
+    median_house_usd: 462000
+    median_unit_aud: 450000
+    median_unit_usd: 297000
+    annual_growth_percent: 7.2
+    
+# Rental Market
+rental_market:
+  sydney:
+    median_house_weekly_aud: 650
+    median_unit_weekly_aud: 550
+    vacancy_rate_percent: 1.5
+    
+  melbourne:
+    median_house_weekly_aud: 500
+    median_unit_weekly_aud: 420
+    vacancy_rate_percent: 1.8
+    
+  brisbane:
+    median_house_weekly_aud: 500
+    median_unit_weekly_aud: 400
+    vacancy_rate_percent: 1.2
+    
+# Commercial Real Estate
+commercial:
+  office:
+    sydney_cbd_aud_m2: 1050
+    sydney_cbd_usd_m2: 693
+    melbourne_cbd_aud_m2: 750
+    melbourne_cbd_usd_m2: 495
+    vacancy_rate_percent: 12.5
+    
+  retail:
+    prime_rent_aud_m2: 1200 to 3500
+    vacancy_rate_percent: 8.5
+    
+  industrial:
+    average_rent_aud_m2: 180
+    vacancy_rate_percent: 1.8
+    demand_drivers: ["E-commerce", "Last-mile delivery", "Logistics"]
+    
+# Real Estate Investment
+investment:
+  foreign_investment_approval_aud_billions: 28
+  foreign_investment_approval_usd_billions: 18.5
+  top_foreign_buyers: ["China", "USA", "Singapore", "UK"]
+  negative_gearing: true
+  capital_gains_tax_discount_percent: 50
+  
+# Property Taxes & Costs
+property_taxes:
+  stamp_duty:
+    rate_percent: 3.5 to 5.5
+    calculation: "Progressive scale by state"
+    first_home_exemption: true
+    url: "https://www.revenue.act.gov.au"
+    
+  land_tax:
+    threshold_aud: 300000
+    threshold_usd: 198000
+    rate_percent: 0.5 to 2.5
+    varies_by_state: true
+    
+  council_rates:
+    average_annual_aud: 2000
+    average_annual_usd: 1320
+    based_on: "Unimproved land value"
+    
+# Real Estate Agents
+real_estate_agents:
+  major_agencies: ["Ray White", "LJ Hooker", "McGrath", "Barry Plant", "Raine & Horne"]
+  average_commission_percent: 2.0 to 2.5
+  licensing: "State-based licensing required"
+  url: "https://www.reinsw.com.au"
+  
+# Buying Process
+buying_process:
+  steps: ["Pre-approval", "Find property", "Offer/contract", "Cooling-off period (5 days)", "Settlement (6 weeks)"]
+  cooling_off_period_days: 5
+  deposit_percent: 10
+  settlement_period_days: 42
+  conveyancing_required: true
+  
+# Renting Process
+renting_process:
+  lease_term_months: 6 to 12
+  bond_required: true
+  bond_max_weeks: 4
+  bond_holder: "RTBA (state-based)"
+  rent_increase_notice_days: 60
+  
+# Real Estate Portals
+property_portals:
+  - name: "realestate.com.au"
+    market_share_percent: 65
+    url: "https://www.realestate.com.au"
+    
+  - name: "Domain"
+    market_share_percent: 25
+    url: "https://www.domain.com.au"
+    
+  - name: "Allhomes"
+    market_share_percent: 5
+    url: "https://www.allhomes.com.au"
+    
+# Construction & Development
+construction:
+  new_dwellings_2024: 180000
+  approvals_2024: 190000
+  major_developers: ["Lendlease", "Mirvac", "Stockland", "Frasers Property"]
+  construction_costs_index_percent: 5.2
+  
+# Foreign Buyers
+foreign_buyers:
+  firb_approval_required: true
+  additional_stamp_duty_percent: 8
+  vacant_property_annual_fee_aud: 2500 to 5500
+  url: "https://firb.gov.au"

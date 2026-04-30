@@ -1,0 +1,157 @@
+# Australia Business: Company Sizes & Classifications
+# AI-Ready: Structured for multi-agent systems
+
+country: australia
+last_updated: "2024-12-15"
+apec_member: true
+
+# Company Size Definitions (Australian Bureau of Statistics)
+size_definitions:
+  micro:
+    employees_max: 4
+    revenue_aud_max: 200000
+    revenue_usd_max: 132000
+    percent_of_businesses: 61.3
+    examples: ["Sole traders", "Freelancers", "Family businesses"]
+    
+  small:
+    employees_range: "5-19"
+    revenue_aud_max: 10000000
+    revenue_usd_max: 6600000
+    percent_of_businesses: 27.8
+    examples: ["Local retailers", "Small cafes", "Trade services"]
+    
+  medium:
+    employees_range: "20-199"
+    revenue_aud_max: 50000000
+    revenue_usd_max: 33000000
+    percent_of_businesses: 9.4
+    examples: ["Regional manufacturers", "Mid-size tech firms", "Growing retailers"]
+    
+  large:
+    employees_min: 200
+    revenue_aud_min: 50000000
+    revenue_usd_min: 33000000
+    percent_of_businesses: 1.5
+    examples: ["ASX-listed companies", "Major banks", "Mining companies"]
+    
+# Total Businesses
+total_businesses: 2500000
+asx_listed_companies: 2200
+private_companies_percent: 99.8
+public_companies_percent: 0.2
+
+# Business Structure Types
+business_structures:
+  - type: "Sole Trader"
+    description: "Single owner, unlimited liability"
+    abn_required: true
+    percent_of_businesses: 60
+    tax_treatment: "Personal income tax rates"
+    
+  - type: "Partnership"
+    description: "2-20 partners, shared liability"
+    abn_required: true
+    percent_of_businesses: 10
+    tax_treatment: "Partners taxed individually"
+    
+  - type: "Company (Pty Ltd)"
+    description: "Limited liability, separate legal entity"
+    abn_required: true
+    acn_required: true
+    percent_of_businesses: 28
+    tax_treatment: "Corporate tax rate (25-30%)"
+    
+  - type: "Trust"
+    description: "Assets held for beneficiaries"
+    abn_required: true
+    percent_of_businesses: 2
+    tax_treatment: "Pass-through to beneficiaries"
+    
+# ABN & ACN Registration
+abn_acn:
+  abn:
+    name: "Australian Business Number"
+    format: "11 digits"
+    required_for: "All business activities"
+    gst_linked: true
+    url: "https://abr.business.gov.au"
+    
+  acn:
+    name: "Australian Company Number"
+    format: "9 digits"
+    required_for: "Registered companies"
+    issued_by: "ASIC"
+    url: "https://asic.gov.au"
+    
+# Small Business Support
+small_business_support:
+  asbfeo:
+    name: "Australian Small Business and Family Enterprise Ombudsman"
+    url: "https://www.asbfeo.gov.au"
+    
+  incentives:
+    - name: "Instant Asset Write-Off"
+      threshold_aud: 20000
+      threshold_usd: 13200
+      description: "Immediate deduction for assets"
+      
+    - name: "R&D Tax Incentive"
+      refundable_percent: 43.5
+      non_refundable_percent: 38.5
+      eligibility: "Companies with <$20M turnover"
+      
+# Industry Concentrations
+industry_concentrations:
+  top_industries_by_sme_count:
+    - "Construction"
+    - "Professional, Scientific & Technical Services"
+    - "Rental, Hiring & Real Estate Services"
+    - "Health Care & Social Assistance"
+    - "Retail Trade"
+    
+# Startup Ecosystem
+startups:
+  ecosystem_value_aud_billions: 120
+  ecosystem_value_usd_billions: 79
+  unicorns: ["Canva ($40B)", "Atlassian ($50B)", "Airwallex ($5.5B)", "SafetyCulture ($2.1B)"]
+  startup_hubs: ["Sydney", "Melbourne", "Brisbane"]
+  accelerators: ["Startmate", "Antler", "BlueChilli", "Blackbird"]
+  coworking_spaces: ["WeWork", "Hub Australia", "Fishburners"]
+  
+# Business Licenses & Permits
+licenses_permits:
+  business_licenses:
+    federal: ["ABN", "ACN (if company)", "GST registration (if >$75K)"]
+    state: ["Fair Trading license", "Liquor license (if applicable)", "Gaming license (if applicable)"]
+    local: ["Council permits", "Development approval", "Health permits (food businesses)"]
+    
+  professional_registration:
+    required_for: ["Doctors", "Lawyers", "Engineers", "Accountants", "Builders"]
+    regulators: ["AHPRA", "State Law Societies", "Engineers Australia", "CPA Australia"]
+    
+# Business Insurance
+business_insurance:
+  compulsory:
+    - "Workers compensation (all states)"
+    - "Third-party car insurance (CTP)"
+    
+  recommended:
+    - "Public liability insurance"
+    - "Professional indemnity insurance"
+    - "Product liability insurance"
+    - "Business interruption insurance"
+    
+# Import/Export Business
+import_export:
+  ausfta_member: true
+  export_market_development_grants: true
+  austrade_support: true
+  url: "https://www.austrade.gov.au"
+  
+# Indigenous Business
+indigenous_business:
+  supply_nation:
+    certified_businesses: 3000
+    url: "https://supplynation.org.au"
+  government_procurement_target_percent: 3

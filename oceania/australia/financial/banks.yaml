@@ -1,0 +1,159 @@
+# Australia Banking & Financial System
+# AI-Ready: Structured for multi-agent systems
+
+country: australia
+last_updated: "2024-12-15"
+currency: AUD
+apec_member: true
+
+# Banking System Overview
+system:
+  type: "Four-Pillar Policy (Big 4 banks)"
+  regulator: "Australian Prudential Regulation Authority (APRA)"
+  url: "https://www.apra.gov.au"
+  central_bank: "Reserve Bank of Australia (RBA)"
+  rba_url: "https://www.rba.gov.au"
+  deposit_guarantee_aud: 250000
+  deposit_guarantee_usd: 165000
+  guarantee_scheme: "Financial Claims Scheme (FCS)"
+  
+# Big 4 Banks
+big_four_banks:
+  - name: "Commonwealth Bank of Australia (CBA)"
+    asx_code: "CBA"
+    market_cap_aud_billions: 185
+    market_cap_usd_billions: 122
+    customers_millions: 17
+    branches: 800
+    digital_users_millions: 8.5
+    ai_initiatives: ["AI-driven personalization", "Fraud detection", "NLP chatbots"]
+    
+  - name: "Westpac Banking Corporation"
+    asx_code: "WBC"
+    market_cap_aud_billions: 95
+    market_cap_usd_billions: 63
+    customers_millions: 13
+    branches: 600
+    digital_users_millions: 6.2
+    ai_initiatives: ["Predictive analytics", "Risk modeling"]
+    
+  - name: "Australia and New Zealand Banking Group (ANZ)"
+    asx_code: "ANZ"
+    market_cap_aud_billions: 85
+    market_cap_usd_billions: 56
+    customers_millions: 10
+    branches: 500
+    digital_users_millions: 5.8
+    ai_initiatives: ["ANZ Plus digital bank", "AI-driven insights"]
+    
+  - name: "National Australia Bank (NAB)"
+    asx_code: "NAB"
+    market_cap_aud_billions: 90
+    market_cap_usd_billions: 59
+    customers_millions: 9
+    branches: 350
+    digital_users_millions: 5.5
+    ai_initiatives: ["NAB Ergon AI platform", "Small business AI tools"]
+    
+# Payment Methods
+payment_methods:
+  - name: "BPAY"
+    type: "Bill payment system"
+    market_share_percent: 35
+    coverage: "All major banks"
+    url: "https://www.bpay.com.au"
+    api_available: true
+    
+  - name: "EFTPOS"
+    type: "Debit card system"
+    market_share_percent: 65
+    coverage: "Universal"
+    contactless_limit_aud: 200
+    contactless_limit_usd: 132
+    
+  - name: "Credit Cards"
+    major_brands: ["Visa", "Mastercard", "American Express"]
+    market_share_percent: 45
+    average_credit_limit_aud: 15000
+    
+  - name: "PayPal"
+    type: "Digital wallet"
+    market_share_percent: 18
+    coverage: "E-commerce dominant"
+    
+  - name: "Buy Now Pay Later"
+    providers: ["Afterpay (Square)", "Zip", "Klarna"]
+    market_size_aud_billions: 16
+    market_size_usd_billions: 10.5
+    users_millions: 5
+    
+  - name: "Osko (NPP)"
+    type: "Real-time payments"
+    launched: 2018
+    transactions_daily: 1000000
+    url: "https://www.npp.gov.au"
+    
+# Digital Banking
+digital_banking:
+  adoption_percent: 92
+  mobile_banking_percent: 85
+  neobanks: ["Judo Bank", "Alex Bank", "Volt (ceased 2022)"]
+  open_banking: true
+  open_banking_launched: 2020
+  cdr_url: "https://www.cdr.gov.au"
+  
+# ATMs & Branches
+atms:
+  total: 13000
+  big_four_ownership_percent: 70
+  independent_operators: true
+  
+# International Transfers
+international_transfers:
+  swift_codes: true
+  major_providers: ["Western Union", "MoneyGram", "TransferWise (Wise)", "OFX"]
+  average_fee_aud: 25
+  processing_time_days: 1 to 3
+  
+# Stock Exchange
+stock_exchange:
+  name: "Australian Securities Exchange (ASX)"
+  market_cap_aud_trillions: 2.5
+  market_cap_usd_trillions: 1.65
+  listed_companies: 2200
+  asx_200_index: true
+  url: "https://www.asx.com.au"
+  
+# Fintech Ecosystem
+fintech:
+  companies_count: 800
+  total_investment_2023_aud_billions: 2.5
+  total_investment_2023_usd_billions: 1.65
+  unicorns: ["Airwallex ($5.5B)", "Canva ($40B)", "Atlassian ($50B)"]
+  hot_sectors: ["Payments", "Lending", "Wealth management", "Insurtech"]
+  url: "https://www.fintechaustralia.com.au"
+  
+# Cryptocurrency
+cryptocurrency:
+  legal_status: "Legal, not legal tender"
+  capital_gains_tax: true
+  major_exchanges: ["CoinSpot", "Swyftx", "Binance Australia"]
+  ato_guidance: true
+  url: "https://www.ato.gov.au/individuals/cryptocurrency/"
+  
+# Business Banking
+business_banking:
+  business_accounts_required: true
+  abn_required: true
+  gst_registration_linked: true
+  business_loans:
+    major_providers: ["Big 4 banks", "Macquarie", "Suncorp"]
+    typical_rate_percent: 5.5 to 8.5
+  invoice_factoring: true
+  
+# Insurance
+insurance:
+  compulsory_insurance: ["Workers compensation", "Third-party car insurance (CTP)"]
+  major_providers: ["QBE", "IAG", "Suncorp", "Allianz"]
+  private_health_insurance: true
+  superannuation_insurers: ["AustralianSuper", "REST", "Hostplus"]

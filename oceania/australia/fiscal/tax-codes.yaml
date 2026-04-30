@@ -1,0 +1,133 @@
+# Australia Tax Codes & Fiscal Information
+# AI-Ready: Structured for multi-agent systems
+
+country: australia
+last_updated: "2024-12-15"
+currency: AUD
+apec_member: true
+
+# GST (Goods and Services Tax)
+gst:
+  rate_percent: 10.0
+  effective_date: "2000-07-01"
+  exempt_categories: ["Basic food", "Education", "Health/medical", "Childcare"]
+  zero_rated: ["Exports", "Most food"]
+  registration_threshold_aud: 75000
+  registration_threshold_usd: 49500
+  voluntary_registration: true
+  url: "https://www.ato.gov.au/business/gst/"
+  
+# Corporate Tax
+corporate_tax:
+  standard_rate_percent: 30.0
+  sme_rate_percent: 25.0
+  sme_threshold_aud: 50000000
+  sme_threshold_usd: 33000000
+  base_erosion_min_tax: true
+  thin_capitalization: true
+  url: "https://www.ato.gov.au/business/company-tax/"
+  
+# Personal Income Tax (2024-25)
+personal_income_tax:
+  brackets:
+    - threshold_aud: 18200
+      threshold_usd: 12000
+      rate_percent: 0
+    - threshold_aud: 45000
+      threshold_usd: 29700
+      rate_percent: 19
+    - threshold_aud: 120000
+      threshold_usd: 79200
+      rate_percent: 32.5
+    - threshold_aud: 180000
+      threshold_usd: 118800
+      rate_percent: 37
+    - threshold_aud: 180001
+      threshold_usd: 118801
+      rate_percent: 45
+  medicare_levy_percent: 2.0
+  temporary_budget_repair_levy: false
+  url: "https://www.ato.gov.au/individuals/income-tax-rates/"
+  
+# Withholding Tax
+withholding_tax:
+  dividends_percent: 30
+  interest_percent: 10
+  royalties_percent: 30
+  treaty_relief: true
+  dtp_countries: 44
+  url: "https://www.ato.gov.au/business/international-tax-for-business/withholding-tax/"
+  
+# Superannuation (Pension) Guarantee
+superannuation:
+  current_rate_percent: 11.5
+  rate_2025_percent: 12.0
+  employer_contribution: true
+  employee_contribution: false
+  contribution_cap_aud: 27500
+  preservation_age: 60
+  url: "https://www.ato.gov.au/super/"
+  
+# FBT (Fringe Benefits Tax)
+fbt:
+  rate_percent: 47.0
+  applicable_benefits: ["Car", "Entertainment", "Expense payments", "Housing"]
+  exemptions: ["Work-related items", "Minor benefits <$300"]
+  url: "https://www.ato.gov.au/business/fringe-benefits-tax/"
+  
+# Capital Gains Tax
+capital_gains_tax:
+  applicable: true
+  discount_for_individuals_percent: 50
+  discount_for_super_percent: 33.3
+  main_residence_exempt: true
+  url: "https://www.ato.gov.au/individuals/capital-gains-tax/"
+  
+# State Taxes
+state_taxes:
+  payroll_tax:
+    rates_percent: 4.85 to 6.85
+    threshold_aud: 1000000
+    note: "Varies by state/territory"
+  land_tax:
+    applicable: true
+    rate_percent: 0.5 to 2.5
+    threshold_aud: 300000
+    note: "Varies by state/territory"
+  stamp_duty:
+    property_rate_percent: 3.5 to 5.5
+    note: "One-time on property purchases"
+    
+# Trade Agreements
+trade_agreements:
+  fta_countries: ["USA", "China", "Japan", "Korea", "Singapore", "ASEAN", "NZ", "Chile"]
+  apec_member: true
+  rcep_member: true
+  cptpp_member: true
+  url: "https://www.dfat.gov.au/trade/agreements"
+  
+# Mining & Resources Taxes
+mining_taxes:
+  petroleum_resource_rent_tax_percent: 40
+  minerals_resource_rent_tax: false
+  state_royalties: true
+  note: "Iron ore, coal, lithium major exports"
+  
+# Reporting & Compliance
+reporting:
+  fiscal_year: "July 1 to June 30"
+  corporate_filing_deadline: "October 31"
+  gst_reporting: "Monthly, quarterly, or annually"
+  audit_threshold_aud: 50000000
+  electronic_invoicing: false
+  url: "https://www.ato.gov.au/business/bas/"
+  
+# Incentives
+incentives:
+  rd_tax_incentive:
+    refundable_percent: 43.5
+    non_refundable_percent: 38.5
+    eligibility: "Companies with <$20M turnover"
+  instant_asset_write_off_aud: 20000
+  startup_incentives: true
+  url: "https://www.ato.gov.au/business/incentives/"

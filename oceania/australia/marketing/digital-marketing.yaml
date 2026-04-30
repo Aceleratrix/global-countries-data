@@ -1,0 +1,172 @@
+# Australia Digital Marketing Landscape
+# AI-Ready: Structured for multi-agent systems
+
+country: australia
+last_updated: "2024-12-15"
+apec_member: true
+privacy_act_equivalent: "Privacy Act 1988"
+
+# Digital Marketing Overview
+digital_marketing_overview:
+  market_size_aud_billions: 15.2
+  market_size_usd_billions: 10.0
+  annual_growth_percent: 12.5
+  percent_of_total_ad_spend: 68
+  programmatic_share_percent: 82
+  
+# Top Social Media Platforms
+social_media:
+  - platform: "Facebook"
+    users_millions: 18
+    penetration_percent: 70
+    business_adoption_percent: 85
+    ad_revenue_aud_millions: 3200
+    
+  - platform: "Instagram"
+    users_millions: 15
+    penetration_percent: 58
+    business_adoption_percent: 72
+    ad_revenue_aud_millions: 2800
+    
+  - platform: "LinkedIn"
+    users_millions: 12
+    penetration_percent: 47
+    business_adoption_percent: 65
+    ad_revenue_aud_millions: 800
+    
+  - platform: "TikTok"
+    users_millions: 8.5
+    penetration_percent: 33
+    business_adoption_percent: 38
+    ad_revenue_aud_millions: 600
+    
+  - platform: "YouTube"
+    users_millions: 20
+    penetration_percent: 78
+    business_adoption_percent: 70
+    ad_revenue_aud_millions: 2500
+    
+  - platform: "Twitter/X"
+    users_millions: 5
+    penetration_percent: 19
+    business_adoption_percent: 42
+    ad_revenue_aud_millions: 300
+    
+# Search Engines
+search_engines:
+  - engine: "Google"
+    market_share_percent: 94.5
+    
+  - engine: "Bing"
+    market_share_percent: 3.8
+    
+  - engine: "DuckDuckGo"
+    market_share_percent: 1.2
+    
+  - engine: "Others"
+    market_share_percent: 0.5
+    
+# E-commerce Platforms
+ecommerce_platforms:
+  - platform: "Shopify"
+    market_share_percent: 32
+    top_users: ["Small to medium retailers"]
+    
+  - platform: "WooCommerce"
+    market_share_percent: 28
+    top_users: ["WordPress-based stores"]
+    
+  - platform: "BigCommerce"
+    market_share_percent: 12
+    top_users: ["Mid-size retailers"]
+    
+  - platform: "Magento/Adobe Commerce"
+    market_share_percent: 10
+    top_users: ["Enterprise retailers"]
+    
+  - platform: "Amazon Australia"
+    market_share_percent: 8
+    launched: 2017
+    url: "https://amazon.com.au"
+    
+# Digital Ad Spend by Channel
+ad_spend_by_channel:
+  search_ads_percent: 42
+  social_media_ads_percent: 35
+  display_ads_percent: 15
+  video_ads_percent: 18
+  email_marketing_percent: 12
+  influencer_marketing_aud_millions: 800
+  
+# Email Marketing
+email_marketing:
+  top_platforms: ["Mailchimp", "Campaign Monitor", "Klaviyo", "HubSpot"]
+  average_open_rate_percent: 22.5
+  average_click_rate_percent: 2.8
+  business_adoption_percent: 78
+  
+# SEO & Content Marketing
+seo_content:
+  top_agencies: ["Online Marketing Gurus", "Safari Digital", "King Kong", "Digital Meal"]
+  average_monthly_budget_aud: 3000 to 15000
+  content_marketing_adoption_percent: 82
+  blog_adoption_percent: 68
+  
+# Influencer Marketing
+influencer_marketing:
+  market_size_aud_millions: 800
+  top_influencer_types: ["Lifestyle", "Fitness", "Beauty", "Travel", "Food"]
+  instagram_influencers_100k_plus: 450
+  tiktok_creators_100k_plus: 280
+  micro_influencers_growth_percent: 45
+  
+# Marketing Automation
+marketing_automation:
+  top_platforms: ["HubSpot", "ActiveCampaign", "Marketo", "Pardot"]
+  adoption_percent: 45
+  average_cost_aud_monthly: 500 to 3000
+  
+# Privacy & Compliance
+privacy_compliance:
+  law: "Privacy Act 1988 (Cth)"
+  ndb_scheme: "Notifiable Data Breaches"
+  consent_required: true
+  cookies_banner_required: true
+  email_opt_in: true
+  casl_type_law: false
+  url: "https://www.oaic.gov.au"
+  
+# Mobile Marketing
+mobile_marketing:
+  smartphone_penetration_percent: 88
+  mobile_ad_spend_percent: 65
+  sms_marketing_adoption_percent: 52
+  app_advertising_growth_percent: 28
+  
+# Video Marketing
+video_marketing:
+  youtube_dominance: true
+  tiktok_growth_percent: 85
+  live_streaming_growth_percent: 42
+  video_content_types: ["Tutorials", "Product demos", "Testimonials", "Behind-the-scenes"]
+  
+# B2B Marketing
+b2b_marketing:
+  top_channels: ["LinkedIn", "Email", "Webinars", "Whitepapers"]
+  average_deal_size_aud: 85000
+  sales_cycle_days: 90 to 180
+  account_based_marketing_adoption_percent: 38
+  
+# Marketing Technology Stack
+martech_stack:
+  crm: ["Salesforce", "HubSpot", "Zoho CRM", "Microsoft Dynamics"]
+  analytics: ["Google Analytics 4", "Adobe Analytics", "Hotjar"]
+  social_media_management: ["Hootsuite", "Sprout Social", "Buffer"]
+  seo_tools: ["SEMrush", "Ahrefs", "Moz", "Screaming Frog"]
+  
+# Local Marketing
+local_marketing:
+  google_my_business_adoption_percent: 72
+  local_seo_investment_growth_percent: 35
+  review_platforms: ["Google Reviews", "ProductReview.com.au", "Trustpilot"]
+  location_based_ads_growth_percent: 42

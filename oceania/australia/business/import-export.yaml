@@ -1,0 +1,196 @@
+# Australia Business: Import & Export
+# AI-Ready: Structured for multi-agent systems
+
+country: australia
+last_updated: "2024-12-15"
+apec_member: true
+currency: AUD
+
+# Trade Overview
+trade_overview:
+  total_exports_aud_billions: 590
+  total_exports_usd_billions: 389
+  total_imports_aud_billions: 440
+  total_imports_usd_billions: 290
+  trade_balance_aud_billions: 150
+  trade_balance_usd_billions: 99
+  top_trading_partner: "China"
+  
+# Major Exports
+exports:
+  top_commodities:
+    - commodity: "Iron Ore"
+      value_aud_billions: 120
+      value_usd_billions: 79
+      percent_of_total: 20.3
+      major_markets: ["China", "Japan", "South Korea"]
+      
+    - commodity: "Coal"
+      value_aud_billions: 85
+      value_usd_billions: 56
+      percent_of_total: 14.4
+      major_markets: ["China", "India", "Japan"]
+      
+    - commodity: "Natural Gas (LNG)"
+      value_aud_billions: 70
+      value_usd_billions: 46
+      percent_of_total: 11.9
+      major_markets: ["Japan", "China", "South Korea"]
+      
+    - commodity: "Gold"
+      value_aud_billions: 35
+      value_usd_billions: 23
+      percent_of_total: 5.9
+      major_markets: ["China", "UK", "Hong Kong"]
+      
+    - commodity: "Beef"
+      value_aud_billions: 12
+      value_usd_billions: 7.9
+      percent_of_total: 2.0
+      major_markets: ["China", "USA", "Japan"]
+      
+    - commodity: "Wheat"
+      value_aud_billions: 10
+      value_usd_billions: 6.6
+      percent_of_total: 1.7
+      major_markets: ["Indonesia", "China", "Japan"]
+      
+    - commodity: "Wine"
+      value_aud_billions: 2.5
+      value_usd_billions: 1.65
+      percent_of_total: 0.4
+      major_markets: ["China", "USA", "UK"]
+      
+# Major Imports
+imports:
+  top_commodities:
+    - commodity: "Refined Petroleum"
+      value_aud_billions: 35
+      value_usd_billions: 23
+      percent_of_total: 8.0
+      
+    - commodity: "Cars & Vehicle Parts"
+      value_aud_billions: 30
+      value_usd_billions: 19.8
+      percent_of_total: 6.8
+      
+    - commodity: "Telecommunications Equipment"
+      value_aud_billions: 25
+      value_usd_billions: 16.5
+      percent_of_total: 5.7
+      
+    - commodity: "Computers & Electronics"
+      value_aud_billions: 22
+      value_usd_billions: 14.5
+      percent_of_total: 5.0
+      
+    - commodity: "Pharmaceuticals"
+      value_aud_billions: 18
+      value_usd_billions: 11.9
+      percent_of_total: 4.1
+      
+# Top Trading Partners
+trading_partners:
+  exports:
+    - country: "China"
+      value_aud_billions: 190
+      percent_of_total: 32.2
+    - country: "Japan"
+      value_aud_billions: 65
+      percent_of_total: 11.0
+    - country: "South Korea"
+      value_aud_billions: 40
+      percent_of_total: 6.8
+    - country: "USA"
+      value_aud_billions: 35
+      percent_of_total: 5.9
+    - country: "India"
+      value_aud_billions: 25
+      percent_of_total: 4.2
+      
+  imports:
+    - country: "China"
+      value_aud_billions: 110
+      percent_of_total: 25.0
+    - country: "USA"
+      value_aud_billions: 65
+      percent_of_total: 14.8
+    - country: "Japan"
+      value_aud_billions: 30
+      percent_of_total: 6.8
+    - country: "Germany"
+      value_aud_billions: 20
+      percent_of_total: 4.5
+    - country: "Thailand"
+      value_aud_billions: 18
+      percent_of_total: 4.1
+      
+# Free Trade Agreements
+free_trade_agreements:
+  - name: "AUSFTA (Australia-USA FTA)"
+    signed: 2004
+    effective: 2005
+    url: "https://www.dfat.gov.au"
+    
+  - name: "ChAFTA (China-Australia FTA)"
+    signed: 2015
+    effective: 2015
+    
+  - name: "JAEPA (Japan-Australia EPA)"
+    signed: 2014
+    effective: 2015
+    
+  - name: "KAFTA (Korea-Australia FTA)"
+    signed: 2014
+    effective: 2014
+    
+  - name: "CPTPP (Comprehensive Progressive Trans-Pacific Partnership)"
+    signed: 2018
+    members: 11
+    
+  - name: "RCEP (Regional Comprehensive Economic Partnership)"
+    signed: 2020
+    members: 15
+    
+# Trade Promotion
+trade_promotion:
+  austrade:
+    name: "Australian Trade and Investment Commission"
+    url: "https://www.austrade.gov.au"
+    services: ["Market research", "Export grants", "Trade missions", "Investment facilitation"]
+    
+  export_market_development_grants:
+    name: "EMDG Scheme"
+    reimbursement_percent: 50
+    max_grant_aud: 150000
+    url: "https://www.austrade.gov.au"
+    
+# Import Regulations
+import_regulations:
+  customs_service: "Australian Border Force (ABF)"
+  url: "https://www.abf.gov.au"
+  gst_on_imports: true
+  gst_rate_percent: 10
+  duty_rates: "0% to 10% (varies by product)"
+  quarantine: "Department of Agriculture, Fisheries and Forestry"
+  
+# Export Controls
+export_controls:
+  defence_exports: "Defence Export Control Office (DECO)"
+  dual_use_goods: "DSGL (Defence and Strategic Goods List)"
+  url: "https://www.defence.gov.au"
+  export_licenses_required: ["Military goods", "Dual-use technologies", "Nuclear-related items"]
+  
+# Export Finance
+export_finance:
+  efa:
+    name: "Export Finance Australia"
+    url: "https://www.exportfinance.gov.au"
+    services: ["Export credit insurance", "Loans to foreign buyers", "Bonding facilities"]
+    
+# Regional Trade
+regional_trade:
+  apec_member: true
+  asean_dialogue_partner: true
+  pacific_islands_trade_agreement: true
+  indian_ocean_rim_association: true

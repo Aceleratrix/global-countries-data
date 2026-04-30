@@ -1,0 +1,119 @@
+# Australia Internet & Data Protection Laws
+# AI-Ready: Structured for multi-agent systems
+
+country: australia
+last_updated: "2024-12-15"
+jurisdiction: AU
+apec_member: true
+
+# Primary Legislation
+laws:
+  - name: "Privacy Act 1988 (Cth)"
+    type: "Data Protection"
+    scope: "Federal"
+    key_points: ["Notifiable Data Breaches (NDB) scheme", "Australian Privacy Principles (APPs)", "OAIC enforcement"]
+    effective_date: "1988-12-21"
+    url: "https://www.legislation.gov.au/Details/C2021C00389"
+    
+  - name: "Copyright Act 1968 (Cth)"
+    type: "Copyright"
+    scope: "Federal"
+    key_points: ["Safe harbor for ISPs", "Moral rights", "Digital agenda reforms"]
+    effective_date: "1968-05-01"
+    url: "https://www.legislation.gov.au/Details/C2019C00001"
+    
+  - name: "Spam Act 2003 (Cth)"
+    type: "Anti-Spam"
+    scope: "Federal"
+    key_points: ["Consent required for commercial email", "Unsubscribe requirements", "ACMA enforcement"]
+    effective_date: "2003-12-16"
+    url: "https://www.legislation.gov.au/Details/C2021C00123"
+
+# AI-Specific Regulations
+ai_regulations:
+  framework: "Voluntary AI Ethics Framework"
+  regulator: "National AI Centre (NAIC)"
+  key_principles: ["Human, social, environmental wellbeing", "Human-centred values", "Fairness", "Privacy protection", "Reliability and safety", "Transparency and explainability", "Contestability", "Accountability"]
+  mandatory_reporting: false
+  high_risk_ai: "Under development (aligned with EU AI Act)"
+  
+# Privacy & Data Protection
+privacy:
+  authority: "Office of the Australian Information Commissioner (OAIC)"
+  url: "https://www.oaic.gov.au"
+  gdpr_equivalent: false
+  adequacy_decision: false
+  data_localization: false
+  breach_notification_hours: 72
+  
+# Internet Censorship
+internet_censorship:
+  level: "Low"
+  blocked_content: ["Child abuse material", "Abhorrent violent material"]
+  filters: "Optional ISP-level filtering (Clean Feed - discontinued 2010)"
+  social_media_bans: false
+  
+# Digital Platform Regulation
+digital_platforms:
+  news_media_bargain_code: true
+  code_name: "News Media Bargaining Code (2021)"
+  impact: "Google, Facebook must pay for news content"
+  url: "https://www.accc.gov.au/industries/news-and-online/publishing/news-media-bargaining-code"
+  
+# E-Commerce
+ecommerce:
+  consumer_law: "Australian Consumer Law (ACL)"
+  online_purchases: "Same protections as in-store"
+  cooling_off_period: false
+  digital_products_covered: true
+  
+# Content Regulation
+content_regulation:
+  online_safety_act: "Online Safety Act 2021"
+  regulator: "eSafety Commissioner"
+  url: "https://www.esafety.gov.au"
+  takedown_timeline_hours: 24
+  illegal_content: ["Child sexual abuse material", "Terrorist material", "Cyber-bullying (minors)"]
+  
+# Telecommunications
+telecommunications:
+  act: "Telecommunications Act 1997 (Cth)"
+  regulator: "Australian Communications and Media Authority (ACMA)"
+  metadata_retention: true
+  retention_period_years: 2
+  url: "https://www.acma.gov.au"
+  
+# Cybersecurity
+cybersecurity:
+  strategy: "Australia's Cyber Security Strategy 2023-2030"
+  budget_aud: 586000000
+  budget_usd: 386000000
+  key_initiatives: ["Ransomware action plan", "Critical infrastructure protection", "Cyber security skills"]
+  url: "https://www.homeaffairs.gov.au/cyber-security-strategy"
+  
+# Cross-Border Data Flows
+cross_border:
+  apec_cbpr: true
+  adequacy_countries: []
+  data_transfer_mechanisms: ["Standard Contractual Clauses", "Binding Corporate Rules", "APEC CBPR"]
+  
+# AI Cloud Services
+cloud_services:
+  major_providers: ["AWS (3 regions)", "Azure (3 regions)", "Google Cloud (2 regions)"]
+  data_residency_options: true
+  government_cloud: "Microsoft Azure for Australian Government"
+  
+# Digital Identity
+digital_identity:
+  framework: "TrustID Framework"
+  gov_identity: "myGovID"
+  url: "https://www.mygovid.gov.au"
+  adoption_2024: 4500000
+  
+# Online Gaming
+online_gaming:
+  regulation: "Interactive Gambling Act 2001"
+  online_pokies: false
+  sports_betting: true
+  license_required: true
+  regulator: "Australian Communications and Media Authority (ACMA)"
