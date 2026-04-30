@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 32 Countries 100% Complete](https://img.shields.io/badge/Status-32 Countries 100% Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 38 Countries 100% Complete](https://img.shields.io/badge/Status-38 Countries 100% Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (33 / 195 = 16.9%)
+## 📊 Coverage Progress (38 / 195 = 19.5%)
 
 ### 🌎 South America (1/12 = 8.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -60,7 +60,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇹🇭 **Thailand** | 13/13 | ✅ **100% COMPLETE** | 27th largest economy ($0.49T), Tourism 20% GDP, World's largest rice exporter, 71.8M population | English (en-US) |
 | 🇮🇷 **Iran** | 13/13 | ✅ **100% COMPLETE** | 30th largest economy ($0.44T), Tehran (9M), oil/gas superpower, JCPOA nuclear deal | English (en-US) |
 
-### 🌍 Europe (12/44 = 27.3%)
+### 🌍 Europe (13/44 = 29.5%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇩🇪 **Germany** | 13/13 | ✅ **100% COMPLETE** | GDPR (gold standard), EU AI Act, SEPA, Industry 4.0, 4 cloud regions | English (en-US) |
@@ -76,6 +76,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇧🇪 **Belgium** | 13/13 | ✅ **100% COMPLETE** | 23rd largest economy ($0.58T), Brussels (EU/NATO HQ), Antwerp (Europe's 2nd port), federal monarchy | Dutch/French/German + English |
 | 🇸🇪 **Sweden** | 13/13 | ✅ **100% COMPLETE** | 22nd/24th largest economy ($0.58T), Spotify, Skype, Ericsson, Stockholm (1M), high welfare state | English (en-US) |
 | 🇨🇿 **Czech Republic** | 13/13 | ✅ **100% COMPLETE** | 31st largest economy ($0.43T), Skoda Auto, Pilsner beer, Prague (1.3M) | English (en-US) |
+| 🇵🇹 **Portugal** | 13/13 | ✅ **100% COMPLETE** | 34th largest economy ($0.38T), Lisbon (3M), cork capital, tourism 17% GDP | English (en-US) |
 
 ### 🌍 Africa (2/54 = 3.7%)
 | Country | Files | Status | Key Highlights | Primary Language |

@@ -46,7 +46,7 @@
 | 31 | 🇨🇿 República Tcheca | czech-republic | Europe | ✅ 100% COMPLETE |
 | 32 | 🇷🇴 Romênia | romania | Europe | $0.40T |
 | 33 | 🇮🇾 Israel | israel | Asia | $0.39T |
-| 34 | 🇵🇹 Portugal | portugal | Europe | $0.38T |
+| 34 | 🇵🇹 Portugal | portugal | Europe | ✅ 100% COMPLETE |
 | 35 | 🇮🇾 Iraque | iraq | Asia | $0.37T |
 | 36 | 🇲🇾 Malásia | malaysia | Asia | $0.37T |
 | 37 | 🇩🇰 Dinamarca | denmark | Europe | $0.37T |
