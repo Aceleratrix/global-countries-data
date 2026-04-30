@@ -1,0 +1,441 @@
+version: 1.0.0
+country: brazil
+last_updated: 2026-04-30
+description: "APIs bancárias, gateways e integrações para negócios digitais"
+
+# APIs Bancárias Disponíveis (Open Banking Brasil)
+open_banking:
+  enabled: true
+  regulation: "BACEN (Banco Central)"
+  launch_date: "2021-02-08"
+  phases: "Completo (Fase 4)"
+  developer_portal: "https://openbankingbrasil.org.br"
+  
+  available_apis:
+    - name: "Accounts"
+      description_pt: "Consulta de contas e saldos"
+      description_en: "Account and balance queries"
+      endpoints: ["/accounts", "/accounts/{accountId}/balances"]
+      
+    - name: "Transactions"
+      description_pt: "Histórico de transações"
+      description_en: "Transaction history"
+      endpoints: ["/accounts/{accountId}/transactions"]
+      
+    - name: "Payments"
+      description_pt: "Iniciação de pagamentos (PIX)"
+      description_en: "Payment initiation (PIX)"
+      endpoints: ["/payments"]
+      
+    - name: "Credit Cards"
+      description_pt: "Dados de cartões de crédito"
+      description_en: "Credit card data"
+      endpoints: ["/credit-cards"]
+      
+    - name: "Loans"
+      description_pt: "Empréstimos e financiamentos"
+      description_en: "Loans and financing"
+      endpoints: ["/loans", "/financings"]
+
+# APIs de Pagamento (PSPs - Payment Service Providers)
+payment_apis:
+  - provider: "PagSeguro"
+    website_pt: "https://pagseguro.uol.com.br/developers"
+    website_en: "https://dev.pagseguro.uol.com.br"
+    api_type: "REST"
+    auth: "Token"
+    features_pt: ["PIX", "Boleto", "Cartão de Crédito", "Split de pagamento"]
+    features_en: ["PIX", "Boleto", "Credit Card", "Payment split"]
+    docs_pt: "https://dev.pagseguro.uol.com.br/docs"
+    docs_en: "https://dev.pagseguro.uol.com.br/docs/en"
+    sandbox: true
+    webhook_events: ["transaction.created", "transaction.paid", "transaction.canceled"]
+    
+  - provider: "Mercado Pago"
+    website_pt: "https://www.mercadopago.com.br/developers"
+    website_en: "https://www.mercadopago.com/developers/en"
+    api_type: "REST"
+    auth: "OAuth2 / Access Token"
+    features_pt: ["PIX", "Boleto", "Cartão", "Checkout Pro", "Assinatura"]
+    features_en: ["PIX", "Boleto", "Credit Card", "Checkout Pro", "Subscription"]
+    docs_pt: "https://www.mercadopago.com.br/developers/pt/reference"
+    docs_en: "https://www.mercadopago.com.br/developers/en/reference"
+    sandbox: true
+    webhook_events: ["payment.created", "payment.updated"]
+    
+  - provider: "Stone"
+    website: "https://stone.com.br/developers"
+    api_type: "REST"
+    auth: "API Key"
+    features_pt: ["PIX", "Cartão", "Terminal inteligente", "Antifraude"]
+    features_en: ["PIX", "Credit Card", "Smart POS", "Anti-fraud"]
+    docs: "https://stone.com.br/docs"
+    sandbox: true
+    
+  - provider: "Cielo"
+    website: "https://developers.cielo.com.br"
+    api_type: "REST"
+    auth: "Client ID + Client Secret"
+    features_pt: ["PIX", "Cartão", "Boleto", "QR Code"]
+    features_en: ["PIX", "Credit Card", "Boleto", "QR Code"]
+    docs: "https://developers.cielo.com.br/portal"
+    sandbox: true
+
+# Certificados Digitais (Obrigatórios para NF-e, e-CNPJ)
+digital_certificates:
+  types:
+    - name: "e-CNPJ A1"
+      description_pt: "Certificado digital para pessoa jurídica (arquivo)"
+      description_en: "Digital certificate for legal entities (file-based)"
+      validity_years: 1
+      provider: "ICP-Brasil"
+      cost_brl: 200.00
+      use_cases_pt: ["NF-e", "eSocial", "EFD"]
+      use_cases_en: ["NF-e", "eSocial", "EFD"]
+      
+    - name: "e-CNPJ A3"
+      description_pt: "Certificado digital em token/smartcard"
+      description_en: "Hardware-based digital certificate (token/smartcard)"
+      validity_years: 3
+      provider: "ICP-Brasil"
+      cost_brl: 350.00
+      
+    - name: "NF-e Certificate"
+      description_pt: "Certificado específico para Nota Fiscal Eletrônica"
+      description_en: "Certificate specific for Electronic Invoice"
+      validity_years: 1
+      provider: "ICP-Brasil"
+      
+  providers:
+    - "Serpro"
+    - "Certisign"
+    - "Serasa"
+    - "AAT"
+
+# Assinatura Eletrônica e Digital
+electronic_signatures:
+  - type: "ICP-Brasil"
+    description_pt: "Padrão nacional de assinatura digital"
+    description_en: "National standard for digital signatures"
+    legal_validity: true
+    equivalent_to: "Assinatura física / Physical signature"
+    api_available: true
+    
+  - type: "DocuSign"
+    description_pt: "Plataforma internacional de assinatura"
+    description_en: "International e-signature platform"
+    available_in_br: true
+    api: "https://developers.docusign.com"
+    
+  - type: "Clicksign"
+    description_pt: "Plataforma brasileira de assinatura eletrônica"
+    description_en: "Brazilian e-signature platform"
+    api: "https://clicksign.com/developers"
+    features_pt: ["Livro de Ordem", "Evidências", "API REST"]
+    features_en: ["Order Book", "Evidence", "REST API"]
+
+# Comércio Eletrônico - Plataformas e Marketplaces
+ecommerce_platforms:
+  marketplaces:
+    - name: "Mercado Livre"
+      website_pt: "https://www.mercadolivre.com.br"
+      website_en: "https://www.mercadolibre.com"
+      api: "https://developers.mercadolivre.com.br"
+      sellers_portal: "https://vendedores.mercadolivre.com.br"
+      market_share_percent: 65.0
+      categories: ["Todos"]
+      sales_model: ["Direct", "Marketplace"]
+      
+    - name: "Amazon Brasil"
+      website: "https://www.amazon.com.br"
+      api: "https://developer.amazonservices.com"
+      market_share_percent: 15.0
+      categories: ["Todos"]
+      
+    - name: "Magalu (Magazine Luiza)"
+      website: "https://www.magalu.com.br"
+      api: "https://www.magalu.com.br/dev"
+      market_share_percent: 8.0
+      
+    - name: "Shopee Brasil"
+      website: "https://shopee.com.br"
+      api: "https://open.shopee.com"
+      market_share_percent: 5.0
+      
+  platforms:
+    - name: "VTEX"
+      description_pt: "Plataforma enterprise de e-commerce"
+      description_en: "Enterprise e-commerce platform"
+      website: "https://vtex.com/br-pt"
+      api: "https://developers.vtex.com"
+      pricing: "Enterprise (sob consulta)"
+      
+    - name: "Shopify"
+      description_pt: "Plataforma global (disponível no Brasil)"
+      description_en: "Global platform (available in Brazil)"
+      website: "https://www.shopify.com/br"
+      api: "https://shopify.dev"
+      pricing_monthly_usd: [39, 105, 399]
+      
+    - name: "WooCommerce"
+      description_pt: "Plugin WordPress (gratuito)"
+      description_en: "WordPress plugin (free)"
+      website: "https://woocommerce.com"
+      cost: "Free (hosting pago)"
+      
+    - name: "Nuvemshop"
+      description_pt: "Plataforma latino-americana"
+      description_en: "Latin American platform"
+      website: "https://www.nuvemshop.com.br"
+      api: "https://dev.nuvemshop.com"
+
+# Logística e Entrega (Para E-commerce)
+logistics:
+  carriers:
+    - name: "Correios"
+      type: "state-owned"
+      website: "https://www.correios.com.br"
+      api: "https://www.correios.com.br/a-sua-empresa/consultas-e-produtos/servicos-de-logistica-integrada"
+      services: ["PAC", "SEDEX", "e-SEDEX"]
+      delivery_time_days: [3, 15]
+      coverage_percent: 100.0  # Todo o território nacional
+      
+    - name: "Jadlog"
+      type: "private"
+      website: "https://www.jadlog.com.br"
+      api: "https://www.jadlog.com.br/jadlog-api"
+      services: ["Package", "Expresso", "Doc"]
+      
+    - name: "Loggi"
+      type: "tech-logistics"
+      website: "https://www.loggi.com"
+      api: "https://docs.loggi.com"
+      focus: "Entregas urbanas rápidas"
+      delivery_time_hours: [2, 24]
+      
+    - name: "iFood Logistics"
+      type: "food-delivery"
+      website: "https://logistics.ifood.com.br"
+      focus: "Entrega de comida + last-mile"
+
+# Infraestrutura de Internet
+internet_infrastructure:
+  average_speed_mbps: 85.0
+  fiber_coverage_percent: 35.0
+  broadband_penetration_percent: 79.0
+  
+  isps:
+    - name: "Claro"
+      market_share_percent: 32.0
+      fiber_available: true
+      
+    - name: "Vivo"
+      market_share_percent: 25.0
+      fiber_available: true
+      
+    - name: "TIM"
+      market_share_percent: 18.0
+      
+    - name: "OI"
+      market_share_percent: 12.0
+      
+  cloud_providers:
+    - name: "AWS"
+      region: "sa-east-1"
+      location: "São Paulo"
+      launch: 2011
+      services: 200+
+      
+    - name: "Google Cloud"
+      region: "southamerica-east1"
+      location: "São Paulo"
+      launch: 2017
+      
+    - name: "Microsoft Azure"
+      region: "Brazil South"
+      location: "São Paulo"
+      launch: 2014
+      
+    - name: "Oracle Cloud"
+      region: "sa-saopaulo-1"
+      location: "São Paulo"
+      launch: 2021
+
+# Regulamentação de Comércio Eletrônico
+ecommerce_regulation:
+  law: "Lei 12.965/2014 (Marco Civil da Internet)"
+  consumer_protection: "Código de Defesa do Consumidor (Lei 8.078/1990)"
+  required_info_on_website_pt:
+    - "CNPJ da empresa"
+    - "Endereço completo"
+    - "Canal de atendimento ao cliente"
+    - "Política de Privacidade (LGPD)"
+    - "Termos de Uso"
+    - "Política de Reembolso/Troca"
+  required_info_on_website_en:
+    - "Company CNPJ"
+    - "Full address"
+    - "Customer service channel"
+    - "Privacy Policy (LGPD)"
+    - "Terms of Use"
+    - "Refund/Exchange Policy"
+    
+  digital_invoicing_required: true
+  invoice_type: "NF-e (modelo 55)"  # Para produtos
+  service_invoice: "NFS-e"  # Para serviços
+  
+  taxes_on_online_sales:
+    - tax: "ICMS"
+      rate_percent: 18.0
+      applies_to: "Produtos físicos / Physical products"
+    - tax: "ISS"
+      rate_percent: 5.0
+      applies_to: "Serviços digitais / Digital services"
+    - tax: "PIS/COFINS"
+      rate_percent: 9.25
+      applies_to: "Faturamento / Revenue"
+
+# Proteção de Dados (LGPD)
+lgpd:
+  law: "Lei Geral de Proteção de Dados (Lei 13.709/2018)"
+  equivalent: "GDPR (Europa)"
+  effective_date: "2020-09-18"
+  penalties_max_brl: 50000000  # R$ 50 milhões por infração
+  penalties_max_usd: 10000000
+  
+  requirements_for_businesses_pt:
+    - "Nomear um Encarregado (DPO)"
+    - "Obter consentimento explícito para dados pessoais"
+    - "Permitir exclusão de dados (direito ao esquecimento)"
+    - "Notificar vazamentos em 72h"
+    - "Realizar Impact Assessment (DPIA) para dados sensíveis"
+  requirements_for_businesses_en:
+    - "Appoint a Data Protection Officer (DPO)"
+    - "Obtain explicit consent for personal data"
+    - "Allow data deletion (right to be forgotten)"
+    - "Notify breaches within 72h"
+    - "Conduct DPIA for sensitive data"
+    
+  data_subject_rights_pt:
+    - "Confirmação da existência de tratamento"
+    - "Acesso aos dados"
+    - "Correção de dados incompletos"
+    - "Eliminação de dados"
+    - "Portabilidade dos dados"
+  data_subject_rights_en:
+    - "Confirmation of processing"
+    - "Data access"
+    - "Correction of incomplete data"
+    - "Data deletion"
+    - "Data portability"
+
+# KPIs para Negócios AI First
+ai_first_metrics:
+  digital_adoption_percent: 79.0
+  smartphone_penetration_percent: 75.0
+  pix_adoption_percent: 76.0  # População adulta
+  ecommerce_growth_yoy_percent: 18.0
+  online_shopping_frequency:
+    monthly_percent: 35.0
+    weekly_percent: 12.0
+  preferred_contact_channels_pt:
+    - "WhatsApp (92%)"
+    - "E-mail (45%)"
+    - "Chat online (38%)"
+    - "Telefone (30%)"
+  preferred_contact_channels_en:
+    - "WhatsApp (92%)"
+    - "Email (45%)"
+    - "Live chat (38%)"
+    - "Phone (30%)"
+
+# Canais de Atendimento ao Cliente (Obrigatórios para E-commerce)
+customer_service_channels:
+  required_pt: ["Telefone", "E-mail", "Formulário no site"]
+  required_en: ["Phone", "Email", "Website form"]
+  popular_channels_pt:
+    - name: "WhatsApp Business"
+      usage_percent: 92.0
+      api: "https://developers.facebook.com/docs/whatsapp"
+      features_pt: ["Mensagens", "Catálogo", "Pagamentos (PIX)"]
+      features_en: ["Messaging", "Catalog", "Payments (PIX)"]
+      
+    - name: "Chatbot (IA)"
+      usage_growth_yoy: 45.0
+      platforms: ["Dialogflow", "Watson Assistant", "Rasa", "Custom GPT"]
+      
+    - name: "Telegram"
+      business_usage_percent: 15.0
+      
+    - name: "Instagram DMs"
+      business_usage_percent: 68.0
+
+# Sistemas do Governo para Integração
+government_apis:
+  - name: "Receita Federal - CNPJ"
+    description_pt: "Consulta de situação cadastral de CNPJ"
+    description_en: "CNPJ status query"
+    url: "https://www.receita.fazenda.gov.br"
+    api_available: false  # Apenas site oficial
+    format: "HTML scraping (não oficial) ou certificado digital"
+    
+  - name: "Serasa Experian"
+    description_pt: "Consulta de crédito e score"
+    description_en: "Credit check and score"
+    api: "https://developers.serasa.com.br"
+    auth: "OAuth2"
+    use_cases_pt: ["Análise de crédito", "Prevenção à fraude"]
+    use_cases_en: ["Credit analysis", "Fraud prevention"]
+    
+  - name: "SPC Brasil"
+    description_pt: "Consulta de crédito"
+    description_en: "Credit check"
+    api: "https://www.spcbrasil.org.br/desenvolvedores"
+    
+  - name: "eSocial"
+    description_pt: "Folha de pagamento digital"
+    description_en: "Digital payroll"
+    url: "https://www.esocial.gov.br"
+    integration: "Web service (XML)"
+    mandatory_for: "Todas as empresas"
+
+# Assistentes Virtuais e Voz (Alexa, Google Assistant)
+voice_assistants:
+  - name: "Google Assistant"
+    market_share_percent: 45.0
+    language_support: ["pt-BR"]
+    actions_sdk: "https://developers.google.com/assistant"
+    
+  - name: "Amazon Alexa"
+    market_share_percent: 35.0
+    language_support: ["pt-BR"]
+    skill_kit: "https://developer.amazon.com/alexa"
+    
+  - name: "Siri"
+    market_share_percent: 20.0
+    language_support: ["pt-BR"]
+    
+# Métodos de Autenticação para Apps
+authentication_methods:
+  - method: "CPF/CNPJ + Senha"
+    usage_percent: 85.0
+    type: "Traditional"
+    
+  - method: "Biometria Facial (selfie)"
+    usage_growth_yoy: 120.0
+    providers: ["Cielo", "Nubank", "Inter"]
+    
+  - method: "SMS OTP"
+    usage_percent: 65.0
+    cost_per_sms_brl: 0.15
+    
+  - method: "E-mail OTP"
+    usage_percent: 45.0
+    
+  - method: "WhatsApp OTP"
+    usage_growth_yoy: 200.0
+    cost_per_msg_brl: 0.10
+    
+  - method: "Certificado Digital (ICP-Brasil)"
+    usage_percent: 15.0
+    use_cases: ["Assinatura de contratos", "NF-e", "e-CNPJ"]

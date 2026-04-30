@@ -1,0 +1,283 @@
+version: 1.0.0
+country: brazil
+last_updated: 2026-04-30
+description: "Plataformas de marketing digital e canais populares para negócios online"
+
+# Plataformas de Anúncios (Ad Networks)
+ad_platforms:
+  - name: "Google Ads"
+    website_pt: "https://ads.google.com/intl/pt-BR_br"
+    website_en: "https://ads.google.com"
+    market_share_percent: 65.0
+    formats_pt: ["Pesquisa (Search)", "Display", "YouTube", "Shopping", "Discovery"]
+    formats_en: ["Search", "Display", "YouTube", "Shopping", "Discovery"]
+    payment_methods_pt: ["Cartão de crédito", "Boleto", "PIX (via terceiros)"]
+    payment_methods_en: ["Credit Card", "Boleto", "PIX (via third-party)"]
+    min_budget_brl_day: 10.00
+    api: "https://developers.google.com/google-ads"
+    certification: "Google Ads Certification"
+    
+  - name: "Meta Ads (Facebook/Instagram)"
+    website_pt: "https://www.facebook.com/business/ads"
+    website_en: "https://www.facebook.com/business/ads"
+    market_share_percent: 25.0
+    formats_pt: ["Feed", "Stories", "Reels", "Messenger", "WhatsApp"]
+    formats_en: ["Feed", "Stories", "Reels", "Messenger", "WhatsApp"]
+    payment_methods_pt: ["Cartão de crédito", "Boleto"]
+    payment_methods_en: ["Credit Card", "Boleto"]
+    min_budget_brl_day: 5.00
+    api: "https://developers.facebook.com/docs/marketing-apis"
+    
+  - name: "TikTok Ads"
+    website_pt: "https://ads.tiktok.com/br"
+    website_en: "https://ads.tiktok.com"
+    market_share_percent: 5.0
+    growth_yoy_percent: 180.0
+    formats_pt: ["In-Feed Ads", "TopView", "Branded Hashtag Challenge"]
+    formats_en: ["In-Feed Ads", "TopView", "Branded Hashtag Challenge"]
+    api: "https://ads.tiktok.com/marketing-api/docs"
+    
+  - name: "LinkedIn Ads"
+    website: "https://business.linkedin.com/marketing-solutions"
+    market_share_percent: 3.0
+    target: "B2B"
+    formats_pt: ["Sponsored Content", "Message Ads", "Dynamic Ads"]
+    formats_en: ["Sponsored Content", "Message Ads", "Dynamic Ads"]
+    min_budget_brl_day: 50.00
+    
+  - name: "Amazon Ads"
+    website: "https://advertising.amazon.com.br"
+    market_share_percent: 2.0
+    formats_pt: ["Sponsored Products", "Sponsored Brands", "Display"]
+    formats_en: ["Sponsored Products", "Sponsored Brands", "Display"]
+
+# Redes Sociais Mais Populares
+social_media:
+  - platform: "WhatsApp"
+    users_millions: 148.0
+    penetration_percent: 68.8
+    business_features_pt: ["WhatsApp Business API", "Catálogo", "Mensagens em massa"]
+    business_features_en: ["WhatsApp Business API", "Catalog", "Bulk messaging"]
+    api: "https://developers.facebook.com/docs/whatsapp"
+    
+  - platform: "Instagram"
+    users_millions: 113.0
+    penetration_percent: 52.5
+    business_features_pt: ["Instagram Shopping", "Reels Ads", "Stories", "IGTV"]
+    business_features_en: ["Instagram Shopping", "Reels Ads", "Stories", "IGTV"]
+    api: "https://developers.facebook.com/docs/instagram-api"
+    
+  - platform: "Facebook"
+    users_millions: 139.0
+    penetration_percent: 64.6
+    business_features_pt: ["Pages", "Groups", "Marketplace", "Ads"]
+    business_features_en: ["Pages", "Groups", "Marketplace", "Ads"]
+    
+  - platform: "TikTok"
+    users_millions: 85.0
+    penetration_percent: 39.5
+    growth_yoy_percent: 45.0
+    business_features_pt: ["TikTok for Business", "Creator Marketplace"]
+    business_features_en: ["TikTok for Business", "Creator Marketplace"]
+    
+  - platform: "YouTube"
+    users_millions: 140.0
+    penetration_percent: 65.0
+    business_features_pt: ["YouTube Ads", "YouTube Shopping", "Super Chat"]
+    business_features_en: ["YouTube Ads", "YouTube Shopping", "Super Chat"]
+    
+  - platform: "Telegram"
+    users_millions: 40.0
+    penetration_percent: 18.6
+    business_features_pt: ["Telegram Bots", "Channels", "Groups"]
+    business_features_en: ["Telegram Bots", "Channels", "Groups"]
+    api: "https://core.telegram.org/bots/api"
+
+# Ferramentas de E-mail Marketing
+email_marketing:
+  - tool: "RD Station"
+    website_pt: "https://www.rdstation.com.br"
+    website_en: "https://www.rdstation.com/en"
+    market_share_percent: 35.0
+    features_pt: ["Automação de marketing", "Landing pages", "Lead scoring", "WhatsApp integration"]
+    features_en: ["Marketing automation", "Landing pages", "Lead scoring", "WhatsApp integration"]
+    pricing_brl_month: [129, 349, 699]
+    api: "https://developers.rdstation.com"
+    
+  - tool: "Mailchimp"
+    website: "https://mailchimp.com"
+    market_share_percent: 20.0
+    features_pt: ["E-mail campaigns", "Automation", "Landing pages"]
+    features_en: ["Email campaigns", "Automation", "Landing pages"]
+    pricing_usd_month: [0, 13, 20, 350]
+    
+  - tool: "ActiveCampaign"
+    website: "https://www.activecampaign.com"
+    market_share_percent: 15.0
+    features_pt: ["CRM", "Automação", "E-mail marketing"]
+    features_en: ["CRM", "Automation", "Email marketing"]
+    
+  - tool: "HubSpot"
+    website: "https://www.hubspot.com"
+    market_share_percent: 10.0
+    features_pt: ["CRM completo", "Marketing Hub", "Sales Hub"]
+    features_en: ["Full CRM", "Marketing Hub", "Sales Hub"]
+    pricing_usd_month: [20, 800, 3200]
+
+# SEO e Analytics
+analytics_tools:
+  - tool: "Google Analytics 4"
+    website: "https://analytics.google.com"
+    market_share_percent: 85.0
+    features_pt: ["Eventos personalizados", "E-commerce tracking", "Consent mode (LGPD)"]
+    features_en: ["Custom events", "E-commerce tracking", "Consent mode (LGPD)"]
+    api: "https://developers.google.com/analytics"
+    
+  - tool: "Google Tag Manager"
+    website: "https://tagmanager.google.com"
+    usage_percent: 75.0
+    description_pt: "Gerenciador de tags para pixels e scripts"
+    description_en: "Tag manager for pixels and scripts"
+    
+  - tool: "Meta Pixel"
+    website: "https://www.facebook.com/business/tools/meta-pixel"
+    usage_percent: 65.0
+    description_pt: "Pixel de conversão do Facebook/Instagram"
+    description_en: "Facebook/Instagram conversion pixel"
+    
+  - tool: "Hotjar"
+    website: "https://www.hotjar.com"
+    usage_percent: 25.0
+    features_pt: ["Heatmaps", "Gravação de sessões", "Feedback de usuários"]
+    features_en: ["Heatmaps", "Session recordings", "User feedback"]
+    
+  - tool: "Data Studio (Looker)"
+    website: "https://datastudio.google.com"
+    usage_percent: 40.0
+    description_pt: "Dashboard e relatórios de dados"
+    description_en: "Data dashboards and reports"
+
+# Influenciadores e Creator Economy
+influencer_marketing:
+  platforms:
+    - name: "Instagram"
+      influencer_tiers_pt:
+        - name: "Nano" 
+          followers: "1K-10K"
+          price_range_brl_post: "R$ 100-500"
+        - name: "Micro"
+          followers: "10K-100K"
+          price_range_brl_post: "R$ 500-3.000"
+        - name: "Macro"
+          followers: "100K-1M"
+          price_range_brl_post: "R$ 3.000-20.000"
+        - name: "Mega"
+          followers: "1M+"
+          price_range_brl_post: "R$ 20.000+"
+          
+    - name: "YouTube"
+      influencer_tiers_pt:
+        - name: "Micro"
+          subscribers: "10K-100K"
+          price_range_brl_video: "R$ 1.000-5.000"
+        - name: "Macro"
+          subscribers: "100K-1M"
+          price_range_brl_video: "R$ 5.000-30.000"
+          
+    - name: "TikTok"
+      growth_yoy_percent: 200.0
+      influencer_tiers_pt:
+        - name: "Micro"
+          followers: "10K-100K"
+          price_range_brl_video: "R$ 500-2.000"
+          
+  agencies_pt: ["Bloggers", "Euro D&B", "Aomy", "Luminos"]
+  agencies_en: ["Bloggers", "Euro D&B", "Aomy", "Luminos"]
+  
+  disclosure_law_pt: "Lei nº 12.036/2009 - Obrigatório identificar publicidade (#publi)"
+  disclosure_law_en: "Law No. 12,036/2009 - Must identify advertising (#publi)"
+
+# Afiliados e Parcerias
+affiliate_marketing:
+  networks:
+    - name: "Hotmart"
+      website: "https://www.hotmart.com"
+      market_share_percent: 45.0
+      focus: "Cursos online / Info-products"
+      commission_percent: [30, 70]
+      payout_methods_pt: ["PIX", "Boleto", "Transferência bancária"]
+      payout_methods_en: ["PIX", "Boleto", "Bank transfer"]
+      
+    - name: "Eduzz"
+      website: "https://eduzz.com"
+      market_share_percent: 25.0
+      focus: "Info-products"
+      
+    - name: "Monetizze"
+      website: "https://monetizze.com.br"
+      market_share_percent: 15.0
+      
+    - name: "Amazon Associates"
+      website: "https://associados.amazon.com.br"
+      market_share_percent: 10.0
+      commission_percent: [1, 10]
+      
+  cookies_duration_days: 30  # Padrão do mercado
+
+# Conteúdo e SEO Local
+local_seo:
+  google_business_profile_pt: "Google Meu Negócio (essencial para SEO local)"
+  google_business_profile_en: "Google My Business (essential for local SEO)"
+  reviews_importance_pt: "4.5+ estrelas aumenta conversão em 35%"
+  reviews_importance_en: "4.5+ stars increases conversion by 35%"
+  
+  local_directories_pt:
+    - "Google Maps"
+    - "Waze"
+    - "Mapa daqui"
+    - "Apontador (extinto)"
+  local_directories_en:
+    - "Google Maps"
+    - "Waze"
+    - "Mapa daqui"
+
+# Orçamento de Marketing Digital (Benchmarks)
+marketing_budgets:
+  small_business_brl_month: [500, 3000]
+  medium_business_brl_month: [3000, 20000]
+  large_business_brl_month: [20000, 500000]
+  
+  channel_allocation_percent:
+    search_ads: 35.0
+    social_ads: 30.0
+    display_ads: 15.0
+    email_marketing: 10.0
+    content_marketing: 10.0
+    
+  cpc_benchmarks_brl:
+    google_search_ave: 2.50
+    facebook_ave: 1.20
+    instagram_ave: 1.80
+    linkedin_ave: 8.50
+    
+# Tendências de Marketing AI First
+ai_marketing_trends:
+  - trend_pt: "Chatbots com IA generativa (GPT-4, Claude)"
+    trend_en: "Generative AI chatbots (GPT-4, Claude)"
+    adoption_percent: 45.0
+    
+  - trend_pt: "Personalização de e-mails com IA"
+    trend_en: "AI-powered email personalization"
+    adoption_percent: 30.0
+    
+  - trend_pt: "Criação de imagens com Midjourney/DALL-E"
+    trend_en: "Image generation with Midjourney/DALL-E"
+    adoption_percent: 25.0
+    
+  - trend_pt: "Copywriting automatizado"
+    trend_en: "Automated copywriting"
+    adoption_percent: 35.0
+    
+  - trend_pt: "Análise preditiva de churn"
+    trend_en: "Predictive churn analysis"
+    adoption_percent: 20.0

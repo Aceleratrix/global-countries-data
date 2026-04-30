@@ -1,0 +1,233 @@
+version: 1.0.0
+country: brazil
+last_updated: 2026-04-30
+description: "Requisitos legais para comércio eletrônico e negócios digitais"
+
+# Marco Civil da Internet (Lei 12.965/2014)
+marco_civil_internet:
+  law_pt: "Lei nº 12.965, de 23 de abril de 2014"
+  law_en: "Law No. 12,965 of April 23, 2014"
+  description_pt: "Estabelece princípios, garantias, direitos e deveres para o uso da Internet no Brasil"
+  description_en: "Establishes principles, guarantees, rights and duties for Internet use in Brazil"
+  key_points_pt:
+    - "Neutralidade da rede"
+    - "Proteção de dados pessoais"
+    - "Guardas de logs por 6 meses (provedores)"
+  key_points_en:
+    - "Net neutrality"
+    - "Personal data protection"
+    - "Log retention for 6 months (providers)"
+  url: "http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm"
+
+# LGPD - Lei Geral de Proteção de Dados (Lei 13.709/2018)
+lgpd:
+  law_pt: "Lei nº 13.709, de 14 de agosto de 2018"
+  law_en: "Law No. 13,709 of August 14, 2018"
+  description_pt: "Lei que dispõe sobre o tratamento de dados pessoais"
+  description_en: "Law regulating personal data processing"
+  effective_date: "2020-09-18"
+  authority: "ANPD (Autoridade Nacional de Proteção de Dados)"
+  authority_website: "https://www.gov.br/cidadania/pt-acessoainformacao/anpd"
+  
+  requirements_for_online_businesses_pt:
+    - "Nomear um Encarregado (DPO - Data Protection Officer)"
+    - "Obter consentimento explícito para coleta de dados"
+    - "Informar finalidade e tempo de retenção dos dados"
+    - "Permitir que usuários excluam seus dados (direito ao esquecimento)"
+    - "Notificar a ANPD sobre vazamentos em até 72 horas"
+    - "Realizar Relatório de Impacto à Proteção de Dados (DPIA) para dados sensíveis"
+  requirements_for_online_businesses_en:
+    - "Appoint a Data Protection Officer (DPO)"
+    - "Obtain explicit consent for data collection"
+    - "Inform purpose and retention time of data"
+    - "Allow users to delete their data (right to be forgotten)"
+    - "Notify ANPD about breaches within 72 hours"
+    - "Conduct Data Protection Impact Assessment (DPIA) for sensitive data"
+    
+  penalties_pt:
+    - "Advertência (sem multa)"
+    - "Multa simples: até 2% do faturamento (máx R$ 50M por infração)"
+    - "Multa diária: valor fixo por dia de atraso"
+    - "Publicização da infração"
+    - "Bloqueio dos dados pessoais"
+    - "Eliminação dos dados pessoais"
+  penalties_en:
+    - "Warning (no fine)"
+    - "Simple fine: up to 2% of revenue (max R$ 50M per violation)"
+    - "Daily fine: fixed amount per day of delay"
+    - "Public disclosure of the violation"
+    - "Blocking of personal data"
+    - "Deletion of personal data"
+    
+  data_subject_rights_pt:
+    - "Confirmação da existência de tratamento"
+    - "Acesso aos dados"
+    - "Correção de dados incompletos ou desatualizados"
+    - "Anonimização ou eliminação de dados desnecessários"
+    - "Portabilidade dos dados"
+    - "Eliminação dos dados tratados com consentimento"
+    - "Informação sobre compartilhamento com terceiros"
+    - "Revogação do consentimento"
+  data_subject_rights_en:
+    - "Confirmation of processing"
+    - "Data access"
+    - "Correction of incomplete or outdated data"
+    - "Anonymization or elimination of unnecessary data"
+    - "Data portability"
+    - "Deletion of data processed with consent"
+    - "Information about sharing with third parties"
+    - "Revocation of consent"
+    
+  legal_bases_for_processing_pt:
+    - "Consentimento"
+    - "Cumprimento de obrigação legal ou regulatória"
+    - "Execução de contrato ou procedimentos preliminares"
+    - "Exercício regular de direitos em processos"
+    - "Proteção da vida ou da incolumidade física"
+    - "Exercício de direitos exclusivamente jornalísticos, artísticos ou acadêmicos"
+    - "Estudo por órgão de pesquisa"
+    - "Proteção comercial e industrial"
+    - "Interesse legítimo"
+  legal_bases_for_processing_en:
+    - "Consent"
+    - "Compliance with legal or regulatory obligation"
+    - "Execution of contract or preliminary procedures"
+    - "Regular exercise of rights in legal proceedings"
+    - "Protection of life or physical safety"
+    - "Exercise of rights exclusively journalistic, artistic or academic"
+    - "Research by research body"
+    - "Industrial and commercial protection"
+    - "Legitimate interest"
+
+# Requisitos para E-commerce (Código de Defesa do Consumidor)
+ecommerce_legal:
+  law: "Lei nº 8.078/1990 (Código de Defesa do Consumidor)"
+  description_pt: "Regulamenta as relações de consumo no Brasil"
+  description_en: "Regulates consumer relations in Brazil"
+  
+  mandatory_info_on_website_pt:
+    - "Identificação completa da empresa (CNPJ, nome, endereço)"
+    - "Preço claro e forma de pagamento"
+    - "Frete, prazos de entrega e disponibilidade"
+    - "Política de Troca e Devolução (30 dias por lei)"
+    - "Canal de atendimento ao consumidor"
+    - "Política de Privacidade (LGPD)"
+    - "Termos de Uso"
+  mandatory_info_on_website_en:
+    - "Full company identification (CNPJ, name, address)"
+    - "Clear price and payment method"
+    - "Shipping, delivery times and availability"
+    - "Exchange and Return Policy (30 days by law)"
+    - "Customer service channel"
+    - "Privacy Policy (LGPD)"
+    - "Terms of Use"
+    
+  return_policy_pt:
+    - "Prazo de 7 dias para arrependimento (venda fora do estabelecimento)"
+    - "Prazo de 30 dias para defeito (produtos duráveis)"
+    - "Reembolso em até 48 horas"
+  return_policy_en:
+    - "7-day cooling-off period (sales outside physical store)"
+    - "30-day warranty for defects (durable goods)"
+    - "Refund within 48 hours"
+    
+  digital_contracts_pt:
+    - "Aceite eletrônico válido"
+    - "Termos devem estar claros e acessíveis"
+    - "Consumo deve ser de forma clara (botão de compra)"
+  digital_contracts_en:
+    - "Electronic acceptance is valid"
+    - "Terms must be clear and accessible"
+    - "Purchase button must be clear"
+    
+  taxes_on_digital_products:
+    - tax: "ICMS"
+      rate_percent: 18.0
+      applies_to_pt: "Produtos digitais (software, e-books, cursos online)"
+      applies_to_en: "Digital products (software, e-books, online courses)"
+      
+    - tax: "ISS"
+      rate_percent: 5.0
+      applies_to_pt: "Serviços digitais (SaaS, streaming, consultoria online)"
+      applies_to_en: "Digital services (SaaS, streaming, online consulting)"
+
+# Nota Fiscal para Vendas Online
+digital_invoicing:
+  nfe_model_55:
+    description_pt: "Nota Fiscal Eletrônica para produtos físicos"
+    description_en: "Electronic Invoice for physical products"
+    mandatory: true
+    integration: "API Sefaz"
+    digital_certificate_required: true
+    
+  nfse_model_21:
+    description_pt: "Nota Fiscal de Serviços Eletrônica"
+    description_en: "Electronic Service Invoice"
+    mandatory: true
+    integration: "Portal da prefeitura"
+    
+  dfe:
+    name_pt: "Documento Fiscal Eletrônico"
+    name_en: "Electronic Fiscal Document"
+    types: ["NF-e", "NFS-e", "CT-e", "MDF-e"]
+    
+# Provedores de Assinatura Eletrônica para Contratos
+electronic_signature_providers:
+  - name: "Clicksign"
+    website_pt: "https://www.clicksign.com.br"
+    website_en: "https://www.clicksign.com/en"
+    features_pt: ["Assinatura em nuvem", "Livro de Ordem", "API REST", "Webhooks"]
+    features_en: ["Cloud signature", "Order Book", "REST API", "Webhooks"]
+    pricing_brl_month: [99, 299, 599]
+    api_docs: "https://clicksign.com.br/desenvolvedores"
+    
+  - name: "DocuSign"
+    website: "https://www.docusign.com.br"
+    features_pt: ["Assinatura internacional", "Templates", "API"]
+    features_en: ["International signature", "Templates", "API"]
+    pricing_usd_month: [10, 25, 40]
+    
+  - name: "Zapsign"
+    website: "https://zapsign.com.br"
+    features_pt: ["Assinatura simples", "API", "Preço acessível"]
+    features_en: ["Simple signature", "API", "Affordable pricing"]
+    pricing_brl_month: [99, 199]
+
+# Jurisdição e Resolução de Conflitos
+jurisdiction:
+  court_pt: "Foro do domicílio do consumidor"
+  court_en: "Consumer's domicile court"
+  arbitration_pt: "Câmaras de arbitragem disponíveis"
+  arbitration_en: "Arbitration chambers available"
+  
+# Propriedade Intelectual
+intellectual_property:
+  law: "Lei nº 9.610/1998 (Direitos Autorais)"
+  law_en: "Law No. 9,610/1998 (Copyright)"
+  software_protection: "Lei nº 9.609/1998 (Software)"
+  trademark_office: "INPI (Instituto Nacional da Propriedade Industrial)"
+  trademark_office_url: "https://www.gov.br/inpi"
+  
+# Registro de Domínios
+domain_registration:
+  registry: "Registro.br"
+  registry_url: "https://registro.br"
+  tlds_available: [".com.br", ".com", ".net", ".org"]
+  requirements_pt: "CPF ou CNPJ obrigatório"
+  requirements_en: "CPF or CNPJ required"
+  privacy_protection: false  # Dados WHOIS públicos
+  
+# Acessibilidade Digital
+accessibility:
+  law: "Lei nº 13.146/2015 (Lei Brasileira de Inclusão)"
+  law_en: "Law No. 13,146/2015 (Brazilian Inclusion Law)"
+  standard: "eMAG (Modelo de Acessibilidade em Governo Eletrônico)"
+  standard_url: "https://emag.governoeletronico.gov.br"
+  wcag_compliance: "Recomendado WCAG 2.1 AA"
+  
+# Crypto e Moedas Digitais
+cryptocurrency:
+  central_bank_digital_currency: "Drex (piloto em 2026)"
+  bitcoin_legal: true
+  crypto_regulation: "Instrução CVM 617/2020"
+  crypto_taxation: "Ganhos de capital tributados acima de R$ 35.000/mês"
