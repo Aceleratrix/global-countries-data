@@ -1,0 +1,203 @@
+---
+country: "India"
+category: "demographics"
+type: "population"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.censusindia.gov.in"
+  - "https://www.mohfw.gov.in"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Demographics - India
+
+## Population Overview
+total_population: 1_428_600_000
+population_2025: 1_430_000_000
+population_2030_projection: 1_475_000_000
+population_2050_projection: 1_640_000_000
+growth_rate_percent: 0.8  # declining (was 2.2% in 1970s)
+rank_global: 1  # surpassed China in 2023
+
+## Age Distribution
+age_groups:
+  "0-14":
+    population: 342_000_000
+    percentage: 23.9
+  "15-64":
+    population: 970_000_000
+    percentage: 67.9
+  "65+":
+    population: 116_600_000
+    percentage: 8.2
+    
+median_age: 28.2
+dependency_ratio: 47.3  # dependents per 100 working-age
+
+## Urban vs Rural
+urbanization_rate: 36.2  # percentage (growing ~2.5% annually)
+urban_population: 517_000_000
+rural_population: 911_600_000
+
+urbanization_trend: "300M people expected to move to cities by 2050"
+
+## Major Cities (Population)
+megacities:
+  - name: "Mumbai (मुंबई)"
+    population: 21_300_000
+    type: "Financial capital"
+  - name: "Delhi (दिल्ली - NCR)"
+    population: 32_900_000  # includes Noida, Gurgaon, Ghaziabad
+    type: "Capital region"
+  - name: "Bangalore (बेंगलुरु)"
+    population: 13_600_000
+    type: "Tech hub (Silicon Valley of India)"
+  - name: "Hyderabad (हैदराबाद)"
+    population: 10_800_000
+    type: "Tech hub, pharma"
+  - name: "Chennai (चेन्नई)"
+    population: 10_500_000
+    type: "Auto manufacturing, port"
+  - name: "Kolkata (कोलकाता)"
+    population: 15_300_000
+    type: "Cultural capital, port"
+  - name: "Pune (पुणे)"
+    population: 7_200_000
+    type: "Auto, education hub"
+  - name: "Ahmedabad (अहमदाबाद)"
+    population: 8_800_000
+    type: "Industrial, textiles"
+
+## Gender Distribution
+gender_ratio:
+  male: 51.5  # percentage
+  female: 48.5
+  sex_ratio_births: 108  # boys per 100 girls (improving, was 118 in 2010)
+
+## Religion
+religion_2011_census:  # next census 2021 (delayed to 2026)
+  hinduism:
+    percentage: 79.8
+    population: 1_140_000_000
+  islam:
+    percentage: 14.2
+    population: 203_000_000  # largest Muslim minority globally
+  christianity:
+    percentage: 2.3
+    population: 33_000_000
+  sikhism:
+    percentage: 1.7
+    population: 24_000_000
+  buddhism:
+    percentage: 0.7
+    population: 10_000_000
+  jainism:
+    percentage: 0.4
+    population: 5_700_000
+  others:
+    percentage: 0.9
+    including: "Zoroastrian (Parsi), Jewish, tribal religions"
+
+## Languages
+official_languages:
+  central_government: ["Hindi", "English"]
+  total_scheduled_languages: 22
+  
+top_languages_by_speakers:
+  - name: "Hindi (हिन्दी)"
+    speakers: 528_000_000
+    percentage: 43.6
+    script: "Devanagari"
+    
+  - name: "English"
+    speakers: 129_000_000  # as second/third language
+    percentage: 10.6
+    use: "Business, courts, higher education"
+    
+  - name: "Bengali (বাংলা)"
+    speakers: 97_000_000
+    percentage: 8.0
+    region: "West Bengal, Bangladesh (also)"
+    
+  - name: "Telugu (తెలుగు)"
+    speakers: 83_000_000
+    percentage: 6.9
+    region: "Andhra Pradesh, Telangana"
+    
+  - name: "Marathi (मराठी)"
+    speakers: 83_000_000
+    percentage: 6.9
+    region: "Maharashtra (Mumbai)"
+    
+  - name: "Tamil (தமிழ்)"
+    speakers: 69_000_000
+    percentage: 5.7
+    region: "Tamil Nadu (Chennai)"
+    
+  - name: "Gujarati (ગુજરાતી)"
+    speakers: 56_000_000
+    percentage: 4.6
+    region: "Gujarat (Ahmedabad)"
+    
+  - name: "Urdu (اردو)"
+    speakers: 51_000_000
+    percentage: 4.2
+    region: "Uttar Pradesh, Telangana, Bihar"
+
+## Education
+education_levels_2011:
+  literacy_rate: 77.7  # (male 84.7%, female 70.3%)
+  college_or_above: 37_000_000  # 3.0% of population
+  secondary: 220_000_000  # 18.0%
+  primary: 450_000_000  # 37.0%
+  illiterate: 287_000_000  # 23.0%
+  
+skill_gap: "300M workers need skilling by 2030 (NSDC estimate)"
+
+## Income & Wealth
+gdp_per_capita_usd: 2_760
+median_household_income_usd: 1_800  # per year
+gini_coefficient: 0.357  # moderate inequality
+
+income_distribution:
+  high_income: 5  # percentage (top 20% earn >₹20L/year)
+  middle_income: 25  # percentage (₹5L-20L/year)
+  low_income: 70  # percentage (<₹5L/year)
+
+## Digital Demographics
+internet_users: 748_000_000
+internet_penetration: 52  # growing 20M+/year
+mobile_users: 1_200_000_000  # 86% penetration
+social_media_users: 850_000_000
+
+top_social_platforms:
+  - "WhatsApp: 530M users (CRITICAL for business)"
+  - "YouTube: 480M users"
+  - "Instagram: 350M users"
+  - "Facebook: 320M users"
+  - "Telegram: 80M users"
+  - "LinkedIn: 90M users (professional)"
+
+## Migration
+internal_migration:
+  migrant_workers: 450_000_000  # rural-to-urban + inter-state
+  main_destinations: "Mumbai, Delhi, Bangalore, Hyderabad, Pune"
+  remittances: "$118B (world's largest recipient, 2025)"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "Population: 1.43 billion (world's LARGEST, surpassed China 2023)"
+  - "Hindi (44%) + English (business) are primary languages"
+  - "22 scheduled languages - add regional (Tamil, Telugu, Bengali, etc.)"
+  - "WhatsApp 530M users - MANDATORY for customer engagement"
+  - "Urbanization: 36%, growing 2.5%/year (300M to cities by 2050)"
+  - "Internet users: 748M (52% penetration), growing 20M+/year"
+  - "Median age: 28.2 (very young population)"
+  - "Digital India: UPI does 12B+ txns/month, 75% adoption"
+  - "Income: 70% low-income (<₹5L/year), 25% middle, 5% high"
+  - "Largest Muslim minority globally (203M, 14.2% of population)"
+  - "Bangalore = Silicon Valley of India (13.6M people, tech hub)"
+  - "Literacy: 77.7% (male 84.7%, female 70.3% - gender gap)"
+  - "300M workers need skilling by 2030 (massive upskilling opportunity)"
+  - "Remittances: $118B (world's largest recipient, 2025)"

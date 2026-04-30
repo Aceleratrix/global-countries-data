@@ -1,0 +1,216 @@
+---
+country: "India"
+category: "business"
+type: "import_export"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.dgft.gov.in"
+  - "https://www.cbec.gov.in"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Import/Export Regulations - India
+
+## Trade Overview
+wto_member: true
+brics_member: true
+rcep_member: false  # India opted out in 2019
+currency: "INR (Indian Rupee) - ₹"
+top_trading_partners:
+  - "USA"
+  - "China"
+  - "UAE (Dubai)"
+  - "Saudi Arabia"
+  - "Iraq"
+  - "Singapore"
+
+## Export Data
+export_value_usd_2025: 770_000_000_000
+top_export_products:
+  - product: "Petroleum products (refined)"
+    value_usd: 95_000_000_000
+    share_percent: 12.3
+  - product: "Gems & jewelry (diamonds, gold)"
+    value_usd: 75_000_000_000
+    share_percent: 9.7
+  - product: "Pharmaceuticals (generics)"
+    value_usd: 65_000_000_000
+    share_percent: 8.4
+  - product: "Automobile & auto components"
+    value_usd: 55_000_000_000
+    share_percent: 7.1
+  - product: "Engineering goods"
+    value_usd: 52_000_000_000
+    share_percent: 6.8
+  - product: "Electronics (mobile phones, components)"
+    value_usd: 45_000_000_000
+    share_percent: 5.8
+
+## Import Data
+import_value_usd_2025: 680_000_000_000
+top_import_products:
+  - product: "Crude oil"
+    value_usd: 180_000_000_000
+    share_percent: 26.5
+  - product: "Gold (for jewelry, investment)"
+    value_usd: 65_000_000_000
+    share_percent: 9.6
+  - product: "Electronics (chips, components)"
+    value_usd: 52_000_000_000
+    share_percent: 7.6
+  - product: "Machinery"
+    value_usd: 38_000_000_000
+    share_percent: 5.6
+  - product: "Chemicals"
+    value_usd: 30_000_000_000
+    share_percent: 4.4
+
+## Customs & Tariffs
+customs_authority: "Central Board of Indirect Taxes & Customs (CBIC)"
+website: "https://www.cbic.gov.in"
+
+tariff_structure:
+  average_tariff_percent: 13.5
+  wto_commitments: "Industrial goods: 0-40%, Agricultural: 0-150%"
+  
+  categories:
+    - "Basic Customs Duty (BCD): 0-40% (based on HS code)"
+    - "IGST (Integrated GST): 5-28% (on imports, same as domestic)"
+    - "Social Welfare Surcharge: 10% (on BCD)"
+    - "Cess (if applicable): on specific goods (cars, tobacco)"
+
+## Free Trade Agreements (FTAs)
+active_ftas:
+  - "SAFTA (South Asian Free Trade Area)"
+  - "India-ASEAN FTA (ATIGA)"
+  - "India-Japan CEPA (Comprehensive Economic Partnership)"
+  - "India-South Korea CEPA"
+  - "India-UAE CEPA (2022)"
+  - "India-Australia ECTA (2022, interim)"
+  - "India-Mauritius CECPA (2021)"
+
+## Import Requirements
+import_licensing:
+  general_rule: "No license for most goods (open trade regime)"
+  restricted_goods:
+    - "Firearms & ammunition"
+    - "Narcotic drugs & psychotropic substances"
+    - "Certain chemicals (dual-use)"
+    - "Wildlife products (CITES)"
+    - "Used goods (restricted, need DGFT permission)"
+    - "Chinese apps/telecom equipment (security restrictions 2020+)"
+
+## Documentation
+required_documents:
+  - "Bill of Entry (import declaration)"
+  - "Commercial Invoice"
+  - "Packing List"
+  - "Bill of Lading / Air Waybill"
+  - "Certificate of Origin (for FTA benefits)"
+  - "Import Export Code (IEC) - MANDATORY"
+  - "GST Registration (if applicable)"
+
+## Import Export Code (IEC)
+iec:
+  description: "10-digit code MANDATORY for all importers/exporters"
+  issuing_authority: "DGFT (Directorate General of Foreign Trade)"
+  format: "1234567890 (example)"
+  use: "All customs declarations, RBI reporting"
+  application: "Online via DGFT portal (dgft.gov.in)"
+  timeline: "2-5 business days"
+
+## Export Controls
+export_controls:
+  authority: "DGFT (Directorate General of Foreign Trade)"
+  controlled_items:
+    - "Scrap metal (export prohibited 2022-2026)"
+    - "Non-basmati rice (export banned 2023)"
+    - "Sugar (export restricted, quotas)"
+    - "Onions (export banned intermittently)"
+    - "Dual-use items (special chemicals, nuclear-related)"
+    - "Wildlife products (CITES permits)"
+    
+  export_promotion_schemes:
+    - "Duty Drawback Scheme (refund of duties)"
+    - "RoDTEP (Remission of Duties and Taxes on Export Products)"
+    - "MEIS (replaced by RoDTEP)"
+    - "EPCG Scheme (Export Promotion Capital Goods)"
+
+## Special Economic Zones (SEZs)
+sezs:
+  total: 270+
+  top_sezs:
+    - "Santacruz SEZ (Mumbai - IT/ITES)"
+    - "Madras SEZ (Chennai - multi-product)"
+    - "Noida SEZ (Delhi NCR - IT)"
+    - "Falcon SEZ (Hyderabad - pharma)"
+    
+  benefits:
+    - "100% income tax exemption (first 5 years)"
+    - "No customs duty on imports"
+    - "No GST on supplies"
+    - "Simplified compliance"
+
+## Export Promotion Councils (EPCs)
+epcs:
+  - "Engineering Export Promotion Council (EEPC)"
+  - "Pharmaceutical Export Promotion Council (Pharmexcil)"
+  - "Gem & Jewellery Export Promotion Council (GJEPC)"
+  - "Electronics & Computer Software Export Promotion Council (ESC)"
+  - "Apparel Export Promotion Council (AEPC)"
+  - "15+ other sector-specific EPCs"
+
+## Incoterms
+common_incoterms:
+  - "FOB (Free on Board) - most common for sea freight"
+  - "CIF (Cost, Insurance, Freight)"
+  - "EXW (Ex Works)"
+  - "DDP (Delivered Duty Paid) - for e-commerce"
+  - "FCA (Free Carrier)"
+
+## Customs Procedures
+procedures:
+  - "Self-Assessment (most imports/exports)"
+  - "Risk-based customs examination"
+  - "Sweeping (green, yellow, red lanes)"
+  - "Online filing via ICEGATE (icegate.gov.in)"
+  
+timeline:
+  air_freight: "1-3 days (after documentation)"
+  sea_freight: "3-7 days (after vessel arrival)"
+
+## Major Ports & Logistics Hubs
+major_ports:
+  - name: "Mundra Port (Gujarat - private)"
+    type: "Sea port"
+    throughput_teu: 7_200_000
+  - name: "JNPT (Nhava Sheva, Mumbai)"
+    type: "Sea port"
+    throughput_teu: 5_800_000
+  - name: "Chennai Port"
+    type: "Sea port"
+    throughput_teu: 2_100_000
+  - name: "Delhi Indira Gandhi Airport"
+    type: "Air cargo"
+    throughput_tons: 1_200_000
+  - name: "Mumbai Chhatrapati Shivaji Airport"
+    type: "Air cargo"
+    throughput_tons: 900_000
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "IEC (10-digit) is MANDATORY for ALL importers/exporters"
+  - "CBIC (cbic.gov.in) is customs authority"
+  - "Average tariff: 13.5% (BCD 0-40% + IGST 5-28%)"
+  - "India is 5th largest exporter globally ($770B in 2025)"
+  - "Top exports: petroleum, gems/jewelry, pharma, autos"
+  - "Top imports: crude oil (26.5%), gold (9.6%), electronics"
+  - "ICEAGE (icegate.gov.in) - online customs filing"
+  - "Export promotion: RoDTEP scheme (duty remission)"
+  - "SEZs: 270+ zones, 100% tax holiday (5 years)"
+  - "DGFT (dgft.gov.in) issues IEC, manages export schemes"
+  - "Export bans: non-basmati rice, sugar, scrap metal (intermittent)"
+  - "Chinese telecom/tech restricted (security concerns 2020+)"
+  - "EPCG scheme: import capital goods at 0-5% duty (export obligation)"
+  - "Major ports: Mundra (7.2M TEU), JNPT (5.8M TEU)"

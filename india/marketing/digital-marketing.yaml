@@ -1,0 +1,242 @@
+---
+country: "India"
+category: "marketing"
+type: "digital_marketing"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.meity.gov.in"
+  - "https://www.iab.in"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Digital Marketing Landscape - India
+
+## Market Overview
+population_online: 748_000_000  # 52% internet penetration
+smartphone_penetration: 86  # percentage (1.2B subscriptions)
+social_media_users: 850_000_000
+ecommerce_penetration: 65  # percentage of internet users
+
+## Top Social Media Platforms
+platforms:
+  - name: "WhatsApp"
+    users: 530_000_000
+    business_relevance: "CRITICAL - customer support, catalogs, payments"
+    
+  - name: "YouTube"
+    users: 480_000_000
+    business_relevance: "HIGH - video ads, influencer marketing"
+    
+  - name: "Instagram"
+    users: 350_000_000
+    business_relevance: "HIGH - fashion, lifestyle, Reels ads"
+    
+  - name: "Facebook"
+    users: 320_000_000
+    business_relevance: "MEDIUM - older demographics, local businesses"
+    
+  - name: "Telegram"
+    users: 80_000_000
+    business_relevance: "MEDIUM - communities, crypto, tech"
+    
+  - name: "LinkedIn"
+    users: 90_000_000
+    business_relevance: "HIGH for B2B, hiring"
+    
+  - name: "X (Twitter)"
+    users: 25_000_000
+    business_relevance: "LOW - news, politics, tech"
+
+## Digital Advertising
+advertising_spend_inr: 450_000_000_000  # ~$5.4B USD
+spend_by_channel:
+  social_media: 42  # percentage (WhatsApp, Instagram, YouTube)
+  search: 28  # Google Ads, Bing
+  display: 18
+  video: 12
+
+## Top Ad Networks & Platforms
+ad_platforms:
+  - "Google Ads (Google India) - 65% digital ad market"
+  - "Meta Ads (Facebook, Instagram, WhatsApp) - 25%"
+  - "YouTube Ads - video advertising"
+  - "Amazon Ads - e-commerce advertising"
+  - "Flipkart Ads - platform advertising"
+  - "LinkedIn Ads - B2B professional"
+  - "Programmatic: DV360, MediaMath, Xandr"
+
+## E-commerce Platforms (Critical for Marketing)
+ecommerce_platforms:
+  - name: "Flipkart (Walmart-owned)"
+    users: 350_000_000
+    market_share: 38
+    features: "Sponsored products, brand stores"
+    
+  - name: "Amazon India"
+    users: 200_000_000
+    market_share: 32
+    features: "Sponsored brands, DSP, A+ content"
+    
+  - name: "JioMart (Reliance Retail)"
+    users: 150_000_000
+    market_share: 12
+    features: "WhatsApp ordering, hyperlocal"
+    
+  - name: "Nykaa (beauty/lifestyle)"
+    users: 80_000_000
+    market_share: 4
+    features: "Beauty/luxury focus"
+    
+  - name: "Meesho (social commerce)"
+    users: 120_000_000
+    market_share: 6
+    features: "Reseller model, Tier-2/3 cities"
+
+## Influencer Marketing
+kol_marketing:
+  tiers:
+    - "Mega KOLs (5M+ followers): ₹20L-2Cr per post"
+    - "Macro KOLs (1M-5M): ₹5L-20L per post"
+    - "Micro KOLs (100K-1M): ₹50K-5L per post"
+    - "Nano KOCs (10K-100K): ₹5K-50K per post"
+    
+  top_platforms:
+    - "Instagram (fashion, beauty, lifestyle)"
+    - "YouTube (tech, gaming, education)"
+    - "LinkedIn (B2B thought leadership)"
+    - "Twitter (news, politics, tech)"
+    
+  costs:
+    mega_campaign: "₹50L - ₹5Cr+ (multi-platform)"
+    regional_influencers: "₹10K-2L per post (Tamil, Telugu, etc.)"
+
+## Search Engines
+search_engines:
+  - name: "Google"
+    market_share: 98
+  - name: "Bing"
+    market_share: 1.5
+  - name: "Yahoo"
+    market_share: 0.3
+
+## Email Marketing (Growing)
+email_usage:
+  penetration: 35  # percentage (growing with digital adoption)
+  popular_providers:
+    - "Gmail (dominant - 90%+ of email users)"
+    - "Yahoo Mail (older demographics)"
+    - "Rediffmail (legacy)"
+  business_use: "Growing, but WhatsApp preferred for customer engagement"
+
+## Content Marketing
+content_platforms:
+  - name: "YouTube (वीडियो)"
+    users: 480_000_000
+    use: "Video content, tutorials, reviews"
+  - name: "LinkedIn (पेशेवर)"
+    users: 90_000_000
+    use: "B2B content, thought leadership"
+  - name: "Medium (via Scroll.in)"
+    users: 15_000_000
+    use: "Long-form articles"
+  - name: "Quora (Hindi/English)"
+    users: 35_000_000
+    use: "Q&A, expertise sharing"
+  - name: "Blogspot/Blogger"
+    users: 20_000_000
+    use: "Local language blogs"
+
+## Messaging Apps (Dominant)
+messaging:
+  - name: "WhatsApp (व्हाट्सएप्प)"
+    users: 530_000_000
+    marketing_use: "Business catalogs, customer support, UPI payments"
+    
+  - name: "Instagram Messenger"
+    users: 350_000_000
+    marketing_use: "DMs, Stories, Reels engagement"
+    
+  - name: "Telegram (टेलीग्राम)"
+    users: 80_000_000
+    marketing_use: "Communities, channels, bots"
+    
+  - name: "Signal (सिग्नल)"
+    users: 15_000_000
+    marketing_use: "Limited (privacy-focused)"
+
+## Payment Integration in Marketing
+payment_linked_marketing:
+  upi_qr_codes: "99% of online merchants (WhatsApp, Instagram)"
+  gpay_offers: "Cashback campaigns (Google Pay)"
+  phonepe_switch: "Insurance, mutual funds cross-sell"
+  paytm_mall: "Mall-like experience within app"
+
+## Regional Marketing (Critical!)
+regional_language_marketing:
+  necessity: "65% of users prefer content in local language"
+  top_languages:
+    - "Hindi (हिन्दी) - 44% population"
+    - "Tamil (தமிழ்) - 6.9% (Tamil Nadu)"
+    - "Telugu (తెలుగు) - 6.9% (Andhra/Telangana)"
+    - "Marathi (मराठी) - 6.9% (Maharashtra)"
+    - "Bengali (বাংলা) - 8.0% (West Bengal)"
+    - "Gujarati (ગુજરાતી) - 4.6% (Gujarat)"
+    
+  regional_platforms:
+    - "Dailyhunt (news in 14 languages)"
+    - "Josh (short videos in regional)"
+    - "Pratilipi (stories in 12 languages)"
+
+## Compliance & Regulations
+content_regulation:
+  authority: "MEITY (Ministry of Electronics & IT)"
+  rules:
+    - "IT Act 2000, amended 2008 (intermediary guidelines)"
+    - "Consumer Protection Act 2019 (misleading ads penalties)"
+    - "Advertising Standards Council of India (ASCI) - self-regulation"
+    - "Drugs & Magic Remedies Act (prohibits certain ads)"
+    
+  prohibited_content:
+    - "False/misleading claims"
+    - "Ads targeting children inappropriately"
+    - "Tobacco/alcohol ads (restricted)"
+    - "Political ads require pre-certification (Election Commission)"
+    
+  penalties:
+    - "ASCI complaints: ad withdrawal, apology"
+    - "Consumer court: compensation + fines"
+    - "Criminal prosecution for serious violations"
+
+## Marketing Channels by Business Type
+b2b_channels:
+  - "LinkedIn (primary - 90M users)"
+  - "Google Ads (lead generation)"
+  - "Industry events (offline remains important)"
+  - "Email marketing (growing)"
+  - "NASSCOM, CII, FICCI (industry associations)"
+
+b2c_channels:
+  - "WhatsApp (CRITICAL - 530M users, catalogs, support)"
+  - "Instagram (fashion, lifestyle, Reels ads)"
+  - "YouTube (video ads, influencer marketing)"
+  - "Flipkart/Amazon (sponsored products)"
+  - "Regional platforms (Dailyhunt, Josh for Tier-2/3)"
+  - "Television (still 70% reach in rural areas)"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "WhatsApp 530M users - MANDATORY for customer engagement"
+  - "Google Ads dominates (65% digital ad market)"
+  - "UPI QR codes everywhere (99% online merchants)"
+  - "Regional languages CRITICAL (65% prefer local language)"
+  - "WhatsApp Business for catalogs, customer support, payments"
+  - "Instagram 350M users (fashion, lifestyle, Reels)"
+  - "YouTube 480M users (video ads, tutorials)"
+  - "Flipkart (38%) + Amazon (32%) dominate e-commerce ads"
+  - "Regional platforms: Dailyhunt, Josh (Tier-2/3 cities)"
+  - "Influencer tiers: Nano (10K) to Mega (5M+) followers"
+  - "Email marketing growing but still only 35% penetration"
+  - "Telegram 80M users (communities, crypto, tech)"
+  - "ASCI self-regulation (ad complaints, withdrawal)"
+  - "Regional focus: Hindi, Tamil, Telugu, Marathi, Bengali"

@@ -1,0 +1,175 @@
+---
+country: "India"
+category: "legal"
+type: "labor_law"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.labour.gov.in"
+  - "https://www.mca.gov.in"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Labor Law - India
+
+## Legal Framework
+primary_law: "Industrial Disputes Act 1947 + Companies Act 2013"
+labor_protection: "Code on Wages 2019 (replaces 4 old laws)"
+code_on_social_security: "Code on Social Security 2020"
+code_on_industrial_relations: "Industrial Relations Code 2020"
+code_on_occupational_safety: "Occupational Safety, Health & Working Conditions Code 2020"
+authority: "Ministry of Labour & Employment (मजदूर और रोजगार मंत्रालय)"
+
+## Employment Contracts
+contract_types:
+  - type: "Permanent (स्थायी)"
+    description: "Standard employment with full benefits"
+    probation: "3-6 months (varies by company)"
+    notice_period: "1-3 months (or pay in lieu)"
+    
+  - type: "Fixed-term (निश्चित अवधि)"
+    description: "Contract for specific period"
+    max_duration: "No limit (replaces casual labor)"
+    benefits: "Same as permanent employees"
+    
+  - type: "Casual/Contract (अस्थायी)"
+    description: "Daily wage or short-term"
+    benefits: "Limited (mostly minimum wage compliance)"
+    
+  - type: "Internship (प्रशिक्षु)"
+    description: "Student/trainee (stipend, not salary)"
+    duration: "3-12 months"
+    benefits: "No PF/ESI (unless specified)"
+
+## Working Hours
+standard_hours:
+  per_day: 9  # some states allow 8-9
+  per_week: 48
+  rest_days: "At least 1 day per week (usually Sunday)"
+  
+overtime_rules:
+  max_daily: 4  # hours
+  max_weekly: 50  # total hours (incl. overtime)
+  compensation:
+    weekdays: 200  # percentage of normal wage (2x)
+    holidays: 200  # percentage (2x)
+  note: "State laws vary (Factories Act, Shops & Establishments Act)"
+
+## Minimum Wage
+minimum_wage:
+  set_by: "Central + State Governments (Code on Wages 2019)"
+  varies_by: "State, skill level, zone (urban/rural)"
+  
+  unskilled:
+    range: "₹8,000 - ₹18,000"  # per month
+    example_states:
+      delhi: "₹17,000/month"
+      maharashtra: "₹15,000/month"
+      tamil_nadu: "₹12,000/month"
+      
+  semi_skilled:
+    range: "₹10,000 - ₹22,000"
+    
+  skilled:
+    range: "₹12,000 - ₹30,000"
+    
+  note: "National floor wage: ₹178/day (~₹5,340/month) - advisory"
+
+## Social Security (Code 2020)
+social_security:
+  - name: "EPF (Employees' Provident Fund - कर्मचारी भविष्य निधि)"
+    employer: 12  # percentage of basic + DA
+    employee: 12
+    use: "Retirement savings (withdrawable after 5-10 years)"
+    
+  - name: "ESI (Employees' State Insurance - राज्य बीमा)"
+    employer: 3.25
+    employee: 0.75
+    coverage: "Medical + disability + maternity (salary ≤₹21K)"
+    
+  - name: "Gratuity (ग्रेच्युटी)"
+    entitlement: "After 5 years of continuous service"
+    calculation: "15 days salary per completed year"
+    max_limit: "₹20 lakh (~$24K) - tax-free"
+    
+  - name: "Maternity Benefit (मातृत्व लाभ)"
+    duration: "26 weeks (8 weeks pre + 18 weeks post)"
+    pay: "100% of average daily wage"
+    applicable: "All female employees (≥10 employees in org)"
+
+## Termination & Severance
+termination_notice:
+  employer_initiated: "1-3 months notice OR pay in lieu"
+  employee_initiated: "1-3 months notice (as per contract)"
+  
+severance_pay:
+  gratuity: "15 days salary per completed year (after 5 years)"
+  retrenchment_compensation: "15 days pay per completed year (Industrial Disputes Act)"
+  layoff: "Max 50% of basic wage (for 45 days/year)"
+  
+notice_period_by_level:
+  junior: "1 month"
+  mid_level: "2-3 months"
+  senior: "3-6 months"
+
+## Mandatory Leave
+leave_entitlements:
+  annual_leave:
+    factories: "12-15 days/year (earned leave)"
+    shops_offices: "12-21 days/year (varies by state)"
+  sick_leave: "7-12 days/year (varies by state)"
+  maternity_leave: "26 weeks (8+18)"
+  paternity_leave: "10-15 days (by company policy, not mandatory)"
+  public_holidays: "10-15 days/year (state-specific festivals)"
+
+## Probation Period
+probation_rules:
+  standard: "3-6 months"
+  extension: "Up to 1 year (by company)"
+  during_probation: "Shorter notice period (1 month usually)"
+  confirmation: "Based on performance review"
+
+## Non-Compete Agreements
+non_compete:
+  validity: "During employment (enforceable)"
+  post_employment: "Generally NOT enforceable in India (restraint of trade)"
+  confidentiality: "ALWAYS enforceable (NDAs, trade secrets)"
+  notice_period: "1-6 months (contractual, not statutory)"
+
+## Labor Dispute Resolution
+dispute_process:
+  step1: "Internal Committee (sexual harassment, grievances)"
+  step2: "Conciliation (Labor Commissioner)"
+  step3: "Industrial Tribunal / Labour Court"
+  step4: "High Court / Supreme Court"
+
+timeline:
+  conciliation: "15-30 days"
+  tribunal: "6-18 months"
+  court: "2-5 years (appeals)"
+
+## Special Rules for Foreigners
+work_visa:
+  required: "Employment Visa (E-visa) or Business Visa"
+  duration: "1-5 years (renewable)"
+  employer_sponsorship: "Mandatory"
+  restrictions: "Cannot change employer without new visa"
+  
+pan_requirement: "Mandatory for salary >₹2.5 lakh/year (for tax)"
+epf_esi: "Foreigners eligible if drawing salary in India"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "Code on Wages 2019 replaces 4 old wage laws (simplification)"
+  - "Minimum wage varies by state: ₹8K-30K/month (skill-level)"
+  - "EPF: 12% employer + 12% employee (MANDATORY if 20+ employees)"
+  - "ESI: Medical insurance for salaries ≤₹21K (3.25% emp, 0.75% emp)"
+  - "Gratuity: 15 days salary/year (after 5 years, max ₹20L)"
+  - "Maternity: 26 weeks (8 pre + 18 post) - 100% pay"
+  - "Paternity: NOT mandatory (10-15 days by company policy)"
+  - "Notice period: 1-3 months (or pay in lieu)"
+  - "Non-compete: NOT enforceable post-employment (only confidentiality)"
+  - "Overtime: 2x wage, max 4hrs/day, 50hrs/week"
+  - "Foreigners need Employment Visa + PAN for salary >₹2.5L"
+  - "Labor courts for disputes (6-18 months timeline)"
+  - "Code on Social Security 2020: consolidates 9 old laws"

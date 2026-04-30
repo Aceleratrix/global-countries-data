@@ -1,0 +1,161 @@
+---
+country: "India"
+category: "legal"
+type: "internet_law"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.meity.gov.in"
+  - "https://www.indiacode.nic.in"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Internet & Data Protection Laws - India
+
+## Legal Framework Overview
+data_protection_law: "Digital Personal Data Protection Act (DPDPA 2023)"
+cybersecurity_law: "Information Technology Act (IT Act 2000, amended 2008)"
+ecommerce_rules: "Consumer Protection (E-commerce) Rules 2020 (amended 2021)"
+ai_governance: "AI Governance Guidelines (draft 2023, expected 2026)"
+digital_india: "Digital India Initiative (2015-2030)"
+
+## Digital Personal Data Protection Act (DPDPA 2023)
+effective_date: "2024 (phased implementation)"
+scope: "Processing of digital personal data within India or related to Indian citizens"
+
+key_requirements:
+  - "Consent must be free, specific, informed, unconditional, and unambiguous"
+  - "Data fiduciary must implement reasonable security safeguards"
+  - "Data localization: sensitive personal data must be stored in India"
+  - "Cross-border transfer allowed with explicit consent + safeguards"
+  - "Right to access, correct, erase personal data"
+  - "Data Protection Board of India for grievance redressal"
+  - "Significant Data Fiduciaries need additional compliance"
+
+penalties:
+  failure_to_protect_data: "Up to ₹250 crore (~$30M)"
+  breach_of_terms: "Up to ₹200 crore (~$24M)"
+  non_compliance: "Up to ₹50 crore (~$6M) per instance"
+
+## Information Technology Act (IT Act 2000)
+amended: "2008 (major amendments post-26/11 Mumbai attacks)"
+scope: "Cybercrime, e-commerce, digital signatures"
+
+key_provisions:
+  - "Section 43A: Compensation for data breach (up to ₹5 crore)"
+  - "Section 66: Hacking, identity theft (3-10 years imprisonment)"
+  - "Section 66A: Offensive messages (struck down by SC 2015)"
+  - "Section 69: Government power to intercept, monitor, decrypt"
+  - "Section 79: Safe harbor for intermediaries (with due diligence)"
+  
+  intermediaries_due_diligence:
+    - "Publish Grievance Officer contact"
+    - "Respond to complaints within 72 hours"
+    - "Take down illegal content within 36 hours of court/government order"
+    - "Preserve records for 180 days (or longer if ordered)"
+
+penalties:
+  hacking: "3-10 years + fine (₹1 lakh - ₹5 lakh)"
+  data_breach: "Up to ₹5 crore (~$600K)"
+  fake_news_misinformation: "Imprisonment (varies by severity)"
+
+## Consumer Protection (E-commerce) Rules 2020
+amended: "2021 (strengthened seller liability)"
+scope: "All e-commerce entities operating in India"
+
+key_requirements:
+  - "Grievance Officer must be Indian resident"
+  - "Display country of origin for goods (Made in...)"
+  - "No unfair trade practices, misleading ads"
+  - "Flash sales restricted (limited to genuine promotions)"
+  - "Sellers cannot be related to platform (anti-commingling)"
+  - "Mandatory registration with DPIIT for foreign e-commerce"
+
+penalties:
+  non_compliance: "Up to ₹1 lakh per violation"
+  misleading_ads: "Up to ₹10 lakh + imprisonment"
+
+## Data Localization Requirements
+data_localization:
+  sensitive_personal_data: "Must be stored in India (DPDPA 2023)"
+  critical_personal_data: "Must be stored AND processed in India"
+  payment_data: "All payment data must be stored in India (RBI 2018 order)"
+  
+exceptions:
+  - "Cross-border transfer allowed with explicit consent + contractual safeguards"
+  - "Government may exempt certain data categories"
+  - "Health data has separate localization rules (NDHM)"
+
+## AI Governance Framework (Draft 2023)
+status: "Draft for consultation (expected finalization 2026)"
+approach: "Ethics-based, light-touch regulation (not EU-style)"
+
+key_principles:
+  - "Responsible AI: safety, transparency, accountability"
+  - "No blanket ban on AI applications"
+  - "Self-regulation for industry, sandbox for startups"
+  - "AI ethics board for high-risk applications"
+  - "No separate AI law - guidelines under IT Act"
+
+## Digital India Initiative
+launched: "2015"
+goal: "Transform India into digital empowered society and knowledge economy"
+
+pillars:
+  - "Digital Infrastructure (Aadhaar, UPI, DigiLocker)"
+  - "Digital Delivery of Services (Gov services online)"
+  - "Digital Literacy (promote digital inclusion)"
+  
+key_platforms:
+  - "Aadhaar (1.3B residents enrolled - biometric ID)"
+  - "UPI (12B+ monthly transactions - world's largest)"
+  - "DigiLocker (300M+ users - digital document wallet)"
+  - "CoWIN (vaccination platform - 1B+ doses tracked)"
+  - "GEM (Government e-Marketplace - $100B+ GMV)"
+
+## Internet Censorship & Content Regulation
+regulator: "MEITY (Ministry of Electronics & IT)"
+blocking_power: "Section 69A IT Act - block public access to information"
+
+blocked_platforms_past:
+  - "TikTok (banned 2020 - national security)"
+  - "59+ Chinese apps banned (2020-2021)"
+  - "Some pornography sites (intermittent)"
+
+current_status:
+  - "No blanket ban on Western platforms (WhatsApp, Facebook, etc.)"
+  - "Government can order takedowns (Section 69A)"
+  - "Intermediary guidelines 2021: traceability of messages (WhatsApp challenged)"
+
+## Data Protection Board of India
+established: "2024 (under DPDPA 2023)"
+role: "Adjudicate data breach complaints, impose penalties"
+composition: "Chairperson + 6 members (experts in tech, law, policy)"
+appeal: "To High Court within 60 days of order"
+
+## Enforcement Agencies
+agencies:
+  - name: "MEITY (Ministry of Electronics & IT)"
+    role: "IT Act enforcement, internet governance, AI policy"
+  - name: "CERT-In (Indian Computer Emergency Response Team)"
+    role: "Cybersecurity incidents, breach reporting (6 hours!)"
+  - name: "RBI (Reserve Bank of India)"
+    role: "Payment data localization, fintech regulation"
+  - name: "Data Protection Board of India"
+    role: "DPDPA 2023 enforcement, penalties"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "DPDPA 2023 is India's GDPR (effective 2024, phased)"
+  - "Data localization MANDATORY for sensitive personal data"
+  - "UPI is KING (12B+ txns/month) - must integrate for digital products"
+  - "WhatsApp has 530M users - critical for customer engagement"
+  - "CERT-In breach reporting: WITHIN 6 HOURS (strictest globally)"
+  - "AI regulation: light-touch, ethics-based (no EU-style bans)"
+  - "E-commerce: Grievance Officer MUST be Indian resident"
+  - "Payment data must be stored in India (RBI 2018 order)"
+  - "Aadhaar (1.3B users) - biometric ID for gov services"
+  - "Section 69A IT Act: Government can block ANY content/platform"
+  - "Fake news laws: 3-7 years imprisonment possible"
+  - "Digital India: 748M internet users, growing 20M+/year"
+  - "Gov cloud (MeghRaj) mandatory for government data"

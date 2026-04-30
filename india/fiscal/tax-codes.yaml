@@ -1,0 +1,174 @@
+---
+country: "India"
+category: "fiscal"
+type: "tax_codes"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.incometax.gov.in"
+  - "https://www.gst.gov.in"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Tax Codes & Fiscal Information - India
+
+## Tax Authority
+authority: "Central Board of Direct Taxes (CBDT) + GST Council"
+website: "https://www.incometax.gov.in (Income Tax), https://www.gst.gov.in (GST)"
+local_offices: "Income Tax Department + GST Seva Kendras in all cities"
+
+## Corporate Income Tax (CIT)
+corporate_income_tax:
+  domestic_companies:
+    base_rate: 25  # percentage (for turnover ≤₹400 crore in 2022-23)
+    higher_rate: 30  # for larger companies
+    surcharge: 7-12  # on tax payable (by income)
+    effective_rate: 26-35  # including surcharge + cess
+    
+  foreign_companies:
+    base_rate: 40
+    surcharge: 2-5
+    effective_rate: 41-44
+    
+  new_domestic_manufacturing:
+    rate: 15  # for companies incorporated after Oct 2019
+    conditions: "Manufacturing only, cannot claim certain deductions"
+
+## Goods & Services Tax (GST)
+gst:
+  introduced: "2017-07-01 (replaced multiple indirect taxes)"
+  slabs:
+    - rate: 0
+      applies_to: "Essential goods (milk, eggs, fresh produce)"
+    - rate: 5
+      applies_to: "Essential items (sugar, tea, spices, coal)"
+    - rate: 12
+      applies_to: "Processed food, computers, mobiles"
+    - rate: 18
+      applies_to: "Most goods and services (standard)"
+    - rate: 28
+      applies_to: "Luxury items (cars, ACs, tobacco, aerated drinks)"
+      
+  composition_scheme:
+    threshold: "Turnover ≤₹1.5 crore"
+    rate: 1-6  # by business type
+    benefit: "Simplified compliance, quarterly returns"
+    
+  gst_components:
+    cgst: "Central GST (collected by central govt)"
+    sgst: "State GST (collected by state govt)"
+    igst: "Integrated GST (inter-state, collected by central)"
+    
+  input_tax_credit: "Available on all inputs, capital goods (with conditions)"
+
+## Income Tax (Individuals)
+individual_income_tax:
+  regimes:
+    old_regime:
+      tax_brackets:
+        - "0 - ₹2.5 lakh: 0%"
+        - "₹2.5 - 5 lakh: 5%"
+        - "₹5 - 10 lakh: 20%"
+        - "₹10+ lakh: 30%"
+      deductions_available: "Section 80C (₹1.5L), 80D (health), HRA, LTA, etc."
+      
+    new_regime:  # default from 2023-24
+      tax_brackets:
+        - "0 - ₹3 lakh: 0%"
+        - "₹3 - 6 lakh: 5%"
+        - "₹6 - 9 lakh: 10%"
+        - "₹9 - 12 lakh: 15%"
+        - "₹12 - 15 lakh: 20%"
+        - "₹15+ lakh: 30%"
+      deductions_available: "Very limited (only employer contrib to NPS)"
+      
+  surcharge: "10-37% on tax payable (by income level)"
+  cess: "4% Health & Education Cess on tax + surcharge"
+
+## Digital Service Tax (Equalization Levy)
+equalization_levy:
+  rate: 2  # percentage
+  introduced: "2020 (expanded from 6% on ads, 2016)"
+  applies_to: "E-commerce operators (Amazon, Flipkart, etc.)"
+  collection: "From e-commerce participants (sellers on platform)"
+  threshold: "Gross turnover >₹20 lakh in a year"
+  
+  note: "Also 6% on online ads (Google, Facebook, etc.) if payer is Indian"
+
+## Tax Deducted at Source (TDS)
+tds:
+  threshold: "Varies by payment type"
+  rates:
+    salary: "As per income tax slabs"
+    contractor_payments: 1-2
+    professional_fees: 10
+    rent: 10-20
+    commission: 5
+    interest: 10
+    
+  compliance: "Must deduct and deposit by 7th of next month"
+
+## Tax Collection at Source (TCS)
+tcs:
+  e_commerce: 1  # on gross sales by sellers (effective 2023)
+  overseas_remittance: 5  # for LRS (Liberalized Remittance Scheme)
+  luxury_goods: 1  # on goods >₹10 lakh
+
+## Advance Tax
+advance_tax:
+  requirement: "If total tax liability >₹10,000"
+  installments:
+    - "15% by June 15"
+    - "45% by September 15"
+    - "75% by December 15"
+    - "100% by March 15"
+  penalty: "1% interest per month on shortfall"
+
+## Permanent Account Number (PAN)
+pan:
+  description: "10-digit alphanumeric ID (mandatory for tax filings)"
+  format: "ABCDE1234F"
+  uses: "All tax returns, high-value transactions, bank accounts"
+  penalty: "₹10,000 for non-compliance in certain cases"
+
+## Tax Filing & Payment
+filing_frequency:
+  income_tax: "Annual (due July 31 for individuals, Sept 30 for companies)"
+  gst: "Monthly (GSTR-1, GSTR-3B) + Annual (GSTR-9)"
+  tds: "Monthly/Quarterly (as applicable)"
+  
+payment_methods:
+  - "Online banking (most common)"
+  - "NEFT/RTGS"
+  - "Over-the-counter at banks"
+  - "UPI (for direct taxes)"
+
+## Tax Incentives
+incentives:
+  startups:
+    - "3-year tax holiday (Section 80-IAC, eligible startups)"
+    - "100% tax exemption on investment over fair market value"
+    
+  special_economic_zones:
+    - "100% profit exemption for first 5 years, 50% next 5 years"
+    
+  export_oriented_units:
+    - "Various export promotion schemes (MEIS, SEIS replaced by RoDTEP)"
+    
+  research_development:
+    - "150% weighted deduction for R&D (Section 35)"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "GST is India's unified indirect tax (5 slabs: 0%, 5%, 12%, 18%, 28%)"
+  - "Corporate tax: 25-30% (domestic), 40% (foreign companies)"
+  - "New manufacturing units get 15% CIT (if incorporated after Oct 2019)"
+  - "PAN (10-digit) is MANDATORY for all tax filings"
+  - "Equalization Levy: 2% on e-commerce operators (Amazon, Flipkart)"
+  - "TDS must be deducted for payments >threshold (1-20% by type)"
+  - "New tax regime (2023) is default - lower rates, fewer deductions"
+  - "GST filing: Monthly GSTR-1 (outward), GSTR-3B (payment)"
+  - "Digital India: 748M internet users, UPI does 12B+ txns/month"
+  - "Income tax filing deadline: July 31 (individuals), Sept 30 (cos)"
+  - "GST composition scheme: 1-6% for SMEs (≤₹1.5Cr turnover)"
+  - "Health & Education Cess: 4% on tax + surcharge (all regimes)"

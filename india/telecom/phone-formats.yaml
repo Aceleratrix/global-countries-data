@@ -1,0 +1,156 @@
+---
+country: "India"
+category: "telecom"
+type: "phone_formats"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.dot.gov.in"
+  - "https://www.trai.gov.in"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Phone & Telecom Formats - India
+
+## Country Code
+country_calling_code: "+91"
+international_prefix: "00"
+trunk_prefix: "0"
+e164_format: true
+
+## Mobile Phone Format
+mobile_format:
+  pattern: "+91 XXXXX XXXXX"
+  length: 10  # digits (after country code)
+  example: "+91 98765 43210"
+  regex: "^(\\+91)?[6-9]\\d{9}$"
+  
+mobile_prefixes:
+  - series: "6XXXXXXXXX"
+    operators: ["Jio", "Airtel", "Vi", "BSNL"]
+  - series: "7XXXXXXXXX"
+    operators: ["Jio", "Airtel", "Vi"]
+  - series: "8XXXXXXXXX"
+    operators: ["Jio", "Airtel", "Vi", "BSNL"]
+  - series: "9XXXXXXXXX"
+    operators: ["Airtel", "Vi", "Jio", "BSNL"]
+
+## Landline Format
+landline_format:
+  pattern: "+91 (STD code) XXXXXXX"
+  std_code_length: 2-4  # varies by city
+  local_number_length: 5-8
+  example: "+91 11 1234 5678"  # New Delhi
+  regex: "^(\\+91)?0?\\d{2,4}\\d{5,8}$"
+  
+major_city_codes:
+  mumbai: "22"
+  delhi: "11"
+  bangalore: "80"
+  hyderabad: "40"
+  chennai: "44"
+  kolkata: "33"
+  pune: "20"
+  ahmedabad: "79"
+
+## Toll-Free Numbers
+toll_free:
+  prefixes: ["1800", "1860"]
+  format: "+91 1800 XXX XXXX"
+  note: "1800 is free, 1860 is local call rate"
+  availability: "Available to businesses via telecom operators"
+
+## Special Service Numbers
+emergency:
+  police: "100"
+  fire: "101"
+  ambulance: "102"
+  disaster_management: "108"
+  womens_helpline: "1091"
+  child_helpline: "1098"
+
+## Telecom Operators
+mobile_operators:
+  - name: "Reliance Jio (जियो)"
+    market_share: 37
+    users: 460_000_000
+    launched: 2016
+    note: "Disrupted market with free data (₹10/GB now)"
+    
+  - name: "Bharti Airtel (एयरटेल)"
+    market_share: 30
+    users: 370_000_000
+    note: "Premium positioning, strong enterprise"
+    
+  - name: "Vi (Vodafone Idea - वोडाफोन आइडिया)"
+    market_share: 18
+    users: 220_000_000
+    note: "Struggling financially, merging operations"
+    
+  - name: "BSNL (Bharat Sanchar Nigam Limited - भारत संचार निगम लिमिटेड)"
+    market_share: 8
+    users: 100_000_000
+    note: "State-owned, rural focus"
+    
+  - name: "MTNL (Mahanagar Telephone Nigam Ltd)"
+    market_share: 1
+    users: 12_000_000
+    note: "State-owned, Delhi & Mumbai only"
+
+## Internet & Connectivity
+internet_penetration: 52  # percentage
+internet_users: 748_000_000
+mobile_penetration: 86  # percentage (multi-SIM common)
+broadband_speed_avg_mbps: 65
+
+## 5G Coverage
+five_g:
+  launched: "2022-10"
+  coverage: "85% of cities, 600K+ base stations by 2026"
+  operators: "Jio, Airtel, Vi (limited)"
+  speed_avg_mbps: 150
+  users: 180_000_000  # growing fast
+
+## VoIP & Instant Messaging
+voip_services:
+  - "WhatsApp (530M users - dominant)"
+  - "Google Meet, Zoom (enterprise)"
+  - "Skype (limited use)"
+  - "JioChat (local, limited adoption)"
+  
+instant_messaging:
+  - "WhatsApp: 530M users (CRITICAL for business)"
+  - "Instagram: 350M users"
+  - "Facebook Messenger: 280M users"
+  - "Telegram: 80M users"
+  - "Signal: 15M users"
+
+## Phone Number Portability
+number_portability:
+  available: true
+  introduced: "2011 (mobile), 2015 (landline)"
+  process: "Via operator (MNP code)"
+  timeline: "3-7 business days"
+  fee: "₹19-39"
+
+## Virtual Phone Numbers
+virtual_numbers:
+  availability: "Available via Twilio, MSG91, TextLocal"
+  use_cases: "OTP, business SMS, customer support"
+  regulatory: "TRAI guidelines on unsolicited communications"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "Mobile numbers: ALWAYS 10 digits starting with 6,7,8,9"
+  - "Landlines: STD code (2-4 digits) + 5-8 digit local number"
+  - "WhatsApp has 530M users - MANDATORY for business communication"
+  - "Jio disrupted market: data now ₹10/GB (was ₹250+/GB pre-2016)"
+  - "SMS verification is standard for Indian apps"
+  - "5G launched Oct 2022, 85% city coverage, 180M users"
+  - "Jio dominates (37% share, 460M users), Airtel 2nd (30%)"
+  - "Emergency: Police 100, Fire 101, Ambulance 102, Disaster 108"
+  - "STD codes: Mumbai 22, Delhi 11, Bangalore 80, Chennai 44"
+  - "TRAI (Telecom Regulatory Authority) oversees telecom"
+  - "Number portability available since 2011 (₹19-39 fee)"
+  - "Instagram 350M, Facebook Messenger 280M users in India"
+  - "Virtual numbers via Twilio, MSG91 for OTP/business"

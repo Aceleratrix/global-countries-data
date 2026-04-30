@@ -1,0 +1,240 @@
+---
+country: "India"
+category: "business"
+type: "real_estate"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.nhbonline.com"
+  - "https://www.nhb.org.in"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Real Estate Market - India
+
+## Market Overview
+market_size_usd: 250_000_000_000  # $250 billion (2025)
+residential_share: 80  # percentage of market
+commercial_share: 20
+
+## Major Cities (Tier 1)
+tier1_cities:
+  - name: "Mumbai (मुंबई)"
+    population: 21_300_000
+    avg_price_inr_sqft: 18_000  # ~$215/sqft
+    prime_office_rent_inr_sqft_month: 180  # ~$2.15/sqft
+    vacancy_rate: 18.5
+    
+  - name: "Delhi NCR (दिल्ली - Gurgaon, Noida)"
+    population: 32_900_000
+    avg_price_inr_sqft: 8_000  # ~$95/sqft
+    prime_office_rent_inr_sqft_month: 120
+    vacancy_rate: 22.2
+    
+  - name: "Bangalore (बेंगलुरु)"
+    population: 13_600_000
+    avg_price_inr_sqft: 9_500  # ~$115/sqft
+    prime_office_rent_inr_sqft_month: 140
+    vacancy_rate: 16.8
+    
+  - name: "Hyderabad (हैदराबाद)"
+    population: 10_800_000
+    avg_price_inr_sqft: 7_000  # ~$85/sqft
+    prime_office_rent_inr_sqft_month: 110
+    vacancy_rate: 14.2
+    
+  - name: "Chennai (चेन्नई)"
+    population: 10_500_000
+    avg_price_inr_sqft: 6_500  # ~$78/sqft
+    prime_office_rent_inr_sqft_month: 100
+    vacancy_rate: 15.8
+    
+  - name: "Pune (पुणे)"
+    population: 7_200_000
+    avg_price_inr_sqft: 7_800  # ~$94/sqft
+    prime_office_rent_inr_sqft_month: 105
+    vacancy_rate: 13.5
+
+tier2_cities:
+  - name: "Ahmedabad (अहमदाबाद)"
+    avg_price_inr_sqft: 5_500
+  - name: "Jaipur (जयपुर)"
+    avg_price_inr_sqft: 4_800
+  - name: "Kolkata (कोलकाता)"
+    avg_price_inr_sqft: 5_200
+  - name: "Lucknow (लखनऊ)"
+    avg_price_inr_sqft: 4_200
+
+## Residential Real Estate
+residential:
+  price_trend: "Growing 5-12% annually (Tier 1 cities)"
+  average_price_inr_sqft_national: 4_500  # ~$54/sqft
+  
+  property_types:
+    - "Apartments (flats) - 70% of market"
+    - "Independent houses - 20%"
+    - "Villas/plots - 10%"
+    
+  purchase_process:
+    - "RERA registration check (mandatory since 2017)"
+    - "Title search + legal due diligence"
+    - "Agreement to sell + token advance"
+    - "Sale agreement + 10-20% payment"
+    - "Home loan sanction (if applicable)"
+    - "Sale deed registration (stamp duty + registration)"
+    
+  down_payment:
+    first_home: 10-20  # percentage
+    second_home: 20-30
+    
+  mortgage_rates:
+    home_loans: 8.5-9.5  # percentage (2026 avg)
+    ltv_max: 80-90  # percentage of property value
+    
+  loan_terms:
+    max_years: 30
+    max_amount: "₹10Cr+ (varies by income)"
+
+## Commercial Real Estate
+commercial:
+  office_spaces:
+    grade_a_rent_inr_sqft_month: 120-180  # Tier 1 cities
+    vacancy_rate_national: 18.5
+    it_parks: "Special economic zones (SEZs) for IT/ITES"
+    
+  retail:
+    mall_rent_inr_sqft_month: 80-300  # by location
+    vacancy_rate: 15.5
+    trend: "E-commerce impacting physical retail"
+    
+  industrial_warehouse:
+    rent_inr_sqft_month: 25-60
+    vacancy_rate: 8.2
+    growth: "E-commerce logistics driving demand"
+
+## Legal Framework
+legal:
+  property_ownership:
+    - "Freehold (free ownership)"
+    - "Leasehold (30-99 years, typical for govt land)"
+    - "Flats/apartments (99-year lease typical)"
+    
+  foreign_ownership:
+    - "NRIs (Non-Resident Indians): can buy (all types)"
+    - "Foreigners (non-NRIs): restricted (only certain properties)"
+    - "Foreign companies: need RBI approval"
+    
+  transaction_costs_percent: 8-12
+  breakdown:
+    stamp_duty: 5-7  # varies by state (Tamil Nadu 7%, MP 5%)
+    registration: 1  # percentage of property value
+    gst: 5  # on under-construction properties
+    brokerage: 1-2  # percentage (negotiable)
+    
+  rera:
+    full_name: "Real Estate (Regulation and Development) Act 2016"
+    authority: "RERA (Real Estate Regulatory Authority) - one per state"
+    protection: "Buyer protection, project registration mandatory"
+    website: "https://maharera.mahaonline.gov.in (example: Maharashtra)"
+
+## Financing
+financing:
+  mortgage_types:
+    - name: "Home Loan (गृह ऋण)"
+      rate: 8.5-9.5
+      ltv_max: 80-90
+      tax_benefit: "Section 24(b) - ₹2L interest deduction"
+      
+  down_payment_sources:
+    - "Personal savings"
+    - "Withdrawals from EPF (Provident Fund)"
+    - "Family contributions"
+    
+  top_lenders:
+    - "SBI (State Bank of India) - 20% market share"
+    - "HDFC Bank - 15%"
+    - "ICICI Bank - 12%"
+    - "LIC Housing Finance - 8%"
+    - "Axis Bank - 6%"
+
+## Investment Market
+investment:
+  foreign_investment:
+    fdi_in_residential: "100% automatic route (completed projects)"
+    fdi_in_commercial: "100% automatic route"
+    requirements: "RBI approval for certain cases"
+    
+  reits:
+    launched: "2019 (first REIT: Embassy Office Parks)"
+    listed_reits: 8
+    market_size_usd: 6_000_000_000  # $6B
+    
+  yield_rates_percent:
+    residential_rental: 2.5-3.5  # low yield
+    office: 7-9
+    retail: 8-10
+    industrial: 9-11
+
+## Development & Construction
+development:
+  top_developers:
+    - "DLF (Delhi/NCR leader)"
+    - "Prestige Group (Bangalore)"
+    - "Godrej Properties (Mumbai, multiple cities)"
+    - "Lodha Group (Mumbai)"
+    - "Sobha Limited (Bangalore, Kerala)"
+    
+  construction_costs_inr_sqft:
+    residential_standard: 1_800
+    residential_luxury: 3_500
+    office_standard: 2_200
+    industrial: 1_200
+    
+  building_codes:
+    - "National Building Code (NBC 2016)"
+    - "Fire safety: NBC + state fire dept norms"
+    - "GREEN building: IGBC, GRIHA certifications"
+
+## PropTech & Digital
+proptech:
+  market_leaders:
+    - "99acres (info Edge) - 45% market share"
+    - "MagicBricks - 30%"
+    - "Housing.com - 15%"
+    - "NoBroker.com - 8% (zero brokerage)"
+    
+  digital_trends:
+    - "Virtual tours (standard since 2020)"
+    - "Online property auctions (banks, NBFCs)"
+    - "RERA-verified project listings"
+    - "Blockchain property records (pilot projects in 5 states)"
+
+## Rent Control & Tenant Rights
+rental_market:
+  rent_control: "Rent Control Acts (state-wise, varying)"
+  tenant_rights:
+    - "Standard rent agreement (11 months typical)"
+    - "Deposit: 1-3 months rent"
+    - "Notice period: 1-3 months (usually)"
+    - "Rent control: limited in most states"
+    
+  rental_yields:
+    tier1_cities: 2.5-3.5  # low yields
+    tier2_cities: 3.5-4.5
+    tier3_cities: 4.5-6.0
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "RERA (2016) MANDATORY for all real estate projects >500 sqm"
+  - "Stamp duty: 5-7% (varies by state - TN 7%, MP 5%)"
+  - "Home loan rates: 8.5-9.5% (SBI, HDFC lead market)"
+  - "Foreigners (non-NRIs) CANNOT buy property (restricted)"
+  - "NRIs can buy freely (all property types)"
+  - "Transaction costs: 8-12% (stamp + reg + GST + brokerage)"
+  - "99acres (45%) + MagicBricks (30%) dominate listings"
+  - "Rental yields low: 2.5-3.5% in Tier 1 cities"
+  - "REITs launched 2019: 8 listed, $6B market"
+  - "Down payment: 10-20% (1st home), 20-30% (2nd)"
+  - "LTV max: 80-90% (based on loan amount)"
+  - "GST 5% on under-construction properties"
+  - "Rental agreements: typically 11 months (avoid rent control)"

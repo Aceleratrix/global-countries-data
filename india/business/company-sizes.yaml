@@ -1,0 +1,191 @@
+---
+country: "India"
+category: "business"
+type: "company_sizes"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.mca.gov.in"
+  - "https://www.dpiit.gov.in"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Company Sizes & Types - India
+
+## Company Size Classifications
+classification_standard: "Ministry of Corporate Affairs (MCA) Guidelines"
+
+### Micro, Small & Medium Enterprises (MSMEs)
+msme_definition_2020:
+  - category: "Micro Enterprise"
+    investment_in_plant_machinery: "≤ ₹1 crore (~$120K)"
+    turnover: "≤ ₹5 crore (~$600K)"
+    count: 63_000_000
+    share_percent: 99.0
+    
+  - category: "Small Enterprise"
+    investment_in_plant_machinery: "₹1-10 crore ($120K-$1.2M)"
+    turnover: "₹5-50 crore ($600K-6M)"
+    count: 450_000
+    share_percent: 0.7
+    
+  - category: "Medium Enterprise"
+    investment_in_plant_machinery: "₹10-50 crore ($1.2M-6M)"
+    turnover: "₹50-250 crore ($6M-30M)"
+    count: 150_000
+    share_percent: 0.2
+    
+  - category: "Large Enterprise"
+    investment: "> ₹50 crore"
+    turnover: "> ₹250 crore"
+    count: 50_000
+    share_percent: 0.1
+
+total_msmes: 63_600_000
+employment_msme: 220_000_000  # 45% of total employment
+
+## Company Types (Legal Forms)
+company_types:
+  - name: "Private Limited Company (Pvt Ltd - निजी लिमिटेड)"
+    min_directors: 2
+    max_members: 200
+    min_capital: "₹1 lakh (~$1,200)"
+    use_case: "Most common for startups, SMEs"
+    count: 2_800_000
+    
+  - name: "Public Limited Company (Ltd - सार्वजनिक लिमिटेड)"
+    min_directors: 3
+    min_members: 7
+    max_members: "Unlimited"
+    min_capital: "₹5 lakh (~$6,000)"
+    use_case: "Listed companies, IPO-ready"
+    count: 120_000
+    
+  - name: "One Person Company (OPC - एक व्यक्ति कंपनी)"
+    introduced: "2013 Companies Act"
+    features: "Single founder, limited liability"
+    use_case: "Solo entrepreneurs (replaces sole proprietorship)"
+    count: 80_000
+    
+  - name: "Limited Liability Partnership (LLP - सीमित दायित्व साझेदारी)"
+    min_partners: 2
+    features: "LLP agreement, limited liability"
+    use_case: "Professional services, consulting"
+    count: 450_000
+    
+  - name: "Partnership Firm (साझेदारी फर्म)"
+    max_partners: 50
+    registration: "Optional (but recommended)"
+    use_case: "Small businesses, family businesses"
+    count: 3_500_000
+    
+  - name: "Sole Proprietorship (व्यक्तिगत स्वामित्व)"
+    features: "Single owner, unlimited liability"
+    registration: "Not required (GST/PAN enough)"
+    use_case: "Small shops, freelancers, consultants"
+    count: 50_000_000+  # informal, not all registered
+    
+  - name: "Section 8 Company (Non-Profit - अनुच्छेद 8 कंपनी)"
+    purpose: "Charitable, social, religious"
+    taxation: "Tax exemptions (80G, 12A)"
+    use_case: "NGOs, foundations, trusts"
+    count: 180_000
+
+## Foreign Investment Vehicles
+foreign_investment:
+  - type: "Wholly Owned Subsidiary (WOS)"
+    description: "100% foreign ownership (allowed in most sectors)"
+    fdi_route: "Automatic (up to 100%) in most sectors"
+    timeline: "2-4 weeks"
+    
+  - type: "Joint Venture (JV - संयुक्त उद्यम)"
+    description: "Foreign + Indian partner"
+    use_case: "Sectors with equity caps (e.g., insurance 74%)"
+    
+  - type: "Liaison Office (LO - संपर्क कार्यालय)"
+    description: "Representative office (no business, only liaison)"
+    rbi_approval: "Required"
+    
+  - type: "Branch Office (BO - शाखा कार्यालय)"
+    description: "Branch of foreign company"
+    rbi_approval: "Required"
+    use_case: "Export/import, R&D, professional services"
+
+## Startup India Initiative
+startup_india:
+  launched: "2016"
+  definition: "Turnover <₹100 crore, <10 years old, innovation-focused"
+  benefits:
+    - "3-year tax holiday (Section 80-IAC)"
+    - "Self-certification for labor/environment laws"
+    - "Faster exit (IBC, 90-day closure)"
+    - "Fund of Funds (₹10,000 crore corpus)"
+    
+  registered_startups: 150_000+
+  valuation_unicorns: 110+  # 3rd largest unicorn hub globally
+
+## Special Economic Zones (SEZs)
+sezs:
+  total: 270+
+  top_sezs:
+    - "Suzlon Energy (Pune)"
+    - "Intel Technology (Bangalore)"
+    - "Flextronics (Chennai)"
+  benefits:
+    - "100% income tax exemption (first 5 years)"
+    - "No customs duty on imports"
+    - "GST exemption on supplies"
+
+## Registration Process
+business_registration:
+  authority: "Ministry of Corporate Affairs (MCA - कॉर्पोरेट मामले मंत्रालय)"
+  online_platform: "MCA21 Portal (mc21.gov.in)"
+  timeline: "7-15 business days (fully online since 2016)"
+  
+steps:
+  - "Name reservation (RUN service, 1-2 days)"
+  - "Incorporation filing (SPICe+ form)"
+  - "PAN & TAN allotment (automatic)"
+  - "DIN (Director Identification Number) allotment"
+  - "GST registration (if applicable)"
+  - "Professional tax registration (state-wise)"
+  - "Open corporate bank account"
+
+## Tax & Compliance
+tax_filing:
+  system: "Income Tax Portal (incometax.gov.in)"
+  frequency: "Annual (by Sept 30 for companies)"
+  
+gst_filing:
+  monthly: "GSTR-1 (outward), GSTR-3B (payment)"
+  quarterly: "For composition scheme taxpayers"
+  annual: "GSTR-9 (by Dec 31)"
+
+## PAN & TAN
+identification:
+  pan_permanent_account_number:
+    format: "ABCDE1234F (10 alphanumeric)"
+    use: "Tax filings, bank accounts, high-value transactions"
+    mandatory: "For all companies, LLPs, partnerships"
+    
+  tan_tax_deduction_account_number:
+    format: "DELH12345X (10 digits)"
+    use: "TDS (Tax Deducted at Source) payments"
+    mandatory: "For all entities deducting TDS"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "MSMEs = 99% of Indian enterprises (63.6M companies)"
+  - "Most common type: Private Limited (2.8M companies)"
+  - "One Person Company (OPC) - perfect for solo founders"
+  - "PAN (10-digit) is MANDATORY for all tax filings"
+  - "Startup India: 150K+ registered, 110+ unicorns (3rd largest)"
+  - "MCA21 Portal: fully online registration (7-15 days)"
+  - "GST mandatory for turnover >₹20-40 lakh (by state)"
+  - "FDI: Automatic route up to 100% in most sectors"
+  - "LLP (Limited Liability Partnership) popular for professional services"
+  - "Annual filing deadline: Sept 30 (companies), July 31 (individuals)"
+  - "Section 8 Company for non-profits (80G, 12A tax exemptions)"
+  - "Sole Proprietorship: 50M+ (informal, no registration needed)"
+  - "SEZs: 270+ zones, 100% tax holiday (5 years)"
+  - "TAN required for all entities deducting TDS"

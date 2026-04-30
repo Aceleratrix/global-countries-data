@@ -1,0 +1,178 @@
+---
+country: "India"
+category: "tech"
+type: "ai_cloud_services"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.meity.gov.in"
+  - "https://www.nasscom.in"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# AI & Cloud Services - India
+
+## Cloud Market Overview
+total_market_size_usd: 8_500_000_000  # 2025
+growth_rate_percent: 35
+global_rank: 6  # after USA, China, Japan, UK, Germany
+
+## Top Cloud Providers
+cloud_providers:
+  - name: "Amazon Web Services (AWS)"
+    market_share: 32
+    regions_in_india: 2  # Mumbai, Hyderabad
+    availability_zones: 6
+    users: "2.5M+ enterprises"
+    
+  - name: "Microsoft Azure"
+    market_share: 24
+    regions_in_india: 3  # Central India, South India, West India
+    availability_zones: 6
+    users: "1.8M+ enterprises"
+    
+  - name: "Google Cloud Platform (GCP)"
+    market_share: 15
+    regions_in_india: 2  # Mumbai, Delhi
+    availability_zones: 4
+    users: "1.2M+ enterprises"
+    
+  - name: "Oracle Cloud"
+    market_share: 8
+    regions_in_india: 2
+    users: "500K+ enterprises"
+    
+  - name: "IBM Cloud"
+    market_share: 4
+    regions_in_india: 2
+    
+  - name: "Local: Jio Cloud, TCS, Infosys"
+    market_share: 12
+    note: "Government data must be on MeghRaj (Gov cloud)"
+
+## Government Cloud: MeghRaj
+meghraj:
+  launched: "2014 (Digital India initiative)"
+  purpose: "Host all government data on domestic cloud"
+  operators: "CDAC, NIC, private partners"
+  compliance: "All government projects MUST use MeghRaj"
+
+## AI Models & LLMs (Emerging)
+llm_models:
+  - name: "BharatGPT (IIT Bombay + AI4Bharat)"
+    parameters: "4B, 12B (multilingual_indic)"
+    languages: "22 scheduled languages"
+    api: "Hugging Face, API access"
+    
+  - name: "Krutim (Ola)"
+    parameters: "2B, 7B"
+    languages: "Hindi, English, 10+ Indic languages"
+    use_cases: "Ola services, mobility AI"
+    
+  - name: "Hanooman (Seetha Mahapatra + IIT)"
+    parameters: "7B, 13B"
+    languages: "Sanskrit-based, 11 Indic languages"
+    
+  - name: "OpenAI GPT-4 (via Azure)"
+    users: "500K+ Indian developers"
+    note: "Access via Azure (not direct)"
+    
+  - name: "Google Gemini (via GCP)"
+    users: "300K+ Indian developers"
+    note: "Access via GCP"
+
+## GPU & AI Compute
+gpu_availability:
+  cloud_providers:
+    - "AWS: A100, V100, T4 (Mumbai, Hyderabad)"
+    - "Azure: A100, V100 (3 regions)"
+    - "GCP: A100, T4 (Mumbai, Delhi)"
+    
+  local_alternatives:
+    - "CDAC (government supercomputers)"
+    - "PARAM Siddhi (AI supercomputer, 200+ Petaflops)"
+    
+ai_clusters:
+  - name: "IIT Madras Gnanam"
+    gpus: "2,000+ A100/V100"
+  - name: "IIT Bombay AI Cluster"
+    gpus: "1,500+ A100"
+  - name: "CDAC Pune"
+    gpus: "3,000+ (mixed)"
+
+## AI Policy & Regulation
+ai_governance:
+  status: "Draft AI Governance Guidelines (2023, expected 2026)"
+  approach: "Light-touch, ethics-based (not EU-style)"
+  
+  key_principles:
+    - "Responsible AI: safety, transparency, accountability"
+    - "No blanket bans on AI applications"
+    - "Self-regulation for industry"
+    - "Sandbox for startups"
+    - "AI ethics board for high-risk applications"
+    
+  data_localization: "Sensitive personal data must be stored in India (DPDPA 2023)"
+
+## AI Infrastructure
+ai_compute_investment_usd: 1_200_000_000  # 2025
+ai_startups: 3_500+
+ai_patents: 8_000  # growing rapidly
+
+## Data Centers & Availability Zones
+availability_zones_india: 25+
+major_regions:
+  - "Mumbai (West) - 8+ AZs (financial hub)"
+  - "Bangalore (South) - 6+ AZs (tech hub)"
+  - "Hyderabad (South) - 4+ AZs (pharma/tech)"
+  - "Chennai (South) - 3+ AZs (auto/manufacturing)"
+  - "Delhi NCR (North) - 4+ AZs (government)"
+
+## AI Applications in India
+ai_use_cases:
+  - "Language translation (22+ Indic languages)"
+  - "Agriculture AI (crop prediction, pest detection)"
+  - "Healthcare AI (diagnosis, telemedicine)"
+  - "FinTech AI (credit scoring, fraud detection)"
+  - "EdTech AI (personalized learning - Byju's, etc.)"
+  - "Gov AI (Aadhaar, DigiLocker, CoWIN)"
+
+## Internet & Speed
+internet_speed_avg_mbps:
+  fixed: 65
+  mobile: 45
+  5g_coverage: "85% of cities (launched 2022)"
+
+## Digital India Platforms (AI-Ready)
+gov_platforms:
+  - name: "Aadhaar (आधार)"
+    users: 1_300_000_000
+    use: "Biometric ID, gov services, KYC"
+    
+  - name: "UPI (Unified Payments Interface)"
+    txns_per_month: 12_000_000_000
+    use: "Real-time payments (world's largest)"
+    
+  - name: "DigiLocker (डिजीलॉकर)"
+    users: 300_000_000
+    use: "Digital document wallet"
+    
+  - name: "CoWIN (कोविन)"
+    users: 1_000_000_000
+    use: "Vaccination tracking (1B+ doses)"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "AWS (32%), Azure (24%), GCP (15%) lead cloud market"
+  - "MeghRaj: GOVERNMENT DATA MUST be on domestic gov cloud"
+  - "BharatGPT: 22-language LLM from IIT Bombay"
+  - "AI regulation: light-touch, ethics-based (no EU-style bans)"
+  - "Data localization: sensitive personal data in India (DPDPA)"
+  - "UPI: 12B+ txns/month (world's largest real-time payment)"
+  - "5G coverage: 85% cities, 180M users"
+  - "AI compute: A100s available via AWS/Azure/GCP in India"
+  - "Digital India: 748M internet users, growing 20M+/year"
+  - "Krutim (Ola), Hanooman (IIT) - emerging Indic LLMs"
+  - "Gov platforms: Aadhaar (1.3B), UPI, DigiLocker (300M)"
+  - "AI startups: 3,500+, raising $2B+ annually"
+  - "GPU clusters: IIT Madras, IIT Bombay, CDAC (5K+ GPUs)"

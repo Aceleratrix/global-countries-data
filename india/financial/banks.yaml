@@ -1,0 +1,187 @@
+---
+country: "India"
+category: "financial"
+type: "banks"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.rbi.org.in"
+  - "https://www.iba.org.in"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Banks & Payment Systems - India
+
+## Central Bank
+central_bank:
+  name: "Reserve Bank of India (RBI - भारतीय रिज़र्व बैंक)"
+  website: "https://www.rbi.org.in"
+  role: "Monetary policy, banking regulation, currency issuance"
+  governor: "Shaktikanta Das (2018-present)"
+
+## Top Banks (Public & Private Sector)
+public_sector_banks:  # government-owned
+  - name: "State Bank of India (SBI - भारतीय स्टेट बैंक)"
+    assets_usd: 700_000_000_000
+    market_share: 23
+    branches: 22_000+
+    digital: "YONO app (80M+ users)"
+    
+  - name: "Punjab National Bank (PNB)"
+    assets_usd: 180_000_000_000
+    market_share: 6
+    branches: 10_000+
+    
+  - name: "Bank of Baroda (BoB)"
+    assets_usd: 160_000_000_000
+    market_share: 5.5
+    branches: 8_000+
+
+private_sector_banks:
+  - name: "HDFC Bank (Housing Development Finance Corp)"
+    assets_usd: 450_000_000_000
+    market_share: 15
+    branches: 8_500+
+    digital: "HDFC MobileBanking (60M+ users)"
+    
+  - name: "ICICI Bank (Industrial Credit & Investment Corp)"
+    assets_usd: 380_000_000_000
+    market_share: 12
+    branches: 6_500+
+    digital: "iMobile app (55M+ users)"
+    
+  - name: "Kotak Mahindra Bank"
+    assets_usd: 180_000_000_000
+    market_share: 6
+    branches: 2_600+
+    
+  - name: "Axis Bank"
+    assets_usd: 160_000_000_000
+    market_share: 5
+    branches: 4_800+
+
+## Payment Systems (Revolutionary Growth!)
+payment_systems:
+  upi_unified_payments_interface:
+    launched: 2016
+    volume_monthly: 12_000_000_000  # 12 billion transactions!
+    value_monthly_usd: 220_000_000_000
+    growth: 50  # year-over-year percentage
+    apps:
+      - "PhonePe (45% market share)"
+      - "Google Pay (35%)"
+      - "Paytm (15%)"
+      - "WhatsApp Pay (3%)"
+      - "BHIM (gov app, 2%)"
+    note: "World's largest real-time payment system (12B txns/month)"
+    
+  imps_immediate_payment_service:
+    launched: 2010
+    use: "Inter-bank instant transfers (mobile/online)"
+    
+  neft_national_electronic_funds_transfer:
+    launched: 2005
+    settlement: "Batch-wise (30-minute cycles, 6 AM-7 PM)"
+    
+  rtgs_real_time_gross_settlement:
+    launched: 2004
+    min_amount: "₹2 lakh (~$2,400)"
+    use: "High-value, real-time settlement"
+    
+  ruPay_card:
+    launched: 2014
+    cards_issued: 800_000_000
+    market_share: 60  # domestic debit cards
+    international: "RuPay Global (accepted in 50+ countries)"
+
+## Digital Wallets & Fintech
+digital_wallets:
+  - name: "Paytm (One97 Communications)"
+    users: 350_000_000
+    services: "Wallet, UPI, payments, lending, insurance"
+    
+  - name: "PhonePe (Walmart-owned)"
+    users: 500_000_000
+    services: "UPI, insurance, mutual funds, gold purchase"
+    
+  - name: "Google Pay"
+    users: 350_000_000
+    services: "UPI payments (Google's Play Store integration)"
+    
+  - name: "Amazon Pay"
+    users: 150_000_000
+    services: "UPI, wallet, bill payments, EMI"
+    
+  - name: "WhatsApp Pay"
+    users: 100_000_000
+    services: "UPI within WhatsApp (530M WA users in India)"
+
+fintech_unicorns:
+  - "Razorpay (payment gateway - $7.5B valuation)"
+  - "Pine Labs (POS + payments - $5B)"
+  - "CRED (credit card payments - $6.4B)"
+  - "PolicyBazaar (insurtech - $3.5B)"
+
+## Digital Payment Adoption
+digital_adoption:
+  adoption_rate: 75  # percentage of population
+  annual_volume_usd: 2_800_000_000_000  # $2.8 trillion (2025)
+  growth_driver: "Jio's cheap data (₹10/GB) + UPI simplicity"
+  offline_merchants_upi: 50_000_000  # merchants accepting UPI QR
+
+## Cross-Border Payments
+international_transfers:
+  swift: "Active (all major banks connected)"
+  western_union: "30,000+ locations"
+  moneygram: "20,000+ locations"
+  crypto: "Restricted (RBI ban 2018, lifted partially 2020, grey area)"
+  
+  lrs_liberalized_remittance_scheme:
+    limit_per_year: "₹7 lakh (~$8,400)"
+    tcs_rate: 5  # Tax Collected at Source
+    use: "Overseas education, travel, investments"
+
+## Banking Regulations
+regulator: "Reserve Bank of India (RBI)"
+website: "https://www.rbi.org.in"
+
+key_regulations:
+  - "All banks require RBI license"
+  - "Priority Sector Lending: 40% of loans to agriculture, MSME, etc."
+  - "CRR (Cash Reserve Ratio): 4.5% (held with RBI)"
+  - "SLR (Statutory Liquidity Ratio): 18% (gov securities)"
+  - "NPA (Non-Performing Assets) norms: strict provisioning"
+  - "Digital lending guidelines (2022): transparency, fair practices"
+
+## Financial Inclusion
+jan_dhan_yojana:
+  launched: 2014
+  achieved: 500_000_000  # bank accounts opened
+  deposits_total_usd: 22_000_000_000
+  goal: "Financial inclusion for all households"
+
+## NBFCs (Non-Banking Financial Companies)
+nbfcs:
+  total: 9_600+
+  top_players:
+    - "Bajaj Finance (consumer lending)"
+    - "Shriram Finance (commercial vehicles)"
+    - "Muthoot Finance (gold loans)"
+    - "Tata Capital (diverse lending)"
+  regulation: "RBI (lighter than banks, but tightening)"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "UPI is KING: 12B+ transactions/month (world's largest real-time system)"
+  - "PhonePe (45%), Google Pay (35%), Paytm (15%) dominate UPI"
+  - "Rupay: 800M domestic cards (60% market share, beats Visa/MC)"
+  - "Digital adoption: 75% population (UPI + wallets)"
+  - "SBI is largest bank (23% market share, 22K+ branches)"
+  - "WhatsApp Pay: 100M users (530M WhatsApp users in India!)"
+  - "Jan Dhan: 500M bank accounts opened (financial inclusion)"
+  - "UPI works 24/7/365, instant, free for individuals"
+  - "RBI regulations: CRR 4.5%, SLR 18%, Priority Sector 40%"
+  - "Fintech unicorns: Razorpay, Pine Labs, CRED, PolicyBazaar"
+  - "Cross-border: SWIFT active, LRS limit ₹7 lakh/year"
+  - "Crypto: grey area (not banned, but heavily restricted)"
+  - "Digital lending: New RBI guidelines 2022 (transparency, fair practices)"
