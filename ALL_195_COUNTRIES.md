@@ -16,7 +16,7 @@
 | 8 | 🇮🇹 Itália | italy | Europe | $2.28T | ✅ 100% COMPLETE |
 | 9 | 🇧🇷 Brasil | brazil | South America | $2.17T | ✅ 100% COMPLETE |
 | 10 | 🇨🇦 Canadá | canada | North America | $2.14T | ✅ 100% COMPLETE |
-| 11 | 🇷🇺 Rússia | russia | Europe/Asia | $2.02T | ⏳ Pending |
+| 11 | 🇷🇺 Rússia | russia | Europe/Asia | $2.02T | ✅ 100% COMPLETE |
 | 12 | 🇪🇸 Espanha | spain | Europe | $1.62T | ✅ 100% COMPLETE |
 | 13 | 🇦🇺 Austrália | australia | Oceania | $1.74T | ✅ 100% COMPLETE |
 | 14 | 🇰🇷 Coreia do Sul | south-korea | Asia | $1.71T | ✅ 100% COMPLETE |
