@@ -1,0 +1,503 @@
+version: 1.0.0
+country: germany
+last_updated: 2026-04-30
+description: "German employment law, co-determination (Mitbestimmung), and tech salaries"
+
+# Employment System (Strong Worker Protections!)
+employment_system:
+  traditional_model: "Social Market Economy (Soziale Marktwirtschaft)"
+  description: "Capitalism with STRONG worker protections + social safety net!"
+  prevalence_percent: 100  # Applies to ALL companies!
+  
+  employment_types:
+    - type: "Arbeitnehmer (Regular Employee)"
+      description: "Permanent, full-time employee with FULL benefits"
+      job_security: "VERY HIGH (strong dismissal protections!)"
+      severance: "Typically 0.5-1 month per year of service (voluntary)"
+      notice_period_months: [4, 7]  # 4-7 months (STRICT!) based on tenure
+      unique: "UNIQUE TO GERMANY (and few others!)"
+      
+    - type: "Befristeter Arbeitsvertrag (Fixed-Term Contract)"
+      description: "Fixed-term contract (max 2 years, 3 extensions!)"
+      job_security: "Low (contract ends)"
+      severance: "None (unless discriminatory)"
+      notice_period_months: [4, 7]  # Same as permanent!
+      requirement: "Objective reason required (since 2023 reform!)"
+      note: "Used to be easier (no reason needed) - now STRICTER!"
+      
+    - type: "Zeitarbeit (Temporary Agency Work)"
+      description: "Employee of temp agency, dispatched to client"
+      job_security: "LOW (assignment ends)"
+      prevalence_percent: 3.2  # Of workforce (lower than Japan 12%!)
+      regulation: "Strictly regulated (equal pay after 9 months!)"
+      
+    - type: "Freelancer (Freiberufler / Selbstständiger)"
+      description: "Self-employed, no benefits"
+      job_security: "None"
+      benefits: "None (responsible for own taxes + social insurance)"
+      prevalence_tech_percent: 18.0  # Higher in tech (AI freelancers!)
+      note: "Must register with Finanzamt (tax office) - €20-50!"
+      
+    - type: "Intern (Praktikant)"
+      description: "Temporary worker (students or recent grads)"
+      age_min: 16
+      duration_months: [3, 6]  # Typically 3-6 months
+      pay_eur_month: [500, 1500]  # €500-1500 ($540-$1620) - often unpaid!
+      note: "Many tech internships are UNPAID in Germany (legal if <3 months!)"
+      
+    - type: "Remote Work (Homeoffice - Homeoffice)"
+      description: "Employee works from home (anywhere in Germany)"
+      legal_framework: "Works Constitution Act (BetrVG §129a) - 2021 reform!"
+      employer_obligation: "MUST consider remote work requests (unless operational reasons!)"
+      tax_implications: "Employee works from home = no tax nexus issues"
+      berlin_usage_percent: 55.0  # Post-COVID increase
+      note: "Germany has MANDATORY remote work consideration (unlike USA!)"
+      
+# Co-determination (Mitbestimmung) - UNIQUE TO GERMANY!
+co_determination_mitbestimmung:
+  description: "Workers have RIGHT to participate in corporate governance!"
+  legal_basis: "Works Constitution Act (BetrVG) + Co-determination Acts (MitbestG)"
+  
+  - level: "Works Council (Betriebsrat)"
+    threshold: "5+ employees (CAN form one!)"
+    workers_representatives: "50% of Works Council (elected by employees!)"
+    rights: ["Hire/fire consultation", "Working hours", "Health/safety", "Training"]
+    applicability: "ALL companies (GmbH, AG, UG) with 5+ employees!"
+    note: "UNIQUE! Even small companies (5+) MUST have works council if demanded!"
+    
+  - level: "Supervisory Board (Aufsichtsrat) - 500+ employees"
+    workers_representatives: "50% of Supervisory Board seats!"
+    threshold: "2000+ employees (since 2024 reform!)"
+    voting: "One person, one vote (for worker representatives!)"
+    chairperson: "Shareholder representative (tie-breaker)"
+    applicability: "ALL large corps (SAP, Siemens, BMW, etc.)!"
+    note: "WORLD'S STRONGEST worker board representation (50%!)"
+    
+  - level: "Supervisory Board - 500-1999 employees"
+    workers_representatives: "33% of Supervisory Board seats (1/3)"
+    applicability: "Medium-large companies"
+    
+  impact_on_ai_companies:
+    - "AI companies with 500+ employees MUST give workers 50% board seats!"
+    - "AI startups with 5+ employees CAN have works council (if demanded!)"
+    - "Decisions on AI implementation must be CONSULTED with workers!"
+    - "Example: Siemens AI rollout required worker consultation!"
+    
+  global_uniqueness: "NO OTHER COUNTRY has 50% worker board seats (except maybe Sweden!)"
+  note: "UNIQUE TO GERMANY - workers have REAL POWER in corporate decisions!"
+  
+# Dismissal & Severance
+dismissal_laws:
+  doctrine: "Social Justification (Soziale Rechtfertigung)"
+  description: "Dismissal INVALID unless socially justified!"
+  
+  valid_reasons:
+    - "Personal (inability to perform work)"
+    - "Conduct (breach of contract, theft, etc.)"
+    - "Operational (redundancy, restructuring)"
+    
+  notice_period_months:
+    - "Up to 2 years tenure: 4 weeks (END of month)"
+    - "2-5 years tenure: 1 month (END of month)"
+    - "5-8 years tenure: 2 months (END of month)"
+    - "8-10 years tenure: 3 months (END of month)"
+    - "10+ years tenure: 4-7 months (END of month!)"
+    note: "MUCH LONGER than USA (at-will = 0 notice!) and Japan (30 days)!"
+    
+  severance_pay:
+    mandatory: false  # NOT mandatory by law!
+    voluntary_prevalence_percent: 65.0  # Most companies offer voluntarily
+    typical_amount: "0.5-1 month per year of service"
+    calculation: "Based on tenure and age (older = more!)"
+    
+  layoff_restrictions:
+    - "Works Council (Betriebsrat) MUST be consulted (5+ employees!)"
+    - "Social selection (Sozialauswahl): Protect older, disabled, with children!"
+    - "Dispute resolution through Labor Courts (Arbeitsgerichte)"
+    
+  berlin_tech_note: "Strong worker protections = RARELY fire (except for cause!)"
+  
+# Labor Courts (Arbeitsgerichte)
+labor_courts:
+  system: "3-tier specialized labor courts (NO jury!)"
+  - "Arbeitsgericht (Labor Court) - 1st instance"
+  - "Landesarbeitsgericht (Regional Labor Court) - 2nd instance"
+  - "Bundesarbeitsgericht (Federal Labor Court) - 3rd instance"
+  note: "Specialized courts (unlike USA's general courts!)"
+  
+# Tech Salaries (Germany - Between USA and Japan)
+tech_salaries_eur_year:
+  - role: "Software Engineer (SWE) - New Grad"
+    base_range_eur: [45000, 65000]  # €45K-65K ($48K-$70K)
+    total_comp_range_eur: [45000, 75000]
+    berlin_companies: ["SAP (office)", "Siemens (office)", "Zalando (HQ)", "N26 (HQ)"]
+    
+  - role: "Software Engineer - Mid-Level (3-5 years)"
+    base_range_eur: [65000, 90000]  # €65K-90K ($70K-$97K)
+    total_comp_range_eur: [70000, 110000]
+    
+  - role: "Software Engineer - Senior / Staff"
+    base_range_eur: [90000, 120000]  # €90K-120K ($97K-$130K)
+    total_comp_range_eur: [100000, 150000]
+    
+  - role: "Software Engineer - Principal / Distinguished"
+    base_range_eur: [120000, 200000]  # €120K-200K ($130K-$215K)
+    total_comp_range_eur: [150000, 300000]
+    note: "Lower than US ($2M+) but higher than Japan ($200K)!"
+    
+  - role: "Data Scientist - Junior"
+    base_range_eur: [50000, 75000]  # €50K-75K ($54K-$81K)
+    total_comp_range_eur: [55000, 90000]
+    
+  - role: "Data Scientist - Senior"
+    base_range_eur: [80000, 130000]  # €80K-130K ($86K-$140K)
+    total_comp_range_eur: [90000, 160000]
+    
+  - role: "AI/ML Engineer - Entry"
+    base_range_eur: [55000, 85000]  # €55K-85K ($59K-$92K)
+    total_comp_range_eur: [60000, 100000]
+    
+  - role: "AI/ML Engineer - Senior"
+    base_range_eur: [90000, 150000]  # €90K-150K ($97K-$162K)
+    total_comp_range_eur: [100000, 180000]
+    note: "SAP, Siemens, BMW, Mercedes all hiring AI engineers!"
+    
+  - role: "Research Scientist (AI/ML)"
+    base_range_eur: [110000, 180000]  # €110K-180K ($118K-$194K)
+    total_comp_range_eur: [120000, 220000]
+    note: "PhD typically required, publishes papers (Max Planck, TU Munich!)"
+    
+  - role: "CEO (Early-Stage Startup)"
+    base_range_eur: [80000, 150000]  # €80K-150K ($86K-$162K)
+    equity_percent: [1.0, 10.0]
+    
+  - role: "CEO (Public Tech Co.)"
+    base_range_eur: [500000, 10000000]  # €500K-10M ($540K-$10.8M)
+    note: "Lower than US (Tim Cook $100M, Sundar Pichai $280M) but higher than Japan!"
+    
+# Bonuses
+bonuses:
+  description: "Not common in Germany (unlike Japan 4-6 months!)"
+  prevalence_percent: 25.0  # Much lower than Japan (85%)!
+  typical_amount: "1-2 months salary (annual)"
+  tech_companies: ["SAP (2 months)", "BMW (1 month)", "Siemens (1 month)"]
+  note: "Germany is LOW on bonuses (unlike Japan!) - base salary is KING!"
+  
+# Stock Options & Equity
+equity_compensation:
+  - type: "Stock Options (Aktienoptionen)"
+    description: "Options to purchase company stock"
+    tax: "Taxed as income at exercise (difference: FMV - strike price)"
+    prevalence_tech_percent: 45.0  # Growing (like USA, unlike Japan!)"
+    berlin_startups: "Standard for VC-backed startups (like US)"
+    
+  - type: "Restricted Stock Units (RSUs)"
+    description: "Actual shares granted after vesting"
+    tax: "Taxed as income when they vest"
+    prevalence_germany_percent: 20.0  # Mostly US companies (Google, Meta, Apple)"
+    
+  - type: "VSOPs (Virtual Stock Options)"
+    description: "Cash bonus based on stock price (not actual shares)"
+    tax: "Taxed as income"
+    note: "Popular in German startups (no actual shares issued!)"
+    
+  standard_vesting_schedule: "4 years, 1-year cliff, monthly thereafter (like US)"
+  note: "Germany follows US model (unlike Japan which prefers cash bonuses!)"
+  
+# Payroll Taxes (Employer Costs)
+payroll_taxes_percent:
+  health_insurance_percent: 7.3  # Employer pays 7.3% (total 14.6%, employee pays 7.3%)
+  nursing_care_insurance_percent: 1.2  # Employer pays 1.2% (total 3.05%, employee pays 1.7%)
+  pension_insurance_percent: 9.3  # Employer pays 9.3% (total 18.6%, employee pays 9.3%)
+  unemployment_insurance_percent: 1.3  # Employer pays 1.3% (total 2.6%, employee pays 1.3%)
+  accident_insurance_percent: [1.0, 3.0]  # Employer ONLY (varies by industry)
+  
+  total_employer_cost_percent: 19.1  # Beyond salary (health 7.3 + nursing 1.2 + pension 9.3 + unemployment 1.3 + accident 1.0-3.0)
+  total_employee_cost_percent: 18.5  # Health 7.3 + nursing 1.7 + pension 9.3 + unemployment 1.3
+  
+  note: "Germany: 19.1% employer + 18.5% employee = 37.6% total (HIGHER than USA 15.3%!)"
+  
+# Working Hours & Vacation
+working_hours_germany:
+  standard_per_day: 8
+  standard_per_week: 40
+  max_per_day: 10  # Unless collective agreement (Tarifvertrag)
+  overtime_pay_percent: 125.0  # 125% (time-and-a-half) - OR time off in lieu!
+  
+  rest_periods:
+    break_minimum_minutes: 30  # For 6+ hours work (45 min for 9+ hours)
+    weekly_rest: "24 consecutive hours (usually Sat + Sun)"
+    
+  paid_leave:
+    annual_leave_days: [20, 30]  # Minimum 20 days (24 days typical, 30 days common!)
+    max_leave_days: 30
+    usage_percent: 85.0  # HIGH! Germans TAKE their leave (unlike Japan 52%!)
+    carry_forward: "Into Q1 of next year (then forfeited)"
+    
+  sick_leave:
+    paid_by: "Employer (100% salary for 6 weeks!)"
+    beyond_6_weeks: "Health insurance pays (Krankengeld - 70-90% of salary)"
+    proof_required: "Doctor's note (after 3 days!)"
+    
+# Maternity & Paternity Leave
+maternity_leave:
+  duration_weeks: 14  # 6 weeks BEFORE + 8 weeks AFTER childbirth (18 weeks for premature/multiple!)
+  pay_percent: 100.0  # Maternity pay (Mutterschaftsgeld) - 100% of salary!
+  proof_required: "Doctor's certificate"
+  
+paternity_leave:
+  duration_weeks: 2  # Parental leave (Elternzeit) - 2 weeks PAID!
+  pay_percent: 100.0  # 100% of salary (capped at €1,800/month!)
+  uptake_percent: 45.0  # Growing (cultural shift!)
+  
+parental_leave_elternzeit:
+  duration_months: [12, 36]  # 12-36 months (parents SPLIT between them!)
+  pay_percent: 65.0  # Elterngeld (65% of net income, capped at €1,800/month!)
+  note: "Germany has one of the MOST GENEROUS parental leaves in world!"
+  
+# Industrial Relations (Tarifverhandlungen)
+collective_bargaining:
+  description: "Industry-wide wage negotiations (Tarifverhandlungen)"
+  participants: ["Trade Unions (e.g., IG Metall)", "Employer Associations"]
+  coverage_percent: 55.0  # Of workforce (industry agreements apply!)
+  
+  major_unions:
+    - name: "IG Metall (Industrial Union of Metalworkers)"
+      members: 2200000  # 2.2M members!
+      sectors: ["Automotive (BMW, Mercedes, VW)", "Electrical (Siemens, Bosch)", "Steel"]
+      recent_deal_2025: "€200-300/month raise + 4-day work week trials!"
+      note: "MOST POWERFUL union in Germany (2.2M members!)"
+      
+    - name: "ver.di (United Services Union)"
+      members: 1800000  # 1.8M members!
+      sectors: ["Services", "Tech", "Healthcare", "Transport"]
+      note: "Second-largest union (includes tech workers!)"
+      
+    - name: "GEW (Union for Education and Science)"
+      members: 320000
+      sectors: ["Universities", "Research institutes (Max Planck, Fraunhofer)"]
+      
+  tech_unionization_percent: 15.0  # Lower than manufacturing (22%)!
+  
+# 4-Day Work Week Trials (UNIQUE!)
+four_day_work_week:
+  description: "Growing movement (led by IG Metall!)"
+  status: "Trials ongoing (2024-2026)"
+  participants: ["BMW", "Siemens", "VW", "Mercedes", "Bosch"]
+  model: "32 hours (Mon-Thu) = SAME PAY as 40 hours!"
+  
+  early_results_2026:
+    productivity_change_percent: [2.0, 8.0]  # 2-8% INCREASE!
+    employee_satisfaction_percent: 92.0
+    adoption_by_tech_startups: 5.0  # Early stage (mostly startups!)
+    
+  ai_implications: "AI tools helping maintain productivity with fewer hours!"
+  note: "UNIQUE! Germany leading Europe in 4-day week trials (unlike USA/Japan!)"
+  
+# Non-Compete Clauses
+non_compete:
+  enforceability: "Enforceable (if reasonable!)"
+  requirements:
+    - "Post-employment only (during employment = always enforceable!)"
+    - "Covenant not to compete for 6-24 months (reasonable!)"
+    - "Employer MUST pay 50% of salary during non-compete period!"
+    - "Geographic scope: Germany or specific regions (reasonable!)"
+    
+  penalty_for_breach: "Injunction + damages (employer can sue!)"
+  
+  ai_implication: "AI engineers CANNOT join competitors for 6-24 months (unless employer waives!)"
+  note: "Germany: enforceable WITH pay (unlike USA California VOID, Japan NOT enforceable!)"
+  
+# Remote Work & Multi-Location Taxation
+remote_work_germany:
+  legal_framework: "Works Constitution Act (BetrVG §129a) - 2021 reform!"
+  employer_obligation: "MUST consider remote work requests (unless operational reasons!)"
+  employee_right: "Can DEMAND remote work discussion!"
+  
+  taxation: "Employee taxed based on HOME address (not company location)"
+  berlin_remote: "55% of tech companies allow hybrid/remote!"
+  
+  equipment_budget_eur: [500, 2000]  # €500-2000 ($540-$2160) for home office
+  
+# HR Platforms & Recruiting (Germany)
+hr_platforms_germany:
+  - name: "Xing (now New Work SE)"
+    website: "https://www.xing.com"
+    type: "Professional networking (German LinkedIn!)"
+    features: ["Company profiles", "Job board", "Events", "Groups"]
+    pricing_eur_month: [0, 100, 200]  # Free, Basic, Premium
+    market_share_percent: 30.0  # #1 in Germany!
+    note: "German LinkedIn equivalent (25M users in DACH region!)"
+    
+  - name: "LinkedIn Germany"
+    website: "https://www.linkedin.com"
+    type: "Professional networking"
+    market_share_percent: 5.0  # Much lower than Xing in Germany!
+    note: "Used but Xing is #1 in Germany (unlike rest of world!)"
+    
+  - name: "StepStone"
+    website: "https://www.stepstone.de"
+    type: "Job board (focus on professionals)"
+    features: ["Job search", "Salary reports", "Company reviews"]
+    pricing_eur_month: [500, 2000, 5000]  # Per job posting
+    market_share_percent: 25.0
+    note: "Popular for tech jobs (6M+ resumes!)"
+    
+  - name: "Berlin-startups.com"
+    website: "https://berlin-startups.com"
+    type: "Curated startup jobs"
+    features: ["Startup jobs", "Salary transparency", "Visa sponsorship"]
+    pricing_eur_month: [200, 500]  # Per posting
+    market_share_percent: 15.0  # #1 for Berlin startups!
+    note: "MUST USE for Berlin startup hiring!"
+    
+  - name: "Glassdoor Germany"
+    website: "https://www.glassdoor.de"
+    type: "Employer branding + reviews"
+    features: ["Company reviews", "Salary reports", "Interview questions"]
+    pricing_eur_year: [0, 3000, 10000]  # Free for job seekers
+    
+# Benefits (Common in Tech/AI First Companies)
+common_benefits_germany:
+  - benefit: "Health Insurance (Gesetzliche Krankenversicherung - GKV)"
+    mandatory: true  # ALL employees must enroll (except >€69,300/year = private!)
+    cost_employee_percent: 7.3  # Matched by employer (total 14.6%)
+    berlin_standard: "Top tech pays full family coverage"
+    
+  - benefit: "Pension Insurance (Gesetzliche Rentenversicherung)"
+    mandatory: true
+    cost_employee_percent: 9.3  # Matched by employer (total 18.6%)
+    note: "Pays ~70% of salary at retirement (age 67!)"
+    
+  - benefit: "Paid Leave (Urlaub)"
+    mandatory: true
+    days_per_year: [20, 30]  # Minimum 20, typical 24-30
+    usage_percent: 85.0  # HIGH! (unlike Japan 52%!)
+    
+  - benefit: "Christmas Bonus (Weihnachtsgeld)"
+    mandatory: false
+    amount: "1 month salary (typical)"
+    prevalence_percent: 50.0  # 50% of companies offer
+    note: "NOT mandatory (unlike Japan 4-6 months!)"
+    
+  - benefit: "30-Minute Paid Break (Kaffeepause)"
+    mandatory: true  # For 6+ hours work!
+    description: "30-minute PAID break (German law!)"
+    note: "UNIQUE! 30-minute PAID break (not in USA/Japan!)"
+    
+  - benefit: "Parental Leave (Elternzeit)"
+    mandatory: true
+    duration_months: [12, 36]
+    pay_percent: 65.0  # Up to €1,800/month
+    note: "One of world's MOST GENEROUS!"
+    
+  - benefit: "Remote Work Right (Homeoffice)"
+    mandatory: true  # Since 2021 reform!
+    description: "Employees CAN demand remote work discussion!"
+    note: "UNIQUE! Mandatory consideration (unlike USA!)"
+    
+# Comparison to Brazil/USA/Japan
+comparison:
+  employment_protection:
+    brazil: "Strong (CLT laws, severance 8% per year)"
+    usa: "At-will (fire anytime, no reason needed!)"
+    japan: "Lifetime employment (35% large firms), non-competes NOT enforceable"
+    germany: "VERY STRONG (4-7 months notice, social justification REQUIRED!)"
+    
+  salaries_usd:
+    brazil_swe_junior: "$18K-$30K"
+    usa_swe_junior: "$120K-$160K"
+    japan_swe_junior: "$27K-$40K"
+    germany_swe_junior: "$48K-$70K"  # Between Japan and USA
+    
+  stock_options:
+    brazil: "5% (rare)"
+    usa: "90%+ (core compensation)"
+    japan: "35% (still prefer cash bonuses!)"
+    germany: "45% (growing, like USA!)"
+    
+  paid_leave_days:
+    brazil: "30 days (mandatory)"
+    usa: "10-15 days (typical, no mandate)"
+    japan: "10-20 days (52% usage - cultural)"
+    germany: "20-30 days (85% usage - HIGH!)"
+    
+  non_compete:
+    brazil: "Enforceable (2 years reasonable)"
+    usa_california: "VOID (cannot restrict)"
+    usa_texas: "Enforceable (2 years reasonable)"
+    japan: "NOT enforceable!"
+    germany: "Enforceable WITH 50% salary pay during period!"
+    
+  payroll_taxes_total:
+    brazil: "~26.8% (employer 20% + employee 6.8%)"
+    usa: "15.3% (employer 7.65% + employee 7.65%)"
+    japan: "29.7% (employer 15.6% + employee 14.1%)"
+    germany: "37.6% (employer 19.1% + employee 18.5%) - HIGHEST!"
+    
+  unique_germany_features:
+    - "Co-determination (Mitbestimmung) - 50% worker board seats (UNIQUE!)"
+    - "Works Council (Betriebsrat) - 5+ employees CAN form one!"
+    - "4-Day Work Week trials (BMW, Siemens) - UNIQUE IN EUROPE!"
+    - "30-minute PAID break (law!) - UNIQUE!"
+    - "Remote work MANDATORY consideration (since 2021!)"
+    - "Parental Leave 65% pay (12-36 months) - one of world's BEST!"
+    - "Dismissal requires SOCIAL JUSTIFICATION (unlike USA at-will!)"
+    - "IG Metall (2.2M members) - MOST POWERFUL union!"
+    - "Non-compete ENFORCEABLE with 50% salary pay (unique hybrid!)"
+    
+# AI Company Employment Opportunities
+ai_company_employment:
+  - opportunity: "AI Engineer at German Tech Giants"
+    companies: ["SAP (Walldorf)", "Siemens (Munich)", "BMW (Munich)", "Mercedes (Stuttgart)"]
+    salary_eur_annual: [80000, 180000]  # €80K-180K ($86K-$194K)
+    visa_sponsorship: true  # Blue Card EU (€45K threshold, €41K for shortage occupations!)
+    
+  - opportunity: "AI Researcher at Institutes"
+    companies: ["Max Planck Institute", "Fraunhofer", "TU Munich", "RWTH Aachen"]
+    salary_eur_annual: [110000, 220000]  # €110K-220K ($118K-$237K)
+    visa_sponsorship: true
+    
+  - opportunity: "AI Engineer at Startups (Berlin)"
+    companies: ["Zalando (AI team)", "N26", "SoundCloud", "GetYourGuide"]
+    salary_eur_annual: [70000, 150000]  # €70K-150K ($75K-$162K)
+    visa_sponsorship: "Often (Blue Card EU)"
+    
+  - opportunity: "AI Engineer at US Companies (Germany Offices)"
+    companies: ["Google (Berlin/Munich)", "Meta (Berlin)", "OpenAI (coming?)", "Anthropic (coming?)"]
+    salary_eur_annual: [90000, 160000]  # €90K-160K ($97K-$172K)
+    visa_sponsorship: "Through US parent company"
+    
+  work_visa_requirements:
+    - "Blue Card EU (€45K threshold, €41K for IT/AI shortage occupations!)"
+    - "EU ICT Card (intra-corporate transfer)"
+    - "Freelance Visa (for AI consultants - €900/month income proof!)"
+    
+# Unique German Employment Features for AI Agents
+germany_unique_features_for_ai:
+  - feature: "Co-determination (50% worker board seats!)"
+    ai_implication: "AI agents must account for worker representatives in corporate decisions!"
+    
+  - feature: "Works Council (5+ employees!)"
+    ai_implication: "AI implementation at companies must be CONSULTED with workers!"
+    
+  - feature: "4-Day Work Week trials (BMW, Siemens)"
+    ai_implication: "AI tools help maintain productivity with 32-hour weeks!"
+    
+  - feature: "Dismissal requires SOCIAL JUSTIFICATION (unlike USA at-will!)"
+    ai_implication: "AI agents cannot fire employees without VALID REASON!"
+    
+  - feature: "30-minute PAID break (law!)"
+    ai_implication: "AI scheduling systems must include PAID break!"
+    
+  - feature: "Parental Leave 65% pay (12-36 months)"
+    ai_implication: "AI agents must handle LONG employee absences (unlike USA 12 weeks!)"
+    
+  - feature: "Remote work MANDATORY consideration"
+    ai_implication: "AI agents support hybrid/remote teams (55% Berlin tech!)"
+    
+  - feature: "Non-compete WITH 50% salary pay"
+    ai_implication: "AI engineers cannot join competitors for 6-24 months (unless paid!)"
+    
+  - feature: "IG Metall (2.2M members) - most powerful union"
+    ai_implication: "AI adoption in manufacturing (Industry 4.0) requires union talks!"

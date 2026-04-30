@@ -1,0 +1,380 @@
+version: 1.0.0
+country: germany
+last_updated: 2026-04-30
+description: "Major German banks, payment methods, and fintech ecosystem"
+
+# Currency
+currency:
+  code: "EUR"
+  name: "Euro"
+  symbol: "€"
+  subunits: "Cents (100 cents = 1 EUR)"
+  exchange_rate_2026: "1 EUR = 1.08 USD (approx)"
+  note: "Germany is Eurozone member (changed from Deutsche Mark in 2002)"
+
+# Major Banks (Germany)
+major_banks:
+  - name: "Deutsche Bank"
+    german_name: "Deutsche Bank AG"
+    headquarters: "Frankfurt am Main"
+    founded: 1870
+    type: "Global Systemically Important Bank (GSIB)"
+    assets_eur_billions: 1300  # €1.3T
+    market_cap_eur_billions: 28.0
+    swift_code: "DEUTDEFF"
+    website: "https://www.db.com/"
+    retail_branches: 2000  # Mostly Germany
+    digital_banking: true
+    api: "https://developer.db.com/"
+    notable: "Largest German bank, global investment bank (NYSE: DB)"
+    ai_implications: "API for corporate clients, SEPA payments, trade finance"
+    
+  - name: "Commerzbank"
+    german_name: "Commerzbank AG"
+    headquarters: "Frankfurt am Main"
+    founded: 1870
+    type: "Systemically Important Bank (Domestic)"
+    assets_eur_billions: 500  # €500B
+    market_cap_eur_billions: 12.0
+    swift_code: "COBADEFF"
+    website: "https://www.commerzbank.de/"
+    retail_branches: 1000
+    digital_banking: true
+    api: "https://apibank.commerzbank.de/"
+    notable: "Second-largest German bank, strong in Mittelstand (SMEs)"
+    ai_implications: "API for corporate/SME clients, trade finance"
+    
+  - name: "KfW (Kreditanstalt für Wiederaufbau)"
+    german_name: "KfW Bankengruppe"
+    headquarters: "Frankfurt am Main"
+    founded: 1948
+    type: "Development Bank (state-owned)"
+    assets_eur_billions: 550  # €550B
+    market_cap_eur_billions: null  # State-owned (not listed)
+    website: "https://www.kfw.de/"
+    retail_branches: 0  # Wholesale only
+    digital_banking: true
+    notable: "Largest promotional bank in world, funds startups, green energy"
+    ai_implications: "Funds AI startups via High-Tech Gründerfonds (HTGF)"
+    
+  - name: "DZ Bank (Deutsche Zentral-Genossenschaftsbank)"
+    german_name: "DZ Bank AG"
+    headquarters: "Frankfurt am Main"
+    founded: 1962
+    type: "Central Institution of Cooperative Banks"
+    assets_eur_billions: 600  # €600B
+    market_cap_eur_billions: null  # Cooperative (not listed)
+    swift_code: "GENODEFF"
+    website: "https://www.dzbank.de/"
+    retail_branches: 0  # Serves cooperative banks
+    notable: "Umbrella for 800+ cooperative banks (Volksbanken, Raiffeisenbanken)"
+    ai_implications: "API for cooperative banking network"
+    
+  - name: "BayernLB (Bayerische Landesbank)"
+    german_name: "BayernLB"
+    headquarters: "Munich (München)"
+    founded: 1914
+    type: "State-owned Landesbank (Bavaria)"
+    assets_eur_billions: 250  # €250B
+    website: "https://www.bayernlb.de/"
+    notable: "Bavaria's state bank, strong in real estate financing"
+    
+  - name: "Hamburg Commercial Bank (HSH Nordbank, now Hamburg Commercial)"
+    german_name: "Hamburg Commercial Bank"
+    headquarters: "Hamburg"
+    founded: 2003
+    type: "Commercial Bank (Hamburg/Schleswig-Holstein)"
+    assets_eur_billions: 100  # €100B
+    notable: "Regional focus on northern Germany"
+    
+# Sparkassen (Savings Banks) - Unique to Germany!
+sparkassen:
+  description: "Local savings banks (Sparkassen) - unique German system!"
+  count: 353  # As of 2025
+  total_assets_eur_billions: 1300  # €1.3T (similar to Deutsche Bank!)
+  ownership: "Owned by local municipalities (not private!)"
+  coverage: "Every German city/town has one (THOUSANDS of branches!)"
+  notable: "Largest banking network in Germany (353 institutions!)"
+  digital: "All offer online banking (Sparkasse App)"
+  api: "https://www.sparkassen-api.de/"  # Standardized API!
+  ai_implications: "API for retail clients, SEPA payments, account aggregation"
+  unique: "UNIQUE TO GERMANY (no equivalent in Brazil/USA/Japan!)"
+  
+# Volksbanken & Raiffeisenbanken (Cooperative Banks)
+cooperative_banks:
+  description: "Local cooperative banks (member-owned)"
+  count: 800+  # Volksbanken + Raiffeisenbanken
+  total_assets_eur_billions: 900  # €900B
+  ownership: "Member-owned (democratic voting - one member, one vote!)"
+  coverage: "Rural and suburban areas"
+  notable: "DZ Bank is central institution for these 800+ banks"
+  digital: "All offer online banking (VR Banking App)"
+  ai_implications: "API via DZ Bank for fintech integrations"
+  
+# Payment Methods (Germany)
+payment_methods_germany:
+  - method: "SEPA Direct Debit (Lastschrift)"
+    market_share_ecommerce_percent: 40.0  # #1 in Germany!
+    description: "Direct debit from bank account (Eurozone standard!)"
+    cost_merchant_percent: 0.5  # Very low (just bank fees)
+    settlement_days: [2, 4]  # Banking days
+    api: "https://www.europeanpaymentscouncil.eu/"
+    german_name: "Lastschriftverfahren"
+    note: "MOST POPULAR in Germany (40% e-commerce!) - UNIQUE IN EU!"
+    
+  - method: "Credit Cards (Visa, Mastercard)"
+    market_share_ecommerce_percent: 25.0
+    description: "Traditional credit cards (less popular than in USA!)"
+    cost_merchant_percent: [1.5, 3.0]
+    settlement_days: [2, 3]
+    api: "https://www.visa.com/developers/, https://www.mastercard.com/api/"
+    german_issuers: ["Deutsche Bank (Visa)", "Commerzbank (Mastercard)", "Sparkassen (Visa)"]
+    note: "LESS POPULAR than in USA (only 25% vs 45% USA!)"
+    
+  - method: "PayPal"
+    market_share_ecommerce_percent: 20.0
+    description: "Digital wallet (very popular in Germany!)"
+    cost_merchant_percent: [1.9, 2.9]
+    settlement_days: [2, 3]
+    api: "https://developer.paypal.com/"
+    hq: "San Jose, CA (US) + Berlin office"
+    note: "Originally US company, VERY STRONG in Germany (20%!)"
+    
+  - method: "Buy Now Pay Later (Klarna, RatePAY)"
+    market_share_ecommerce_percent: 15.0
+    description: "Installment payments (growing fast!)"
+    cost_merchant_percent: [2.0, 6.0]
+    settlement_days: [1, 2]
+    api: "https://docs.klarna.com/, https://www.ratepay.com/en/api/"
+    companies: ["Klarna (Swedish, Berlin office)", "RatePAY (German, Berlin HQ)"]
+    growth_yoy_percent: 35.0  # Fastest-growing payment method!
+    note: "Germans love installments (15% of e-commerce!)"
+    
+  - method: "Giropay"
+    market_share_ecommerce_percent: 8.0
+    description: "German online banking payment (direct from bank account!)"
+    cost_merchant_percent: 1.0
+    settlement_days: [1, 2]
+    api: "https://www.giropay.de/en/developers/"
+    owners: ["Deutsche Bank", "Commerzbank", "Sparkassen", "Volksbanken"]
+    note: "German-specific (like PIX in Brazil, Konbini in Japan!)"
+    
+  - method: "Cash (Bargeld)"
+    market_share_ecommerce_percent: 12.0  # VERY HIGH for developed nation!
+    description: "Cash on delivery (Nachnahme) or in-store"
+    note: "Germans LOVE cash (12% e-commerce vs 5% USA, 8% Brazil, 15% Japan!)"
+    trend: "Declining (was 20% in 2020, now 12% in 2026)"
+    
+  - method: "Apple Pay / Google Pay"
+    market_share_ecommerce_percent: 5.0
+    description: "Mobile wallets (growing fast among younger Germans)"
+    cost_merchant_percent: [1.5, 2.5]  # Same as underlying card
+    api: "https://developer.apple.com/apple-pay/, https://developers.google.com/pay/"
+    growth_yoy_percent: 45.0
+    note: "Mobile wallets gaining traction (especially <35 age group)"
+    
+  - method: "Amazon Pay"
+    market_share_ecommerce_percent: 3.0
+    description: "Amazon's payment service (using Amazon account)"
+    cost_merchant_percent: [2.0, 3.0]
+    api: "https://developer.amazon.com/amazon-pay/"
+    
+# SEPA (Single Euro Payments Area) - EU Standard!
+sepa:
+  description: "Single Euro Payments Area (covers 36 countries!)"
+  countries_covered: 36  # EU + EEA + UK (post-Brexit) + Switzerland + Monaco + San Marino
+  launched: 2008 (SEPA Credit Transfer), 2009 (SEPA Direct Debit)
+  
+  sepa_credit_transfer_sct:
+    cost_merchant_percent: 0.5  # Same as local transfer (EU-wide!)
+    settlement_time_hours: [0, 24]  # Same day (TARGET2 system!)
+    max_amount_eur: 999999999.99  # No practical limit
+    api: "https://www.europeanpaymentscouncil.eu/"
+    note: "FREE or very cheap for consumers (EU regulation!)"
+    
+  sepa_direct_debit_sdd:
+    cost_merchant_percent: 0.5
+    settlement_days: [2, 4]
+    mandate_required: true  # Consumer must sign mandate (paper or digital!)
+    types: ["Core (all consumers)", "B2B (business only)"]
+    note: "40% of German e-commerce uses SDD (Lastschrift!)"
+    
+  instant_sepa_sct_inst:
+    description: "Instant SEPA Credit Transfer (10 seconds!)"
+    settlement_time_seconds: 10
+    availability_percent: 85.0  # Of German banks (2026)
+    cost_merchant_percent: 0.8  # Slightly higher than SCT
+    note: "Like PIX in Brazil (instant!) but 10 seconds (not instant-instant!)"
+    
+  ai_implications: "AI agents can initiate SEPA payments via bank APIs (Open Banking!)"
+  
+# Open Banking (Germany/EU) - PSD2 Directive
+open_banking_germany:
+  law: "PSD2 (Payment Services Directive 2) - EU law"
+  effective: 2018-09-14 (EU) / 2019-12-14 (Germany implementation)
+  website: "https://www.eba.europa.eu/regulation-and-policy/payment-services-psd-2"
+  
+  key_provisions:
+    - "Open Banking: Banks MUST provide APIs for third-party providers (TPPs)!"
+    - "Strong Customer Authentication (SCA): 2-factor for online payments!"
+    - "Payment Initiation Services (PIS): TPPS can initiate payments!"
+    - "Account Information Services (AIS): TPPS can aggregate accounts!"
+    
+  open_banking_providers_germany:
+    - name: "Tink (Visa company)"
+      website: "https://tink.com/"
+      services: ["Account aggregation", "Payment initiation", "KYC"]
+      api: "https://docs.tink.com/"
+      coverage: "All major German banks (Sparkassen, Deutsche Bank, etc.)"
+      
+    - name: "Salt Edge"
+      website: "https://saltedge.com/"
+      services: ["Account aggregation", "Payment initiation"]
+      api: "https://docs.saltedge.com/"
+      
+    - name: "FintechOS"
+      website: "https://www.fintechos.com/"
+      services: ["Open banking platform", "API gateway"]
+      
+  german_banks_with_apis:
+    - "Deutsche Bank (https://developer.db.com/)"
+    - "Commerzbank (https://apibank.commerzbank.de/)"
+    - "Sparkassen (https://www.sparkassen-api.de/)"
+    - "ING DiBa (https://developer.ing.com/)"
+    
+  ai_implications: "AI agents can USE BANK APIS to check balances, initiate SEPA payments!"
+  note: "PSD2 is MANDATORY across EU (unlike Brazil's PIX which is also mandatory, but PIX is instant!)"
+  
+# Fintech Companies (Germany)
+fintech_germany:
+  - name: "N26"
+    german_name: "Number 26 GmbH"
+    headquarters: "Berlin"
+    founded: 2013
+    valuation_eur_billions: 9.0  # €9B (unicorn!)
+    customers_millions: 8.0  # 8 million customers (2025)
+    type: "Mobile-only bank (Neobank)"
+    license: "European banking license (German)"
+    api: "https://docs.n26.com/"
+    notable: "Germany's largest neobank, operates across EU"
+    ai_implications: "API for accounts, payments, overdraft (AI credit scoring!)"
+    
+  - name: "Solaris (formerly Solarisbank)"
+    german_name: "Solaris SE"
+    headquarters: "Berlin"
+    founded: 2016
+    valuation_eur_billions: 1.6  # €1.6B
+    type: "Banking-as-a-Service (BaaS) platform"
+    license: "German banking license"
+    api: "https://www.solaris.com/api/"
+    clients: [" Qonto", "Vivid Money", "Penta (now Qonto)"]
+    notable: "Provides banking infrastructure to fintechs (like Stripe Treasury!)"
+    
+  - name: "Raisin (formerly Raisin DS)"
+    german_name: "Raisin GmbH"
+    headquarters: "Berlin"
+    founded: 2013
+    valuation_eur_billions: 1.0  # €1B (unicorn!)
+    type: "Savings marketplace (deposits across EU)"
+    website: "https://www.raisin.com/"
+    api: "https://api.raisin.com/"
+    notable: "Aggregates savings accounts from 80+ EU banks"
+    
+  - name: "Qonto (formerly Penta)"
+    german_name: "Qonto Germany GmbH"
+    headquarters: "Berlin"
+    founded: 2016
+    valuation_eur_billions: 0.5  # €500M
+    type: "Business banking for SMEs"
+    api: "https://developers.qonto.com/"
+    notable: "Focus on freelancers and SMEs (like Mercury in USA!)"
+    
+  - name: "Finleap"
+    german_name: "Finleap GmbH"
+    headquarters: "Berlin"
+    founded: 2014
+    type: "FinTech incubator/platform"
+    portfolio: ["Finanzcheck.de", "Zinspilot", "Eunnox (open banking)"]
+    notable: "Europe's largest fintech platform (incubates startups!)"
+    
+# Cryptocurrency Regulation (Germany)
+crypto_regulation_germany:
+  status: "Legal property (not currency)"
+  authority: "Federal Financial Supervisory Authority (BaFin - Bundesanstalt für Finanzdienstleistungsaufsicht)"
+  website: "https://www.bafin.de/"
+  
+  crypto_custody_license:
+    requirement: "MANDATORY since 2020 (§64y KWG)!"
+    capital_required_eur: 1250000  # €1.25M minimum capital!
+    notable: "Stricter than most countries (wants to be 'crypto heaven' with rules!)"
+    
+  taxation_crypto:
+    private_investors: "Tax-free if held >1 year (private sale exemption!)"
+    corporate: "29.9% (corporate tax + trade tax)"
+    mining: "Not taxable (no VAT, treated as private activity)"
+    staking: "Taxable as income (if regular/ professional!)"
+    
+  major_exchanges_germany:
+    - "BSDEX (Börse Stuttgart - German stock exchange's crypto platform!)"
+    - "Trade Republic (offers crypto alongside stocks)"
+    - "Bitvavo (Dutch but strong in Germany)"
+    
+  stablecoins:
+    classification: "E-money or securities (depending on design)"
+    issuer_requirement: "BaFin authorization required"
+    
+# Wire Transfer (International)
+international_wire_transfers:
+  - method: "SWIFT (SWIFT Codes)"
+    cost_eur: [15.0, 50.0]  # €15-50 per transfer
+    processing_time_days: [1, 3]
+    used_for: "International wire transfers (outside SEPA)"
+    notable: "Deutsche Bank (DEUTDEFF), Commerzbank (COBADEFF)"
+    
+  - method: "SEPA Credit Transfer (within EU)"
+    cost_eur: [0.0, 5.0]  # Often FREE!
+    processing_time_hours: [0, 24]  # Same day (TARGET2)
+    used_for: "EU-wide transfers (36 countries)"
+    note: "CHEAPEST option for EU transfers!"
+    
+# Comparison: Germany vs Brazil/USA/Japan
+comparison:
+  top_payment_ecommerce:
+    brazil: "PIX (76% instant!)"
+    usa: "Credit Cards (45%), ACH (20%)"
+    japan: "Konbini (25% unique!), Credit Cards (35%)"
+    germany: "SEPA Direct Debit (40% #1 in EU!)"
+    
+  cash_usage_ecommerce:
+    brazil: "8%"
+    usa: "5%"
+    japan: "15% (VERY HIGH!)"
+    germany: "12% (high for developed nation!)"
+    
+  open_banking:
+    brazil: "MANDATORY PIX (instant, free, 76%!)"
+    usa: "Voluntary (Plaid, Yodlee - no federal mandate)"
+    japan: "Voluntary (licensed banks only - smaller scale)"
+    germany: "MANDATORY (PSD2) - APIs required but NOT instant (SEPA 1 day!)"
+    
+  instant_payments:
+    brazil: "PIX (instant, 24/7/365!)"
+    usa: "RTP (Real-Time Payments) - growing but not universal"
+    japan: "None (Konbini takes 3-5 days!)"
+    germany: "SEPA Instant (10 seconds!) - growing (85% coverage 2026)"
+    
+  unique_germany_features:
+    - "Sparkassen (353 savings banks) - UNIQUE! Every city has one!"
+    - "SEPA Direct Debit 40% (most popular! Eurozone standard)"
+    - "PSD2 Open Banking (MANDATORY APIs - unlike Brazil's PIX which is payment system!)"
+    - "Giropay (German-specific online banking - like PIX but not instant!)"
+    - "Cash 12% (high for developed nation - Germans love cash!)"
+    - "Cryptocurrency custody license €1.25M (stricter than USA!)"
+    - "Buy Now Pay Later 15% (Klarna, RatePAY - very popular!)"
+    - "N26 €9B neobank (largest in Germany, operates EU-wide!)"
+    
+  banking_branches_density:
+    brazil: "High (Itaú, Bradesco, Caixa everywhere)"
+    usa: "Medium (Chase, BofA, Wells Fargo)"
+    japan: "Medium (MUFG, SMFG, Mizuho, Konbini also offer banking!)"
+    germany: "VERY HIGH (Sparkassen in EVERY city + Volksbanken everywhere!)"

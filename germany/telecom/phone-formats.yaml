@@ -1,0 +1,194 @@
+version: 1.0.0
+country: germany
+last_updated: 2026-04-30
+description: "Phone formats, postal codes, and address standards for Germany"
+
+# Phone System
+phone:
+  country_code: "+49"
+  international_format: "+49-AAA-BBBBBBB"  # +49 (country) + area (2-5 digits) + number
+  national_format: "0AAA-BBBBBBB"  # 0 + area code + number (dialing withn Germany)
+  mobile_prefixes: ["0151", "0152", "0155", "0157", "0159", "0160", "0162", "0163", "0170", "0171", "0172", "0173", "0174", "0175", "0176", "0177", "0178", "0179"]
+  landline_prefixes: ["030 (Berlin)", "089 (Munich)", "040 (Hamburg)", "069 (Frankfurt)", "0221 (Cologne)", "0211 (Düsseldorf)", "030 (Berlin)"]
+  emergency: "112 (EU standard - police, fire, ambulance)"
+  business_usual_format: "+49 (0) 30 12345678"  # (0) indicates drop 0 if dialing internationally
+  ai_implications: "AI agents must dial 0 for domestic, drop 0 for international (+49)"
+  
+# Postal Codes (Postleitzahl - PLZ)
+postal_codes:
+  format: "NNNNN"  # 5 digits (NNNNN)
+  example: "10115"  # Berlin Mitte
+  first_digit_regions:
+    "0": "Berlin, Brandenburg, Mecklenburg-Vorpommern"
+    "1": "Hamburg, Schleswig-Holstein, Bremen"
+    "2": "North Rhine-Westphalia (Düsseldorf, Cologne)"
+    "3": "Lower Saxony, Saxony-Anhalt"
+    "4": "Bremen, Lower Saxony (part)"
+    "5": "North Rhine-Westphalia (part), Hesse"
+    "6": "Rhineland-Palatinate, Saarland"
+    "7": "Baden-Württemberg (Stuttgart, Mannheim)"
+    "8": "Bavaria (Munich, Nuremberg, Augsburg)"
+    "9": "Saxony, Thuringia, Franconia (part)"
+  note: "5 digits (since 1993) - easy to parse (unlike Brazil's NNNNN-NNN)!"
+  
+# Address Format (Standard German)
+address_format: |
+  Name
+  Street Name House Number
+  Postal Code City
+  GERMANY
+  
+example: |
+  Herr Max Mustermann
+  Bahnhofstraße 123
+  10115 Berlin
+  GERMANY
+  
+components:
+  - "Name: Herr/Frau (Mr./Ms.) + Full Name"
+  - "Street: Street Name + House Number (NO apartment numbers in street!)"
+  - "City: Postal Code (5 digits) + City Name"
+  - "Country: GERMANY (always include for international!)"
+  
+note: "German addresses are VERY structured (unlike Brazil's variations!)"
+
+# Time Zone
+timezone:
+  standard: "CET (Central European Time)"
+  standard_offset: "UTC+1"
+  daylight_saving: "CEST (Central European Summer Time)"
+  dst_offset: "UTC+2"
+  dst_months: "Last Sunday March - Last Sunday October"
+  note: "Like Brazil (BRST), unlike Japan (NO DST!)"
+  
+# Internet & Connectivity
+internet:
+  tld: ".de"  # Country code TLD (Deutschland)
+  users_percent: 94.0  # 2026 estimate
+  broadband_fiber_percent: 65.0  # Growing fast (Digital Agenda 2025)
+  avg_speed_mbps: 145.0  # High speed (urban areas)
+  5g_coverage_percent: 85.0  # Excellent coverage
+  
+  isps:
+    - name: "Deutsche Telekom"
+      market_share_percent: 45.0
+      types: ["DSL", "Fiber (FTTH)", "5G"]
+      max_fiber_speed_mbps: 1000  # 1 Gbps
+      website: "https://www.telekom.de/"
+      note: "Largest ISP (former state monopoly)"
+      
+    - name: "Vodafone Germany"
+      market_share_percent: 25.0
+      types: ["Cable (DOCSIS 3.1)", "Fiber", "5G"]
+      max_speed_mbps: 1000
+      website: "https://www.vodafone.de/"
+      
+    - name: "1&1 (Drillisch)"
+      market_share_percent: 12.0
+      types: ["DSL", "Fiber", "5G"]
+      website: "https://www.1und1.de/"
+      
+    - name: "O2 (Telefónica Germany)"
+      market_share_percent: 10.0
+      types: ["DSL", "Cable", "5G"]
+      website: "https://www.o2online.de/"
+      
+  ai_implications: "94% internet, 65% fiber, 85% 5G - EXCELLENT for AI agents!"
+  
+# Major Cities & Tech Hubs
+major_cities:
+  - city: "Berlin"
+    population_metro: 3700000
+    state: "Berlin (city-state)"
+    tech_hub_rank: 1  # Germany's Silicon Allee!
+    postal_codes: ["10115-14239"]
+    tech_companies: ["SAP (office)", "Siemens (office)", "Zalando (HQ)", "N26 (HQ)", "SoundCloud (HQ)", "GetYourGuide (HQ)"]
+    note: "Germany's startup capital (like Silicon Valley!)"
+    
+  - city: "Munich (München)"
+    population_metro: 2900000
+    state: "Bavaria (Bayern)"
+    tech_hub_rank: 2
+    postal_codes: ["80331-81929"]
+    tech_companies: ["BMW (HQ)", "Siemens (HQ)", "SAP (HQ - Walldorf, office)", "Infineon (HQ)", "Google (office)"]
+    note: "Automotive + tech hub (BMW, Siemens AI!)"
+    
+  - city: "Hamburg"
+    population_metro: 1800000
+    state: "Hamburg (city-state)"
+    tech_hub_rank: 3
+    postal_codes: ["20095-21149"]
+    tech_companies: ["Xing (HQ)", "Google (office)", "Airbus (office)"]
+    note: "Media + fintech hub"
+    
+  - city: "Frankfurt am Main"
+    population_metro: 2300000
+    state: "Hesse (Hessen)"
+    tech_hub_rank: 4
+    postal_codes: ["60306-65936"]
+    tech_companies: ["Deutsche Bank (HQ)", "Commerzbank (HQ)", "AWS Europe (HQ)", "Many fintechs"]
+    note: "Financial hub + MAJOR internet hub (DE-CIX - world's largest!)"
+    
+  - city: "Cologne (Köln)"
+    population_metro: 1050000
+    state: "North Rhine-Westphalia"
+    tech_hub_rank: 5
+    postal_codes: ["50667-51149"]
+    tech_companies: ["Ford Europe (HQ)", "Toshiba (office)"]
+    note: "Media city (RTL, WDR) + automotive"
+    
+# German Translations (For AI Agents)
+translations:
+  phone: "Telefonnummer"
+  mobile: "Handynummer / Mobiltelefon"
+  fax: "Faxnummer"
+  email: "E-Mail-Adresse"
+  website: "Webseite / Internetseite"
+  address: "Adresse"
+  street: "Straße"
+  house_number: "Hausnummer"
+  postal_code: "Postleitzahl (PLZ)"
+  city: "Stadt"
+  country: "Land"
+  note: "Many German forms use these terms - AI agents should recognize!"
+  
+# Comparison: Germany vs Brazil/USA/Japan
+comparison:
+  phone_format:
+    brazil: "+55 (NN) NNNN-NNNN (11 digits total)"
+    usa: "+1 (NPA) NXX-XXXX (10 digits)"
+    japan: "+81 (0A) NNNN-NNNN (11 digits)"
+    germany: "+49 (AAA) NNNNNNNN (varies by area - 2-5 digit area codes!)"
+    
+  postal_code_format:
+    brazil: "NNNNN-NNN"  # 8 digits (CEP)
+    usa: "NNNNN" or "NNNNN-NNNN"  # 5 or 9 digits (ZIP+4)
+    japan: "〒 NNN-NNNN"  # 7 digits (with hyphen)
+    germany: "NNNNN"  # 5 digits (since 1993 - simple!)"
+    
+  time_zone:
+    brazil: "BRT (UTC-3) / BRST (UTC-2) - DST"
+    usa: "Varied (PST UTC-8 to EST UTC-5) - DST"
+    japan: "JST (UTC+9) - NO DST!"
+    germany: "CET (UTC+1) / CEST (UTC+2) - DST"
+    
+  internet_tld:
+    brazil: ".br"
+    usa: ".us (rarely used, .com dominates)"
+    japan: ".jp"
+    germany: ".de (VERY strong - 6th most used TLD globally!)"
+    
+  fiber_coverage_percent:
+    brazil: "43%"
+    usa: "43%"
+    japan: "98% (world's best in G7!)"
+    germany: "65% (growing fast - Digital Agenda 2025!)"
+    
+  unique_germany_features:
+    - "5-digit postal codes (simple, since 1993!)"
+    - "Phone area codes: 2-5 digits (varies by city size!)"
+    - "Address: Street + HOUSE NUMBER (no apartment in street!)"
+    - "Mobile prefixes: 015x, 016x, 017x (easy to identify!)"
+    - "DE-CIX Frankfurt: WORLD'S LARGEST internet exchange!"
+    - "Time zone: CET/CEST (DST like Brazil, unlike Japan!)"
+    - ".de TLD: 6th most used globally (very strong!)"

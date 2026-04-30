@@ -1,0 +1,336 @@
+version: 1.0.0
+country: germany
+last_updated: 2026-04-30
+description: "Company sizes, types, and business structures for German AI First businesses"
+
+# Company Types (Business Entities)
+company_types:
+  - type: "GmbH (Gesellschaft mit beschränkter Haftung)"
+    german_name: "GmbH (Gesellschaft mit beschränkter Haftung)"
+    description: "Limited liability company (like US LLC, Japan KK)"
+    formation: "Notary deed + Commercial Register (Handelsregister)"
+    min_capital_eur: 25000  # €25K minimum!
+    paid_up_eur: 12500  # €12.5K must be paid up front
+    pros: ["Limited liability (up to capital)", "Most popular form (1M+ companies!)", "Easy to scale"]
+    cons: ["Higher setup cost (€1.5K-3K notary + registration)", "More formalities"]
+    tax_form: "Corporate tax return (Körperschaftsteuererklärung)"
+    tax_rate_percent: 29.9  # Effective (federal 15% + solidarity 0.825% + trade tax ~14%)
+    best_for: "Most tech startups, SMEs, foreign companies entering Germany"
+    berlin_usage: "90% of Berlin startups (GmbH is standard!)"
+    note: "German equivalent of US LLC, Japan KK"
+    
+  - type: "AG (Aktiengesellschaft)"
+    german_name: "AG (Aktiengesellschaft)"
+    description: "Stock corporation (like US C-Corp, Japan KK)"
+    formation: "Notary deed + Commercial Register + Supervisory Board"
+    min_capital_eur: 50000  # €50K minimum!
+    pros: ["Can raise capital via shares", "Publicly tradeable (IPO)", "Prestige"]
+    cons: ["More complex (3 boards!)", "Higher setup cost (€5K+)", "Strict regulations"]
+    tax_form: "Corporate tax return"
+    tax_rate_percent: 29.9
+    best_for: "Large companies, IPO-bound startups, corps (SAP, Siemens, BMW!)"
+    berlin_usage: "10% of startups (usually post-Series B)"
+    note: "German equivalent of US C-Corp, Japan KK"
+    
+  - type: "UG (Unternehmergesellschaft - 'Mini-GmbH')"
+    german_name: "UG (Unternehmergesellschaft)"
+    description: "Entrepreneurial company (mini-GmbH with €1 minimum!)"
+    formation: "Notary deed + Commercial Register"
+    min_capital_eur: 1  # €1 minimum (AMAZING!) - but must retain 25% of profits!
+    pros: ["€1 minimum capital!", "Limited liability", "Can convert to GmbH later"]
+    cons: ["Must retain 25% of profits until €25K (then convert to GmbH)", "Less prestigous"]
+    tax_form: "Corporate tax (same as GmbH)"
+    tax_rate_percent: 29.9
+    best_for: "Bootstrapped startups, entrepreneurs with €1!"
+    berlin_usage: "15% of early-stage startups (€1 minimum is attractive!)"
+    note: "UNIQUE TO GERMANY! €1 to start a company (cannot do in USA/Japan!)"
+    
+  - type: "Einzelunternehmen (Sole Proprietorship)"
+    german_name: "Einzelunternehmen"
+    description: "Sole proprietorship (no legal entity)"
+    formation: "Gewerbeanmeldung (business registration) - €20-50!"
+    min_capital_eur: 0  # €0 (just register!)
+    pros: ["No minimum capital", "Simplest form (€20 registration!)", "Full control"]
+    cons: ["Unlimited personal liability!", "Hard to raise capital", "Less crediblity"]
+    tax_form: "Personal income tax (Einkommensteuer)"
+    tax_rate_percent: [14.0, 45.0]  # Progressive (14-45%)
+    best_for: "Freelancers, solo AI consultants, side hustles"
+    berlin_usage: "Very common for freelance AI engineers"
+    note: "Like US sole proprietorship, but VERY COMMON in Germany (40% of businesses!)"
+    
+  - type: "GbR (Gesellschaft bürgerlichen Rechts)"
+    german_name: "GbR (Gesellschaft bürgerlichen Rechts)"
+    description: "General partnership (no minimum capital)"
+    formation: "Partnership agreement (no notary needed!)"
+    min_capital_eur: 0
+    pros: ["No minimum capital", "Simple setup", "Pass-through taxation"]
+    cons: ["Unlimited liability for ALL partners!", "Hard to scale"]
+    tax_form: "Pass-through to partners (Partnerschaftssteuer)"
+    tax_rate_percent: [14.0, 45.0]  # On partners' personal returns
+    best_for: "Small partnerships, 2-3 person AI consultancies"
+    berlin_usage: "Common for small AI consultancies"
+    
+  - type: "GmbH & Co. KG"
+    german_name: "GmbH & Co. KG"
+    description: "Limited partnership with GmbH as general partner (popular in Germany!)"
+    formation: "Notary deed + Commercial Register"
+    pros: ["Limited liability (via GmbH)", "Tax advantages (pass-through for limited partners)"]
+    cons: ["Complex structure", "Requires notary"]
+    tax_form: "Mixed (GmbH pays corporate, partners pay personal)"
+    best_for: "Family businesses, medium-sized companies (Mittelstand!)"
+    note: "UNIQUE TO GERMANY! Popular in manufacturing/Mittelstand!"
+
+# Company Sizes (By Revenue & Employees)
+company_sizes:
+  - size: "Micro"
+    name: "Micro Enterprise (Kleinstunternehmen)"
+    employees: [1, 9]
+    revenue_eur_annual: [0, 2000000]  # €0-2M
+    typical_examples: ["Freelancers", "Sole proprietors", "Tiny GbRs"]
+    prevalence_percent: 82.0  # Of ALL German businesses (very high!)
+    tech_relevance: "Many early-stage AI freelancers (Einzelunternehmen)"
+    
+  - size: "Small"
+    name: "Small Enterprise (kleine Unternehmen)"
+    employees: [10, 49]
+    revenue_eur_annual: [2000000, 10000000]  # €2M-10M
+    typical_examples: ["Small SaaS", "AI consultancies", "Boutique agencies"]
+    prevalence_percent: 14.5
+    tech_relevance: "Many B2B SaaS, AI consultancies (GmbH)"
+    
+  - size: "Medium"
+    name: "Medium Enterprise (mitlere Unternehmen)"
+    employees: [50, 249]
+    revenue_eur_annual: [10000000, 50000000]  # €10M-50M
+    typical_examples: ["Mid-market SaaS", "Regional tech firms", "Growing startups"]
+    prevalence_percent: 3.0
+    tech_relevance: "Series B/C German startups (GmbH/AG)"
+    
+  - size: "Large"
+    name: "Large Enterprise (große Unternehmen)"
+    employees: [250, 4999]
+    revenue_eur_annual: [50000000, 500000000]  # €50M-500M
+    typical_examples: ["Public tech companies", "Late-stage startups", "Large SaaS"]
+    prevalence_percent: 0.4
+    tech_relevance: "Public tech (SAP, Zalando), late-stage (AG)"
+    
+  - size: "Enterprise"
+    name: "Major Enterprise (Großunternehmen)"
+    employees: [5000, null]  # 5,000+
+    revenue_eur_annual: [500000000, null]  # €500M+
+    typical_examples: ["DAX companies", "Megacorps", "Global leaders"]
+    prevalence_percent: 0.1
+    tech_relevance: "SAP (€28B), Siemens (€150B), BMW (€90B), Mercedes (€160B)"
+
+# Berlin Tech Sector Breakdown
+berlin_tech_sectors:
+  - sector: "E-commerce & Marketplaces"
+    employment_percent: 30.0
+    notable_companies: ["Zalando (HQ)", "Delivery Hero (HQ)", "GetYourGuide (HQ)"]
+    ai_relevance: "AI for recommendations, personalization, logistics"
+    
+  - sector: "Fintech"
+    employment_percent: 25.0
+    notable_companies: ["N26 (HQ)", "Qonto (HQ)", "Raisin (HQ)", "Finleap (HQ)"]
+    ai_relevance: "AI for credit scoring, fraud detection, robo-advisory"
+    
+  - sector: "SaaS & Enterprise Software"
+    employment_percent: 20.0
+    notable_companies: ["SAP (office)", "SoundCloud (HQ)", "Adjust (HQ)"]
+    ai_relevance: "AI for SaaS features, predictive analytics"
+    
+  - sector: "Automotive AI (nearby but Berlin offices)"
+    employment_percent: 15.0
+    notable_companies: ["BMW (Berlin office)", "Siemens (Berlin office)", "VW (Berlin office)"]
+    ai_relevance: "Autonomous driving AI, Industry 4.0"
+    
+  - sector: "Media & Entertainment"
+    employment_percent: 10.0
+    notable_companies: ["SoundCloud (HQ)", "HitFox (HQ)"]
+    ai_relevance: "AI for content recommendations, media analytics"
+
+# Startup Growth Stages (Germany)
+startup_stages_germany:
+  - stage: "Pre-Seed / Idea Stage"
+    capital_eur: [0, 500000]  # €0-500K
+    employees: [1, 3]
+    entity_type: "UG (€1 minimum!) or GmbH"
+    burn_rate_eur_month: [5000, 20000]  # €5K-20K
+    focus: "MVP, product-market fit"
+    note: "UG (€1 minimum) is PERFECT for pre-seed!"
+    
+  - stage: "Seed"
+    capital_eur: [500000, 3000000]  # €500K-3M
+    employees: [3, 15]
+    entity_type: "GmbH (standard)"
+    burn_rate_eur_month: [20000, 100000]  # €20K-100K
+    focus: "Product development, early traction"
+    
+  - stage: "Series A"
+    capital_eur: [3000000, 15000000]  # €3M-15M
+    employees: [15, 100]
+    entity_type: "GmbH or AG (if preparing IPO)"
+    burn_rate_eur_month: [100000, 500000]  # €100K-500K
+    focus: "Scaling, go-to-market"
+    
+  - stage: "Series B, C, D..."
+    capital_eur: [15000000, 50000000]  # €15M-50M
+    employees: [100, 2000]
+    entity_type: "GmbH or AG (IPO-bound)"
+    burn_rate_eur_month: [500000, 2000000]  # €500K-2M
+    focus: "Growth, profitability, IPO prep"
+    
+  - stage: "IPO / Public"
+    capital_eur: "Public markets (€100M+ raises)"
+    employees: [2000, 100000+]
+    entity_type: "AG (public)"
+    focus: "Quarterly earnings, public shareholders"
+
+# Industry Classification (German System)
+industry_classification:
+  description: "German Industrial Classification (Klassifikation der Wirtschaftszweige - KWZ)"
+  digits: 5
+  main_sectors:
+    - code: "C (Manufacturing)"
+      name: "Manufacturing (Verarbeitendes Gewerbe)"
+      gdp_share_percent: 23.5  # Very high (Industry 4.0!)
+      tech_relevance: "Smart factories, automotive AI, robotics (Siemens, BMW)"
+      
+    - code: "J (Information & Communication)"
+      name: "Information & Communication (Information und Kommunikation)"
+      gdp_share_percent: 5.8
+      tech_relevance: "Software, telecom, IT services (SAP, Zalando)"
+      
+    - code: "G (Trade; repair of motor vehicles)"
+      name: "Trade & Motor Vehicle Repair (Handel)"
+      gdp_share_percent: 13.2
+      tech_relevance: "E-commerce (Zalando), marketplaces"
+      
+    - code: "M (Professional, scientific & technical activities)"
+      name: "Professional Services (wissenschaftliche und technische Dienstleistungen)"
+      gdp_share_percent: 6.8
+      tech_relevance: "R&D, consulting, AI development"
+      
+    - code: "K (Financial & insurance activities)"
+      name: "Financial & Insurance (finanz- und Versicherungsdienstleistungen)"
+      gdp_share_percent: 3.5
+      tech_relevance: "Fintech (N26, Raisin), insurtech"
+
+# Berlin Tech Ecosystem Stats
+berlin_tech_ecosystem:
+  total_startups_estimate: 2500  # Active tech startups
+  unicorns: 12  # Valued >€1B (2026)
+  most_unicorns_city: "Berlin - 12 unicorns"
+  
+  top_hubs:
+    - "Silicon Allee (Mitte, Kreuzberg, Friedrichshain) - Startup hub"
+    - "Potsdamer Platz - Corporate HQs (Sony, SAP office)"
+    - "Adlershof (south Berlin) - Science + tech park"
+    - "Wedding - Emerging startup area (cheaper rents)"
+    
+  venture_capital_eur_2025: 12000000000  # €12B (all Germany)
+  notable_vc_firms:
+    - "Point Nine Capital (Berlin) - early-stage SaaS"
+    - "Earlybird (Berlin) - Series A/B"
+    - "Rocket Internet (Berlin) - venture builder"
+    - "High-Tech Gründerfonds (HTGF) - public VC (€50M+ per company)"
+    - "Target Global (Berlin) - growth stage"
+    
+  startup_density_per_100k_berlin: 12.0  # Lower than SF (45.0), similar to Tokyo (8.0)
+  ai_companies_count: 300+
+  average_software_engineer_salary_eur: [65000, 120000]  # €65K-120K ($70K-$130K)
+  
+# Co-determination (Mitbestimmung) - UNIQUE TO GERMANY!
+co_determination_mitbestimmung:
+  description: "Workers have right to participate in corporate governance!"
+  law: "Works Constitution Act (Betriebsverfassungsgesetz) + Mitbestimmungsgesetz"
+  
+  supervisory_board_paricipation:
+    - "Companies with 500-2000 employees: 1/3 worker representatives on Supervisory Board"
+    - "Companies with 2000+ employees: 50% worker representatives on Supervisory Board!"
+    - "Chairperson: Usually shareholder representative (tie-breaker)"
+    
+  works_council_betriebsrat:
+    threshold: "5+ employees (can form works council!)"
+    rights: ["Participate in hiring/firing", "Consulted on working conditions", "Co-determine work hours"]
+    ai_implication: "AI agents must account for worker representatives in corporate decisions!"
+    
+  unique_global: "NO OTHER COUNTRY has 50% worker board seats (except maybe Sweden!)"
+  note: "UNIQUE TO GERMANY (not in Brazil/USA/Japan!) - workers have REAL POWER!"
+
+# Business Hours (Standard Germany)
+business_hours:
+  weekdays:
+    start: "08:00"
+    end: "17:00"
+    lunch_break: "12:00-13:00 (optional, 30-60 mins)"
+  saturday:
+    start: "08:00"
+    end: "13:00"
+    optional: true
+  sunday:
+    closed: true
+    exceptions: ["Bakeries (until 12:00)", "Gas stations", "Restaurants", "Emergency services"]
+    note: "Sunday shopping is RESTRICTED (unlike USA/Brazil!)"
+    
+# Public Holidays (Germany)
+public_holidays:
+  - "January 1: New Year's Day (Neujahr)"
+  - "Good Friday (Karfreitag) - movable (March/April)"
+  - "Easter Monday (Ostermontag) - movable"
+  - "May 1: Labour Day (Tag der Arbeit)"
+  - "Ascension Day (Christi Himmelfahrt) - movable (May)"
+  - "Whit Monday (Pfingstmontag) - movable (May/June)"
+  - "October 3: German Unity Day (Tag der Deutschen Einheit) - NATIONAL!"
+  - "December 25-26: Christmas (Weihnachten)"
+  
+  regional_holidays:
+    - "Epiphany (Heilige Drei Könige) - Baden-Württemberg, Bavaria, Saxony-Anhalt"
+    - "Corpus Christi (Fronleichnam) - Catholic states"
+    - "Assumption of Mary (Mariä Himmelfahrt) - Catholic states"
+    - "Reformation Day (Reformationstag) - Protestant states (Oct 31)"
+    - "All Saints' Day (Allerheiligen) - Catholic states (Nov 1)"
+    - "Day of Prayer and Repentance (Buß- und Bettag) - Saxony (Nov)"
+    
+  note: "Germany has 16 states (Bundesländer) - holidays vary by state!"
+  
+# Comparison to Silicon Valley / Japan / Brazil
+comparison:
+  startup_ecosystem_size:
+    silicon_valley: "$1.2 trillion GDP"
+    tokyo: "$2.1 trillion GDP"
+    berlin: "€300B ($325B) GDP"
+    
+  unicorns_count:
+    silicon_valley: 380+
+    tokyo: 6
+    berlin: 12  # More than Tokyo!
+    
+  venture_capital_eur:
+    silicon_valley: "$89B (2025)"
+    tokyo: "$4.5B (2025)"
+    berlin: "$12B (all Germany, 2025)"  # 7x smaller than SV, 3x larger than Tokyo
+    
+  average_swe_salary_usd:
+    silicon_valley: "$185K base + stock"
+    tokyo: "$65K base (¥6M-18M)"
+    berlin: "$95K base (€65K-120K)"  # Between Tokyo and SV
+    
+  startup_density_per_100k:
+    silicon_valley: 45.0
+    tokyo: 8.0
+    berlin: 12.0  # Similar to Tokyo
+    
+  unique_germany_features:
+    - "UG (€1 minimum capital!) - UNIQUE IN WORLD (not in USA/Japan!)"
+    - "Co-determination (50% worker board seats!) - UNIQUE TO GERMANY!"
+    - "Mittelstand (SMEs) = 99% of German companies!"
+    - "Works Council (Betriebsrat) - workers have real power!"
+    - "16 federal states (Bundesländer) - each with own holidays!"
+    - "Sunday shopping RESTRICTED (unlike USA/Brazil!)"
+    - "GmbH minimum €25K (vs US LLC $0, Japan KK ¥150K!)"
+    
+  business_culture:
+    silicon_valley: "At-will (fire anytime), stock options, job-hopping"
+    tokyo: "Lifetime employment (35% large firms), bonuses (4-6 months)"
+    berlin: "Co-determination (worker power!), 30 days vacation, strong unions"

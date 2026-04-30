@@ -1,0 +1,398 @@
+version: 1.0.0
+country: germany
+last_updated: 2026-04-30
+description: "GDPR (gold standard privacy law), EU AI Act (world's first comprehensive AI law), NetzDG"
+
+# GDPR - General Data Protection Regulation (EU 2016/679)
+gdpr:
+  enacted: 2016-04-14
+  effective: 2018-05-25
+  jurisdiction: "European Union (Germany was key architect!)"
+  website: "https://gdpr.eu/ (unofficial) / https://dsgvo.de/ (German)"
+  german_name: "DSGVO (Datenschutz-Grundverordnung)"
+  
+  scope: "ALL EU member states (27 countries) + companies processing EU residents' data"
+  extraterritorial: true  # Applies to non-EU companies targeting EU residents
+  
+  key_principles:
+    - "Lawfulness, fairness, transparency"
+    - "Purpose limitation (collect for specific purposes)"
+    - "Data minimization (collect only what's needed)"
+    - "Accuracy (keep data accurate)"
+    - "Storage limitation (retain only as long as needed)"
+    - "Integrity and confidentiality (security)"
+    - "Accountability (controller must demonstrate compliance)"
+    
+  data_subject_rights:
+    - right: "Right to Access (Article 15)"
+      description: "Get copy of all data a company holds about you (FREE!)"
+      response_time_days: 30
+      
+    - right: "Right to Rectification (Article 16)"
+      description: "Correct inaccurate personal data"
+      response_time_days: 30
+      
+    - right: "Right to Erasure / 'Right to be Forgotten' (Article 17)"
+      description: "Request deletion of your data (with exceptions)"
+      response_time_days: 30
+      
+    - right: "Right to Restrict Processing (Article 18)"
+      description: "Limit how your data is processed"
+      
+    - right: "Right to Data Portability (Article 20)"
+      description: "Receive your data in machine-readable format (JSON, CSV)"
+      format: "Structured, commonly used, machine-readable"
+      note: "Critical for AI agents - must provide data in API/JSON format!"
+      
+    - right: "Right to Object (Article 21)"
+      description: "Object to processing based on legitimate interests"
+      
+    - right: "Rights related to automated decision-making (Article 22)"
+      description: "NOT be subject to solely automated decisions (including AI profiling!)"
+      note: "CRITICAL for AI systems - cannot make fully automated decisions about humans!"
+      
+  lawful_basis_for_processing:
+    - basis: "Consent (Article 6(1)(a))"
+      description: "Freely given, specific, informed, unambiguous (NO pre-ticked boxes!)"
+      requirement: "Must be able to WITHDRAW consent as easily as given"
+      ai_implication: "AI systems need explicit consent for processing personal data"
+      
+    - basis: "Contract (Article 6(1)(b))"
+      description: "Necessary for performance of a contract with the data subject"
+      
+    - basis: "Legal Obligation (Article 6(1)(c))"
+      description: "Necessary to comply with EU or Member State law"
+      
+    - basis: "Vital Interests (Article 6(1)(d))"
+      description: "Necessary to protect someone's life"
+      
+    - basis: "Public Task (Article 6(1)(e))"
+      description: "Necessary for performance of a task in public interest"
+      
+    - basis: "Legitimate Interests (Article 6(1)(f))"
+      description: "Necessary for legitimate interests (BALANCING TEST required!)"
+      note: "Most common basis for AI analytics (but must weigh against rights!)"
+      
+  special_category_data_article_9:
+    description: "Sensitive data needing EXTRA protection (requires EXPLICIT consent!)"
+    categories:
+      - "Race or ethnic origin"
+      - "Political opinions"
+      - "Religious or philosophical beliefs"
+      - "Trade union membership"
+      - "Genetic data (including DNA for AI health!)"
+      - "Biometric data (for uniquely identifying persons - FACIAL RECOGNITION!)"
+      - "Health data (medical records, AI diagnosis!)"
+      - "Sex life or sexual orientation"
+    ai_implication: "AI systems processing these need EXPLICIT consent + DPIA (Article 35)!"
+    
+  penalties:
+    max_fine_tier_1: "€10M OR 2% of total worldwide annual revenue (whichever higher)"
+    applies_to: "Controllers/processors (tier 1 violations)"
+    
+    max_fine_tier_2: "€20M OR 4% of total worldwide annual revenue (whichever higher)"
+    applies_to: "Controllers/processors (tier 2 violations - more severe)"
+    examples_tier_2:
+      - "Processing without valid lawful basis"
+      - "Violating data subject rights (access, erasure, portability)"
+      - "Transferring data to third countries without adequate protection"
+      
+    german_enforcement: "Federal Commissioner for Data Protection (BfDI - Bundesbeauftragte für den Datenschutz und die Informationsfreiheit)"
+    website: "https://www.bfdi.bund.de/"
+    note: "Germany STRICTLY enforces GDPR (fines up to €35M issued!)"
+    
+  data_protection_officer_dpo:
+    requirement: "MANDATORY if: (a) public authority, OR (b) core activities involve regular/sysematic monitoring, OR (c) core activities involve large-scale special category data"
+    tasks: ["Monitor compliance", "Advise on DPIAs", "Cooperate with supervisory authority", "Handle data subject requests"]
+    contact: "Must publish DPO contact details (Article 37-39)"
+    ai_implication: "AI companies processing large-scale personal data MUST have DPO!"
+    
+  data_protection_impact_assessment_dpia:
+    requirement: "MANDATORY for HIGH-RISK processing (Article 35)"
+    triggers:
+      - "Systematic and extensive evaluation (profiling) with legal/financial effects"
+      - "Processing on a large scale of special category data"
+      - "Systematic monitoring of publicly accessible areas (FACIAL RECOGNITION!)"
+    ai_implication: "Many AI systems (especially profiling/predictive) need DPIA!"
+    
+  cross_border_data_transfers:
+    adequacy_decisions: "EU Commission can decide a country has 'adequate' protection (like EU)"
+    adequate_countries_2026: ["United States (partial - Data Privacy Framework 2023)", "UK", "Canada", "Japan", "Switzerland", "Argentina", "Israel", "New Zealand", "Uruguay"]
+    note: "Japan has adequacy (good for Japan-EU AI collaboration!)"
+    
+    other_mechanisms:
+      - "Standard Contractual Clauses (SCCs) - most common for US companies"
+      - "Binding Corporate Rules (BCRs) - for multinational corporations"
+      - "Codes of Conduct / Certification Mechanisms"
+      
+    ai_implication: "AI companies using US cloud (AWS/GCP/Azure) need SCCs or adequacy (US limited adequacy since 2023)!"
+    
+  german_supervisory_authorities:
+    federal: "BfDI (Federal Commissioner - for federal authorities and cross-border)"
+    state_level: "16 Länder (each state has its own DPA - Datenschutzbeauftragte)"
+    note: "Germany has 17 DPAs total (1 federal + 16 state) - most of any EU country!"
+    
+# EU AI Act (2024) - WORLD'S FIRST COMPREHENSIVE AI LAW!
+eu_ai_act:
+  enacted: 2024-03-13
+  effective: 2024-08-02  # Entered into force
+  full_application: 2026-08-02  # 2 years after entry (most provisions)
+  website: "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+  german_name: "EU AI-Gesetz"
+  
+  scope: "All AI systems placed on EU market or whose outputs are used in EU"
+  extraterritorial: true  # Applies to non-EU AI companies serving EU users
+  
+  risk_based_approach:
+    - risk_level: "UNACCEPTABLE RISK (Article 5)"
+      description: "AI practices that are PROHIBITED!"
+      examples:
+        - "AI systems using subliminal techniques to materially distort behavior (manipulative AI)"
+        - "AI systems exploiting vulnerabilities of persons (age, disability) to distort behavior"
+        - "Biometric categorization systems using sensitive attributes (race, political, health, etc.)"
+        - "Real-time remote biometric identification (RBI) in public spaces by law enforcement (VERY restricted - only 3 narrow exceptions!)"
+        - "Post remote biometric identification (retrospective facial recognition) by law enforcement"
+        - "Emotion recognition in workplace/schools (PROHIBITED!)"
+        - "Social scoring by public authorities (like China's system - BANNED!)"
+      penalty: "€35M OR 7% of total worldwide annual revenue (whichever higher) - HIGHEST PENALTY IN LAW!"
+      effective_date: "2024-08-02"  # IMMEDIATE (6 months after entry)
+      
+    - risk_level: "HIGH RISK (Article 6-49)"
+      description: "AI systems that pose high risk to health, safety, or fundamental rights"
+      categories:
+        - "Biometric identification/verification (facial recognition - with restrictions)"
+        - "Critical infrastructure (transport, energy, water - AI managing these)"
+        - "Educational/vocational training (AI deciding admissions, grading)"
+        - "Employment/worker management (AI hiring, promotion, termination - CRITICAL!)"
+        - "Access to essential services (credit scoring, life insurance, social benefits)"
+        - "Law enforcement (AI assessing risk of re-offending, polygraphs)"
+        - "Migration/asylum/border control (AI assessing asylum applications)"
+        - "Administration of justice (AI assisting judicial decisions)"
+      requirements:
+        - "Risk management system (Article 9)"
+        - "Data governance (Article 10) - high-quality training/validation/test data"
+        - "Technical documentation (Article 11) - MUST document AI system!"
+        - "Record-keeping (Article 12) - Log all decisions!"
+        - "Transparency (Article 13) - Tell users they're interacting with AI!"
+        - "Human oversight (Article 14) - HUMAN MUST supervise AI decisions!"
+        - "Accuracy, robustness, cybersecurity (Article 15)"
+        - "Conformity assessment (Article 43) - Self-assessment or third-party"
+        - "Registration in EU AI Registry (Article 51) - PUBLIC DATABASE!"
+      penalty: "€15M OR 3% of total worldwide annual revenue (whichever higher)"
+      effective_date: "2026-08-02"  # After 2 years (grace period)
+      ai_implication: "MOST AI systems used in hiring, lending, healthcare will be HIGH RISK!"
+      
+    - risk_level: "LIMITED RISK (Article 50)"
+      description: "AI systems with specific transparency obligations"
+      examples:
+        - "Chatbots (must disclose users are interacting with AI - 'I am an AI')"
+        - "Emotion recognition systems (must inform users)"
+        - "Deep fakes / AI-generated content (must label as AI-generated!)"
+        - "AI systems that generate/edit text/images/audio (must watermark/label!)"
+      requirements:
+        - "Transparency: Users must know they're interacting with AI"
+        - "Labeling: AI-generated content must be marked (watermarks, metadata)"
+      penalty: "€7.5M OR 1.5% of total worldwide annual revenue"
+      effective_date: "2026-08-02"
+      ai_implication: "ChatGPT, Claude, Gemini MUST disclose they're AI + watermark outputs!"
+      
+    - risk_level: "MINIMAL RISK (No specific obligations)"
+      description: "All other AI systems not in above categories"
+      examples:
+        - "AI spam filters"
+        - "AI recommended systems (Netflix, Spotify - unless they impact rights)"
+        - "AI games"
+        - "Inventory management AI"
+      requirements: "NONE (but can adopt voluntary codes of conduct)"
+      note: "Vast majority of AI systems today fall here!"
+      
+  general_purpose_ai_gpai_models:
+    definition: "AI models that can be used for a wide variety of tasks (GPT-4, Claude, Gemini, LLaMA)"
+    providers_obligations:
+      - "Draw up technical documentation (Article 53)"
+      - "Provide information to downstream users (integrators)"
+      - "Ensure compliance with copyright law (train on legal data only!)"
+      - "Publish a sufficiently detailed summary of training data (Article 53(1)(d))"
+    note: "NEW requirement (2026): Must disclose TRAINING DATA SUMMARY!"
+    
+    high_impact_gpai_models:
+      definition: "GPAI models with high impact capabilities (like GPT-4, Claude 3.5)"
+      additional_obligations:
+        - "Model evaluations (red teaming for safety!)"
+        - "Adversarial testing (cybersecurity, bias, harmful outputs)"
+        - "Serious incident reporting to EU Commission (within 72 hours!)"
+      penalty: "€15M OR 3% of revenue"
+      note: "This targets frontier AI models (GPT-5, Claude 4, Gemini Ultra when released!)"
+      
+  german_ai_act_authority:
+    name: "Federal Office for Information Security (BSI - Bundesamt für Sicherheit in der Informationstechnik)"
+    role: "Market surveillance authority for AI Act in Germany"
+    website: "https://www.bsi.bund.de/"
+    
+  ai_act_timeline:
+    - "2024-08-02: AI Act enters into force"
+    - "2024-11-02: Unacceptable risk practices BANNED (6 months)"
+    - "2025-08-02: GPAI model obligations (12 months)"
+    - "2026-08-02: High-risk AI systems obligations (24 months - FULL APPLICATION)"
+    - "2027-08-02: Some provisions for existing AI systems (36 months)"
+    
+# NetzDG - Network Enforcement Act (2017, amended 2020, 2024)
+netzdg:
+  full_name: "Network Enforcement Act (Netzwerkdurchsetzungsgesetz)"
+  enacted: 2017-09-01
+  amended: 2020-05-01  # NetzDG reform
+  website: "https://www.gesetze-im-internet.de/netzdg/"
+  german_name: "NetzDG (Netzwerkdurchsetzungsgesetz)"
+  
+  scope: "Social networks with >2M registered users in Germany (Facebook, X, TikTok, etc.)"
+  requirement: "Must set up procedure for users to report illegal content"
+  
+  illegal_content:
+    - "Defamation (§185-187 StGB)"
+    - "Insult (§185 StGB)"
+    - "Incitement to hatred (§130 StGB)"
+    - "Threats of criminal acts (§126 StGB)"
+    - "Dissemination of propaganda material of unconstitutional organizations (§86 StGB)"
+    - "Use of symbols of unconstitutional organizations (§86a StGB)"
+    - "Dissemination of content that violates the dignity of the deceased (§189 StGB)"
+    
+  compliance_deadlines:
+    - "Clearly illegal content: Remove within 24 hours"
+    - "Other illegal content: Remove within 7 days"
+    - "Complex cases: Up to 14 days with justification"
+    
+  penalties:
+    max_fine_eur: 50000000  # €50M!
+    note: "One of the HIGHEST social media fines globally!"
+    
+  transparency_reporting:
+    requirement: "Publish biannual reports on received complaints and removals"
+    penalty: "€5M for failure to report"
+    
+  comparison: "Stricter than US Section 230 (which gives platforms immunity)"
+  note: "Germany led the way (now EU Digital Services Act expands this to all EU)!"
+  
+# Telemedia Act (TMG - Telemediengesetz)
+tmg:
+  full_name: "Telemedia Act (Telemediengesetz)"
+  enacted: 2007-02-26
+  description: "German law governing internet service providers, online platforms"
+  website: "https://www.gesetze-im-internet.de/tmg/"
+  
+  liability_protections:
+    - "Host providers: Not liable for third-party content (if no actual knowledge)"
+    - "Caching: Not liable for automatic, intermediate, temporary storage"
+    - "Access provision: Not liable for mere conduit (transmission)"
+  note: "Similar to US Section 230 BUT narrower (must act fast upon notice)!"
+  
+# Interstate Treaty on Media (MStV - Medienstaatsvertrag)
+mstv:
+  full_name: "Interstate Treaty on Media (Medienstaatsvertrag)"
+  effective: 2021-11-01
+  description: "Regulates media services, streaming, video platforms"
+  website: "https://www.die-medienanstalten.de/en/"
+  
+  requirements:
+    - "User protection (minors, data protection)"
+    - "Transparency for video-sharing platforms (YouTube, TikTok, Twitch)"
+    - "Complaint mechanisms for users"
+    
+  german_state_media_authorities: "14 state media authorities (Landesmedienanstalten)"
+  note: "Germany has 16 states, each with media authority (complex regulatory landscape!)"
+  
+# Cryptocurrency Regulation (Germany)
+crypto_regulation_germany:
+  status: "Legal property (not currency)"
+  authority: "Federal Financial Supervisory Authority (BaFin - Bundesanstalt für Finanzdienstleistungsaufsicht)"
+  website: "https://www.bafin.de/"
+  
+  crypto_custody_business:
+    requirement: "MUST obtain license from BaFin (since 2020)"
+    capital_requirement_eur: 1250000  # €1.25M minimum capital!
+    note: "Stricter than most countries (wants to be 'crypto heaven' with rules)!"
+    
+  stablecoins:
+    classification: "E-money or securities (depending on design)"
+    issuer_requirement: "BaFin authorization required"
+    
+  taxation:
+    holding_period_years: 1  # Tax-free if held >1 year (private investors)
+    trading_profit_tax: "Personal income tax rates (14-45%)"
+    corporate_tax: "29.9% (as corporate income)"
+    
+  major_exchanges_germany:
+    - "Bitvavo (German users)"
+    - "BSDEX (Börse Stuttgart - German exchange)"
+    - "Trade Republic (offers crypto)"
+    
+# Data Localization (Germany/EU)
+data_localization_germany:
+  requirement: "No general data localization law (unlike China/Russia)"
+  sectoral_requirements:
+    - "Health data: Must be stored in EU (GDPR Article 46 adequate protection)"
+    - "Government data: Prefer EU cloud (but not mandatory)"
+    
+  gaia_x:
+    description: "EU-funded data infrastructure initiative (German-led!)"
+    goal: "Sovereign European cloud (alternative to US Big Tech)"
+    members: ["SAP", "Siemens", "BMW", "Deutsche Telekom", "Airbus", "Atos"]
+    website: "https://gaia-x.eu/"
+    note: "Germany pushing for EU data sovereignty (reduce dependency on US cloud)!"
+    
+  cloud_providers_germany:
+    - "AWS Europe (Frankfurt) - US company but EU data centers"
+    - "Google Cloud (Frankfurt) - US company but EU data centers"
+    - "Microsoft Azure (Germany Central) - US company but EU data centers"
+    - "SAP Business Technology Platform - GERMAN company (cloud sovereignty!)"
+    - "IONOS (formerly 1&1) - German hosting"
+    
+# AI Company Compliance (Germany)
+ai_company_compliance_germany:
+  - requirement: "GDPR compliance (for any personal data processing)"
+    penalty: "Up to €20M or 4% revenue"
+    
+  - requirement: "EU AI Act compliance (for AI systems placed on EU market)"
+    penalty: "Up to €35M or 7% revenue (unacceptable risk) / €15M or 3% (high-risk)"
+    effective: "2026-08-02 (most provisions)"
+    
+  - requirement: "NetzDG compliance (for social media >2M users)"
+    penalty: "Up to €50M"
+    
+  - requirement: "Copyright compliance (for GPAI training data - NEW 2026!)"
+    penalty: "Up to €15M or 3% revenue"
+    
+  - requirement: "Human oversight (for high-risk AI systems)"
+    description: "HUMAN must supervise AI decisions (cannot be fully automated!)"
+    
+  - requirement: "Transparency (chatbots must disclose they're AI!)"
+    effective: "2026-08-02"
+    
+# Comparison to Brazil/USA/Japan
+comparison:
+  privacy_law:
+    brazil: "LGPD (inspired by GDPR!) - max 2% revenue"
+    usa: "Sectoral (HIPAA, COPPA, etc.) + state laws (CPRA, etc.) - no federal"
+    japan: "APPI - max ¥100M ($670K) or 3% revenue"
+    germany: "GDPR (GOLD STANDARD!) - max €20M or 4% revenue"
+    
+  ai_regulation:
+    brazil: "None specific (working on AI law)"
+    usa: "Sectoral (none comprehensive)"
+    japan: "Guidelines only (no binding law yet)"
+    germany: "EU AI Act (2024) - WORLD'S FIRST COMPREHENSIVE AI LAW!"
+    
+  platform_liability:
+    brazil: "Marco Civil da Internet (limited immunity)"
+    usa: "Section 230 (BROAD immunity)"
+    japan: "Not enforceable (can join competitors)"
+    germany: "NetzDG (STRICTEST! 24-hour removal, €50M fines!)"
+    
+  unique_germany_features:
+    - "GDPR (gold standard privacy law - inspired LGPD, APPI, others!)"
+    - "EU AI Act (2024) - WORLD'S FIRST comprehensive AI law!"
+    - "NetzDG - Strictest social media law (€50M fines, 24h removal!)"
+    - "Co-determination (Mitbestimmung) - Workers on boards (unique!)"
+    - "Gaia-X - EU sovereign cloud initiative (German-led!)"
+    - "16 states + federal - Complex multi-layer governance!"
+    - "Biometric AI in public spaces = HIGH RISK (strict regulation!)"
+    - "Chatbots MUST disclose they're AI (2026!)"

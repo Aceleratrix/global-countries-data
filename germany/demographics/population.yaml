@@ -1,0 +1,282 @@
+version: 1.0.0
+country: germany
+last_updated: 2026-04-30
+description: "Population demographics and statistics for Germany"
+
+# Total Population (2026 Estimate)
+total_population: 84720000
+source: "Statistisches Bundesamt (Federal Statistical Office)"
+population_rank_global: 18  # 18th globally
+population_rank_eu: 1  # LARGEST in EU (18% of EU population!)
+
+# Population Growth
+growth_rate_percent: 0.3  # Slow growth (aging society)
+doubling_time_years: 233  # Very slow (if constant)
+note: "Aging society (like Japan, but not as extreme)"
+
+# Median Age (Aging Society)
+median_age: 44.9
+comparison:
+  brazil: 33.5
+  usa: 38.9
+  japan: 49.5  # World's oldest!
+  germany: 44.9  # Aging but not as extreme as Japan
+
+# Life Expectancy
+life_expectancy_years: 81.3
+male: 78.9
+female: 83.7
+rank_global: 28  # High (but not top 10)
+
+# Urbanization
+urbanization_percent: 77.5
+urban_population: 65700000
+rural_population: 19020000
+
+# Major Cities (by population)
+major_cities:
+  - city: "Berlin"
+    population_city: 3700000
+    state: "Berlin (city-state)"
+    tech_hub: true
+    note: "Capital + startup hub (Silicon Allee!)"
+    
+  - city: "Munich (München)"
+    population_city: 1500000
+    state: "Bavaria (Bayern)"
+    tech_hub: true
+    note: "Automotive + tech (BMW, Siemens HQs)"
+    
+  - city: "Hamburg"
+    population_city: 1850000
+    state: "Hamburg (city-state)"
+    tech_hub: true
+    note: "Media + fintech hub"
+    
+  - city: "Frankfurt am Main"
+    population_city: 750000
+    metro: 2300000
+    state: "Hesse (Hessen)"
+    tech_hub: true
+    note: "Financial hub + MAJOR internet hub (DE-CIX)!"
+    
+  - city: "Cologne (Köln)"
+    population_city: 1080000
+    state: "North Rhine-Westphalia"
+    tech_hub: false
+    note: "Media city (RTL, WDR)"
+    
+  - city: "Stuttgart"
+    population_city: 630000
+    state: "Baden-Württemberg"
+    tech_hub: true
+    note: "Automotive (VW, Porsche, Mercedes HQs nearby)"
+    
+# Age Distribution (Aging Society!)
+age_distribution:
+  - group: "0-14 years"
+    percent: 14.2
+    population: 12000000
+    
+  - group: "15-24 years"
+    percent: 11.5
+    population: 9700000
+    
+  - group: "25-54 years"
+    percent: 42.8
+    population: 36300000  # Largest group!
+    
+  - group: "55-64 years"
+    percent: 15.5
+    population: 13100000
+    
+  - group: "65+ years"
+    percent: 16.0  # Large elderly population!
+    population: 13550000
+    note: "Will reach 22% by 2030 (aging rapidly!)"
+    
+# Languages
+languages:
+  - language: "German (Deutsch)"
+    code: "de-DE"
+    speakers_percent: 92.0  # Native German speakers
+    official_status: true
+    
+  - language: "English"
+    code: "en-US"
+    speakers_percent: 56.0  # As second language (high proficiency!)
+    ef_epi_score: 78.9  # EF English Proficiency Index (very high!)
+    note: "English widely spoken in tech hubs (Berlin, Munich, Hamburg!)"
+    
+  - language: "Turkish"
+    speakers_percent: 3.5  # Largest minority language
+    note: "Large Turkish immigrant community (guest workers 1960s-70s)"
+    
+  - language: "Russian"
+    speakers_percent: 2.5
+    note: "Post-Soviet immigration (1990s+)"
+    
+  - language: "Polish"
+    speakers_percent: 2.0
+    note: "Polish immigrants (EU freedom of movement)"
+    
+  ai_implication: "English widely spoken in tech (Berlin 80%+ English in startups!)"
+
+# Religions
+religions:
+  - religion: "Christian (Protestant + Catholic)"
+    percent: 52.0
+    breakdown:
+      protestant: 26.0  # Evangelical Church in Germany (EKD)
+      catholic: 26.0  # Roman Catholic Church
+    note: "Historically dominant (but declining!)"
+    
+  - religion: "Non-religious (None)"
+    percent: 42.0  # Growing fast!
+    note: "Especially in East Germany (former GDR - 70% non-religious!)"
+    
+  - religion: "Muslim"
+    percent: 6.0
+    note: "Turkish, Arab, Balkan immigrants"
+    
+  - religion: "Other (Jewish, Buddhist, Hindu, etc.)"
+    percent: "<1%"
+    
+# Education Level (High!)
+education:
+  tertiary_university_enrollment_percent: 34.0  # VERY HIGH!
+  stem_graduates_annual: 120000  # Engineering, CS, Math
+  literacy_rate_percent: 99.0  # Universal literacy
+  
+  universities_top_ai:
+    - "Technical University of Munich (TUM) - #1 AI in Germany"
+    - "RWTH Aachen University - Strong in engineering/AI"
+    - "Technical University of Berlin (TU Berlin) - AI research"
+    - "University of Freiburg - AI/Machine Learning"
+    - "Max Planck Institute for Intelligent Systems - World-class AI research!"
+    
+  ai_talent_pool_estimate: 45000  # Data scientists + ML engineers
+  note: "Germany produces MANY STEM graduates (34% tertiary enrollment!)"
+
+# Internet & Digital Adoption
+internet:
+  users_percent: 94.0  # 2026 estimate
+  users_absolute: 79600000
+  broadband_fiber_percent: 65.0  # Growing fast (Digital Agenda 2025)
+  avg_speed_mbps: 145.0
+  5g_coverage_percent: 85.0
+  smartphone_penetration_percent: 82.0
+  
+  social_media_usage_percent: 78.0
+  top_platforms:
+    - "WhatsApp: 85% (MOST POPULAR!)"
+    - "Facebook: 65%"
+    - "Instagram: 55%"
+    - "X (Twitter): 25%"
+    - "TikTok: 35% (growing fast among <35)"
+    - "Xing: 30% (German LinkedIn equivalent!)"
+    
+  ecommerce_penetration_percent: 82.0  # VERY HIGH!
+  online_shopping_annual_growth_percent: 8.0
+  
+  ai_implication: "94% internet, 82% e-commerce - READY for AI agents!"
+
+# Workforce & Tech Talent
+workforce:
+  total_labor_force: 44500000
+  unemployment_rate_percent: 3.2  # VERY LOW (full employment!)
+  
+  tech_workforce_estimate: 1200000  # Software engineers, data scientists, etc.
+  software_engineers_estimate: 650000
+  data_scientists_estimate: 45000
+  ml_engineers_estimate: 35000
+  
+  average_salary_eur_year:
+    junior_swe: [45000, 65000]  # €45K-65K ($48K-$70K)
+    mid_swe: [65000, 90000]  # €65K-90K ($70K-$97K)
+    senior_swe: [90000, 120000]  # €90K-120K ($97K-$130K)
+    ai_ml_engineer: [80000, 130000]  # €80K-130K ($86K-$140K)
+    note: "Similar to USA ($185K+), 2x Japan ($40K-$120K)!"
+    
+  tech_hubs_salaries:
+    berlin: "Base salaries (€45K-120K) - lower cost of living than Munich!"
+    munich: "Base salaries (€55K-140K) - higher (BMW, Siemens HQs!)"
+    hamburg: "Base salaries (€50K-110K) - media + fintech"
+    frankfurt: "Base salaries (€60K-150K) - finance hub (highest!)"
+    
+# Digital Government (High!)
+digital_government:
+  un_egovernment_index_rank: 5  # 5th globally (very high!)
+  online_services_percent: 95.0  # Most gov services online!
+  digital_identity: "ELSTER (tax), Personalausweis (ID card with chip)"
+  note: "Germany has excellent digital government (5th in world!)"
+
+# AI Adoption Readiness
+ai_readiness_score: 88.0  # Out of 100 (very high!)
+factors:
+  - "94% internet penetration (high!)"
+  - "65% fiber coverage (growing fast!)"
+  - "85% 5G coverage (excellent!)"
+  - "GDPR (clear privacy law - gold standard!)"
+  - "EU AI Act (world's first comprehensive AI law!)"
+  - "€3B AI investment (German AI Strategy 2024-2026!)"
+  - "45K AI talent pool (STEM graduates!)"
+  - "Industry 4.0 (smart factories already using AI!)"
+  
+challenges:
+  - "Aging population (median 44.9)"
+  - "Complex bureaucracy (even for EU!)"
+  - "Language (German required for many services)"
+  
+opportunities:
+  - "Automotive AI (BMW, VW, Mercedes investing €50B+)"
+  - "Industry 4.0 (smart factories need AI!)"
+  - "EU AI Act compliance services (first in world!)"
+  - "Berlin startup scene (Zalando, N26, SoundCloud)"
+
+# Comparison: Germany vs Brazil/USA/Japan
+comparison:
+  total_population:
+    brazil: "215M"
+    usa: "340M"
+    japan: "123M (shrinking!)"
+    germany: "84.7M (slow growth 0.3%)"
+    
+  median_age:
+    brazil: 33.5  # Young!
+    usa: 38.9
+    japan: 49.5  # World's oldest!
+    germany: 44.9  # Aging (like Japan but less extreme)
+    
+  internet_penetration:
+    brazil: 80.0
+    usa: 93.0
+    japan: 94.0
+    germany: 94.0  # Same as Japan!
+    
+  fiber_coverage:
+    brazil: 43.0
+    usa: 43.0
+    japan: 98.0  # World's best in G7!
+    germany: 65.0  # Growing fast!
+    
+  tech_talent_pool:
+    brazil: "250K (estimate)"
+    usa: "5M+"
+    japan: "40K data scientists + 25K ML engineers"
+    germany: "1.2M tech workforce (65K SWEs, 45K data scientists)"
+    
+  english_proficiency:
+    brazil: "Low (EF EPI: 58.2)"
+    usa: "Native (100%)"
+    japan: "Moderate (EF EPI: 62.1)"
+    germany: "High (EF EPI: 78.9 - VERY GOOD for tech!)"
+    
+  unique_germany_demographics:
+    - "Largest population in EU (18% of EU!)"
+    - "Aging society (median 44.9) but not as extreme as Japan (49.5)"
+    - "94% internet (same as Japan!)"
+    - "34% tertiary enrollment (VERY HIGH - many STEM grads!)"
+    - "Non-religious 42% (especially East Germany!)"
+    - "Guest worker legacy (3.5% Turkish, 2.5% Russian, 2% Polish)"
+    - "UNIQUE: 16 states (Bundesländer) with own governments!"

@@ -1,0 +1,237 @@
+version: 1.0.0
+country: germany
+last_updated: 2026-04-30
+description: "VAT (19%/7%), Corporate Tax (29.9%), R&D credit 25% for AI/tech"
+
+# VAT (Value Added Tax - Umsatzsteuer)
+vat:
+  standard_rate_percent: 19.0  # Standard rate (most goods/services)
+  reduced_rate_percent: 7.0  # Reduced rate (food, books, local transport, hotels)
+  super_reduced_rate_percent: 0.0  # None (some countries have 0% for basic food)
+  registration_threshold_eur: 22000  # €22K annual turnover (must register if exceeds)
+  
+  scope: "ALL EU countries (harmonized system)"
+  filing_frequency: "Monthly (if >€1,000 VAT/month), Quarterly (if ≤€1,000)"
+  filing_deadine: "10th of following month (monthly) / 15th (quarterly)"
+  website: "https://www.bzst.de/ (Federal Central Tax Office)"
+  
+  eu_oos_threshold_eur: 10000  # €10K (EU-wide threshold for cross-border sales)
+  note: "Germany was key architect of EU VAT system!"
+  
+  vat_free_categories:
+    - "Exports outside EU (0%)"
+    - "Intra-EU supplies to VAT-registered businesses (0% - reverse charge)"
+    - "International transport (0%)"
+    
+  ai_implications:
+    - "SaaS (AI) = 19% VAT (standard rate)"
+    - "If selling to EU consumers >€10K = must register in each country OR use OSS!"
+    - "One-Stop Shop (OSS): Simplified VAT filing for EU-wide sales (single registration!)"
+    - "AI api services = 19% VAT (digital services!)"
+
+# Corporate Income Tax (Körperschaftsteuer)
+corporate_tax:
+  federal_rate_percent: 15.0  # Federal corporate tax (KSt)
+  solidarity_surcharge_percent: 5.5  # On federal tax (15% × 5.5% = 0.825%)
+  trade_tax_rate_percent: [14.0, 17.0]  # Municipal trade tax (Gewerbesteuer) - varies by municipality
+  
+  effective_rate_percent: 29.9  # Roughly 15% + 0.825% + ~14% trade tax
+  calculation: "15% (federal) + 0.825% (solidarity) + 14% (trade tax avg) = 29.9%"
+  
+  trade_tax_note: "Berlin: 14.0%, Munich: 17.0%, Hamburg: 16.5% (varies by city!)"
+  minimum_trade_tax: "€24,500 annual (for corporations)"
+  
+  filing_requirements:
+    - "Annual corporate tax return (Körperschaftsteuererklärung)"
+    - "Trade tax return (Gewerbesteuererklärung)"
+    - "Due date: July 31 (can extend to December 31 with tax advisor)"
+    
+  ai_implications:
+    - "AI startups: 29.9% effective rate (similar to USA 21-29%, higher than Japan 23.2%)"
+    - "Tax advisory mandatory (German tax law is COMPLEX!)"
+    - "Cloud costs (AWS/GCP/Azure) = tax-deductible business expense"
+
+# Personal Income Tax (Einkommensteuer) - for Freelancers/Sole Proprietors
+personal_income_tax:
+  brackets_2026_eur:
+    - "€0 - €11,604: 0% (tax-free allowance - Grundfreibetrag!)"
+    - "€11,605 - €16,956: 14-24% (progressive)"
+    - "€16,957 - €66,760: 24-42%"
+    - "€66,761 - €277,825: 42% (top bracket starts here!)"
+    - "€277,826+: 45% (maximum rate!)"
+    
+  solidarity_surcharge: "5.5% on tax amount (if >€18,130 annual tax)"
+  
+  freelance_tax_rate_percent: [14.0, 45.0]  # Progressive (same as personal)
+  note: "Many AI freelancers/consultants in Berlin (lower rates than employees due to deductions!)"
+  
+  ai_freelancer_deductions:
+    - "Home office (€6/sqm, max €1,260/year)"
+    - "Hardware (laptops, GPUs - depreciate over 3-5 years)"
+    - "Cloud costs (AWS/GCP/Azure - FULLY deductible!)"
+    - "Software licenses (Full AI, Midjourney, etc. - deductible)"
+    - "Conference tickets (NeurIPS, ICML - deductible as education!)"
+
+# R&D Tax Credit (Forschungszulage) - Germany's Big Incentive for AI!
+r_and_d_tax_credit:
+  name: "Research Allowance Act (Forschungszulagengesetz - FZulG)"
+  enacted: 2020 (expanded 2024!)
+  rate_percent: 25.0  # Of eligible R&D expenses
+  
+  eligible_expenses:
+    - "Personnel costs (researchers, developers, PhD students - 100% eligible!)"
+    - "Contract research (outsourcing to universities, Fraunhofer, etc.)"
+    - "Materials consumed in R&D"
+    - "Depreciation of R&D equipment (GPUs, servers!)"
+    
+  cap_eur_per_year: 2000000  # €2M maximum credit per company/year!
+  benefit: "Refundable! (even if no taxes owed - CASH GRANT!)"
+  
+  eligible_companies: "ALL companies (GmbH, AG, UG, sole proprietorships!)"
+  ai_eligibility: "YES! AI/ML model development, algorithm development, data science R&D!"
+  
+  application: "File with Federal Central Tax Office (BZSt) - Form FZulG"
+  processing_time_months: [2, 4]
+  
+  eu_context: "Germany has one of EU's most generous R&D tax credits!"
+  note: "AI startups in Berlin/Munich get 25% BACK of R&D costs (up to €2M!)"
+
+# Patent Box (Patentbox)
+patent_box:
+  rate_percent: 0.0  # 0% tax on income from qualified patents!
+  eligible_assets:
+    - "Patents (including software patents - AI algorithms!)"
+    - "Utility models"
+    - "Biotech inventions"
+    
+  requirement: "Ownership or exclusive license of patent"
+  portion_of_income: "80% of income from patents is tax-free (only 20% taxed!)"
+  
+  ai_implication: "AI companies patenting algorithms can get 0% tax on patent income!"
+  note: "Germany is STRICT on software patents (must be 'technical invention' - AI qualifies!)"
+
+# Investment Grants (For Manufacturing & Tech)
+investment_grants:
+  - name: "GRW (Joint Task for the Improvement of Regional Economic Structures)"
+    description: "Cash grants for investments in manufacturing, tech, logistics"
+    max_grant_percent: 50.0  # Of eligible investment costs (for East Germany!)
+    west_germany_percent: [20.0, 30.0]  # Lower for West Germany
+    ai_relevance: "Data centers, AI hardware manufacturing, smart factories"
+    
+  - name: "Digital Growth Fund (Digitaler Wachstumsfonds)"
+    description: "Equity investments in digital/AI startups"
+    max_investment_eur: 50000000  # €50M per company
+    focus: "AI, SaaS, fintech, Industry 4.0"
+    
+  - name: "High-Tech Gründerfonds (HTGF)"
+    description: "Public VC fund for high-tech startups"
+    max_investment_eur: 3000000  # €3M per startup
+    focus: "AI, deep tech, life sciences"
+    note: "HTGF is Europe's most active seed investor!"
+
+# Depreciation (For AI Hardware - GPUs, Servers)
+depreciation:
+  - asset: "Computer hardware (servers, GPUs, laptops)"
+    method: "Declining balance (degressive AfA)"
+    rate_percent: 20.0  # 20% per year (accelerated!)
+    useful_life_years: 3  # Typical for tech hardware
+    note: "Can write off NVIDIA H100 cluster in 3 years (20% + 16% + 13% + ...)!"
+    
+  - asset: "Software (purchased, not SaaS)"
+    method: "Straight-line (linear AfA)"
+    useful_life_years: [3, 5]  # Typically 3-5 years
+    
+  - asset: "Goodwill (when acquiring companies)"
+    method: "Straight-line"
+    useful_life_years: 15  # Long amortization
+    
+  ai_implication: "GPU clusters (€1M+) can be depreciated over 3 years (20% first year!)"
+
+# Transfer Pricing (For Multinationals - Google, Meta, OpenAI Germany)
+transfer_pricing:
+  standard: "OECD Transfer Pricing Guidelines (Germany strictly follows!)"
+  documentation: "MANDATORY for transactions >€6M!"
+  penalties: "Up to 5% of tax underpayment (if documentation missing!)"
+  
+  ai_implication: "US AI companies (OpenAI, Anthropic) with German subsidiaries must have TP docs!"
+  note: "Frankfurt is major hub for multinational HQs (transfer pricing central!)"
+
+# Trade Tax (Gewerbesteuer) - Municipal Tax
+trade_tax:
+  rate_percent: [14.0, 17.0]  # Varies by municipality (Berlin 14%, Munich 17%!)
+  base: "Profits + additions (e.g., 25% of long-term debt interest)"
+  
+  allowance_eur: 24500  # €24,500 (tax-free allowance for corporations!)
+  partnerships: "Pass-through (income taxed at partner level, not entity)"
+  
+  ai_startup_tip: "Incorporate in Berlin (14% trade tax) vs. Munich (17%) to save 3%!"
+  note: "Trade tax is the BIG DIFFERENCE between German cities (varies widely!)"
+
+# VAT ID (Umsatzsteuer-Identifikationsnummer)
+vat_id:
+  format: "DE + 9 digits (e.g., DE123456789)"
+  registration: "Automatic when registering business (Finanzamt)"
+  use: "B2B sales within EU (reverse charge mechanism!)"
+  verification: "VIES system (https://ec.europa.eu/taxation_customs/vies/)"
+  
+  ai_implication: "AI SaaS companies MUST have VAT ID for EU B2B sales (reverse charge)!"
+
+# Tax Identification Number (Steuerliche Identifikationsnummer)
+tax_id:
+  format: "11 digits (e.g., 12345678901)"
+  issued_by: "Federal Central Tax Office (BZSt)"
+  use: "All tax returns, correspondence with tax authorities"
+  note: "Every resident gets one at birth/registration (permanent!)"
+
+# Tax Advisory (Steuerberater) - MANDATORY for Corporations!
+tax_advisory:
+  requirement: "Corporations (GmbH, AG) MUST have tax advisor (Steuerberater)!"
+  cost_eur_month: [300, 1500]  # €300-1.5K/month (depending on complexity)
+  ai_startup_cost: "Budget €500-1,000/month for tax advisor (MANDATORY!)"
+  
+  sole_proprietors: "Not mandatory (but HIGHLY recommended - German tax law is COMPLEX!)"
+  note: "Unlike USA (CPAs optional), Germany REQUIRES tax advisors for corps!"
+
+# EU Directives (Apply to Germany)
+eu_tax_directives:
+  - "Parent-Subsidiary Directive (no withholding tax on dividends within EU!)"
+  - "Interest-Royalty Directive (no withholding tax on interest/royalties within EU!)"
+  - "Merger Directive (tax-neutral cross-border mergers/reorganizations)"
+  - "ATAD (Anti-Tax Avoidance Directive) - BEPS implementation"
+  
+  ai_implication: "US AI companies (OpenAI, Anthropic) can set up EU HQ in Germany tax-efficiently!"
+
+# Comparison: Germany vs Brazil vs USA vs Japan
+comparison:
+  vat_sales_tax_standard:
+    brazil: "ICMS varies by state (17-20%)"
+    usa: "Sales tax varies by state (0-10.75%)"
+    japan: "Consumption Tax 10%"
+    germany: "VAT 19% (EU standard - harmonized!)"
+    
+  corporate_tax_effective:
+    brazil: "34.0% (federal + state)"
+    usa: "21-29% (federal 21% + state 0-8%)"
+    japan: "23.2% (national + local)"
+    germany: "29.9% (federal 15% + solidarity 0.825% + trade tax ~14%)"
+    
+  rd_tax_credit:
+    brazil: "60-80% (Lei do Bem - BEST in world!)"
+    usa: "20% (federal) + state incentives"
+    japan: "20% (Innovative R&D) / 6% (standard)"
+    germany: "25% (up to €2M refundable - EU's most generous!)"
+    
+  patent_box:
+    brazil: "None"
+    usa: "None (but qualified dividends 20% max)"
+    japan: "0% on patent income (80% exempt)"
+    germany: "0% on patent income (80% exempt - PATENTBOX!)"
+    
+  unique_germany_features:
+    - "VAT 19% (EU harmonized - OSS for EU-wide sales!)"
+    - "Trade tax varies by city (Berlin 14%, Munich 17% - choose wisely!)"
+    - "R&D tax credit 25% (up to €2M refundable - CASH GRANT!)"
+    - "Tax advisor MANDATORY for corporations (€300-1.5K/month!)"
+    - "Patent box 0% (80% of patent income exempt!)"
+    - "Solidarity surcharge 5.5% (on corporate + personal tax!)"
+    - "EU Directives (no withholding tax on EU dividends/interest!)"
