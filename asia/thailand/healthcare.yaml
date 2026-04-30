@@ -1,0 +1,5 @@
+healthcare_gdp_share_percent: 3.6
+life_expectancy_years: 77.5
+infant_mortality_per_1000_births: 8.2
+public_healthcare_coverage_percent: 98
+major_hospitals: ["Siriraj Hospital", "Bumrungrad International Hospital"]

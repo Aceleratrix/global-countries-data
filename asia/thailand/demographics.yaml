@@ -1,0 +1,14 @@
+population: 71800000
+population_density_km2: 140
+urban_population_percent: 52
+life_expectancy_years: 77.5
+median_age_years: 36.8
+ethnic_groups:
+  - "Thai: 95.9%"
+  - "Burmese: 2%"
+  - "Other: 2.1%"
+religions:
+  - "Buddhism: 93.2%"
+  - "Islam: 5.5%"
+  - "Christianity: 1.1%"
+  - "Other: 0.2%"

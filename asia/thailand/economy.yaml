@@ -1,0 +1,8 @@
+gdp_usd: 490000000000
+global_gdp_rank: 27
+gdp_per_capita_usd: 6800
+major_industries: ["Tourism", "Agriculture", "Electronics Manufacturing", "Automotive", "Rubber Processing"]
+unemployment_rate_percent: 1.0
+inflation_rate_percent: 1.2
+tourism_gdp_share_percent: 20
+top_exports: ["Rice", "Natural Rubber", "Electronics", "Automotive Parts", "Seafood"]

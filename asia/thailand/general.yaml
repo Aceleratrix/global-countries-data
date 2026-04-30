@@ -1,0 +1,7 @@
+country_code: "TH"
+iso_alpha2: "TH"
+iso_alpha3: "THA"
+calling_code: "+66"
+flag_emoji: "🇹🇭"
+top_level_domain: ".th"
+time_zones: ["UTC+7"]
