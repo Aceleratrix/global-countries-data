@@ -1,0 +1,114 @@
+# Indonesia Tax Codes & Fiscal Information
+# AI-Ready: Structured for multi-agent systems
+
+country: indonesia
+last_updated: "2024-12-15"
+currency: IDR
+asean_member: true
+
+# VAT (Value Added Tax / PPN)
+vat:
+  standard_rate_percent: 11.0
+  increased_to_12: "January 1, 2025"
+  exempt_categories: ["Basic food", "Medical services", "Education", "Financial services"]
+  zero_rated: ["Exports", "International transportation"]
+  registration_threshold_idr: 4800000000
+  registration_threshold_usd: 320000
+  voluntary_registration: true
+  url: "https://www.pajak.go.id"
+  
+# Corporate Income Tax
+corporate_tax:
+  standard_rate_percent: 22.0
+  sme_rate_percent: 11.0
+  sme_threshold_idr: 50000000000
+  sme_threshold_usd: 3333333
+  url: "https://www.pajak.go.id"
+  
+# Personal Income Tax (2024)
+personal_income_tax:
+  brackets:
+    - threshold_idr: 0
+      threshold_usd: 0
+      rate_percent: 5.0
+    - threshold_idr: 60000000
+      threshold_usd: 4000
+      rate_percent: 15.0
+    - threshold_idr: 250000000
+      threshold_usd: 16667
+      rate_percent: 25.0
+    - threshold_idr: 500000000
+      threshold_usd: 33333
+      rate_percent: 30.0
+    - threshold_idr: 5000000001
+      threshold_usd: 333334
+      rate_percent: 35.0
+  url: "https://www.pajak.go.id"
+  
+# Withholding Tax
+withholding_tax:
+  dividends_percent: 15
+  interest_percent: 10
+  royalties_percent: 15
+  treaty_relief: true
+  dtp_countries: 68
+  url: "https://www.pajak.go.id"
+  
+# Regional Taxes
+regional_taxes:
+  hotel_tax_rate_percent: 10.0
+  restaurant_tax_rate_percent: 10.0
+  entertainment_tax_rate_percent: 35.0
+  parking_tax_rate_percent: 20.0
+  varies_by_region: true
+  
+# Land & Building Tax (PBB)
+property_tax:
+  rate_percent: 0.5
+  based_on: "State-determined value (NJOP)"
+  collected_by: "Regional government"
+  
+# Import Duties
+import_duties:
+  general_rate_percent: 7.5
+  luxury_goods_rate_percent: 20.0 to 125.0
+  asean_fta_rate: 0.0 to 5.0
+  url: "https://www.beacukai.go.id"
+  
+# Export Levies
+export_levies:
+  palm_oil_percent: 3.0 to 6.0
+  coal_percent: 1.5 to 7.0
+  nickel_ore_ban: true
+  processed_nickel_allowed: true
+  
+# Reporting & Compliance
+reporting:
+  fiscal_year: "January 1 to December 31"
+  corporate_filing_deadline: "April 30"
+  monthly_vat: true
+  electronic_filing: true
+  url: "https://www.pajak.go.id"
+  
+# Tax Incentives
+incentives:
+  tax_holiday:
+    duration_years: 5 to 20
+    eligibility: "Pioneer industries (value-added >30%)"
+    url: "https://www.bkpm.go.id"
+    
+  tax_allowance:
+    investment_discount_percent: 30.0
+    eligibility: "Large-scale investments"
+    
+  sme_incentives:
+    final_tax_rate_percent: 0.5
+    turnover_threshold_idr: 4800000000
+    
+# Digital Economy Tax
+digital_tax:
+  vat_on_foreign_ecommerce: true
+  rate_percent: 11.0
+  effective: "July 2020"
+  major_platforms_registered: ["Netflix", "Spotify", "Amazon", "Google", "Meta"]
+  url: "https://www.pajak.go.id"

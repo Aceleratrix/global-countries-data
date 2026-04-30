@@ -1,0 +1,132 @@
+# Indonesia Demographics & Population
+# AI-Ready: Structured for multi-agent systems
+
+country: indonesia
+last_updated: "2024-12-15"
+asean_member: true
+
+# Population Overview
+population:
+  total_2024: 281200000
+  total_2023: 279300000
+  growth_rate_percent: 0.68
+  density_per_km2: 151
+  density_per_mi2: 391
+  median_age: 30
+  life_expectancy_years: 69.2
+  fertility_rate: 2.18
+  
+# Urbanization
+urbanization:
+  urban_population_percent: 58.5
+  rural_population_percent: 41.5
+  major_cities:
+    - name: "Jakarta"
+      population: 10500000
+      metro_area: 34000000
+      
+    - name: "Surabaya"
+      population: 2800000
+      metro_area: 9000000
+      
+    - name: "Bandung"
+      population: 2500000
+      metro_area: 8500000
+      
+    - name: "Medan"
+      population: 2200000
+      metro_area: 4500000
+      
+    - name: "Bali (Denpasar)"
+      population: 900000
+      tourism_boom: true
+      
+# Religion
+religion:
+  muslim_percent: 86.7
+  christian_percent: 10.7
+  hindu_percent: 1.7
+  buddhist_percent: 0.7
+  other_percent: 0.2
+  state_philosophy: "Pancasila (belief in One Supreme God)"
+  
+# Languages
+languages:
+  official: "Indonesian (Bahasa Indonesia)"
+  spoken_natively_percent: 93.5
+  regional_languages:
+    - language: "Javanese"
+      percent: 30.5
+    - language: "Sundanese"
+      percent: 15.5
+    - language: "Madurese"
+      percent: 3.5
+    - language: "Minangkabau"
+      percent: 2.7
+      
+# Ethnicity
+ethnicity:
+  javanese_percent: 40.2
+  sundanese_percent: 15.5
+  batak_percent: 3.6
+  madurese_percent: 3.5
+  betawi_percent: 2.9
+  others_percent: 34.3
+  
+# Education
+education:
+  literacy_rate_percent: 96.0
+  tertiary_education_percent: 12
+  school_life_expectancy_years: 13
+  higher_education_institutions: 4500
+  top_universities: ["UI (University of Indonesia)", "ITB (Bandung Institute of Technology)", "UGM (Gadjah Mada University)", "ITS (Sepuluh Nopember)"]
+  tech_graduates_annual: 180000
+  
+# Income & Wealth
+income:
+  median_household_income_idr: 60000000
+  median_household_income_usd: 4000
+  gini_coefficient: 0.38
+  poverty_rate_percent: 9.5
+  extreme_poverty_percent: 3.5
+  minimum_wage_jakarta_idr: 4900000
+  minimum_wage_jakarta_usd: 327
+  
+# Employment
+employment:
+  labor_force_participation_percent: 69.2
+  unemployment_rate_percent: 5.32
+  youth_unemployment_percent: 13.5
+  informal_employment_percent: 60
+  major_industries: ["Agriculture", "Manufacturing", "Tourism", "Mining", "Services"]
+  
+# Digital Adoption
+digital_adoption:
+  internet_users_percent: 78
+  smartphone_penetration_percent: 70
+  social_media_users_percent: 68
+  ecommerce_penetration_percent: 52
+  digital_payment_adoption_percent: 62
+  
+# Demographics by Age
+age_distribution:
+  _0_to_14_percent: 24.5
+  _15_to_64_percent: 68.2
+  _65_plus_percent: 7.3
+  median_age: 30
+  
+# Health
+health:
+  public_healthcare: "BPJS Kesehatan (mandatory)"
+  private_healthcare_percent: 8
+  doctors_per_1000: 0.4
+  hospital_beds_per_1000: 1.2
+  
+# Islands Distribution
+islands:
+  java_percent_population: 56.5
+  sumatra_percent: 22.1
+  kalimantan_percent: 6.5
+  sulawesi_percent: 7.3
+  bali_nusa_tenggara_percent: 5.5
+  maluku_papua_percent: 2.1

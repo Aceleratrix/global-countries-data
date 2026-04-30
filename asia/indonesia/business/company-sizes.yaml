@@ -1,0 +1,160 @@
+# Indonesia Business: Company Sizes & Classifications
+# AI-Ready: Structured for multi-agent systems
+
+country: indonesia
+last_updated: "2024-12-15"
+asean_member: true
+
+# Company Size Definitions (UU No. 20 Tahun 2008)
+size_definitions:
+  micro:
+    assets_max_idr: 500000000
+    assets_max_usd: 33333
+    employees_max: 10
+    percent_of_businesses: 98.7
+    examples: ["Warungs", "Small shops", "Freelancers", "Farmers"]
+    
+  small:
+    assets_idr_range: "500M to 10B"
+    assets_usd_range: "$33K to $667K"
+    employees_range: "11-50"
+    percent_of_businesses: 1.1
+    examples: ["Local retailers", "Small manufacturers", "Service providers"]
+    
+  medium:
+    assets_idr_range: "10B to 50B"
+    assets_usd_range: "$667K to $3.3M"
+    employees_range: "51-300"
+    percent_of_businesses: 0.15
+    examples: ["Regional manufacturers", "Mid-size tech firms", "Growing exporters"]
+    
+  large:
+    assets_idr_min: 50000000000
+    assets_usd_min: 3333333
+    employees_min: 301
+    percent_of_businesses: 0.05
+    examples: ["Conglomerates", "Major manufacturers", "Listed companies"]
+    
+# Total Businesses
+total_businesses: 17000000
+listed_companies_idx: 820
+private_companies_percent: 99.99
+
+# Business Structure Types
+business_structures:
+  - type: "Perseroan Terbatas (PT)"
+    description: "Limited liability company"
+    npwp_required: true
+    percent_of_businesses: 15
+    tax_treatment: "Corporate income tax"
+    
+  - type: "Persekutuan Komanditer (CV)"
+    description: "Limited partnership"
+    npwp_required: true
+    percent_of_businesses: 5
+    tax_treatment: "Pass-through to partners"
+    
+  - type: "Firma (Fa)"
+    description: "General partnership"
+    npwp_required: true
+    percent_of_businesses: 3
+    tax_treatment: "Partners taxed individually"
+    
+  - type: "Perorangan (Sole Proprietor)"
+    description: "Individual entrepreneur"
+    npwp_required: true
+    percent_of_businesses: 77
+    tax_treatment: "Personal income tax"
+    
+# NPWP & Tax Registration
+npwp_tax:
+  npwp:
+    name: "Nomor Pokok Wajib Pajak"
+    format: "15 digits"
+    required_for: "All business activities"
+    tax_linked: true
+    url: "https://www.pajak.go.id"
+    
+# Small Business Support
+small_business_support:
+  smesco:
+    name: "SMEs & Cooperatives Ministry"
+    url: "https://www.kemenkopukm.go.id"
+    
+  incentives:
+    - name: "UMKM Tax Final (PP 23/2018)"
+      rate_percent: 0.5
+      turnover_threshold_idr: 4800000000
+      turnover_threshold_usd: 320000
+      
+    - name: "Credit for SMEs (KUR)"
+      interest_rate_percent: 6.0
+      government_subsidy: true
+      url: "https://www.kemenkeu.go.id"
+      
+# Industry Concentrations
+industry_concentrations:
+  top_industries_by_sme_count:
+    - "Agriculture & Fisheries"
+    - "Trade & Retail"
+    - "Food & Beverage"
+    - "Textiles & Garments"
+    - "Furniture & Handicrafts"
+    
+# Digital Economy Boom
+digital_economy:
+  ecosystem_value_usd_billions: 77
+  by_2025_usd_billions: 130
+  unicorns: ["GoTo Group ($23B peak)", "Bukalapak ($3.5B peak)", "Traveloka ($2B)", "Akulaku ($1.5B)"]
+  startup_hubs: ["Jakarta", "Bandung", "Yogyakarta", "Bali"]
+  accelerators: ["East Ventures", "AC Ventures", "Convergence Ventures", "Vertex Ventures"]
+  coworking_spaces: ["GoWork", "EV Hive", "Kumpul"]
+  
+# HALAL Certification
+halal_certification:
+  mandatory: true
+  for_products: ["Food & beverages", "Cosmetics", "Pharmaceuticals"]
+  authority: "BPJPH (Halal Product Assurance Organizing Agency)"
+  url: "https://www.halal.go.id"
+  impact_on_business: "Essential for 86% Muslim population"
+  
+# Business Licenses & Permits
+licenses_permits:
+  federal:
+    - "NIB (Nomor Induk Berusaha) - Business Identification Number"
+    - "NPWP (Tax ID)"
+    - "BPJS Kesehatan & Ketenagakerjaan"
+    
+  regional:
+    - "Local business license"
+    - "Environmental permits (AMDAL/UKL-UPL)"
+    - "Location permit"
+    
+  special_licenses:
+    - "HALAL certification (for applicable products)"
+    - "Tourism license (for travel businesses)"
+    - "Construction license (SIUJK)"
+    
+# Business Insurance
+business_insurance:
+  compulsory:
+    - "BPJS Ketenagakerjaan (work accident)"
+    - "BPJS Kesehatan (if >50 employees)"
+    
+  recommended:
+    - "Property insurance"
+    - "Public liability insurance"
+    - "Professional indemnity insurance"
+    
+# Import/Export Business
+import_export:
+  asean_member: true
+  export_facilitation: "BKPM (Investment Coordinating Board)"
+  url: "https://www.bkpm.go.id"
+  
+# Foreign Investment (PMA)
+foreign_investment:
+  pma_law: "UU No. 25 Tahun 2007 tentang Penanaman Modal"
+  negative_investment_list: "DNI (Daftar Negatif Investasi) - being relaxed"
+  bkpm_approval: true
+  url: "https://www.bkpm.go.id"

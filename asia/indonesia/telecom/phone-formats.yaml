@@ -1,0 +1,126 @@
+# Indonesia Telecom & Phone Formats
+# AI-Ready: Structured for multi-agent systems
+
+country: indonesia
+last_updated: "2024-12-15"
+calling_code: "+62"
+international_prefix: "001/008"
+emergency_numbers:
+  police: "110"
+  fire: "113"
+  ambulance: "118/119"
+  general: "112"
+  
+# Phone Number Formats
+phone_formats:
+  landline:
+    pattern: "+62 XX XXXX XXXX"
+    digits: 10 to 12
+    area_codes: ["21 (Jakarta)", "22 (Bandung)", "31 (Surabaya)", "61 (Makassar)"]
+    example: "+62 21 1234 5678"
+    regex: "^\\+62[2-9]\\d{7,10}$"
+    
+  mobile:
+    pattern: "+62 8XX XXX XXX"
+    digits: 10 to 13
+    prefixes: ["0811", "0812", "0813", "0821", "0851", "0877", "0881"]
+    example: "+62 812 3456 7890"
+    regex: "^\\+628\\d{7,11}$"
+    
+  toll_free:
+    pattern: "0800 XXX XXX"
+    example: "0800 123 456"
+    regex: "^0800\\d{6,9}$"
+    
+  premium_rate:
+    pattern: "0809 XXX XXX"
+    example: "0809 123 456"
+    regex: "^0809\\d{6,9}$"
+    
+# Mobile Operators
+mobile_operators:
+  - name: "Telkomsel (Singtel)"
+    market_share_percent: 55
+    network: "4G/5G nationwide"
+    coverage_population_percent: 98
+    url: "https://www.telkomsel.com"
+    
+  - name: "Indosat Ooredoo Hutchison"
+    market_share_percent: 23
+    network: "4G/5G major cities"
+    coverage_population_percent: 95
+    url: "https://www.indosatooredoo.com"
+    
+  - name: "XL Axiata"
+    market_share_percent: 18
+    network: "4G/5G major cities"
+    coverage_population_percent: 93
+    url: "https://www.xl.co.id"
+    
+  - name: "Smartfren (Sinarmas)"
+    market_share_percent: 8
+    network: "4G/5G selected areas"
+    coverage_population_percent: 85
+    url: "https://www.smartfren.com"
+    
+# Internet & Broadband
+internet:
+  average_speed_mbps: 22.5
+  fiber_coverage_percent: 15
+  fixed_broadband_penetration_percent: 12
+  major_providers: ["Telkom (IndiHome)", "Biznet", "First Media", "MyRepublic"]
+  url: "https://www.kominfo.go.id"
+  
+# 4G/5G Coverage
+mobile_data:
+  _4g_coverage_percent: 95
+  _5g_coverage_percent: 30
+  major_cities_5g: ["Jakarta", "Bandung", "Surabaya", "Bali", "Medan"]
+  telkomsel_5g_launched: 2021
+  
+# VoIP & Digital Services
+voip_services:
+  providers: ["Telkom", "Indosat", "XL", "WhatsApp", "Telegram"]
+  business_voip: true
+  emergency_calls_requires: "Registered address"
+  
+# Area Codes by Region
+area_codes:
+  jakarta: "21"
+  bandung: "22"
+  surabaya: "31"
+  medan: "61"
+  makassar: "41"
+  bali: "361"
+  yogyakarta: "274"
+  
+# SMS & Messaging
+sms:
+  max_length_chars: 160
+  unicode_support: true
+  mms_support: true
+  whatsapp_users_millions: 175
+  wechat_users_millions: 8
+  telegram_users_millions: 45
+  
+# Telecom Regulation
+regulation:
+  regulator: "Ministry of Communication & IT (Kominfo)"
+  url: "https://www.kominfo.go.id"
+  number_portability: true
+  porting_time_days: 1 to 3
+  mobile_number_portability: true
+  
+# International Calling
+international_calling:
+  prefix: "001 (Indosat) / 008 (Telkom)"
+  voip_providers: ["WhatsApp", "Telegram", "Viber"]
+  calling_cards: true
+  rates_usd_per_minute: 0.15 to 0.80
+  
+# Fixed Line
+fixed_line:
+  provider: "Telkom Indonesia (dominant)"
+  market_share_percent: 85
+  decline: true
+  replacement: "Mobile-first nation"

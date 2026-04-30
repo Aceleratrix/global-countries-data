@@ -1,0 +1,108 @@
+# Indonesia Internet & Data Protection Laws
+# AI-Ready: Structured for multi-agent systems
+
+country: indonesia
+last_updated: "2024-12-15"
+jurisdiction: ID
+asean_member: true
+
+# Primary Legislation
+laws:
+  - name: "UU No. 27 Tahun 2022 tentang Perlindungan Data Pribadi (PDP Law)"
+    type: "Data Protection"
+    scope: "National"
+    key_points: ["Consent required", "Data subject rights", "Cross-border transfer restrictions", "6-month compliance grace period"]
+    effective_date: "2022-10-17"
+    url: "https://peraturan.bpk.go.id/Details/186407/uu-no-27-tahun-2022"
+    
+  - name: "UU No. 11 Tahun 2008 tentang ITE (Information & Electronic Transactions)"
+    type: "Cyber law"
+    scope: "National"
+    key_points: ["Digital signatures", "Cybercrime provisions", "Content removal", "Safe harbor debate"]
+    amended: "2016 (UU 19/2016)"
+    url: "https://www.dpr.go.id/dokjdih/document/uu/11-tahun-2008"
+    
+  - name: "UU No. 28 Tahun 2014 tentang Hak Cipta (Copyright Law)"
+    type: "Copyright"
+    scope: "National"
+    key_points: ["Moral rights", "Economic rights", "Digital copyright", "Safe harbor for ISPs"]
+    effective_date: "2014-10-16"
+    
+# AI-Specific Regulations
+ai_regulations:
+  framework: "Ministry of Communication & IT roadmap"
+  regulator: "Ministry of Communication & IT (Kominfo)"
+  key_principles: ["Ethical AI", "Human rights protection", "Transparency", "Accountability"]
+  mandatory_reporting: false
+  high_risk_ai: "Under discussion (EU AI Act influence)"
+  
+# Privacy & Data Protection
+privacy:
+  authority: "Ministry of Communication & IT (Kominfo)"
+  url: "https://www.kominfo.go.id"
+  gdpr_equivalent: false
+  adequacy_decision: false
+  data_localization: true
+  breach_notification_hours: 72
+  pdp_law_2022: true
+  
+# Internet Censorship
+internet_censorship:
+  level: "Moderate to High"
+  blocked_content: ["Pornography", "Gambling", "Terrorism-related", "Some political content"]
+  filters: "DNS filtering by ISPs (Kominfo orders)"
+  social_media_bans: false
+  tiktok_ban_threat: "2023 (content moderation compliance)"
+  
+# Digital Platform Regulation
+digital_platforms:
+  content_removal: "Kominfo can order takedowns (ITE Law)"
+  hate_speech_laws: true
+  fake_news_regulation: true
+  algorithms_transparency: "Under discussion"
+  
+# E-Commerce
+ecommerce:
+  consumer_law: "UU No. 8 Tahun 1999 tentang Perlindungan Konsumen"
+  online_purchases: "Same protections as in-store"
+  cooling_off_period: false
+  digital_products_covered: true
+  shopee_tokopedia_dominance: true
+  
+# Telecommunications
+telecommunications:
+  act: "UU No. 36 Tahun 1999 tentang Telekomunikasi"
+  regulator: "Kominfo"
+  url: "https://www.kominfo.go.id"
+  metadata_retention: true
+  retention_period_years: 3
+  
+# Cybersecurity
+cybersecurity:
+  strategy: "Indonesia Cyber Security Strategy 2020-2024"
+  lead_agency: "BSSN (Badan Siber dan Sandi Negara)"
+  url: "https://bssn.go.id"
+  key_initiatives: ["Critical infrastructure protection", "National CERT", "Cybersecurity skills"]
+  
+# Cross-Border Data Flows
+cross_border:
+  pdp_law_2022_restrictions: true
+  adequacy_countries: []
+  data_transfer_mechanisms: ["Standard contractual clauses", "Binding corporate rules"]
+  local_data_storage: "Some sectors (e.g., fintech must store in Indonesia)"
+  
+# Digital Identity
+digital_identity:
+  framework: "e-KTP (Electronic ID Card)"
+  gov_identity: "NIK (Nomor Induk Kependudukan)"
+  url: "https://dukcapil.kemendagri.go.id"
+  adoption_2024: 280000000
+  digital_signature: "BSrE (BSrE certificate)"
+  
+# Online Gaming
+online_gaming:
+  regulation: "Kominfo & Ministry of Trade"
+  online_gambling: "Prohibited (strict enforcement)"
+  sports_betting: "Prohibited"
+  license_required: false
+  regulator: "Kominfo"

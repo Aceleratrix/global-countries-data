@@ -1,0 +1,181 @@
+# Indonesia Digital Marketing Landscape
+# AI-Ready: Structured for multi-agent systems
+
+country: indonesia
+last_updated: "2024-12-15"
+asean_member: true
+privacy_law_equivalent: "UU PDP 2022"
+
+# Digital Marketing Overview
+digital_marketing_overview:
+  market_size_usd_millions: 11200
+  market_size_idr_trillions: 168
+  annual_growth_percent: 22.5
+  percent_of_total_ad_spend: 78
+  programmatic_share_percent: 72
+  
+# Top Social Media Platforms
+social_media:
+  - platform: "WhatsApp"
+    users_millions: 175
+    penetration_percent: 62
+    business_adoption_percent: 95
+    ad_revenue_usd_millions: 0
+    
+  - platform: "Instagram"
+    users_millions: 120
+    penetration_percent: 43
+    business_adoption_percent: 82
+    ad_revenue_usd_millions: 3200
+    
+  - platform: "Facebook"
+    users_millions: 145
+    penetration_percent: 52
+    business_adoption_percent: 88
+    ad_revenue_usd_millions: 2800
+    
+  - platform: "TikTok"
+    users_millions: 135
+    penetration_percent: 48
+    business_adoption_percent: 65
+    ad_revenue_usd_millions: 1800
+    
+  - platform: "YouTube"
+    users_millions: 160
+    penetration_percent: 57
+    business_adoption_percent: 78
+    ad_revenue_usd_millions: 2500
+    
+  - platform: "Twitter/X"
+    users_millions: 25
+    penetration_percent: 9
+    business_adoption_percent: 45
+    ad_revenue_usd_millions: 350
+    
+# Search Engines
+search_engines:
+  - engine: "Google"
+    market_share_percent: 95.5
+    
+  - engine: "Bing"
+    market_share_percent: 2.8
+    
+  - engine: "Yahoo!"
+    market_share_percent: 1.2
+    
+  - engine: "Others"
+    market_share_percent: 0.5
+    
+# E-commerce Platforms
+ecommerce_platforms:
+  - platform: "Shopee"
+    market_share_percent: 36
+    top_users: ["SMEs", "Large retailers"]
+    url: "https://shopee.co.id"
+    
+  - platform: "Tokopedia (GoTo)"
+    market_share_percent: 28
+    top_users: ["SMEs", "Direct-to-consumer brands"]
+    url: "https://www.tokopedia.com"
+    
+  - platform: "Lazada (Alibaba)"
+    market_share_percent: 18
+    top_users: ["Large retailers", "Brands"]
+    url: "https://www.lazada.co.id"
+    
+  - platform: "Bukalapak"
+    market_share_percent: 8
+    top_users: ["SMEs", "Local brands"]
+    url: "https://www.bukalapak.com"
+    
+  - platform: "Blibli"
+    market_share_percent: 6
+    top_users: ["Electronics", "Home goods"]
+    url: "https://www.blibli.com"
+    
+# Digital Ad Spend by Channel
+ad_spend_by_channel:
+  social_media_ads_percent: 48
+  search_ads_percent: 32
+  display_ads_percent: 12
+  video_ads_percent: 18
+  email_marketing_percent: 8
+  influencer_marketing_usd_millions: 850
+  
+# Email Marketing
+email_marketing:
+  top_platforms: ["Mailchimp", "GetResponse", "ActiveCampaign", "Klaviyo"]
+  average_open_rate_percent: 18.5
+  average_click_rate_percent: 2.2
+  business_adoption_percent: 62
+  
+# SEO & Content Marketing
+seo_content:
+  top_agencies: ["Dijkstra", "SEO Services Indonesia", "PageOne", "WarungPWE"]
+  average_monthly_budget_idr: 25000000 to 100000000
+  content_marketing_adoption_percent: 68
+  blog_adoption_percent: 55
+  
+# Influencer Marketing
+influencer_marketing:
+  market_size_usd_millions: 850
+  top_influencer_types: ["Lifestyle", "Beauty", "Gaming", "Food", "Travel"]
+  instagram_influencers_100k_plus: 1200
+  tiktok_creators_100k_plus: 850
+  micro_influencers_growth_percent: 78
+  
+# Marketing Automation
+marketing_automation:
+  top_platforms: ["HubSpot", "Marketo", "ActiveCampaign", "Brevo (Sendinblue)"]
+  adoption_percent: 32
+  average_cost_usd_monthly: 200 to 1500
+  
+# Privacy & Compliance
+privacy_compliance:
+  law: "UU PDP 2022 (Personal Data Protection)"
+  consent_required: true
+  cookies_banner_required: true
+  email_opt_in: true
+  url: "https://www.kominfo.go.id"
+  
+# Mobile Marketing
+mobile_marketing:
+  smartphone_penetration_percent: 70
+  mobile_ad_spend_percent: 72
+  sms_marketing_adoption_percent: 42
+  app_advertising_growth_percent: 38
+  
+# Video Marketing
+video_marketing:
+  youtube_dominance: true
+  tiktok_growth_percent: 125
+  live_streaming_growth_percent: 65
+  video_content_types: ["Tutorials", "Product demos", "Reviews", "Unboxing"]
+  
+# B2B Marketing
+b2b_marketing:
+  top_channels: ["LinkedIn", "WhatsApp", "Webinars", "Whitepapers"]
+  average_deal_size_usd: 35000
+  sales_cycle_days: 45 to 120
+  account_based_marketing_adoption_percent: 28
+  
+# Marketing Technology Stack
+martech_stack:
+  crm: ["Salesforce", "HubSpot", "Zoho CRM", "Bitrix24"]
+  analytics: ["Google Analytics 4", "Adobe Analytics", "Hotjar", "Pixel Facebook"]
+  social_media_management: ["Hootsuite", "Sprout Social", "Buffer", "Promeo"]
+  seo_tools: ["SEMrush", "Ahrefs", "Ubersuggest", "SEO Tools"]
+  
+# Local Marketing
+local_marketing:
+  google_my_business_adoption_percent: 58
+  local_seo_investment_growth_percent: 48
+  review_platforms: ["Google Reviews", "TripAdvisor", "Facebook Reviews"]
+  location_based_ads_growth_percent: 45
+  
+# Islamic Marketing
+islamic_marketing:
+  halal_certification_required: true
+  muslim_market_percent: 86.7
+  ramadan_campaigns: true
+  top_ramadan_categories: ["F&B", "Fashion", "Travel", "Electronics"]

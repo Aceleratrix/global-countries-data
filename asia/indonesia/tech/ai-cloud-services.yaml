@@ -1,0 +1,126 @@
+# Indonesia AI & Cloud Services
+# AI-Ready: Structured for multi-agent systems
+
+country: indonesia
+last_updated: "2024-12-15"
+asean_member: true
+
+# National AI Strategy
+national_strategy:
+  name: "Strategi Nasional Kecerdasan Artifisial 2020-2045"
+  launched: 2020
+  budget_usd_millions: 500
+  url: "https://www.kominfo.go.id"
+  key_pillars: ["AI talent development", "AI adoption in industry", "AI ethics & governance", "AI infrastructure"]
+  target_gdp_contribution_usd_billions: 366
+  target_year: 2030
+  talent_target: 1000000
+  
+# AI in Digital Economy
+digital_economy_ai:
+  target_2025_usd_billions: 77
+  sectors: ["E-commerce", "Fintech", "Healthtech", "Agritech", "Edtech"]
+  tech_hubs: ["Jakarta", "Bandung", "Yogyakarta", "Bali", "Surabaya"]
+  programmer_population: 3000000
+  
+# Major AI Companies & Startups
+ai_companies:
+  - name: "GoTo Group (Gojek + Tokopedia)"
+    valuation_peak_usd_billions: 23
+    ai_products: ["Route optimization AI", "Fraud detection", "Recommendation engine", "Chatbot"]
+    employees: 8000
+    headquarters: "Jakarta"
+    
+  - name: "Sea Group (Shopee Indonesia)"
+    valuation_peak_usd_billions: 200
+    ai_products: ["Recommendation AI", "Logistics optimization", "Fraud detection"]
+    employees: 25000
+    presence: "Major in Indonesia"
+    
+  - name: "Bukalapak"
+    valuation_peak_usd_billions: 3.5
+    ai_products: ["Product recommendation", "Customer service AI", "Inventory optimization"]
+    employees: 2500
+    headquarters: "Jakarta"
+    
+  - name: "Akulaku"
+    focus: "AI-driven fintech lending"
+    users_millions: 40
+    ai_products: ["Credit scoring", "Fraud detection", "Risk management"]
+    
+  - name: "Pinhome"
+    focus: "PropTech with AI"
+    url: "https://pinhome.id"
+    ai_products: ["Property valuation AI", "Recommendation engine"]
+    
+# AI Research & Academia
+ai_research:
+  top_universities:
+    - "UI (University of Indonesia) - AI Lab"
+    - "ITB (Bandung Institute of Technology) - AI Research"
+    - "UGM (Gadjah Mada University) - Machine Learning"
+    - "ITS (Sepuluh Nopember) - Computer Vision"
+    
+  research_institutes:
+    - "BRIN (National Research Agency) - AI Division"
+    - "LIPI (Indonesian Institute of Sciences) - AI research"
+    
+# Cloud Regions
+cloud_regions:
+  aws:
+    regions: ["Asia Pacific (Jakarta)"]
+    availability_zones: 3
+    launched: 2023
+    url: "https://aws.amazon.com/about-aws/global-infrastructure/regions_az/"
+    
+  azure:
+    regions: ["Indonesia (planned 2024)"]
+    availability_zones: 3
+    url: "https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/"
+    
+  google_cloud:
+    regions: ["Jakarta (planned)"]
+    availability_zones: 2
+    
+  alibaba_cloud:
+    regions: ["Jakarta"]
+    availability_zones: 2
+    url: "https://www.alibabacloud.com"
+    
+# Government AI Initiatives
+government_ai:
+  digital_transformation: "100 Smart Cities by 2045"
+  ai_procurement_policy: "Under development"
+  ai_ethics_certification: false
+  gov_ai_use_cases: ["Tax fraud detection (DJP)", "Customs optimization", "Health diagnostics (BPJS)", "Education personalization"]
+  url: "https://www.kominfo.go.id"
+  
+# AI Investment & Funding
+ai_investment:
+  venture_capital_2023_usd_millions: 850
+  major_investors: ["Sequoia Capital India", "GGV", "East Ventures", "AC Ventures"]
+  gov_ai_funding_usd_millions: 500
+  
+# AI Skills & Talent
+ai_skills:
+  ai_workers_estimate: 85000
+  skills_shortage: true
+  government_training_budget_usd_millions: 150
+  visa_pathways: ["KITAS (Temporary Stay)", "KITAP (Permanent Stay)"]
+  ai_courses_universities: 180
+  
+# AI Regulations in Development
+ai_regulation_roadmap:
+  2024: "PDP Law implementation complete"
+  2025: "AI ethics framework launch"
+  2026: "AI Act consultation (EU alignment)"
+  alignment: "ASEAN AI Guide, OECD AI Principles"
+  
+# AI in Key Industries
+industry_ai_adoption:
+  agriculture: ["Precision farming", "Crop monitoring (drones)", "Yield prediction", "Pest detection (CV)"]
+  palm_oil: ["Yield optimization", "Supply chain AI", "Quality control"]
+  mining: ["Nickel processing AI", "Predictive maintenance", "Automation"]
+  fintech: ["Credit scoring", "Fraud detection", "Robo-advisory", "KYC automation"]
+  ecommerce: ["Recommendation engines", "Logistics AI", "Customer service chatbots"]
+  tourism: ["Personalized recommendations", "Dynamic pricing", "Chatbots for booking"]

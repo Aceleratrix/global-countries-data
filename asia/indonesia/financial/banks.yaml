@@ -1,0 +1,163 @@
+# Indonesia Banking & Financial System
+# AI-Ready: Structured for multi-agent systems
+
+country: indonesia
+last_updated: "2024-12-15"
+currency: IDR
+asean_member: true
+
+# Banking System Overview
+system:
+  type: "Dual banking (Conventional + Sharia)"
+  regulator: "Otoritas Jasa Keuangan (OJK)"
+  url: "https://www.ojk.go.id"
+  central_bank: "Bank Indonesia (BI)"
+  bi_url: "https://www.bi.go.id"
+  deposit_guarantee_idr: 2000000000
+  deposit_guarantee_usd: 133333
+  guarantee_scheme: "LPS (Lembaga Penjamin Simpanan)"
+  
+# Major Banks
+major_banks:
+  - name: "Bank Rakyat Indonesia (BRI)"
+    market_share_percent: 17
+    assets_idr_trillions: 1900
+    assets_usd_billions: 127
+    branches: 8700
+    digital_users_millions: 45
+    ai_initiatives: ["AI credit scoring", "Fraud detection", "Chatbots"]
+    
+  - name: "Bank Central Asia (BCA)"
+    market_share_percent: 15
+    assets_idr_trillions: 1300
+    assets_usd_billions: 87
+    branches: 1200
+    digital_users_millions: 32
+    ai_initiatives: ["AI-driven personalization", "Predictive analytics"]
+    
+  - name: "Bank Mandiri"
+    market_share_percent: 14
+    assets_idr_trillions: 1800
+    assets_usd_billions: 120
+    branches: 2600
+    digital_users_millions: 28
+    ai_initiatives: ["AI risk models", "NLP for compliance"]
+    
+  - name: "Bank Negara Indonesia (BNI)"
+    market_share_percent: 8
+    assets_idr_trillions: 900
+    assets_usd_billions: 60
+    branches: 1800
+    digital_users_millions: 18
+    ai_initiatives: ["AI investment tools", "Customer segmentation"]
+    
+  - name: "CIMB Niaga"
+    market_share_percent: 5
+    assets_idr_trillions: 300
+    assets_usd_billions: 20
+    branches: 500
+    digital_users_millions: 8
+    ai_initiatives: ["Digital-first banking", "AI chatbots"]
+    
+# Payment Methods
+payment_methods:
+  - name: "GoPay (GoTo)"
+    type: "Digital wallet"
+    market_share_percent: 35
+    users_millions: 125
+    url: "https://www.gopay.co.id"
+    
+  - name: "OVO"
+    type: "Digital wallet"
+    market_share_percent: 30
+    users_millions: 110
+    url: "https://www.ovo.id"
+    
+  - name: "Dana"
+    type: "Digital wallet"
+    market_share_percent: 18
+    users_millions: 65
+    
+  - name: "Credit/Debit Cards"
+    major_brands: ["Visa", "Mastercard", "JCB"]
+    market_share_percent: 12
+    average_credit_limit_idr: 25000000
+    
+  - name: "Bank Transfer (ATM/Internet Banking)"
+    type: "Direct bank transfer"
+    market_share_percent: 25
+    real_time: true
+    
+  - name: "QRIS (QR Code Indonesian Standard)"
+    type: "QR code payments"
+    launched: 2019
+    merchants_millions: 28
+    url: "https://www.bi.go.id/qris"
+    
+# Digital Banking
+digital_banking:
+  adoption_percent: 78
+  mobile_banking_percent: 72
+  neobanks: ["Jago (Bank Jago)", "Allobank", "Blu by BCA"]
+  open_banking: true
+  open_banking_url: "https://www.bi.go.id"
+  
+# ATMs & Branches
+atms:
+  total: 170000
+  major_bank_ownership_percent: 65
+  independent_operators: true
+  
+# International Transfers
+international_transfers:
+  swift_codes: true
+  major_providers: ["Western Union", "MoneyGram", "Wise", "Remitly"]
+  average_fee_usd: 5 to 25
+  processing_time_days: 1 to 3
+  
+# Stock Exchange
+stock_exchange:
+  name: "Indonesia Stock Exchange (IDX)"
+  market_cap_usd_billions: 750
+  listed_companies: 820
+  idx_composite_index: true
+  url: "https://www.idx.co.id"
+  
+# Fintech Ecosystem
+fintech:
+  companies_count: 3500
+  total_investment_2023_usd_millions: 1200
+  unicorns: ["GoTo Group ($23B peak)", "Bukalapak ($3.5B peak)", "Traveloka ($2B)", "Akulaku ($1.5B)"]
+  hot_sectors: ["Payments", "Lending", "Wealth management", "Insurtech"]
+  sandbox: true
+  url: "https://www.ojk.go.id"
+  
+# Cryptocurrency
+cryptocurrency:
+  legal_status: "Legal (regulated as commodity)"
+  major_exchanges: ["Indodax", "Tokocrypto", "Pintu"]
+  bappebti_regulation: true
+  url: "https://www.bappebti.go.id"
+  
+# Business Banking
+business_banking:
+  business_accounts_required: true
+  npwp_required: true
+  tax_registration_linked: true
+  business_loans:
+    major_providers: ["BRI", "BCA", "Mandiri", "BNI"]
+    typical_rate_percent: 9.5 to 14.5
+  pefindo_credit_bureau: true
+  
+# Insurance
+insurance:
+  major_providers: ["BPJS Kesehatan (mandatory health)", "Sinarmas MSIG", "Allianz", "Prudential"]
+  private_health_insurance: true
+  sharia_insurance: true
+  
+# Islamic Banking
+islamic_banking:
+  assets_percent: 12.5
+  major_banks: ["Bank Syariah Indonesia (BSI)", "BCA Syariah", "BRI Syariah"]
+  sukuk_bonds: true
+  url: "https://www.ojk.go.id"

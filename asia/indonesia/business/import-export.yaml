@@ -1,0 +1,187 @@
+# Indonesia Business: Import & Export
+# AI-Ready: Structured for multi-agent systems
+
+country: indonesia
+last_updated: "2024-12-15"
+asean_member: true
+currency: IDR
+
+# Trade Overview
+trade_overview:
+  total_exports_usd_billions: 292
+  total_imports_usd_billions: 238
+  trade_balance_usd_billions: 54
+  top_trading_partner: "China"
+  asean_share_percent: 22
+  
+# Major Exports
+exports:
+  top_commodities:
+    - commodity: "Palm Oil & Products"
+      value_usd_billions: 35
+      percent_of_total: 12.0
+      major_markets: ["China", "India", "Pakistan", "Netherlands"]
+      global_share_percent: 60
+      
+    - commodity: "Coal"
+      value_usd_billions: 42
+      percent_of_total: 14.4
+      major_markets: ["China", "India", "Japan", "South Korea"]
+      
+    - commodity: "Nickel & Products"
+      value_usd_billions: 28
+      percent_of_total: 9.6
+      major_markets: ["China", "Japan", "South Korea"]
+      ev_battery_supply_chain: true
+      
+    - commodity: "Natural Gas (LNG)"
+      value_usd_billions: 18
+      percent_of_total: 6.2
+      major_markets: ["China", "Japan", "Singapore"]
+      
+    - commodity: "Textiles & Garments"
+      value_usd_billions: 15
+      percent_of_total: 5.1
+      major_markets: ["USA", "Germany", "UK", "Japan"]
+      
+    - commodity: "Automotive & Parts"
+      value_usd_billions: 12
+      percent_of_total: 4.1
+      major_markets: ["Philippines", "Vietnam", "Saudi Arabia"]
+      
+# Major Imports
+imports:
+  top_commodities:
+    - commodity: "Machinery & Electronics"
+      value_usd_billions: 65
+      percent_of_total: 27.3
+      
+    - commodity: "Refined Petroleum"
+      value_usd_billions: 38
+      percent_of_total: 16.0
+      
+    - commodity: "Iron & Steel"
+      value_usd_billions: 18
+      percent_of_total: 7.6
+      
+    - commodity: "Organic Chemicals"
+      value_usd_billions: 15
+      percent_of_total: 6.3
+      
+    - commodity: "Plastics"
+      value_usd_billions: 12
+      percent_of_total: 5.0
+      
+# Top Trading Partners
+trading_partners:
+  exports:
+    - country: "China"
+      value_usd_billions: 65
+      percent_of_total: 22.3
+    - country: "USA"
+      value_usd_billions: 28
+      percent_of_total: 9.6
+    - country: "Japan"
+      value_usd_billions: 25
+      percent_of_total: 8.6
+    - country: "Singapore"
+      value_usd_billions: 22
+      percent_of_total: 7.5
+    - country: "India"
+      value_usd_billions: 18
+      percent_of_total: 6.2
+      
+  imports:
+    - country: "China"
+      value_usd_billions: 85
+      percent_of_total: 35.7
+    - country: "Singapore"
+      value_usd_billions: 35
+      percent_of_total: 14.7
+    - country: "Japan"
+      value_usd_billions: 22
+      percent_of_total: 9.2
+    - country: "USA"
+      value_usd_billions: 18
+      percent_of_total: 7.6
+    - country: "Thailand"
+      value_usd_billions: 15
+      percent_of_total: 6.3
+      
+# Free Trade Agreements
+free_trade_agreements:
+  - name: "ASEAN Free Trade Area (AFTA)"
+    signed: 1992
+    effective: 1993
+    url: "https://asean.org"
+    
+  - name: "China-ASEAN FTA (CAFTA)"
+    signed: 2002
+    effective: 2005
+    
+  - name: "Indonesia-Australia CEPA (IA-CEPA)"
+    signed: 2019
+    effective: 2020
+    
+  - name: "Regional Comprehensive Economic Partnership (RCEP)"
+    signed: 2020
+    members: 15
+    effective: 2023
+    
+# Palm Oil Dominance
+palm_oil:
+  production_percent_global: 60
+  plantations_hectares: 16000000
+  top_export_destinations: ["India", "China", "Pakistan", "Netherlands"]
+  ev_forestation_concerns: true
+  sustainable_certification: "RSPO (Roundtable on Sustainable Palm Oil)"
+  
+# Nickel & EV Supply Chain
+nickel_industry:
+  reserves_global_percent: 24
+  export_ban_raw_ore: 2020
+  value_addition_policy: "Process nickel domestically"
+  major_investors: ["China", "South Korea", "Japan"]
+  ev_battery_hub: true
+  
+# Trade Promotion
+trade_promotion:
+  bkpm:
+    name: "Badan Koordinasi Penanaman Modal (Investment Coordinating Board)"
+    url: "https://www.bkpm.go.id"
+    services: ["Investment facilitation", "One-stop service", "Tax allowances"]
+    
+  kemendag:
+    name: "Kementerian Perdagangan (Ministry of Trade)"
+    url: "https://www.kemendag.go.id"
+    services: ["Export licenses", "Import permits", "Trade missions"]
+    
+# Import Regulations
+import_regulations:
+  customs_service: "Bea Cukai (Directorate General of Customs)"
+  url: "https://www.beacukai.go.id"
+  vat_on_imports: true
+  vat_rate_percent: 11
+  duty_rates: "0% to 150% (luxury goods)"
+  import_licenses: "Lartas (restricted goods list)"
+  
+# Export Controls
+export_controls:
+  export_bans: ["Raw nickel ore", "Raw bauxite", "Palm oil (temporary)"]
+  value_addition_policy: "Process domestically"
+  export_license: "NPIK (Export License)"
+  url: "https://www.kemendag.go.id"
+  
+# Export Finance
+export_finance:
+  indonesia_eximbank:
+    name: "Bank Ekspor Indonesia (LPEI)"
+    url: "https://www.lpei.go.id"
+    services: ["Export credit insurance", "Working capital", "Guarantees"]
+    
+# Regional Trade
+regional_trade:
+  asean_member: true
+  asean_chair_2023: true
+  rcep_member: true
+  g20_member: true

@@ -1,0 +1,143 @@
+# Indonesia Labor Laws
+# AI-Ready: Structured for multi-agent systems
+
+country: indonesia
+last_updated: "2024-12-15"
+jurisdiction: ID
+asean_member: true
+
+# Primary Legislation
+federal_law:
+  name: "UU No. 13 Tahun 2003 tentang Ketenagakerjaan (Manpower Law)"
+  scope: "National"
+  coverage: "Most employees"
+  url: "https://www.dpr.go.id/dokjdih/document/uu/13-tahun-2003"
+  effective_date: "2003-03-25"
+  
+# Local Variations
+local_variations:
+  note: "National law applies nationwide; some provincial minimum wage variations"
+  province_minimum_wages: true
+  
+# Working Hours
+working_hours:
+  standard_week: 40
+  standard_day: 8
+  max_daily: 7 (6 working days) or 8 (5 working days)
+  overtime_threshold: 40
+  overtime_rate: 1.5
+  night_shift_multiplier: 1.15
+  sunday_multiplier: 2.0
+  
+# Minimum Wage (2024, Jakarta example)
+minimum_wage:
+  jakarta_monthly_idr: 4900000
+  jakarta_monthly_usd: 327
+  national_range_idr: 2800000 to 4900000
+  national_range_usd: 187 to 327
+  effective_date: "2024-01-01"
+  review_body: "Provincial Government + Wage Council"
+  url: "https://www.kemnaker.go.id"
+  note: "Minimum wage varies by province (Jakarta highest)"
+  
+# Leave Entitlements
+leave:
+  annual_leave_days: 12
+  after_1_year: 12
+  after_6_years: 15
+  after_9_years: 18
+  sick_leave: "Full pay for 4 months, then decreasing"
+  maternity_leave_months: 3
+  paternity_leave_days: 2
+  bereavement_leave_days: 2
+  
+# Employment Types
+employment_types:
+  permanent:
+    definition: "Indefinite contract (PKWTT)"
+    benefits: ["Annual leave", "Sick leave", "BPJS Kesehatan", "Severance pay"]
+  fixed_term:
+    definition: "Fixed-term contract (PKWT), max 5 years"
+    benefits: ["Pro-rata benefits", "BPJS"]
+  outsourcing:
+    definition: "Outsourcing allowed for non-core activities"
+    restrictions: "Prohibited for core business activities"
+  daily_worker:
+    definition: "Daily worker (pekerja harian)"
+    benefits: ["BPJS if >21 days/month"]
+    
+# Termination
+termination:
+  notice_period_months: 1
+  severance_pay: true
+  formula: "Based on years of service (1 month per year, max 9 months)"
+  religious_freedom: "Cannot terminate based on religion"
+  
+# Social Security (BPJS)
+social_security:
+  health_insurance: "BPJS Kesehatan"
+  employment_insurance: "BPJS Ketenagakerjaan"
+  employer_contribution_percent: 11.24
+  employee_contribution_percent: 4.0
+  coverage: ["Health insurance", "Work accident", "Pension", "Death benefit"]
+  url: "https://www.bpjs-kesehatan.go.id"
+  
+# Pension
+pension:
+  system: "BPJS Ketenagakerjaan (Old Age Security)"
+  employer_contribution_percent: 3.7
+  employee_contribution_percent: 2.0
+  retirement_age: 56
+  url: "https://www.bpjs-tk.co.id"
+  
+# Labor Courts
+labor_justice:
+  system: "Industrial Relations Court (PHI)"
+  url: "https://www.mahkamahagung.go.id"
+  mediation_required: true
+  ministry_mediation: "Disnaker (Ministry of Manpower)"
+  
+# Unions & Collective Bargaining
+unions:
+  coverage_percent: 12.5
+  major_unions:
+    - "KSPSI (Konfederasi Serikat Pekerja Seluruh Indonesia)"
+    - "KSBSI (Konfederasi Serikat Buruh Seluruh Indonesia)"
+    - "KSN (Konfederasi Serikat Nasional)"
+  collective_bargaining: true
+  
+# Health & Safety
+work_health_safety:
+  act: "UU No. 1 Tahun 1970 tentang Keselamatan Kerja"
+  regulator: "Kemnaker (Ministry of Manpower)"
+  url: "https://www.kemnaker.go.id"
+  bpjs_coverage: true
+  workplace_inspections: true
+  
+# Equal Opportunity
+equal_opportunity:
+  law: "UU No. 39 Tahun 1999 tentang Hak Asasi Manusia"
+  gender_pay_gap_percent: 22.0
+  religious_freedom: "Protected"
+  sexual_harassment_protections: true
+  
+# Remote Work
+remote_work:
+  legal_right: false
+  employer_discretion: true
+  work_from_home_expenses: "Not mandated"
+  covid_impact: "Hybrid work normalized in tech sector"
+  
+# AI in the Workplace
+ai_workplace:
+  regulation_status: "Under development"
+  ethical_framework: false
+  employer_notification_required: false
+  human_oversight_required: true
+  
+# Foreign Workers
+foreign_workers:
+  work_permit_required: true
+  visa_types: ["IMTA (Work Permit)", "KITAS (Temporary Stay Permit)", "KITAP (Permanent Stay)"]
+  manpower_plan: "RPTKA (Foreign Manpower Utilization Plan)"
+  url: "https://www.kemnaker.go.id"

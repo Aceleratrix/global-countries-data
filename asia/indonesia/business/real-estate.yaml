@@ -1,0 +1,157 @@
+# Indonesia Business: Real Estate
+# AI-Ready: Structured for multi-agent systems
+
+country: indonesia
+last_updated: "2024-12-15"
+asean_member: true
+currency: IDR
+
+# Real Estate Market Overview
+market_overview:
+  total_value_usd_billions: 450
+  residential_percent: 75
+  commercial_percent: 18
+  industrial_percent: 7
+  
+# Major Cities Property Prices (2024)
+property_prices:
+  jakarta:
+    median_apartment_usd: 85000
+    median_house_usd: 120000
+    annual_growth_percent: 3.2
+    prime_districts: ["SCBD", "Menteng", "Kuningan", "Sudirman"]
+    
+  bali:
+    median_villa_usd: 250000
+    median_apartment_usd: 45000
+    annual_growth_percent: 8.5
+    tourism_boom: true
+    top_areas: ["Seminyak", "Canggu", "Ubud", "Uluwatu"]
+    
+  surabaya:
+    median_house_usd: 65000
+    median_apartment_usd: 35000
+    annual_growth_percent: 2.8
+    
+  bandung:
+    median_house_usd: 45000
+    median_apartment_usd: 30000
+    annual_growth_percent: 4.1
+    
+# Rental Market
+rental_market:
+  jakarta:
+    median_monthly_usd: 850
+    vacancy_rate_percent: 8.5
+    expat_areas: ["SCBD", "Kuningan", "Menteng", "Kemang"]
+    
+  bali:
+    median_monthly_usd: 1200
+    villa_rental_usd: 2500 to 15000
+    tourism_driven: true
+    
+  surabaya:
+    median_monthly_usd: 450
+    vacancy_rate_percent: 6.2
+    
+# Commercial Real Estate
+commercial:
+  office:
+    jakarta_cbd_usd_m2: 35
+    surabaya_cbd_usd_m2: 18
+    vacancy_rate_percent: 18.5
+    new_capital_nusantara: "New construction starting 2024"
+    
+  retail:
+    prime_rent_usd_m2: 40 to 120
+    vacancy_rate_percent: 12.5
+    
+  industrial:
+    average_rent_usd_m2: 5
+    vacancy_rate_percent: 8.8
+    demand_drivers: ["E-commerce", "Manufacturing", "Logistics"]
+    new_capital_nusantara: "New industrial zones"
+    
+# Real Estate Investment
+investment:
+  foreign_investment_usd_billions: 4.5
+  top_foreign_buyers: ["Singapore", "China", "USA", "Japan"]
+  restrictions: "Foreigners can buy apartments (stratified), not land"
+  hgb_title: "Hak Guna Bangunan (30-80 years)"
+  freehold_restricted: true
+  
+# Property Taxes & Costs
+property_taxes:
+  ppn_vat:
+    rate_percent: 11.0
+    applies_to: "New properties"
+    
+  ppn_bm_luxury_tax:
+    rate_percent: 20.0
+    threshold_usd: 250000
+    
+  pbb_property_tax:
+    rate_percent: 0.1 to 0.3
+    based_on: "Government-assessed value"
+    
+  notary_fees_percent: 1.0 to 2.0
+  
+# Real Estate Agents
+real_estate_agents:
+  major_agencies: ["Ray White Indonesia", "ERA Indonesia", "Remax Indonesia", "PropNex Indonesia"]
+  average_commission_percent: 2.0 to 5.0
+  licensing: "Member of AREBI (Association of Indonesian Real Estate Brokers)"
+  
+# Buying Process
+buying_process:
+  steps: ["Offer", "Booking fee", "Due diligence", "Deed signing (before notary)", "Land certificate registration"]
+  foreigner_eligibility: "Apartments only (above IDR 5B - ~US$333K)"
+  deposit_percent: 10 to 20
+  closing_costs_percent: 5.0 to 8.0
+  
+# Renting Process
+renting_process:
+  lease_term_months: 12
+  deposit_months: 2 to 3
+  guarantor_required: false
+  annual_increase_cap_percent: 10
+  
+# New Capital: Nusantara (IKN)
+nusantara_capital:
+  location: "East Kalimantan (Borneo)"
+  construction_started: 2022
+  planned_completion: 2045
+  estimated_cost_usd_billions: 35
+  smart_city_features: true
+  green_city_design: true
+  tech_hub_planned: true
+  
+# Real Estate Portals
+property_portals:
+  - name: "Rumah123"
+    market_share_percent: 35
+    url: "https://www.rumah123.com"
+    
+  - name: "PropertyGuru Indonesia"
+    market_share_percent: 30
+    url: "https://www.propertyguru.co.id"
+    
+  - name: "Rumah.com"
+    market_share_percent: 20
+    url: "https://www.rumah.com"
+    
+  - name: "OLX Indonesia (Properties)"
+    market_share_percent: 10
+    url: "https://www.olx.co.id"
+    
+# Construction & Development
+construction:
+  new_units_2024: 250000
+  major_developers: ["Agung Sedayu Group", "Sinar Mas Land", "Ciputra Group", "Agung Podomoro"]
+  construction_costs_index_percent: 4.5
+  
+# Islamic Real Estate
+islamic_finance:
+  sharia_mortgages_percent: 15
+  major_providers: ["BTN Syariah", "BCA Syariah", "BRI Syariah"]
+  sharia_compliant: true
