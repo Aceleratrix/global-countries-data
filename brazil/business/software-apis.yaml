@@ -1,0 +1,299 @@
+version: 1.0.0
+country: brazil
+last_updated: 2026-04-30
+description: "Softwares de gestão, contabilidade e ERPs para empresas brasileiras"
+
+# Softwares de Contabilidade (Integração Fiscal)
+accounting_software:
+  - name: "ContaAzul"
+    website_pt: "https://www.contaazul.com"
+    website_en: "https://www.contaazul.com/en"
+    type: "Cloud ERP"
+    target: "Micro e Pequenas Empresas (ME/EPP)"
+    features_pt: ["Emissão de NF-e/NFS-e", "Contabilidade automática", "PIX", "Boleto"]
+    features_en: ["NF-e/NFS-e issuance", "Automatic accounting", "PIX", "Boleto"]
+    api: "https://developers.contaazul.com"
+    pricing_brl_month: [99, 299, 599]
+    
+  - name: "Bling"
+    website: "https://www.bling.com.br"
+    type: "Cloud ERP"
+    target: "E-commerce e Varejo"
+    features_pt: ["Integração com Marketplaces", "NF-e", "Estoque", "PIX"]
+    features_en: ["Marketplace integration", "NF-e", "Inventory", "PIX"]
+    api: "https://developers.bling.com.br"
+    pricing_brl_month: [129, 269, 499]
+    
+  - name: "Tiny ERP"
+    website: "https://www.tiny.com.br"
+    type: "Cloud ERP"
+    target: "E-commerce"
+    features_pt: ["Multi-loja", "Integração Mercado Livre", "NF-e", "Bling"]
+    features_en: ["Multi-store", "Mercado Livre integration", "NF-e", "Bling"]
+    api: "https://developers.tiny.com.br"
+    pricing_brl_month: [199, 399, 699]
+    
+  - name: "Omie"
+    website: "https://www.omie.com.br"
+    type: "Cloud ERP"
+    target: "Pequenas e Médias Empresas"
+    features_pt: ["Financeiro", "Fiscal", "Vendas", "CRM"]
+    features_en: ["Financial", "Fiscal", "Sales", "CRM"]
+    api: "https://developers.omie.com.br"
+    pricing_brl_month: [89, 199, 399]
+    
+  - name: "eNotas"
+    website: "https://www.enotas.com.br"
+    type: "NFS-e Specialized"
+    target: "Prestadores de Serviço"
+    features_pt: ["Emissão de NFS-e", "API REST", "Multi-cidade"]
+    features_en: ["NFS-e issuance", "REST API", "Multi-city"]
+    api: "https://docs.enotas.com.br"
+    pricing_brl_month: [49, 99, 199]
+
+# ERPs para Médias e Grandes Empresas
+enterprise_erps:
+  - name: "SAP Brasil"
+    website: "https://www.sap.com/brazil"
+    type: "Enterprise ERP"
+    target: "Grandes Empresas"
+    modules_pt: ["FI (Financeiro)", "CO (Controladoria)", "SD (Vendas)", "MM (Materiais)"]
+    modules_en: ["FI (Finance)", "CO (Controlling)", "SD (Sales)", "MM (Materials)"]
+    cloud_version: "SAP S/4HANA Cloud"
+    implementation_partners_pt: ["Accenture", "Deloitte", "EY", "PwC"]
+    implementation_partners_en: ["Accenture", "Deloitte", "EY", "PwC"]
+    
+  - name: "TOTVS (Protheus/Linxx)"
+    website: "https://www.totvs.com.br"
+    type: "Enterprise ERP"
+    target: "Médias e Grandes Empresas"
+    market_share_percent: 45.0
+    modules_pt: ["Financeiro", "Compras", "Estoque", "Fiscal", "RH"]
+    modules_en: ["Financial", "Purchasing", "Inventory", "Fiscal", "HR"]
+    cloud_version: "TOTVS Cloud"
+    
+  - name: "Oracle NetSuite"
+    website: "https://www.netsuite.com.br"
+    type: "Cloud ERP"
+    target: "Médias Empresas"
+    features_pt: ["Financeiro", "CRM", "E-commerce", "Suporte multi-moeda"]
+    features_en: ["Financial", "CRM", "E-commerce", "Multi-currency support"]
+    pricing_usd_month: [999, 2000, 4000]
+
+# Softwares de Gestão de E-commerce
+ecommerce_management:
+  - name: "VTEX"
+    website: "https://vtex.com/br-pt"
+    type: "E-commerce Platform + ERP"
+    features_pt: ["Storefront", "OMS (Order Management)", "PIX nativo", "Marketplace"]
+    features_en: ["Storefront", "OMS (Order Management)", "Native PIX", "Marketplace"]
+    api: "https://developers.vtex.com"
+    clients_pt: ["Natura", "C&A", "Renner", "Boticário"]
+    pricing: "Enterprise (sob consulta)"
+    
+  - name: "Tiendanube (Nuvemshop)"
+    website: "https://www.nuvemshop.com.br"
+    type: "E-commerce Platform"
+    region: "LatAm"
+    features_pt: ["Checkout próprio", "PIX", "Mercado Pago", "Mobile app"]
+    features_en: ["Custom checkout", "PIX", "Mercado Pago", "Mobile app"]
+    pricing_brl_month: [199, 399, 799]
+    
+  - name: "Yampi"
+    website: "https://yampi.com.br"
+    type: "E-commerce + Operations"
+    features_pt: ["Checkout transparente", "PIX", "Gestão de pedidos", "Bling integration"]
+    features_en: ["Transparent checkout", "PIX", "Order management", "Bling integration"]
+    pricing_brl_month: [297, 497, 997]
+
+# Ferramentas de Gestão de Pedidos (OMS)
+order_management:
+  - name: "B2W (Americanas) API"
+    website: "https://developers.b2wmarketplace.com.br"
+    type: "Marketplace API"
+    marketplaces_pt: ["Americanas", "Submarino", "Shoptime"]
+    marketplaces_en: ["Americanas", "Submarino", "Shoptime"]
+    api_features_pt: ["Catálogo", "Pedidos", "Estoque", "Preços"]
+    api_features_en: ["Catalog", "Orders", "Inventory", "Pricing"]
+    
+  - name: "Magalu API"
+    website: "https://www.magalu.com.br/dev"
+    type: "Marketplace API"
+    features_pt: ["Gestão de pedidos", "Estoque", "Preços", "Fulfillment"]
+    features_en: ["Order management", "Inventory", "Pricing", "Fulfillment"]
+    
+  - name: "Mercado Livre API"
+    website: "https://developers.mercadolivre.com.br"
+    type: "Marketplace API"
+    market_share_percent: 65.0
+    api_features_pt: ["Publicaão de itens", "Gestão de pedidos", "Perguntas", "Envios"]
+    api_features_en: ["Item listing", "Order management", "Questions", "Shipping"]
+
+# KYC e Verificação de Identidade (Para Onboarding)
+kyc_services:
+  - provider: "Serpro (Governo Federal)"
+    service: "Consulta CPF/CNPJ"
+    website: "https://www.serpro.gov.br"
+    api_available: true
+    use_cases_pt: ["Verificação de identidade", "Validação de documentos"]
+    use_cases_en: ["Identity verification", "Document validation"]
+    cost_per_query_brl: 0.50
+    
+  - provider: "Serasa Experian"
+    service: "Serasa Consumidor / Serasa Empresas"
+    website: "https://www.serasa.com.br"
+    api: "https://developers.serasa.com.br"
+    features_pt: ["Score de crédito", "Consulta CPF/CNPJ", "Anti-fraude"]
+    features_en: ["Credit score", "CPF/CNPJ query", "Anti-fraud"]
+    
+  - provider: "DocuSign/Verify"
+    service: "Verificação de Documentos"
+    website: "https://www.docusign.com.br/verify"
+    features_pt: ["Verificação de ID", "Selfie check", "Comprovação de endereço"]
+    features_en: ["ID verification", "Selfie check", "Address proof"]
+    
+  - provider: "Unico (antiga Catho ID)"
+    service: "Reconhecimento facial e documental"
+    website: "https://unico.io"
+    api: "https://docs.unico.io"
+    features_pt: ["FaceAuth", "DocumentAuth", "Pix com biometria"]
+    features_en: ["FaceAuth", "DocumentAuth", "PIX with biometrics"]
+
+# Cobrança e Recuperação de Crédito
+debt_collection:
+  - name: "Serasa Limpa Nome"
+    website: "https://www.serasa.com.br/limpa-nome"
+    type: "Negociação de dívidas"
+    api: false
+    use_for_business_pt: "Recuperação de crédito de clientes"
+    use_for_business_en: "Customer credit recovery"
+    
+  - name: "SPC Brasil"
+    website: "https://www.spcbrasil.org.br"
+    type: "Consulta de crédito"
+    api: "https://www.spcbrasil.org.br/desenvolvedores"
+    features_pt: ["Score de crédito", "Alertas de inadimplência"]
+    features_en: ["Credit score", "Default alerts"]
+    
+  - name: "Recovery\" (Boleto recovery)"
+    website: "https://www.recovery.com.br"
+    type: "Recuperação de boletos vencidos"
+    integration_pt: ["Boleto", "PIX", "Cartão"]
+    integration_en: ["Boleto", "PIX", "Credit Card"]
+
+# Chatbots e Atendimento Automatizado
+customer_service_tools:
+  - name: "Zendesk"
+    website: "https://www.zendesk.com/br"
+    features_pt: ["Tickets", "Chat", "WhatsApp integration", "AI Answers"]
+    features_en: ["Tickets", "Chat", "WhatsApp integration", "AI Answers"]
+    pricing_brl_month: [89, 249, 499]
+    api: "https://developer.zendesk.com"
+    
+  - name: "Intercom"
+    website: "https://www.intercom.com/br"
+    features_pt: ["Live chat", "Chatbot builder", "WhatsApp", "Fin AI"]
+    features_en: ["Live chat", "Chatbot builder", "WhatsApp", "Fin AI"]
+    pricing_usd_month: [74, 128, 499]
+    
+  - name: "RD Station CRM"
+    website: "https://www.rdstation.com/produtos/crm"
+    features_pt: ["CRM", "Automação de marketing", "WhatsApp", "Chatbot"]
+    features_en: ["CRM", "Marketing automation", "WhatsApp", "Chatbot"]
+    pricing_brl_month: [99, 249, 499]
+    
+  - name: "Weni (WhatsApp AI)"
+    website: "https://weni.ai"
+    type: "WhatsApp Business Solution Provider"
+    features_pt: ["Chatbot com IA", "Integração WABA", "Transferência humana"]
+    features_en: ["AI Chatbot", "WABA integration", "Human transfer"]
+    pricing_brl_month: [299, 599, 1499]
+
+# Assinatura de Contratos e Documentos
+document_management:
+  - name: "Clicksign"
+    website: "https://www.clicksign.com.br"
+    features_pt: ["Assinatura eletrônica", "Livro de Ordem", "API REST", "Webhooks"]
+    features_en: ["Electronic signature", "Order Book", "REST API", "Webhooks"]
+    pricing_brl_month: [99, 299, 599]
+    api: "https://clicksign.com.br/desenvolvedores"
+    
+  - name: "DocuSign"
+    website: "https://www.docusign.com.br"
+    features_pt: ["Assinatura internacional", "Templates", "ID Verification"]
+    features_en: ["International signature", "Templates", "ID Verification"]
+    pricing_usd_month: [10, 25, 40]
+    
+  - name: "Zapsign"
+    website: "https://zapsign.com.br"
+    features_pt: ["Assinatura simples", "API", "Preço acessível"]
+    features_en: ["Simple signature", "API", "Affordable pricing"]
+    pricing_brl_month: [99, 199]
+    
+  - name: "Concilig"
+    website: "https://www.concilig.com.br"
+    features_pt: ["Conciliação bancária", "Integração com ERPs", "API"]
+    features_en: ["Bank reconciliation", "ERP integration", "API"]
+
+# Nota Fiscal e Documentos Fiscais (APIs)
+fiscal_document_apis:
+  - provider: "Focus NFe"
+    website: "https://www.focusnfe.com.br"
+    services_pt: ["NF-e", "NFS-e", "CT-e", "MDF-e", "CF-e"]
+    services_en: ["NF-e", "NFS-e", "CT-e", "MDF-e", "CF-e"]
+    api: "https://dev.focusnfe.com"
+    pricing_brl_month: [99, 299, 599]
+    
+  - provider: "NFe.io"
+    website: "https://nfe.io"
+    services_pt: ["Emissão de NF-e/NFS-e", "Gestão fiscal", "Dashboard"]
+    services_en: ["NF-e/NFS-e issuance", "Fiscal management", "Dashboard"]
+    api: "https://nfe.io/docs"
+    
+  - provider: "Arquivei"
+    website: "https://www.arquivei.com.br"
+    services_pt: ["Armazenamento de NF-e", "DANFE", "Manifesto do destinatário"]
+    services_en: ["NF-e storage", "DANFE", "Recipient manifest"]
+    api: "https://dev.arquivei.com.br"
+
+# Integração Bancária (Open Banking)
+open_banking_apis:
+  - provider: "Plug" (Itaú)
+    website: "https://plug.itaú.com.br"
+    apis_pt: ["Accounts", "Transactions", "Payments (PIX)", "Credit"]
+    apis_en: ["Accounts", "Transactions", "Payments (PIX)", "Credit"]
+    auth: "OAuth2"
+    
+  - provider: "Bradesco API"
+    website: "https://developers.bradesco.com.br"
+    apis_pt: ["Saldo", "Extrato", "Transferências", "Boletos"]
+    apis_en: ["Balance", "Statement", "Transfers", "Boletos"]
+    
+  - provider: "BB API"
+    website: "https://developers.bb.com.br"
+    apis_pt: ["Contas", "PIX", "Boletos", "Investimentos"]
+    apis_en: ["Accounts", "PIX", "Boletos", "Investments"]
+
+# Métricas de Negócios (Analytics para E-commerce)
+business_analytics:
+  - tool: "Google Analytics 4"
+    ecommerce_tracking: true
+    enhanced_ecommerce: true
+    integration_pt: ["GA4", "Google Ads", "Search Console"]
+    integration_en: ["GA4", "Google Ads", "Search Console"]
+    cost: "Free (até certo volume)"
+    
+  - tool: "Meta Pixel"
+    tracking_pt: ["Compras", "Carrinhos", "Conversões"]
+    tracking_en: ["Purchases", "Carts", "Conversions"]
+    cost: "Free"
+    
+  - tool: "RD Station Marketing"
+    features_pt: ["Lead scoring", "ROI de marketing", "Attribution modeling"]
+    features_en: ["Lead scoring", "Marketing ROI", "Attribution modeling"]
+    pricing_brl_month: [129, 349, 699]
+    
+  - tool: "Hotjar"
+    features_pt: ["Heatmaps", "Gravação de sessões", "Feedback de usuários"]
+    features_en: ["Heatmaps", "Session recordings", "User feedback"]
+    pricing_usd_month: [0, 99, 389]
