@@ -44,7 +44,7 @@
 | 29 | 🇮🇾 Egito | egypt | Africa | ✅ 100% COMPLETE |
 | 30 | 🇮🇷 Irã | iran | Asia | ✅ 100% COMPLETE |
 | 31 | 🇨🇿 República Tcheca | czech-republic | Europe | ✅ 100% COMPLETE |
-| 32 | 🇷🇴 Romênia | romania | Europe | $0.40T |
+| 32 | 🇷🇴 Romênia | romania | Europe | ✅ 100% COMPLETE |
 | 33 | 🇮🇱 Israel | israel | Asia | ✅ 100% COMPLETE |
 | 34 | 🇵🇹 Portugal | portugal | Europe | ✅ 100% COMPLETE |
 | 35 | 🇮🇾 Iraque | iraq | Asia | $0.37T |

@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (37 / 195 = 19.0%)
+## 📊 Coverage Progress (39 / 195 = 20.0%)
 
 ### 🌎 South America (1/12 = 8.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -61,7 +61,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇹🇭 **Thailand** | 13/13 | ✅ **100% COMPLETE** | 27th largest economy ($0.49T), Tourism 20% GDP, World's largest rice exporter, 71.8M population | English (en-US) |
 | 🇮🇷 **Iran** | 13/13 | ✅ **100% COMPLETE** | 30th largest economy ($0.44T), Tehran (9M), oil/gas superpower, JCPOA nuclear deal | English (en-US) |
 
-### 🌍 Europe (13/44 = 29.5%)
+### 🌍 Europe (14/44 = 31.8%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇩🇪 **Germany** | 13/13 | ✅ **100% COMPLETE** | GDPR (gold standard), EU AI Act, SEPA, Industry 4.0, 4 cloud regions | English (en-US) |
@@ -78,6 +78,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇸🇪 **Sweden** | 13/13 | ✅ **100% COMPLETE** | 22nd/24th largest economy ($0.58T), Spotify, Skype, Ericsson, Stockholm (1M), high welfare state | English (en-US) |
 | 🇨🇿 **Czech Republic** | 13/13 | ✅ **100% COMPLETE** | 31st largest economy ($0.43T), Skoda Auto, Pilsner beer, Prague (1.3M) | English (en-US) |
 | 🇵🇹 **Portugal** | 13/13 | ✅ **100% COMPLETE** | 34th largest economy ($0.38T), Lisbon (3M), cork capital, tourism 17% GDP | English (en-US) |
+| 🇷🇴 **Romania** | 13/13 | ✅ **100% COMPLETE** | 32nd largest economy ($0.40T), Bucharest (2M), EU/NATO member, Carpathian Mountains | English (en-US) |
 
 ### 🌍 Africa (2/54 = 3.7%)
 | Country | Files | Status | Key Highlights | Primary Language |
