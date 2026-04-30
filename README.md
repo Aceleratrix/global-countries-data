@@ -3,210 +3,175 @@
 > **A base de dados mais completa do planeta para sistemas de IA multi-agente operarem em qualquer país.**
 
 [![GitHub stars](https://img.shields.io/github/stars/mtorresbr/global-countries-data?style=social)](https://github.com/mtorresbr/global-countries-data)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Countries](https://img.shields.io/badge/Countries-3+-blue)](https://github.com/mtorresbr/global-countries-data)
-[![Brazil Status](https://img.shields.io/badge/Brazil-100%25%20COMPLETE-brightgreen)](https://github.com/mtorresbr/global-countries-data/brazil/)
-[![AI First](https://img.shields.io/badge/Focus-AI%20First-blueviolet)](https://github.com/mtorresbr/global-countries-data)
-[![Bilingual](https://img.shields.io/badge/Languages-pt--BR%20+%20en-orange)](https://github.com/mtorresbr/global-countries-data)
-
-## 🚀 O Que É Isto?
-
-Um repositório open-source estruturado de dados regionais para que **sistemas de IA possam criar empresas "AI First" que entendam nuances locais**.
-
-Cada país possui dados detalhados sobre:
-
-### 📊 Dados Básicos
-- **Fiscal:** Impostos (ICMS, IPI, PIS/COFINS), regimes tributários, NF-e/NFS-e
-- **Telecom:** Formatos de telefone, CEP, padrões de endereço, DDDs
-- **Legal:** Tipos de empresa, LGPD, Marco Civil, e-commerce law, compliance
-- **Financeiro:** Moeda, bancos (Top 10+), métodos de pagamento (PIX, Boleto), gateways
-- **Demográfico:** População, idiomas, fusos horários, pirâmide etária
-- **Empresarial:** Portes (ME, EPP, Média, Grande, MEI), setores CNAE, horários
-
-### 🤖 Específico para AI First / Negócios 100% Online
-- **APIs de Pagamento:** Open Banking, PagSeguro, Mercado Pago, Stone, Cielo
-- **Serviços de IA:** AWS Bedrock, Google Vertex AI, Azure AI, OpenAI, Anthropic
-- **Cloud Computing:** Regiões no Brasil (AWS sa-east-1, GCP southamerica-east1, Azure Brazil South)
-- **Marketing Digital:** Google Ads, Meta Ads, TikTok Ads, influenciadores, afiliados
-- **Softwares de Gestão:** ContaAzul, Bling, Tiny, VTEX, Omie, ERPs (SAP, TOTVS)
-- **E-commerce:** Marketplaces (Mercado Livre, Amazon, Magalu), Shopify, WooCommerce
-- **Atendimento:** WhatsApp Business API, Zendesk, Intercom, RD Station, chatbots
-- **KYC/Identity:** Serasa, SPC, DocuSign, Unico, verificação de documentos
-- **Fiscal/Contábil:** Focus NFe, eNotas, ContaAzul API, Bling API
-- **Assinatura Digital:** Clicksign, DocuSign, certificados ICP-Brasil
-- **Trabalho/Legal:** CLT, PJ, trabalho remoto (Lei 14.442/2022), salários tech
-- **Imóveis:** Escritórios comerciais, coworking, zoneamento, IPTU
-- **Import/Export:** SISCOMEX, NCM, ANVISA, INMETRO, acordos internacionais
-
-## 📊 Países Disponíveis
-
-| País | ISO | Moeda | Idioma | Completude | AI/Cloud | Dados |
-|------|-----|-------|--------|-----------|---------|-------|
-| [Brasil 🇧🇷](#brazil) | BR | BRL | pt-BR / en | **100% ✅** | 15+ serviços | [Ver](brazil/) |
-| [EUA 🇺🇸](#usa) | US | USD | en-US | Em breve | Em breve | [Ver](usa/) |
-| [Japão 🇯🇵](#japan) | JP | JPY | ja-JP / en | Em breve | Em breve | [Ver](japan/) |
-
-## 🤖 Como Usar (Para Sistemas de IA)
-
-### Python
-```python
-import yaml
-
-# Carregar códigos fiscais brasileiros
-with open('brazil/fiscal/tax-codes.yaml') as f:
-    tax_data = yaml.safe_load(f)
-    print(tax_data['tax_regimes'][0]['code'])  # "SIMPLES NACIONAL"
-
-# Validar formato de telefone brasileiro
-import re
-with open('brazil/telecom/phone-formats.yaml') as f:
-    phone = yaml.safe_load(f)
-    pattern = phone['phone']['formats']['mobile']['pattern']
-    print(bool(re.match(pattern, "+5511999999999")))  # True
-
-# Listar serviços de IA disponíveis no Brasil
-with open('brazil/tech/ai-cloud-services.yaml') as f:
-    ai = yaml.safe_load(f)
-    models = [m['models_pt'] for m in ai['generative_ai_services']]
-
-# Consultar salários de Data Scientist no Brasil
-with open('brazil/legal/labor-law.yaml') as f:
-    labor = yaml.safe_load(f)
-    ds = [s for s in labor['tech_salaries_brl_year'] 
-           if 'Data Scientist' in s['role_pt']][0]
-    print(f"Data Scientist Senior: R$ {ds['range_brl'][1]:,}/ano")
-```
-
-### Consumo via API (Futuro)
-```bash
-curl https://api.global-countries.dev/v1/brazil/fiscal/tax-codes
-curl https://api.global-countries.dev/v1/brazil/tech/ai-cloud-services
-curl https://api.global-countries.dev/v1/brazil/business/import-export
-```
-
-## 📈 Impacto para Negócios AI First
-
-Este repositório permite que:
-- ✅ Sistemas de IA criem empresas que **respeitem leis locais** (LGPD, Marco Civil)
-- ✅ Agentes multi-agent entendam **formatos regionais** (telefone +55, CEP)
-- ✅ Empresas "AI First" operem com **pagamentos locais** (PIX obrigatório)
-- ✅ Automação use **APIs locais** (Open Banking, NF-e, WhatsApp Business)
-- ✅ Chatbots falem a **língua local** (pt-BR) com suporte nativo
-- ✅ Integração com **ecossistema local** (marketplaces, ERPs, gateways)
-- ✅ Contratação de **talentos locais** (salários, CLT, PJ, trabalho remoto)
-- ✅ Importação/exportação **conforme regulamentação** (SISCOMEX, NCM)
-
-## 🏗️ Estrutura do Repositório (Brasil como Exemplo)
-
-```
-global-countries-data/
-├── README.md                          # Este arquivo
-├── CONTRIBUTING.md                    # Diretrizes para contribuição
-├── LICENSE                            # MIT License
-├── schemas/                           # JSON Schemas para validação
-│   └── country-metadata.json
-├── templates/                         # Templates para novos países
-│   └── COUNTRY.md.template
-├── scripts/                           # Scripts de validação
-│   └── validate-country.py
-│
-├── brazil/                            # 🇧🇷 Dados do Brasil (100% COMPLETO)
-│   ├── COUNTRY.md                     # Metadados (YAML frontmatter)
-│   ├── README.md                      # Documentação específica (100% COMPLETO)
-│   ├── fiscal/                        # 📊 Fiscal
-│   │   └── tax-codes.yaml             # Impostos, regimes, NF-e
-│   ├── financial/                      # 💰 Financeiro
-│   │   ├── banks.yaml                 # Bancos, PIX, pagamentos
-│   │   └── payment-apis.yaml          # Open Banking, gateways
-│   ├── telecom/                        # 📱 Telecom
-│   │   └── phone-formats.yaml         # Telefone, CEP, endereços
-│   ├── demographics/                   # 👥 Demográfico
-│   │   └── population.yaml            # População, idiomas, fusos
-│   ├── business/                       # 🏢 Empresarial
-│   │   ├── company-sizes.yaml         # Portes, CNAE, horários
-│   │   ├── software-apis.yaml        # ERPs, e-commerce, CRM
-│   │   ├── real-estate.yaml          # Escritórios, coworking, zoneamento
-│   │   └── import-export.yaml        # SISCOMEX, importação, exportação
-│   ├── legal/                          # ⚖️ Legal
-│   │   ├── ecommerce-law.yaml         # LGPD, Marco Civil, e-commerce
-│   │   └── labor-law.yaml            # CLT, PJ, trabalho remoto, salários
-│   ├── tech/                           # 🤖 Tech & IA
-│   │   └── ai-cloud-services.yaml     # AWS, GCP, Azure, LLMs
-│   └── marketing/                      # 📢 Marketing
-│       └── digital-marketing.yaml     # Google Ads, Meta, influenciadores
-│
-├── usa/                               # 🇺🇸 EUA (em breve)
-└── japan/                            # 🇯🇵 Japão (em breve)
-```
-
-## 🌟 Destaques do Brasil (País Piloto - 100% COMPLETO!)
-
-### 🏆 Maior Ecossistema de Pagamentos Instantâneos
-- **PIX:** Sistema obrigatório, 76% da população adulta, 24/7
-- **Open Banking:** APIs padronizadas de todos os bancos principais
-- **Gateways:** PagSeguro, Mercado Pago, Stone, Cielo
-
-### 🤖 Cloud Regions para IA
-- **AWS sa-east-1** (São Paulo) - 2011, 200+ serviços
-- **Google Cloud southamerica-east1** (São Paulo) - 2017, 150+ serviços
-- **Azure Brazil South** (São Paulo) - 2014, 180+ serviços
-- **Oracle Cloud sa-saopaulo-1** (São Paulo) - 2021, 100+ serviços
-
-### 📱 WhatsApp como Canal de Negócios
-- 92% das empresas usam WhatsApp Business
-- API disponível para chatbots com IA
-- Integração nativa com pagamentos (PIX)
-
-### ⚖️ LGPD (Equivalente ao GDPR)
-- Autoridade: ANPD
-- Multas até R$ 50 milhões
-- Requisitos para IA: consentimento explícito, direito ao esquecimento
-- DP (Data Protection Officer) obrigatório
-
-### 🏭 13.000 Startups Ativas
-- 17 unicórnios
-- 5º maior ecossistema da América Latina
-- Hubs: SP, RJ, BH (San Pedro Valley), Recife (Porto Digital)
-
-### 💼 Trabalho e Remuneração
-- **Lei do Trabalho Remoto (14.442/2022):** Empresa fornece equipamentos e internet
-- **Salários Tech:** Junior R$ 48K-84K/ano, Senior R$ 144K-240K/ano
-- **Contratação:** CLT (com direitos) ou PJ (flexível)
-- **eSocial:** Folha digital obrigatória para todas as empresas
-
-### 🏢 Imóveis e Infraestrutura
-- **Escritórios AAA:** R$ 180-300/m² (Faria Lima, SP)
-- **Coworking:** WeWork, Impact Hub, Cubo (R$ 250-1200/pessoa/mês)
-- **Galpões Logísticos:** R$ 25-45/m² (Grande SP)
-
-### 🚢 Importação e Exportação
-- **SISCOMEX:** Sistema oficial da Receita Federal
-- **Impostos:** II (0-35%), IPI (0-15%), PIS/COFINS (9,25%), ICMS (18%)
-- **Acordos:** Mercosul, EFTA, UE (em ratificação)
-- **Cross-Border E-commerce:** Alibaba (45%), Amazon (25%)
-
-## 🤝 Contribua
-
-Todo mundo é bem-vindo! 
-- 🌍 Adicione seu país
-- 📊 Melhore dados existentes
-- 🤖 Adicione novos serviços de IA
-- 📝 Crie schemas novos
-
-**Padrão Obrigatório:** Todo conteúdo deve ser **bilíngue (pt-BR + en)** para garantir que IAs e sistemas multi-agent possam operar em ambos os idiomas.
-
-Leia o [CONTRIBUTING.md](CONTRIBUTING.md) para começar.
-
-## 📜 Licença
-
-MIT - Use livremente em seus projetos comerciais ou open-source.
+[![GitHub forks](https://img.shields.io/github/forks/mtorresbr/global-countries-data?style=social)](https://github.com/mtorresbr/global-countries-data)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/mtorresbr/global-countries-data/blob/main/LICENSE)
+[![Status: 3 Countries 100% Complete](https://img.shields.io/badge/Status-3 Countries 100% Complete-green)](https://github.com/mtorresbr/global-countries-data)
 
 ---
 
-**Construído com ❤️ pela comunidade open-source para o futuro da IA regionalizada.**
+## 🎯 Objetivo
 
-**Contato:** [Marcos Torres](https://github.com/mtorresbr)  
-**Status do Projeto:** ✅ Brasil 100% COMPLETO | 🚀 Expandindo para outros países  
-**Última atualização:** 30 de abril de 2026  
-**Total de Arquivos (Brasil):** 15 YAML + 2 READMEs = 17 arquivos  
-**Idiomas:** 100% Bilíngue (pt-BR + en) como padrão
+Criar **o maior repositório do planeta** com dados estruturados de todos os países, permitindo que modelos de IA e sistemas multi-agente:
+
+- ✅ Operem de forma **regionalizada** respeitando leis locais (LGPD, GDPR, APPI, etc.)
+- ✅ Integrem sistemas de pagamento locais (PIX, Konbini, ACH, SEPA, etc.)
+- ✅ Compreendam infraestrutura tecnológica (AWS/GCP/Azure regions, fibra óptica, 5G)
+- ✅ Naveguem por requisitos legais (trabalhista, fiscal, importação/exportação)
+- ✅ Personalizem experiências baseadas em demografia e cultura local
+
+---
+
+## 📊 Progresso Global
+
+### 🌎 Países 100% Completos (3/195 = 1.5%)
+
+| País | Arquivos | Status | Destaque | Idioma Primário |
+|-------|----------|--------|----------|-----------------|
+| 🇧🇷 **Brazil** | 17/17 | ✅ **100% COMPLETO** | PIX (76% adoção), LGPD, 5º maior da América Latina | Português (pt-BR) + Inglês |
+| 🇺🇸 **USA** | 13/13 | ✅ **100% COMPLETO** | Silicon Valley, Section 230, 20+ cloud regions | Inglês (en-US) |
+| 🇯🇵 **Japan** | 14/14 | ✅ **100% COMPLETO** | Konbini (25% e-commerce!), LINE (95%), Society 5.0 | Inglês (en-US) |
+
+**Total: 44 arquivos YAML estruturados!**
+
+---
+
+## 🚀 Quick Start (Para Agentes de IA)
+
+```yaml
+# Exemplo: Verificar formato de telefone nos EUA
+cat usa/telecom/phone-formats.yaml
+
+# Exemplo: Verificar leis de privacidade no Japão
+cat japan/legal/internet-law.yaml
+
+# Exemplo: Ver métodos de pagamento no Brasil
+cat brazil/financial/payment-apis.yaml
+```
+
+---
+
+## 📁 Estrutura do Repositório
+
+```
+global-countries-data/
+├── brazil/          # 🇧🇷 100% COMPLETO (17 arquivos)
+│   ├── COUNTRY.md
+│   ├── README.md    # Documentação 100% completa
+│   ├── fiscal/
+│   ├── financial/
+│   ├── telecom/
+│   ├── demographics/
+│   ├── business/
+│   ├── legal/
+│   ├── tech/
+│   └── marketing/
+│
+├── usa/             # 🇺🇸 100% COMPLETO (13 arquivos)
+│   ├── COUNTRY.md
+│   ├── README.md    # Documentação 100% completa
+│   └── ... (mesma estrutura do Brazil)
+│
+├── japan/           # 🇯🇵 100% COMPLETO (14 arquivos)
+│   ├── COUNTRY.md
+│   ├── README.md    # Documentação 100% completa
+│   └── ... (mesma estrutura do Brazil)
+│
+└── (próximos países em breve...)
+```
+
+---
+
+## 🎉 Destaques Exclusivos (AI First)
+
+### 🇧🇷 Brazil
+- **PIX Obrigatório** - 76% adoção, 24/7, gratuito para lojistas
+- **LGPD Completa** - Multas até R$ 50M, DPO obrigatório
+- **4 Cloud Regions** - AWS (2011), GCP (2017), Azure (2014), Oracle (2021)
+- **13.000 Startups** - 17 unicórnios, 5º maior da América Latina
+
+### 🇺🇸 USA (Silicon Valley Focus)
+- **Section 230** - Imunidade para plataformas de internet
+- **20+ Cloud Regions** - AWS, GCP, Azure, Oracle
+- **At-Will Employment** - Pode demitir a qualquer momento
+- **Maior ecossistema de VC** - $89B (2025)
+
+### 🇯🇵 Japan (Tokyo Tech Hub)
+- **Konbini Payments** - 25% e-commerce em 56.000 lojas! ÚNICO NO MUNDO!
+- **LINE** - 95% penetração (WhatsApp japonês com pagamentos!)
+- **Society 5.0** - $2B investimento governamental em IA
+- **Non-competes NÃO executáveis** - Pode ir para concorrentes!
+- **Sem Horário de Verão** - UTC+9 sempre!
+
+---
+
+## 🤖 Para Agentes de IA e Sistemas Multi-Agente
+
+Este repositório foi desenhado para ser consumido por:
+
+- **LLMs** (GPT-4, Claude, Gemini) - Leitura direta de YAML
+- **Agentes Autônomos** - Navegação estruturada por país
+- **Multi-Agent Systems** - Dados padronizados para coordenação global
+- **RAG Systems** - Base de conhecimento para Q&A regionalizado
+
+### Exemplo de Query para Agentes:
+```
+"Como configurar pagamentos para uma empresa AI First no Japão?"
+→ Ler japan/financial/banks.yaml + japan/marketing/digital-marketing.yaml
+→ Resposta: Konbini (25%), LINE Pay (60M usuários), Suica/Pasmo
+```
+
+---
+
+## 🌍 Próximos Países (Roadmap)
+
+| País | Prioridade | Motivo |
+|------|------------|--------|
+| 🇩🇪 Germany | Alta | Maior economia da Europa, GDPR, SEPA |
+| 🇬🇧 UK | Alta | Hub financeiro, Brexit, Open Banking |
+| 🇮🇳 India | Alta | 1.4B pessoas, UPI, tech hub |
+| 🇨🇳 China | Média | Maior população, Alipay/WeChat, Great Firewall |
+| 🇫🇷 France | Média | GDPR origin, segunda maior economia UE |
+| 🇦🇺 Australia | Média | APAC hub, proximity to Japan |
+| 🇸🇬 Singapore | Baixa | Hub financeiro asiático, muito pequeno |
+| 🇰🇷 South Korea | Baixa | K-pop, tech avançada, 5G líder |
+
+**Meta: 10 países até fim de 2026!**
+
+---
+
+## 🛠️ Como Contribuir
+
+1. **Fork o repositório**
+2. **Crie um branch** (`git checkout -b feature/novo-pais`)
+3. **Siga a estrutura** baseada no Brazil/USA/Japan
+4. **Todos os arquivos em Inglês** (idioma primário)
+5. **Abra um Pull Request** com descrição detalhada
+
+Veja [CONTRIBUTING.md](CONTRIBUTING.md) para instruções detalhadas (em breve).
+
+---
+
+## 📜 Licença
+
+Este projeto está licenciado sob a **MIT License** - veja [LICENSE](LICENSE) para detalhes.
+
+---
+
+## 🔗 Links Úteis
+
+- **Repositório**: https://github.com/mtorresbr/global-countries-data
+- **Issues**: https://github.com/mtorresbr/global-countries-data/issues
+- **Discussions**: https://github.com/mtorresbr/global-countries-data/discussions
+- **Inspiration**: https://github.com/paperclipai/companies
+
+---
+
+## 🎯 Visão
+
+> "Ser a base de dados mais completa e confiável do planeta, permitindo que qualquer sistema de IA opere em qualquer país com total compreensão das nuances regionais."
+
+---
+
+**Criado por**: [@mtorresbr](https://github.com/mtorresbr)  
+**Última Atualização**: 2026-04-30  
+**Status**: 🚧 Em constante expansão (3 países 100% completos, muitos outros por vir!)
