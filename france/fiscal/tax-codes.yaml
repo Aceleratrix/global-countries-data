@@ -1,0 +1,176 @@
+---
+country: "France"
+category: "fiscal"
+type: "tax_codes"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.impots.gouv.fr"
+  - "https://www.legifrance.gouv.fr"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Tax Codes & Fiscal Information - France#
+
+## Value Added Tax (VAT / TVA - Taxe sur la Valeur Ajoutée)#
+vat_authority: "Direction Générale des Finances Publiques (DGFIP)"
+website: "https://www.impots.gouv.fr"
+
+vat_rates:
+  standard:
+    rate_percent: 20
+    applies_to: "Most goods and services"
+    
+  reduced_rate_1:
+    rate_percent: 10
+    applies_to: "Food (takeaway), restaurants, transport, hotel nights"
+    
+  reduced_rate_2:
+    rate_percent: 5.5
+    applies_to: "Basic food, books, water, medicines, social housing"
+    
+  super_reduced:
+    rate_percent: 2.1
+    applies_to: "Press, medications (reimbursable), TV licenses (abolished 2023)"
+
+vat_registration:
+  threshold_eur: 85_000  # annual turnover (goods)
+  threshold_services_eur: 34_000  # annual turnover (services)
+  timeline: "Auto-registration (can opt in below threshold)"
+  
+vat_number_format: "FR + 11 digits (FRXX 123456789)"
+example: "FR12 345678901"
+vat_validation_url: "https://ec.europa.eu/taxation_customs/vies/"
+
+## Corporate Tax (Impôt sur les Sociétés - IS)#
+corporate_tax:
+  standard_rate_percent: 25  # flat rate (down from 33.3% in 2020)
+  reduced_rate_small:
+    rate_percent: 15
+    condition: "SMEs with turnover <€10M, profit <€38,120"
+    
+  capital_gains:
+    rate_percent: 25  # on asset sales (with participations exempt)
+    
+  withholding_tax:
+    dividends: 30  # (12% social contributions + 18% tax, reduced by treaties)
+    interest: 0  # (EU directive, 0% for qualifying EU borrowers)
+    royalties: 33.3  # (unless treaty reduced)
+
+## Personal Income Tax (Impôt sur le Revenu - IR)#
+personal_income_tax:
+  brackets_2026:
+    - "0 - €11,294: 0%"
+    - "€11,295 - €28,797: 11%"
+    - "€28,798 - €82,341: 30%"
+    - "€82,342 - €177,106: 41%"
+    - "€177,107+: 45%"
+    
+  social_contributions: 9.7  # on top (CSG, CRDS, etc.)
+  tax_bands: "9 bands (progressive + social charges)"
+  household_quotient: "Quotient familial (family tax benefits)"
+
+## Social Security Contributions (Cotisations Sociales)#
+social_contributions:
+  employer_rate_percent: 45  # average (varies by sector/contract)
+  employee_rate_percent: 22  # average (includes CSG/CRDS)
+  
+  breakdown_employer:
+    health_insurance: 13
+    pension: 8.4
+    unemployment: 4.05
+    other: 19.55
+    
+  breakdown_employee:
+    health_insurance: 0.75
+    pension: 9.7
+    unemployment: 0.95
+    CSG_CRDS: 9.7
+
+## Tax Identification Numbers#
+tax_identification:
+  tin_name: "Numéro Fiscal (Tax Identifier)"
+  format: "13 digits (e.g., 12 34 567 890 123)"
+  issuance: "Automatic at birth (individuals), incorporation (companies)"
+  
+  siren_number:
+    format: "9 digits (company unique identifier)"
+    example: "123 456 789"
+    use: "Business registration (INSEE)"
+    
+  siret_number:
+    format: "14 digits (SIREN + 5-digit establishment code)"
+    example: "123 456 789 01234"
+    use: "Unique establishment identifier (mandatory on invoices)"
+
+## Local Business Taxes#
+cfe:
+  name: "Cotisation Foncière des Entreprises (Business Property Tax)"
+  rate: "Varies by commune (local business tax)"
+  exemption: "New businesses (first 2 years, certain zones)"
+  
+cvaе:
+  name: "Cotisation sur la Valeur Ajoutée des Entreprises (Business Value-Add Tax)"
+  threshold_eur: 500_000  # turnover (exempt below)
+  rate_percent: 0.5-1.5  # (by turnover band)
+
+## Tax Filing & Payment#
+filing_deadline:
+  corporate_tax: "30/04 (following year)"
+  vat: "Monthly or quarterly (depending on turnover)"
+  personal_income_tax: "May-June (online mandatory)"
+  
+payment_methods:
+  - "Direct debit (prélèvement automatique)"
+  - "Online payment (impots.gouv.fr)"
+  - "Bank transfer (virement bancaire)"
+  
+online_filing:
+  mandatory_above: "€10,000 turnover (corporate tax)"
+  platform: "impots.gouv.fr (personal), professionnels.impots.gouv.fr (business)"
+
+## Tax Incentives & Credits#
+tax_credits:
+  - name: "Crédit d'Impôt Recherche (CIR - Research Tax Credit)"
+    rate: "30% of R&D expenses (up to €100M), 5% above"
+    cap: "€10M + 5% of excess"
+    use: "R&D, innovation (€7B claimed in 2025)"
+    
+  - name: "Crédit d'Impôt Innovation (CII - Innovation Tax Credit)"
+    rate: "20% of innovation expenses (SMEs only)"
+    cap: "€400,000"
+    
+  - name: "Crédit d'Impôt Compétitivité Emploi (CICE - replaced by CITS)"
+    status: "Replaced by CITS (Cotisation Réduite) from 2019"
+    
+  - name: "Young Innovative Company (JEI - Jeune Entreprise Innovante)"
+    benefits: "Full CIR + payroll tax exemptions (8 years)"
+    criteria: "≤8 years, ≥15% turnover in R&D, independent"
+
+## International Tax#
+treaty_network: "100+ tax treaties (OECD Model)"
+crs_reporting: "Automatic exchange (FATCA, CRS, DAC2)"
+cbcr: "Country-by-Country Reporting (mandatory for €750M+ groups)"
+
+## Digital Services Tax (Taxe GAFA)#
+digital_services_tax:
+  rate_percent: 3
+  threshold: "€750M global revenue, €25M French revenue"
+  applies_to: "Digital advertising, marketplace, user data"
+  status: "Temporary (pending OECD global agreement)"
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "VAT rates: 20% (standard), 10% (reduced), 5.5% (super-reduced), 2.1% (press/meds)"
+  - "Corporate tax: 25% flat rate (down from 33.3% in 2020)"
+  - "SIREN (9 digits) = company ID, SIRET (14 digits) = establishment ID"
+  - "VAT threshold: €85K (goods), €34K (services)"
+  - "Social charges: employer 45%, employee 22% (average)"
+  - "Personal income tax: 0-45% (5 brackets + 9.7% social)"
+  - "CIR (Research Tax Credit): 30% of R&D (up to €100M)"
+  - "Digital Services Tax: 3% (€750M global, €25M French threshold)"
+  - "Filing: online mandatory (impots.gouv.fr)"
+  - "Tax credits: CIR (R&D), CII (innovation), JEI (young innovators)"
+  - "Local taxes: CFE (property), CVAE (value-add, >€500K turnover)"
+  - "Household quotient: family tax bands (quotient familial)"
+  - "Tax treaties: 100+ (OECD Model, FATCA, CRS, DAC2)"

@@ -1,0 +1,220 @@
+---
+country: "France"
+category: "financial"
+type: "banks"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.banque-france.fr"
+  - "https://www.acpr.banque-france.fr"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Banks & Payment Systems - France#
+
+## Central Bank#
+central_bank: "Banque de France (法兰西银行)"
+website: "https://www.banque-france.fr"
+governor: "François Villeroy de Galhau"
+role: "Monetary policy, financial stability, banking supervision"
+
+## IBAN Format#
+iban:
+  format: "FRkk BBBB BGGG GGCC CCCC CCCC KK"
+  length: 27
+  example: "FR76 3000 6000 0112 3456 7890 123"
+  validation_regex: "^FR\\d{2}\\d{4}\\d{4}\\d{4}\\d{4}\\d{4}\\d{2}$"
+  sepa_compliant: true
+
+## Major Banks#
+top_banks:
+  - name: "BNP Paribas (法国巴黎银行)"
+    market_share: 15
+    assets_eur: 2_900_000_000_000
+    users: 30_000_000
+    note: "Largest bank in Eurozone by assets"
+    
+  - name: "Crédit Agricole (法国农业信贷银行)"
+    market_share: 12
+    assets_eur: 2_200_000_000_000
+    users: 25_000_000
+    note: "Mutual bank, strong retail network"
+    
+  - name: "Société Générale (法国兴业银行)"
+    market_share: 10
+    assets_eur: 1_500_000_000_000
+    users: 18_000_000
+    note: "Major international bank"
+    
+  - name: "BPCE Group (Banques Populaires + Caisses d'Épargne)"
+    market_share: 10
+    assets_eur: 1_400_000_000_000
+    users: 20_000_000
+    note: "Cooperative banking group"
+    
+  - name: "Crédit Mutuel"
+    market_share: 8
+    assets_eur: 900_000_000_000
+    users: 15_000_000
+    note: "Mutual bank, strong regional presence"
+    
+  - name: "La Banque Postale"
+    market_share: 5
+    assets_eur: 600_000_000_000
+    users: 12_000_000
+    note: "Postal bank (100% state-owned)"
+    
+  - name: "HSBC France"
+    market_share: 3
+    assets_eur: 150_000_000_000
+    users: 5_000_000
+    note: "UK banking group (sold to CCF 2024)"
+
+## Payment Systems#
+payment_systems:
+  - name: "Cartes Bancaires (CB - 银行卡)"
+    market_share: 95  # percentage of card payments
+    users: 65_000_000
+    transaction_volume_eur: 950_000_000_000  # 2025
+    note: "MANDATORY for French businesses (domestic scheme)"
+    features: "Debit/credit, contactless, online payments"
+    
+  - name: "SEPA (Single Euro Payments Area)"
+    type: "Bank transfer"
+    share_of_payments: 65  # percentage of non-cash payments
+    volume_annual: 4_200_000_000  # transactions
+    note: "Euro-denominated, cross-EU (1-day to instant)"
+    
+  - name: "Instant Payments (SEPA Instant)"
+    launched: "2018"
+    share_of_sepa: 35  # percentage of SEPA transfers
+    speed: "Under 10 seconds, 24/7/365"
+    limit_eur: 100_000  # per transaction
+    
+  - name: "PayPal"
+    users: 32_000_000
+    share_ecommerce: 25  # percentage
+    note: "Popular for cross-border, eBay"
+    
+  - name: "Apple Pay / Google Pay"
+    users: 28_000_000
+    growth: 35  # percentage YoY
+    note: "Contactless mobile payments (NFC)"
+    
+  - name: "Lydia / Paylib"
+    users: 8_000_000
+    type: "P2P mobile payments (French startups)"
+    note: "Popular among students, young adults"
+
+## Digital & Neobanks#
+neobanks:
+  - name: "Qonto"
+    users: 4_000_000
+    target: "SMEs, freelancers"
+    features: "Business accounts, invoicing, expense management"
+    
+  - name: "Shine"
+    users: 3_000_000
+    target: "Freelancers, micro-entrepreneurs"
+    features: "Simple business account, invoicing"
+    
+  - name: "Revolut France"
+    users: 3_500_000
+    target: "Consumers, travelers"
+    features: "Multi-currency, crypto, trading"
+    
+  - name: "N26 France"
+    users: 2_500_000
+    target: "Consumers, digital natives"
+    features: "German neobank, simple interface"
+    
+  - name: "Bunq France"
+    users: 1_500_000
+    target: "Digital nomads, expats"
+    features: "Dutch neobank, sustainability focus"
+
+## Regulatory Authority#
+banking_regulator: "ACPR (Autorité de Contrôle Prudentiel et de Résolution)"
+website: "https://www.acpr.banque-france.fr"
+role: "Banking + insurance supervision (joint with AMF for markets)"
+
+## Cryptocurrency#
+crypto_regulation:
+  status: "Legal, no ban"
+  registration: "Mandatory with AMF (Digital Asset Service Providers - DASP)"
+  
+  top_exchanges_france:
+    - "Coinhouse (French, regulated)"
+    - "Paymium (French, Bitcoin pioneer)"
+    - "Binance (global, limited French services)"
+    - "Kraken (US-based, available)"
+    
+  crypto_adoption: "4.5M users (7% of population)"
+  yearly_volume_eur: 45_000_000_000  # 2025
+
+## Payment APIs (Open Banking)#
+open_banking:
+  framework: "PSD2 (EU Directive) + DSP2 (French transposition)"
+  implementation: "Strong Customer Authentication (SCA) mandatory"
+  
+  major_providers:
+    - "Stripe (dominant for e-commerce)"
+    - "PayPlug (French, acquired by PayZen)"
+    - "Mangopay (French, marketplace specialist)"
+    - "Lyra Network (Toulouse-based, omnichannel)"
+    
+  api_access: "Open Banking APIs (XS2A) - mandatory for banks >€5M assets"
+
+## Consumer Credit#
+consumer_credit:
+  regulation: "Loi Lagarde (2010) - responsible lending"
+  max_apr_percent: 21.36  # (usury cap, varies by loan type)
+  
+  top_lenders:
+    - "BNP Paribas Personal Finance (Cetelem)"
+    - "Crédit Agricole Consumer Finance"
+    - "Société Générale Consumer Finance"
+    - "La Banque Postale Consumer Finance"
+    
+  buy_now_pay_later: "Divid (French leader), Alma (Paris-based)"
+
+## Investment & Savings#
+savings_products:
+  - name: "Livret A (储蓄账户)"
+    rate_percent: 3.0
+    limit_eur: 22_950
+    tax_free: true
+    users: 55_000_000
+    note: "Most popular savings account (state-regulated rate)"
+    
+  - name: "LDDS (Livret de Développement Durable et Solidaire)"
+    rate_percent: 3.0
+    limit_eur: 12_000
+    tax_free: true
+    note: "Sustainable development savings"
+    
+  - name: "PEL (Plan Épargne Logement - Housing Savings)"
+    rate_percent: 1.0-2.5
+    limit_eur: 61_200
+    note: "Housing purchase savings (state bonus)"
+    
+  - name: "Assurance Vie (人寿保险)"
+    assets_eur: 1_900_000_000_000
+    tax_advantage: "Favorable (after 8 years, 23% tax on gains)"
+    note: "Most popular investment vehicle in France"
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "Cartes Bancaires (CB): 95% of card payments, MANDATORY for businesses"
+  - "SEPA transfers: 4.2B txns/year, instant available (€100K limit)"
+  - "Livret A: 3.0% rate, €22,950 limit, 55M users (tax-free)"
+  - "BNP Paribas (15%), Crédit Agricole (12%), SocGen (10%) lead banking"
+  - "IBAN: FR + 27 chars (FRkk BBBB BGGG GGCC CCCC CCCC KK)"
+  - "Neobanks: Qonto (4M SMEs), Shine (3M freelancers)"
+  - "Open Banking: PSD2 mandatory, SCA required (Strong Customer Auth)"
+  - "Crypto: Legal, 4.5M users, AMF registration required (DASP)"
+  - "Payment APIs: Stripe dominant, PayPlug (French), Mangopay"
+  - "Consumer credit: max APR 21.36% (usury cap)"
+  - "PayPal: 32M users, 25% e-commerce share"
+  - "Apple Pay/Google Pay: 28M users (NFC contactless)"
+  - "Assurance Vie: €1.9T assets, favorite investment (tax advantage)"

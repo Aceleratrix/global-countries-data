@@ -1,0 +1,172 @@
+---
+country: "France"
+category: "tech"
+type: "ai_cloud_services"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.economie.gouv.fr"
+  - "https://www.etalab.gouv.fr"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# AI & Cloud Services - France#
+
+## Cloud Market Overview#
+total_market_size_usd: 18_000_000_000  # 2025
+growth_rate_percent: 20
+global_rank: 7  # after USA, China, Japan, Germany, India, UK
+
+## Top Cloud Providers#
+cloud_providers:
+  - name: "Amazon Web Services (AWS)"
+    market_share: 28
+    regions_in_france: 1  # Paris (3 AZs)
+    availability_zones: 3
+    users: "1.2M+ enterprises"
+    
+  - name: "Microsoft Azure"
+    market_share: 25
+    regions_in_france: 2  # France Central, France South
+    availability_zones: 4
+    users: "1.1M+ enterprises"
+    
+  - name: "Google Cloud Platform (GCP)"
+    market_share: 12
+    regions_in_france: 1  # Paris (2 AZs)
+    availability_zones: 2
+    users: "600K+ enterprises"
+    
+  - name: "OVHcloud (French 🚀)"
+    market_share: 10
+    regions_in_france: 3  # Roubaix, Strasbourg, Gravelines
+    availability_zones: 5
+    users: "500K+ enterprises"
+    note: "Largest European cloud, French sovereign solution"
+    
+  - name: "Scaleway (French 🚀)"
+    market_share: 5
+    regions_in_france: 2  # Paris, Lille
+    availability_zones: 3
+    users: "200K+ enterprises"
+    note: "Hivo (Iliad group), eco-friendly data centers"
+    
+  - name: "Oracle Cloud"
+    market_share: 4
+    regions_in_france: 1
+    users: "150K+ enterprises"
+
+## AI Models & LLMs#
+llm_models:
+  - name: "Mistral AI (French 🚀)"
+    models: ["Mistral 7B", "Mixtral 8x7B", "Mistral Medium/Large"]
+    users: "500K+ global developers"
+    note: "Leading European LLM, Paris HQ, open-weight"
+    
+  - name: "Google Gemini (via GCP)"
+    users: "400K+ French developers"
+    note: "Access via GCP"
+    
+  - name: "OpenAI GPT-4 (via Azure)"
+    users: "600K+ French developers"
+    note: "Access via Azure (not direct)"
+    
+  - name: "HuggingFace (Paris HQ)"
+    models: "Open-source model hub (100K+ models)"
+    users: "2M+ developers globally"
+    note: "Global open-source leader, HQ in Paris"
+    
+  - name: "Claude (Anthropic - via AWS)"
+    users: "150K+ French developers"
+    note: "Growing in France since 2023"
+
+## GPU & AI Compute#
+gpu_availability:
+  cloud_providers:
+    - "AWS: A100, V100, T4 (Paris region)"
+    - "Azure: A100, V100 (2 regions)"
+    - "GCP: A100, T4 (Paris)"
+    - "OVHcloud: A100, V100 (select data centers)"
+    
+  french_ai_clusters:
+    - name: "GENCI (Grand Équipement National de Calcul Intensif)"
+      gpus: "5,000+ (academic access)"
+    - name: "CNRS IDRIS"
+      gpus: "3,000+"
+    - name: "CEA TGCC"
+      gpus: "2,500+"
+    
+ai_compute_investment_usd: 3_500_000_000  # 2025
+ai_startups: 600+
+ai_patents: 8_000
+
+## AI Policy & Regulation#
+ai_governance:
+  status: "EU AI Act adopted March 2024 (phased to 2027)"
+  french_role: "Strong supporter, home to Mistral AI & HuggingFace"
+  
+  key_principles:
+    - "Risk-based (unacceptable/high/general/minimal)"
+    - "GPAI models: transparency, copyright compliance"
+    - "Sovereign cloud strategy (SecNumCloud certification)"
+    - "AI Safety Summit legacy (Bletchley 2023, Seoul 2024)"
+    
+  french_ai_strategy:
+    - "France 2030: €54B for AI, quantum, biotech"
+    - "Paris as AI capital of Europe (Mistral, HuggingFace)"
+    - "600+ AI startups, €3B+ funding (2025)"
+    - "INRIA (French AI research institute)"
+
+## AI Infrastructure#
+ai_compute_investment_usd: 3_500_000_000  # 2025
+ai_startups: 600+
+ai_patents: 8_000
+
+## Data Centers & Availability Zones#
+availability_zones_france: 12+
+major_regions:
+  - "Paris Île-de-France - 8+ AZs (financial, gov, tech)"
+  - "Lyon - 2+ AZs (second city, AI hub)"
+  - "Marseille - 1+ AZs (Mediterranean, Africa gateway)"
+  - "Strasbourg - 1+ AZs (near Germany border)"
+  - "Roubaix - 3+ AZs (OVHcloud HQ)"
+
+## AI Applications in France#
+ai_use_cases:
+  - "Healthcare AI (AP-HP, 60+ hospitals using AI)"
+  - "Autonomous vehicles (Navya, EasyMile - French leaders)"
+  - "LegalTech AI (450+ startups, contract review)"
+  - "EdTech AI (100+ startups, personalized learning)"
+  - "AgriTech AI (precision farming, 200+ startups)"
+
+## Internet & Speed#
+internet_speed_avg_mbps:
+  fixed: 95
+  mobile: 60
+  5g_coverage: "75% of population (launched 2020)"
+
+## Digital Economy#
+digital_economy_france:
+  gdp_contribution: 14.5  # percentage
+  tech_hubs:
+    - "Paris (Silicon Sentier - Europe's 2nd tech hub after London)"
+    - "Lyon (second tech city, AI/robotics)"
+    - "Toulouse (Aerospace AI, Airbus)"
+    - "Grenoble (semiconductors, microelectronics)"
+    - "Bordeaux (growing tech, wine + tech)"
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "AWS (28%), Azure (25%), GCP (12%) lead cloud market"
+  - "Mistral AI (French 🚀) leads European LLMs (Paris HQ)"
+  - "HuggingFace: global open-source leader (Paris HQ)"
+  - "EU AI Act: adopted March 2024, phased to 2027"
+  - "OVHcloud: French sovereign cloud (10% share, 5 AZs)"
+  - "Scaleway: eco-friendly French cloud (Hivo group)"
+  - "France 2030: €54B for AI, quantum, biotech"
+  - "Paris = 2nd tech hub in Europe (after London)"
+  - "600+ AI startups, €3B+ funding (2025)"
+  - "GPU access: A100/V100 via AWS/Azure/GCP/OVH"
+  - "INRIA: French AI research institute (Grenoble, Paris)"
+  - "Navya/EasyMile: French autonomous shuttle leaders"
+  - "5G launched 2020, 75% population coverage (2026)"

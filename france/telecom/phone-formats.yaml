@@ -1,0 +1,156 @@
+---
+country: "France"
+category: "telecom"
+type: "phone_formats"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.arcep.fr"
+  - "https://www.orange.fr"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Phone & Telecom Formats - France#
+
+## Country Code#
+country_calling_code: "+33"
+international_prefix: "00"
+trunk_prefix: "0"
+e164_format: true
+
+## Mobile Phone Format#
+mobile_format:
+  pattern: "+33 6XX XXX XXX or +33 7XX XXX XXX"
+  length: 9  # digits (after removing leading 0)
+  example: "+33 612 345 678"
+  regex: "^(\\+33)?[67]\\d{8}$"
+  
+mobile_prefixes:
+  - prefix: "06XX"
+    operators: ["Orange", "SFR", "Free", "Bouygues Telecom"]
+    note: "Traditional mobile prefix (since 1990s)"
+  - prefix: "07XX"
+    operators: ["Orange", "SFR", "Free", "Bouygues Telecom"]
+    note: "Newer prefix (2000s+), now equal to 06XX"
+
+## Landline Format#
+landline_format:
+  pattern: "+33 X XX XX XX XX (area code 1-5 digits)"
+  area_code_length: 1-2  # varies by region
+  local_number_length: 8
+  example: "+33 1 23 45 67 89"  # Paris
+  regex: "^(\\+33)?[1-5]\\d{8}$"
+  
+major_city_codes:
+  paris: "1"
+  lyon: "4"
+  marseille: "4"
+  toulouse: "5"
+  bordeaux: "5"
+  lille: "3"
+  nantes: "2"
+  nice: "4"
+  strasbourg: "3"
+
+## Toll-Free Numbers#
+toll_free:
+  prefixes: ["0800", "0801", "0802", "0803", "0804", "0805"]
+  format: "+33 800 XXX XXX"
+  note: "Free to caller from landlines and mobiles"
+  availability: "Available to businesses via telecom operators"
+
+## Special Service Numbers#
+emergency:
+  police: "17"
+  ambulance: "15"
+  fire: "18"
+  european_emergency: "112"  # universal in EU
+  samu: "15"  # medical emergency
+  poison_control: "01 40 05 48 48"  # Paris regional
+
+## Telecom Operators#
+mobile_operators:
+  - name: "Orange (Orange S.A.)"
+    market_share: 42
+    users: 28_000_000
+    note: "Historic operator (ex-France Telecom), market leader"
+    
+  - name: "Free Mobile (Iliad)"
+    market_share: 25
+    users: 17_000_000
+    note: "Disruptive, low-cost, 4G/5G aggressive rollout"
+    
+  - name: "SFR (Altice)"
+    market_share: 20
+    users: 13_500_000
+    note: "Cable + mobile, competition with Orange"
+    
+  - name: "Bouygues Telecom"
+    market_share: 13
+    users: 8_500_000
+    note: "Smallest of 4, strong in rural areas"
+
+## Internet & Connectivity#
+internet_penetration: 95  # percentage
+internet_users: 65_000_000
+mobile_penetration: 105  # percentage
+broadband_speed_avg_mbps: 95
+
+## 5G Coverage#
+five_g:
+  launched: "2020-11 (all 4 operators)"
+  coverage: "75% of population (2026)"
+  operators: "Orange, Free, SFR, Bouygues (all launched)"
+  speed_avg_mbps: 180
+  users: 35_000_000  # growing fast
+
+## VoIP & Instant Messaging#
+voip_services:
+  - "WhatsApp (45M users) - DOMINANT"
+  - "Skype (12M users)"
+  - "Zoom (business)"
+  - "Teams (enterprise)"
+  - "FaceTime (iOS users)"
+  
+instant_messaging:
+  - "WhatsApp: 45M users (DOMINANT)"
+  - "Facebook Messenger: 35M users"
+  - "Instagram DM: 32M users"
+  - "Telegram: 10M users"
+  - "Signal: 6M users"
+
+## Phone Number Portability#
+number_portability:
+  available: true
+  introduced: "1998 (mobile), 2001 (landline)"
+  process: "Via operator (RIO code - Relevé d'Identité Opérateur)"
+  timeline: "3-10 working days"
+  fee: "€10 (mobile), €0 (landline from 2023)"
+
+## Virtual Phone Numbers#
+virtual_numbers:
+  availability: "Available via Twilio, MessageBird, etc."
+  use_cases: "Business SMS, customer support, OTP"
+  regulatory: "ARCEP oversight, GDPR compliance"
+
+## VoIP Area Codes#
+voip_special_numbers:
+  - "09XX: VoIP numbers (non-geographic)"
+  - "Usage: call centers, remote work, business phones"
+  - "Cost: same as landline calls (not premium)"
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "Mobile numbers: ALWAYS 9 digits starting with 06XX or 07XX"
+  - "Landlines: area codes 1-5 (Paris=1, Lyon/Marseille=4, Toulouse/Bordeaux=5)"
+  - "WhatsApp has 45M users - CRITICAL for business"
+  - "Orange leads (42% share, 28M users), Free 2nd (25%, 17M)"
+  - "Emergency: 17 (police), 15 (ambulance), 18 (fire), 112 (EU)"
+  - "5G launched Nov 2020, 75% population coverage (2026)"
+  - "Number portability: 3-10 days, €10 for mobile (free landline)"
+  - "RIO code (Relevé d'Identité Opérateur) needed for porting"
+  - "Area codes: Paris 1, Lyon 4, Marseille 4, Toulouse 5, Bordeaux 5"
+  - "ARCEP (Autorité de Régulation des Communications Électroniques) regulates"
+  - "VoIP: 09XX numbers (non-geographic, call centers)"
+  - "Broadband avg: 95 Mbps, growing to 150+ Mbps (FTTH)"
+  - "Free Mobile: disruptive low-cost (€2/month promo, now €10-20)"

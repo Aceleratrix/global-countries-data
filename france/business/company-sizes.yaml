@@ -1,0 +1,217 @@
+---
+country: "France"
+category: "business"
+type: "company_sizes"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.insee.fr"
+  - "https://www.urssaf.fr"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Company Sizes & Types - France#
+
+## Company Size Classifications#
+classification_standard: "INSEE (National Institute of Statistics) + EU definition"
+
+### Micro Enterprises (TPE - Très Petites Entreprises)#
+micro_enterprises:
+  - category: "Auto-entrepreneur (自雇 - 自雇经营者)"
+    employees: "0-9 (usually 1)"
+    turnover_eur: "< €176,200 (services) or < €352,400 (retail)"
+    count: 2_100_000
+    share_percent: 53.8
+    note: "Simplified regime, flat tax (12.8% or 22%)"
+    
+  - category: "Micro-enterprise (non-auto)"
+    employees: "1-9"
+    turnover_eur: "< €2M"
+    balance_sheet_eur: "< €2M"
+    count: 1_200_000
+    share_percent: 30.8
+
+### Small & Medium Enterprises (PME - Petites et Moyennes Entreprises)#
+smes:
+  - category: "Small Enterprise (Petite Entreprise)"
+    employees: "10-49"
+    turnover_eur: "€2M - €10M"
+    balance_sheet_eur: "€2M - €10M"
+    count: 400_000
+    share_percent: 10.3
+    
+  - category: "Medium Enterprise (Moyenne Entreprise)"
+    employees: "50-249"
+    turnover_eur: "€10M - €50M"
+    balance_sheet_eur: "€10M - €43M"
+    count: 45_000
+    share_percent: 1.2
+
+### Large Enterprises (GE - Grandes Entreprises)#
+large_enterprises:
+  employees: "250+"
+  turnover_eur: "> €50M"
+  balance_sheet_eur: "> €43M"
+  count: 7_200
+  share_percent: 0.2
+
+total_smes: 3_900_000
+employment_sme: 14_200_000  # 66% of total private sector employment
+
+## Company Types (Legal Forms)#
+company_types:
+  - name: "SAS (Société par Actions Simplifiée - 简化股份公司)"
+    min_directors: 1
+    max_shareholders: "Unlimited"
+    min_capital: "€1 (recommended €1,000+)"
+    use_case: "Startups, scale-ups, foreign subsidiaries"
+    count: 450_000
+    note: "Flexible governance, popular for innovation"
+    
+  - name: "SARL (Société à Responsabilité Limitée - 有限责任公司)"
+    min_directors: 1
+    max_shareholders: 100
+    min_capital: "€1 (recommended €1,000+)"
+    use_case: "SMEs, family businesses, traditional companies"
+    count: 1_500_000
+    note: "Most common form for SMEs"
+    
+  - name: "SA (Société Anonyme - 股份有限公司)"
+    min_directors: 3
+    min_shareholders: 2 (or 7 for listed)
+    min_capital: "€37,000 (at least 50% paid up)"
+    use_case: "Large companies, IPO-ready"
+    count: 12_000
+    note: "Listed companies, corporate governance strict"
+    
+  - name: "Auto-entrepreneur (自雇)"
+    features: "Single owner, simplified accounting, flat tax"
+    registration: "Online via URSSAF (free)"
+    use_case: "Freelancers, consultants, small traders"
+    count: 2_100_000
+    
+  - name: "EURL (Entreprise Unipersonnelle à Responsabilité Limitée)"
+    features: "Single-person SARL"
+    min_capital: "€1 (recommended €1,000+)"
+    use_case: "Solo entrepreneurs wanting limited liability"
+    count: 250_000
+    
+  - name: "SNC (Société en Nom Collectif - 普通合伙)"
+    min_partners: 2
+    features: "Joint unlimited liability"
+    use_case: "Family businesses, small partnerships"
+    count: 35_000
+
+## Foreign Investment Vehicles#
+foreign_investment:
+  - type: "French Subsidiary (SAS/SARL/SA)"
+    description: "French-registered company, owned by foreign parent"
+    fdi_route: "Automatic (no restrictions in most sectors)"
+    timeline: "1-2 weeks (SAS most popular for foreigners)"
+    
+  - type: "Branch Office (Succursale)"
+    description: "French branch of foreign company"
+    registration: "With RCS (Registre du Commerce et des Sociétés)"
+    use_case: "Banks, insurance (regulated sectors)"
+    
+  - type: "Representative Office"
+    description: "Liaison office (no trading allowed)"
+    use_case: "Market research, pre-entry"
+
+## Startup Ecosystem#
+startup_france:
+  unicorns: 25+  # $1B+ valuation
+  valuation_total: 85_000_000_000  # $85B
+  top_hubs:
+    - "Paris (Station F - world's largest startup campus)"
+    - "Lyon (second hub, AI/robotics)"
+    - "Toulouse (Aerospace, AI)"
+    - "Grenoble (semiconductors, deep tech)"
+    
+  funding_2025: 12_000_000_000  # $12B (VC investment)
+  
+  sectors:
+    - "AI/ML (Mistral, HuggingFace, 600+ startups)"
+    - "FinTech (Qonto, Swile, Lydia - 200+ companies)"
+    - "HealthTech (300+ companies, AP-HP partnerships)"
+    - "Mobility (Navya, EasyMile, BlaBlaCar)"
+    - "AgriTech (200+ startups, precision farming)"
+
+## Special Economic Areas#
+special_areas:
+  - name: "Competitiveness Clusters (Pôles de Compétitivité)"
+    count: 56
+    benefits: "R&D tax credits, state aid, networking"
+    examples: "Paris Région, Aerospace Valley, Lyonbiopôle"
+    
+  - name: "French Tech (French Tech Label)"
+    count: 30+  # cities with label
+    benefits: "State support, visa facilitation, funding access"
+    examples: "Paris, Lyon, Toulouse, Bordeaux, Marseille"
+    
+  - name: "ZFU (Zones Franches Urbaines - Urban Free Zones)"
+    benefits: "Hiring incentives, tax exemptions (5 years)"
+    use: "Business in deprived urban areas"
+
+## Registration Process#
+business_registration:
+  authority: "Greffe du Tribunal de Commerce (RCS)"
+  online_platform: "Guichet-entreprises.fr"
+  timeline: "3-7 days (online), 2-3 weeks (post)"
+  
+steps:
+  - "Company name check (INPI - intellectual property office)"
+  - "Register directors, shareholders, registered office"
+  - "Draft statutes (statuts)"
+  - "Deposit capital in blocked account (if required)"
+  - "Publish formation notice in legal gazette (BODACC)"
+  - "File with RCS (Registre du Commerce)"
+  - "VAT registration (if >€85K turnover)"
+  - "URSSAF registration (payroll, social charges)"
+
+costs:
+  registration_fee: "€200-500 (by company type)"
+  legal_notice: "€150-300 (BODACC publication)"
+  capital_deposit: "€0-37,000 (by company type)"
+
+## Tax & Compliance#
+tax_filing:
+  corporate_tax: "Online via impots.gouv.fr (3 months after year-end)"
+  vat: "Monthly or quarterly (impots.gouv.fr)"
+  social_charges: "Monthly/quarterly (URSSAF)"
+  
+required_filings:
+  annual_accounts: "Must file with Greffe within 7 months of year-end"
+  tax_return: "CVAE (business value-add tax), CFE (property tax)"
+  consolidated_accounts: "For groups (EU parent + subsidiaries)"
+
+## SIREN & SIRET Numbers#
+siren_siret:
+  siren:
+    description: "9-digit unique identifier (company level)"
+    format: "123 456 789"
+    use: "All official documents, tax filings"
+    
+  siret:
+    description: "14-digit identifier (establishment level)"
+    format: "123 456 789 01234"
+    use: "Invoices, payroll, establishment-specific filings"
+    
+  issuance: "Automatic at registration (INSEE)"
+  timeline: "Same day (online registration)"
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "SMEs = 99.9% of French enterprises (3.9M companies)"
+  - "Most common: SARL (1.5M), then Auto-entrepreneur (2.1M)"
+  - "SAS: most popular for startups, foreign subsidiaries (flexible)"
+  - "SIREN (9 digits) = company ID, SIRET (14 digits) = establishment ID"
+  - "Auto-entrepreneur: simplified regime, 2.1M companies (53.8%)"
+  - "VAT threshold: €85K (goods), €34K (services)"
+  - "Corporate Tax: 25% flat rate (down from 33.3% in 2020)"
+  - "Business registration: Guichet-entreprises.fr (3-7 days online)"
+  - "Paris = Station F (world's largest startup campus)"
+  - "Startup ecosystem: 25+ unicorns, $12B VC funding (2025)"
+  - "French Tech: 30+ labeled cities, state support"
+  - "Annual accounts: MUST file with Greffe (7 months deadline)"
+  - "Social charges: 45% employer, 22% employee (average)"
