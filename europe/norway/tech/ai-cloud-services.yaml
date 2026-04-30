@@ -1,0 +1,8 @@
+country: Norway
+country_code: NO
+cloud_providers:
+  international: [AWS (Oslo region), Azure (Norway East/West), Google Cloud (planned)]
+  local: [Basefarm, Evry, Tietoevry]
+ai_strategy: Norwegian AI Strategy 2023-2027 (focus on public sector, industrial AI)
+tech_hubs: [Oslo, Bergen, Trondheim]
+internet_speed: avg 100 Mbps fixed broadband (2024)

@@ -1,0 +1,13 @@
+country: Norway
+country_code: NO
+main_exports:
+  - Crude oil and natural gas (40% of total exports)
+  - Seafood (salmon, cod, 10% of total)
+  - Machinery and equipment (8%)
+  - Metals (aluminum, 5%)
+main_imports:
+  - Machinery and transport equipment (30%)
+  - Chemicals (15%)
+  - Vehicles (10%)
+  - Consumer goods (20%)
+top_trade_partners: [EU (70%), US (8%), China (5%), UK (4%)]

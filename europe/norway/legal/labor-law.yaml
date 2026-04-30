@@ -1,0 +1,13 @@
+country: Norway
+country_code: NO
+regulator: Norwegian Labour Inspection Authority (Arbeidstilsynet)
+minimum_wage: no statutory minimum (collective agreements set industry rates)
+working_hours:
+  max_weekly: 40 hours
+  overtime: paid 40% premium, max 10 hours/week
+paid_leave:
+  annual: 25 days (4 weeks + 1 day)
+  parental: 49 weeks at 100% pay or 59 weeks at 80% pay
+key_laws:
+  - Working Environment Act (2005)
+  - National Insurance Scheme (folketrygden) covering benefits

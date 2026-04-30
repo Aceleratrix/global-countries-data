@@ -1,0 +1,11 @@
+country: Norway
+country_code: NO
+property_tax:
+  municipal: 0.1-0.7% of assessed value
+  state: no national property tax
+rental_regulations:
+  tenant_protection: strong, rent control in Oslo
+  lease_terms: minimum 1 year for residential
+commercial_real_estate:
+  prime_office_rent: ~4000 NOK/m²/year (Oslo 2024)
+  industrial: ~1200 NOK/m²/year

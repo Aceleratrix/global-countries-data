@@ -1,0 +1,11 @@
+country: Norway
+country_code: NO
+regulator: Datatilsynet (Norwegian Data Protection Authority)
+gdpr_compliant: true
+net_neutrality: enforced (Electronic Communications Act 2020)
+key_laws:
+  - Personal Data Act (2018) implementing GDPR
+  - Copyright Act (2018) covering digital content
+  - Electronic Communications Act (2020) regulating ISPs
+  - Anti-piracy laws with site-blocking provisions
+internet_penetration: 98% (2024)

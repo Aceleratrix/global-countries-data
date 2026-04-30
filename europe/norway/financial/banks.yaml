@@ -1,0 +1,14 @@
+country: Norway
+country_code: NO
+central_bank: Norges Bank
+sovereign_wealth_fund:
+  name: Government Pension Fund Global
+  assets: $1.6 trillion (2024)
+  type: oil-funded, global equity/real estate/bonds
+major_banks:
+  - DNB Bank (largest, state-owned)
+  - Nordea Bank Norge
+  - Handelsbanken
+  - SpareBank 1
+currency: Norwegian Krone (NOK)
+exchange_rate: ~10.5 NOK/USD (2024)

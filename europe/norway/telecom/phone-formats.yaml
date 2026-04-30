@@ -1,0 +1,11 @@
+country: Norway
+country_code: +47
+mobile_prefixes: [4, 9]
+number_format: +47 XXX XX XXX (no area codes for landlines)
+landline_format: +47 XX XX XX XX
+emergency_numbers:
+  police: 112
+  fire: 110
+  ambulance: 113
+telecom_regulator: Norwegian Communications Authority (Nkom)
+mobile_penetration: 120% (2024)

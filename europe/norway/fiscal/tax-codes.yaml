@@ -1,0 +1,15 @@
+country: Norway
+country_code: NO
+tax_authority: Skatteetaten (Norwegian Tax Administration)
+corporate_tax_rate: 22%
+personal_income_tax:
+  brackets:
+    - 0-198,000 NOK: 22%
+    - 198,001-793,800 NOK: 37%
+    - 793,801+ NOK: 47.4%
+vat:
+  standard: 25%
+  reduced:
+    - 15%: food and non-alcoholic beverages
+    - 12%: public transport, cinema tickets
+    - 0%: books, newspapers, medicines, exports

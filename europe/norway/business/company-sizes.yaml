@@ -1,0 +1,10 @@
+country: Norway
+country_code: NO
+company_registry: Brønnøysund Register Centre
+size_classifications:
+  micro: <10 employees, turnover < 10M NOK
+  small: 10-49 employees, turnover 10-50M NOK
+  medium: 50-249 employees, turnover 50-200M NOK
+  large: ≥250 employees, turnover ≥200M NOK
+sme_share: 99% of all companies
+key_large_companies: [Equinor (oil/gas), Telenor (telecom), DNB (banking), Yara (fertilizer)]
