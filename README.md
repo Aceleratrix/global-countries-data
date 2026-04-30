@@ -34,7 +34,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (8 / 195 = 4.1%)
+## 📊 Coverage Progress (9 / 195 = 4.6%)
 
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
@@ -46,8 +46,9 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇮🇳 **India** | 13/13 | ✅ **100% COMPLETE** | UPI (12B+ txns/month), WhatsApp (530M), BharatGPT, Digital India, 1.43B population | English (en-US) |
 | 🇬🇬 **United Kingdom** | 13/13 | ✅ **100% COMPLETE** | Faster Payments (3.2B txns/year), Open Banking (600+ fintechs), AI Safety Summit, London Tech Hub | English (en-GB) |
 | 🇫🇷 **France** | 13/13 | ✅ **100% COMPLETE** | Cartes Bancaires (95%), Mistral AI, EU AI Act, GDPR gold standard, 600+ AI startups | French (fr-FR) + English |
+| 🇮🇹 **Italy** | 13/13 | ✅ **100% COMPLETE** | Bancomat (95%), Satispay (10M+), i-gen (Italian LLM), no min wage in EU, 400+ AI startups | Italian (it-IT) + English |
 
-**Total: 109 structured YAML files covering 8 countries!**
+**Total: 122 structured YAML files covering 9 countries!**
 
 ---
 
