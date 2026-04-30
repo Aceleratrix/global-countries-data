@@ -1,0 +1,16 @@
+country: Portugal
+gdp_usd_trillion: 0.38
+gdp_global_rank: 34
+gdp_per_capita_usd: 37600
+gdp_growth_rate_2023: 2.3%
+main_industries:
+  - Tourism
+  - Agriculture (cork, wine, olive oil)
+  - Manufacturing (textiles, footwear, automotive components)
+  - Services (finance, telecommunications)
+  - Renewable energy (wind, solar, hydro)
+eu_member: true
+eurozone_member: true
+exports_2023_usd: 82000000000
+imports_2023_usd: 98000000000
+unemployment_rate_2023: 6.1%

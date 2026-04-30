@@ -1,0 +1,13 @@
+country: Portugal
+total_road_network_km: 82500
+railway_network_km: 2800
+major_airports:
+  - Lisbon Portela Airport
+  - Porto Francisco Sá Carneiro Airport
+  - Faro Airport
+internet_penetration_percent: 82%
+5g_coverage_population: 70%
+major_seaports:
+  - Port of Lisbon
+  - Port of Leixões
+  - Port of Sines

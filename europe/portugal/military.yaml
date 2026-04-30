@@ -1,0 +1,10 @@
+country: Portugal
+nato_member: true
+active_personnel: 25000
+reserve_personnel: 10000
+defense_budget_percent_gdp: 1.8%
+military_branches:
+  - Portuguese Army
+  - Portuguese Navy
+  - Portuguese Air Force
+peacekeeping_missions: UN, EU, NATO operations

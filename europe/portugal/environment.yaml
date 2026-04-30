@@ -1,0 +1,12 @@
+country: Portugal
+renewable_energy_percent_electricity: 60%
+protected_areas_percent_land: 22%
+major_ecosystems:
+  - Cork oak forests (montado)
+  - Coastal wetlands
+  - Atlantic forest
+environmental_issues:
+  - Coastal erosion
+  - Wildfires (summer)
+  - Deforestation
+carbon_neutrality_target: 2050

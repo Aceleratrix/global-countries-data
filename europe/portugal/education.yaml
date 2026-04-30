@@ -1,0 +1,11 @@
+country: Portugal
+literacy_rate_adult: 96%
+literacy_rate_youth: 99%
+compulsory_education_age: 6 to 18
+public_education: Free (primary to tertiary)
+top_universities:
+  - University of Lisbon
+  - University of Porto
+  - NOVA University Lisbon
+tertiary_education_enrollment: 62%
+education_expenditure_percent_gdp: 4.8%
