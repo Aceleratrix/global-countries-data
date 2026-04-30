@@ -1,0 +1,183 @@
+---
+country: "China"
+category: "tech"
+type: "ai_cloud_services"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.miit.gov.cn"
+  - "https://www.alibabacloud.com"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# AI & Cloud Services - China
+
+## Cloud Market Overview
+total_market_size_usd: 38_000_000_000  # 2025
+growth_rate_percent: 28
+global_rank: 2  # after USA
+
+## Top Cloud Providers (China Domestic)
+cloud_providers:
+  - name: "Alibaba Cloud (阿里云)"
+    market_share: 37
+    regions_in_china: 60+
+    global_regions: 28
+    ai_services: "Qwen (ChatGPT rival), ModelScope, PAI"
+    users: "3.7M+ enterprises"
+    
+  - name: "Huawei Cloud (华为云)"
+    market_share: 11
+    regions_in_china: 40+
+    ai_services: "Pangu models, Ascend AI chips"
+    focus: "Gov, telecom, enterprise"
+    
+  - name: "Tencent Cloud (腾讯云)"
+    market_share: 16
+    regions_in_china: 50+
+    ai_services: "Hunyuan models, WeChat integration"
+    users: "2.8M+ enterprises"
+    
+  - name: "Baidu AI Cloud (百度智能云)"
+    market_share: 8
+    regions_in_china: 30+
+    ai_services: "Ernie Bot (ERNIE 4.0), Apollo (autonomous driving)"
+    focus: "AI-first cloud, GenAI"
+    
+  - name: "China Telecom Tianyi Cloud (天翼云)"
+    market_share: 9
+    parent: "China Telecom (state-owned)"
+    focus: "Government, SOEs"
+    
+  - name: "Amazon AWS (China)"
+    market_share: 6
+    operator: "NWCD (Ningxia) + Sinnet (Beijing)"
+    note: "Operates via local partners (JV required)"
+    
+  - name: "Microsoft Azure (China)"
+    market_share: 3
+    operator: "21Vianet (Shanghai)"
+    note: "Separate from global Azure (data stays in China)"
+
+## AI Models & LLMs (Domestic)
+llm_models:
+  - name: "Qwen (通义千问) - Alibaba"
+    parameters: "Qwen2.5-72B, Qwen2.5-7B"
+    api: "Dashscope (Alibaba Cloud)"
+    use_cases: "Chat, coding, translation, RAG"
+    
+  - name: "Hunyuan (混元) - Tencent"
+    parameters: "Hunyuan-Pro, Hunyuan-Large"
+    api: "Tencent Cloud API"
+    use_cases: "WeChat integration, enterprise chat"
+    
+  - name: "Ernie Bot (文心一言) - Baidu"
+    parameters: "ERNIE 4.0, ERNIE Speed"
+    api: "Baidu AI Cloud"
+    use_cases: "Search integration, enterprise AI"
+    
+  - name: "Pangu (盘古) - Huawei"
+    parameters: "Pangu-5.0 (100B+)"
+    api: "Huawei Cloud"
+    use_cases: "Gov, telecom, industry 4.0"
+    
+  - name: "ChatGLM (智谱清言) - Zhipu AI"
+    parameters: "GLM-4-9B, GLM-4-Plus"
+    api: "OpenAI-compatible API"
+    use_cases: "Research, coding, reasoning"
+    
+  - name: "Kimi (月之暗面) - Moonshot AI"
+    parameters: "Kimi-Chat (200K context)"
+    api: "Moonshot API"
+    use_cases: "Long-context tasks, document analysis"
+
+## GPU & AI Compute
+gpu_availability:
+  domestic_chips:
+    - "Huawei Ascend 910B (most used, A100 alternative)"
+    - "Biren BR100 (emerging)"
+    - "Cambricon MLU (inference focused)"
+  nvidia_access: "Restricted (US export controls 2022-2026)"
+  cloud_gpu:
+    alibaba_cloud: "A100 (limited), V100, Ascend 910B"
+    tencent_cloud: "V100, Ascend 910B, A10"
+    huawei_cloud: "Ascend 910B (primary)"
+
+ai_clusters:
+  - name: "Alibaba Cloud Hangzhou"
+    gpus: "50,000+ A100 equivalent"
+  - name: "Huawei Xi'an"
+    gpus: "40,000+ Ascend 910B"
+  - name: "Baidu Yangquan"
+    gpus: "30,000+ V100/A100"
+
+## AI Regulation (Interim Measures Aug 2023)
+ai_regulation:
+  requirement: "All generative AI services must be filed with CAC"
+  labeling: "AI-generated content MUST be labeled"
+  training_data: "Must have legal source, no IP infringement"
+  content_rules: "Must comply with 'socialist core values'"
+  algorithm_filing: "Required for public-facing AI services"
+
+## AI Infrastructure
+ai_compute_investment_usd: 12_000_000_000  # 2025
+ai_startups: 4_500+
+ai_patents: 130_000  # world's largest
+
+## Data Centers & Availability Zones
+availability_zones_china: 120+
+major_regions:
+  - "Beijing (华北) - 30+ AZs"
+  - "Shanghai (华东) - 25+ AZs"
+  - "Guangzhou/Shenzhen (华南) - 20+ AZs"
+  - "Chengdu (华西) - 15+ AZs"
+  - "Hangzhou (电商枢纽) - 10+ AZs"
+
+## AI Applications in China
+ai_use_cases:
+  - "Facial recognition (98% accuracy, 200M+ cameras)"
+  - "Natural language processing (translation, chatbots)"
+  - "Autonomous driving (Apollo, Pony.ai, WeRide)"
+  - "Medical imaging (diagnosis AI)"
+  - "Smart cities (traffic, security, gov services)"
+  - "Generative AI (Qwen, Hunyuan, Ernie - 800M+ users)"
+
+## Internet & Speed
+internet_speed_avg_mbps:
+  fixed: 200
+  mobile: 150
+  5g_coverage: "98% of cities (3.5M base stations)"
+
+## Blocked Services (Great Firewall)
+blocked_in_china:
+  - "Google Cloud Platform (GCP)"
+  - "Google AI (Gemini, Bard)"
+  - "OpenAI (ChatGPT, GPT-4)"
+  - "Anthropic (Claude)"
+  - "AWS Global (only China regions via partners)"
+  - "Azure Global (only China regions via 21Vianet)"
+  - "GitHub (slow, intermittent)"
+  - "Hugging Face (partially blocked)"
+
+## Alternative Platforms
+domestic_alternatives:
+  ai_models: "Qwen, Hunyuan, Ernie, ChatGLM (not OpenAI/Anthropic)"
+  cloud: "Alibaba Cloud, Tencent Cloud (not AWS/GCP)"
+  search: "Baidu, Bing China (not Google)"
+  github_alt: "Gitee (domestic Git), CodeChina"
+  huggingface_alt: "ModelScope (Alibaba's model hub)"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "Google, OpenAI, Anthropic, AWS/GCP Global are ALL BLOCKED"
+  - "Use domestic LLMs: Qwen (Alibaba), Hunyuan (Tencent), Ernie (Baidu)"
+  - "Cloud: Alibaba Cloud (37%), Tencent Cloud (16%), Huawei Cloud (11%)"
+  - "GPU: Huawei Ascend 910B (main A100 alternative), Nvidia restricted"
+  - "AI services MUST be filed with CAC (Cyberspace Administration)"
+  - "AI-generated content MUST be labeled as AI-generated"
+  - "Training data must have legal source (no scraping violations)"
+  - "Content must comply with 'socialist core values'"
+  - "5G coverage: 98% cities, 3.5M base stations"
+  - "Facial recognition: 200M+ cameras, 98% accuracy"
+  - "ModelScope (not Hugging Face) is China's model hub"
+  - "Baidu (not Google) is #1 search engine (65% market share)"

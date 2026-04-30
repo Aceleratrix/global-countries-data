@@ -1,0 +1,197 @@
+---
+country: "China"
+category: "fiscal"
+type: "tax_codes"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.chinatax.gov.cn"
+  - "https://www.state-tax.gov.cn"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Tax Codes & Fiscal Information - China
+
+## Tax Authority
+authority: "State Taxation Administration (STA - 国家税务总局)"
+website: "https://www.chinatax.gov.cn"
+local_offices: "Tax Service Halls (办税服务厅) in all cities"
+
+## Corporate Income Tax (CIT)
+corporate_income_tax:
+  standard_rate: 25  # percentage
+  preferential_rates:
+    - rate: 15
+      applies_to: "High-tech enterprises (高新技术企业)"
+      requirements: "Core IP, R&D spending >3-5% of revenue, etc."
+    - rate: 15
+      applies_to: "Western Region enterprises (西部大开发)"
+    - rate: 20
+      applies_to: "Small low-profit enterprises (小型微利企业)"
+      conditions: "Annual taxable income < ¥3M, assets < ¥50M, employees < 300"
+    - rate: 0-12.5
+      applies_to: "Encouraged industries in Free Trade Zones"
+
+## Value Added Tax (VAT)
+vat:
+  standard_rate: 13  # most goods and imports
+  reduced_rates:
+    - rate: 9
+      applies_to: "Transportation, postal, basic telecom, real estate, construction"
+    - rate: 6
+      applies_to: "Financial services, modern services, lifestyle services"
+    - rate: 0
+      applies_to: "Exports (export tax rebate - 出口退税)"
+  
+  vat_thresholds:
+    monthly_sales: 30_000  # small-scale taxpayers exempt if below
+    quarterly_sales: 90_000
+    
+  taxpayer_types:
+    - type: "General Taxpayer (一般纳税人)"
+      requirements: "Annual sales > ¥5M or voluntary registration"
+      can_deduct_input_vat: true
+    - type: "Small-scale Taxpayer (小规模纳税人)"
+      requirements: "Annual sales ≤ ¥5M"
+      can_deduct_input_vat: false
+      simplified_rate: 3  # often applied
+
+## Individual Income Tax (IIT)
+individual_income_tax:
+  tax_year: "Calendar year (Jan 1 - Dec 31)"
+  filing_deadline: "March 1 - June 30 (annual settlement)"
+  
+  tax_brackets:
+    - range_cny: "0 - 36,000"
+      rate: 3
+    - range_cny: "36,000 - 144,000"
+      rate: 10
+    - range_cny: "144,000 - 300,000"
+      rate: 20
+    - range_cny: "300,000 - 420,000"
+      rate: 25
+    - range_cny: "420,000 - 660,000"
+      rate: 30
+    - range_cny: "660,000 - 960,000"
+      rate: 35
+    - range_cny: "960,000+"
+      rate: 45
+      
+  deductions:
+    basic: 5_000  # monthly standard deduction
+    special_additional:
+      - "Children education: ¥1,000/month per child"
+      - "Continuing education: ¥400/month"
+      - "Housing loan interest: ¥1,000/month"
+      - "Housing rent: ¥800-1,500/month (by city)"
+      - "Elderly care: ¥2,000/month (single child) or ¥1,000/month (multiple)"
+      - "Health insurance: up to ¥2,400/year"
+
+## Social Security Contributions
+social_security:
+  pension:
+    employer: 16  # percentage of salary
+    employee: 8
+  medical_insurance:
+    employer: 6-10  # varies by city
+    employee: 2
+  unemployment:
+    employer: 0.5-1
+    employee: 0.5
+  work_injury:
+    employer: 0.2-1.9  # by industry risk
+    employee: 0
+  maternity:
+    employer: 0.8-1
+    employee: 0
+    
+  housing_fund:
+    employer: 5-12
+    employee: 5-12
+    
+  total_employer_burden: 28-38  # percentage of salary
+  total_employee_burden: 16-18
+
+## Tax Incentives for Foreign Investment
+foreign_investment_incentives:
+  - "5-year tax holiday in Special Economic Zones (SEZs)"
+  - "Reduced CIT 15% for high-tech foreign enterprises"
+  - "VAT rebates for exports (typically 9-13%)"
+  - "Deduction of 175% for R&D expenses"
+  - "Tax exemptions in Free Trade Zones (Shanghai, Hainan, etc.)"
+  - "Preferential treatment for encouraged industries"
+
+## Digital Service Tax
+digital_service_tax:
+  status: "No explicit DST"
+  note: "Foreign digital services subject to VAT 6% + CIT 25%"
+  platform_regulation_fee: "Applied to super platforms (Alibaba, Tencent, etc.)"
+
+## Transfer Pricing
+transfer_pricing:
+  authority: "STA (State Taxation Administration)"
+  documentation: "Required for related-party transactions > ¥200M revenue"
+  arm_length_principle: true
+  penalties: "Adjustments + 5% late payment surcharge + fines"
+
+## Tax Filing & Payment
+filing_frequency:
+  vat: "Monthly (general taxpayers) or Quarterly (small-scale)"
+  cit: "Quarterly prepayment, annual settlement"
+  iit: "Monthly withholding by employer"
+  
+filing_deadlines:
+  vat: "15th of following month"
+  cit: "15th of month following quarter"
+  iit_annual: "June 30"
+
+payment_methods:
+  - "Online banking (most common)"
+  - "Third-party payment (Alipay, WeChat Pay)"
+  - "Tax Service Hall (in-person)"
+  - "Bank counter"
+
+## Invoicing System (Fapiao)
+fapiao:
+  description: "Official tax invoice (发票) - mandatory for all business transactions"
+  types:
+    - "Special VAT Fapiao (增值税专用发票) - for B2B, allows input tax deduction"
+    - "Regular VAT Fapiao (增值税普通发票) - for B2C, no deduction"
+    - "Electronic Fapiao (电子发票) - increasingly common"
+    
+  requirements:
+    - "All B2B transactions require Fapiao"
+    - "Fapiao must match contract amount exactly"
+    - "Electronic Fapiao system (电子发票服务平台)"
+    
+  penalties:
+    fake_fapiao: "Heavy fines + criminal liability possible"
+    no_fapiao: "Customer can report to tax authority"
+
+## Free Trade Zones (FTZs)
+major_ftzs:
+  - "Shanghai FTZ (Pilot, 2013)"
+  - "Hainan Free Trade Port (zero tariffs by 2025 goal)"
+  - "Guangdong-Hong Kong-Macao Greater Bay Area"
+  - "Beijing, Tianjin, Fujian, and 18 others"
+
+benefits:
+  - "Zero tariffs on imported equipment/materials"
+  - "Reduced CIT (15% in some zones)"
+  - "Simplified customs procedures"
+  - "Freer cross-border capital flows"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "Fapiao (official tax invoice) MANDATORY for all business transactions"
+  - "All tax filings online via ETax system (电子税务局)"
+  - "VAT standard rate 13%, but exports get 0% + rebate"
+  - "High-tech enterprises get 15% CIT (vs 25% standard)"
+  - "Individual income tax: 3-45% progressive, max ¥1M+ in some cities"
+  - "Social security adds 28-38% to employer labor costs"
+  - "5-year tax holiday available in SEZs for foreign investors"
+  - "Transfer pricing documentation required if revenue >¥200M"
+  - "Hainan Free Trade Port aiming for zero tariffs by 2025"
+  - "Electronic Fapiao now standard (save paper, reduce fraud)"
+  - "Tax residency: 183 days in a tax year = tax resident"
+  - "STA has access to all financial data via Golden Tax System (金税系统)"

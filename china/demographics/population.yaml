@@ -1,0 +1,179 @@
+---
+country: "China"
+category: "demographics"
+type: "population"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.stats.gov.cn"
+  - "https://www.census.gov.cn"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Demographics - China
+
+## Population Overview
+total_population: 1_412_600_000
+population_2025: 1_415_000_000
+population_2030_projection: 1_420_000_000
+population_2050_projection: 1_350_000_000
+growth_rate_percent: 0.03  # near zero growth
+rank_global: 2  # after India (2023)
+
+## Age Distribution
+age_groups:
+  "0-14":
+    population: 230_000_000
+    percentage: 16.3
+  "15-64":
+    population: 965_000_000
+    percentage: 68.3
+  "65+":
+    population: 217_600_000
+    percentage: 15.4
+    
+median_age: 39.5
+dependency_ratio: 46.4  # dependents per 100 working-age
+
+## Urban vs Rural
+urbanization_rate: 65.2  # percentage
+urban_population: 921_000_000
+rural_population: 491_600_000
+
+urbanization_trend: "Growing 1-2% annually, targeting 70% by 2035"
+
+## Major Cities (Population)
+megacities:
+  - name: "Shanghai (上海)"
+    population: 29_200_000
+    type: "Municipality"
+  - name: "Beijing (北京)"
+    population: 21_900_000
+    type: "Capital, Municipality"
+  - name: "Chongqing (重庆)"
+    population: 32_100_000  # includes large rural area
+    type: "Municipality"
+  - name: "Guangzhou (广州)"
+    population: 18_700_000
+    type: "City"
+  - name: "Shenzhen (深圳)"
+    population: 17_600_000
+    type: "City, Tech Hub"
+  - name: "Chengdu (成都)"
+    population: 16_900_000
+    type: "City, Western hub"
+  - name: "Tianjin (天津)"
+    population: 13_600_000
+    type: "Municipality"
+  - name: "Wuhan (武汉)"
+    population: 13_400_000
+    type: "City, Central hub"
+
+## Gender Distribution
+gender_ratio:
+  male: 51.2  # percentage
+  female: 48.8
+  sex_ratio_births: 111  # boys per 100 girls (skewed due to historical preferences)
+
+## Ethnicity
+ethnic_groups:
+  han_chinese:
+    population: 1_286_000_000
+    percentage: 91.1
+  zhuang:
+    population: 19_600_000
+    percentage: 1.39
+  uighur:
+    population: 12_700_000
+    percentage: 0.90
+  hui:
+    population: 11_400_000
+    percentage: 0.81
+  manchu:
+    population: 10_400_000
+    percentage: 0.74
+  others:
+    count: 55  # recognized ethnic minorities
+    total_population: 125_000_000
+    percentage: 8.9
+
+## Language & Dialects
+languages:
+  official: "Mandarin (Standard Chinese - 普通话)"
+  speakers_mandarin: 1_300_000_000  # 92% can speak
+  
+major_dialects:
+  - name: "Cantonese (粤语/广东话)"
+    speakers: 85_000_000
+    region: "Guangdong, Hong Kong, Macau"
+  - name: "Shanghainese (吴语/上海话)"
+    speakers: 80_000_000
+    region: "Shanghai, Jiangsu, Zhejiang"
+  - name: "Minnan (闽南语/台语)"
+    speakers: 60_000_000
+    region: "Fujian, Taiwan, Southeast Asia"
+  - name: "Hakka (客家话)"
+    speakers: 40_000_000
+    region: "Scattered across southern China"
+
+## Education
+education_levels:
+  literacy_rate: 97.3  # age 15+
+  college_or_above: 218_000_000  # 15.4% of population
+  high_school: 345_000_000  # 24.4%
+  junior_high: 480_000_000  # 34.0%
+  primary_school: 280_000_000  # 19.8%
+  no_formal_education: 89_600_000  # 6.3%
+
+## Income & Wealth
+gdp_per_capita_usd: 13_120
+median_household_income_usd: 12_500
+gini_coefficient: 0.466  # inequality measure (0=equal, 1=unequal)
+
+income_distribution:
+  high_income: 15  # percentage (top 20% earn >¥500K/year)
+  middle_income: 45  # percentage (¥100K-500K/year)
+  low_income: 40  # percentage (<¥100K/year)
+
+## Digital Demographics
+internet_users: 1_089_000_000
+internet_penetration: 77
+mobile_users: 1_680_000_000  # 119% (multi-SIM)
+social_media_users: 1_100_000_000
+
+top_social_platforms:
+  - "WeChat: 1.3B MAU"
+  - "Douyin (TikTok China): 750M MAU"
+  - "Weibo: 580M MAU"
+  - "Kuaishou: 350M MAU"
+  - "Bilibili: 320M MAU"
+
+## Religion
+religion:
+  buddhism: 244_000_000  # 18% (including folk Buddhism)
+  christianity: 44_000_000  # 3.1% (Protestant + Catholic)
+  islam: 25_000_000  # 1.8% (mainly Uighur, Hui)
+  taoism: 12_000_000  # 0.8%
+  unaffiliated: 1_087_000_000  # 76.3%
+
+## Migration
+internal_migration:
+  migrant_workers: 290_000_000  # rural-to-urban migrants
+  main_destinations: "Guangdong, Zhejiang, Jiangsu, Shanghai, Beijing"
+  hukou_system: "Household registration system limits migrant access to services"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "Population: 1.41 billion (world's 2nd largest, after India)"
+  - "Mandarin (Standard Chinese) is official language - 92% can speak"
+  - "WeChat is MANDATORY for reaching Chinese consumers (1.3B users)"
+  - "Urbanization: 65%, growing 1-2% annually (target: 70% by 2035)"
+  - "Internet users: 1.09B (77% penetration), mobile-first (1.68B subscriptions)"
+  - "Major dialects: Cantonese (85M), Shanghainese (80M), Minnan (60M)"
+  - "Hukou (household registration) affects access to schools, healthcare"
+  - "Aging population: 15.4% over 65 (217M), growing rapidly"
+  - "Middle class growing: 45% of population (¥100K-500K/year income)"
+  - "Internal migrants: 290M rural-to-urban workers (key consumer segment)"
+  - "Digital platforms: WeChat, Douyin, Weibo dominate (Western social blocked)"
+  - "Literacy rate: 97.3%, college education: 15.4% of population"
+  - "Ethnic Han: 91%, 55 minorities: 9% (notable: Zhuang, Uighur, Hui)"

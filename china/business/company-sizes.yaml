@@ -1,0 +1,208 @@
+---
+country: "China"
+category: "business"
+type: "company_sizes"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.stats.gov.cn"
+  - "https://www.samr.gov.cn"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Company Sizes & Types - China
+
+## Company Size Classifications
+classification_standard: "GB/T 4754-2017 (National Standard)"
+
+### Small and Medium Enterprises (SMEs - 中小企业)
+sme_definition:
+  total_enterprises: 52_000_000
+  sme_share_percent: 99.8
+  employment_share: 80  # percentage of total employment
+  
+size_categories:
+  - category: "Micro Enterprise (微型企业)"
+    employees: "1-9"
+    revenue_rmb: "< ¥500K"
+    assets_rmb: "< ¥3M"
+    count: 35_000_000
+    share_percent: 67.3
+    
+  - category: "Small Enterprise (小型企业)"
+    employees: "10-49"
+    revenue_rmb: "¥500K - ¥20M"
+    assets_rmb: "¥3M - ¥30M"
+    count: 12_000_000
+    share_percent: 23.1
+    
+  - category: "Medium Enterprise (中型企业)"
+    employees: "50-299"
+    revenue_rmb: "¥20M - ¥400M"
+    assets_rmb: "¥30M - ¥400M"
+    count: 4_900_000
+    share_percent: 9.4
+
+### Large Enterprises (大型企业)
+large_enterprises:
+  employees: "300+"
+  revenue_rmb: "> ¥400M"
+  assets_rmb: "> ¥400M"
+  count: 1_100_000
+  share_percent: 2.1
+
+## Company Types (Legal Forms)
+company_types:
+  - name: "Limited Liability Company (有限责任公司 - LLC)"
+    chinese: "有限责任公司"
+    min_capital: "¥30K (since 2014 reform)"
+    shareholders: "1-50"
+    liability: "Limited to capital contribution"
+    use_case: "Most common for domestic SMEs"
+    count: 38_000_000
+    
+  - name: "Company Limited by Shares (股份有限公司)"
+    chinese: "股份有限公司"
+    min_capital: "¥5M"
+    shareholders: "2-200 (before IPO)"
+    liability: "Limited to shares held"
+    use_case: "Larger companies, pre-IPO"
+    count: 1_500_000
+    
+  - name: "Wholly Foreign-Owned Enterprise (WFOE)"
+    chinese: "外商独资企业"
+    requirements: "100% foreign capital, no Chinese partner required"
+    registration: "SAMR (State Administration for Market Regulation)"
+    use_case: "Foreign companies entering China market"
+    count: 500_000
+    
+  - name: "Joint Venture (JV - 中外合资)"
+    chinese: "中外合资经营企业"
+    requirements: "Foreign + Chinese partner, 25%+ foreign equity"
+    use_case: "Traditional foreign entry (less common now)"
+    count: 300_000
+    
+  - name: "Representative Office (RO - 代表处)"
+    chinese: "外国企业常驻代表机构"
+    restrictions: "No direct business, only liaison/market research"
+    use_case: "Initial market exploration"
+    count: 100_000
+    
+  - name: "Partnership Enterprise (合伙企业)"
+    chinese: "合伙企业"
+    types: "General partnership, limited partnership"
+    use_case: "Professional services, VC funds"
+    count: 800_000
+    
+  - name: "Individual Business (个体工商户)"
+    chinese: "个体工商户"
+    owner: "Single person or family"
+    registration: "Simplified, no legal entity"
+    count: 110_000_000  # including self-employed
+    note: "Not a company, but counts as business entity"
+
+## Foreign Investment Vehicles
+foreign_investment:
+  - type: "WFOE (外商独资)"
+    description: "100% foreign-owned, full control"
+    timeline: "3-6 months setup"
+    min_capital: "No minimum (industry-dependent)"
+    
+  - type: "Equity Joint Venture (EJV - 合资)"
+    description: "50-50 or other split with Chinese partner"
+    timeline: "4-8 months (partner negotiation)"
+    note: "Less common after WFOE allowed (2001 WTO)"
+    
+  - type: "Cooperative Joint Venture (CJV - 合作)"
+    description: "Contractual cooperation, flexible terms"
+    timeline: "4-8 months"
+    note: "Rare now, mostly legacy"
+    
+  - type: "Foreign-Invested Partnership (FIP - 外商投资合伙)"
+    description: "Partnership with foreign partners"
+    timeline: "2-4 months"
+    use_case: "VC/PE funds, professional services"
+
+## Free Trade Zones (FTZs)
+free_trade_zones:
+  - name: "Shanghai FTZ (2013, pilot)"
+    benefits: "Simplified registration, capital account liberalization"
+  - name: "Hainan Free Trade Port"
+    benefits: "Zero tariffs by 2025 goal, tourism + tech focus"
+  - name: "Guangdong-HK-Macao Greater Bay Area"
+    benefits: "Integrated with Hong Kong/Macau, tech hub"
+  - name: "Beijing, Tianjin, Fujian + 18 others"
+    benefits: "Industry-specific incentives"
+
+## Special Economic Zones (SEZs)
+sezs:
+  - name: "Shenzhen (1980, first SEZ)"
+    focus: "Tech, manufacturing, innovation"
+    success: "From fishing village to tech hub (Tencent, Huawei, DJI)"
+  - name: "Zhuhai"
+    focus: "Manufacturing, tourism (near Macau)"
+  - name: "Shantou"
+    focus: "Manufacturing, overseas Chinese investment"
+  - name: "Xiamen"
+    focus: "Cross-strait trade with Taiwan"
+
+## Registration Process
+business_registration:
+  authority: "SAMR (State Administration for Market Regulation)"
+  online_platform: "Enterprise Registration E-portal (企业登记网上注册系统)"
+  timeline: "3-7 business days (fully online since 2020)"
+  
+steps:
+  - "Name pre-approval (1 day, online)"
+  - "Submit incorporation documents (online)"
+  - "Capital verification (bank account, if required)"
+  - "Business license (营业执照) issued"
+  - "Company chops/seals (公章) made"
+  - "Tax registration (automatic with business license)"
+  - "Social security registration"
+  - "Open corporate bank account"
+
+## Unified Social Credit Code (USCC)
+uscc:
+  description: "18-digit unique identifier (统一社会信用代码)"
+  replaces: "Tax ID, business license number, org code (now unified)"
+  format: "18 digits/letters (e.g., 91110000MA01234567)"
+  use: "All gov filings, tax, banking, contracts"
+
+## Company Chops (Seals)
+company_chops:
+  importance: "CRITICAL - legally binding (signature equivalent)"
+  types:
+    - "Company Seal (公章) - most important"
+    - "Legal Representative Seal (法人章)"
+    - "Financial Seal (财务章)"
+    - "Contract Seal (合同章)"
+    - "Invoice Seal (发票章)"
+  registration: "Must be registered with Public Security Bureau (公安局)"
+
+## Tax & Reporting
+tax_filing:
+  system: "ETax (电子税务局) - fully online"
+  frequency: "Monthly (VAT), Quarterly (CIT), Annual (IIT settlement)"
+  
+annual_report:
+  requirement: "All companies must file annual report (年报)"
+  deadline: "June 30 each year"
+  platform: "National Enterprise Credit Information Publicity System (国家企业信用信息公示系统)"
+  penalty: "Late filing →列入经营异常名录 (abnormal operation list)"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "SMEs = 99.8% of Chinese enterprises (52M companies)"
+  - "Most common type: LLC (有限责任公司) - 38M companies"
+  - "WFOE (外商独资) is standard for foreign companies since 2001"
+  - "Unified Social Credit Code (USCC) = 18-digit ID (replaces all old IDs)"
+  - "Company chops (seals) are LEGALLY BINDING (more than signature)"
+  - "Business registration fully online via SAMR (3-7 days)"
+  - "Individual Business (个体工商户) = 110M self-employed (not companies)"
+  - "Annual report deadline: June 30 (or被列入经营异常名录)"
+  - "Free Trade Zones offer tax holidays and simplified procedures"
+  - "Representative Office (RO) CANNOT do direct business (only liaison)"
+  - "Hainan Free Trade Port targeting zero tariffs by 2025"
+  - "ETax system handles all tax filings (VAT, CIT, IIT) online"
+  - "Foreign companies need WFOE or JV (RO is just liaison office)"

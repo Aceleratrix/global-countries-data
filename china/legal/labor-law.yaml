@@ -1,0 +1,162 @@
+---
+country: "China"
+category: "legal"
+type: "labor_law"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.mohrss.gov.cn"
+  - "https://www.npc.gov.cn"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Labor Law - China
+
+## Legal Framework
+primary_law: "Labor Contract Law (劳动合同法) - effective 2008, amended 2012"
+labor_protection: "Labor Law (劳动法) - 1995"
+arbitration: "Labor Dispute Mediation and Arbitration Law (劳动争议调解仲裁法) - 2007"
+authority: "Ministry of Human Resources and Social Security (MOHRSS - 人社部)"
+
+## Employment Contracts
+contract_types:
+  - type: "Fixed-term (固定期限劳动合同)"
+    duration: "1-5 years (common: 3 years)"
+    probation: "1-6 months (based on contract length)"
+    max_probation: "6 months for 3+ year contracts"
+    
+  - type: "Open-ended (无固定期限劳动合同)"
+    description: "No end date, strong job protection"
+    triggers:
+      - "Employee worked 10+ years continuously"
+      - "Two consecutive fixed-term contracts renewed"
+      - "Employee near retirement (15 years to go)"
+      
+  - type: "Project-based (以完成一定工作任务为期限)"
+    description: "Ends when project completes"
+    use_case: "Construction, seasonal work"
+
+## Working Hours
+standard_hours:
+  per_day: 8
+  per_week: 40
+  rest_days: "At least 1 day per week (usually Sunday)"
+  
+overtime_rules:
+  max_daily: 3  # hours
+  max_monthly: 36  # hours
+  compensation:
+    weekdays: 150  # percentage of normal wage
+    weekends: 200  # percentage (or comp time off)
+    holidays: 300  # percentage
+
+## Minimum Wage
+minimum_wage:
+  tiers: "Set by city/province (Class 1, 2, 3)"
+  tier1_cities:  # Beijing, Shanghai, Shenzhen, Guangzhou
+    monthly: "¥2,590 - ¥3,500"
+    hourly: "¥22 - ¥28"
+  tier2_cities:  # Hangzhou, Nanjing, Chengdu, etc.
+    monthly: "¥2,000 - ¥2,500"
+    hourly: "¥18 - ¥22"
+  tier3_cities:  # Smaller cities
+    monthly: "¥1,500 - ¥2,000"
+    hourly: "¥14 - ¥18"
+
+## Social Insurance (五险一金)
+mandatory_insurance:
+  - name: "Pension Insurance (养老保险)"
+    employer: 16
+    employee: 8
+  - name: "Medical Insurance (医疗保险)"
+    employer: 6-10  # varies by city
+    employee: 2
+  - name: "Unemployment Insurance (失业保险)"
+    employer: 0.5-1
+    employee: 0.5
+  - name: "Work Injury Insurance (工伤保险)"
+    employer: 0.2-1.9  # by industry risk
+    employee: 0
+  - name: "Maternity Insurance (生育保险)"
+    employer: 0.8-1
+    employee: 0
+
+housing_fund:
+  name: "Housing Provident Fund (住房公积金)"
+  employer: 5-12
+  employee: 5-12
+  note: "Tax-advantaged savings for home purchase/rent"
+
+## Termination & Severance
+termination_notice:
+  employer_initiated: "30 days written notice OR 1 month salary in lieu"
+  employee_initiated: "30 days written notice (no severance)"
+  
+severance_pay:
+  calculation: "1 month salary per full year worked"
+  partial_years: "Pro-rated (half month if >6 months)"
+  cap: "12 years maximum (for employees before 2008)"
+  example: "5 years = 5 months salary"
+
+## Mandatory Leave
+leave_entitlements:
+  annual_leave:
+    "1-10 years": 5  # days
+    "10-20 years": 10
+    "20+ years": 15
+  sick_leave: "3-24 months (depending on tenure, 60-100% pay)"
+  maternity_leave: "98 days (can extend to 158+ in some provinces)"
+  paternity_leave: "7-30 days (varies by province)"
+  marriage_leave: "3-15 days (varies by province)"
+  bereavement_leave: "1-3 days (for immediate family)"
+
+## Probation Period
+probation_rules:
+  contract_3_months_to_1_year: "Max 1 month probation"
+  contract_1_year_to_3_years: "Max 2 months probation"
+  contract_3_plus_years: "Max 6 months probation"
+  note: "Probation salary must be ≥80% of formal salary, ≥min wage"
+
+## Non-Compete Agreements
+non_compete:
+  duration: "Max 2 years after termination"
+  compensation: "≥30% of employee's average salary (monthly)"
+  scope: "Competitors, similar business"
+  penalty: "Employee must pay liquidated damages if violated"
+
+## Labor Dispute Resolution
+dispute_process:
+  step1: "Mediation (企业劳动争议调解委员会)"
+  step2: "Arbitration (劳动争议仲裁委员会) - mandatory before lawsuit"
+  step3: "Court (人民法院) - if unsatisfied with arbitration"
+
+timeline:
+  mediation: "7-15 days"
+  arbitration: "45-60 days"
+  court: "3-6 months (first instance)"
+
+## Special Rules for Foreigners
+work_permit:
+  required: "Work Permit (外国人工作许可证) + Z Visa"
+  categories:
+    - "Category A (High-end talent) - streamlined process"
+    - "Category B (Professional) - standard process"
+    - "Category C (Seasonal/temporary) - quota-based"
+  employer_sponsorship: "Mandatory"
+  max_duration: "5 years (renewable)"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "Labor Contract Law (2008) is PRIMARY law - all contracts must comply"
+  - "Open-ended contracts (无固定期限) triggered after 10 years OR 2 renewals"
+  - "Severance: 1 month salary per year worked (max 12 years counted)"
+  - "Social insurance MANDATORY: 5 insurances + housing fund (五险一金)"
+  - "Employer burden: ~28-38% on top of salary (social insurance)"
+  - "Overtime: 150% weekdays, 200% weekends, 300% holidays"
+  - "Probation max: 6 months (for 3+ year contracts)"
+  - "Annual leave: 5-15 days (based on years worked)"
+  - "Maternity leave: 98 days (can extend to 158+ in progressive provinces)"
+  - "Non-compete max 2 years, must pay ≥30% salary during period"
+  - "Arbitration is MANDATORY before going to court"
+  - "Foreigners need Work Permit (A/B/C) + Z Visa (employer-sponsored)"
+  - "Minimum wage varies by city: ¥1,500-3,500/month (Tier 1-3)"

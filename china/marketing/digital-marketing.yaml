@@ -1,0 +1,239 @@
+---
+country: "China"
+category: "marketing"
+type: "digital_marketing"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.cac.gov.cn"
+  - "https://www.miit.gov.cn"
+  - "https://www.cnnic.net.cn"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Digital Marketing Landscape - China
+
+## Market Overview
+population_online: 1_089_000_000  # 77% internet penetration
+smartphone_penetration: 119  # percentage (multi-SIM)
+social_media_users: 1_100_000_000
+ecommerce_penetration: 85  # percentage of internet users
+
+## Top Social Media Platforms (All Domestic)
+platforms:
+  - name: "WeChat (微信)"
+    users: 1_300_000_000
+    business_relevance: "CRITICAL - super app (chat, pay, mini-programs)"
+    features: "Moments (social feed), Official Accounts, Mini-programs"
+    
+  - name: "Douyin (抖音 - TikTok China)"
+    users: 750_000_000
+    business_relevance: "HIGH - short video, live commerce"
+    features: "Live streaming, shoppable videos, influencer marketing"
+    
+  - name: "Weibo (微博)"
+    users: 580_000_000
+    business_relevance: "HIGH - Twitter-like microblogging"
+    features: "Trending topics, KOL marketing, news dissemination"
+    
+  - name: "Kuaishou (快手)"
+    users: 350_000_000
+    business_relevance: "MEDIUM - short video (lower-tier cities)"
+    features: "Live commerce, rural market focus"
+    
+  - name: "Xiaohongshu/RED (小红书)"
+    users: 300_000_000
+    business_relevance: "HIGH for lifestyle/fashion/beauty"
+    features: "User-generated reviews, influencer marketing"
+    
+  - name: "Bilibili (哔哩哔哩)"
+    users: 320_000_000
+    business_relevance: "HIGH for Gen Z, gaming, tech"
+    features: "Long-form video, ACG (anime/comic/game) community"
+
+## Blocked Western Platforms
+blocked_in_china:
+  - "Facebook, Instagram, WhatsApp, Messenger"
+  - "Twitter/X, Reddit, Discord"
+  - "YouTube, TikTok (international)"
+  - "Google (search, Gmail, YouTube, Maps)"
+  - "Most Western social platforms require VPN"
+
+## Digital Advertising
+advertising_spend_cny: 1_200_000_000_000  # ~$170B USD
+spend_by_channel:
+  short_video: 38  # Douyin, Kuaishou
+  ecommerce: 28  # Taobao, JD, Pinduoduo ads
+  social: 18  # WeChat, Weibo, Xiaohongshu
+  search: 10  # Baidu, 360 Search
+  display: 6
+
+## Top Ad Networks & Platforms
+ad_platforms:
+  - "ByteDance Ocean Engine (巨量引擎) - Douyin, Toutiao ads"
+  - "Tencent Ads (腾讯广告) - WeChat, QQ, Tencent Video"
+  - "Alibaba Uni Marketing (阿里妈妈) - Taobao, Tmall ads"
+  - "Baidu Marketing (百度营销) - search ads"
+  - "Kuaishou Ads (快手广告)"
+  - "Xiaohongshu Ads (小红书广告)"
+  - "Bilibili Ads (哔哩哔哩广告)"
+
+## E-commerce Platforms (Critical for Marketing)
+ecommerce_platforms:
+  - name: "Taobao (淘宝 - Alibaba)"
+    users: 700_000_000
+    market_share: 35
+    features: "Search ads, live commerce, influencer collabs"
+    
+  - name: "Pinduoduo (拼多多)"
+    users: 820_000_000
+    market_share: 32
+    features: "Group buying, social commerce, aggressive pricing"
+    
+  - name: "JD.com (京东)"
+    users: 580_000_000
+    market_share: 18
+    features: "Premium products, logistics, brand stores"
+    
+  - name: "Tmall (天猫 - Alibaba)"
+    users: 500_000_000
+    market_share: 12
+    features: "Brand flagship stores, premium e-commerce"
+    
+  - name: "Douyin Shop (抖音商城)"
+    users: 300_000_000
+    market_share: 8
+    features: "Live commerce, shoppable videos"
+
+## Influencer Marketing (KOL/KOC)
+kol_marketing:
+  tiers:
+    - "Top KOLs (头部KOL): 10M+ followers, ¥1M+ per post"
+    - "Mid-tier KOLs (腰部KOL): 1M-10M, ¥100K-1M per post"
+    - "Micro KOCs (KOC - 关键意见消费者): <1M, ¥10K-100K per post"
+    
+  platforms:
+    - "Xiaohongshu (lifestyle, beauty, fashion)"
+    - "Douyin (short video, live commerce)"
+    - "Weibo (news, trends, events)"
+    - "Bilibili (tech, gaming, education)"
+    
+  costs:
+    top_kol_mention: "¥500K - ¥5M per campaign"
+    live_commerce_commission: "10-30% of sales"
+
+## Search Engines (Baidu Dominates)
+search_engines:
+  - name: "Baidu (百度)"
+    market_share: 65
+    features: "Search ads (Baidu Phoenix Nest), Baijiahao content"
+  - name: "Bing China (必应)"
+    market_share: 18
+    features: "International content, English search"
+  - name: "360 Search (360搜索)"
+    market_share: 10
+  - name: "Sogou (搜狗)"
+    market_share: 5
+    owner: "Tencent (acquired 2021)"
+
+## Email Marketing (Less Relevant)
+email_usage:
+  penetration: 45  # percentage (much lower than West)
+  popular_providers:
+    - "QQ Mail (腾讯邮箱) - 1.2B accounts"
+    - "163 Mail (网易邮箱) - 300M accounts"
+    - "Gmail (blocked, requires VPN)"
+  business_use: "WeChat Work (企业微信) preferred over email"
+
+## Content Marketing
+content_platforms:
+  - name: "WeChat Official Accounts (微信公众号)"
+    users: 1_200_000_000
+    use: "Long-form content, brand storytelling"
+  - name: "Zhihu (知乎 - Quora-like)"
+    users: 250_000_000
+    use: "Professional Q&A, thought leadership"
+  - name: "Baijiahao (百家号 - Baidu)"
+    users: 400_000_000
+    use: "SEO, content distribution"
+  - name: "Toutiao (今日头条 - ByteDance)"
+    users: 350_000_000
+    use: "News, algorithm-recommended content"
+
+## Live Commerce (Major Trend)
+live_commerce:
+  market_size_usd: 600_000_000_000  # $600B (2025)
+  platforms:
+    - "Taobao Live (阿里直播) - 500M viewers"
+    - "Douyin Live (抖音直播) - 400M viewers"
+    - "Kuaishou Live (快手直播) - 200M viewers"
+    - "JD Live (京东直播) - 100M viewers"
+  conversion_rate: 8-15  # percentage (much higher than traditional e-commerce)
+  top_streamers: "Austin Li (李佳琦), Viya (薇娅), Crazy Brother Yang (疯狂小杨哥)"
+
+## Super Apps Integration
+super_apps:
+  - name: "WeChat (微信)"
+    features: "Chat, Moments, Mini-programs, WeChat Pay, Official Accounts"
+    marketing_use: "Mini-programs (light apps), CRM, loyalty programs"
+  - name: "Alipay (支付宝)"
+    features: "Payments, Mini-programs, credit score (Zhima), gov services"
+    marketing_use: "Mini-programs, membership programs"
+  - name: "Meituan (美团)"
+    features: "Food delivery, local services, hotel booking"
+    marketing_use: "Local business advertising, deals"
+
+## Compliance & Censorship
+content_regulation:
+  authority: "CAC (Cyberspace Administration of China)"
+  rules:
+    - "Content must comply with 'socialist core values'"
+    - "Sensitive topics blocked (politics, religion, ethnicity)"
+    - "Real-name registration for all platforms"
+    - "Content moderation mandatory (pre-publication review)"
+    - "AI-generated content must be labeled"
+    
+  prohibited_content:
+    - "Political dissent, criticism of government"
+    - "Pornography, gambling, violence"
+    - "Ethnic/religious separatism"
+    - "False news, misinformation"
+    
+  penalties:
+    - "Account suspension/deletion"
+    - "Fines: ¥100K - ¥10M"
+    - "Platform shutdown (for repeat violations)"
+    - "Criminal liability (severe cases)"
+
+## Marketing Channels by Business Type
+b2b_channels:
+  - "WeChat Work (企业微信) - primary communication"
+  - "Zhihu (professional Q&A)"
+  - "Baidu search ads (lead generation)"
+  - "Alibaba 1688 (B2B e-commerce)"
+  - "Industry trade shows (offline remains important)"
+
+b2c_channels:
+  - "Douyin (short video, live commerce)"
+  - "Taobao/Tmall (e-commerce)"
+  - "WeChat Official Accounts + Mini-programs"
+  - "Xiaohongshu (lifestyle, fashion, beauty)"
+  - "KOL/KOC influencer marketing"
+  - "Weibo (trending topics, events)"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "Google, Facebook, Instagram, WhatsApp are ALL BLOCKED (use VPN)"
+  - "WeChat (1.3B users) is MANDATORY for ALL businesses"
+  - "Douyin (TikTok China) dominates short video + live commerce"
+  - "Live commerce: $600B market, 8-15% conversion (huge!)"
+  - "No email marketing culture - WeChat is primary channel"
+  - "Super apps: WeChat + Alipay integrate chat, pay, mini-programs"
+  - "KOL marketing: Top influencers charge ¥1M+ per post"
+  - "Content MUST comply with 'socialist core values'"
+  - "Real-name registration required for ALL platforms"
+  - "Baidu (65%) is #1 search engine (not Google)"
+  - "E-commerce: Taobao (35%), Pinduoduo (32%), JD (18%)"
+  - "Xiaohongshu (RED) critical for lifestyle/beauty brands"
+  - "Bilibili = YouTube for Gen Z (gaming, tech, education)"
+  - "Content moderation mandatory - pre-review before publishing"

@@ -1,0 +1,219 @@
+---
+country: "China"
+category: "business"
+type: "real_estate"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.stats.gov.cn"
+  - "https://www.mohrss.gov.cn"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Real Estate Market - China
+
+## Market Overview
+market_size_usd: 50_000_000_000_000  # $50 trillion (world's largest)
+residential_share: 78  # percentage of market
+commercial_share: 22
+
+## Major Cities (Tier 1 & 2)
+tier1_cities:
+  - name: "Shanghai (上海)"
+    population: 29_200_000
+    avg_price_rmb_sqm: 65_000  # ~$9,200 USD/sqm
+    prime_office_rent_rmb_sqm_month: 350
+    vacancy_rate: 18.5
+    
+  - name: "Beijing (北京)"
+    population: 21_900_000
+    avg_price_rmb_sqm: 60_000
+    prime_office_rent_rmb_sqm_month: 320
+    vacancy_rate: 16.2
+    
+  - name: "Shenzhen (深圳)"
+    population: 17_600_000
+    avg_price_rmb_sqm: 68_000
+    prime_office_rent_rmb_sqm_month: 280
+    vacancy_rate: 22.1
+    
+  - name: "Guangzhou (广州)"
+    population: 18_700_000
+    avg_price_rmb_sqm: 42_000
+    prime_office_rent_rmb_sqm_month: 180
+    vacancy_rate: 14.8
+
+tier2_cities:
+  - name: "Hangzhou (杭州)"
+    avg_price_rmb_sqm: 35_000
+  - name: "Chengdu (成都)"
+    avg_price_rmb_sqm: 22_000
+  - name: "Nanjing (南京)"
+    avg_price_rmb_sqm: 32_000
+  - name: "Wuhan (武汉)"
+    avg_price_rmb_sqm: 20_000
+
+## Residential Real Estate
+residential:
+  price_trend: "Declining since 2021 regulation (3红线政策)"
+  average_price_rmb_sqm_national: 10_200
+  
+  purchase_restrictions:
+    tier1_cities: "Hukou (household registration) OR 5 years social insurance"
+    tier2_cities: "1-3 years social insurance OR local hukou"
+    tier3_cities: "Usually no restrictions"
+    
+  down_payment:
+    first_home: 30  # percentage
+    second_home: 60-80  # percentage (restricted)
+    
+  mortgage_rates:
+    commercial_loan: 3.8  # percentage (2026 avg)
+    provident_fund_loan: 3.1  # percentage (preferred)
+    
+  loan_terms:
+    max_years: 30
+    max_amount: "¥1M-5M (varies by city)"
+
+## Commercial Real Estate
+commercial:
+  office_spaces:
+    grade_a_rent_rmb_sqm_month: 250
+    vacancy_rate_national: 20.5
+    pipeline_2026: "5M sqm new supply (mainly Tier 1)"
+    
+  retail:
+    prime_rent_rmb_sqm_month: 400-1500  # by location
+    vacancy_rate: 12.5
+    trend: "E-commerce hurting physical retail"
+    
+  industrial_warehouse:
+    rent_rmb_sqm_month: 35-80
+    vacancy_rate: 8.2
+    trend: "Growing demand (e-commerce logistics)"
+
+## Hukou System (Household Registration)
+hukou:
+  description: "Household registration system limiting access to services"
+  types:
+    - "Urban Hukou (城市户口) - access to education, healthcare"
+    - "Rural Hukou (农村户口) - land rights in hometown"
+    
+  real_estate_impact:
+    - "Non-local hukou buyers face restrictions in Tier 1 cities"
+    - "5 years social insurance required (Beijing, Shanghai, Shenzhen)"
+    - "Hukou reform ongoing (some cities relaxing rules)"
+
+## Legal Framework
+legal:
+  property_ownership:
+    - "Residential: 70-year land use right (not freehold)"
+    - "Commercial: 40-year land use right"
+    - "Industrial: 50-year land use right"
+    - "Land owned by state, citizens get 'use rights'"
+    
+  foreign_ownership:
+    - "Foreigner can buy (1 home for personal use, no PR required)"
+    - "Companies can buy (WFOE, JV, etc.)"
+    - "No restrictions on selling after 3 years"
+    
+  transaction_costs_percent: 5-10
+  breakdown:
+    deed_tax: 1-3  # buyer pays
+    VAT: 5.3  # seller pays (if <2 years holding)
+    income_tax: 1-2  # seller pays (20% if itemized)
+    other_fees: 0.5-1
+
+## Financing
+financing:
+  mortgage_types:
+    - name: "Commercial Mortgage (商业贷款)"
+      rate: 3.8
+      ltv_max: 70
+    - name: "Housing Provident Fund Loan (公积金贷款)"
+      rate: 3.1
+      ltv_max: 80
+      requirement: "Contributing to housing fund"
+      
+  down_payment_sources:
+    - "Personal savings"
+    - "Parents' contribution (common)"
+    - "Housing fund withdrawal"
+    - "Fake divorce (to avoid 2nd home restrictions - illegal but happened)"
+
+## Investment Market
+investment:
+  foreign_investment: "Restricted (pre-approval required)"
+  hot_markets:
+    - "Tier 1 cities (Shanghai, Beijing, Shenzhen, Guangzhou)"
+    - "Tech hubs (Hangzhou, Shenzhen, Chengdu)"
+    - "Industrial/logistics (e-commerce growth)"
+    
+  yield_rates_percent:
+    residential_rental: 1.5-2.5  # low yield (price high)
+    office: 4.5-6.0
+    retail: 5.0-7.0
+    industrial: 6.0-9.0
+
+## Development & Construction
+development:
+  top_developers:
+    - "Vanke (万科) - largest residential developer"
+    - "Evergrande (恒大) - restructured 2023-2025"
+    - "Country Garden (碧桂园) - major player"
+    - "Sunac (融创) - commercial focus"
+    
+  construction_costs_rmb_sqm:
+    residential_standard: 3_500
+    residential_luxury: 6_000
+    office_standard: 4_500
+    industrial: 2_000
+    
+  building_codes:
+    - "GB (National Standards - 国标)"
+    - "Fire safety: GB 50016"
+    - "Green building: GB/T 50378"
+
+## PropTech & Digital
+proptech:
+  market_leaders:
+    - "Lianjia (链家) - 50% market share (offline + online)"
+    - "Beike (贝壳) - Lianjia's platform, listed NYSE"
+    - "Anjuke (安居客) - classifieds (Tencent-backed)"
+    - "Fang (房天下) - listings platform"
+    
+  digital_trends:
+    - "VR house tours (standard since 2020)"
+    - "AI price prediction"
+    - "Online rental platforms (Danke, Ziroom)"
+    - "Blockchain property records (pilot projects)"
+
+## Rent Control & Tenant Rights
+rental_market:
+  rent_control: "No strict rent control (market-driven)"
+  tenant_rights:
+    - "Contract law protects tenants"
+    - "Deposit: max 1-2 months rent"
+    - "Notice period: 1 month (usually)"
+    - "No strong tenant unions (landlord-favored)"
+    
+  rental_yields:
+    tier1_cities: 1.5-2.0  # very low
+    tier2_cities: 2.0-3.0
+    tier3_cities: 3.0-4.0
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "Land is state-owned: buyers get 70-year (residential) use rights"
+  - "Hukou system restricts non-locals from buying in Tier 1 cities"
+  - "Down payment: 30% (1st home), 60-80% (2nd home)"
+  - "Mortgage rates: 3.8% (commercial), 3.1% (housing fund)"
+  - "Market declining since 2021 (3红线 policy, Evergrande crisis)"
+  - "Transaction taxes: 5-10% (buyer: deed tax, seller: VAT + tax)"
+  - "Lianjia (链家) dominates listings (50% market share)"
+  - "Rental yields very low: 1.5-2% in Tier 1 cities"
+  - "Commercial properties: 40-year use rights, higher yields"
+  - "Foreigners can buy 1 home for personal use (no PR needed)"
+  - "Beike (贝壳) is largest online platform (NYSE: BEKE)"
+  - "Fake divorce used to avoid 2nd home restrictions (now cracked down)"
+  - "Housing fund loans (公积金) offer 3.1% rate (best deal)"

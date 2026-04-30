@@ -1,0 +1,223 @@
+---
+country: "China"
+category: "business"
+type: "import_export"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.customs.gov.cn"
+  - "https://www.mofcom.gov.cn"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Import/Export Regulations - China
+
+## Trade Overview
+wto_member: true
+brics_member: true
+rcep_member: true  # Regional Comprehensive Economic Partnership
+currency: "CNY (Chinese Yuan Renminbi) - ¥"
+top_trading_partners:
+  - "ASEAN (Southeast Asia)"
+  - "European Union"
+  - "USA"
+  - "Japan"
+  - "South Korea"
+
+## Export Data
+export_value_usd_2025: 3_550_000_000_000
+top_export_products:
+  - product: "Electromechanical products"
+    value_usd: 1_420_000_000_000
+    share_percent: 40.0
+  - product: "High-tech products"
+    value_usd: 980_000_000_000
+    share_percent: 27.6
+  - product: "Textiles and apparel"
+    value_usd: 320_000_000_000
+    share_percent: 9.0
+  - product: "Steel and iron"
+    value_usd: 85_000_000_000
+    share_percent: 2.4
+  - product: "Automobiles and parts"
+    value_usd: 125_000_000_000
+    share_percent: 3.5
+
+## Import Data
+import_value_usd_2025: 2_680_000_000_000
+top_import_products:
+  - product: "Integrated circuits (semiconductors)"
+    value_usd: 390_000_000_000
+    share_percent: 14.6
+  - product: "Crude oil"
+    value_usd: 280_000_000_000
+    share_percent: 10.4
+  - product: "Iron ore"
+    value_usd: 195_000_000_000
+    share_percent: 7.3
+  - product: "Agricultural products (soybeans, meat)"
+    value_usd: 180_000_000_000
+    share_percent: 6.7
+  - product: "Automobiles and parts"
+    value_usd: 75_000_000_000
+    share_percent: 2.8
+
+## Customs & Tariffs
+customs_authority: "General Administration of Customs (GACC - 海关总署)"
+website: "https://www.customs.gov.cn"
+
+tariff_structure:
+  average_tariff_percent: 7.4
+  wto_committments: "Industrial goods: 0-10%, Agricultural: 0-65%"
+  
+  categories:
+    - "Most Favored Nation (MFN): Standard rates"
+    - "FTA preferential rates: Lower for FTA partners"
+    - "GSP (Generalized System of Preferences): For developing countries"
+
+## Free Trade Agreements (FTAs)
+active_ftas:
+  - "ASEAN-China FTA (ACFTA) - 2002"
+  - "China-Australia FTA (ChAFTA) - 2015"
+  - "China-South Korea FTA (CKFTA) - 2015"
+  - "RCEP (Regional Comprehensive Economic Partnership) - 2022"
+  - "China-Switzerland FTA - 2014"
+  - "China-Pakistan FTA (CPFTA) - 2007"
+  - "And many more (22+ FTAs covering 30+ countries)"
+
+## Import Requirements
+import_licensing:
+  general_rule: "No license for most goods (open trade regime)"
+  restricted_goods:
+    - "Certain chemicals (dual-use)"
+    - "Radioactive materials"
+    - "Some agricultural products (quotas)"
+    - "Cultural relics, endangered species"
+    - "Certain high-tech (semiconductor equipment)"
+
+## Documentation
+required_documents:
+  - "Commercial Invoice (商业发票)"
+  - "Packing List (装箱单)"
+  - "Bill of Lading / Air Waybill"
+  - "Certificate of Origin (原产地证书)"
+  - "Import License (进口许可证) - if required"
+  - "Customs Declaration Form (报关单)"
+  - "CCC Certificate (China Compulsory Certification) - for 22 product categories"
+
+## CCC Certification (China Compulsory Certification)
+ccc_emark:
+  description: "Mandatory for 22 categories (electronics, auto parts, etc.)"
+  authority: "CNCA (Certification and Accreditation Administration)"
+  process: "Testing + factory audit + certification"
+  timeline: "2-4 months"
+  cost_usd: "5,000-30,000 (by product)"
+  products_requiring_ccc:
+    - "Electrical wires, switches, home appliances"
+    - "IT equipment, telecom terminals"
+    - "Automotive parts (tires, brakes, lights)"
+    - "Children's toys, safety equipment"
+
+## Export Controls
+export_controls:
+  authority: "MOFCOM (Ministry of Commerce - 商务部)"
+  controlled_items:
+    - "Dual-use items (military + civilian)"
+    - "Rare earths (China supplies 60% globally)"
+    - "Certain high-tech (semiconductors, AI chips)"
+    - "Cultural relics"
+    - "Strategic minerals"
+    
+  export_licenses:
+    - "Dual-use export license (军民两用物项出口许可证)"
+    - "Rare earth export quota (稀土出口配额)"
+    - "General export license (一般出口许可证)"
+
+## Cross-Border E-commerce
+cross_border_ecommerce:
+  market_size_usd: 350_000_000_000  # 2025
+  regulations: "Cross-Border E-commerce Comprehensive Pilot Zones (165+ cities)"
+  
+  platforms:
+    - "AliExpress (Alibaba - exports)"
+    - "Temu (PDD Holdings - exports)"
+    - "Shein (fast fashion - exports)"
+    - "Tmall Global (imports)"
+    - "JD Worldwide (imports)"
+    
+  customs_simplification:
+    - "Single-window clearance (单一窗口)"
+    - "Bonded warehouse model (保税仓)"
+    - "Positive list (正面清单) for imported goods"
+
+## Special Economic Zones (SEZs) & Free Trade Zones (FTZs)
+sez_ftz:
+  - name: "Shenzhen SEZ (1980, first)"
+    benefits: "Tax holidays, simplified customs"
+  - name: "Shanghai FTZ (2013, pilot)"
+    benefits: "Capital account liberalization, fintech pilot"
+  - name: "Hainan Free Trade Port"
+    benefits: "Zero tariffs by 2025 goal, tourism focus"
+  - name: "Guangdong-HK-Macao Greater Bay Area"
+    benefits: "Integrated with HK/Macau, tech hub"
+
+## Sanctions & Export Restrictions
+ sanctions_regime:
+  us_sanctions: "US entity list restricts many Chinese tech companies"
+  eu_sanctions: "Limited (some arms embargo since 1989)"
+  un_sanctions: "Compliance with UN Security Council resolutions"
+  
+export_bans:
+  - "Rare earths (export quotas, 2010-2015, now relaxed)"
+  - "Some dual-use items to sanctioned countries"
+  - "Cultural relics (antiquities)"
+
+## Incoterms
+common_incoterms:
+  - "FOB (Free on Board) - most common for sea freight"
+  - "CIF (Cost, Insurance, Freight)"
+  - "EXW (Ex Works)"
+  - "DDP (Delivered Duty Paid) - e-commerce"
+  - "FCA (Free Carrier)"
+
+## Customs Procedures
+procedures:
+  - "Declaration (报关) - via China Customs single window"
+  - "Inspection (查验) - random or risk-based"
+  - "Duty payment (缴税) - online via bank"
+  - "Release (放行) - goods can be picked up"
+  
+timeline:
+  air_freight: "1-3 days (after documentation)"
+  sea_freight: "3-7 days (after vessel arrival)"
+
+## Port & Logistics Hubs
+major_ports:
+  - name: "Port of Shanghai"
+    type: "Sea port"
+    throughput_teu: 49_000_000  # world's busiest
+  - name: "Port of Ningbo-Zhoushan"
+    type: "Sea port"
+    throughput_teu: 35_000_000
+  - name: "Port of Shenzhen"
+    type: "Sea port"
+    throughput_teu: 30_000_000
+  - name: "Shanghai Pudong Airport"
+    type: "Air cargo"
+    throughput_tons: 4_200_000
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "GACC (海关总署) is the customs authority (www.customs.gov.cn)"
+  - "CCC certification MANDATORY for 22 product categories"
+  - "Average tariff: 7.4% (MFN), lower for FTA partners"
+  - "China is world's largest trader ($3.55T exports, $2.68T imports)"
+  - "Cross-border e-commerce: $350B market, 165+ pilot zones"
+  - "US entity list restricts many Chinese tech companies (semiconductors)"
+  - "Rare earths: China supplies 60% globally (export quotas apply)"
+  - "Single-window customs clearance (单一窗口) - fully digital"
+  - "22+ FTAs covering 30+ countries (RCEP is largest)"
+  - "Shanghai Port = world's busiest (49M TEU throughput)"
+  - "Hainan Free Trade Port targeting zero tariffs by 2025"
+  - "Dual-use export license required for sensitive tech"
+  - "AliExpress, Temu, Shein dominate cross-border e-commerce exports"

@@ -1,0 +1,164 @@
+---
+country: "China"
+category: "legal"
+type: "internet_law"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.cac.gov.cn"
+  - "https://www.miit.gov.cn"
+  - "https://www.npc.gov.cn"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Internet & AI Laws - China
+
+## Legal Framework Overview
+data_protection_law: "Personal Information Protection Law (PIPL)"
+cybersecurity_law: "Cybersecurity Law (CSL)"
+ai_regulation: "Interim Measures for Generative AI Services"
+ecommerce_law: "E-commerce Law"
+data_security_law: "Data Security Law (DSL)"
+
+## Personal Information Protection Law (PIPL)
+effective_date: "2021-11-01"
+scope: "Applies to processing of personal information of natural persons within China"
+
+key_requirements:
+  - "Explicit consent required for personal information processing"
+  - "Data localization: critical data must be stored in China"
+  - "Cross-border transfer requires security assessment (if >1M users)"
+  - "Right to access, correct, delete personal information"
+  - "Data Protection Officer required for large-scale processors"
+  - "Maximum fine: Up to 5% of annual turnover or ¥50M"
+
+penalties:
+  minor: "¥1M - ¥10M + business suspension"
+  serious: "Up to 5% annual turnover or ¥50M"
+  cross_border_violations: "¥5M - ¥50M + criminal liability possible"
+
+## Cybersecurity Law (CSL)
+effective_date: "2017-06-01"
+scope: "Network operators, critical information infrastructure (CII)"
+
+key_requirements:
+  - "Network operators must comply with data localization requirements"
+  - "CII operators must store personal data and important data in China"
+  - "Security assessment required for cross-border data transfers"
+  - "Real-name registration for internet services"
+  - "Content censorship and monitoring obligations"
+  - "Incident reporting within 24 hours"
+
+penalties:
+  non_compliance: "¥100K - ¥1M + business suspension"
+  serious_breach: "¥1M - ¥10M + criminal liability"
+
+## Data Security Law (DSL)
+effective_date: "2021-09-01"
+scope: "Data processing activities affecting national security"
+
+key_requirements:
+  - "Data classification: core, important, and general data"
+  - "Security review for data activities affecting national security"
+  - "Export controls on sensitive data"
+  - "Data risk assessment mandatory"
+  - "Government access to data for national security purposes"
+
+## AI Regulation (Generative AI)
+effective_date: "2023-08-15"
+document: "Interim Measures for Generative AI Services"
+
+key_requirements:
+  - "AI-generated content must be labeled as AI-generated"
+  - "Content must comply with socialist core values"
+  - "Training data must have legal source and not infringe IP"
+  - "Algorithms must be filed with CAC (Cyberspace Administration)"
+  - "Prohibited content: political, ethnic, religious, pornographic"
+  - "User real-name authentication required"
+  - "Content moderation and filtering mandatory"
+
+penalties:
+  non_compliance: "¥100K - ¥10M + service suspension"
+  harmful_content: "Up to ¥50M + criminal liability"
+
+## E-commerce Law
+effective_date: "2019-01-01"
+scope: "All e-commerce activities within China"
+
+key_requirements:
+  - "Platform operators must verify merchant identities"
+  - "Consumer protection: 7-day no-reason return policy"
+  - "Anti-monopoly compliance for large platforms"
+  - "Data protection obligations"
+  - "Tax registration and reporting"
+
+## Internet Content Regulation
+regulator: "Cyberspace Administration of China (CAC)"
+censorship_system: "Great Firewall (GFW)"
+
+blocked_platforms:
+  - "Google (search, Gmail, YouTube, Maps)"
+  - "Facebook, Instagram, WhatsApp, Messenger"
+  - "Twitter/X"
+  - "Reddit, Discord"
+  - "Most Western news sites"
+  - "VPN services (unless government-approved)"
+
+allowed_alternatives:
+  search: "Baidu, Sogou, 360 Search"
+  social: "WeChat, Weibo, Douyin (TikTok China)"
+  video: "Bilibili, Youku, iQiyi, Tencent Video"
+  email: "QQ Mail, 163 Mail, Sina Mail"
+
+## Data Localization Requirements
+mandatory_local_storage:
+  - "Personal information of Chinese citizens"
+  - "Important data as defined by CAC"
+  - "Data from critical information infrastructure operators"
+  - "Data affecting national security"
+
+cross_border_transfer_conditions:
+  - "Security assessment by CAC (if >1M users or sensitive data)"
+  - "Certification by专业机构"
+  - "Standard contract with overseas recipient"
+  - "Other conditions as prescribed by laws"
+
+## AI Ethics & Governance
+regulatory_principles:
+  - "AI must serve socialist core values"
+  - "Prevent algorithmic discrimination"
+  - "Ensure transparency and explainability"
+  - "Protect user rights and privacy"
+  - "Maintain human control over AI systems"
+
+algorithm_filing:
+  requirement: "Algorithms affecting public opinion must be filed with CAC"
+  timeline: "Within 10 working days of launching service"
+  documents: "Algorithm description, data sources, content moderation plan"
+
+## Enforcement Agencies
+agencies:
+  - name: "CAC (Cyberspace Administration of China)"
+    role: "Internet content, AI governance, data protection"
+  - name: "MIIT (Ministry of Industry and Information Technology)"
+    role: "Telecom licensing, app store regulation"
+  - name: "MPS (Ministry of Public Security)"
+    role: "Cybercrime, network security oversight"
+  - name: "SAMR (State Administration for Market Regulation)"
+    role: "Antitrust, e-commerce compliance"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "Google, Facebook, Twitter, WhatsApp are ALL BLOCKED in China"
+  - "Must use Chinese alternatives: Baidu (search), WeChat (chat), Douyin (video)"
+  - "All AI-generated content MUST be labeled as AI-generated"
+  - "Real-name authentication required for all internet services"
+  - "Data localization MANDATORY for Chinese user data"
+  - "Cross-border data transfer requires CAC security assessment"
+  - "Content must not violate 'socialist core values'"
+  - "Algorithm filing with CAC required for public-facing AI"
+  - "PIPL fines up to 5% annual turnover or ¥50M"
+  - "Great Firewall blocks most Western platforms and services"
+  - "WeChat ecosystem integration mandatory for consumer apps"
+  - "Baidu Baike (not Wikipedia) is the main knowledge base"
+  - "Government access to data for national security is legal"

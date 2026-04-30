@@ -1,0 +1,185 @@
+---
+country: "China"
+category: "financial"
+type: "banks"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.pbc.gov.cn"
+  - "https://www.cbrc.gov.cn"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Banks & Payment Systems - China
+
+## Central Bank
+central_bank:
+  name: "People's Bank of China (PBOC - 中国人民银行)"
+  website: "https://www.pbc.gov.cn"
+  role: "Monetary policy, currency issuance, financial regulation"
+  governor: "Pan Gongsheng (2023-present)"
+
+## Big 4 State-Owned Banks (四大行)
+big4_banks:
+  - name: "Industrial and Commercial Bank of China (ICBC - 中国工商银行)"
+    assets_usd: 6_100_000_000_000  # largest bank globally
+    market_share: 15.2
+    branches: 17_000+
+    digital: "ICBC Mobile Banking (600M+ users)"
+    
+  - name: "China Construction Bank (CCB - 中国建设银行)"
+    assets_usd: 5_300_000_000_000
+    market_share: 13.1
+    branches: 14_000+
+    digital: "CCB Mobile Banking (450M+ users)"
+    
+  - name: "Agricultural Bank of China (ABC - 中国农业银行)"
+    assets_usd: 4_800_000_000_000
+    market_share: 12.0
+    branches: 23_000+  # most branches
+    digital: "ABC Mobile Banking (420M+ users)"
+    
+  - name: "Bank of China (BOC - 中国银行)"
+    assets_usd: 4_300_000_000_000
+    market_share: 10.8
+    branches: 11_000+
+    digital: "BOC Mobile Banking (380M+ users)"
+    note: "Strongest international presence"
+
+## Major Commercial Banks (股份制商业银行)
+commercial_banks:
+  - name: "Bank of Communications (BoCom - 交通银行)"
+    assets_usd: 1_800_000_000_000
+  - name: "China Merchants Bank (CMB - 招商银行)"
+    assets_usd: 1_400_000_000_000
+    digital_leader: true
+    app_users: 180M+
+  - name: "China CITIC Bank (中信银行)"
+    assets_usd: 1_100_000_000_000
+  - name: "China Minsheng Bank (民生银行)"
+    assets_usd: 900_000_000_000
+  - name: "Ping An Bank (平安银行)"
+    assets_usd: 800_000_000_000
+    parent: "Ping An Insurance Group"
+
+## Payment Systems (支付系统)
+digital_payments:
+  adoption_rate: 90  # percentage of population
+  annual_volume_usd: 50_000_000_000_000  # $50 trillion
+  
+  major_providers:
+    - name: "WeChat Pay (微信支付 - Tenpay)"
+      users: 1_300_000_000
+      market_share: 40
+      parent: "Tencent Holdings"
+      use_cases: "P2P, e-commerce, offline QR, gov services"
+      
+    - name: "Alipay (支付宝)"
+      users: 1_200_000_000
+      market_share: 38
+      parent: "Ant Group (Alibaba)"
+      use_cases: "E-commerce, P2P, wealth management, credit"
+      
+    - name: "UnionPay (银联)"
+      users: 1_000_000_000
+      market_share: 20
+      role: "Card network (like Visa/Mastercard)"
+      cards_issued: 9_000_000_000
+      
+    - name: "Digital Yuan (e-CNY - 数字人民币)"
+      status: "Pilot phase (2020-2026)"
+      pilot_cities: 23
+      wallet_users: 300_000_000  # estimated
+      app: "e-CNY App (official PBOC wallet)"
+      note: "Central Bank Digital Currency (CBDC) - first major economy to launch"
+
+## Payment Methods Acceptance
+payment_method_acceptance:
+  qr_code_payments: 98  # percentage of merchants (WeChat Pay + Alipay)
+  unionpay_cards: 85
+  cash: 15  # rapidly declining
+  digital_yuan: 30  # in pilot cities
+  credit_cards_foreign: 2  # Visa/Mastercard limited acceptance
+
+## E-commerce Payment Preferences
+ecommerce_payments：
+  - method: "Alipay"
+    share: 52
+  - method: "WeChat Pay"
+    share: 40
+  - method: "UnionPay"
+    share: 6
+  - method: "Cash on Delivery"
+    share: 2
+
+## Cross-Border Payments
+cross_border_systems:
+  - name: "CIPS (Cross-Border Interbank Payment System - 人民币跨境支付系统)"
+    launched: 2015
+    participants: 1_400+  # banks in 110+ countries
+    purpose: "RMB internationalization, alternative to SWIFT"
+    
+  - name: "SWIFT"
+    role: "Still used for USD/EUR transactions"
+    note: "China has own messaging system (CIPS) reducing SWIFT dependency"
+    
+  - name: "WeChat Pay Cross-Border"
+    coverage: "60+ countries/regions"
+    use: "Chinese tourists shopping abroad"
+    
+  - name: "Alipay Global"
+    coverage: "80+ countries/regions"
+    use: "Outbound tourism, cross-border e-commerce"
+
+## Banking Regulations
+regulator: "National Financial Regulatory Administration (NFRA - 国家金融监督管理总局)"
+website: "https://www.cbrc.gov.cn"
+former_name: "CBRC (China Banking Regulatory Commission)"
+
+key_regulations:
+  - "All banks must have PBOC approval"
+  - "Foreign banks require special license (limited branches)"
+  - "Internet banking license required (BigTech: Ant, Tencent, etc.)"
+  - "Ant Group restructuring (2021-2023) - now financial holding company"
+
+## Fintech & Digital Banking
+fintech_leaders:
+  - name: "Ant Group (Alibaba affiliate)"
+    products: "Alipay, Yu'e Bao (money market fund), Zhima Credit (Sesame Credit)"
+    users: 1_300_000_000
+  - name: "Tencent Financial (WeChat Pay, WeBank)"
+    products: "WeChat Pay, WeBank (online bank), microloans"
+    users: 1_200_000_000
+  - name: "JD Digits (JD.com)"
+    products: "JD Pay, supply chain finance"
+  - name: "Du Xiaoman (Baidu)"
+    products: "Consumer finance, wealth management"
+
+## Credit System (征信系统)
+credit_reporting:
+  authority: "People's Bank of China Credit Reference Center (PBOC CRC)"
+  coverage: "1_100_000_000+ individuals, 60M+ enterprises"
+  
+  private_credit:
+    - name: "Zhima Credit (Sesame Credit - 芝麻信用)"
+      parent: "Ant Group"
+      score_range: "350-950"
+      use: "Ant Group ecosystem (Alipay, bike sharing, hotels)"
+    - name: "Tencent Credit (腾讯信用)"
+      parent: "Tencent"
+      status: "Limited rollout"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "Cash nearly extinct in cities - QR code payments dominate (98% merchants)"
+  - "WeChat Pay (1.3B users) and Alipay (1.2B) are MANDATORY for e-commerce"
+  - "Credit cards (Visa/Mastercard) have <2% acceptance in China"
+  - "Digital Yuan (e-CNY) is China's CBDC, piloting in 23 cities"
+  - "UnionPay is China's card network (9B cards issued)"
+  - "Ant Group and Tencent dominate fintech (2.5B+ users combined)"
+  - "Foreign banks very limited - Big 4 banks control 50%+ market"
+  - "CIPS is China's alternative to SWIFT for RMB cross-border"
+  - "Zhima Credit (Ant) is China's most used private credit score"
+  - "All digital payments must integrate with PBOC systems"
+  - "Internet banking requires special license from NFRA"
+  - "B2B payments: bank transfer or corporate credit card (UnionPay)"
