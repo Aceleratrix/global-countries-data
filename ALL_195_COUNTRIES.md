@@ -24,7 +24,7 @@
 | 16 | 🇮🇩 Indonésia | indonesia | Asia | $1.49T | ✅ 100% COMPLETE |
 | 17 | 🇳🇱 Holanda (Países Baixos) | netherlands | Europe | $1.09T | 🔄 INICIANDO AGORA |
 | 18 | 🇹🇷 Turquia | turkey | Asia/Europe | $1.03T | ✅ 100% COMPLETE |
-| 19 | 🇸🇦 Arábia Saudita | saudi-arabia | Asia | $1.01T | ⏳ Pending |
+| 19 | 🇸🇦 Arábia Saudita | saudi-arabia | Asia | $1.01T | ✅ 100% COMPLETE |
 | 20 | 🇨🇭 Suíça | switzerland | Europe | $0.91T | ⏳ Pending |
 
 ---
