@@ -1,0 +1,288 @@
+version: 1.0.0
+country: japan
+last_updated: 2026-04-30
+description: "Japanese tax system - Consumption Tax, Corporate Tax, and incentives for AI/Tech"
+
+# Consumption Tax (Japans VAT/GST Equivalent)
+consumption_tax:
+  japanese_name: "Shohi Zei (消費税)"
+  rate_percent: 10.0
+  reduced_rate_percent: 8.0  # For food, beverages (non-alcohol), newspapers
+  effective: 1989 (introduced), 2019 (raised to 10%)
+  applies_to: "All goods and services consumed in Japan"
+  
+  registration_threshold_jpy: 10000000  # ¥10M annual taxable sales
+  registration_threshold_usd: 67000
+  
+  filing_frequency: ["Monthly", "Quarterly (small businesses)"]
+  filing_deadline: "Last day of following month"
+  penalty_late: "15% of tax due (immediate), increasing to 35% after 2 months"
+  
+  digital_services: "Foreign e-services providers must register if >¥10M sales to Japanese consumers"
+  reverse_charge: "B2B services from abroad - reverse charge mechanism"
+  
+  ai_implications:
+    - "SaaS sold to Japanese consumers: must register if >¥10M sales"
+    - "AI training data purchases: subject to consumption tax"
+    - "Cloud services (AWS/GCP/Azure): foreign providers must register"
+
+# Corporate Tax (Hojin Zei)
+corporate_tax:
+  effective_rate_percent: 23.2  # Combined (national + local)
+  
+  national_corporate_tax_percent: 15.0 # On profits
+  prefectural_corporate_inhabitant_tax_percent: 3.8  # On profits
+  municipal_corporate_inhabitant_tax_percent: 4.4  # Per ¥100M capital
+  
+  applicable_to: "Kabushiki Kaisha (KK) and Godo Kaisha (GK)"
+  
+  deductible_expenses:
+    - "R&D expenses (enhanced deduction available)"
+    - "Depreciation (accelerated for IT/AI equipment)"
+    - "Marketing expenses"
+    - "Employee salaries and benefits"
+    
+  filing_deadline: "2 months after fiscal year-end (extensions available)"
+  advance_payments: "Required (within 2 months + 8 months after FY starts)"
+  
+  penalties:
+    late_filing_percent: [5.0, 10.0, 15.0, 20.0]  # Based on delay
+    underpayment: "14% per annum (interest on unpaid tax)"
+    
+  ai_companies:
+    - "AI startups: same rates as traditional companies"
+    - "No special AI tax rate (unlike some countries)"
+    - "R&D tax credits available (see below)"
+
+# R&D Tax Credit (for AI/ML Companies)
+rd_tax_credit:
+  name: "Research and Development Tax Credit (Sogo Tokutei Jigyo)"
+  code: "Corporate Tax Law - Article 42-4"
+  
+  base_rate_percent: 6.0  # Of qualifying R&D expenses
+  enhanced_rate_percent: 14.0  # For SMEs (capital ≤ ¥100M)
+  ai_ml_special_rate_percent: 20.0  # For "Innovative R&D" (AI qualifies!)
+  
+  qualifying_expenses:
+    - "Employee wages for R&D (including AI/ML engineers)"
+    - "Prototype materials and testing"
+    - "Depreciation of R&D equipment (GPUs, servers)"
+    - "Contract research (outsourced R&D)"
+    - "Data acquisition costs (training datasets)"
+    
+  cap_percent: 25.0  # Of corporate tax liability
+  carry_forward_years: 1  # Can carry forward unused credit
+  
+  ai_specifics:
+    - "Deep learning model development = qualifying R&D"
+    - "Data annotation/labeling = qualifying (if in-house)"
+    - "Bug fixes, maintenance = NOT qualifying"
+    
+  claim_process: "File with corporate tax return (Form 26-2)"
+  silicon_valley_comparison: "Similar to US R&D credit (13-20%), but Japan has AI-specific 20% rate"
+  
+# withholding_tax
+withholding_tax:
+  dividends_percent: 20.315  # For residents (15% standard + 5.315% local)
+  interest_percent: 15.315  # For residents
+  royalties_percent: 20.315  # For residents
+  
+  non_resident_tax_rate_percent: 20.315  # Standard rate
+  tax_treaty_reductions:
+    - "US: 10% (dividends), 10% (interest), 10% (royalties)"
+    - "Germany: 5% (dividends if >25% ownership), 10% (interest), 10% (royalties)"
+    - "UK: 10% (dividends), 10% (interest), 10% (royalties)"
+    
+  ai_implications:
+    - "AI API royalties paid to US companies: 10% (under US-Japan treaty)"
+    - "OpenAI/Anthropic API fees: subject to withholding if >¥0 threshold"
+
+# Individual Income Tax (for Employees)
+individual_income_tax:
+  progressive_brackets_jpy:
+    - range: "0 - 1,950,000"
+      rate_percent: 5.0
+    - range: "1,950,001 - 3,300,000"
+      rate_percent: 10.0
+    - range: "3,300,001 - 6,950,000"
+      rate_percent: 20.0
+    - range: "6,950,001 - 9,000,000"
+      rate_percent: 23.0
+    - range: "9,000,001 - 18,000,000"
+      rate_percent: 33.0
+    - range: "18,000,001+"
+      rate_percent: 40.0
+      
+  residents_tax_percent: 10.0  # Prefectural + Municipal (on prior year income)
+  social_insurance_percent: 15.6  # Health + Pension + Long-term care (employee share)
+  
+  silicon_valley_comparison: "Much higher than US (max 37% + FICA), but Japan has free healthcare"
+  
+  stock_options_taxation:
+    - "Qualified stock options (Incentive Stock Options): No tax at exercise (rare in Japan)"
+    - "Non-qualified options: Taxed as income at exercise (difference: FMV - strike price)"
+    - "RSUs: Taxed as income when they vest"
+    
+  ai_engineer_salary_range_jpy_annual: [6000000, 18000000]  # ¥6M-18M ($40K-$120K USD)
+  ai_engineer_salary_range_usd_annual: [40000, 120000]
+
+# Business Structures & Their Tax Treatment
+business_structures_tax:
+  - type: "Kabushiki Kaisha (KK) - Corporation"
+    description: "Standard corporation (like C-Corp in US)"
+    tax_form: "Corporate tax return (Form 26)"
+    tax_rate_percent: 23.2  # Effective
+    double_taxation: true  # Corporate + dividend tax
+    ai_startup_usage: "90% of VC-backed startups"
+    
+  - type: "Godo Kaisha (GK) - LLC Equivalent"
+    description: "Limited liability company (easier to set up than KK)"
+    tax_form: "Corporate tax return (Form 26)"
+    tax_rate_percent: 23.2
+    double_taxation: true
+    ai_startup_usage: "Common for small AI consultancies"
+    
+  - type: "Goshi Kaisha - Limited Partnership"
+    description: "Partnership with general and limited partners"
+    tax_form: "Pass-through to partners"
+    tax_rate_percent: "Individual rates (10-40%)"
+    ai_startup_usage: "Rare for AI companies"
+    
+  - type: "Solo Proprietorship (Kojin Jigyo)"
+    description: "Individual business owner"
+    tax_form: "Individual tax return (Form 16)"
+    tax_rate_percent: "Individual rates (5-40%)"
+    ai_startup_usage: "Freelance AI engineers, small consultancies"
+
+# Digital & Tech Tax Incentives
+digital_tax_incentives:
+  - name: "IT Investment Promotion Tax Credit"
+    description: "Additional credit for IT system investments"
+    rate_percent: 5.0  # Of investment amount
+    cap_jpy: 10000000  # ¥10M
+    applies_to: "AI infrastructure (servers, GPUs), software licenses"
+    
+  - name: "Software Development Deduction"
+    description: "Special deduction for software development costs"
+    rate_percent: 10.0  # Of development expenses
+    applies_to: "Custom AI software, SaaS development"
+    
+  - name: "Open Innovation Promotion"
+    description: "Tax benefits for collaborating with universities/research institutes"
+    rate_percent: 20.0  # Of collaborative R&D expenses
+    applies_to: "AI research with RIKEN, University of Tokyo, etc."
+    
+  - name: "Special Depreciation for AI/Data Science Equipment"
+    description: "Accelerated depreciation for GPUs, servers, data storage"
+    first_year_depreciation_percent: 50.0  # Special treatment
+    applies_to: "NVIDIA GPUs, cloud servers, data center equipment"
+
+# Consumption Tax Registration for Foreign Companies
+foreign_company_registration:
+  threshold_jpy: 10000000  # ¥10M annual taxable sales to Japan
+  threshold_usd: 67000
+  
+  registration_process:
+    - "Appoint a tax representative in Japan (required)"
+    - "File Form 57-1 (Notification of taxable person status)"
+    - "File consumption tax returns (monthly/quarterly)"
+    
+  examples:
+    - "OpenAI selling API to Japanese consumers: must register if >¥10M"
+    - "Anthropic Claude API: same rule"
+    - "AWS/GCP/Azure: registered as foreign e-services providers"
+    
+  penalty_for_non_compliance: "15-35% of tax due + interest 14% per annum"
+
+# Tax Treaties (For AI Companies with Global Operations)
+tax_treaties:
+  count: 70+  # Japan has treaties with 70+ countries
+  major_treaties:
+    - country: "United States"
+      dividend_rate_percent: 10.0  # Or 5% if >25% ownership
+      interest_rate_percent: 10.0
+      royalties_rate_percent: 10.0
+      ai_relevance: "OpenAI/Anthropic API fees to Japan: 10% withholding"
+      
+    - country: "Germany"
+      dividend_rate_percent: 5.0  # >25% ownership
+      interest_rate_percent: 10.0
+      royalties_rate_percent: 10.0
+      
+    - country: "United Kingdom"
+      dividend_rate_percent: 10.0
+      interest_rate_percent: 10.0
+      royalties_rate_percent: 10.0
+      
+    - country: "China"
+      dividend_rate_percent: 10.0
+      interest_rate_percent: 10.0
+      royalties_rate_percent: 10.0  # Reduced from 15% in 2013
+      ai_relevance: "Japanese AI companies with China ops: 10% withholding"
+
+# National Tax Agency (NTA)
+national_tax_agency:
+  japanese_name: "Kokuzeicho (国税庁)"
+  website: "https://www.nta.go.jp/english/"
+  headquarters: "Tokyo, Japan"
+  role: "Administers national taxes (corporate, individual, consumption)"
+  
+  e-filing: "e-Tax system (https://www.nta.go.jp/taxes/takarasaku/etax/)"
+  ai_implications: "e-Tax now accepts AI-assisted tax preparation software"
+  
+# Local Taxes (Prefectural + Municipal)
+local_taxes:
+  prefectural_inhabitant_tax_percent: 3.8  # On corporate profits
+  municipal_inhabitant_tax_per_100m_jpy: [100000, 390000]  # Per ¥100M capital
+  
+  tokyo_special_ward_tax: true  # Additional 0.3% for Tokyo 23 wards
+  
+  example_tokyo_ai_startup:
+    capital_jpy: 10000000  # ¥10M
+    profit_jpy: 50000000  # ¥50M
+    total_local_tax_jpy: 4410000  # ¥4.41M (~$29K USD)
+    
+# Tax Year & Filing
+tax_year:
+  standard: "April 1 - March 31 (fiscal year)"
+  flexible: true  # Companies can choose different FY (need approval)
+  filing_deadline: "2 months after FY end (extensions available)"
+  
+  penalties:
+    late_filing_percent: [5.0, 10.0, 15.0, 20.0]  # Based on delay
+    late_payment_interest_percent: 14.0  # Per annum
+    
+# Consumption Tax Invoice System (2023)
+invoice_system_2023:
+  name: "Qualified Invoice Issuer System (適格請求書発行事業者制度)"
+  launched: "October 1, 2023"
+  requirement: "Businesses issuing invoices for consumption tax credit must register"
+  
+  registration_requirements:
+    - "File application with NTA"
+    - "Receive registration number (similar to VAT ID)"
+    - "Display registration number on invoices"
+    
+  impact_on_ai_companies:
+    - "SaaS companies: must register to issue proper invoices"
+    - "B2B AI services: clients need proper invoices for tax credit"
+    - "Foreign companies: must appoint tax rep to register"
+    
+  deadline: "Grandfathering period until 2025 (now expired)"
+  
+# Summary for AI First Companies
+ai_first_tax_summary:
+  corporate_tax_rate_percent: 23.2
+  rd_tax_credit_ai_percent: 20.0  # For "Innovative R&D"
+  consumption_tax_percent: 10.0
+  foreign_company_registration_threshold_jpy: 10000000  # ¥10M
+  withholding_on_ai_api_royalties_percent: 10.0  # Under US-Japan treaty
+  stock_options_taxation: "Taxed as income at exercise (not at grant)"
+  special_depreciation_gpus_percent: 50.0  # First year
+  tax_treaty_count: 70+
+  
+  unique_features:
+    - "Invoice System (2023) - must register to issue tax-compliant invoices"
+    - "AI qualifies for 20% R&D credit (vs standard 6%)"
+    - "Consumption tax registration required for SaaS >¥10M sales to Japan"
+    - "Godo Kaisha (GK) is easier LLC alternative to Kabushiki Kaisha (KK)"

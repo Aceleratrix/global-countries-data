@@ -1,0 +1,429 @@
+version: 1.0.0
+country: japan
+last_updated: 2026-04-30
+description: "Business software, ERPs, and SaaS platforms for Japanese companies"
+
+# Accounting Software (Japan Market)
+accounting_software_japan:
+  - name: "Freee (フリー)"
+    japanese_name: "フリー株式会社"
+    headquarters: "Shinjuku, Tokyo"
+    website: "https://www.freee.co.jp/"
+    market_share_percent: 35.0  # #1 in Japan!
+    target: "Sole Proprietors, Small Businesses (1-50 employees)"
+    features: ["Invoicing", "Expense Tracking", "Tax Deduction", "Payroll Integration", "AI-OCR"]
+    pricing_jpy_month: [0, 1600, 5600, 9800]  # ¥0-9800 (~$0-$65)
+    api: "https://support.freee.co.jp/hc/ja/articles/360045447171"
+    notable: "AI-OCR for receipts (excellent for Japanese receipts!)"
+    tokyo_note: "Born in Tokyo, #1 accounting software in Japan"
+    
+  - name: "Money Forward (マネーフォワード)"
+    japanese_name: "株式会社マネーフォワード"
+    headquarters: "Shinjuku, Tokyo"
+    website: "https://biz.moneyforward.com/"
+    market_share_percent: 28.0  # #2 in Japan
+    target: "Small to Medium Businesses (10-200 employees)"
+    features: ["Cloud Accounting", "Multi-currency", "Project Tracking", "Payroll", "AI Forecasting"]
+    pricing_jpy_month: [1200, 4000, 8000, 18000]  # ¥1200-18000 (~$8-$120)
+    api: "https://support.moneyforward.com/corp/"
+    notable: "Strong in fintech integration (Money Forward is also a bank!)"
+    tokyo_note: "Tokyo-based, also operates Money Forward Bank"
+    
+  - name: "Yayoi (弥生)"
+    japanese_name: "弥生株式会社"
+    headquarters: "Nakano, Tokyo"
+    website: "https://www.yayoi-kk.co.jp/"
+    market_share_percent: 18.0  # #3 in Japan
+    target: "Sole Proprietors, Small Businesses"
+    features: ["Accounting", "Payroll", "Tax Filing", "Invoicing"]
+    pricing_jpy_month: [800, 2800, 5000, 12000]  # ¥800-12000 (~$5-$80)
+    note: "Very popular among Japanese SMEs"
+    
+  - name: "QuickBooks Online (Japan)"
+    headquarters: "Mountain View, CA (US) + Tokyo office"
+    website: "https://quickbooks.intuit.com/jp/"
+    market_share_percent: 5.0
+    target: "Foreign companies in Japan, some SMEs"
+    features: ["Invoicing", "Expense Tracking", "Tax Deduction", "Payroll Integration"]
+    pricing_jpy_month: [3000, 6000, 10000, 20000]  # ¥3000-20000 (~$20-$133)
+    api: "https://developer.intuit.com/"
+    note: "US company (Intuit) operating in Japan since 2015"
+    
+  - name: "Xero (Japan)"
+    headquarters: "Wellington, NZ + Tokyo office"
+    website: "https://www.xero.com/jp/"
+    market_share_percent: 3.0
+    target: "Small to Medium Businesses"
+    features: ["Cloud Accounting", "Multi-currency", "Project Tracking", "Payroll"]
+    pricing_jpy_month: [1800, 4800, 9600]  # ¥1800-9600 (~$12-$64)
+    
+  - name: "Orico (オリコ)"
+    japanese_name: "オリックス株式会社"
+    headquarters: "Minato, Tokyo"
+    website: "https://www.orico.co.jp/"
+    market_share_percent: 2.0  # Leasing + accounting
+    note: "Specialized in equipment leasing accounting"
+
+# Enterprise ERPs (For Large Companies in Japan)
+enterprise_erps_japan:
+  - name: "SAP Japan"
+    japanese_name: "SAPジャパン株式会社"
+    headquarters: "Minato, Tokyo (Roppongi)"
+    origin: "Germany"
+    website: "https://www.sap.com/japan/"
+    market_share_percent: 30.0  # Of enterprise ERP market in Japan
+    modules: ["FI (Finance)", "CO (Controlling)", "SD (Sales)", "MM (Materials)", "PP (Production)"]
+    cloud_version: "SAP S/4HANA Cloud"
+    implementation_partners_japan: ["Accenture Japan", "Deloitte Tohmatsu", "EY Japan", "PwC Japan"]
+    pricing_jpy_month: [1500000, 5000000, 20000000]  # ¥1.5M-20M (~$10K-$133K)
+    notable_clients_japan: ["Toyota", "Sony", "Nintendo", "Hitachi"]
+    tokyo_note: "SAP Japan HQ in Roppongi - major enterprise ERP"
+    
+  - name: "Oracle ERP Cloud (Japan)"
+    japanese_name: "日本オラクル株式会社"
+    headquarters: "Minato, Tokyo (Otemachi)"
+    website: "https://www.oracle.com/jp/erp/"
+    market_share_percent: 12.0
+    modules: ["Financials", "Procurement", "Project Management", "Risk Management"]
+    cloud_version: "Oracle Fusion Cloud ERP"
+    pricing_jpy_month: [2000000, 8000000, 25000000]  # ¥2M-25M (~$13K-$167K)
+    tokyo_note: "Oracle Japan HQ in Otemachi (financial district)"
+    
+  - name: "Microsoft Dynamics 365 (Japan)"
+    japanese_name: "日本マイクロソフト株式会社"
+    headquarters: "Minato, Tokyo (Shinjuku)"
+    website: "https://dynamics.microsoft.com/ja-jp/"
+    market_share_percent: 15.0
+    modules: ["Finance", "Supply Chain", "Sales", "Marketing", "Field Service"]
+    cloud_version: "Dynamics 365 Business Central"
+    pricing_jpy_month: [10000, 20000, 40000]  # For SMB ¥10K-40K (~$67-$267)
+    notable_clients_japan: ["Charter Communications Japan", "Coca-Cola Japan", "HP Japan"]
+    
+  - name: "IFS (Japan)"
+    japanese_name: "IFSジャパン"
+    headquarters: "Tokyo"
+    market_share_percent: 3.0
+    target: "Manufacturing, Aerospace (strong in Japan!)"
+    pricing_jpy_month: [1000000, 3000000, 10000000]  # ¥1M-10M
+    
+# E-commerce Platforms (Japan Market)
+ecommerce_platforms_japan:
+  - name: "Rakuten Ichiba (楽天市場)"
+    japanese_name: "楽天市場 (らくてんいちば)"
+    headquarters: "Shinagawa, Tokyo"
+    website: "https://ichiba.rakuten.co.jp/"
+    market_share_percent: 28.0  # #1 in Japan!
+    features: ["Marketplace", "Rakuten Checkout", "Super Points", "Rakuten Pay"]
+    pricing_jpy_month: [19800, 48000, 100000]  # ¥19.8K-100K (~$132-$667) + commission 3-15%
+    api: "https://developers.rakuten.com/"
+    tokyo_note: "Rakuten HQ in Shinagawa - Japan's Amazon equivalent!"
+    notable_clients: ["Sony Store", "Nintendo Store", "Thousands of SMEs"]
+    
+  - name: "Shopify (Japan)"
+    headquarters: "Ottawa, Canada + Tokyo office"
+    website: "https://www.shopify.com/jp"
+    market_share_percent: 18.0  # Growing fast!
+    features: ["Storefront", "Checkout", "Payments (Rakuten Pay, PayPay)", "POS"]
+    pricing_jpy_month: [5000, 13000, 50000, 250000]  # ¥5K-250K (~$33-$1.67K)
+    api: "https://shopify.dev/"
+    tokyo_note: "Shopify Tokyo office - growing fast in Japan"
+    
+  - name: "BASE (ベイス)"
+    japanese_name: "BASE株式会社"
+    headquarters: "Shibuya, Tokyo"
+    website: "https://www.thebase.in/"
+    market_share_percent: 12.0
+    features: ["Simple Store", "No monthly fee (3.0% + ¥250 per sale)", "Mobile app"]
+    pricing_jpy_month: [0, 3000, 8000]  # ¥0-8000 (~$0-$53)
+    tokyo_note: "Shibuya-based startup - popular for small sellers"
+    
+  - name: "STORES (ストアーズ)"
+    japanese_name: "STORES.jp"
+    headquarters: "Shinjuku, Tokyo"
+    website: "https://stores.jp/"
+    market_share_percent: 8.0
+    features: ["No monthly fee", "Easy setup", "Konbini payment support"]
+    pricing_jpy_month: [0, 5000]  # ¥0-5000 (~$0-$33)
+    tokyo_note: "Tokyo-based, very simple for beginners"
+    
+  - name: "Amazon Japan (Marketplace)"
+    headquarters: "Seattle, WA (US) + Tokyo office"
+    website: "https://services.amazon.co.jp/"
+    market_share_percent: 22.0
+    features: ["Marketplace", "FBA (Fulfillment by Amazon)", "Advertising"]
+    pricing_jpy_month: [5000, 10000, 20000]  # + commission 8-15%
+    api: "https://developer.amazon.com/"
+    tokyo_note: "Amazon Japan HQ in Shibuya"
+    
+# Order Management Systems (OMS) - Japan
+order_management_japan:
+  - name: "Rakuten Super Logistics"
+    japanese_name: "楽天スーパーロジスティクス"
+    website: "https://www.rakuten.com/logistics.html"
+    features: ["Multi-channel", "Rakuten Ichiba integration", "Fulfillment"]
+    pricing_jpy_month: [50000, 150000, 500000]  # ¥50K-500K (~$333-$3.3K)
+    notable_clients: ["Sony Store", "Nintendo Store"]
+    
+  - name: "Salesforce Commerce Cloud (Japan)"
+    japanese_name: "セールスフォース"
+    website: "https://www.salesforce.com/jp/products/commerce-cloud/"
+    features: ["B2C Commerce", "B2B Commerce", "Order Management", "AI Personalization"]
+    pricing_jpy_month: [600000, 1800000, 6000000]  # ¥600K-6M (~$4K-$40K)
+    tokyo_note: "Salesforce Japan HQ in Shinjuku"
+    
+  - name: "kotomotto (こともっと)"
+    japanese_name: "こともっと株式会社"
+    headquarters: "Tokyo"
+    website: "https://kotomotto.com/"
+    features: ["Multi-channel", "Inventory", "Warehouse Management"]
+    pricing_jpy_month: [30000, 100000, 300000]  # ¥30K-300K (~$200-$2K)
+    
+# KYC and Identity Verification (Japan)
+kyc_services_japan:
+  - provider: "RIET (リート)"
+    japanese_name: "株式会社リート"
+    headquarters: "Chiyoda, Tokyo"
+    website: "https://www.riet.co.jp/"
+    service: "Credit Check, Identity Verification, Background Check"
+    api: "https://www.riet.co.jp/api/"
+    features: ["Credit Score (CIC)", "Identity Verification", "Fraud Detection"]
+    market_share_percent: 35.0
+    tokyo_note: "Major credit bureau in Japan"
+    
+  - provider: "CIC (Credit Information Center)"
+    japanese_name: "株式会社シーアイシー"
+    headquarters: "Chiyoda, Tokyo"
+    website: "https://www.cic.co.jp/"
+    service: "Credit Reporting, Identity Verification"
+    note: "Largest credit bureau in Japan (members: all major banks)"
+    market_share_percent: 45.0
+    
+  - provider: "JICC (Japan Information Industry)"
+    japanese_name: "株式会社日本情報産業"
+    headquarters: "Minato, Tokyo"
+    website: "https://www.jicc.co.jp/"
+    service: "Credit Reporting, Debt Collection"
+    market_share_percent: 20.0
+    
+  - provider: "TRUSTDOCK (トラストドック)"
+    japanese_name: "TRUSTDOCK株式会社"
+    headquarters: "Shibuya, Tokyo"
+    website: "https://trustdock.io/"
+    service: "KYC/AML Compliance, Identity Verification"
+    api: "https://trustdock.io/api-docs/"
+    pricing_jpy_month: [50000, 200000, 500000]  # ¥50K-500K (~$333-$3.3K)
+    tokyo_note: "Tokyo startup - popular with fintech (Rakuten, PayPay)"
+    notable_clients: ["PayPay", "Rakuten", "Mercari"]
+    
+# Debt Collection (Japan)
+debt_collection_japan:
+  - name: "RIET (リート)"
+    headquarters: "Chiyoda, Tokyo"
+    type: "Credit bureau + collection"
+    services: ["Credit Check", "Debt Collection", "Fraud Detection"]
+    market_share_percent: 35.0
+    
+  - name: "JICC Collection Services"
+    headquarters: "Minato, Tokyo"
+    type: "Traditional Collection Agency"
+    services: ["First-Party Collections", "Third-Party Collections"]
+    market_share_percent: 25.0
+    
+  - name: "Nihon Debt Collection (日本債権回収)"
+    headquarters: "Tokyo"
+    type: "Traditional Collection Agency"
+    market_share_percent: 15.0
+    
+  - name: "Rakuten Bank Collections"
+    headquarters: "Shinagawa, Tokyo"
+    type: "In-house collections"
+    market_share_percent: 10.0
+    note: "Rakuten Bank handles its own collections"
+    
+# Customer Service Tools (Japan)
+customer_service_tools_japan:
+  - name: "LINE Official Account (Messaging)"
+    japanese_name: "LINE公式アカウント"
+    headquarters: "Shinjuku, Tokyo"
+    website: "https://www.linebiz.com/jp-en/"
+    features: ["Chatbot", "Rich menus", "Push notifications", "LINE Pay integration", "LINE Clova AI"]
+    pricing_jpy_month: [0, 5000, 20000]  # ¥0-20K (~$0-$133) + ¥5/message
+    api: "https://developers.line.biz/"
+    market_share_percent: 65.0  # MOST POPULAR in Japan!
+    tokyo_note: "LINE HQ in Shinjuku - 95M users in Japan!"
+    ai_implications: "LINE Clova AI powers most Japanese chatbots"
+    
+  - name: "Zendesk (Japan)"
+    japanese_name: "ゼンデスク"
+    headquarters: "San Francisco, CA + Tokyo office"
+    website: "https://www.zendesk.com/jp/"
+    features: ["Tickets", "Chat", "Voice", "Guide (Knowledge Base)", "AI Agents (Answer Bot)"]
+    pricing_jpy_month: [2500, 6500, 10500, 20000]  # ¥2500-20000 (~$17-$133)
+    api: "https://developer.zendesk.com/"
+    market_share_percent: 15.0
+    
+  - name: "Intercom (Japan)"
+    headquarters: "San Francisco, CA + Tokyo office"
+    website: "https://www.intercom.com/jp/"
+    features: ["Live Chat", "Chatbot Builder", "Product Tours", "Fin (AI Agent)"]
+    pricing_jpy_month: [10000, 17000, 66000]  # Per seat ¥10K-66K (~$67-$440)
+    market_share_percent: 8.0
+    
+  - name: "Salesforce Service Cloud (Japan)"
+    japanese_name: "セールスフォース・サービスクラウド"
+    website: "https://www.salesforce.com/jp/products/service-cloud/"
+    features: ["Case Management", "Omni-Channel Routing", "Field Service", "Einstein AI"]
+    pricing_jpy_month: [3300, 10000, 20000, 40000]  # Per user ¥3.3K-40K (~$22-$267)
+    market_share_percent: 10.0
+    
+# E-signature and Document Management (Japan)
+document_management_japan:
+  - name: "DocuSign (Japan)"
+    japanese_name: "ドキュサイン"
+    headquarters: "San Francisco, CA + Tokyo office"
+    website: "https://www.docusign.com/jp/"
+    market_share_percent: 25.0  # Growing in Japan
+    features: ["E-signature", "CLM (Contract Lifecycle Management)", "ID Verification"]
+    pricing_jpy_month: [1300, 3300, 5300, 8000]  # Per user ¥1300-8000 (~$9-$53)
+    api: "https://developers.docusign.com/"
+    tokyo_note: "DocuSign Japan office in Tokyo"
+    
+  - name: "CloudSign (クラウドサイン)"
+    japanese_name: "クラウドサイン (NECネッツエイジ)"
+    headquarters: "Minato, Tokyo"
+    website: "https://www.cloudsign.jp/"
+    market_share_percent: 35.0  # #1 in Japan!
+    features: ["E-signature", "Templates", "Workflow", "API Integration"]
+    pricing_jpy_month: [2000, 5000, 10000]  # ¥2000-10000 (~$13-$67)
+    api: "https://www.cloudsign.jp/api/"
+    tokyo_note: "Born in Tokyo - #1 e-signature in Japan!"
+    unique: "Designed for Japanese contract law! (hanko + digital)"
+    
+  - name: "GMO Sign (GMOサイン)"
+    japanese_name: "GMOサイン"
+    headquarters: "Shibuya, Tokyo"
+    website: "https://www.gmo-sign.com/"
+    market_share_percent: 20.0
+    features: ["E-signature", "API", "Team Management"]
+    pricing_jpy_month: [2500, 6000, 12000]  # ¥2500-12000 (~$17-$80)
+    tokyo_note: "GMO Internet Group (Shibuya) - major internet conglomerate"
+    
+  - name: "Adobe Sign (Acrobat - Japan)"
+    japanese_name: "アドビサイン"
+    headquarters: "San Jose, CA + Tokyo office"
+    website: "https://www.adobe.com/jp/creativecloud/business/esignature.html"
+    market_share_percent: 10.0
+    features: ["E-signature", "PDF Workflows", "Integration with Adobe CC"]
+    pricing_jpy_month: [2000, 3300, 20000]  # ¥2000-20K (~$13-$133)
+    tokyo_note: "Adobe Japan office in Tokyo"
+    
+# Fiscal Document APIs (Japan Equivalent)
+fiscal_document_apis_japan:
+  - provider: "Freee (フリー)"
+    website: "https://www.freee.co.jp/"
+    services: ["Invoice System registration", "Consumption Tax Calculation", "E-invoicing API"]
+    api: "https://support.freee.co.jp/hc/ja/articles/360045447171"
+    pricing: "Included in Freee subscriptions"
+    note: "Leading the Invoice System compliance in Japan"
+    
+  - name: "Money Forward (マネーフォワード)"
+    website: "https://biz.moneyforward.com/"
+    services: ["Consumption Tax Reporting", "E-invoicing", "Transaction API"]
+    api: "https://support.moneyforward.com/corp/"
+    pricing: "Included in Money Forward subscriptions"
+    
+  - name: "JCT (Japan Consumption Tax) API"
+    website: "https://www.nta.go.jp/"
+    services: ["Tax calculation", "Filing (e-Tax)"]
+    note: "National Tax Agency - e-Tax system"
+    api: "https://www.nta.go.jp/taxes/takarasaku/etax/"
+    
+# Open Banking (Japan Style)
+open_banking_japan:
+  status: "Voluntary (no federal mandate like Brazil's PIX)"
+  framework: "Payment Services Act (PSA) - amended 2020"
+  effective: "May 2020"
+  approach: "Licensed banks + licensed fund transfer providers"
+  
+  licensed_providers_japan:
+    - "GMO Aozora Net Bank (GMOインターネット銀行)"
+    - "Rakuten Bank (楽天銀行)"
+    - "SBI Sumishin Net Bank (SBI住信ネット銀行)"
+    - "PayPay Bank (ペイペイ銀行)"
+    - "au Jibun Bank (auじぶん銀行)"
+    
+  use_cases: ["Account aggregation", "Payment initiation", "Balance checks"]
+  note: "Much smaller than Brazil's PIX (which is MANDATORY)"
+  
+  api_providers:
+    - "Money Forward (moneyforward.com/) - account aggregation"
+    - "Moneytree (moneytree.jp/) - personal finance management"
+    - "Zengin System API"  # Japanese ACH equivalent
+    
+  ai_agent_implications:
+    - "AI agents can use bank APIs to check balances, initiate transfers"
+    - "Open Banking APIs standardized (JSON format)"
+    - "Smaller scale than Brazil's PIX (voluntary vs mandatory)"
+    
+# Business Analytics (Japan)
+business_analytics_japan:
+  - tool: "Google Analytics 4 (Japan)"
+    ecommerce_tracking: true
+    enhancement_ecommerce: true
+    integration: ["GA4", "Google Ads", "Search Console", "Looker Studio"]
+    market_share_percent: 82.0
+    cost: "Free (up to 10M hits/month)"
+    appi_compliance: true  # Must have proper consent for cookies
+    
+  - tool: "LINE Analytics"
+    market_share_percent: 60.0  # Of LINE Official Accounts
+    features: ["User demographics", "Message open rates", "Rich menu clicks"]
+    cost: "Free with LINE Official Account"
+    api: "https://developers.line.biz/"
+    tokyo_note: "Critical for understanding LINE users (95M in Japan!)"
+    
+  - tool: "Amplitude (Japan)"
+    headquarters: "San Francisco, CA + Tokyo office"
+    website: "https://amplitude.com/jp/"
+    features: ["Product Analytics", "Behavioral Analytics", "Funnels", "Retention"]
+    pricing_jpy_month: [0, 130000, 260000]  # ¥130K-260K (~$867-$1.7K) free tier: 100K events/month
+    market_share_percent: 8.0
+    
+  - tool: "Mixpanel (Japan)"
+    headquarters: "San Francisco, CA + Tokyo office"
+    website: "https://mixpanel.com/jp/"
+    features: ["Event Tracking", "Funnels", "Retention", "A/B Testing"]
+    pricing_jpy_month: [0, 3300, 13000, 130000]  # ¥3.3K-130K (~$22-$867)
+    market_share_percent: 5.0
+    
+  - tool: "Yahoo! Japan Tag Manager"
+    market_share_percent: 45.0
+    description: "Tag management for Yahoo! Japan Ads"
+    cost: "Free"
+    
+# Comparison to Brazil/USA
+comparison:
+  top_accounting_software:
+    brazil: "Tiny (40%), Bling (30%)"
+    usa: "QuickBooks (45%), NetSuite (12%)"
+    japan: "Freee (35%), Money Forward (28%) - LOCAL companies dominate!"
+    
+  top_ecommerce_platform:
+    brazil: "Mercado Livre (50%), Tray (15%)"
+    usa: "Shopify (28%), WooCommerce (35%)"
+    japan: "Rakuten Ichiba (28%), Amazon Japan (22%) - Rakuten is #1!"
+    
+  open_banking:
+    brazil: "MANDATORY (BACEN PIX)"
+    usa: "Voluntary (Plaid, Yodlee)"
+    japan: "Voluntary (licensed banks only) - smaller than Brazil/USA"
+    
+  e_signatures:
+    brazil: "DocuSign (65%), Clicksign (25%)"
+    usa: "DocuSign (65%), Adobe Sign (15%)"
+    japan: "CloudSign (35% - LOCAL!), DocuSign (25%) - local wins!"
+    
+  messaging_for_business:
+    brazil: "WhatsApp Business (92%)"
+    usa: "Email (88%), Live Chat (42%)"
+    japan: "LINE Official Account (95%!) - MOST POPULAR!"

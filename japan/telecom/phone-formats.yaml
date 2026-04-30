@@ -1,0 +1,349 @@
+version: 1.0.0
+country: japan
+last_updated: 2026-04-30
+description: "Phone formats, postal codes, and address standards for Japan"
+
+# Phone System
+phone:
+  country_code: "+81"
+  international_format: "+81 A-BBBB-CCCC"
+  national_format: "0AA-BBBB-CCCC"
+  
+  formats:
+    - pattern: "^\\+81[7-9]0\\d{7}$"  # Mobile
+      example: "+817012345678"
+      formatted_example: "+81 70-1234-5678"
+      description: "Mobile phone (070, 080, 090 prefixes)"
+      digits_total: 13  # +81 + 10 digits
+      usage_percent: 85.0  # Most common now
+      
+    - pattern: "^\\+81[3-6]\\d{7,8}$"  # Landline
+      example: "+81312345678"
+      formatted_example: "+81 3-1234-5678"
+      description: "Landline (3=Tokyo, 6=Osaka, etc.)"
+      digits_total: 12  # +81 + 9 digits
+      usage_percent: 35.0  # Declining
+      
+    - pattern: "^\\+811[2-9]\\d{6,7}$"  # Toll-free / Business
+      example: "+81120123456"
+      formatted_example: "+81 12-345-678"
+      description: "Toll-free (0120) or business lines"
+      digits_total: 12  # +81 + 9 digits
+      
+    - pattern: "^\\+8150\\d{7,8}$"  # Mobile (older)
+      example: "+815012345678"
+      formatted_example: "+81 50-1234-5678"
+      description: "Mobile (050 - IP phones sometimes)"
+      digits_total: 13
+      
+  # Mobile Prefixes (3-digit after +81)
+  mobile_prefixes:
+    - prefix: "070"
+      description: "Mobile (introduced 2013)"
+      carriers: ["NTT Docomo", "au (KDDI)", "SoftBank"]
+      
+    - prefix: "080"
+      description: "Mobile (most common)"
+      carriers: ["NTT Docomo", "au (KDDI)", "SoftBank"]
+      
+    - prefix: "090"
+      description: "Mobile (most common)"
+      carriers: ["NTT Docomo", "au (KDDI)", "SoftBank"]
+      
+    - prefix: "050"
+      description: "IP phones / VoIP (050plus, etc.)"
+      carriers: ["NTT Communications", "SoftBank", "au"]
+      
+  # Geographic Area Codes (Major Cities)
+  area_codes:
+    - code: "3"
+      city: "Tokyo (23 wards)"
+      prefecture: "Tokyo"
+      region: "Kanto"
+      population_millions: 14.0
+      note: "Megacity - center of Japanese business"
+      
+    - code: "6"
+      city: "Osaka"
+      prefecture: "Osaka"
+      region: "Kansai"
+      population_millions: 8.8
+      note: "Western Japan business hub"
+      
+    - code: "3"  # Wait, this is confusing. Let me re-do.
+      
+  # Actually, let me restructure:
+  major_cities:
+    - city: "Tokyo (Chiyoda, Chuo, Minato, etc.)"
+      prefecture: "Tokyo"
+      area_code: "03"  # Landline
+      mobile_format: "+81 70/080/090-XXXX-XXXX"
+      population: 14000000
+      note: "Japan's capital, financial center (like Silicon Valley for AI)"
+      
+    - city: "Osaka"
+      prefecture: "Osaka"
+      area_code: "06"
+      population: 8800000
+      note: "Western Japan's commercial hub"
+      
+    - city: "Kyoto"
+      prefecture: "Kyoto"
+      area_code: "075"
+      population: 1500000
+      note: "Cultural capital, tech startups emerging"
+      
+    - city: "Yokohama"
+      prefecture: "Kanagawa"
+      area_code: "045"
+      population: 3700000
+      note: "Port city near Tokyo"
+      
+    - city: "Nagoya"
+      prefecture: "Aichi"
+      area_code: "052"
+      population: 2300000
+      note: "Industrial center (Toyota HQ)"
+      
+    - city: "Fukuoka"
+      prefecture: "Fukuoka"
+      area_code: "092"
+      population: 1600000
+      note: "Emerging tech hub (government support)"
+      
+    - city: "Sapporo"
+      prefecture: "Hokkaido"
+      area_code: "011"
+      population: 2000000
+      note: "Northern Japan, Sapporo beer"
+      
+  # Rules
+  validation:
+    - "Mobile: +81 70/080/090 + 8 digits"
+    - "Landline: +81 + area code (2-5 digits) + remaining digits"
+    - "No formatting (spaces/hyphens) in actual dialing"
+    
+  toll_free:
+    prefixes: ["0120", "0800", "0570"]  # 0120 most common
+    example: "+81 120-123-456"
+    charged_to: "Callee (business pays)"
+    
+  emergency_numbers:
+    police: "110"
+    fire_ambulance: "119"
+    coast_guard: "118"
+
+# Postal Codes (Yuubin Bangou - 郵便番号)
+postal_code:
+  name: "Yuubin Bangou (郵便番号)"
+  country: "Japan"
+  format: "^\\d{3}-\\d{4}$"  # NNN-NNNN
+  pattern_example: "100-0001"
+  formatted_example: "〒100-0001"  # With postal mark
+  digits: 7  # Formatted as 3-4
+  validation: "Japan Post validation service"
+  validation_url: "https://www.post.japanpost.jp/zipcode/"
+  
+  # Structure
+  structure:
+    digits_1_to_3: "Postal zone (prefecture/region)"
+    digits_4_to_7: "Specific area/municipality"
+    
+  # Ranges by Prefecture (Major Ones)
+  ranges_by_prefecture:
+    - prefecture: "Tokyo (東京)"
+      code_range: ["100-0000", "209-9999"]
+      major_areas:
+        - code: "100-0001"
+          area: "Chiyoda-ku (Imperial Palace, government)"
+        - code: "150-0001"
+          area: "Shibuya-ku (Silicon Valley equivalent - tech hub)"
+        - code: "106-0001"
+          area: "Minato-ku (Roppongi, Azabu - embassies, offices)"
+        - code: "104-0001"
+          area: "Chuo-ku (Ginza, Nihonbashi - financial district)"
+          
+    - prefecture: "Osaka (大阪)"
+      code_range: ["530-0000", "592-9999"]
+      
+    - prefecture: "Kyoto (京都)"
+      code_range: ["600-0000", "629-9999"]
+      
+    - prefecture: "Kanagawa (神奈川 - Yokohama)"
+      code_range: ["210-0000", "259-9999"]
+      
+  # Postal Mark
+  postal_mark: "〒"  # Unicode: U+3012
+  usage: "Written before postal code on envelopes"
+  example: "〒100-0001"
+  
+  # Japan Post ( Postal Service)
+  japan_post:
+    japanese_name: "日本郵便 (にほんゆうびん)"
+    website: "https://www.post.japanpost.jp/"
+    headquarters: "Tokyo, Japan"
+    services: ["Mail delivery", "Banking (Yucho Bank)", "Insurance", "Logistics"]
+    
+  lookup_services:
+    - name: "Japan Post ZIP Code Search"
+      url: "https://www.post.japanpost.jp/zipcode/"
+      type: "Official"
+      requires_captcha: false
+      
+    - name: "Kensaku Japan"
+      url: "https://kensaku.jp/"
+      type: "Third-party API"
+      
+# Japanese Address Format
+address_format: |
+  〒 Postal Code
+  Prefecture + City + District + House Number
+  Building Name, Room Number
+  Recipient Name
+
+address_example: |
+  〒150-0001
+  Tokyo-to, Shibuya-ku, Jingumae 1-2-3
+  AI Tower, 42F, Room 4201
+  Tanaka Tarou
+
+# Prefectures (47 Total - Like States/Provinces)
+prefectures:
+  regions:
+    - name: "Hokkaido (北海道)"
+      code: "01"
+      prefectures: ["Hokkaido"]
+      population_millions: 5.0
+      
+    - name: "Tohoku (東北)"
+      code: "02"
+      prefectures: ["Aomori", "Iwate", "Miyagi", "Akita", "Yamagata", "Fukushima"]
+      population_millions: 8.5
+      
+    - name: "Kanto (関東)"
+      code: "03"
+      prefectures: ["Ibaraki", "Tochigi", "Gunma", "Saitama", "Chiba", "Tokyo", "Kanagawa"]
+      population_millions: 43.0
+      note: "Contains Tokyo - Japan's tech/financial hub"
+      
+    - name: "Chubu (中部)"
+      code: "04"
+      prefectures: ["Niigata", "Toyama", "Ishikawa", "Fukui", "Yamanashi", "Nagano", "Gifu", "Shizuoka", "Aichi"]
+      population_millions: 22.0
+      note: "Aichi = Toyota HQ"
+      
+    - name: "Kansai (関西)"
+      code: "05"
+      prefectures: ["Mie", "Shiga", "Kyoto", "Osaka", "Hyogo", "Nara", "Wakayama"]
+      population_millions: 22.5
+      note: "Osaka = Western business hub"
+      
+    - name: "Chugoku (中国)"
+      code: "06"
+      prefectures: ["Tottori", "Shimane", "Okayama", "Hiroshima", "Yamaguchi"]
+      population_millions: 7.5
+      
+    - name: "Shikoku (四国)"
+      code: "07"
+      prefectures: ["Tokushima", "Kagawa", "Ehime", "Kochi"]
+      population_millions: 3.5
+      
+    - name: "Kyushu (九州)"
+      code: "08"
+      prefectures: ["Fukuoka", "Saga", "Nagasaki", "Kumamoto", "Oita", "Miyazaki", "Kagoshima", "Okinawa"]
+      population_millions: 14.0
+      note: "Fukuoka = emerging tech hub (government support)"
+      
+# Time Zone (Single Zone)
+time_zones:
+  - name: "Japan Standard Time (JST)"
+    standard: "UTC+9"
+    daylight_saving: false  # Japan does NOT observe DST!
+    note: "Whole country uses single time zone (unlike US/Europe)"
+    ai_implications: "No DST transitions to handle (unlike US/EU)"
+    
+  comparison:
+    us_silicon_valley: "UTC-8 (PST) / UTC-7 (PDT)"
+    brazil_sao_paulo: "UTC-3"
+    japan_tokyo: "UTC+9 (no DST)"
+    
+# Internet Infrastructure
+internet_infrastructure:
+  average_speed_mbps: 200.0  # Fiber broadband
+  fiber_coverage_percent: 98.0  # Highest in G7!
+  broadband_penetration_percent: 95.0
+  
+  isps:
+    - name: "NTT Docomo"
+      market_share_percent: 35.0
+      fiber_available: true
+      note: "Largest mobile carrier"
+      
+    - name: "au (KDDI)"
+      market_share_percent: 30.0
+      fiber_available: true
+      
+    - name: "SoftBank"
+      market_share_percent: 25.0
+      fiber_available: true
+      note: "Also owns PayPay, Yahoo Japan"
+      
+    - name: "Rakuten Mobile"
+      market_share_percent: 5.0
+      fiber_available: false
+      note: "Newest carrier (4th), part of Rakuten ecosystem"
+      
+  cloud_providers:
+    - name: "AWS"
+      regions: ["ap-northeast-1 (Tokyo)", "ap-northeast-3 (Osaka)"]
+      launch: [2011, 2021]
+      services: 200+
+      note: "Tokyo = ap-northeast-1 (primary), Osaka = ap-northeast-3 (secondary)"
+      
+    - name: "Google Cloud"
+      regions: ["asia-northeast1 (Tokyo)", "asia-northeast2 (Osaka)"]
+      launch: [2016, 2022]
+      services: 150+
+      
+    - name: "Microsoft Azure"
+      regions: ["Japan East (Tokyo)", "Japan West (Osaka)"]
+      launch: [2014, 2019]
+      services: 180+
+      
+    - name: "Oracle Cloud"
+      regions: ["Japan East (Tokyo)"]
+      launch: [2020]
+      services: 100+
+      
+# Unique Japanese Addressing Challenges for AI
+addressing_challenges:
+  - challenge: "Addresses written in Japanese kanji/hiragana/katakana"
+    ai_solution: "Must support Japanese OCR + geocoding APIs"
+    
+  - challenge: "No street names in traditional sense (block-based addressing)"
+    ai_solution: "Requires specialized Japanese geocoding (Google Maps API Japan)"
+    
+  - challenge: "Building numbers not sequential (based on registration order)"
+    ai_solution: "Cannot infer neighbor's address from number"
+    
+  - challenge: "Multiple languages (ja-JP, en-US, sometimes zh-CN)"
+    ai_solution: "Dual-language address parsing required"
+    
+  - challenge: "Postal code (〒) must be in specific format"
+    ai_solution: "Validate NNN-NNNN format before submission"
+    
+  geocoding_apis:
+    - "Google Maps API (supports Japanese addresses)"
+    - "Mapbox API (supports Japanese)"
+    - "Yahoo Japan Local API (most accurate for Japan)"
+    - "Zenrin API (Japanese mapping company)"
+
+# AI Agent Implications
+ai_agent_implications:
+  - "Phone validation: +81 + 10 digits (mobile) or 9 digits (landline)"
+  - "Postal code: 〒NNN-NNNN format (Japanese postal mark!)"
+  - "Address parsing: Prefecture → City → District → House Number"
+  - "Time zone: UTC+9, NO daylight saving time (unlike US!)"
+  - "Fiber internet: 98% coverage (best in G7) - ideal for cloud AI"
+  - "Single time zone: no DST transitions to handle"
+  - "Japanese language support required (kanji/hiragana/katakana)"

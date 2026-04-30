@@ -1,0 +1,334 @@
+version: 1.0.0
+country: japan
+last_updated: 2026-04-30
+description: "Major Japanese banks, payment methods, and fintech ecosystem"
+
+# Currency
+currency:
+  code: "JPY"
+  name: "Japanese Yen"
+  symbol: "¥"
+  subunit: "Sen (1/100, obsolete), Rin (1/1000, obsolete)"
+  decimals: 0  # Modern usage: whole yen only
+  symbol_position: "before"  # ¥100
+  central_bank: "Bank of Japan (日本銀行, BOJ)"
+  central_bank_url: "https://www.boj.or.jp/en/"
+  exchange_rate_source: "BOJ + market"
+
+# Major Banks ("Megabanks" + Regional Banks)
+banks:
+  - name: "Mitsubishi UFJ Financial Group (MUFG)"
+    japanese_name: "株式会社三菱UFJ銀行"
+    code: "MUFG"
+    type: "megabank"
+    category: "major"
+    assets_trillions_jpy: 367.0  # ~$2.5 trillion USD
+    assets_usd_trillions: 2.5
+    website: "https://www.mufg.jp/english/"
+    market_share_deposits_percent: 22.0
+    ach_enabled: true  # "Zengin System" (Japanese ACH)
+    api_available: true
+    api_docs: "https://www.mufg.jp/english/corporate/open_api.html"
+    branches: 7800
+    overseas_offices: 120+
+    ai_fintech_partnerships: ["Rakuten Bank", "SBI Sumishin Net Bank"]
+    
+  - name: "Sumitomo Mitsui Financial Group (SMFG)"
+    japanese_name: "株式会社三井住友銀行"
+    code: "SMFG"
+    type: "megabank"
+    category: "major"
+    assets_trillions_jpy: 330.0  # ~$2.2 trillion USD
+    assets_usd_trillions: 2.2
+    website: "https://www.smfg.co.jp/english/"
+    market_share_deposits_percent: 20.0
+    ach_enabled: true
+    api_available: true
+    branches: 4600
+    ai_fintech_partnerships: ["PayPay Bank", "Au Jibun Bank"]
+    
+  - name: "Mizuho Financial Group"
+    japanese_name: "株式会社みずほ銀行"
+    code: "MIZUHO"
+    type: "megabank"
+    category: "major"
+    assets_trillions_jpy: 280.0  # ~$1.9 trillion USD
+    assets_usd_trillions: 1.9
+    website: "https://www.mizuhogroup.com/"
+    market_share_deposits_percent: 18.0
+    ach_enabled: true
+    branches: 5400
+    
+  - name: "Resona Holdings"
+    japanese_name: "株式会社りそな銀行"
+    code: "RESONA"
+    type: "major regional"
+    category: "major"
+    assets_trillions_jpy: 76.0  # ~$510 billion USD
+    website: "https://www.resona-gr.co.jp/english/"
+    market_share_deposits_percent: 6.0
+    
+  - name: "Rakuten Bank"
+    japanese_name: "楽天銀行"
+    code: "RAKUTEN"
+    type: "digital bank"
+    category: "major"
+    assets_trillions_jpy: 10.5  # ~$70 billion USD
+    website: "https://www.rakuten-bank.co.jp/english/"
+    market_share_deposits_percent: 3.5
+    api_available: true
+    note: "Largest digital bank in Japan, part of Rakuten ecosystem"
+    ai_usage: "Uses AI for credit scoring, fraud detection"
+    
+  - name: "SBI Sumishin Net Bank"
+    japanese_name: "SBI住信インターネット銀行"
+    code: "SBI"
+    type: "digital bank"
+    category: "growing"
+    assets_trillions_jpy: 8.2  # ~$55 billion USD
+    website: "https://www.sbinetbank.co.jp/"
+    note: "Joint venture SBI Holdings + Sumitomo Mitsui Trust"
+    
+  - name: "PayPay Bank"
+    japanese_name: "PayPay銀行"
+    code: "PAYPAY"
+    type: "digital bank"
+    category: "growing"
+    assets_trillions_jpy: 3.5  # ~$23 billion USD
+    website: "https://www.paypay-bank.co.jp/"
+    note: "Powered by PayPay (SoftBank + Yahoo Japan app)"
+    ai_usage: "AI-driven credit decisions"
+
+# Payment Methods (UNIQUE to Japan!)
+payment_methods:
+  - name: "Credit Cards"
+    japanese_name: "クレジットカード"
+    type: "credit"
+    mandatory_for_business: false
+    brands: ["Visa", "Mastercard", "JCB (Japan Credit Bureau)", "American Express", "Diners Club"]
+    market_share_ecommerce_percent: 45.0
+    fees_merchant_percent: [2.5, 5.0]  # Higher than US (2.9%)
+    pci_dss_required: true
+    popular_for: ["E-commerce", "Department stores", "Restaurants"]
+    unique_feature: "JCB is Japanese brand (40% domestic market share)"
+    
+  - name: "Konbini Payments (Convenience Store)"
+    japanese_name: "コンビニ決済"
+    type: "cash_at_store"
+    mandatory_for_business: false
+    market_share_ecommerce_percent: 25.0  # UNIQUE TO JAPAN!
+    description: "Pay bills at 7-Eleven, Lawson, FamilyMart, Ministop"
+    processing_time_days: [0, 3]  # Same day to 3 days
+    fees_merchant_percent: [3.5, 5.0]
+    api_providers: ["GMO Payment", "Veritrans", "Telecom Credit"]
+    notable_fact: "Japan has 56,000+ convenience stores (most per capita globally)"
+    usage: ["Online shopping", "Utility bills", "Ticket purchases", "Tax payments"]
+    ai_implications: "Konbini APIs allow AI agents to automate bill payments"
+    
+  - name: "Bank Transfer (Furikomi)"
+    japanese_name: "振込 (ふりこみ)"
+    type: "bank_transfer"
+    mandatory_for_business: false
+    market_share_ecommerce_percent: 10.0
+    processing_time_days: [0, 2]  # Same day if before 3pm
+    fees_per_transaction_jpy: [220, 880]  # ¥220-880 (~$1.50-$6)
+    system: "Zengin System (Japanese ACH)"
+    api_available: true
+    note: "Like ACH in US, but more expensive per transaction"
+    
+  - name: "Cash (Genkin)"
+    japanese_name: "現金 (げんきん)"
+    type: "cash"
+    market_share_ecommerce_percent: 15.0  # VERY HIGH for developed nation!
+    market_share_offline_percent: 55.0  # Still king offline
+    note: "Japan is world's most cash-heavy developed nation"
+    reasons: ["Cultural preference for cash", "Safety (low crime)", "Privacy concerns", "Aging population less tech-savvy"]
+    business_impact: "Must accept cash (unlike US/Europe where cash dying)"
+    
+  - name: "Electronic Money (Edy, Suica, Pasmo, Nanaco)"
+    japanese_name: "電子マネー (でんしマネー)"
+    type: "e_money"
+    mandatory_for_business: false
+    market_share_ecommerce_percent: 5.0
+    market_share_transit_percent: 85.0  # Used as transit cards
+    popular_cards:
+      - "Suica (JR East) - 50M+ cards"
+      - "Pasmo (Tokyo Metro) - 30M+ cards"
+      - "ICOCA (JR West) - 25M+ cards"
+      - "Edy (Rakuten) - 80M+ cards"
+      - "Nanaco (Seven & I) - 70M+ cards"
+    usage: ["Transit (tap in/out)", "Vending machines", "Convenience stores", "Small purchases"]
+    api_integration: true
+    unique_feature: "Transit cards DOUBLE as e-money (worldwide unique!)"
+    ai_implications: "AI agents can use Suica APIs for transit routing + payments"
+    
+  - name: "QR Code Payments (PayPay, Line Pay, Rakuten Pay)"
+    japanese_name: "QRコード決済"
+    type: "qr_code"
+    mandatory_for_business: false
+    market_share_ecommerce_percent: 8.0  # Growing fast!
+    popular_apps:
+      - "PayPay (SoftBank/Yahoo) - 60M+ users"
+      - "Line Pay (Line) - 40M+ users"
+      - "Rakuten Pay - 20M+ users"
+      - "Merpay (Mercari) - 15M+ users"
+      - "au PAY (KDDI) - 30M+ users"
+    fees_merchant_percent: [2.5, 3.5]
+    api_available: true
+    growth_yoy_percent: 35.0
+    note: "Cashless push by government (points back for using)"
+    
+  - name: "Buy Now Pay Later (BNPL)"
+    japanese_name: "後払い (あとばらい)"
+    type: "bnpl"
+    market_share_ecommerce_percent: 2.0
+    providers: ["Paidy (now PayPal)", "Atone (JACCS)", "Orico", "My Payment (AEON)"]
+    fees_merchant_percent: [3.0, 5.0]
+    unique_feature: "Paidy allows BNPL WITHOUT credit card (email + bank only!)"
+    ai_implications: "AI credit scoring (no credit bureau needed)"
+
+# Payment Gateways (Japanese Market)
+payment_gateways:
+  - name: "GMO Payment Gateway"
+    japanese_name: "GMOペイメントゲートウェイ"
+    website: "https://www.gmo-pg.com/"
+    market_share_percent: 35.0
+    api_type: "REST"
+    auth: "API Key + Store ID"
+    features: ["Credit cards", "Konbini", "PayPay", "Bank transfer"]
+    pricing_jpy_month: [0, 30000]  # ¥0-30,000 (~$0-$200)
+    transaction_fee_percent: [2.5, 4.5]
+    docs: "https://docs.pg-payments.com/"
+    
+  - name: "Veritrans (VeriTrans Japan)"
+    website: "https://www.veritrans.co.jp/"
+    market_share_percent: 25.0
+    api_type: "REST"
+    features: ["Credit cards", "Konbini", "Apple Pay", "Google Pay"]
+    pricing_jpy_month: [10000, 50000]
+    transaction_fee_percent: [2.8, 4.8]
+    
+  - name: "Telecom Credit (NTT)"
+    website: "https://www.telecomcredit.co.jp/"
+    market_share_percent: 15.0
+    features: ["Credit cards", "Konbini", "Carrier billing"]
+    
+  - name: "Stripe Japan"
+    website: "https://stripe.com/jp"
+    market_share_percent: 8.0
+    api_type: "REST"
+    features: ["Credit cards", "Apple Pay", "Google Pay", "Bank transfer (beta)"]
+    pricing_percent: 3.6  # + ¥30 per transaction
+    docs: "https://stripe.com/docs"
+    note: "US company (San Francisco) operating in Japan since 2020"
+    ai_implications: "OpenAI, Anthropic can use Stripe Japan for API billing"
+    
+  - name: "PayPal Japan"
+    website: "https://www.paypal.com/jp"
+    market_share_percent: 5.0
+    features: ["PayPal", "Braintree", "Paidy (acquired 2021)"]
+    pricing_percent: 3.9  # + ¥40 per transaction
+
+# Bank Transfer System (Zengin)
+zengin_system:
+  name: "Zengin System (全銀システム)"
+  operator: "Bank of Japan"
+  description: "Japanese interbank network (like ACH in US, SWIFT for domestic)"
+  transfer_limit_jpy: 100000000  # ¥100M per transaction
+  processing_time: "Same day if before 3pm, next day after"
+  fees_jpy: [220, 880]  # ¥220-880 per transfer
+  api_available: true
+  note: "All Japanese banks must participate"
+
+# Open Banking (Japan Style)
+open_banking:
+  status: "Voluntary (no federal mandate like Brazil's PIX)"
+  framework: "Payment Services Act (PSA) - amended 2020"
+  effective: "May 2020"
+  approach: "Licensed banks + licensed fund transfer providers"
+  
+  licensed_providers:
+    - "GMO Aozora Net Bank"
+    - "Rakuten Bank"
+    - "SBI Sumishin Net Bank"
+    - "PayPay Bank"
+    - "au Jibun Bank"
+    
+  use_cases: ["Account aggregation", "Payment initiation", "Balance checks"]
+  note: "Much smaller than Brazil's PIX (which is MANDATORY)"
+  
+  ai_agent_implications:
+    - "AI agents can use bank APIs to check balances, initiate transfers"
+    - "Open Banking APIs standardized (JSON format)"
+    - "Stripe/Plaid-like services emerging (Money Forward, Moneytree)"
+
+# Cryptocurrency (Legal in Japan)
+cryptocurrency:
+  status: "Legal property (Payment Services Act 2020)"
+  regulator: "Financial Services Agency (FSA / 金融庁)"
+  major_exchanges:
+    - "Bitflyer (4M+ users)"
+    - "Coincheck (2M+ users)"
+    - "GMO Coin"
+    - "Rakuten Wallet"
+  taxation: "Taxed as 'miscellaneous income' (5-45% progressive)"
+  corporate_holding: "Only licensed exchanges can hold customer crypto"
+  stablecoins: "New law (2023) - only licensed banks/trusts can issue"
+  ai_implications: "Crypto exchanges using AI for fraud detection, trading bots"
+
+# Regulation
+regulation:
+  payment_systems: "Bank of Japan (BOJ) + Financial Services Agency (FSA)"
+  consumer_protection: "Consumer Affairs Agency (CAA / 消費者庁)"
+  anti_money_laundering: "FSA enforcement, banks must KYC"
+  pci_dss_required: true  # For card storage
+  personal_information: "APPI compliance required (see legal/internet-law.yaml)"
+
+# Unique Japanese Payment Features for AI Agents
+japan_unique_features_for_ai:
+  - feature: "Konbini Payments (25% e-commerce)"
+    ai_usecase: "AI agent pays utility bills, online shopping at 7-Eleven"
+    api_available: true
+    
+  - feature: "Suica/Pasmo (Transit + E-money)"
+    ai_usecase: "AI agent routes transit, pays fares automatically"
+    api_available: true
+    unique: "One card for BOTH transit + shopping (worldwide unique)"
+    
+  - feature: "Cash Still 15% of E-commerce"
+    ai_usecase: "AI cannot pay cash (human intervention needed!)"
+    challenge: "Must integrate with Konbini for cash-paying customers"
+    
+  - feature: "PayPay (60M+ users)"
+    ai_usecase: "AI agent makes QR code payments via API"
+    api_available: true
+    
+  - feature: "Paidy (BNPL without credit card)"
+    ai_usecase: "AI agent sets up BNPL for customers without credit history"
+    api_available: true
+    unique: "Email + bank account only (no credit card needed)"
+    
+  - feature: "Zengin System (Bank Transfer)"
+    ai_usecase: "AI agent initiates bank transfers via API"
+    api_available: true
+    cost: "¥220-880 per transfer (more expensive than US ACH)"
+
+# Comparison to Brazil/USA
+comparison:
+  pix_vs_konbini:
+    brazil_pix: "Instant, free for merchants, 76% adoption"
+    japan_konbini: "1-3 days, 3.5-5% fee, 25% adoption"
+    
+  credit_card_fees:
+    usa: "2.9% + $0.30 (Stripe)"
+    japan: "2.5-5.0% (higher than US)"
+    
+  cash_usage_ecommerce:
+    usa: "5% (dying)"
+    brazil: "8% (declining)"
+    japan: "15% (HIGH for developed nation!)"
+    
+  open_banking:
+    brazil: "MANDATORY (BACEN)"
+    usa: "Voluntary (Plaid, Yodlee)"
+    japan: "Voluntary (licensed banks only)"

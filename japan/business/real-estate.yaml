@@ -1,0 +1,384 @@
+version: 1.0.0
+country: japan
+last_updated: 2026-04-30
+description: "Commercial real estate and coworking spaces in Japanese tech hubs"
+
+# Commercial Office Districts (Major Tech Hubs - Tokyo Focus)
+commercial_real_estate_tokyo:
+  - district: "Shibuya (渋谷) - Silicon Valley Equivalent!"
+      class: "A+"
+      price_jpy_sqm_year: [35000, 55000]  # ¥35K-55K (~$233-$367/sqm)
+      price_usd_sqf_year: [55, 85]  # $55-$85/sq ft
+      vacancy_rate_percent: 5.5
+      note: "Tokyo's Silicon Valley - startup hub, youthful, trendy"
+      major_companies: ["Rakuten", "Mercari", "LINE (Z Holdings)", "SmartNews", "Preferred Networks"]
+      
+  - district: "Roppongi (六本木) - International Hub"
+      class: "A+"
+      price_jpy_sqm_year: [40000, 65000]  # ¥40K-65K (~$267-$433/sqm)
+      price_usd_sqf_year: [65, 100]
+      vacancy_rate_percent: 7.2
+      note: "Embassies, international offices, Roppongi Hills"
+      major_companies: ["Google Japan", "Meta Japan", "Apple Japan", "Goldman Sachs"]
+      
+  - district: "Otemachi (大手町) - Financial District"
+      class: "A+"
+      price_jpy_sqm_year: [45000, 70000]  # ¥45K-70K (~$300-$467/sqm)
+      price_usd_sqf_year: [70, 110]
+      vacancy_rate_percent: 4.8
+      note: "Japan's Wall Street - banks, trading floors"
+      major_companies: ["Mitsubishi UFJ", "Sumitomo Mitsui", "Mizuho", "Sony HQ", "JR East"]
+      
+  - district: "Marunouchi (丸の内) - Business District"
+      class: "A+"
+      price_jpy_sqm_year: [42000, 68000]  # ¥42K-68K (~$280-$453/sqm)
+      price_usd_sqf_year: [65, 105]
+      vacancy_rate_percent: 4.5
+      note: "Corporate HQs, traditional business district"
+      major_companies: ["Fujitsu", "Hitachi", "Mitsubishi Corporation"]
+      
+  - district: "Shinjuku (新宿) - Government & Tech"
+      class: "A"
+      price_jpy_sqm_year: [28000, 45000]  # ¥28K-45K (~$187-$300/sqm)
+      price_usd_sqf_year: [45, 70]
+      vacancy_rate_percent: 6.8
+      note: "Government offices, LINE HQ, coworking spaces"
+      major_companies: ["LINE Corporation", "Nikon", "Docomo"]
+      
+  - district: "Yokohama (横浜) - Near Tokyo (30 min)"
+      class: "A"
+      price_jpy_sqm_year: [20000, 35000]  # ¥20K-35K (~$133-$233/sqm)
+      price_usd_sqf_year: [35, 55]
+      vacancy_rate_percent: 5.2
+      note: "Port city, cheaper than Tokyo, tech growing"
+      
+# Other Major Cities (Japan)
+commercial_real_estate_other:
+  - city: "Osaka"
+      districts:
+        - name: "Umeda (梅田) - Business District"
+          class: "A"
+          price_jpy_sqm_year: [25000, 40000]  # ¥25K-40K (~$167-$267/sqm)
+          price_usd_sqf_year: [40, 65]
+          vacancy_rate_percent: 6.5
+          note: "Western Japan's business hub"
+          
+  - city: "Kyoto"
+      districts:
+        - name: "Kyoto Station Area"
+          class: "B+"
+          price_jpy_sqm_year: [18000, 30000]  # ¥18K-30K (~$120-$200/sqm)
+          price_usd_sqf_year: [30, 50]
+          vacancy_rate_percent: 4.2
+          note: "Cultural capital, tech startups emerging"
+          
+  - city: "Fukuoka"
+      districts:
+        - name: "Tenjin (天神) - Business District"
+          class: "B+"
+          price_jpy_sqm_year: [15000, 25000]  # ¥15K-25K (~$100-$167/sqm)
+          price_usd_sqf_year: [25, 40]
+          vacancy_rate_percent: 3.8
+          note: "Emerging tech hub with government support"
+          
+  - city: "Sapporo (Hokkaido)"
+      districts:
+        - name: "Sapporo Station Area"
+          class: "B"
+          price_jpy_sqm_year: [12000, 20000]  # ¥12K-20K (~$80-$133/sqm)
+          price_usd_sqf_year: [20, 35]
+          vacancy_rate_percent: 5.5
+          
+# Coworking Chains (Japan)
+coworking_chains_japan:
+  - name: "WeWork Japan"
+    headquarters: "Seattle, WA (US) + Tokyo office"
+    locations_count_japan: 45  # Mostly Tokyo
+    tokyo_locations: 35
+    pricing_jpy_person_month: [45000, 150000]  # ¥45K-150K (~$300-$1000)
+    features: ["Meeting rooms included", "Coffee", "Printing", "Events", "Phone booths"]
+    tokyo_note: "All major districts (Shibuya, Roppongi, Otemachi, Shinjuku)"
+    
+  - name: "Impact Hub Tokyo"
+    headquarters: "Vienna, Austria + Tokyo office"
+    locations_count_japan: 3  # Tokyo, Kyoto, Fukuoka
+    pricing_jpy_person_month: [35000, 120000]  # ¥35K-120K (~$233-$800)
+    features: ["Social impact focus", "Community events", "Meeting rooms"]
+    target: "Social enterprises, NGOs, mission-driven startups"
+    
+  - name: "The Hive (The Terminal)"
+    headquarters: "Hong Kong + Tokyo office"
+    locations_count_japan: 5  # All Tokyo
+    pricing_jpy_person_month: [40000, 130000]  # ¥40K-130K (~$267-$867)
+    features: ["Designer spaces", "Community events", "Rooftop terraces"]
+    target: "Creative startups, designers, tech"
+    
+  - name: "BIZcomfort"
+    headquarters: "Tokyo, Japan"
+    locations_count_japan: 120+  # Nationwide!
+    pricing_jpy_person_month: [8000, 25000]  # ¥8K-25K (~$53-$167) - CHEAP!
+    features: ["Basic desks", "No frills", "24/7 access (some)"]
+    target: "Freelancers, budget-conscious startups"
+    note: "Largest coworking chain in Japan by locations!"
+    
+  - name: "Knowledge Capital (Osaka)"
+    headquarters: "Osaka, Japan"
+    locations_count_japan: 1  # Grand Front Osaka
+    pricing_jpy_person_month: [30000, 100000]  # ¥30K-100K (~$200-$667)
+    features: ["Innovation hub", "Prototype labs", "Makerspace"]
+    target: "Hardware startups, robotics, IoT"
+    
+  - name: "Google for Startups Campus (Shibuya)"
+    headquarters: "Mountain View, CA + Tokyo office"
+    locations_count_japan: 1  # Shibuya, Tokyo
+    pricing_jpy_person_month: 0  # FREE!
+    features: ["Google mentorship", "Cloud credits", "Networking"]
+    eligibility: "Selected startups only (application required)"
+    note: "MOST PRESTIGIOUS in Tokyo!"
+    
+  - name: "Coworking Spaces (Independent)"
+    count_estimate: 800+  # Japan-wide
+    description: "Independent spaces in most mid-sized cities"
+    tokyo_count: 300+  # Many in Shibuya, Shinjuku, Minato
+    pricing_jpy_person_month: [15000, 80000]  # ¥15K-80K (~$100-$533)
+    
+# Zoning (Commercial - Japan)
+zoning_japan:
+  zones:
+    - "Commercial Zone 1 (Chika Shogyo - 近隣商業)"
+      description: "Neighborhood shops, small offices"
+      
+    - "Commercial Zone 2 (Chusho Shogyo - 中層商業)"
+      description: "Larger offices, retail, restaurants"
+      
+    - "Commercial Zone 3 (Koiki Shogyo - 広域商業)"
+      description: "High-rise offices, downtown cores"
+      
+    - "Industrial Zone (Kogyo - 工業)"
+      description: "Warehouses, manufacturing, logistics"
+      
+    - "Residential Zone (Jukyo - 住居)"
+      description: "Housing (home office allowed with restrictions)"
+      
+  home_office: "Allowed in residential zones (up to a point - no client visits in Jukyo)"
+  tokyo_specific:
+    - "Mixed-use developments common (Roppongi Hills, Tokyo Midtown)"
+    - "Very strict zoning in Shibuya (preserves commercial character)"
+    - "Many buildings allow both office + residential (mansion + office combo)"
+    
+# Property Taxes (Japan)
+property_taxes_japan:
+  - tax: "Fixed Asset Tax (Kotei Shisan Zei - 固定資産税)"
+    authority: "Municipalities (Cities/Wards)"
+    rate_percent: 1.4  # Of assessed value
+    due_dates: ["End of April", "End of July", "End of December", "End of February"]  # 4 installments
+    
+  - tax: "City Planning Tax (Toshi Keikaku Zei - 都市計画税)"
+    authority: "Municipalities (major cities only)"
+    rate_percent: 0.3  # Of assessed value (on top of Fixed Asset Tax)
+    applies_to: "Cities with city planning projects (Tokyo, Osaka, etc.)"
+    
+  - tax: "Enterprise Tax (Jigyo Zei - 事業税)"
+    authority: "Prefectures"
+    rate_percent: [3.0, 5.0]  # On office floor space (not profit!)
+    applies_to: "Offices > 1000 sqm floor space"
+    
+  total_effective_rate_percent: 1.7  # Fixed Asset + City Planning
+    
+  assessment: "Assessed value = Fair market value × 0.7 (valuation ratio)"
+  note: "Office spaces in Tokyo 23 wards: VERY expensive!"
+    
+# Business Licenses (Japan)
+business_license_japan:
+  name: "Notification of Business Start (Shinko Todokede - 新興届出)"
+  issued_by: "Municipality (City/Ward Office) where business is located"
+  
+  requirements:
+    - "Form (in-person or online via e-Tax)"
+    - "Fee: ¥0 (NO FEE! Very simple)"
+    - "Zoning confirmation (home office vs. commercial)"
+    - "KANA (Kabushiki Kaisha) or GODO (Godo Kaisha) registration with Legal Affairs Bureau"
+    
+  cost_jpy: 0  # FREE! (amazing compared to US/Brazil)
+  validity_years: "Permanent (no renewal needed!)"
+  
+  special_business_permits:
+    - "Food service license (Health Center) - ¥18K (~$120)"
+    - "Second-hand dealer license (Police) - ¥19K (~$127)"
+    - "Travel agency license (Prefecture) - ¥22K (~$147)"
+    
+  tokyo_note: "Just notify municipality (Shinko Todokede) - NO FEE, permanent!"
+  
+# Commercial Leasing (Japan)
+commercial_leasing_japan:
+  law: "Civil Code (民亊法) + Building Lease Law"
+  
+  lease_types:
+    - type: "Ordinary Lease (Futsu Chintai - 普通賃貸)"
+      description: "Standard lease (no renewal option)"
+      typical_term_years: [1, 2]
+      renewal: "Must renegotiate"
+      
+    - type: "Fixed-Term Lease (Kitei Chintai - 定期賃貸)"
+      description: "Fixed period (NO renewal!)"
+      typical_term_years: [1, 3]
+      renewal: "NO renewal (must move out!)"
+      note: "New type (2000+) - popular with landlords"
+      
+    - type: "Renewable Lease (Koshin Chintai - 更新賃貸)"
+      description: "Lease with renewal option"
+      typical_term_years: [2, 5]
+      renewal: "Auto-renew unless notice given"
+      
+  security_deposit_jpy: [3, 12]  # Months of rent (called "Shikikin - 敷金")
+  key_money_jpy: [1, 6]  # NON-REFUNDABLE "gift" to landlord! (called "Reikin - 礼金") UNIQUE TO JAPAN!
+  
+  lease_term_years: [2, 5]  # Tech prefers 2-3 years (flexibility)
+  tokyo_note: "Key Money (Reikin) is UNIQUE TO JAPAN - non-refundable gift!"
+  
+  typical_costs_example_tokyo_shinjuku_100sqm:
+    rent_jpy_month: 800000  # ¥800K (~$5,333)
+    shikikin_jpy: 2400000  # ¥2.4M (3 months - refundable)
+    reikin_jpy: 800000  # ¥800K (1 month - NON-refundable!) UNIQUE!
+    total_move_in_jpy: 4000000  # ¥4M (~$26,667) upfront!
+    
+# Home Office Deductions (Japan)
+home_office_deduction_japan:
+  tax_law: "Income Tax Law - Article 57-2"
+  
+  requirements:
+    - "Exclusive use (only for business)"
+    - "Regular use (consistent basis)"
+    - "Principal place of business (primary work location)"
+    
+  deduction_method: "Proportional deduction based on floor area"
+  deduction_example:
+    home_area_sqm: 80
+    office_area_sqm: 20  # 25% of home
+    utilities_jpy_year: 240000  # ¥240K (~$1,600)
+    deductible_jpy: 60000  # ¥60K (25% of utilities)
+    
+  tokyo_tech:
+    - "Many startup founders work from home early-stage"
+    - "Google/Meta employees working remotely can claim"
+    - "Contractors (Kojin Jigyo) almost always claim"
+    
+# Warehouses & Logistics (Japan)
+logistics_warehouses_japan:
+  - region: "Tokyo Bay Area (Koto, Edogawa, etc.)"
+      price_jpy_sqm_year: [3000, 6000]  # ¥3K-6K (~$20-$40/sqm)
+      vacancy_rate_percent: 3.5
+      note: "Close to Tokyo ports, airports (Haneda, Narita)"
+      
+  - region: "Osaka Bay Area (Osaka, Kobe)"
+      price_jpy_sqm_year: [2500, 5000]  # ¥2.5K-5K (~$17-$33/sqm)
+      vacancy_rate_percent: 4.2
+      note: "Major port access (Osaka, Kobe ports)"
+      
+  - region: "Nagoya Area (Aichi)"
+      price_jpy_sqm_year: [2000, 4500]  # ¥2K-4.5K (~$13-$30/sqm)
+      vacancy_rate_percent: 3.8
+      note: "Toyota manufacturing hub"
+      
+  features: ["Industrial floor", "Loading docks", "High ceilings (5-7m)", "Office space"]
+  
+# Data Centers (Critical for AI/Cloud in Japan)
+data_centers_japan:
+  - region: "Tokyo (Koto, Edogawa, Inzai)"
+      major_providers: ["Equinix", "Digital Realty", "NTT Communications", "SoftBank"]
+      pricing_jpy_kw_month: [20000, 40000]  # ¥20K-40K (~$133-$267/kW)
+      power_density_watts_per_sqm: [100, 300]  # For AI: 300+ (GPU clusters)
+      note: "Expensive but low latency to Tokyo tech hubs"
+      cloud_regions: ["AWS ap-northeast-1", "GCP asia-northeast1", "Azure Japan East"]
+      
+  - region: "Osaka (Ibaraki, Daito)"
+      major_providers: ["Equinix", "Digital Realty", "IDC Frontier"]
+      pricing_jpy_kw_month: [15000, 30000]  # ¥15K-30K (~$100-$200/kW)
+      cloud_regions: ["AWS ap-northeast-3", "GCP asia-northeast2", "Azure Japan West"]
+      note: "AWS ap-northeast-3, GCP asia-northeast2 here"
+      
+  - region: "Fukuoka (Hakata)"
+      major_providers: ["SoftBank", "NTT", "local providers"]
+      pricing_jpy_kw_month: [10000, 25000]  # ¥10K-25K (~$67-$167/kW)
+      note: "Emerging tech hub, cheaper power"
+      
+  ai_training_requirements:
+    - "High power density (300+ watts/sqm for GPU clusters)"
+    - "Liquid cooling for NVIDIA H100/A100"
+    - "Redundant fiber (multiple carriers - NTT, KDDI, SoftBank)"
+    - "Low latency to cloud regions (or on-prem for training)"
+    
+# Konbini (Convenience Stores) - Unique to Japan!
+konbini_locations:
+  - chain: "7-Eleven (セブン-イレブン)"
+    stores_japan: 21300
+    density_per_100k_people: 17  # Highest in world!
+    locations: ["Every ward in Tokyo (Shibuya, Roppongi, etc.)", "Every train station"]
+    ai_implications: "API allows AI agents to pay bills at 21K+ locations!"
+    
+  - chain: "Lawson (ローソン)"
+    stores_japan: 14600
+    locations: ["Every ward in Tokyo", "Residential areas"]
+    
+  - chain: "FamilyMart (ファミリーマート)"
+    stores_japan: 16600
+    locations: ["Every ward in Tokyo", "Suburban areas"]
+    
+  - chain: "Ministop (ミニストップ)"
+    stores_japan: 2200
+    locations: ["Residential areas", "Near schools"]
+    
+  total_stores_japan: 56000  # MOST PER CAPITA GLOBALLY!
+  ai_payment_integration: true
+  api_providers: ["GMO Payment", "Veritrans", "Telecom Credit"]
+  note: "UNIQUE TO JAPAN - 25% of e-commerce paid at Konbini!"
+  
+# Virtual Offices (Japan)
+virtual_offices_japan:
+  providers:
+    - name: "Regus Virtual Office (Japan)"
+      pricing_jpy_month: [20000, 60000]  # ¥20K-60K (~$133-$400)
+      services: ["Business address", "Mail handling", "Meeting room access"]
+      
+    - name: "Alliance Virtual Offices (Japan)"
+      pricing_jpy_month: [15000, 45000]  # ¥15K-45K (~$100-$300)
+      services: ["Prestigious address", "Live receptionist", "Meeting rooms"]
+      
+    - name: "Davinci Virtual (Japan)"
+      pricing_jpy_month: [12000, 35000]  # ¥12K-35K (~$80-$233)
+      services: ["Business address", "Mail forwarding", "Phone answering"]
+      
+  legal_requirement: "Physical address required to incorporate (registered office)"
+  tokyo_note: "Many startups use virtual office before getting real space (Shibuya addresses popular!)"
+  
+# Comparison to Brazil/USA
+comparison:
+  tokyo_office_rent_usd_sqf:
+    brazil_sao_paulo: "$15-30"  # Much cheaper
+    usa_silicon_valley: "$120-220"  # ~2x more expensive than Tokyo!
+    japan_tokyo_shibuya: "$55-85"  # Middle ground
+    
+  key_money_unique:
+    brazil: "None"
+    usa: "None"
+    japan: "Reikin (礼金) - 1-6 months rent NON-REFUNDABLE! UNIQUE!"
+    
+  coworking_cost_usd_month:
+    brazil_sao_paulo: "$20-100"
+    usa_silicon_valley: "$450-1200"
+    japan_tokyo: "$300-1000 (WeWork)"  # BOTH have WeWork!
+    
+  konbini_uniqueness:
+    brazil: "None equivalent"
+    usa: "None equivalent (7-Eleven exists but NOT for bill payment!)"
+    japan: "56,000 stores (25% of e-commerce paid here!) UNIQUE TO JAPAN!"
+    
+  data_center_cost_usd_kw_month:
+    brazil_sao_paulo: "$100-200"
+    usa_silicon_valley: "$150-300"
+    japan_tokyo: "$133-267"  # Similar to US
+    
+  move_in_costs_jpy_usd:
+    brazil: "1-3 months rent (refundable)"
+    usa: "1-3 months rent (refundable)"
+    japan: "4-12 months (Shikikin refundable + Reikin NON-refundable!) UNIQUE!"

@@ -1,0 +1,327 @@
+version: 1.0.0
+country: japan
+last_updated: 2026-04-30
+description: "Population demographics and statistics for Japan"
+
+# Total Population (2026 Estimate)
+total_population: 123218000
+source: "Ministry of Internal Affairs and Communications (MIC)"
+reference_date: "2026-01-01"
+note: "Japan is shrinking - peak was 128M in 2008"
+
+# Gender
+gender:
+  male: 60193331
+  female: 63024669
+  male_percent: 48.9
+  female_percent: 51.1
+
+# Age Groups (Super-Aged Society!)
+age_groups:
+  - range: "0-14"
+    population: 14786184
+    percent: 12.0
+    note: "Low birth rate - shrinking workforce"
+    
+  - range: "15-29"
+    population: 19606952
+    percent: 15.9
+    
+  - range: "30-44"
+    population: 24519416
+    percent: 19.9
+    
+  - range: "45-59"
+    population: 25443424
+    percent: 20.6
+    
+  - range: "60-74"
+    population: 22507369
+    percent: 18.3
+    note: "Baby Boomer generation retiring"
+    
+  - range: "75+"
+    population: 16862555
+    percent: 13.7
+    note: "Super-aged (21% will be 65+ by 2030)"
+
+# Median Age (World's Highest!)
+median_age: 49.5  # Oldest population in G7
+dependency_ratio: 68.2  # Per 100 working-age adults
+birth_rate_per_1000: 6.8  # Very low!
+death_rate_per_1000: 11.2
+life_expectancy_years: 84.6  # Among highest in world (84.6 avg)
+  - male: 81.5
+  - female: 87.7
+
+# Population by Region
+regions:
+  - name: "Kanto (Tokyo Area)"
+    prefectures: ["Tokyo", "Kanagawa", "Saitama", "Chiba", "Ibaraki", "Tochigi", "Gunma"]
+    population: 43000000
+    percent: 34.9
+    economic_focus: "Finance (Tokyo), Tech (Shibuya), Government"
+    note: "Silicon Valley equivalent: Shibuya, Roppongi, Otemachi"
+    
+  - name: "Kansai (Osaka Area)"
+    prefectures: ["Osaka", "Kyoto", "Hyogo", "Nara", "Shiga", "Wakayama", "Mie"]
+    population: 22500000
+    percent: 18.3
+    economic_focus: "Commerce, Manufacturing (Toyota nearby)"
+    
+  - name: "Chubu (Nagoya Area)"
+    prefectures: ["Aichi", "Shizuoka", "Gifu", "Nagano", "Yamanashi", "Niigata", "Toyama", "Ishikawa", "Fukui"]
+    population: 22000000
+    percent: 17.9
+    economic_focus: "Automotive (Toyota HQ), Aerospace"
+    
+  - name: "Kyushu (Fukuoka Area)"
+    prefectures: ["Fukuoka", "Kumamoto", "Kagoshima", "Saga", "Nagasaki", "Oita", "Miyazaki", "Okinawa"]
+    population: 14000000
+    percent: 11.4
+    economic_focus: "Emerging tech hub (Fukuoka city), Agriculture"
+    note: "Government support for startups in Fukuoka"
+    
+  - name: "Tohoku (Sendai Area)"
+    prefectures: ["Miyagi", "Aomori", "Iwate", "Akita", "Yamagata", "Fukushima"]
+    population: 8500000
+    percent: 6.9
+    
+  - name: "Others"
+    population: 13218000
+    percent: 10.6
+
+# Most Populous Prefectures (Like States)
+top_prefectures:
+  - prefecture: "Tokyo"
+    population: 14000000
+    note: "Capital, financial center, tech hub (Shibuya, Roppongi)"
+    
+  - prefecture: "Kanagawa (Yokohama)"
+    population: 9200000
+    
+  - prefecture: "Osaka"
+    population: 8800000
+    
+  - prefecture: "Aichi (Nagoya)"
+    population: 7500000
+    note: "Toyota HQ, automotive hub"
+    
+  - prefecture: "Saitama"
+    population: 7300000
+    
+  - prefecture: "Chiba"
+    population: 6200000
+
+# Languages
+languages:
+  primary:
+    code: "ja-JP"
+    name: "Japanese (日本語)"
+    script: "Mixed: Kanji (漢字) + Hiragana (ひらがな) + Katakana (カタカナ)"
+    speakers: 121000000
+    percent: 98.2
+    
+  secondary:
+    - code: "en-US"
+      name: "English"
+      speakers: 15000000  # Business English
+      percent: 12.2
+      context: "Business, tech, education (required in schools)"
+      
+    - code: "zh-CN"
+      name: "Chinese (Mandarin)"
+      speakers: 800000
+      percent: 0.6
+      
+    - code: "ko-KR"
+      name: "Korean"
+      speakers: 500000
+      percent: 0.4
+      
+  indigenous_languages:
+    count: 10+
+    speakers_total: 15000
+    main_languages: ["Ryukyuan languages (Okinawa)", "Ainu (Hokkaido)"]
+    note: "Ainu is critically endangered (~10 speakers left)"
+
+# Time Zone
+time_zones_used: 1  # Only JST (UTC+9)
+daylight_saving: false  # Japan does NOT observe DST!
+note: "Whole country uses single time zone (unlike US/EU)"
+
+# Population Density
+density_per_km2: 326.0
+urban_population_percent: 91.8  # Very urbanized
+rural_population_percent: 8.2
+
+# Social Indicators
+social_indicators:
+  literacy_rate_percent: 99.0
+  gini_index: 32.1  # Income inequality (low - more equal than US)
+  hdi: 0.925  # Human Development Index (Very High)
+  poverty_rate_percent: 15.7  # Relative poverty line (50% median income)
+  
+# Religion
+religion:
+  shinto_percent: 67.0  # Often practiced alongside Buddhism
+  buddhism_percent: 62.0  # Many practice both
+  christian_percent: 1.5
+  none_percent: 25.0
+  note: "Often both Shinto + Buddhism simultaneously (not exclusive)"
+
+# Ethnicity (Very Homogeneous)
+ethnicity:
+  japanese_percent: 97.9
+  foreign_residents_percent: 2.1  # ~2.6 million
+  foreign_breakdown:
+    chinese_percent: 0.7  # ~850,000
+    korean_percent: 0.4  # ~450,000
+    vietnamese_percent: 0.3  # ~370,000
+    philippine_percent: 0.2  # ~280,000
+    brazilian_percent: 0.1  # ~200,000 (many Japanese-Brazilian returnees)
+    other_percent: 0.4
+
+# Tech Demographics (Relevant for AI First Businesses)
+tech_demographics:
+  tokyo_tech_population: 850000  # Tokyo metropolitan area tech workers
+  tokyo_income_median_jpy: 5500000  # ~$37K USD (lower than US/Silicon Valley)
+  
+  tech_workforce: 450000  # Nationwide
+  tokyo_tech_workers: 280000
+  
+  stem_degrees_annual: 180000  # Bachelor's or higher
+  work_visas_annual: 75000  # "Engineer/Specialist in Humanities/International Services"
+  
+  broadband_access_percent: 95.0
+  smartphone_penetration_percent: 78.0
+  fiber_internet_percent: 98.0  # Highest in G7!
+  
+# Income Levels (Household Median)
+income_levels:
+  median_household_income_jpy: 5500000  # ~$37,000 USD
+  median_household_income_usd: 37000
+  
+  tokyo_median_jpy: 6200000  # ~$41,000 USD
+  osaka_median_jpy: 5800000  # ~$39,000 USD
+  fukuoka_median_jpy: 4800000  # ~$32,000 USD
+  
+  income_brackets_percent:
+    under_2M_jpy: 15.0  # ~$13K USD
+    "2M-5M_jpy": 32.0  # ~$13K-$33K
+    "5M-8M_jpy": 28.0  # ~$33K-$53K
+    "8M-10M_jpy": 12.0  # ~$53K-$67K
+    "10M+_jpy": 13.0  # ~$67K+
+
+# Consumer Behavior (For AI First Businesses)
+consumer_behavior:
+  internet_penetration_percent: 93.0
+  smartphone_penetration_percent: 78.0
+  ecommerce_growth_yoy_percent: 8.5
+  
+  preferred_payment_methods:
+    - "Credit Cards (45%)"
+    - "Konbini (Convenience Store) Payments (25%) - UNIQUE!"
+    - "Bank Transfer (10%)"
+    - "Cash (15%) - VERY HIGH for developed nation!"
+    - "Electronic Money (Suica, Pasmo, Edy) (5%)"
+    - "QR Code Payments (PayPay, Line Pay) (8%)"
+    - "Buy Now Pay Later (Paidy) (2%)"
+    
+  online_shopping_frequency:
+    weekly_percent: 18.0
+    monthly_percent: 42.0
+    rarely_percent: 40.0
+    
+  preferred_contact_channels:
+    - "Email (88%)"
+    - "Phone (55%)"
+    - "Live Chat (28%)"
+    - "SMS Text (22%)"
+    - "Line (95% - most popular messaging app!)"
+    
+  unique_features:
+    - "Konbini Payments: 25% of e-commerce (unique to Japan)"
+    - "Cash still 15% (unusual for developed nation - unlike US 5%, Brazil 8%)"
+    - "Line app: 95% penetration (like WhatsApp in Brazil, but with payments!)"
+    - "PayPay: 45M+ users (QR code payments)"
+
+# Education Levels
+education:
+  bachelor_degree_or_higher_percent: 34.5
+  high_school_diploma_percent: 94.8
+  advanced_degree_percent: 8.4  # Master's, PhD, Professional
+  
+  top_universities_for_tech:
+    - "University of Tokyo (Tokyo) - #1 in Japan"
+    - "Kyoto University (Kyoto) - #2 in Japan"
+    - "Tokyo Institute of Technology (Tokyo Tech)"
+    - "Osaka University (Osaka)"
+    - "Tohoku University (Sendai)"
+    - "Waseda University (Tokyo)"
+    - "Keio University (Tokyo)"
+    - "Hokkaido University (Sapporo)"
+    - "Nagoya University (Nagoya)"
+    
+# Immigration (Very Low!)
+immigration:
+  foreign_born_population_percent: 2.1  # Very low!
+  work_visas_annual: 75000
+  top_sponsors_tech: ["Sony", "Nintendo", "SoftBank", "Rakuten", "Line"]
+  
+  tokyo_foreign_born_percent: 4.5  # Higher than national average
+  aiml_foreign_workers_percent: 8.0  # Estimate for AI/ML fields
+  
+  government_initiatives:
+    - "Specified Skilled Worker (SSW) visa (2019) - for 14 industries"
+    - "Startup Visa (2018) - 6-month to 1-year for entrepreneurs"
+    - "Digital Nomad Visa (2024) - NEW! 6 months for 49 countries"
+    
+# Aging Society Challenges for AI
+aging_society_ai_implications:
+  - challenge: "Shrinking workforce (working-age population declining)"
+    ai_solution: "AI automation, robotics (Japan leads in robotics!)"
+    
+  - challenge: "Silver economy (40% of population 50+)"
+    ai_solution: "AI for elderly care, health monitoring, robotics"
+    
+  - challenge: "Low birth rate (1.3 per woman)"
+    ai_solution: "AI-assisted fertility treatments, parenting support"
+    
+  - opportunity: "World's largest robotics market (50% of global)"
+    ai_implication: "AI + Robotics = Japan's core strength (Honda ASIMO, SoftBank Pepper)"
+    
+  - opportunity: "Society 5.0 initiative (AI integration)"
+    ai_implication: "Government pushing AI adoption in all sectors"
+    
+# Comparison to Brazil/USA
+comparison:
+  population:
+    brazil: 215000000
+    usa: 340000000
+    japan: 123000000  # Shrinking!
+    
+  median_age:
+    brazil: 33.5
+    usa: 38.9
+    japan: 49.5  # Oldest in G7!
+    
+  tech_workforce:
+    brazil: 6100000
+    usa: 6100000
+    japan: 450000  # Smaller but highly skilled
+    
+  median_income_usd:
+    brazil: 7400
+    usa: 74580
+    japan: 37000  # Lower than US, higher than Brazil
+    
+  cash_usage_ecommerce:
+    brazil: 8.0
+    usa: 5.0
+    japan: 15.0  # VERY HIGH for developed nation!
+    
+  fiber_internet_percent:
+    brazil: 43.0
+    usa: 43.0
+    japan: 98.0  # Best in G7!

@@ -1,0 +1,453 @@
+version: 1.0.0
+country: japan
+last_updated: 2026-04-30
+description: "Digital marketing platforms and channels for Japanese businesses"
+
+# Ad Platforms (Japan Market)
+ad_platforms:
+  - name: "Yahoo! Japan Ads (now LY Corporation)"
+    japanese_name: "Yahoo! JAPAN 広告 (やふー！じゃぱん こうこく)"
+    headquarters: "Chiyoda, Tokyo (Otemachi)"
+    website: "https://adsolutions.yahoo.co.jp/"
+    market_share_percent: 35.0  # #1 in Japan!
+    formats: ["Search Ads", "Display Network", "Video Ads", "Native Ads"]
+    payment_methods: ["Credit Card", "Bank Transfer (Furikomi)"]
+    min_budget_jpy_day: 1000  # ¥1000 (~$6.70)
+    api: "https://developer.yahoo.co.jp/"
+    certification: "Yahoo! Japan Ads Certification (free)"
+    tokyo_note: "Largest ad platform in Japan (NOT Google!)"
+    notable_clients: ["Rakuten", "Mercari", "Sony", "SoftBank"]
+    
+  - name: "Google Ads (Japan)"
+    headquarters: "Mountain View, CA (US) + Tokyo office"
+    website: "https://ads.google.com/intl/ja_jp/"
+    market_share_percent: 28.0  # #2 in Japan
+    formats: ["Search", "Display", "YouTube", "Shopping", "Performance Max"]
+    payment_methods: ["Credit Card", "Bank Transfer"]
+    min_budget_jpy_day: 1000  # ¥1000 (~$6.70)
+    api: "https://developers.google.com/google-ads"
+    certification: "Google Ads Certification (free)"
+    tokyo_note: "Growing fast, especially YouTube ads"
+    
+  - name: "LINE Ads"
+    japanese_name: "LINE広告 (ラインこうこく)"
+    headquarters: "Shinjuku, Tokyo (LINE Corporation, now Z Holdings)"
+    website: "https://ads.line.me/"
+    market_share_percent: 15.0  # #3 in Japan
+    formats: ["LINE News Ads", "LINE Official Account Ads", "LINE Spot"]
+    payment_methods: ["Credit Card", "Invoice (for large advertisers)"]
+    min_budget_jpy_day: 3000  # ¥3000 (~$20)
+    api: "https://developers.line.biz/"
+    tokyo_note: "95% penetration (most popular messaging app!)"
+    unique_feature: "Ads inside LINE app (950M users in Japan!)"
+    
+  - name: "Facebook/Instagram Ads (Meta)"
+    headquarters: "Menlo Park, CA (US) + Tokyo office"
+    website: "https://www.facebook.com/business/ads"
+    market_share_percent: 8.0
+    formats: ["Feed", "Stories", "Reels", "Messenger"]
+    payment_methods: ["Credit Card", "PayPal"]
+    api: "https://developers.facebook.com/docs/marketing-apis"
+    tokyo_note: "Lower penetration than LINE"
+    
+  - name: "X (Twitter) Ads"
+    headquarters: "San Francisco, CA (US) + Tokyo office"
+    website: "https://ads.twitter.com/"
+    market_share_percent: 3.0
+    formats: ["Promoted Tweets", "Promoted Accounts", "Promoted Trends"]
+    api: "https://developer.x.com/"
+    tokyo_note: "Popular for real-time marketing"
+    
+  - name: "TikTok Ads (Japan)"
+    us_hq: "Culver City, CA + Tokyo office"
+    website: "https://ads.tiktok.com/"
+    market_share_percent: 2.5
+    growth_yoy_percent: 45.0  # Fastest-growing!
+    formats: ["In-Feed Ads", "Branded Hashtag Challenge", "Spark Ads"]
+    api: "https://ads.tiktok.com/marketing-api/docs"
+    tokyo_note: "Strong among Gen Z (13-25 age)"
+
+# Social Media Platforms (Popularity in Japan)
+social_media_japan:
+  - platform: "LINE"
+    japanese_name: "LINE (ライン)"
+    owner: "Z Holdings (Naver + SoftBank)"
+    users_millions_japan: 95.0  # 95M! (77% of population!)
+    penetration_percent: 77.0
+    business_features: ["LINE Official Account", "LINE Pay", "LINE Clova (AI chatbot)", "LINE Spot"]
+    api: "https://developers.line.biz/"
+    tokyo_note: "MOST POPULAR in Japan (like WhatsApp in Brazil, but with payments!)"
+    unique_feature: "Can send messages to ALL followers (unlike WhatsApp limit)"
+    
+  - platform: "Twitter / X"
+    users_millions_japan: 58.0
+    penetration_percent: 47.0
+    business_features: ["Twitter Ads", "Promoted Tweets", "X Premium"]
+    api: "https://developer.x.com/"
+    tokyo_note: "VERY popular in Japan (more than US!)"
+    
+  - platform: "Instagram"
+    owner: "Meta (Menlo Park, CA)"
+    users_millions_japan: 40.0
+    penetration_percent: 32.5
+    business_features: ["Instagram Shopping", "Reels Ads", "Stories"]
+    api: "https://developers.facebook.com/docs/instagram-api"
+    
+  - platform: "Facebook"
+    users_millions_japan: 26.0
+    penetration_percent: 21.0
+    business_features: ["Pages", "Groups", "Marketplace"]
+    note: "Declining in Japan"
+    
+  - platform: "TikTok"
+    users_millions_japan: 18.0
+    penetration_percent: 14.6
+    growth_yoy_percent: 35.0
+    business_features: ["TikTok For Business", "Creator Marketplace"]
+    
+  - platform: "YouTube"
+    owner: "Google (Mountain View, CA)"
+    users_millions_japan: 72.0
+    penetration_percent: 58.5
+    business_features: ["YouTube Ads", "YouTube Shopping", "Super Chat"]
+    api: "https://developers.google.com/youtube"
+    
+  - platform: "Yahoo! Japan (LY Corp)"
+    users_millions_japan: 85.0
+    penetration_percent: 69.0
+    business_features: ["Yahoo! Japan Ads", "Yahoo! Local", "Yahoo! News"]
+    tokyo_note: "Largest portal in Japan (NOT same as US Yahoo!)"
+
+# Email Marketing Tools (Japan)
+email_marketing_japan:
+  - tool: "Benchmark Email Japan"
+    japanese_name: "ベンチマークメール"
+    website: "https://www.benchmarkemail.co.jp/"
+    market_share_percent: 25.0
+    features: ["Email Campaigns", "Automation", "Landing Pages", "AI Subject Line Helper"]
+    pricing_jpy_month: [0, 5000, 10000, 25000]  # ¥0-25K (~$0-$167)
+    api: "https://www.benchmarkemail.com/api/"
+    
+  - tool: "Salesforce Marketing Cloud (Japan)"
+    headquarters: "San Francisco, CA + Tokyo office"
+    website: "https://www.salesforce.com/jp/"
+    market_share_percent: 15.0
+    features: ["Journey Builder", "Email Studio", "Social Studio"]
+    pricing_jpy_month: [50000, 200000, 500000]  # ¥50K-500K (~$335-$3.3K)
+    
+  - tool: "MailChimp (Japan)"
+    headquarters: "Atlanta, GA + Tokyo office"
+    website: "https://mailchimp.com/jp/"
+    market_share_percent: 18.0
+    features: ["Email Campaigns", "Automation", "Creative Assistant (AI)"]
+    pricing_jpy_month: [0, 1500, 2500, 50000]  # ¥0-50K
+    
+  - tool: "Klaviyo (Japan)"
+    headquarters: "Boston, MA + Tokyo office"
+    website: "https://www.klaviyo.com/jp/"
+    market_share_percent: 8.0
+    features: ["Email + SMS", "Automation", "AI Predictive Analytics"]
+    pricing_jpy_month: [0, 10000, 30000]  # Based on contacts
+    
+  - tool: "ActiveCampaign (Japan)"
+    headquarters: "Chicago, IL"
+    website: "https://www.activecampaign.com/jp/"
+    market_share_percent: 6.0
+    features: ["CRM", "Automation", "Email Marketing"]
+    pricing_jpy_month: [4500, 22000, 37000]  # ¥4.5K-37K
+
+# SEO and Analytics Tools (Japan)
+analytics_tools_japan:
+  - tool: "Google Analytics 4 (Japan)"
+    headquarters: "Mountain View, CA + Tokyo office"
+    website: "https://marketingplatform.google.com/about/analytics/"
+    market_share_percent: 82.0
+    features: ["Event tracking", "E-commerce tracking", "Consent Mode (APPI compliance)"]
+    api: "https://developers.google.com/analytics"
+    pricing: "Free (up to 10M hits/month), then GA 360 (¥15M/year ~$100K)"
+    appi_compliance: true  # Must have proper consent for cookies
+    
+  - tool: "Google Tag Manager (Japan)"
+    usage_percent: 70.0
+    description: "Tag management for pixels and scripts"
+    pricing: "Free"
+    
+  - tool: "Yahoo! Japan Tag Manager"
+    usage_percent: 45.0
+    description: "Tag management for Yahoo! Japan Ads"
+    pricing: "Free"
+    tokyo_note: "MUST USE for Yahoo! Japan Ads"
+    
+  - tool: "LINE Analytics"
+    usage_percent: 60.0  # Of LINE Official Accounts
+    description: "Analytics for LINE bots and messages"
+    pricing: "Free with LINE Official Account"
+    api: "https://developers.line.biz/"
+    
+  - tool: "Hotjar (Japan)"
+    headquarters: "San Francisco, CA + Tokyo office"
+    usage_percent: 15.0
+    features: ["Heatmaps", "Session Recordings", "User Feedback"]
+    pricing_jpy_month: [0, 12000, 45000]  # ¥0-45K (~$0-$300)
+    
+  - tool: "Looker Studio (Google)"
+    usage_percent: 35.0
+    description: "Data dashboards and reports"
+    pricing: "Free (Pro version ¥1000/user/month ~$6.70)"
+
+# Influencer Marketing (Japan)
+influencer_marketing_japan:
+  platforms:
+    - name: "Instagram"
+      influencer_tiers:
+        - name: "Nano"
+          followers: "1K-10K"
+          price_range_jpy_post: "¥10,000-100,000"  # ~$67-$670
+        - name: "Micro"
+          followers: "10K-100K"
+          price_range_jpy_post: "¥100,000-500,000"  # ~$670-$3.3K
+        - name: "Macro"
+          followers: "100K-1M"
+          price_range_jpy_post: "¥500,000-5,000,000"  # ~$3.3K-$33K
+        - name: "Mega"
+          followers: "1M+"
+          price_range_jpy_post: "¥5,000,000-100,000,000+"  # ~$33K-$670K+
+          
+    - name: "YouTube"
+      influencer_tiers:
+        - name: "Micro"
+          subscribers: "10K-100K"
+          price_range_jpy_video: "¥50,000-300,000"  # ~$335-$2K
+        - name: "Macro"
+          subscribers: "100K-1M"
+          price_range_jpy_video: "¥300,000-2,000,000"  # ~$2K-$13K
+        - name: "Mega"
+          subscribers: "1M+"
+          price_range_jpy_video: "¥2,000,000-50,000,000+"  # ~$13K-$335K+
+          
+    - name: "LINE"
+      influencer_tiers:
+        - name: "LINE Official Account"
+          followers: "10K-100K"
+          price_range_jpy_message: "¥30,000-200,000"  # ~$200-$1.3K per message
+        - name: "LINE Spot"
+          followers: "100K+"
+          price_range_jpy_campaign: "¥500,000-10,000,000+"  # ~$3.3K-$67K+
+          
+    - name: "TikTok"
+      growth_yoy_percent: 200.0
+      influencer_tiers:
+        - name: "Micro"
+          followers: "10K-100K"
+          price_range_jpy_video: "¥20,000-100,000"  # ~$135-$670
+          
+  agencies_japan: ["EEN, Inc.", "PR TIMES", "BitStar", "Pacific Marketing"]
+  
+  disclosure_law: "Act Against Unjustifiable Premiums and Misleading Representations"
+  requirement: "Must disclose #PR or #Ad clearly"
+  penalties_jpy_max: 3000000  # ¥3M (~$20K) + surcharge
+
+# Affiliate Marketing (Japan)
+affiliate_marketing_japan:
+  networks:
+    - name: "ValueCommerce (LY Corporation)"
+      japanese_name: "バリューコマース"
+      website: "https://www.valuecommerce.ne.jp/"
+      market_share_percent: 35.0  # #1 in Japan!
+      commission_percent: [3.0, 15.0]  # Varies by category
+      cookie_duration_days: 90
+      tokyo_note: "Owned by Yahoo! Japan (LY Corp)"
+      
+    - name: "A8.net (SoftBank)"
+      japanese_name: "A8.net"
+      website: "https://www.a8.net/"
+      market_share_percent: 25.0
+      commission_percent: [5.0, 20.0]
+      cookie_duration_days: 120
+      tokyo_note: "Owned by SoftBank Group"
+      
+    - name: "Amazon Associates (Japan)"
+      website: "https://affiliate.amazon.co.jp/"
+      market_share_percent: 20.0
+      commission_percent: [1.0, 10.0]  # Varies by category
+      cookie_duration_days: 24  # Hours (1 day)
+      
+    - name: "Rakuten Affiliate Network"
+      japanese_name: "楽天アフィリエイト"
+      website: "https://affiliate.rakuten.co.jp/"
+      market_share_percent: 12.0
+      commission_percent: [4.0, 18.0]
+      cookie_duration_days: 30
+      
+    - name: "CJ Affiliate (Japan)"
+      website: "https://www.cj.com/jp/"
+      market_share_percent: 8.0
+      commission_percent: [5.0, 25.0]
+      
+  cookie_duration_days: 30  # Standard market (longer in Japan!)
+  disclosure_requirement: "Must clearly disclose affiliate links (APPI compliance)"
+
+# Local SEO (Japan)
+local_seo_japan:
+  google_business_profile: "Google Business Profile (essential for local SEO)"
+  importance_percent: "Local searches lead to store visits within 24h: 68%"
+  
+  local_directories:
+    - "Google Maps"
+    - "Yahoo! Local Search (strong in Japan!)"
+    - "Tabelog (restaurant reviews - 85M reviews!)"
+    - "Loco (local info)"
+    - "Yelp Japan (smaller than US)"
+    
+  review_importance: "4.5+ stars increases conversion by 35% (similar to US/Brazil)"
+  
+  unique_japan_platforms:
+    - name: "Tabelog (食べログ)"
+      description: "Japan's #1 restaurant review site (85M reviews!)"
+      users: 70M+
+      importance: "CRITICAL for restaurants (like Yelp on steroids!)"
+      
+    - name: "Retty (レッティ)"
+      description: "Restaurant review site (higher income users)"
+      users: 12M+
+      
+# Marketing Budgets (Benchmarks - Japan)
+marketing_budgets_japan:
+  small_business_jpy_month: [50000, 300000]  # ¥50K-300K (~$335-$2K)
+  medium_business_jpy_month: [300000, 2000000]  # ¥300K-2M (~$2K-$13K)
+  large_business_jpy_month: [2000000, 50000000]  # ¥2M-50M (~$13K-$335K)
+  
+  channel_allocation_percent:
+    search_ads: 35.0  # Yahoo! Japan + Google
+    social_ads: 30.0  # LINE, Instagram, Facebook, TikTok
+    display_ads: 10.0
+    email_marketing: 8.0
+    content_marketing_seo: 10.0
+    other: 7.0
+    
+  cpc_benchmarks_jpy:
+    yahoo_japan_search_ave: 80  # ¥80 (~$0.53)
+    google_search_ave: 70  # ¥70 (~$0.47)
+    line_ads_ave: 60  # ¥60 (~$0.40)
+    meta_facebook_ave: 90  # ¥90 (~$0.60)
+    meta_instagram_ave: 110  # ¥110 (~$0.73)
+    tiktok_ave: 50  # ¥50 (~$0.33)
+    
+# MarTech Stack (Tokyo Standard)
+martech_stack_tokyo:
+  - category: "CRM"
+    tools: ["Salesforce (JP)", "HubSpot (JP)", "Zoho CRM (JP)", "kintone (Cybozu) - Japanese]
+    
+  - category: "Marketing Automation"
+    tools: ["Salesforce Marketing Cloud (JP)", "Marketo (Adobe)", "Pardot (Salesforce)", "Benchmark Email"]
+    
+  - category: "Analytics"
+    tools: ["Google Analytics 4 (JP)", "LINE Analytics", "Yahoo! Tag Manager", "Heap (JP)"]
+    
+  - category: "Email"
+    tools: ["Benchmark Email", "MailChimp (JP)", "Salesforce Marketing Cloud", "ActiveCampaign (JP)"]
+    
+  - category: "Social Media Management"
+    tools: ["Hootsuite (JP)", "Buffer", "LINE Official Account Manager", "Sprout Social"]
+    
+  - category: "SEO"
+    tools: ["SEMrush (JP)", "Ahrefs (JP)", "Moz (JP)", "Google Search Console"]
+    
+# AI Marketing Trends Japan (2026)
+ai_marketing_trends_japan:
+  - trend: "Generative AI Content Creation (GPT-4, Claude)"
+    adoption_percent: 35.0  # Lower than US (55%)
+    tools: ["ChatGPT", "Jasper (JP)", "Copy.ai (JP)", "Writesonic"]
+    tokyo_note: "Japanese language AI still behind English (but catching up)"
+    
+  - trend: "AI-Powered Personalization"
+    adoption_percent: 25.0
+    tools: ["Dynamic Yield (McDonald's)", "Nosto (JP)", "Barilliance"]
+    
+  - trend: "Predictive Analytics & Churn"
+    adoption_percent: 20.0
+    tools: ["Amplitude (JP)", "Mixpanel (JP)", "Heap", "Pendo (JP)"]
+    
+  - trend: "AI Chatbots & Customer Service"
+    adoption_percent: 40.0
+    tools: ["LINE Clova (dominant in Japan!)", "Intercom (JP)", "Drift (JP)", "HubSpot Chatbot"]
+    unique_japan: "LINE Clova powers 80%+ of Japanese chatbots!"
+    
+  - trend: "Programmatic Advertising (AI Bidding)"
+    adoption_percent: 65.0
+    tools: ["Yahoo! Japan DSP", "Google Ads (automated)", "The Trade Desk (JP)"]
+    
+  - trend: "Voice Search Optimization"
+    adoption_percent: 15.0
+    tools: ["Alexa (Amazon JP)", "Google Assistant (JP)", "Siri (JP)", "LINE Clova (JP)"]
+    tokyo_note: "LINE Clova voice assistant dominant in Japanese homes"
+    
+# Unique Japanese Marketing Features for AI Agents
+japan_unique_features_for_ai:
+  - feature: "LINE Official Account (95M users!)"
+    ai_usecase: "AI agent builds LINE chatbot (95% reach in Japan!)"
+    api_available: true
+    unique: "Can message ALL followers (unlike WhatsApp limit)"
+    
+  - feature: "Yahoo! Japan Ads (35% market share - #1!)"
+    ai_usecase: "AI agent optimizes Yahoo! Japan search ads (bigger than Google!)"
+    api_available: true
+    unique: "Yahoo! Japan is DIFFERENT from US Yahoo! (biggest portal in Japan)"
+    
+  - feature: "Konbini Payments (25% e-commerce)"
+    ai_usecase: "AI agent pays bills at 7-Eleven, Lawson via API"
+    api_available: true
+    unique: "UNIQUE TO JAPAN! 56,000+ convenience stores"
+    
+  - feature: "Tabelog (85M restaurant reviews!)"
+    ai_usecase: "AI agent scrapes Tabelog for restaurant insights"
+    api_available: false  # No official API (scraping only)
+    unique: "CRITICAL for restaurant marketing in Japan!"
+    
+  - feature: "Suica/Pasmo (Transit + E-money)"
+    ai_usecase: "AI agent routes transit, pays fares automatically"
+    api_available: true
+    unique: "One card for BOTH transit + shopping (worldwide unique!)"
+    
+  - feature: "PayPay QR Payments (60M+ users)"
+    ai_usecase: "AI agent makes QR code payments via API"
+    api_available: true
+    growth_yoy_percent: 35.0
+    
+  - feature: "Aging Society (21% will be 65+ by 2030)"
+    ai_usecase: "AI agent targets silver economy (elderly products)"
+    unique: "World's oldest population (median age 49.5!)"
+    
+# Comparison to Brazil/USA
+comparison:
+  top_ad_platform:
+    brazil: "Google Ads (28%)"
+    usa: "Google Ads (28%)"
+    japan: "Yahoo! Japan Ads (35%!) - UNIQUE!"
+    
+  top_messaging_app:
+    brazil: "WhatsApp (92%)"
+    usa: "SMS/Email (no dominant app)"
+    japan: "LINE (95%!) - MOST POPULAR!"
+    
+  cash_usage_ecommerce:
+    brazil: "8.0%"
+    usa: "5.0%"
+    japan: "15.0% (VERY HIGH for developed nation!)"
+    
+  influencer_marketing:
+    brazil: "Instagram dominant"
+    usa: "Instagram + YouTube"
+    japan: "Instagram + YouTube + LINE (unique!)"
+    
+  ai_content_adoption:
+    brazil: "45.0%"
+    usa: "55.0%"
+    japan: "35.0% (lower, but growing)"
+    
+  unique_japan:
+    - "Yahoo! Japan is #1 ad platform (NOT Google!)"
+    - "LINE has 95% penetration (most popular messaging app!)"
+    - "Tabelog has 85M reviews (critical for restaurants!)"
+    - "Konbini payments = 25% of e-commerce (unique!)"
+    - "Cash still 15% (very high for developed nation!)"

@@ -1,0 +1,470 @@
+version: 1.0.0
+country: japan
+last_updated: 2026-04-30
+description: "AI services, cloud computing, and tech ecosystem in Japan"
+
+# Cloud Providers with Japan Regions
+cloud_providers_japan_regions:
+  - provider: "AWS (Amazon Web Services)"
+    japan_regions: ["ap-northeast-1 (Tokyo)", "ap-northeast-3 (Osaka)"]
+    launch_years: [2011, 2021]
+    services_count: 200+
+    market_share_percent: 34.0  # Of Japan cloud market
+    main_services: ["EC2", "S3", "RDS", "Lambda", "Bedrock (AI now available in Tokyo)"]
+    website: "https://aws.amazon.com/jp/"
+    compliance: ["SOC 2", "PCI DSS", "APPI compliance", "ISMS (ISO 27001)"]
+    data_residency: true
+    latency_to_tokyo_ms: 2  # ap-northeast-1
+    pricing_tier: "Medium-High"
+    notable_clients_japan: ["Sony", "Rakuten", "Line", "Mercari", "SoftBank"]
+    
+  - provider: "Google Cloud Platform"
+    japan_regions: ["asia-northeast1 (Tokyo)", "asia-northeast2 (Osaka)"]
+    launch_years: [2016, 2022]
+    services_count: 150+
+    market_share_percent: 8.0
+    main_services: ["Compute Engine", "Cloud Storage", "Vertex AI (Gemini now in Tokyo)"]
+    website: "https://cloud.google.com/jp/"
+    compliance: ["SOC 2", "PCI DSS", "APPI compliance"]
+    data_residency: true
+    latency_to_tokyo_ms: 3
+    pricing_tier: "Medium"
+    notable_clients_japan: ["SmartNews", "Cookpad", "Mercari"]
+    
+  - provider: "Microsoft Azure"
+    japan_regions: ["Japan East (Tokyo)", "Japan West (Osaka)"]
+    launch_years: [2014, 2019]
+    services_count: 180+
+    market_share_percent: 18.0
+    main_services: ["Virtual Machines", "Blob Storage", "Azure AI (GPT-4 now in Tokyo)"]
+    website: "https://azure.microsoft.com/ja-jp/"
+    compliance: ["SOC 2", "PCI DSS", "APPI compliance"]
+    data_residency: true
+    latency_to_tokyo_ms: 2
+    pricing_tier: "Medium-High"
+    notable_clients_japan: ["Toyota", "Nintendo", "Hitachi", "Fujitsu"]
+    
+  - provider: "Oracle Cloud"
+    japan_regions: ["Japan East (Tokyo)"]
+    launch_years: [2020]
+    services_count: 100+
+    market_share_percent: 1.5
+    main_services: ["Compute", "Object Storage", "OCI Generative AI"]
+    website: "https://www.oracle.com/jp/cloud/"
+    compliance: ["SOC 2", "PCI DSS", "APPI compliance"]
+    pricing_tier: "Low (agressive pricing for Japan)"
+    
+  - provider: "IBM Cloud"
+    japan_regions: ["Tokyo (AP North)"]
+    market_share_percent: 2.0
+    services_count: 120+
+    main_services: ["Virtual Servers", "Cloud Object Storage", "Watsonx (AI)"]
+    website: "https://www.ibm.com/jp-ja/cloud"
+    compliance: ["SOC 2", "PCI DSS", "APPI compliance"]
+
+# Generative AI Services Available in Japan
+generative_ai_services_japan:
+  - provider: "AWS Bedrock (Tokyo Region)"
+    description: "AWS managed service for foundation models - NOW IN TOKYO!"
+    models: ["Claude (Anthropic)", "Amazon Titan", "Meta Llama 3", "Cohere", "AI21 Labs"]
+    region_available: true  # ap-northeast-1 (Tokyo)
+    api_type: "REST"
+    docs: "https://docs.aws.amazon.com/bedrock/"
+    pricing: "Pay-per-use (varies by model)"
+    appi_compliance: true
+    data_residency: true
+    
+  - provider: "Google Vertex AI (Tokyo Region)"
+    description: "Unified AI platform - NOW IN TOKYO!"
+    models: ["Gemini 1.5 Pro/Ultra", "PaLM 2", "Imagen 2 (image)", "Chirp (audio)"]
+    region_available: true  # asia-northeast1
+    api_type: "REST / gRPC"
+    docs: "https://cloud.google.com/vertex-ai"
+    pricing: "Per token/per image (varies)"
+    appi_compliance: true
+    
+  - provider: "Azure AI (Japan East - Tokyo)"
+    description: "Azure OpenAI Service + Cognitive Services - IN TOKYO!"
+    models: ["GPT-4", "GPT-3.5", "DALL-E 3", "Whisper", "Text Analytics"]
+    region_available: true
+    api_type: "REST"
+    docs: "https://azure.microsoft.com/ja-jp/products/ai-services/"
+    pricing: "Per token (similar to OpenAI)"
+    appi_compliance: true
+    
+  - provider: "OpenAI API"
+    headquarters: "San Francisco, CA (USA)"
+    models: ["GPT-4o", "GPT-4 Turbo", "GPT-3.5 Turbo", "DALL-E 3", "Whisper"]
+    region: "US-based (servers in US)"
+    api_available_japan: true
+    api_type: "REST"
+    docs: "https://platform.openai.com/docs"
+    pricing: "Per token (GPT-4o: $5/M input, $15/M output)"
+    appi_compliance: "Requires SCCs (no adequacy)"
+
+  - provider: "Anthropic API (Claude)"
+    headquarters: "San Francisco, CA (USA)"
+    models: ["Claude 3.5 Sonnet", "Claude 3 Opus", "Claude 3 Haiku"]
+    region: "US-based"
+    api_available_japan: true
+    api_type: "REST"
+    docs: "https://docs.anthropic.com"
+    pricing: "Per token (Claude 3.5 Sonnet: $3/M input, $15/M output)"
+    appi_compliance: "Requires SCCs (no adequacy)"
+
+# Japanese Tech Hubs ("Silicon Valley Equivalents")
+japanese_tech_hubs:
+  - hub: "Tokyo (Shibuya, Roppongi, Otemachi)"
+    description: "Japan's Silicon Valley - AI, fintech, gaming"
+    prefecture: "Tokyo"
+    population: 14000000  # Metro area
+    gdp_usd_billions: 2100  # ~$2.1 trillion
+    
+    major_companies_hq:
+      - name: "Sony Group"
+        city: "Shinagawa, Tokyo"
+        valuation_usd_billions: 125.0
+        sector: "Electronics, Gaming (PlayStation), Entertainment, AI (Sony AI)"
+      - name: "Rakuten Group"
+        city: "Shinagawa, Tokyo"
+        valuation_usd_billions: 25.0
+        sector: "E-commerce, Fintech (Rakuten Bank), AI (Rakuten Institute of Technology)"
+      - name: "Line (Z Holdings - now part of Naver)"
+        city: "Shinjuku, Tokyo"
+        valuation_usd_billions: 18.0
+        sector: "Messaging (Line app - 95M users), AI (Line Clova)"
+      - name: "Mercari"
+        city: "Shibuya, Tokyo"
+        valuation_usd_billions: 6.5
+        sector: "Flea market app, Fintech (Merpay)"
+      - name: "SmartNews"
+        city: "Minato, Tokyo"
+        valuation_usd_billions: 2.0
+        sector: "News aggregation, AI curation"
+      - name: "Preferred Networks"
+        city: "Chiyoda, Tokyo"
+        valuation_usd_billions: 1.5
+        sector: "AI/Machine Learning (leading Japanese AI startup)"
+      
+    venture_capital:
+      top_firms: ["Globis Capital Partners", "World Innovation Lab (WiL)", "JAFCO", "Mizuho Capital", "SBI Investment"]
+      japan_vc_deployed_usd_billions: 4.5  # 2025
+      unicorns_count: 6  # Mercari, Rakuten (public), SmartNews, Preferred Networks, etc.
+      
+    startup_density_per_100k: 8.0  # Lower than SF (45.0)
+    ai_companies_count: 400+
+    average_software_engineer_salary_usd: 65000  # Base (¥6M-18M)
+    
+  - hub: "Osaka (Kansai Area)"
+    description: "Western Japan tech hub - Manufacturing + AI"
+    prefecture: "Osaka"
+    population: 8800000
+    major_companies_hq:
+      - name: "Panasonic"
+        sector: "Electronics, Smart factories, AI"
+      - name: "Sharp"
+        sector: "Electronics, Displays, AI"
+    startup_focus: ["Robotics", "Manufacturing AI", "Smart cities"]
+    
+  - hub: "Kyoto"
+    description: "Traditional city + tech innovation"
+    prefecture: "Kyoto"
+    major_companies_hq:
+      - name: "Nintendo"
+        sector: "Gaming (Switch), AI in game development"
+      - name: "Kyocera"
+        sector: "Electronics, AI for IoT"
+    startup_focus: ["Gaming AI", "Materials science + AI"]
+    note: "Kyoto University - leading AI research"
+    
+  - hub: "Fukuoka"
+    description: "Emerging tech hub with government support"
+    prefecture: "Fukuoka"
+    government_support: "Fukuoka City Startup Support - tax breaks, visa support"
+    startup_focus: ["Fintech", "AI for agriculture", "Smart city solutions"]
+    note: "Best place for foreign entrepreneurs (Startup Visa easier here)"
+
+# NLP Services Available in Japan
+nlp_services_japan:
+  - provider: "Google Cloud Natural Language (Tokyo)"
+    features: ["Sentiment analysis", "Entities", "Syntax", "Classification"]
+    language_support: ["ja-JP (Japanese - BEST!)", "en-US", 50+ languages]
+    api: "https://cloud.google.com/natural-language"
+    pricing: "$1 per 1000 units"
+    japanese_advantage: "Google's Japanese NLP is industry-leading"
+    
+  - provider: "AWS Comprehend (Tokyo)"
+    features: ["Text analysis", "Entity extraction", "PII detection"]
+    language_support: ["en-US", "ja-JP (limited)", 12+ languages]
+    api: "https://aws.amazon.com/comprehend/"
+    pricing: "$0.0001 per unit"
+    
+  - provider: "Azure Text Analytics (Tokyo)"
+    features: ["Sentiment analysis", "Key phrase extraction", "PII"]
+    language_support: ["en-US", "ja-JP (good)", 20+ languages]
+    api: "https://azure.microsoft.com/ja-jp/products/ai-services/text-analytics/"
+    
+  - provider: "OpenAI GPT-4/3.5 API"
+    features: ["Advanced reasoning", "Summarization", "Classification", "Extraction"]
+    language_support: ["en-US", "ja-JP (very good)", 50+ languages]
+    api: "https://platform.openai.com/docs"
+    pricing: "$5/1M input tokens (GPT-4o)"
+    japanese_performance: "Excellent - GPT-4o handles Japanese kanji/hiragana/katakana well"
+    
+  - provider: "Line Clova (Line app)"
+    features: ["Japanese chatbot", "Voice recognition (Japanese)", "Smart speaker"]
+    language_support: ["ja-JP ONLY (best in Japanese!)"]
+    api: "https://clova.line.me/" (Korean company, strong in Japan)
+    note: "Line's AI - dominant in Japanese messaging"
+
+# Speech Services (Japan)
+speech_services_japan:
+  - provider: "Google Cloud Speech-to-Text (Tokyo)"
+    features: ["Transcription", "Diarization", "Medical transcription"]
+    language_support: ["ja-JP (excellent)", "en-US", 125+ languages]
+    api: "https://cloud.google.com/speech-to-text"
+    pricing: "$0.024 per minute"
+    japanese_advantage: "Best Japanese speech recognition (handles keigo/politeness levels)"
+    
+  - provider: "AWS Transcribe (Tokyo)"
+    features: ["Transcription", "Speaker identification", "Medical"]
+    language_support: ["en-US", "ja-JP (good)", 30+ languages]
+    api: "https://aws.amazon.com/transcribe/"
+    pricing: "$0.024 per minute"
+    
+  - provider: "Azure Speech (Tokyo)"
+    features: ["Text-to-Speech", "Speech-to-Text", "ja-JP voices"]
+    language_support: ["en-US", "ja-JP (good)", 140+ languages]
+    api: "https://azure.microsoft.com/ja-jp/products/ai-services/speech/"
+    
+  - provider: "Line Clova Voice"
+    features: ["Japanese voice recognition", "Smart speaker (Clova Friends)"]
+    language_support: ["ja-JP ONLY (best for Japanese!)"]
+    note: "Line's voice AI - dominant in Japanese homes"
+
+# Computer Vision (Japan)
+computer_vision_japan:
+  - provider: "Google Cloud Vision (Tokyo)"
+    features: ["OCR", "Object detection", "Labels", "Face detection"]
+    api: "https://cloud.google.com/vision"
+    pricing: "$1.50 per 1000 images"
+    
+  - provider: "AWS Rekognition (Tokyo)"
+    features: ["Image analysis", "Face recognition", "Text in image"]
+    api: "https://aws.amazon.com/rekognition/"
+    pricing: "$1 per 1000 images"
+    
+  - provider: "Azure Computer Vision (Tokyo)"
+    features: ["OCR", "Image description", "Read (documents)"]
+    api: "https://azure.microsoft.com/ja-jp/products/ai-services/computer-vision/"
+
+# Conversational AI Platforms (Japan)
+conversational_ai_japan:
+  - platform: "Line Official Account (Messaging App)"
+    type: "No-code/Low-code"
+    users_japan: 95000000  # 95M users (MOST POPULAR in Japan!)
+    features: ["Chatbot", "Rich menus", "Push notifications", "LINE Pay integration"]
+    api: "https://developers.line.biz/"
+    pricing: "Free tier + ¥5 per message (enterprise)"
+    japanese_advantage: "Dominant in Japan (95% penetration!) - WHATSAPP OF JAPAN"
+    ai_implications: "Line Clova AI powers many chatbots"
+    
+  - platform: "Dialogflow (Google - Tokyo region)"
+    type: "No-code/Low-code"
+    features: ["Intents", "Entities", "Fulfillment webhook"]
+    pricing: "$0.002 per request"
+    docs: "https://cloud.google.com/dialogflow/docs"
+    japanese_support: "Excellent (Google's Japanese NLP)"
+    
+  - platform: "Amazon Lex (Tokyo)"
+    type: "Low-code"
+    features: ["NLU", "AWS integration", "ja-JP support"]
+    pricing: "$0.00075 per request + $0.10 per voice request"
+    
+  - platform: "Rakuten Aquafadas (Chatbot)"
+    type: "Low-code"
+    features: ["Japanese chatbot", "E-commerce integration"]
+    note: "Rakuten's chatbot for Japanese market"
+
+# GPU Providers for Model Training (Japan Regions)
+gpu_providers_japan:
+  - provider: "AWS EC2 (P instances) (Tokyo)"
+    gpus_available: ["NVIDIA A100", "V100", "T4"]
+    pricing_usd_hour: [0.50, 35.00]  # T4 to A100 (more expensive than US!)
+    spot_instances: true
+    regions_japan: ["ap-northeast-1 (Tokyo)"]
+    latency_to_tokyo_ms: 2
+    
+  - provider: "Google Cloud (A2 machines) (Tokyo)"
+    gpus_available: ["NVIDIA A100", "T4"]
+    pricing_usd_hour: [0.45, 30.00]
+    preemptible: true
+    regions_japan: ["asia-northeast1 (Tokyo)"]
+    
+  - provider: "Azure (NC/NV series) (Tokyo)"
+    gpus_available: ["NVIDIA A100", "K80", "T4"]
+    pricing_usd_hour: [0.50, 32.00]
+    regions_japan: ["Japan East (Tokyo)"]
+    
+  - provider: "Preferred Networks (PFN) - Japanese AI Startup"
+    description: "Specialized GPU cloud for AI research (Japan-based)"
+    gpus_available: ["NVIDIA H100", "A100"]  # Cutting-edge!
+    pricing_usd_hour: [1.00, 10.00]  # MORE EXPENSIVE (specialized)
+    notable_clients: ["Preferred Networks", "Riken", "Japanese universities"]
+    japanese_advantage: "BEST for Japanese AI research (PFN leads Japan's AI!)"
+
+# AI Talent in Japan
+ai_talent_japan:
+  data_scientists_estimate: 25000
+  ml_engineers_estimate: 15000
+  nlp_specialists_estimate: 5000
+  computer_vision_specialists_estimate: 8000
+  tokyo_ai_talent: 18000
+  
+  top_universities_ai:
+    - "University of Tokyo (Tokyo) - #1 in Japan, leading AI research"
+    - "Kyoto University (Kyoto) - Strong in robotics + AI"
+    - "Tokyo Institute of Technology (Tokyo Tech)"
+    - "Osaka University (Osaka)"
+    - "Tohoku University (Sendai) - Robotics"
+    - "Kyushu University (Fukuoka)"
+    - "Keio University (Tokyo)"
+    - "Waseda University (Tokyo)"
+    
+  average_salary_usd_year:
+    junior_data_scientist: 45000  # ¥6M
+    senior_data_scientist: 90000  # ¥12M
+    ml_engineer: 75000  # ¥10M
+    ai_researcher: 150000  # ¥20M (PhD required)
+    tokyo_premium_percent: 15.0  # 15% higher than national average
+    
+  hiring_platforms_japan:
+    - "Wantedly (Japanese LinkedIn equivalent)"
+    - "Bizreach (Executive search)"
+    - "Green (Tech jobs)"
+    - "LinkedIn (used but less dominant than in US)"
+
+# Government AI Strategy: "Society 5.0"
+society_5_0_initiatives:
+  - initiative: "AI R&D Acceleration"
+    budget_usd_billions: 2.0  # Annual (2026)
+    focus: ["Deep learning", "Robotics + AI", "Healthcare AI", "Smart cities"]
+    lead: "Cabinet Office, Government of Japan"
+    
+  - initiative: "AI Bridging Cloud Infrastructure (ABCI)"
+    description: "Government-funded AI supercomputer for researchers"
+    location: "National Institute of Advanced Industrial Science and Technology (AIST)"
+    gpus: "NVIDIA V100 (thousands of GPUs!)"
+    access: "Researchers and companies (apply for time)"
+    note: "Like US DOE supercomputers, but focused on AI"
+    
+  - initiative: "AI Academy (AIアカデミー)"
+    description: "Training 300,000 AI professionals by 2030"
+    partners: ["University of Tokyo", "Preferred Networks", "Sony AI"]
+    
+  - initiative: "Robotics Innovation"
+    description: "Japan leads global robotics (50% market share)"
+    budget_usd_billions: 1.5  # Annual
+    focus: ["Humanoid robots", "Healthcare robots", "Factory automation"]
+    notable_companies: ["Honda (ASIMO)", "SoftBank (Pepper)", "Fanuc", "Yaskawa"]
+
+# Tax Incentives for AI/Tech (Japan)
+tax_incentives_japan:
+  - name: "R&D Tax Credit (Sogo Tokutei Jigyo)"
+    credit_rate_percent: 20.0  # For "Innovative R&D" (AI qualifies!)
+    applies_to: ["Kabushiki Kaisha (KK)", "Godo Kaisha (GK)"]
+    ai_ml_eligible: true
+    use_cases: ["Software development", "AI model training", "Algorithm development", "Robotics R&D"]
+    tokyo_tech_companies_claiming: ["Sony AI", "Preferred Networks", "Rakuten AI"]
+    
+  - name: "IT Investment Promotion Tax Credit"
+    rate_percent: 5.0  # Of investment amount
+    applies_to: "AI infrastructure (servers, GPUs), software licenses"
+    
+  - name: "Software Development Deduction"
+    rate_percent: 10.0  # Of development expenses
+    applies_to: "Custom AI software, SaaS development"
+    
+  - name: "Open Innovation Promotion"
+    rate_percent: 20.0  # Of collaborative R&D expenses
+    applies_to: "AI research with RIKEN, University of Tokyo, etc."
+
+# Tech Communities & Events (Japan)
+tech_communities_japan:
+  - name: "Tokyo AI Meetup"
+    type: "Meetup"
+    members: 3500
+    language: "Japanese (some English)"
+    focus: "AI, Machine Learning, Deep Learning"
+    location: "Tokyo (Shibuya, Roppongi)"
+    
+  - name: "Prefered Networks AI Events"
+    type: "Corporate events"
+    focus: "Cutting-edge AI research (Japanese leading AI company)"
+    location: "Chiyoda, Tokyo"
+    
+  - name: "Sony AI Research Seminars"
+    type: "Corporate + Academic"
+    focus: "AI for gaming, entertainment, robotics"
+    
+  - name: "Rakuten Technology Conference"
+    type: "Annual conference"
+    focus: "Fintech, AI, E-commerce"
+    website: "https://tech.rakuten.com/"
+    
+# Major Tech Conferences in Japan
+tech_events_japan:
+  - name: "Google I/O Extended Tokyo"
+    location: "Tokyo"
+    frequency: "Annual (May-June)"
+    focus: "Google AI, Cloud, Android"
+    
+  - name: "AWS Summit Tokyo"
+    location: "Tokyo"
+    frequency: "Annual (June)"
+    focus: "AWS cloud, AI services, DevOps"
+    
+  - name: "AI Expo Tokyo (AI・人工知能展)"
+    location: "Tokyo Big Sight"
+    frequency: "Annual (April + October)"
+    focus: "AI solutions, robotics, machine learning"
+    website: "https://www.ai-expo.jp/en/"
+    note: "Largest AI exhibition in Japan!"
+    
+  - name: "Society 5.0 Conference"
+    location: "Tokyo"
+    frequency: "Annual"
+    focus: "Government + industry AI initiatives"
+    lead: "Cabinet Office, Government of Japan"
+
+# Comparison to Silicon Valley (USA)
+comparison_to_silicon_valley:
+  startup_ecosystem_size:
+    silicon_valley: "$1.2 trillion GDP (7% of US)"
+    tokyo: "$2.1 trillion GDP (49% of Japan) - BIGGER in absolute terms!"
+    
+  ai_companies_count:
+    silicon_valley: 2500+
+    tokyo: 400+  # Smaller but growing
+    
+  average_salary_usd:
+    silicon_valley_swe: 185000  # Base + stock
+    tokyo_swe: 65000  # Base only (¥6M-18M)
+    note: "Silicon Valley pays 3x more, but Tokyo has lower cost of living"
+    
+  venture_capital_usd:
+    silicon_valley: 89000  # $89B (2025)
+    tokyo: 4500  # $4.5B (2025) - 20x smaller!
+    
+  uniqueness:
+    tokyo: "Robotics dominance (50% global market), Society 5.0 initiative"
+    silicon_valley: "Software AI dominance (OpenAI, Anthropic), VC ecosystem"
+    
+  cloud_regions:
+    silicon_valley: "AWS us-west-1 (5ms), GCP us-west2 (8ms), Azure West US (7ms)"
+    tokyo: "AWS ap-northeast-1 (2ms), GCP asia-northeast1 (3ms), Azure Japan East (2ms)"
+    note: "Tokyo has EXCELLENT cloud infrastructure (all 3 majors IN Tokyo!)"
+    
+  ai_talent_cost:
+    silicon_valley: "Expensive ($185K+ for SWE)"
+    tokyo: "Affordable ($65K for SWE) - GOOD for cost-conscious AI startups!"

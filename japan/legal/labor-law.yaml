@@ -1,0 +1,412 @@
+version: 1.0.0
+country: japan
+last_updated: 2026-04-30
+description: "Japanese employment law, lifetime employment culture, and tech salaries"
+
+# Employment System (Unique Lifetime Employment Culture!)
+employment_system:
+  traditional_model: "Lifetime Employment (Shushin Koyo - 終身雇用)"
+  description: "Employees stay with one company until retirement (age 60-65)"
+  prevalence_percent: 35.0  # Large companies still practice this
+  shift: "Gradually shifting to job-change culture (job-hopping increasing)"
+  
+  employment_types:
+    - type: "Seishain (正社員) - Regular Employee"
+      description: "Permanent, full-time employee with full benefits"
+      job_security: "VERY HIGH (lifetime employment at large firms)"
+      severance: "Typically 1-2 months per year of service (voluntary)"
+      notice_period_months: [0, 1]  # No legal requirement, but 1 month courtesy
+      
+    - type: "Keiyaku-shain (契約社員) - Contract Employee"
+      description: "Fixed-term contract (6 months - 3 years, max 5 years)"
+      job_security: "Low (contract ends, no renewal)"
+      severance: "None (unless contract specifies)"
+      notice_period_months: [0, 1]
+      
+    - type: "Haken (派遣) - Dispatched/Temporary Worker"
+      description: "Employed by agency, dispatched to client companies"
+      job_security: "VERY LOW (assignment ends, back to agency)"
+      prevalence_percent: 12.0  # Of workforce
+      regulation: "Worker Dispatch Law (1986, amended 2015, 2024)"
+      
+    - type: "Freelancer (Kojin Jigyo) - 自営業"
+      description: "Self-employed, no benefits"
+      job_security: "None"
+      benefits: "None (responsible for own taxes + social insurance)"
+      prevalence_tech_percent: 15.0  # Higher in tech (AI freelancers)
+      
+    - type: "Intern (正規/非正規)"
+      description: "Temporary worker (students or recent grads)"
+      age_min: 18
+      duration_months: [3, 12]
+      pay_jpy_hour: [1000, 1500]  # ¥1000-1500 ($6.70-$10/hr)
+      tokyo_intern_pay_jpy_hour: [1500, 2500]  # ¥1500-2500 ($10-$17/hr)
+      
+    - type: "Remote Work (Telework - 在宅勤務)"
+      description: "Employee works from home (anywhere in Japan)"
+      legal_framework: "Labor Standards Act (amended 2021 - remote work provisions)"
+      tax_implications: "Employee works from home = no tax nexus issues"
+      tokyo_usage_percent: 45.0  # Post-COVID increase
+      note: "Many tech companies now allow full remote (Rakuten, Mercari)"
+
+# Labor Standards Act (労働基準法)
+labor_standards_act:
+  enacted: 1947
+  regulator: "Ministry of Health, Labour and Welfare (MHLW / 厚生労働省)"
+  website: "https://www.mhlw.go.jp/english/"
+  
+  working_hours:
+    standard_per_day: 8
+    standard_per_week: 40
+    legal_max_per_month: 45  # Overtime (Article 36 Agreement required)
+    overtime_pay_percent: [125.0, 150.0]  # 125% (first 60 hours), 150% (after)
+    
+  rest_periods:
+    break_minimum_minutes: 45  # For 6+ hours work
+    weekly_rest: "1 full day per week (or 4 days per 4 weeks)"
+    
+  paid_leave:
+    annual_leave_days: [10, 20]  # Based on tenure (0.5-6.5 years = 10 days)
+    max_leave_days: 20
+    usage_percent: 52.0  # LOW! Japanese don't take all their leave (cultural)
+    carry_forward: true  # Up to 2 years
+    
+  maternity_leave:
+    duration_weeks: 14  # 6 weeks before + 8 weeks after childbirth
+    pay_percent: 67.0  # Of salary (Employment Insurance covers)
+    
+  paternity_leave:
+    duration_weeks: 4  # 2022 law: 4 weeks (up from 0.5 days!) 
+    pay_percent: 67.0
+    uptake_percent: 17.0  # VERY LOW (cultural barrier)
+    
+  sick_leave: "No legal requirement (use paid annual leave)"
+  
+# Equal Employment Opportunity
+equal_employment:
+  law: "Equal Employment Opportunity Law (1986, amended 2024)"
+  description: "Prohibits discrimination based on gender, age, nationality"
+  
+  gender_equality:
+    female_labor_participation_percent: 54.0
+    gender_pay_gap_percent: 24.0  # Women earn 24% less (MHLW 2025)
+    women_in_tech_percent: 18.0  # Low representation
+    
+  age_discrimination: "Prohibited (but mandatory retirement at 60-65 still common)"
+  
+  foreign_workers:
+    work_visa_required: true
+    top_nationalities: ["Chinese", "Vietnamese", "Filipino", "Brazilian (Japanese descent)"]
+    tech_work_visas_annual: 75000
+    note: "Specified Skilled Worker (SSW) visa launched 2019"
+    
+# Industrial Union (Labor Unions)
+labor_unions:
+  prevalence_percent: 16.5  # Of workforce (low by intl standards)
+  enterprise_unions: true  # Most unions are company-specific (not industry-wide)
+  shunto: "Spring Wage Offensive (annual wage negotiations - March)"
+  tech_unionization_percent: 8.0  # Very low in tech
+  
+# Dismissal & Severance
+dismissal_laws:
+  doctrine: "Abuse of Right Doctrine (権利濫用法理)"
+  description: "Dismissal invalid UNLESS objectively reasonable and socially acceptable"
+  
+  notice_period_days: 30  # Minimum (Labor Standards Act Art. 20)
+  prejudicial_allowance: "30 days of average wages (IN LIEU of notice)"
+  
+  severance_pay:
+    mandatory: false  # NOT mandatory by law!
+    voluntary_prevalence_percent: 85.0  # Most companies offer voluntarily
+    typical_amount_jpy: [500000, 50000000]  # ¥0.5M-50M ($3.3K-$335K) based on tenure
+    
+  layoff_restrictions:
+    - "Must have objective, rational reason"
+    - "Must follow due process (warnings, transfers, etc.)"
+    - "Dispute resolution through Labor Relations Commission"
+    
+  tokyo_tech_note: "Lifetime employment = RARELY fire (except for cause)"
+  
+# Tech Salaries (Japan - Much Lower than US Silicon Valley)
+tech_salaries_jpy_year:
+  - role: "Software Engineer (SWE) - New Grad"
+    base_range_jpy: [4000000, 6000000]  # ¥4M-6M ($27K-$40K)
+    total_comp_range_jpy: [5000000, 8000000]  # + bonus (bonuses = 4-6 months salary)
+    tokyo_companies: ["Sony", "Rakuten", "Mercari", "Preferred Networks"]
+    
+  - role: "Software Engineer - Mid-Level (3-5 years)"
+    base_range_jpy: [6000000, 10000000]  # ¥6M-10M ($40K-$67K)
+    total_comp_range_jpy: [8000000, 15000000]  # + bonus
+    
+  - role: "Software Engineer - Senior / Staff"
+    base_range_jpy: [10000000, 18000000]  # ¥10M-18M ($67K-$120K)
+    total_comp_range_jpy: [15000000, 25000000]
+    
+  - role: "Software Engineer - Principal / Distinguished"
+    base_range_jpy: [18000000, 30000000]  # ¥18M-30M ($120K-$200K)
+    total_comp_range_jpy: [25000000, 50000000]
+    note: "RARE in Japan (much lower than US $2M+)"
+    
+  - role: "Data Scientist - Junior"
+    base_range_jpy: [4500000, 7000000]  # ¥4.5M-7M ($30K-$47K)
+    total_comp_range_jpy: [6000000, 10000000]
+    
+  - role: "Data Scientist - Senior"
+    base_range_jpy: [8000000, 15000000]  # ¥8M-15M ($53K-$100K)
+    total_comp_range_jpy: [12000000, 20000000]
+    
+  - role: "AI/ML Engineer - Entry"
+    base_range_jpy: [5000000, 8000000]  # ¥5M-8M ($33K-$53K)
+    total_comp_range_jpy: [7000000, 12000000]
+    
+  - role: "AI/ML Engineer - Senior"
+    base_range_jpy: [12000000, 20000000]  # ¥12M-20M ($80K-$133K)
+    total_comp_range_jpy: [18000000, 30000000]
+    note: "Preferred Networks, Sony AI pay 20-30% higher"
+    
+  - role: "Research Scientist (AI/ML)"
+    base_range_jpy: [15000000, 25000000]  # ¥15M-25M ($100K-$167K)
+    total_comp_range_jpy: [20000000, 40000000]
+    note: "PhD typically required, publishes papers (Riken, PFN)"
+    
+  - role: "CEO (Early-Stage Startup)"
+    base_range_jpy: [10000000, 20000000]  # ¥10M-20M ($67K-$133K)
+    equity_percent: [1.0, 10.0]
+    
+  - role: "CEO (Public Tech Co.)"
+    base_range_jpy: [50000000, 500000000]  # ¥50M-500M ($335K-$3.3M)
+    note: "Much lower than US (Tim Cook $100M, Sundar Pichai $280M)"
+    
+# Bonuses (Unique to Japan!)
+bonuses:
+  description: "Annual bonuses (summer + winter) - typically 4-6 months salary"
+  prevalence_percent: 85.0  # Of regular employees
+  summer_bonus_month: "June-July"
+  winter_bonus_month: "December"
+  total_annual_months_salary: [14, 18]  # 12 months + 2-6 months bonus
+  tech_companies: ["Sony (18 months)", "Rakuten (16 months)", "Nintendo (20 months!)"]
+  note: "US companies RARELY give bonuses (stock instead)"
+  
+# Stock Options & Equity (Emerging in Japan)
+equity_compensation:
+  - type: "Stock Options (Shoken (証券))"
+    description: "Options to purchase company stock (like US ISO/NSO)"
+    tax: "Taxed as income at exercise (difference: FMV - strike price)"
+    prevalence_tech_percent: 35.0  # Growing but still rare
+    tokyo_startups: "Standard for VC-backed startups (like US)"
+    
+  - type: "Restricted Stock Units (RSUs)"
+    description: "Actual shares granted after vesting (no exercise price)"
+    tax: "Taxed as income when they vest"
+    prevalence_japan_percent: 15.0  # Mostly foreign companies (Google, Meta)
+    
+  - type: "Phantom Stock"
+    description: "Cash bonus based on stock price (not actual shares)"
+    tax: "Taxed as income"
+    
+  standard_vesting_schedule: "4 years, 1-year cliff, monthly thereafter (like US)"
+  note: "Japan still prefers cash bonuses over stock (cultural preference)"
+  
+# Payroll Taxes (Employer Costs)
+payroll_taxes_percent:
+  health_insurance_percent: 4.95  # Employee + employer each pay 4.95%
+  pension_insurance_percent: 9.15  # Employee + employer each pay 9.15% (total 18.3%)
+  unemployment_insurance_percent: 1.2  # Employer pays 0.6%, employee 0.6%
+  workers_accident_compensation_percent: [0.3, 12.9]  # Employer only (varies by industry)
+  
+  total_employer_cost_percent: 15.6  # Beyond salary (payroll taxes + health + pension)
+  total_employee_cost_percent: 14.1  # Health + pension + unemployment
+  
+# Termination & Severance
+termination:
+  - type: "Dismissal (with cause)"
+    description: "Employer fires employee for cause"
+    severance_pay: "None mandatory (but voluntary is common - 1-2 months/yr)"
+    notice_period_days: 30
+    unemployment_insurance: true  # Employee can claim
+    
+  - type: "Resignation (Employee quits)"
+    description: "Employee leaves voluntarily"
+    severance_pay: "None"
+    notice_period_days: 14  # Industry standard (2 weeks)
+    
+  - type: "Mutual Agreement (Kyotsu Ryoki)"
+    description: "Both parties agree to part ways"
+    severance_pay: "Typically 2-6 months salary (voluntary)"
+    notice_period_days: [0, 30]
+    
+# Non-Compete Clauses
+non_compete:
+  enforceability: "Generally NOT enforceable (unless extreme circumstances)"
+  reason: "Article 90 Civil Code - restraint of trade is void"
+  exceptions:
+    - "Trade secrets protection (Unfair Competition Prevention Act)"
+    - "Client solicitation bans (1-2 years reasonable)"
+  tokyo_tech: "Employees CAN join competitors (unlike US California which voids non-competes)"
+  
+# Remote Work & Multi-Location Taxation
+remote_work:
+  legal_framework: "Labor Standards Act (amended 2021)"
+  tokyo_usage_percent: 45.0  # Post-COVID (Sony, Rakuten, Mercari allow)"
+  equipment_budget_jpy: [100000, 500000]  # ¥100K-500K ($670-$3.3K) for home office
+  
+  taxation: "Employee taxed based on HOME address (not company location)"
+  tokyo_remote: "Many tech companies allow remote from anywhere in Japan"
+  
+# HR Platforms & Recruiting (Japan)
+hr_platforms_japan:
+  - name: "Wantedly"
+    website: "https://www.wantedly.com"
+    type: "Job board (social networking style)"
+    features: ["Company profiles", "Employee reviews", "Culture fit matching"]
+    pricing_jpy_month: [0, 100000]  # ¥0-100K ($0-$670)
+    market_share_percent: 35.0
+    note: "MOST POPULAR in Japan (like LinkedIn + Glassdoor combined)"
+    
+  - name: "Bizreach"
+    website: "https://www.bizreach.jp"
+    type: "Executive search / Headhunter platform"
+    features: ["Headhunters", "Executive positions", "Confidential search"]
+    pricing_jpy_month: [30000, 200000]  # Per headhunter
+    market_share_percent: 25.0
+    
+  - name: "Green (グリーン)"
+    website: "https://www.green-japan.com"
+    type: "Tech job board"
+    features: ["Engineer jobs", "Skill matching", "Company culture"]
+    pricing_jpy_month: [50000, 150000]
+    market_share_percent: 20.0
+    note: "Popular for AI/ML engineering jobs"
+    
+  - name: "LinkedIn Japan"
+    website: "https://www.linkedin.com"
+    type: "Professional networking"
+    market_share_percent: 15.0  # Less dominant than in US
+    note: "Used but Wantedly is #1 in Japan!"
+    
+  - name: "Glassdoor Japan"
+    website: "https://www.glassdoor.co.jp"
+    type: "Employer branding + reviews"
+    features: ["Company reviews", "Salary reports", "Interview questions"]
+    pricing_jpy_year: [0, 300000]  # Free for job seekers
+    
+# Benefits (Common in Tech/AI First Companies)
+common_benefits_japan:
+  - benefit: "Health Insurance (Kenko Hoken - 健康保険)"
+    mandatory: true  # All employees must enroll
+    cost_employee_percent: 4.95  # Matched by employer (total 9.9%)
+    tokyo_standard: "Top tech pays full family coverage"
+    
+  - benefit: "Pension (Kosei Nenkin - 厚生年金)"
+    mandatory: true
+    cost_employee_percent: 9.15  # Matched by employer (total 18.3%)
+    note: "Pays ~67% of salary at retirement (age 65)"
+    
+  - benefit: "Commuting Allowance (Teikyuhi - 通勤費)"
+    mandatory: false
+    amount_jpy_month: [10000, 50000]  # ¥10K-50K ($67-$335) for train/bus
+    tokyo_tech: "Standard (full reimbursement)"
+    
+  - benefit: "Housing Allowance (Jutaku Teate - 住宅手当)"
+    mandatory: false
+    amount_jpy_month: [20000, 100000]  # ¥20K-100K ($133-$670)
+    tokyo_tech: "Common for Tokyo (high rent)"
+    
+  - benefit: "Bonuses (Summer + Winter)"
+    mandatory: false
+    amount: "4-6 months salary annually"
+    tokyo_tech: "Standard (Sony 18 months, Rakuten 16 months)"
+    note: "UNIQUE TO JAPAN! US companies rarely give bonuses"
+    
+  - benefit: "Stock Options / RSUs"
+    mandatory: false
+    tokyo_standard: "Standard for VC-backed startups (4-year vest)"
+    note: "Less common than US (cash bonuses preferred)"
+    
+  - benefit: "Paid Leave (Yukyu - 有給)"
+    mandatory: true
+    days_per_year: [10, 20]  # Based on tenure
+    usage_percent: 52.0  # LOW! Cultural (employees don't take all)"
+    
+  - benefit: "Remote Work Stipend"
+    mandatory: false
+    amount_jpy_year: [100000, 500000]  # For home office setup
+    tokyo_standard: "Standard post-2020 (laptop, monitor, chair)"
+    
+# Comparison to Silicon Valley (USA)
+comparison_silicon_valley_usa:
+  lifetime_employment:
+    japan: "Still practiced at large firms (35%)"
+    usa: "At-will (fire anytime, no reason needed)"
+    
+  salaries_usd:
+    japan_swe_junior: "$27K-$40K base + 4-6 months bonus"
+    usa_swe_junior: "$120K-$160K base + stock ($180K-$250K total)"
+    note: "US pays 3-5x MORE (but Japan has bonuses + better healthcare)"
+    
+  stock_options:
+    japan: "35% of tech companies offer (still prefer cash bonuses)"
+    usa: "90%+ of tech companies offer (core compensation)"
+    
+  job_changes:
+    japan: "Low job-hopping (lifetime employment culture)"
+    usa: "High job-hopping (at-will, stock vests quick)"
+    
+  paid_leave_usage:
+    japan: "52% (cultural - don't take all leave)"
+    usa: "78% (but only 10-15 days/year vs Japan's 10-20)"
+    
+  non_compete:
+    japan: "NOT enforceable (can join competitors)"
+    usa_california: "Void (cannot restrict)"
+    usa_texas: "Enforceable (2 years reasonable)"
+    
+  payroll_taxes:
+    japan: "15.6% employer + 14.1% employee (total 29.7%)"
+    usa: "7.65% employer + 7.65% employee (total 15.3%)"
+    note: "Japan has better healthcare/pension (but higher taxes)"
+    
+# AI Company Employment Opportunities
+ai_company_employment:
+  - opportunity: "AI Engineer at Japanese Tech Giants"
+    companies: ["Sony AI", "Rakuten AI", "Preferred Networks", "Line Clova"]
+    salary_jpy_annual: [8000000, 25000000]  # ¥8M-25M ($53K-$167K)
+    visa_sponsorship: true
+    
+  - opportunity: "AI Researcher at Institutes"
+    companies: ["RIKEN Center for AI", "University of Tokyo AI Lab"]
+    salary_jpy_annual: [12000000, 30000000]  # ¥12M-30M ($80K-$200K)
+    visa_sponsorship: true
+    
+  - opportunity: "AI Engineer at US Companies (Japan Offices)"
+    companies: ["Google Tokyo", "Meta Tokyo", "OpenAI (coming?)", "Anthropic (coming?)"]
+    salary_jpy_annual: [10000000, 20000000]  # ¥10M-20M ($67K-$133K)
+    visa_sponsorship: "Through US parent company"
+    
+  work_visa_requirements:
+    - "Engineering/Specialist in Humanities/International Services visa"
+    - "Specified Skilled Worker (SSW) visa (2019+)"
+    - "Digital Nomad Visa (2024+) - NEW! 6 months for 49 countries"
+    
+# Unique Japanese Employment Features for AI Agents
+japan_unique_features_for_ai:
+  - feature: "Lifetime Employment (35% of large firms)"
+    ai_implication: "AI agents can be deployed long-term (low turnover)"
+    
+  - feature: "Bonuses (4-6 months salary)"
+    ai_implication: "AI companies budget 12-18 months salary per employee (not 12!)"
+    
+  - feature: "Paid Leave Usage 52% (don't take all)"
+    ai_implication: "AI support systems must handle LESS employee absence"
+    
+  - feature: "Non-competes NOT enforceable"
+    ai_implication: "AI engineers CAN join competitors (get insights!)"
+    
+  - feature: "Health + Pension (29.7% total payroll taxes)"
+    ai_implication: "Higher employer costs than US (15.3%)"
+    
+  - feature: "Remote Work 45% (Tokyo tech)"
+    ai_implication: "AI agents support distributed teams"
+    
+  - feature: "Wantedly (social job platform - 35% market share)"
+    ai_implication: "AI agents can scrape Wantedly for talent insights"

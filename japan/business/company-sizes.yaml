@@ -1,0 +1,322 @@
+version: 1.0.0
+country: japan
+last_updated: 2026-04-30
+description: "Company sizes, types, and business structures for Japanese AI First businesses"
+
+# Company Types (Business Entities)
+company_types:
+  - type: "Kabushiki Kaisha (KK) - 株式会社 (Stock Company)"
+    japanese_name: "株式会社 (かぶしきがいしゃ)"
+    description: "Standard corporation (like C-Corp in US)"
+    formation: "File Articles of Incorporation with Legal Affairs Bureau"
+    cost_jpy: [150000, 500000]  # ¥150K-500K (~$1K-$3.3K USD)
+    pros: ["Limited liability", "Easy to raise capital (stock issuance)", "VC-friendly", "Recognized internationally"]
+    cons: ["More paperwork", "Annual shareholder meetings required", "Higher formation cost"]
+    tax_form: "Corporate tax return (Form 26)"
+    tax_rate_percent: 23.2  # Effective
+    best_for: "VC-backed startups, large companies, foreign companies entering Japan"
+    tokyo_usage: "90% of VC-backed startups"
+    note: "Most prestigious form (like US C-Corp)"
+    
+  - type: "Godo Kaisha (GK) - 合同会社 (LLC Equivalent)"
+    japanese_name: "合同会社 (ごうどうがいしゃ)"
+    description: "Limited liability company (easier than KK)"
+    formation: "File Articles of Incorporation with Legal Affairs Bureau"
+    cost_jpy: [100000, 300000]  # ¥100K-300K (~$670-$2K USD)
+    pros: ["Limited liability", "Simpler management (no board required)", "Fewer formalities", "Lower cost"]
+    cons: ["Less prestigious than KK", "Harder to raise VC (but possible)"]
+    tax_form: "Corporate tax return (Form 26)"
+    tax_rate_percent: 23.2  # Same as KK
+    best_for: "Small businesses, consultancies, foreign companies testing Japan"
+    tokyo_usage: "Common for small AI consultancies, freelancers"
+    note: "Easier to set up than KK (like US LLC)"
+    
+  - type: "Goshi Kaisha - 合資会社 (Limited Partnership)"
+    japanese_name: "合資会社 (ごうしがいしゃ)"
+    description: "Partnership with general and limited partners"
+    formation: "Articles of Incorporation + partnership agreement"
+    pros: ["Pass-through taxation", "Limited partners have liability protection"]
+    cons: ["General partners have unlimited liability", "Rarely used for AI"]
+    tax_form: "Pass-through to partners (individual tax)"
+    tax_rate_percent: "Individual rates (5-45%)"
+    best_for: "Rare for AI companies"
+    
+  - type: "Kojin Jigyo - 個人事業 (Sole Proprietorship)"
+    japanese_name: "個人事業主 (こじんじぎょうぬし)"
+    description: "Individual business owner"
+    formation: "Notification to tax office (Form 104)"
+    cost_jpy: [0, 5000]  # Just notification fee
+    pros: ["No formation cost", "Simplest form", "Direct tax reporting"]
+    cons: ["Unlimited personal liability", "Hard to raise capital", "Less credibility"]
+    tax_form: "Individual tax return (Form 16)"
+    tax_rate_percent: "Individual rates (5-45%)"
+    best_for: "Freelancers, solo AI consultants"
+    tokyo_usage: "Common for freelance AI engineers"
+    
+  - type: "Kabushiki Kaisha (KK) - 合同会社 (Stock Company - US Branch)"
+    japanese_name: "日本支店 (にほんしてん)"
+    description: "Branch office of foreign corporation"
+    formation: "Register with Legal Affairs Bureau + tax office notification"
+    cost_jpy: [200000, 500000]
+    pros: ["No need to incorporate locally", "Parent company can raise funds globally"]
+    cons: ["Parent company has unlimited liability", "Less independent"]
+    tax_form: "Corporate tax on Japan-source income"
+    tax_rate_percent: 23.2
+    best_for: "US/EU tech companies entering Japan (Google, Meta, OpenAI)"
+    silicon_valley_equivalent: "Like US subsidiaries in Japan"
+
+# Company Sizes (By Revenue & Employees)
+company_sizes:
+  - size: "Micro"
+    name: "Micro Business (小規模事業者)"
+    employees: [1, 9]
+    revenue_jpy_annual: [0, 25000000]  # ¥25M (~$167K USD)
+    typical_examples: ["Freelancers", "Sole proprietors", "Tiny GK/LLCs"]
+    prevalence_percent: 78.0  # Of all Japan businesses
+    tech_relevance: "Many early-stage AI freelancers"
+    
+  - size: "Small"
+    name: "Small Business (小企業)"
+    employees: [10, 99]
+    revenue_jpy_annual: [25000000, 1000000000]  # ¥25M-1B (~$167K-$6.7M USD)
+    typical_examples: ["Local services", "Small SaaS", "Boutique agencies"]
+    prevalence_percent: 19.5
+    tech_relevance: "Many B2B SaaS, AI consultancies"
+    
+  - size: "Medium"
+    name: "Medium Business (中堅企業)"
+    employees: [100, 499]
+    revenue_jpy_annual: [1000000000, 10000000000]  # ¥1B-10B (~$6.7M-$67M USD)
+    typical_examples: ["Mid-market SaaS", "Regional tech firms", "Growing startups"]
+    prevalence_percent: 2.3
+    tech_relevance: "Series B/C Japanese startups"
+    
+  - size: "Large"
+    name: "Large Business (大企業)"
+    employees: [500, 9999]
+    revenue_jpy_annual: [10000000000, 100000000000]  # ¥10B-100B (~$67M-$670M USD)
+    typical_examples: ["Public tech companies", "Unicorns", "Late-stage startups"]
+    prevalence_percent: 0.2
+    tech_relevance: "Public tech (Sony, Rakuten), unicorns (Mercari)"
+    
+  - size: "Enterprise"
+    name: "Enterprise (超大企業)"
+    employees: [10000, null]  # 10,000+
+    revenue_jpy_annual: [100000000000, null]  # ¥100B+ (~$670M+ USD)
+    typical_examples: ["Fortune 500 equivalents", "Megacorps"]
+    prevalence_percent: 0.05
+    tech_relevance: "Sony, Nintendo, SoftBank, Rakuten"
+
+# Tokyo Tech Sector Breakdown (Silicon Valley Equivalent)
+tokyo_tech_sectors:
+  - sector: "Gaming & Entertainment"
+    employment_percent: 30.0
+    notable_companies: ["Sony (PlayStation)", "Nintendo (Tokyo office)", "Bandai Namco", "Square Enix"]
+    ai_relevance: "AI for game NPCs, procedural generation"
+    
+  - sector: "E-commerce & Fintech"
+    employment_percent: 25.0
+    notable_companies: ["Rakuten", "Mercari", "Line (Z Holdings)", "PayPay"]
+    ai_relevance: "AI for recommendations, fraud detection, chatbots"
+    
+  - sector: "Robotics & Automation"
+    employment_percent: 20.0
+    notable_companies: ["Fanuc", "Yaskawa", "SoftBank Robotics (Pepper)", "Honda (ASIMO)"]
+    ai_relevance: "AI + Robotics = Japan's core strength (50% global market)"
+    
+  - sector: "Automotive (Nearby Nagoya but Tokyo HQs)"
+    employment_percent: 15.0
+    notable_companies: ["Toyota (Tokyo office)", "Honda", "Nissan"]
+    ai_relevance: "Autonomous driving AI (Honda/GM Cruise, Toyota)"
+    
+  - sector: "AI Research & ML"
+    employment_percent: 10.0
+    notable_companies: ["Preferred Networks", "Sony AI", "Rakuten Institute of Technology", "Line Clova"]
+    ai_relevance: "Core AI research, deep learning, NLP for Japanese"
+
+# Startup Growth Stages (Japan)
+startup_stages_japan:
+  - stage: "Pre-Seed / Idea Stage"
+    capital_jpy: [0, 50000000]  # ¥50M (~$335K USD)
+    employees: [1, 3]
+    entity_type: "Godo Kaisha (GK) or KK (if expecting VC)"
+    burn_rate_jpy_month: [500000, 2000000]  # ¥500K-2M (~$3.3K-$13K)
+    focus: "MVP, product-market fit"
+    
+  - stage: "Seed"
+    capital_jpy: [50000000, 300000000]  # ¥50M-300M (~$335K-$2M)
+    employees: [3, 15]
+    entity_type: "Kabushiki Kaisha (KK)"
+    burn_rate_jpy_month: [2000000, 10000000]  # ¥2M-10M (~$13K-$67K)
+    focus: "Product development, early traction"
+    
+  - stage: "Series A"
+    capital_jpy: [300000000, 1500000000]  # ¥300M-1.5B (~$2M-$10M)
+    employees: [15, 100]
+    entity_type: "Kabushiki Kaisha (KK)"
+    burn_rate_jpy_month: [10000000, 50000000]  # ¥10M-50M (~$67K-$335K)
+    focus: "Scaling, go-to-market"
+    
+  - stage: "Series B, C, D..."
+    capital_jpy: [1500000000, 50000000000]  # ¥1.5B-50B (~$10M-$335M)
+    employees: [100, 2000]
+    entity_type: "Kabushiki Kaisha (KK)"
+    burn_rate_jpy_month: [50000000, 1000000000]  # ¥50M-1B (~$335K-$6.7M)
+    focus: "Growth, profitability, IPO prep"
+    
+  - stage: "IPO / Public"
+    capital_jpy: "Public markets (¥100B+ raises)"
+    employees: [2000, 100000+]
+    entity_type: "Public KK"
+    focus: "Quarterly earnings, public shareholders"
+
+# Industry Classification (Japan Standard Industrial Classification)
+jsic_codes:
+  description: "Japan's standard classification for businesses"
+  digits: 4-6
+  main_sectors:
+    - code: "30-33"
+      name: "Manufacturing (製造業)"
+      gdp_share_percent: 20.5
+      tech_relevance: "Robotics, automotive, electronics (Sony, Nintendo)"
+      
+    - code: "J (Information & Communications)"
+      name: "Information & Communications (情報通信業)"
+      gdp_share_percent: 5.8
+      tech_relevance: "Software, telecom, broadcasting, data processing"
+      
+    - code: "K (Wholesale & Retail Trade)"
+      name: "Commerce (商業)"
+      gdp_share_percent: 13.2
+      tech_relevance: "E-commerce (Rakuten, Mercari), retail tech"
+      
+    - code: "M (Professional & Technical Services)"
+      name: "Professional Services (学術研究・専門・技術サービス業)"
+      gdp_share_percent: 6.8
+      tech_relevance: "R&D, consulting, AI development"
+      
+    - code: "I (Finance & Insurance)"
+      name: "Finance & Insurance (金融・保険業)"
+      gdp_share_percent: 7.5
+      tech_relevance: "Fintech, digital banking (Rakuten Bank, PayPay)"
+
+# Tokyo Tech Ecosystem Stats
+tokyo_tech_ecosystem:
+  total_startups_estimate: 4500  # Active tech startups
+  unicorns: 6  # Valued >$1B (2026)
+  most_unicorns_city: "Tokyo - 6 unicorns"
+  
+  top_hubs:
+    - "Shibuya (渋谷) - Startup hub, youthful, tech meetups"
+    - "Roppongi (六本木) - International, embassies, offices"
+    - "Otemachi (大手町) - Financial district (like NY's Wall St.)"
+    - "Marunouchi (丸の内) - Business district, corporate HQs"
+    - "Shinjuku (新宿) - Government offices, some tech"
+    - "Yokohama (横浜) - Near Tokyo, manufacturing + tech"
+    
+  foreign_investment_jpy_billions: 450  # $3B USD (2025)
+  venture_capital_deployed_jpy_billions: 450  # $3B USD (2025)
+  
+  notable_vc_firms:
+    - "Globis Capital Partners (Tokyo)"
+    - "World Innovation Lab (WiL) (Tokyo)"
+    - "JAFCO (Tokyo) - oldest VC in Japan"
+    - "Mizuho Capital"
+    - "SBI Investment"
+    - "ANRI (Tokyo) - early-stage AI"
+    - "DeepCore (SoftBank group) - AI-focused"
+
+# Incorporation Preferences
+incorporation_japan:
+  kabushiki_kaisha_kk_percent: 85.0  # Of formal corps
+  godo_kaisha_gk_percent: 14.0  # Growing (easier setup)
+  kojin_jigyo_percent: 78.0  # Of ALL businesses (including non-tech)
+  
+  reasons_for_kk:
+    - "International recognition (like US C-Corp)"
+    - "Easy to issue stock options (shares)"
+    - "VCs prefer KK"
+    - "Prestige in Japan"
+    
+  reasons_for_gk:
+    - "Lower formation cost"
+    - "Simpler management (no board required)"
+    - "Less paperwork"
+    - "Good for testing Japan market"
+    
+# Business Hours (Standard Japan)
+business_hours:
+  weekdays:
+    start: "09:00"
+    end: "18:00"
+    lunch_break: "12:00-13:00"
+  saturday:
+    start: "09:00"
+    end: "13:00"
+    optional: true
+  sunday:
+    closed: true
+    exceptions: ["Malls", "Restaurants", "Convenience stores", "Sony stores"]
+    
+# Golden Week (MAJOR Holiday!)
+golden_week:
+  dates: "April 29 - May 5 (typically + weekends = 7-10 days)"
+  description: "One of Japan's 3 major holiday seasons (Obon, New Year)"
+  business_impact: "Many companies close ENTIRE WEEK (April 29 - May 5)"
+  ai_implications: "Support tickets, API responses DELAYED during Golden Week!"
+  
+  components:
+    - "April 29: Showa Day (昭和の日)"
+    - "May 3: Constitution Day (憲法記念日)"
+    - "May 4: Greenery Day (みどりの日)"
+    - "May 5: Children's Day (こどもの日)"
+    
+  other_major_holidays:
+    - "Obon (mid-August, ~3 days) - Many take vacation"
+    - "New Year (Dec 29 - Jan 3) - LONGEST holiday (1 week+)"
+    - "Silver Week (Sept, some years) - 3-5 days"
+    
+# Startup Ecosystem Stats
+startup_ecosystem_japan:
+  total_startups_estimate: 12000  # Nationwide
+  unicorns: 6  # Valued >$1B (2026)
+  
+  unicorn_list:
+    - "Mercari (flea market app) - $6.5B"
+    - "Rakuten (e-commerce, fintech) - $25B (public)"
+    - "SmartNews (news app) - $2B"
+    - "Preferred Networks (AI/ML) - $1.5B"
+    - "PayPay (payments) - $2B"
+    - "Line (messaging - part of Z Holdings) - $18B"
+    
+  startup_density_per_100k_tokyo: 8.0  # Lower than SF (45.0)
+  ai_companies_count: 400+  # In Tokyo area
+  average_software_engineer_salary_jpy: [6000000, 18000000]  # ¥6M-18M ($40K-$120K)
+  
+# Comparison to Silicon Valley
+comparison_silicon_valley:
+  startup_ecosystem_size:
+    silicon_valley: "$1.2 trillion GDP"
+    tokyo: "$2.1 trillion GDP (BIGGER in absolute terms!)"
+    
+  unicorns_count:
+    silicon_valley: 380+
+    tokyo: 6  # Much smaller!
+    
+  venture_capital_usd:
+    silicon_valley: $89B (2025)
+    tokyo: $3B (2025)  # 30x smaller!
+    
+  average_swe_salary_usd:
+    silicon_valley: $185K base + stock
+    tokyo: $65K base  # Much lower, but cost of living also lower
+    
+  startup_density_per_100k:
+    silicon_valley: 45.0
+    tokyo: 8.0  # Much lower
+    
+  unique_japan_features:
+    - "Robotics dominance (50% global market - Honda, Fanuc, SoftBank)"
+    - "Society 5.0 initiative (government-backed AI adoption)"
+    - "Lower salaries = cheaper AI talent!"
+    - "Aging society = huge demand for AI/robotics (healthcare, elderly care)"

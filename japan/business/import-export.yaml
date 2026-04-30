@@ -1,0 +1,334 @@
+version: 1.0.0
+country: japan
+last_updated: 2026-04-30
+description: "Japanese import/export regulations and trade agreements"
+
+# Japan Customs (税関 - Zeikan)
+trade_authorities:
+  - name: "Japan Customs (税関)"
+    description: "Primary border control and trade agency"
+    url: "https://www.customs.go.jp/english/"
+    role: "Collects duties, secures borders, enforces trade laws"
+  
+  - name: "Ministry of Economy, Trade and Industry (METI - 経済産業省)"
+    description: "Trade policy, export controls, industrial policy"
+    url: "https://www.meti.go.jp/english/"
+    role: "Export controls, trade agreements, Society 5.0 initiative"
+  
+  - name: "Ministry of Agriculture, Forestry and Fisheries (MAFF)"
+    description: "Regulates agricultural imports/exports"
+    url: "https://www.maff.go.jp/eindex.html"
+    role: "Phytosanitary certificates, food safety"
+  
+  - name: "Ministry of Health, Labour and Welfare (MHLW)"
+    description: "Regulates food, drugs, medical devices (imports/exports)"
+    url: "https://www.mhlw.go.jp/english/"
+    role: "Import alerts, device approvals, health tech trade"
+  
+  - name: "Financial Services Agency (FSA)"
+    description: "Regulates financial services, crypto"
+    url: "https://www.fsa.go.jp/en/"
+    role: "Fintech imports, crypto regulation"
+
+# Import Taxes & Duties
+import_taxes_japan:
+  - tax: "Consumption Tax (Shohi Zei - 消費税)"
+    rate_percent: 10.0  # Standard rate
+    reduced_rate_percent: 8.0  # For food, beverages (non-alcohol), newspapers
+    applies_to: "All goods and services consumed in Japan"
+    calculation: "On CIF value (Cost + Insurance + Freight)"
+  
+  - tax: "Customs Duty (Kanzei - 関税)"
+    rate_percent: [0.0, 40.0]  # Varies by HS code
+    calculation: "Ad valorem (percentage of value) or specific (per unit)"
+    average_rate_percent: 2.5  # Weighted average (low compared to Brazil's 40-85%)
+    source: "Customs Tariff Schedule (CTS)"
+  
+  - tax: "Additional Duty (Tokutei Kanzei - 特別関税)"
+    rate_percent: [0.0, 509.0]  # Anti-dumping, retaliatory
+    applies_to: "Certain countries/products (safeguards)"
+  
+  total_tax_burden_percent: [2.5, 45.0]  # Varies by product/country
+  
+  temporary_relief: "Temporary import schemes (duty exemption for certain goods)"
+
+# Harmonized System (HS) Codes
+hs_codes_japan:
+  description: "Japan uses 9-digit HS codes"
+  digits: 9
+  example: "8471.30.100"  # Electronic computers (tablets)
+  search_url: "https://www.customs.go.jp/english/tariff/index.htm"
+  
+  japan_relevant:
+    - "8471: Automatic data processing machines (computers, tablets, servers)"
+    - "8517: Telephones, smartphones, networking gear"
+    - "8523: Media for sound/video (hard drives, SSDs)"
+    - "8542: Electronic integrated circuits (semiconductors, GPUs)"
+    - "8523.49: Semiconductor devices (NVIDIA GPUs!)"
+  
+# Export Controls (Critical for AI Companies)
+export_controls_japan:
+  authority: "Ministry of Economy, Trade and Industry (METI)"
+  law: "Foreign Exchange and Foreign Trade Act (FEFTA - 外為法)"
+  website: "https://www.meti.go.jp/english/policy/external_economy/trade_control/"
+  
+  control_lists:
+    - list: "List of Strategic Items (L-list)"
+      description: "Items requiring export licenses (dual-use, military)"
+      example_items: ["Advanced semiconductors (NVIDIA H100/A100)", "Encryption technology", "Advanced machine tools"]
+      note: "Japan restricts exporting advanced AI chips (like US, EU)"
+      
+    - list: "List of Designated Countries (C-list)"
+      description: "Countries subject to stricter export controls"
+      includes: ["China", "Russia", "North Korea", "Iran"]
+      note: "Cannot export advanced chips/AI tech to these countries"
+      
+  export_licenses:
+    - type: "Individual Export License"
+      description: "Case-by-case approval from METI"
+      processing_time_days: [30, 90]
+      
+    - type: "General Export License"
+      description: "Pre-approved for certain items/countries"
+      
+  ai_chip_controls_2026:
+    - "NVIDIA H100/A100: Cannot export to China, Russia, some Middle East (similar to US!)"
+    - "Licenses required for lower-end chips to designated countries"
+    - "Japanese persons cannot support Chinese chip development"
+    - "Impact on Japan: Japanese companies (Sony, SoftBank) must comply"
+    
+  penalties:
+    max_prison_years: 5  # For illegal exports
+    max_fine_jpy: 1000000000  # ¥1 billion (~$6.7M USD)
+    
+# Trade Agreements
+trade_agreements_japan:
+  - name: "Japan-EU Economic Partnership Agreement (JEEPA)"
+    type: "Free Trade Agreement (FTA)"
+    effective: 2019
+    benefits: ["Duty-free for qualifying goods", "Digital trade provisions", "IP protection", "Gov procurement"]
+    japan_ai_impact: "EU AI companies can enter Japan duty-free"
+    
+  - name: "Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)"
+    type: "Free Trade Agreement"
+    effective: 2018 (Japan ratified)
+    members: ["Japan", "Canada", "Mexico", "Peru", "Chile", "Australia", "New Zealand", "Singapore", "Vietnam", "Malaysia", "Brunei"]
+    benefits: ["Duty-free many goods", "Digital trade rules", "IP protection"]
+    
+  - name: "Japan-US Trade Agreement"
+    effective: 2020
+    benefits: ["Tariff reductions on agricultural products", "Digital trade provisions"]
+    note: "Limited scope (not full FTA like JEEPA)"
+    
+  - name: "Regional Comprehensive Economic Partnership (RCEP)"
+    effective: 2022
+    members: ["Japan", "China", "South Korea", "Australia", "New Zealand", "ASEAN (10 countries)"]
+    benefits: ["Tariff reductions", "Simplified rules of origin"]
+    note: "World's largest FTA by GDP (30% of global GDP)"
+    japan_ai_impact: "China market access (with restrictions on AI chips)"
+    
+  - name: "Japan-UK Comprehensive Economic Partnership Agreement"
+    effective: 2021 (post-Brexit)
+    benefits: ["Duty-free qualifying goods", "Digital trade", "Services"]
+    
+# Shipping and Logistics
+international_shipping_japan:
+  major_ports:
+    - name: "Port of Tokyo (Tokyo Bay)"
+      type: "Marine"
+      market_share_percent: 25.0  # Of Japan containerized imports
+      main_cargo: ["Consumer electronics", "Automotive parts", "Machinery"]
+      tokyo_tech_relevance: "Importing hardware, components from Asia/US"
+      
+    - name: "Port of Yokohama"
+      type: "Marine"
+      market_share_percent: 18.0
+      main_cargo: ["Consumer goods", "Machinery", "Food"]
+      
+    - name: "Port of Nagoya"
+      type: "Marine"
+      market_share_percent: 20.0
+      main_cargo: ["Automotive (Toyota)", "Machinery", "Food"]
+      note: "Near Toyota HQ - auto parts hub"
+      
+  major_airports:
+    - name: "Narita International (NRT) - Tokyo"
+      market_share_percent: 35.0  # Air cargo
+      main_cargo: ["Electronics", "Perishables", "Pharmaceuticals"]
+      tokyo_tech_relevance: "Tokyo's main international gateway"
+      
+    - name: "Haneda Airport (HND) - Tokyo"
+      market_share_percent: 15.0
+      note: "Closer to Tokyo center, some cargo"
+      
+    - name: "Kansai International (KIX) - Osaka"
+      market_share_percent: 18.0
+      main_cargo: ["Electronics", "Automotive parts"]
+      
+  major_freight_forwarders_japan:
+    - "Nippon Express (日通)"
+    - "Kintetsu World Express (近鉄)"
+    - "Yamato Transport (黒猫 - Ta-Q-Bin)"
+    - "Sagawa Express (佐川)"
+    
+  shipping_time_days:
+    us_west_coast_to_tokyo: [5, 8]  # Marine
+    us_east_coast_to_tokyo: [12, 18]  # Marine
+    tokyo_to_us_west_coast: [6, 10]  # Marine
+    air_freight_global: [1, 3]  # Air (expensive)
+    
+# Payment Methods for International Trade
+international_payments_japan:
+  - method: "Bank Transfer (Furikomi - 振込)"
+    cost_jpy: [220, 880]  # ¥220-880 (~$1.50-$6)
+    processing_time_days: [0, 2]  # Same day if before 3pm
+    used_for: "Domestic supplier payments"
+    
+  - method: "Wire Transfer (SWIFT)"
+    cost_jpy: [3000, 8000]  # ¥3K-8K (~$20-$53)
+    processing_time_days: [1, 3]  # Banking days
+    used_for: "International payments (imports/exports)"
+    
+  - method: "Letter of Credit (L/C)"
+    cost_jpy: [30000, 100000]  # ¥30K-100K (~$200-$667)
+    processing_time_days: [5, 15]
+    used_for: "Guarantee payment in international trade"
+    tokyo_tech: "Used for large hardware/equipment imports (servers, networking gear)"
+    
+  - method: "Open Account (Net Terms)"
+    description: "Buyer pays later (30-90 days)"
+    risk: "Seller bears risk (common in Japan-EU trade)"
+    
+  exchange_rate_source: "Bank of Japan (BOJ) + market"
+  note: "Japanese yen (JPY) is major reserve currency"
+  
+# Cross-Border E-commerce
+cross_border_ecommerce_japan:
+  platforms:
+    - name: "Amazon Japan"
+      market_share_percent: 22.0
+      import_duty: "Collected at checkout (DDP - Delivered Duty Paid)"
+      
+    - name: "Rakuten Ichiba"
+      market_share_percent: 28.0
+      import_duty: "Buyer responsible (DDU - Delivered Duty Unpaid)"
+      
+    - name: "eBay Japan"
+      market_share_percent: 2.0
+      import_duty: "Buyer responsible (DDU)"
+      
+  de_minimis_value_jpy: 10000  # ¥10,000 (~$67) duty-free threshold
+  note: "Lower than Brazil ($50), much lower than US ($800)"
+  
+# Foreign Exchange (FX) Regulations
+foreign_exchange:
+  law: "Foreign Exchange and Foreign Trade Act (FEFTA)"
+  authority: "Ministry of Finance (MOF) + METI"
+  
+  inward_investment:
+    - "Foreign companies can freely invest in Japan (no prior approval needed)"
+    - "Sensitive sectors (defense, nuclear) require prior notification"
+    - "BITs (Bilateral Investment Treaties) with 40+ countries"
+    
+  outward_investment:
+    - "Japanese companies can invest abroad freely"
+    - "Reporting required for large investments (>¥1B)"
+    
+  ai_companies: "OpenAI, Anthropic can receive Japanese investment (no restrictions)"
+  
+# Cryptocurrency Regulation
+crypto_regulation_japan:
+  law: "Payment Services Act (PSA) - amended 2020"
+  regulator: "Financial Services Agency (FSA)"
+  crypto_status: "Legal property (not currency)"
+  
+  exchanges: "Must register with FSA"
+  stablecoins: "New law (2023) - only licensed banks/trusts can issue"
+  
+  major_exchanges_japan:
+    - "Bitflyer (4M+ users)"
+    - "Coincheck (2M+ users)"
+    - "GMO Coin"
+    - "Rakuten Wallet"
+    
+  taxation: "Taxed as 'miscellaneous income' (5-45% progressive)"
+  corporate_holding: "Only licensed exchanges can hold customer crypto"
+  
+# Data Localization (Japan)
+data_localization_japan:
+  requirement: "No general data localization law (unlike China/Russia)"
+  sectoral_requirements:
+    - "Medical data: Must be stored in Japan (Ministry of Health rules)"
+    - "Government data: Prefer domestic cloud (but not mandatory)"
+  
+  cloud_providers_japan:
+    - "AWS Tokyo (ap-northeast-1)"
+    - "Google Cloud Tokyo (asia-northeast1)"
+    - "Azure Japan East (Tokyo)"
+    - "Oracle Cloud Tokyo"
+    
+# AI Company Import/Export Opportunities
+ai_company_import_opportunities:
+  - opportunity: "Import AI Hardware (GPUs, Servers)"
+    hs_code: "8471.80.100"  # Other automatic data processing machines
+    import_duty_percent: [0.0, 0.0]  # FREE from many countries (CPTPP, JEEPA)
+    note: "NVIDIA, AMD chips made in Taiwan/US, but duty-free under CPTPP!"
+    
+  - opportunity: "Export AI Software/SaaS"
+    duty_percent: 0.0  # Software exports typically duty-free
+    payment_method: "SWIFT, PayPal, Stripe, Furikomi"
+    japan_ai_impact: "Exporting AI services to US/EU is duty-free!"
+    
+  - opportunity: "Import Training Data / Export AI Models"
+    duty_percent: 0.0  # Digital goods typically duty-free
+    export_control: "AI models may be subject to FEFTA if dual-use"
+    note: "GPT-4, Claude exported as API access (subject to designated countries list)"
+    
+  - opportunity: "Cross-Border AI Services (APIs)"
+    regulation: "No duty, but subject to APPI (privacy law)"
+    japan_ai_impact: "OpenAI, Anthropic can serve Japanese customers via APIs"
+    
+# Economic Partnership Agreements (EPAs) - Digital Trade
+digital_trade_provisions:
+  - "Cross-border data flows protected (JEEPA, CPTPP, RCEP)"
+    note: "Unlike China/Russia, Japan allows free data flows"
+    
+  - "Source code not required to be disclosed (JEEPA Article 8.47)"
+    note: "Like USMCA, protects AI algorithms from government-mandated disclosure!"
+    
+  - "Intermediary liability protections (similar to US Section 230, but weaker)"
+    note: "Platforms have some safe harbor for user content"
+    
+# Comparison to Brazil/USA
+comparison:
+  import_duty_rates:
+    brazil: "40-85% (very high!)"
+    usa: "0-350% (average 2.5%)"
+    japan: "0-40% (average 2.5% - similar to US!)"
+    
+  de_minimis_threshold_usd:
+    brazil: "$50"
+    usa: "$800"
+    japan: "$67 (¥10,000) - between Brazil and US"
+    
+  export_controls_ai_chips:
+    brazil: "None (not a chip producer)"
+    usa: "Strict (cannot export H100/A100 to China/Russia)"
+    japan: "Strict (similar to US - cannot export to designated countries)"
+    
+  data_localization:
+    brazil: "None (except LGPD compliance)"
+    usa: "None (except sectoral like HIPAA)"
+    japan: "None (except medical data, government preference)"
+    
+  trade_agreements_count:
+    brazil: "Few FTAs (Mercosur + some)"
+    usa: "USMCA + 12+ others"
+    japan: "JEEPA + CPTPP + RCEP + 20+ others (VERY ACTIVE!)"
+    
+  unique_japan_features:
+    - "CPTPP member (duty-free from US, Canada, Australia, etc.)!"
+    - "JEEPA with EU (duty-free from Europe!)"
+    - "RCEP with China (but AI chip exports still restricted!)"
+    - "De minimis ¥10,000 ($67) - middle ground"
+    - "No data localization (unlike China/Russia, supports cloud AI)"

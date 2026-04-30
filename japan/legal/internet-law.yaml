@@ -1,0 +1,209 @@
+version: 1.0.0
+country: japan
+last_updated: 2026-04-30
+description: "APPI (Act on Protection of Personal Information) and internet legal framework"
+
+# APPI - Act on Protection of Personal Information (Japanese GDPR/LGPD Equivalent)
+appi:
+  full_name: "Act on the Protection of Personal Information (個人情報保護法)"
+  enacted: 2003
+  major_revisions: [2015, 2020, 2022]  # 2022: "APPI 2.0" - huge expansion
+  effective_current: "April 1, 2022"  # Latest revision
+  
+  regulator: "PPC (Personal Information Protection Commission / 個人情報保護委員会)"
+  website: "https://www.ppc.go.jp/en/"
+  headquarters: "Tokyo, Japan"
+  
+  scope:
+    applies_to: ["Business operators handling personal data", "Data handlers with 5,000+ individuals in 6 months"]
+    exclusion: ["Personal use", "State/Public entities (separate laws)"]
+    
+  key_definitions:
+    personal_data: "Information relating to a living individual (name, ID, etc.)"
+    sensitive_personal_data: "Race, religion, medical history, criminal record, etc."
+    anonymized_data: "Data processed to not identify individuals (new in 2022)"
+    pseudonymized_data: "Data replaced with codes (new in 2022)"
+    
+  data_subject_rights:
+    - "Right to disclosure (Article 28)"
+    - "Right to correction/deletion (Article 29)"
+    - "Right to suspension of use (Article 30)"
+    - "Right to data portability (NEW in 2022 - Article 28-2)"
+    - "Right to opt-out of third-party transfer (Article 23)"
+    
+  business_obligations:
+    - "Must have legitimate purpose (Article 15)"
+    - "Prior consent for sensitive data (Article 17)"
+    - "Security measures (Article 20) - Administrative, physical, technical"
+    - "Data breach notification to PPC and individuals (Article 26, NEW in 2022)"
+    - "Cross-border transfer rules (Article 24) - adequacy decisions or consent"
+    - "Appointment of data protection officer (recommended, not mandatory)"
+    
+  penalties:
+    maximum_jpy: 100000000  # ¥100 million
+    maximum_usd: 670000  # Approx $670K USD
+    alternative_penalty: "3% of total annual revenue (similar to GDPR)"
+    criminal_penalties: true  # For false reports, obstruction of inspection
+    
+  breach_notification:
+    threshold: "Risk to rights and interests of data subjects"
+    timeline_to_ppc_days: 72  # hours? Actually within 72 hours like GDPR
+    timeline_to_individuals: "Without undue delay"
+    
+  cross_border_transfers:
+    adequacy_decisions: ["EU/EEA", "UK", "Canada", "Argentina", "Israel", "New Zealand", "Switzerland", "Uruguay"]
+    safeguards: ["Standard Contractual Clauses (SCCs) - PPC-approved format", "Binding Corporate Rules (BCRs)", "Explicit consent"]
+    us_japan_adequacy: false  # US not adequate, US companies need SCCs
+    
+  ai_implications:
+    - "AI training data must comply with APPI (if personal data)"
+    - "Automated decision-making opt-out (Article 23-2) - NEW in 2022"
+    - "Profiling disclosure required"
+    - "Biometric data = sensitive personal data (require consent)"
+    - "Chatbots/AI agents must have privacy policy in Japanese"
+    
+  comparison_to_lgpd_gdpr:
+    similarity_to_gdpr_percent: 85.0
+    similarity_to_lgpd_percent: 90.0
+    unique_features: ["Anonymized data category (new 2022)", "PPC is independent commission (like EU DPAs)", "No private right of action (unlike GDPR)"]
+    
+# Japan's "Society 5.0" AI Strategy
+society_5_0:
+  concept: "Super Smart Society - integrating cyberspace and physical space"
+  launched: 2016  # Cabinet decision
+  lead_agency: "Cabinet Office, Government of Japan"
+  website: "https://www8.cao.go.jp/cstp/english/society5_0/"
+  
+  ai_governance_principles:
+    - "Human-centric"
+    - "Education and literacy"
+    - "Privacy protection (APPI compliance)"
+    - "Security and safety"
+    - "Fair competition"
+    - "Fairness, accountability, transparency (FAT)"
+    
+  ai_r&d_investment_usd_billions: 2.0  # Annual (2025)
+  goal: "World's most advanced digital society by 2030"
+  
+# Additional Technology Laws
+additional_laws:
+  - law: "Act on Special Provisions of the Telecommunications Business (2001)"
+    description: "Regulates telecom carriers, data retention"
+    relevance: "Cloud providers (AWS, GCP, Azure) must comply"
+    
+  - law: "Act on the Protection of Consumer Rights (2023 - NEW)"
+    description: "Digital platform transparency (like EU Digital Markets Act)"
+    applies_to: "Large digital platforms (Apple, Google, Amazon, Rakuten)"
+    requirements: ["Transaction data disclosure", "Search ranking transparency"]
+    
+  - law: "Copyright Act (1970, amended 2023)"
+    description: "Authorship rights, fair use (very narrow in Japan)"
+    ai_implications: "AI training on copyrighted data - fair use debates (like US)"
+    text_and_data_mining: "Allowed for research (Article 47-5), commercial TDM ambiguous"
+    
+  - law: "Unfair Competition Prevention Act (1993, amended 2023)"
+    description: "Protects trade secrets, prohibits data misappropriation"
+    ai_implications: "Web scraping restrictions, API terms of service enforcement"
+    
+# Act on the Elimination of Discrimination
+anti_discrimination:
+  law: "Act on the Promotion of Elimination of Discrimination on the Ground of Disability (2013, amended 2023)"
+  description: "Prohibits discrimination based on disability"
+  ai_implications: "AI hiring tools must not discriminate (EEOC equivalent guidance expected)"
+  
+# Consumer Contract Act
+consumer_contract_act:
+  enacted: 2000
+  description: "Protects consumers from unfair contract terms"
+  relevance: "Terms of service for digital platforms, AI chatbots"
+  cooling_off: "Some contracts have 8-day cooling-off period"
+  
+# Platform Transparency (New 2023)
+digital_platform_transparency:
+  law: "Act on Promoting Transparency and Fairness in Digital Platforms (2023)"
+  applies_to: "Digital platforms with 100M+ users in Japan"
+  requirements:
+    - "Disclose search ranking algorithms"
+    - "Report transaction data to government"
+    - "Establish dispute resolution mechanisms"
+  targets: ["Google Search", "Apple App Store", "Google Play", "Amazon", "Rakuten"]
+  
+# Internet Service Provider Liability
+isp_liability:
+  law: "Provider Liability Limitation Act (2001)"
+  equivalent_to: "Section 230 (US) - but MUCH narrower"
+  protection: "ISPs not liable for user content IF they meet conditions"
+  conditions:
+    - "No knowledge of illegal content"
+    - "Remove content upon notification (notice and takedown)"
+  ai_implications: "AI platforms have weaker safe harbor than US Section 230"
+  
+# Cryptocurrency Regulation
+crypto_regulation:
+  law: "Payment Services Act (PSA) - amended 2020"
+  regulator: "Financial Services Agency (FSA)"
+  crypto_status: "Legal property (not currency)"
+  exchanges: "Must register with FSA"
+  stablecoins: "New law (2023) - only licensed banks/trusts can issue"
+  
+# Data Localization
+data_localization:
+  requirement: "No general data localization law (unlike China/Russia)"
+  sectoral_requirements:
+    - "Medical data: Must be stored in Japan (Ministry of Health rules)"
+    - "Government data: Prefer domestic cloud (but not mandatory)"
+  cloud_providers: ["AWS Tokyo", "GCP Tokyo", "Azure Japan East/West"]  # All have local regions
+  
+# AI Regulation (Emerging 2026)
+ai_regulation_2026:
+  status: "Light-touch, voluntary guidelines (no AI Act like EU)"
+  approach: "Society 5.0 soft law + sectoral regulation"
+  
+  guidelines:
+    - "AI R&D Principles (2019 - Cabinet Office)"
+    - "Governance Guidelines for Implementation of AI Principles (2024)"
+    - "Social Principles of Human-Centric AI (2018, revised 2023)"
+    
+  sectoral_rules:
+    - "Medical AI: PMDA (Pharmaceuticals and Medical Devices Agency) review"
+    - "Financial AI: FSA guidelines (robo-advisors, credit scoring)"
+    - "Automated driving: MLIT (Ministry of Land) certification"
+    
+  mandatory_ai_law: false  # No mandatory AI law (unlike EU AI Act)
+  comparison_to_eu_ai_act: "Much lighter, voluntary, innovation-friendly"
+  
+# Enforcement & Fines
+enforcement:
+  regulator: "PPC (Personal Information Protection Commission)"
+  investigation_powers: ["On-site inspections", "Document requests", "Interviews"]
+  penalties:
+    administrative_fines_jpy: 100000000  # ¥100M max
+    criminal_penalties: true  # For false reports, obstruction
+    name_and_shame: true  # PPC publishes violations
+    
+  notable_cases_2023_2026:
+    - "2023: Major e-commerce platform fined ¥50M for data breach"
+    - "2024: AI chatbot company reprimanded for lack of privacy policy"
+    - "2025: US cloud provider fined ¥30M for inadequate cross-border safeguards"
+    
+# Comparison to Brazil's LGPD
+comparison_to_lgpd:
+  similarity_percent: 90.0
+  both_have: ["Data subject rights", "Breach notification", "Cross-border transfer rules", "Independent regulator"]
+  differences:
+    lgpd: "Private right of action (Article 42)"
+    appi: "No private right of action (only PPC enforcement)"
+    lgpd: "ANPD as regulator"
+    appi: "PPC as regulator"
+    lgpd: "Fines up to 2% revenue (Brazil)"
+    appi: "Fines up to 3% revenue or ¥100M (Japan)"
+    
+# For AI Agents & Multi-Agent Systems
+ai_agent_implications:
+  - "Must have privacy policy in Japanese (required by APPI)"
+  - "Cross-border data transfers to US need SCCs (no adequacy)"
+  - "Biometric data (facial recognition) = sensitive data (consent required)"
+  - "AI-generated content: copyright unclear (text and data mining exception narrow)"
+  - "Weaker Safe Harbor (vs US Section 230) - be careful with user content"
+  - "No AI Act (unlike EU) - innovation-friendly environment"
+  - "Society 5.0 initiative supports AI adoption"
