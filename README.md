@@ -34,7 +34,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (5 / 195 = 2.6%)
+## 📊 Coverage Progress (6 / 195 = 3.1%)
 
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
@@ -43,8 +43,9 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇯🇵 **Japan** | 14/14 | ✅ **100% COMPLETE** | Konbini (25% e-commerce!), LINE (95%), Society 5.0 | English (en-US) |
 | 🇩🇪 **Germany** | 13/13 | ✅ **100% COMPLETE** | GDPR (gold standard), EU AI Act, SEPA, Industry 4.0, 4 cloud regions | English (en-US) |
 | 🇨🇳 **China** | 13/13 | ✅ **100% COMPLETE** | WeChat (1.3B users), PIPL, Alibaba Cloud (37%), Digital Yuan, Great Firewall | English (en-US) |
+| 🇮🇳 **India** | 13/13 | ✅ **100% COMPLETE** | UPI (12B+ txns/month), WhatsApp (530M), BharatGPT, Digital India, 1.43B population | English (en-US) |
 
-**Total: 70 structured YAML files covering 5 countries!**
+**Total: 83 structured YAML files covering 6 countries!**
 
 ---
 
