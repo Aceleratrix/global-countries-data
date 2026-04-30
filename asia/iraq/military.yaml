@@ -1,0 +1,73 @@
+# Military Data for Iraq
+
+military_overview:
+  name: Iraqi Armed Forces (Al-Quwwat al-Musallahah al-Iraqiyyah)
+  established: 1921
+  active_personnel: 193000  # (2023 estimate)
+  reserve_personnel: 500000  # (mobilization capacity)
+
+defense_budget: 8500000000  # USD (2023 estimate)
+  percent_of_gdp: 4.5  # percent
+
+structure:
+
+  army:
+    personnel: 150000  # active
+    equipment:
+      main_battle_tanks: 1000+ (T-72, M1 Abrams)
+      armored_fighting_vehicles: 3000+
+      artillery: 2000+
+    divisions: 14+ (including elite units)
+
+  air_force:
+    personnel: 18000
+    aircraft: 200+ (fighters, transports, helicopters)
+    main_aircraft:
+      - F-16 Fighting Falcon (34 acquired from US)
+      - Su-25 (ground attack)
+      - C-130 Hercules (transport)
+      - Mi-17 helicopters
+    bases: 8 major air bases
+
+  navy:
+    personnel: 5000
+    equipment:
+      patrol_boats: 30+
+      minehunters: 2
+      coastal_defense: Limited
+    mission: Protect Persian Gulf waters, oil terminals
+
+  other_forces:
+    - Anti-Terrorism Law Enforcement (special forces)
+    - Popular Mobilization Forces (PMF, ~67,000 under state command)
+    - Federal Police (internal security)
+
+military_doctrine: Defensive, counter-terrorism focus post-2003
+military_service: Voluntary (conscription abolished 2003)
+
+nuclear_weapons: No (signatory to NPT)
+chemical_weapons: None (destroyed post-2003, signatory to CWC)
+biological_weapons: None (signatory to BWC)
+
+major_operations:
+  - Operation Inherent Resolve (anti-ISIS coalition)
+  - Mosul liberation (2016-2017)
+  - Current border security operations
+
+alliances:
+  - Coalition against ISIS (led by US)
+  - Arab League defense cooperation
+  - NATO partnership (individual partnership cooperation)
+
+military_industry: Limited (small arms, ammunition, maintenance)
+foreign_military_assistance:
+  - United States (training, equipment)
+  - NATO (training mission)
+  - Iran (influence, some support)
+  - Russia (military hardware)
+
+challenges:
+  - Sectarian divisions post-2003
+  - Corruption in procurement
+  - Maintaining equipment (US-supplied F-16s maintenance issues)
+  - Border security (porous borders with Syria, Iran)

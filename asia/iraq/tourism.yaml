@@ -1,0 +1,73 @@
+# Tourism Data for Iraq
+
+tourism_overview:
+  total_tourists: 1200000  # annually (2023 estimate, mostly religious pilgrims)
+  tourism_receipts: 1500000000  # USD (2023)
+  contribution_to_gdp: 1.2  # percent (2023)
+
+types_of_tourism:
+
+  religious_tourism:
+    share: 90.0  # percent of all tourism
+    destinations:
+      - Najaf: Imam Ali Shrine (Shia Islam holy site)
+      - Karbala: Imam Hussein Shrine (Ashura commemorations)
+      - Samarra: Al-Askari Shrine (significant Shia shrine)
+      - Kadhimiya (Baghdad): Imam Musa al-Kadhim Shrine
+    annual_pilgrims: 1000000+  # (especially during Ashura, Arbaeen)
+
+  cultural_tourism:
+    unesco_world_heritage_sites: 5
+    destinations:
+      - Babylon Archaeological Site (near Hilla)
+      - Erbil Citadel (oldest continuously inhabited site)
+      - Hatra (ancient city of the Parthian Empire)
+      - Ashur (ancient Assyrian capital)
+      - Mesopotamian Marshes (Ahwar, unique ecosystem)
+
+  ecotourism:
+    destinations:
+      - Mesopotamian Marshes (restored wetlands)
+      - Zagros Mountains (Kurdistan Region)
+      - Lake Dukan (Kurdistan)
+    potential: High (limited infrastructure)
+
+  medical_tourism:
+    status: Growing
+    destinations: Baghdad, Erbil, Basra (private hospitals)
+
+tourist_origins:
+  - Iran (60% of religious tourists)
+  - Turkey
+  - Gulf Arab states
+  - Europe (small numbers)
+  - North America (diaspora)
+
+accommodation:
+  hotels: 500+  # (mostly 3-4 star)
+  luxury_hotels: 20+  # (Baghdad, Erbil, Basra)
+  guesthouses: 100+  # (religious cities)
+
+transportation_for_tourists:
+  airports: Baghdad, Erbil, Basra, Najaf (international flights)
+  roads: Highway network connecting major sites
+  tour_operators: 50+  # (local and international)
+
+challenges:
+  - Security concerns (post-conflict perceptions)
+  - Limited tourism infrastructure
+  - Visa restrictions for some nationalities
+  - Political instability (periodic protests)
+  - Lack of marketing
+
+opportunities:
+  - Rich cultural heritage (cradle of civilization)
+  - Religious tourism potential (millions of Shia pilgrims annually)
+  - Untapped natural attractions (marshes, mountains)
+  - Government tourism development strategy (2023-2030)
+
+visa_policy:
+  - Visa on arrival: Limited (Gulf states, Jordan)
+  - E-visa: Available for some countries
+  - Visa required: Most Western countries
+  - Religious pilgrims: Special permits (Iranian pilgrims facilitated)

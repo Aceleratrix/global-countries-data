@@ -1,0 +1,79 @@
+# Infrastructure Data for Iraq
+
+transportation:
+
+  roads:
+    total: 45550  # km
+    paved: 38400  # km
+    unpaved: 7150  # km
+    highways: 5000  # km (major intercity)
+    condition: Many roads damaged by conflict, reconstruction ongoing
+
+  railways:
+    total: 2272  # km (single track, mostly diesel)
+    gauge: 1435 mm (standard gauge)
+    main_line: Baghdad-Basra (rehabilitation project)
+    links_to: Turkey, Syria, Jordan (limited service)
+    passenger_trains: Limited (Baghdad-Basra line restored 2023)
+
+  airports:
+    total: 104  # (including military)
+    international_airports: 8
+    major_airports:
+      - Baghdad International Airport (BGW)
+      - Basra International Airport (BSR)
+      - Erbil International Airport (EBL)
+      - Sulaymaniyah International Airport (ISU)
+      - Mosul International Airport (reconstruction ongoing)
+    passenger_traffic: 10000000  # annually (pre-pandemic)
+
+  ports:
+    major_seaport: Umm Qasr (Persian Gulf, primary commercial port)
+    other_ports: Khor Al Zubair, Abu Flous
+    cargo_handled: 60000000  # tons annually (pre-pandemic)
+
+telecommunications:
+
+  internet:
+    users: 30000000  # (70% penetration)
+    broadband_subscribers: 8000000
+    speed_average: 8  # Mbps (fixed broadband)
+    mobile_internet: 4G available in major cities
+    providers: Zain Iraq, Asiacell, Korek Telecom
+
+  mobile_phones:
+    subscriptions: 45000000  # (105% penetration)
+    coverage: 95% population
+
+  landlines:
+    subscriptions: 1500000  # (declining)
+
+  broadcasting:
+    tv_stations: 50+ (satellite, cable, terrestrial)
+    radio_stations: 30+
+    major_networks: Al-Iraqiya (state), Al-Sharqiya, Al-Baghdadia
+
+utilities:
+
+  electricity:
+    access: 93.0  # percent population
+    generation_capacity: 24000  # MW
+    consumption_per_capita: 1500  # kWh (2022)
+    outages: Common (6-8 hours daily in some areas)
+
+  water:
+    access_improved: 85.0  # percent population
+    water_sources: Tigris/Euphrates rivers, groundwater, desalination (limited)
+    water_stress: High (overuse of rivers, Turkey's dam projects)
+
+  sanitation:
+    improved_sanitation: 70.0  # percent population
+    wastewater_treatment: Limited (35% of wastewater treated)
+
+construction:
+  ongoing_projects:
+    - Baghdad Metro (planned)
+    - Housing developments
+    - Road rehabilitation
+    - Power plant construction
+    - School and hospital reconstruction

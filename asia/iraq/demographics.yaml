@@ -1,0 +1,70 @@
+# Demographics Data for Iraq
+
+population:
+  total: 43000000  # (2023 estimate)
+  rank: 36  # globally
+  density: 98  # people per km²
+
+population_growth_rate: 2.3  # percent (2023)
+
+age_structure:
+  under_15: 36.5  # percent
+ 15_to_64: 59.2  # percent
+ 65_and_over: 4.3  # percent
+
+median_age: 20.4  # years
+
+urbanization:
+  urban_population: 73.0  # percent
+  rural_population: 27.0  # percent
+  major_urban_areas:
+    - name: Baghdad
+      population: 7500000  # metro area
+    - name: Mosul
+      population: 1700000
+    - name: Basra
+      population: 1400000
+    - name: Erbil
+      population: 800000
+    - name: Najaf
+      population: 750000
+    - name: Karbala
+      population: 700000
+
+ethnic_groups:
+  - Arab: 75.0  # percent
+  - Kurdish: 20.0  # percent
+  - Turkmen: 2.0  # percent
+  - Assyrian: 1.5  # percent
+  - Other: 1.5  # percent
+
+religions:
+  - Muslim: 97.0  # percent
+    - Shia: 65.0  # percent (estimate)
+    - Sunni: 35.0  # percent (estimate)
+  - Christian: 1.0  # percent
+  - Other: 2.0  # percent
+
+languages:
+  official:
+    - Arabic
+    - Kurdish
+  spoken:
+    - Arabic: 80.0  # percent (Mesopotamian Arabic)
+    - Kurdish: 20.0  # percent (Sorani, Kurmanji)
+    - Turkmen/Turkic: 2.0  # percent
+    - Assyrian Neo-Aramaic: 1.0  # percent
+    - Armenian: 0.5  # percent
+
+life_expectancy:
+  total: 72.5  # years
+  male: 70.8  # years
+  female: 74.3  # years
+
+fertility_rate: 3.4  # births per woman
+
+literacy_rate: 85.6  # percent (age 15+)
+  male: 90.2  # percent
+  female: 81.0  # percent
+
+refugees_and_idps: 1200000  # Internally displaced persons (post-ISIS conflict, 2023)

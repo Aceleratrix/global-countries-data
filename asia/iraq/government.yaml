@@ -1,0 +1,84 @@
+# Government Data for Iraq
+
+country_name: Republic of Iraq
+local_name: Jumhūriyyat al-ʿIrāq (جمهورية العراق)
+
+government_type: Federal parliamentary republic
+constitution: Adopted 2005 (post-Saddam era)
+
+capital:
+  name: Baghdad
+  coordinates:
+    latitude: 33.3152
+    longitude: 44.3661
+
+administrative_divisions:
+  type: Governorates (provinces)
+  count: 19
+  list:
+    - Al-Anbar
+    - Babil
+    - Baghdad
+    - Basra
+    - Dhi Qar
+    - Diyala
+    - Duhok (Kurdistan Region)
+    - Erbil (Kurdistan Region)
+    - Halabja (Kurdistan Region)
+    - Karbala
+    - Kirkuk (disputed)
+    - Maysan
+    - Muthanna
+    - Najaf
+    - Nineveh
+    - Al-Qādisiyyah
+    - Saladin
+    - Sulaymaniyah (Kurdistan Region)
+    - Wasit
+
+executive_branch:
+  head_of_state:
+    title: President
+    current: Abdul Latif Rashid
+    elected: 2022
+  head_of_government:
+    title: Prime Minister
+    current: Mohammed Shia' Al Sudani
+    appointed: 2022
+  cabinet: Council of Ministers
+
+legislative_branch:
+  name: Council of Representatives (Majlis an-Nuwwab al-Iraqi)
+  type: Unicameral
+  seats: 329
+  election_system: Proportional representation
+  last_election: 2021
+
+judicial_branch:
+  highest_court: Federal Supreme Court
+  system: Mixed (civil, Islamic, customary law)
+  independent_judiciary: Yes (constitutionally)
+
+political_parties:
+  major:
+    - Sadrist Movement
+    - State of Law Coalition
+    - Al-Fatah Alliance
+    - Kurdistan Democratic Party (KDP)
+    - Patriotic Union of Kurdistan (PUK)
+
+suffrage: 18 years of age; universal
+
+independence:
+  date: October 3, 1932
+  from: British Mandate of Mesopotamia
+
+international_organizations:
+  - United Nations (UN)
+  - Arab League
+  - Organization of Islamic Cooperation (OIC)
+  - OPEC
+  - Non-Aligned Movement
+  - World Trade Organization (observer)
+
+military_service: Voluntary (abolished conscription in 2003)

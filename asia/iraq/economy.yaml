@@ -1,0 +1,62 @@
+# Economy Data for Iraq
+
+gdp_nominal: 370000000000  # $370 billion USD (2023)
+gdp_ppp: 600000000000  # $600 billion USD (2023)
+gdp_rank: 35
+gdp_per_capita_nominal: 8600  # USD
+gdp_per_capita_ppp: 14000  # USD
+currency:
+  code: IQD
+  name: Iraqi Dinar
+  symbol: ع.د
+
+inflation_rate: 3.5  # percent (2023 estimate)
+unemployment_rate: 15.6  # percent (2023)
+
+main_industries:
+  - Oil and gas
+  - Agriculture
+  - Manufacturing
+  - Construction
+  - Textiles
+  - Food processing
+  - Chemicals
+
+exports:
+  total: 115000000000  # $115 billion USD (2023)
+  main_products:
+    - Crude oil (95% of exports)
+    - Petroleum products
+    - Dates
+    - Vegetables
+    - Gold
+
+imports:
+  total: 55000000000  # $55 billion USD (2023)
+  main_products:
+    - Food and live animals
+    - Machinery
+    - Manufactured goods
+    - Chemicals
+    - Transport equipment
+
+major_trading_partners:
+  exports:
+    - United States
+    - China
+    - India
+    - South Korea
+    - Turkey
+  imports:
+    - Turkey
+    - China
+    - United Arab Emirates
+    - United States
+    - Germany
+
+oil_reserves: 145000000000  # barrels (5th largest globally)
+oil_production: 4200000  # barrels per day (2023)
+natural_gas_reserves: 3500000000000  # cubic meters
+
+ease_of_doing_business_rank: 172  # World Bank (2020, pre-pandemic)
+economic_growth_rate: 7.7  # percent (2023 estimate, post-pandemic recovery)

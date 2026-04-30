@@ -1,0 +1,89 @@
+# Geography Data for Iraq
+
+area:
+  total: 438317  # km²
+  rank: 58  # globally
+  land: 437367  # km²
+  water: 950  # km²
+
+region: Western Asia / Middle East
+subregion: Mesopotamia / Fertile Crescent
+
+geographic_coordinates:
+  latitude: 33.2232  # N
+  longitude: 43.6793  # E
+
+borders:
+  total: 3758  # km
+  countries:
+    - name: Iran
+      length: 1599  # km
+    - name: Turkey
+      length: 367  # km
+    - name: Syria
+      length: 605  # km
+    - name: Jordan
+      length: 181  # km
+    - name: Saudi Arabia
+      length: 811  # km
+    - name: Kuwait
+      length: 195  # km
+
+coastline: 58  # km (Persian Gulf)
+
+climate:
+  type: Arid to semi-arid
+  description: Hot, dry summers and mild to cool winters
+  average_temperature:
+    summer: 35  # Celsius (Baghdad)
+    winter: 15  # Celsius (Baghdad)
+  rainfall: 100-200  # mm annually (most regions)
+
+terrain:
+  - Alluvial plain (Tigris-Euphrates river system)
+  - Northern highlands (Kurdistan mountains)
+  - Western desert
+  - Southern marshlands (Mesopotamian Marshes)
+
+elevation:
+  highest_point:
+    name: Cheekha Dar
+    elevation: 3611  # meters
+    location: Kurdistan Region (near Iran border)
+  lowest_point:
+    name: Persian Gulf
+    elevation: 0  # meters (sea level)
+
+major_rivers:
+  - name: Tigris
+    length: 1850  # km (in Iraq: ~900 km)
+  - name: Euphrates
+    length: 2800  # km (in Iraq: ~700 km)
+  - name: Shatt al-Arab
+    length: 200  # km (formed by confluence of Tigris and Euphrates)
+
+lakes:
+  - name: Lake Tharthar
+    area: 2700  # km² (largest lake)
+  - name: Lake Habbaniyah
+  - name: Lake Milh (Sawa Lake)
+
+natural_resources:
+  - Petroleum (vast reserves)
+  - Natural gas
+  - Phosphates
+  - Sulfur
+  - Gypsum
+
+land_use:
+  agricultural: 50.0  # percent
+  forest: 1.9  # percent
+  other: 48.1  # percent
+
+environmental_issues:
+  - Water scarcity
+  - Desertification
+  - Soil salinization
+  - Pollution from oil industry
+  - Marshland degradation (partially restored)
+  - Dust storms

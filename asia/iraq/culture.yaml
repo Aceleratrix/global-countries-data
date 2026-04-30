@@ -1,0 +1,78 @@
+# Culture Data for Iraq
+
+cultural_heritage:
+  ancient_civilizations:
+    - Sumer (4500-1900 BCE)
+    - Akkad (2334-2154 BCE)
+    - Babylon (1894-539 BCE)
+    - Assyria (2500-609 BCE)
+  unesco_world_heritage_sites:
+    - Hatra (1985)
+    - Ashur (Qal'at Sherqat) (2003)
+    - Samarra Archaeological City (2007)
+    - Erbil Citadel (2014)
+    - The Ahwar of Southern Iraq (2016)
+
+languages:
+  official:
+    - Arabic (العربية)
+    - Kurdish (کوردی)
+  minority_languages:
+    - Turkmen/Turkic
+    - Assyrian Neo-Aramaic
+    - Armenian
+  script: Arabic script (for Arabic and Kurdish Sorani)
+
+religion:
+  predominant: Islam
+  branches:
+    - Shia Islam: ~65%
+    - Sunni Islam: ~35%
+  minority_religions:
+    - Christianity (Assyrian, Chaldean)
+    - Yazidism
+    - Mandaeism
+    - Yarsanism
+
+holidays:
+  national:
+    - Republic Day (July 14)
+    - Independence Day (October 3)
+    - Revolution Day (July 17)
+  religious:
+    - Eid al-Fitr
+    - Eid al-Adha
+    - Mawlid (Prophet's birthday)
+    - Ashura (Shia holy day)
+
+cuisine:
+  staples: Rice, wheat, vegetables, lamb
+  national_dish: Masgouf (grilled carp)
+  popular_dishes:
+    - Dolma (stuffed vegetables)
+    - Kebab
+    - Biryani
+    - Tashreeb (bread soup)
+    - Bamia (okra stew)
+  beverages: Black tea (chai), Arabic coffee
+
+arts:
+  literature:
+    famous_poets: Al-Mutanabbi, Abu Nuwas, Rumi (born in Balkh, roots in region)
+  music:
+    traditional: Maqam (UNESCO Intangible Cultural Heritage)
+    instruments: Oud, qanun, nay, dumbek
+  visual_arts: Calligraphy, miniature painting, modern art movement
+
+sports:
+  most_popular: Football (soccer)
+  national_team: Iraq national football team (2007 Asian Cup champions)
+  other_sports: Wrestling, boxing, basketball
+
+cultural_identity:
+  known_as: Cradle of Civilization
+  symbols:
+    - National flag: Red, white, black with green star (Kufic script "Allahu Akbar")
+    - National emblem: Eagle of Saladin
+    - National flower: Red lily (Lilium candidum)
+    - National animal: Arabian horse

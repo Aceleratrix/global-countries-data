@@ -1,0 +1,68 @@
+# Healthcare Data for Iraq
+
+healthcare_system:
+  type: Mixed (public and private)
+  public_coverage: 95.0  # percent population
+  private_coverage: 5.0  # percent (affluent segments)
+
+health_expenditure:
+  total: 3.5  # percent of GDP (2022)
+  per_capita: 250  # USD (2022)
+  public_share: 70.0  # percent
+  private_share: 30.0  # percent
+
+health_indicators:
+  life_expectancy:
+    total: 72.5  # years
+    male: 70.8
+    female: 74.3
+  infant_mortality_rate: 20.0  # per 1000 live births
+  under_5_mortality_rate: 25.0  # per 1000 live births
+  maternal_mortality_ratio: 79  # per 100000 live births
+  birth_rate: 26.0  # per 1000 population
+  death_rate: 4.5  # per 1000 population
+
+healthcare_infrastructure:
+  hospitals: 200+  # (public and private)
+  hospital_beds: 1.5  # per 1000 population
+  physicians: 0.8  # per 1000 population
+  nurses: 2.5  # per 1000 population
+
+disease_burden:
+  communicable_diseases:
+    - Lower respiratory infections
+    - Diarrheal diseases
+    - Tuberculosis (incidence: 46 per 100000)
+  non_communicable_diseases:
+    - Cardiovascular diseases (30% of deaths)
+    - Cancer (rising incidence)
+    - Diabetes (10% adult prevalence)
+    - Obesity (30% adult population)
+  mental_health:
+    - PTSD (significant post-conflict prevalence)
+    - Depression (estimated 15% population)
+
+vaccination_coverage:
+  DPT3: 80.0  # percent (diphtheria, pertussis, tetanus)
+  measles: 75.0  # percent
+  polio: 95.0  # percent
+
+water_and_sanitation:
+  improved_water_source: 85.0  # percent population
+  improved_sanitation: 70.0  # percent population
+  urban_water_access: 95.0  # percent
+  rural_water_access: 65.0  # percent
+
+challenges:
+  - Infrastructure damage from conflicts
+  - Medicine shortages
+  - Brain drain (doctors emigrating)
+  - Displacement of healthcare workers
+  - Rising chronic disease burden
+  - Water contamination issues
+
+reforms:
+  - National Health Strategy (2022-2030)
+  - Primary healthcare strengthening
+  - Medicine production initiatives
+  - Health insurance pilot programs
