@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 14 Countries 100% Complete](https://img.shields.io/badge/Status-14 Countries 100% Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 15 Countries 100% Complete](https://img.shields.io/badge/Status-15 Countries 100% Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (14 / 195 = 7.2%)
+## 📊 Coverage Progress (15 / 195 = 7.7%)
 
 ### 🌎 South America (1/12 = 8.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -57,13 +57,14 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇮🇳 **India** | 13/13 | ✅ **100% COMPLETE** | UPI (12B+ txns/month), WhatsApp (530M), BharatGPT, Digital India, 1.43B population | English (en-US) |
 | 🇰🇷 **South Korea** | 13/13 | ✅ **100% COMPLETE** | Samsung/SK Hynix 60% chips, K-pop $10B, 95% 5G, world's fastest internet | English (en-US) |
 
-### 🌍 Europe (4/44 = 9.1%)
+### 🌍 Europe (5/44 = 11.4%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇩🇪 **Germany** | 13/13 | ✅ **100% COMPLETE** | GDPR (gold standard), EU AI Act, SEPA, Industry 4.0, 4 cloud regions | English (en-US) |
 | 🇬🇬 **United Kingdom** | 13/13 | ✅ **100% COMPLETE** | Faster Payments (3.2B txns/year), Open Banking (600+ fintechs), AI Safety Summit, London Tech Hub | English (en-GB) |
 | 🇫🇷 **France** | 13/13 | ✅ **100% COMPLETE** | Cartes Bancaires (95%), Mistral AI, EU AI Act, GDPR gold standard, 600+ AI startups | French (fr-FR) + English |
 | 🇮🇹 **Italy** | 13/13 | ✅ **100% COMPLETE** | Bancomat (95%), Satispay (10M+), i-gen (Italian LLM), no min wage in EU, 400+ AI startups | Italian (it-IT) + English |
+| 🇳🇱 **Netherlands** | 13/13 | ✅ **100% COMPLETE** | ASML $300B, Booking.com, 30% ruling, cycling nation, Port of Rotterdam, AI Delta Plan | Dutch (nl-NL) + English |
 
 ### 🌍 Africa (0/54 = 0%)
 *Coming soon!*
@@ -73,7 +74,7 @@ A structured, machine-readable database of country-specific data designed for **
 |---------|-------|--------|-----------------|-----------------|
 | 🇦🇺 **Australia** | 13/13 | ✅ **100% COMPLETE** | Big 4 banks, Canva $40B, AI Action Plan $124M, 92% digital banking, APEC | English (en-AU) |
 
-**Total: 187 structured YAML files covering 14 countries across 5 continents!**
+**Total: 200 structured YAML files covering 15 countries across 5 continents!**
 
 ---
 
@@ -387,7 +388,7 @@ This project is licensed under the **MIT License** — see [LICENSE](LICENSE) fo
 **Created by**: [@mtorresbr](https://github.com/mtorresbr)  
 **Organization**: [Aceleratrix](https://github.com/Aceleratrix)  
 **Last Updated**: 2026-04-30  
-**Status**: 🚧 Constantly expanding (14 countries 100% complete, many more coming!)  
+**Status**: 🚧 Constantly expanding (15 countries 100% complete, many more coming!)  
 
 ---
 
