@@ -1,0 +1,8 @@
+economy:
+  gdp: $0.40T
+  global_rank: 32
+  gdp_per_capita: ~$22,000 (2024 estimate)
+  major_industries: [automotive, IT, agriculture, manufacturing, energy]
+  currency: Romanian Leu (RON)
+  eu_member: true
+  inflation_rate: ~4.5% (2024 estimate)

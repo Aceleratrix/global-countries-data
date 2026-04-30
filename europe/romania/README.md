@@ -1,0 +1,2 @@
+# Romania Data Files
+This directory contains 13 mandatory data files for Romania, including country overview, economic, geographic, demographic, and other key metrics. All data is sourced from real, up-to-date estimates (2024).
