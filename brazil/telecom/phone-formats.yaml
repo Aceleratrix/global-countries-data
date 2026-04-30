@@ -1,0 +1,217 @@
+version: 1.0.0
+country: brazil
+last_updated: 2026-04-30
+description: "Formatos de telefone e códigos postais brasileiros"
+
+phone:
+  country_code: "+55"
+  international_format: "+55 (XX) XXXX-XXXX"  # Fixo
+  international_format_mobile: "+55 (XX) 9XXXX-XXXX"  # Celular
+  
+  formats:
+    mobile:
+      pattern: "^\\+55\\d{2}9\\d{8}$"
+      example: "+5511999999999"
+      formatted_example: "+55 (11) 99999-9999"
+      description: "Celular: +55 + DDD + 9 + 8 dígitos"
+      digits_total: 13  # +55 + 11 + 999999999
+      ddd_position: [3, 5]  # DDD começa na posição 3
+      number_position: [5, 13]
+      has_nine_digit: true
+      nine_digit_start_year: 2013  # SP começou em 2013
+      
+    landline:
+      pattern: "^\\+55\\d{2}[2-5]\\d{7}$"
+      example: "+5511555555555"
+      formatted_example: "+55 (11) 5555-5555"
+      description: "Fixo: +55 + DDD + [2-5] + 7 dígitos"
+      digits_total: 12
+      valid_first_digits: ["2", "3", "4", "5"]  # Operadoras fixas
+      
+    toll_free:
+      pattern: "^0800\\d{7}$"
+      example: "08001234567"
+      formatted_example: "0800 123 4567"
+      description: "Números 0800 gratuitos"
+      digits_total: 11
+      
+    premium_rate:
+      pattern: "^0500\\d{7}$|^0900\\d{7}$"
+      example: "05001234567"
+      description: "Números de cobrança especial"
+      digits_total: 11
+  
+  # DDDs por estado (códigos de área)
+  area_codes:
+    - code: "11"
+      city: "São Paulo"
+      state: "SP"
+      region: "Sudeste"
+      population_millions: 22.0
+      
+    - code: "21"
+      city: "Rio de Janeiro"
+      state: "RJ"
+      region: "Sudeste"
+      population_millions: 7.5
+      
+    - code: "31"
+      city: "Belo Horizonte"
+      state: "MG"
+      region: "Sudeste"
+      population_millions: 6.0
+      
+    - code: "41"
+      city: "Curitiba"
+      state: "PR"
+      region: "Sul"
+      population_millions: 3.5
+      
+    - code: "51"
+      city: "Porto Alegre"
+      state: "RS"
+      region: "Sul"
+      population_millions: 4.0
+      
+    - code: "61"
+      city: "Brasília"
+      state: "DF"
+      region: "Centro-Oeste"
+      population_millions: 3.0
+      
+    - code: "71"
+      city: "Salvador"
+      state: "BA"
+      region: "Nordeste"
+      population_millions: 3.5
+      
+    - code: "81"
+      city: "Recife"
+      state: "PE"
+      region: "Nordeste"
+      population_millions: 3.7
+      
+    - code: "91"
+      city: "Belém"
+      state: "PA"
+      region: "Norte"
+      population_millions: 2.5
+  
+  # Regras de validação
+  validation:
+    ddd_valid: true
+    nine_digit_mobile: true  # Celulares têm 9 dígitos desde 2015
+    mobile_starts_with_nine: true
+    landline_starts_with_2_to_5: true
+    
+# CEP (Código de Endereçamento Postal)
+postal_code:
+  name: "CEP"
+  full_name: "Código de Endereçamento Postal"
+  country: "Brazil"
+  format: "^\\d{5}-?\\d{3}$"
+  pattern_example: "01310-100"
+  digits: 8
+  formatted_example: "01310-100"
+  unformatted_example: "01310100"
+  validation: "Correios (Empresa Brasileira de Correios e Telégrafos)"
+  validation_url: "https://www.correios.com.br"
+  
+  # Estrutura do CEP
+  structure:
+    digits_1_to_5: "Código da região/UF/cidade"
+    digits_6_to_8: "Sufixo de distribuição (rua/bairro)"
+    
+  # Faixas por região
+  ranges_by_region:
+    Norte: ["69000", "69999"]  # Amazonas
+    Nordeste: ["40000", "65999"]
+    Sudeste: ["01000", "39999"]  # SP, RJ, MG, ES
+    Sul: ["80000", "99999"]  # PR, SC, RS
+    Centro_Oeste: ["70000", "76999"]  # DF, GO, MT, MS
+    ES: ["29000", "29999"]
+    
+  # Sites de validação/consulta
+  lookup_services:
+    - name: "ViaCEP"
+      url: "https://viacep.com.br"
+      type: "REST API"
+      free: true
+    - name: "Correios"
+      url: "https://buscacepinter.correios.com.br"
+      type: "Official"
+      requires_captcha: true
+
+# Padrão de endereço brasileiro
+address_format: |
+  {street_type} {street_name}, {number}
+  {complement}
+  {neighborhood}
+  {city} - {state}
+  {postal_code}
+  Brazil
+
+address_example: |
+  Avenida Paulista, 1578
+  Conjunto 101
+  Bela Vista
+  São Paulo - SP
+  01310-100
+  Brazil
+
+# Abreviações de estados (UF)
+states:
+  - code: "AC"
+    name: "Acre"
+  - code: "AL"
+    name: "Alagoas"
+  - code: "AP"
+    name: "Amapá"
+  - code: "AM"
+    name: "Amazonas"
+  - code: "BA"
+    name: "Bahia"
+  - code: "CE"
+    name: "Ceará"
+  - code: "DF"
+    name: "Distrito Federal"
+  - code: "ES"
+    name: "Espírito Santo"
+  - code: "GO"
+    name: "Goiás"
+  - code: "MA"
+    name: "Maranhão"
+  - code: "MT"
+    name: "Mato Grosso"
+  - code: "MS"
+    name: "Mato Grosso do Sul"
+  - code: "MG"
+    name: "Minas Gerais"
+  - code: "PA"
+    name: "Pará"
+  - code: "PB"
+    name: "Paraíba"
+  - code: "PR"
+    name: "Paraná"
+  - code: "PE"
+    name: "Pernambuco"
+  - code: "PI"
+    name: "Piauí"
+  - code: "RJ"
+    name: "Rio de Janeiro"
+  - code: "RN"
+    name: "Rio Grande do Norte"
+  - code: "RS"
+    name: "Rio Grande do Sul"
+  - code: "RO"
+    name: "Rondônia"
+  - code: "RR"
+    name: "Roraima"
+  - code: "SC"
+    name: "Santa Catarina"
+  - code: "SP"
+    name: "São Paulo"
+  - code: "SE"
+    name: "Sergipe"
+  - code: "TO"
+    name: "Tocantins"

@@ -1,0 +1,162 @@
+version: 1.0.0
+country: brazil
+last_updated: 2026-04-30
+description: "Códigos fiscais e impostos brasileiros"
+
+# Códigos fiscais brasileiros
+tax_regimes:
+  - code: "SIMPLES NACIONAL"
+    description: "Regime simplificado para pequenas empresas"
+    revenue_limit_brl: 3600000
+    revenue_limit_usd: 720000  # Aprox USD
+    applicable_sizes:
+      - "micro"
+      - "small"
+    tax_rates_percent:
+      - {"revenue_range_brl": [0, 180000], "rate": 6.0}
+      - {"revenue_range_brl": [180000.01, 360000], "rate": 7.3}
+      - {"revenue_range_brl": [360000.01, 720000], "rate": 9.5}
+      - {"revenue_range_brl": [720000.01, 1800000], "rate": 11.3}
+      - {"revenue_range_brl": [1800000.01, 3600000], "rate": 14.8}
+    
+  - code: "LUCRO PRESUMIDO"
+    description: "Presunção de lucro com base na atividade"
+    revenue_limit_brl: 78000000
+    applicable_sizes:
+      - "medium"
+    presumption_rates_percent:
+      comercio: 8.0
+      industria: 8.0
+      servicos: 16.0
+      transporte: 16.0
+    
+  - code: "LUCRO REAL"
+    description: "Apuração real do lucro contábil"
+    revenue_limit_brl: null  # Sem limite
+    applicable_sizes:
+      - "large"
+    corporate_income_tax_percent: 15.0
+    surtax_percent: 10.0  # Sobre lucro acima de R$ 20k/mês
+
+# Impostos principais federais, estaduais e municipais
+taxes:
+  - name: "ICMS"
+    full_name: "Imposto sobre Circulação de Mercadorias e Serviços"
+    type: "state"
+    jurisdiction: "estadual"
+    rate_range_percent: [7.0, 18.0]
+    standard_rate_percent: 18.0
+    interstate_rate_percent: 12.0  # Sul/Sudeste -> Norte/Nordeste/Centro-Oeste
+    description: "Imposto estadual sobre mercadorias e serviços de transporte/comunicação"
+    cfop_required: true
+    nfe_integration: true
+    
+  - name: "IPI"
+    full_name: "Imposto sobre Produtos Industrializados"
+    type: "federal"
+    jurisdiction: "federal"
+    rate_range_percent: [0.0, 15.0]
+    description: "Imposto federal sobre produtos industrializados"
+    
+  - name: "PIS/COFINS"
+    full_name: "Programa de Integração Social / Contribuição para Financiamento da Seguridade Social"
+    type: "federal"
+    jurisdiction: "federal"
+    regime_cumulativo_percent: 3.65  # Simples
+    regime_nao_cumulativo_percent: 9.25  # Crédito fiscal
+    description: "Contribuições sociais sobre faturamento"
+    
+  - name: "ISS"
+    full_name: "Imposto sobre Serviços de Qualquer Natureza"
+    type: "municipal"
+    jurisdiction: "municipal"
+    rate_range_percent: [2.0, 5.0]
+    standard_rate_percent: 5.0
+    description: "Imposto municipal sobre prestação de serviços"
+    nfe_integration: true  # NFS-e
+    
+  - name: "IRPJ"
+    full_name: "Imposto de Renda Pessoa Jurídica"
+    type: "federal"
+    jurisdiction: "federal"
+    rate_percent: 15.0
+    surtax_threshold_brl: 20000  # Por mês
+    surtax_percent: 10.0
+    description: "Imposto federal sobre lucro das empresas"
+    
+  - name: "CSLL"
+    full_name: "Contribuição Social sobre Lucro Líquido"
+    type: "federal"
+    jurisdiction: "federal"
+    rate_percent: 9.0
+    rate_financial_percent: 15.0  # Bancos e instituições financeiras
+    description: "Contribuição social sobre o lucro"
+
+# Nota Fiscal Eletrônica (NF-e/NFS-e)
+nfe:
+  required: true
+  model: "55"  # NF-e (mercadoria)
+  service_model: "21"  # NFS-e (serviços)
+  authorization: "Sefaz (Secretaria da Fazenda Estadual)"
+  xml_schema: "NFe_v4.00"
+  url: "https://www.nfe.fazenda.gov.br"
+  digital_certificate_required: true
+  certificate_types:
+    - "e-CNPJ"
+    - "e-CPF"
+    - "NF-e Certificate"
+  events:
+    - "Carta de Correção"
+    - "Cancelamento"
+    - "Inutilização"
+  validation: "QR Code + chave de acesso (44 dígitos)"
+  
+# Tributação por tipo de produto/serviço
+tax_classifications:
+  - ncm_code: "8471.30.12"  # Tablets
+    description: "Máquinas automáticas para processamento de dados"
+    ipi_percent: 0.0
+    icms_percent: 18.0
+    
+  - ncm_code: "3004.90.99"  # Medicamentos
+    description: "Medicamentos para uso humano"
+    ipi_percent: 0.0
+    icms_percent: 12.0  # Reduzido
+    
+  - cnae_code: "6201-5/01"  # Desenvolvimento de software
+    description: "Desenvolvimento de software sob encomenda"
+    iss_percent: 5.0  # Varia por município
+    pis_cofins_percent: 9.25
+
+# Obrigações acessórias (declarações)
+tax_filings:
+  - name: "SPED Fiscal"
+    description: "Escrituração Fiscal Digital"
+    frequency: "mensal"
+    deadline: "dia 10 do mês seguinte"
+    
+  - name: "SPED Contribuições"
+    description: "Escrituração das contribuições PIS/COFINS"
+    frequency: "mensal"
+    deadline: "dia 14 do mês seguinte"
+    
+  - name: "DEFIS"
+    description: "Declaração de Informações Socioeconômicas do Simples Nacional"
+    frequency: "anual"
+    deadline: "31 de maio"
+    
+  - name: "DASN-SIMEI"
+    description: "Declaração Anual do Simples Nacional para o MEI"
+    frequency: "anual"
+    deadline: "31 de maio"
+
+# Código de Receita Federal
+revenue_codes:
+  - code: "6015"
+    description: "IRPJ - Lucro Real - Mensal"
+  - code: "6600"
+    description: "IRPJ - Lucro Presumido - Mensal"
+  - code: "2306"
+    description: "PIS - Faturamento Mensal"
+  - code: "2172"
+    description: "COFINS - Faturamento Mensal"

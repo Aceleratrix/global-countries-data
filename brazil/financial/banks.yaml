@@ -1,0 +1,222 @@
+version: 1.0.0
+country: brazil
+last_updated: 2026-04-30
+description: "Bancos e métodos de pagamento no Brasil"
+
+currency:
+  code: "BRL"
+  name: "Brazilian Real"
+  symbol: "R$"
+  subunit: "centavo"
+  decimals: 2
+  symbol_position: "before"  # R$ 100,00 (vírgula decimal)
+  central_bank: "Banco Central do Brasil"
+  central_bank_url: "https://www.bcb.gov.br"
+  exchange_rate_source: "https://www.bcb.gov.br/estabilidade/precos/pt-br/taxas"
+  
+# Principais bancos (Top 10 por ativos)
+banks:
+  - name: "Itaú Unibanco"
+    code: "341"
+    type: "private"
+    category: "major"
+    website: "https://www.itau.com.br"
+    pix_enabled: true
+    boleto_enabled: true
+    international: true
+    apis:
+      - name: "Itaú API"
+        url: "https://developers.itau.com.br"
+        auth: "OAuth2"
+        
+  - name: "Banco do Brasil"
+    code: "001"
+    type: "public"
+    category: "major"
+    website: "https://www.bb.com.br"
+    pix_enabled: true
+    boleto_enabled: true
+    international: true
+    apis:
+      - name: "BB API"
+        url: "https://developers.bb.com.br"
+        auth: "OAuth2"
+        
+  - name: "Bradesco"
+    code: "237"
+    type: "private"
+    category: "major"
+    website: "https://www.bradesco.com.br"
+    pix_enabled: true
+    boleto_enabled: true
+    international: true
+    apis:
+      - name: "Bradesco API"
+        url: "https://developers.bradesco.com.br"
+        auth: "OAuth2"
+        
+  - name: "Caixa Econômica Federal"
+    code: "104"
+    type: "public"
+    category: "major"
+    website: "https://www.caixa.gov.br"
+    pix_enabled: true
+    boleto_enabled: true
+    international: false
+    note: "Focado em habitação, poupança e FGTS"
+        
+  - name: "Santander Brasil"
+    code: "033"
+    type: "private"
+    category: "major"
+    website: "https://www.santander.com.br"
+    pix_enabled: true
+    boleto_enabled: true
+    international: true
+    parent: "Banco Santander (Espanha)"
+        
+  - name: "Banco Inter"
+    code: "077"
+    type: "private"
+    category: "digital"
+    website: "https://www.bancointer.com.br"
+    pix_enabled: true
+    boleto_enabled: true
+    international: false
+    note: "Banco digital sem tarifas"
+        
+  - name: "Nubank"
+    code: "260"
+    type: "private"
+    category: "digital"
+    website: "https://www.nubank.com.br"
+    pix_enabled: true
+    boleto_enabled: false
+    international: false
+    note: "Maior banco digital da América Latina"
+        
+  - name: "BTG Pactual"
+    code: "208"
+    type: "private"
+    category: "investment"
+    website: "https://www.btgpactual.com"
+    pix_enabled: true
+    boleto_enabled: true
+    international: false
+    note: "Focado em investimentos e corporate"
+        
+  - name: "Itaú BBA"
+    code: "184"
+    type: "private"
+    category: "investment"
+    website: "https://www.itaubba.com.br"
+    pix_enabled: true
+    boleto_enabled: true
+    international: true
+    note: "Banco de atacado do Itaú"
+        
+  - name: "Banrisul"
+    code: "041"
+    type: "public"
+    category: "regional"
+    website: "https://www.banrisul.com.br"
+    pix_enabled: true
+    boleto_enabled: true
+    international: false
+    state: "Rio Grande do Sul"
+
+# Métodos de pagamento aceitos
+payment_methods:
+  - name: "PIX"
+    type: "instant_payment"
+    mandatory_for_business: true
+    operating_hours: "24/7"
+    limit_per_transaction_brl: null  # Sem limite
+    limit_daily_brl: 20000  # Limite padrão, ajustável
+    fees_merchant_percent: 0.0  # Gratuito para lojistas
+    qr_code: true
+    key_types:
+      - "CPF"
+      - "CNPJ"
+      - "Email"
+      - "Telefone"
+      - "Chave Aleatória (UUID)"
+    api_integration: true
+    regulatory: "Banco Central do Brasil"
+    launched: "2020-11-16"
+    
+  - name: "Boleto Bancário"
+    type: "slip"
+    mandatory_for_business: false
+    processing_time_hours: "24-72"
+    fees_merchant_percent: 1.5  # Varia por banco
+    barcode: true
+    digital_boleto: true
+    expiration_days: 3  # Padrão, configurável
+    regulation: "FEBRABAN"
+    
+  - name: "Cartão de Crédito"
+    type: "credit_card"
+    mandatory_for_business: false
+    brands:
+      - "Visa"
+      - "Mastercard"
+      - "Elo"
+      - "American Express"
+      - "Hipercard"
+    installments_allowed: true
+    max_installments: 12
+    fees_merchant_percent: 3.5  # Varia 2-5%
+    debit_card_allowed: true
+    
+  - name: "Débito Automático"
+    type: "direct_debit"
+    mandatory_for_business: false
+    bank_account_required: true
+    authorization: "Cliente deve autorizar"
+    
+  - name: "Transferência Bancária (TED/DOC)"
+    type: "bank_transfer"
+    mandatory_for_business: false
+    operating_hours: "06:00-22:00"  # Dias úteis
+    same_day: true
+    fees: "Varia por banco"
+    
+  - name: "Dinheiro em Espécie"
+    type: "cash"
+    mandatory_for_business: false
+    reporting_threshold_brl: 10000  # Deve ser reportado ao fisco
+
+# Gateway de pagamentos populares
+payment_gateways:
+  - name: "PagSeguro"
+    website: "https://pagseguro.uol.com.br"
+    pix: true
+    boleto: true
+    credit_card: true
+    
+  - name: "Mercado Pago"
+    website: "https://www.mercadopago.com.br"
+    pix: true
+    boleto: true
+    credit_card: true
+    
+  - name: "Stone"
+    website: "https://www.stone.com.br"
+    pix: true
+    boleto: true
+    credit_card: true
+    
+  - name: "Cielo"
+    website: "https://www.cielo.com.br"
+    pix: true
+    boleto: true
+    credit_card: true
+
+# Regulamentação
+regulation:
+  payment_systems: "Banco Central do Brasil"
+  consumer_protection: "Procon / Senacon"
+  anti_money_laundering: "Coaf"
+  pci_dss_required: true  # Para cartões
+  lgpd_applies: true  # Dados pessoais

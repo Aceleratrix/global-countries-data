@@ -1,0 +1,188 @@
+version: 1.0.0
+country: brazil
+last_updated: 2026-04-30
+description: "Dados populacionais e demográficos do Brasil"
+
+# População total (estimativa 2026)
+total_population: 215313498
+source: "IBGE (Instituto Brasileiro de Geografia e Estatística)"
+reference_date: "2026-01-01"
+
+# Por gênero (estimativa 2025)
+gender:
+  male: 105803857
+  female: 109509641
+  male_percent: 49.2
+  female_percent: 50.8
+
+# Por faixa etária
+age_groups:
+  - range: "0-14"
+    population: 45000000
+    percent: 20.9
+  - range: "15-29"
+    population: 51000000
+    percent: 23.7
+  - range: "30-44"
+    population: 48000000
+    percent: 22.3
+  - range: "45-59"
+    population: 38000000
+    percent: 17.6
+  - range: "60+"
+    population: 33313498
+    percent: 15.5
+
+# Pirâmide etária (homicados)
+median_age: 33.5
+dependency_ratio: 47.3  # Pessoas dependentes por 100 adultos (15-64)
+birth_rate_per_1000: 13.4
+death_rate_per_1000: 7.1
+life_expectancy_years: 76.4
+
+# População por região (2025)
+regions:
+  - name: "Sudeste"
+    states: ["SP", "RJ", "MG", "ES"]
+    population: 86500000
+    percent: 40.2
+    capital: "São Paulo"
+    gdp_share_percent: 55.0
+    
+  - name: "Nordeste"
+    states: ["BA", "PE", "CE", "MA", "PB", "RN", "AL", "SE", "PI"]
+    population: 56300000
+    percent: 26.2
+    capital: "Salvador"
+    gdp_share_percent: 16.5
+    
+  - name: "Sul"
+    states: ["PR", "SC", "RS"]
+    population: 30000000
+    percent: 13.9
+    capital: "Curitiba"
+    gdp_share_percent: 16.8
+    
+  - name: "Norte"
+    states: ["AM", "PA", "RO", "AC", "RR", "AP", "TO"]
+    population: 18000000
+    percent: 8.4
+    capital: "Manaus"
+    gdp_share_percent: 5.4
+    
+  - name: "Centro-Oeste"
+    states: ["DF", "GO", "MT", "MS"]
+    population: 24500000
+    percent: 11.4
+    capital: "Brasília"
+    gdp_share_percent: 6.3
+
+# Estados mais populosos
+top_states:
+  - state: "SP"
+    name: "São Paulo"
+    population: 45900000
+  - state: "MG"
+    name: "Minas Gerais"
+    population: 21100000
+  - state: "RJ"
+    name: "Rio de Janeiro"
+    population: 17400000
+  - state: "BA"
+    name: "Bahia"
+    population: 14900000
+  - state: "RS"
+    name: "Rio Grande do Sul"
+    population: 11400000
+
+# Idiomas
+languages:
+  primary:
+    code: "pt-BR"
+    name: "Português do Brasil"
+    speakers: 210000000
+    percent: 97.5
+    
+  secondary:
+    - code: "en"
+      name: "Inglês"
+      speakers: 8000000
+      percent: 3.7
+      context: "Negócios, tecnologia"
+      
+    - code: "es"
+      name: "Espanhol"
+      speakers: 6000000
+      percent: 2.8
+      context: "Fronteiras, turismo"
+      
+    - code: "de"
+      name: "Alemão"
+      speakers: 1500000
+      percent: 0.7
+      context: "Imigrantes sulistas"
+      
+    - code: "it"
+      name: "Italiano"
+      speakers: 1000000
+      percent: 0.5
+      context: "Imigrantes em SP"
+
+# Indígenas e línguas nativas
+indigenous_languages:
+  count: 274
+  speakers_total: 896900
+  main_languages:
+    - "Tikuna"
+    - "Guarani Kaiowá"
+    - "Yanomami"
+    - "Macuxi"
+
+# Fusos horários
+time_zones:
+  - name: "UTC-2"
+    region: "Fernando de Noronha"
+    states: ["FN"]
+    
+  - name: "UTC-3"
+    region: "Horário de Brasília"
+    states: ["SP", "RJ", "MG", "ES", "PR", "SC", "RS", "GO", "DF", "MS", "MT"]
+    is_official: true  # Usado para TV, voos, etc.
+    
+  - name: "UTC-4"
+    region: "Horário do Amazonas"
+    states: ["AM", "RO", "AC", "RR"]
+    
+  - name: "UTC-5"
+    region: "Horário do Acre"
+    states: ["AC", "AP"]
+
+# Densidade populacional
+density_per_km2: 25.3
+urban_population_percent: 87.1
+rural_population_percent: 12.9
+
+# Indicadores sociais (2025)
+social_indicators:
+  literacy_rate_percent: 93.4
+  gini_index: 53.4  # Desigualdade (0 = igual, 100 = desigual)
+  hdi: 0.754  # Índice de Desenvolvimento Humano (Alto)
+  poverty_rate_percent: 28.4  # Renda < US$ 5.50/dia
+
+# Religião (Censo 2022)
+religion:
+  catholic_percent: 64.6
+  evangelical_percent: 26.9
+  spiritist_percent: 2.2
+  other_percent: 4.1
+  no_religion_percent: 2.2
+
+# Cultura e hábitos de consumo
+consumer_behavior:
+  internet_penetration_percent: 79.0
+  smartphone_penetration_percent: 75.0
+  ecommerce_growth_year_percent: 18.0
+  preferred_payment: "PIX"
+  black_friday_popularity: "high"
+  carnival_season: "February/March"
+  christmas_consumption_peak: true

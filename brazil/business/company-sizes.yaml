@@ -1,0 +1,293 @@
+version: 1.0.0
+country: brazil
+last_updated: 2026-04-30
+description: "Portes de empresa e classificação segundo a legislação brasileira"
+
+# Definições de porte de empresa (Lei Complementar 123/2006 e Lei 14.195/2021)
+# Fonte: Sebrae, Receita Federal
+
+company_sizes:
+  - size: "micro"
+    name_pt: "Microempresa (ME)"
+    name_en: "Micro Enterprise"
+    revenue_brl_annual:
+      max: 360000
+      max_usd: 72000
+    revenue_monthly_brl:
+      max: 30000
+    employees:
+      max: 9
+      typical_range: [1, 5]
+    tax_regime: "SIMPLES NACIONAL"
+    tax_rate_range_percent: [6.0, 14.8]
+    cnae_restrictions: false
+    benefits:
+      - "Simplificação tributária"
+      - "Menos obrigações acessórias"
+      - "Abertura mais rápida"
+    percentage_of_total_percent: 53.0  # % das empresas brasileiras
+    
+  - size: "small"
+    name_pt: "Empresa de Pequeno Porte (EPP)"
+    name_en: "Small Business"
+    revenue_brl_annual:
+      min: 360000.01
+      max: 3600000
+      max_usd: 720000
+    revenue_monthly_brl:
+      min: 30000.01
+      max: 300000
+    employees:
+      min: 10
+      max: 99
+      typical_range: [10, 50]
+    tax_regime: "SIMPLES NACIONAL"
+    tax_rate_range_percent: [6.0, 14.8]
+    cnae_restrictions: false
+    benefits:
+      - "Simplificação tributária"
+      - "Acesso a linhas de crédito especiais"
+    percentage_of_total_percent: 28.0
+    
+  - size: "medium"
+    name_pt: "Média Empresa"
+    name_en: "Medium Enterprise"
+    revenue_brl_annual:
+      min: 3600000.01
+      max: 78000000
+      max_usd: 15600000
+    revenue_monthly_brl:
+      min: 300000.01
+      max: 6500000
+    employees:
+      min: 100
+      max: 499
+      typical_range: [100, 300]
+    tax_regime: ["LUCRO PRESUMIDO", "LUCRO REAL"]
+    tax_rate_range_percent: [11.3, 34.0]
+    cnae_restrictions: false
+    benefits:
+      - "Acesso a mercado de capitais"
+      - "Crédito corporativo"
+    percentage_of_total_percent: 14.0
+    
+  - size: "large"
+    name_pt: "Grande Empresa"
+    name_en: "Large Enterprise"
+    revenue_brl_annual:
+      min: 78000000.01
+      max: null  # Sem limite
+      min_usd: 15600000
+    revenue_monthly_brl:
+      min: 6500000.01
+      max: null
+    employees:
+      min: 500
+      typical_range: [500, 10000]
+    tax_regime: ["LUCRO REAL"]
+    tax_rate_range_percent: [25.0, 34.0]
+    cnae_restrictions: false
+    benefits:
+      - "Abertura de capital (IPO)"
+      - "Acesso a dívida internacional"
+    percentage_of_total_percent: 5.0
+    
+  - size: "mei"
+    name_pt: "Microempreendedor Individual (MEI)"
+    name_en: "Individual Microentrepreneur"
+    revenue_brl_annual:
+      max: 81000
+      max_usd: 16200
+    revenue_monthly_brl:
+      max: 6750
+    employees:
+      max: 0  # Não pode ter funcionários registrados (apenas autônomo)
+    tax_regime: "SIMPLES NACIONAL - MEI"
+    tax_rate_fixed_brl_month: 75.00  # Valor fixo mensal (~US$ 15)
+    cnae_restrictions: true  # Apenas atividades permitidas
+    benefits:
+      - "Imposto fixo e baixo"
+      - "Sem burocracia"
+      - "Acesso a INSS"
+    percentage_of_total_percent: 47.0  # Dos novos CNPJs
+
+# Setores de atividade econômica (CNAE - Classificação Nacional de Atividades Econômicas)
+main_sectors:
+  - code: "A"
+    name: "Agricultura, pecuária, produção florestal, pesca e aquicultura"
+    gdp_share_percent: 7.0
+    
+  - code: "B"
+    name: "Indústrias extrativas"
+    gdp_share_percent: 4.0
+    
+  - code: "C"
+    name: "Indústria de transformação"
+    gdp_share_percent: 18.0
+    
+  - code: "D"
+    name: "Eletricidade e gás"
+    gdp_share_percent: 3.0
+    
+  - code: "E"
+    name: "Água, esgoto, gestão de resíduos"
+    gdp_share_percent: 1.0
+    
+  - code: "F"
+    name: "Construção"
+    gdp_share_percent: 6.0
+    
+  - code: "G"
+    name: "Comércio; reparação de veículos automotores e motocicletas"
+    gdp_share_percent: 12.0
+    
+  - code: "H"
+    name: "Transporte, armazenagem e correio"
+    gdp_share_percent: 5.0
+    
+  - code: "I"
+    name: "Alojamento e alimentação"
+    gdp_share_percent: 3.5
+    
+  - code: "J"
+    name: "Informação e comunicação"
+    gdp_share_percent: 5.5
+    highlight: "Tech hubs em SP, RJ, BH, Porto Digital (Recife)"
+    
+  - code: "K"
+    name: "Atividades financeiras, de seguros e serviços relacionados"
+    gdp_share_percent: 8.0
+    
+  - code: "L"
+    name: "Atividades imobiliárias"
+    gdp_share_percent: 5.0
+    
+  - code: "M"
+    name: "Atividades profissionais, científicas e técnicas"
+    gdp_share_percent: 4.5
+    
+  - code: "N"
+    name: "Atividades administrativas e serviços complementares"
+    gdp_share_percent: 3.0
+    
+  - code: "O"
+    name: "Administração pública, defesa e seguridade social"
+    gdp_share_percent: 10.0
+    
+  - code: "P"
+    name: "Educação"
+    gdp_share_percent: 2.5
+    
+  - code: "Q"
+    name: "Saúde humana e serviços sociais"
+    gdp_share_percent: 4.0
+    
+  - code: "R"
+    name: "Artes, cultura, esporte e recreação"
+    gdp_share_percent: 1.0
+    
+  - code: "S"
+    name: "Outras atividades de serviços"
+    gdp_share_percent: 2.0
+    
+  - code: "T"
+    name: "Serviços domésticos"
+    gdp_share_percent: 1.5
+
+# Regiões com mais empresas
+business_density_by_state:
+  - state: "SP"
+    companies: 5200000
+    highlight: "Maior polo de negócios da América Latina"
+    
+  - state: "MG"
+    companies: 2100000
+    
+  - state: "RJ"
+    companies: 1800000
+    
+  - state: "RS"
+    companies: 1200000
+    
+  - state: "PR"
+    companies: 1100000
+
+# Horário comercial padrão
+business_hours:
+  weekdays:
+    start: "08:00"
+    end: "18:00"
+    lunch_break: "12:00-13:00"  # Comum
+  saturday:
+    start: "08:00"
+    end: "12:00"
+    optional: true
+  sunday:
+    closed: true
+    exceptions: ["Shopping centers", "Restaurantes", "Farmácias"]
+    
+# Feriados nacionais (2026)
+national_holidays_2026:
+  - date: "2026-01-01"
+    name_pt: "Confraternização Universal"
+    name_en: "New Year's Day"
+    
+  - date: "2026-03-03"
+    name_pt: "Carnaval"
+    name_en: "Carnival"
+    type: "moveable"
+    
+  - date: "2026-04-03"
+    name_pt: "Sexta-feira Santa"
+    name_en: "Good Friday"
+    type: "moveable"
+    
+  - date: "2026-04-05"
+    name_pt: "Páscoa"
+    name_en: "Easter"
+    type: "moveable"
+    
+  - date: "2026-04-21"
+    name_pt: "Tiradentes"
+    name_en: "Tiradentes Day"
+    
+  - date: "2026-05-01"
+    name_pt: "Dia do Trabalho"
+    name_en: "Labor Day"
+    
+  - date: "2026-06-11"
+    name_pt: "Corpus Christi"
+    name_en: "Corpus Christi"
+    type: "moveable"
+    
+  - date: "2026-09-07"
+    name_pt: "Independência do Brasil"
+    name_en: "Independence Day"
+    
+  - date: "2026-10-12"
+    name_pt: "Nossa Senhora Aparecida"
+    name_en: "Our Lady of Aparecida"
+    
+  - date: "2026-11-02"
+    name_pt: "Finados"
+    name_en: "All Souls' Day"
+    
+  - date: "2026-11-15"
+    name_pt: "Proclamação da República"
+    name_en: "Republic Proclamation"
+    
+  - date: "2026-12-25"
+    name_pt: "Natal"
+    name_en: "Christmas Day"
+
+# Startups e unicórnios
+startup_ecosystem:
+  total_startups: 13000
+  unicorns: 17  # Empresas avaliadas acima de US$ 1 bilhão
+  main_hubs:
+    - "São Paulo (SP)"
+    - "Rio de Janeiro (RJ)"
+    - "Belo Horizonte (MG) - San Pedro Valley"
+    - "Porto Alegre (RS)"
+    - "Recife (PE) - Porto Digital"
+  foreign_investment_usd_billions: 3.5  # 2025
