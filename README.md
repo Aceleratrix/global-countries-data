@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (32 / 195 = 16.4%)
+## 📊 Coverage Progress (30 / 195 = 15.4%)
 
 ### 🌎 South America (1/12 = 8.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -73,6 +73,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇦🇹 **Austria** | 13/13 | ✅ **100% COMPLETE** | 23rd largest economy ($0.85T), Vienna (1.9M), Erste Group, EU member, Alpine tourism hub | German (de-AT) + English |
 | 🇳🇴 **Norway** | 13/13 | ✅ **100% COMPLETE** | 24th largest economy ($0.55T), Oslo (700K), Sovereign Wealth Fund $1.6T, oil/gas, EEA member | Norwegian (no-NO) + English |
 | 🇧🇪 **Belgium** | 13/13 | ✅ **100% COMPLETE** | 23rd largest economy ($0.58T), Brussels (EU/NATO HQ), Antwerp (Europe's 2nd port), federal monarchy | Dutch/French/German + English |
+| 🇸🇪 **Sweden** | 13/13 | ✅ **100% COMPLETE** | 22nd/24th largest economy ($0.58T), Spotify, Skype, Ericsson, Stockholm (1M), high welfare state | English (en-US) |
 
 ### 🌍 Africa (1/54 = 1.9%)
 | Country | Files | Status | Key Highlights | Primary Language |

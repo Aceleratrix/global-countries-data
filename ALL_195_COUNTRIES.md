@@ -34,7 +34,7 @@
 | # | País | Código | Continente | PIB (USD Trilhões) |
 |---|------|--------|-----------|-------------------|
 | 21 | 🇵🇱 Polônia | poland | Europe | $0.81T |
-| 22 | 🇸🇪 Suécia | sweden | Europe | $0.58T |
+| 22 | 🇸🇪 Suécia | sweden | Europe | ✅ 100% COMPLETE |
 | 23 | 🇧🇪 Bélgica | belgium | Europe | $0.58T | ✅ 100% COMPLETE |
 | 24 | 🇳🇴 Noruega | norway | Europe | $0.55T | ✅ 100% COMPLETE |
 | 25 | 🇦🇹 Áustria | austria | Europe | $0.85T | ✅ 100% COMPLETE |
