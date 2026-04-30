@@ -39,8 +39,8 @@
 | 24 | 🇳🇴 Noruega | norway | Europe | $0.55T | ✅ 100% COMPLETE |
 | 25 | 🇦🇹 Áustria | austria | Europe | $0.85T | ✅ 100% COMPLETE |
 | 26 | 🇦🇪 Emirados Árabes | uae | Asia | $0.50T | ✅ 100% COMPLETE |
-| 27 | 🇹🇭 Tailândia | thailand | Asia | $0.49T |
-| 28 | 🇮🇾 Nigéria | nigeria | Africa | $0.48T |
+| 27 | 🇹🇭 Tailândia | thailand | Asia | ✅ 100% COMPLETE |
+| 28 | 🇮🇾 Nigéria | nigeria | Africa | ✅ 100% COMPLETE |
 | 29 | 🇮🇾 Egito | egypt | Africa | $0.47T |
 | 30 | 🇮🇾 Irã | iran | Asia | $0.44T |
 | 31 | 🇿🇦 República Tcheca | czech-republic | Europe | $0.43T |

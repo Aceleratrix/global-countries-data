@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 29 Countries 100% Complete](https://img.shields.io/badge/Status-29 Countries 100% Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 32 Countries 100% Complete](https://img.shields.io/badge/Status-32 Countries 100% Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (29 / 195 = 14.9%)
+## 📊 Coverage Progress (32 / 195 = 16.4%)
 
 ### 🌎 South America (1/12 = 8.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -49,7 +49,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇨🇦 **Canada** | 13/13 | ✅ **100% COMPLETE** | Pan-Canadian AI $2.4B, Cohere $5.5B, Interac, bilingual (EN/FR) | English (en-CA) + French |
 | 🇲🇽 **Mexico** | 13/13 | ✅ **100% COMPLETE** | Nearshoring boom, Kavak $8.7B, OXXO 21K stores, 96% remittances from USA | Spanish (es-MX) |
 
-### 🌏 Asia (6/50 = 12.0%)
+### 🌏 Asia (7/50 = 14.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇯🇵 **Japan** | 14/14 | ✅ **100% COMPLETE** | Konbini (25% e-commerce!), LINE (95%), Society 5.0 | English (en-US) |
@@ -57,6 +57,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇮🇳 **India** | 13/13 | ✅ **100% COMPLETE** | UPI (12B+ txns/month), WhatsApp (530M), BharatGPT, Digital India, 1.43B population | English (en-US) |
 | 🇰🇷 **South Korea** | 13/13 | ✅ **100% COMPLETE** | Samsung/SK Hynix 60% chips, K-pop $10B, 95% 5G, world's fastest internet | English (en-US) |
 | 🇸🇦 **Saudi Arabia** | 13/13 | ✅ **100% COMPLETE** | Vision 2030 ($3T), NEOM, Saudi Aramco (largest company), 98% internet users | English (en-US) |
+| 🇹🇭 **Thailand** | 13/13 | ✅ **100% COMPLETE** | 27th largest economy ($0.49T), Tourism 20% GDP, World's largest rice exporter, 71.8M population | English (en-US) |
 
 ### 🌍 Europe (11/44 = 25.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -73,8 +74,10 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇳🇴 **Norway** | 13/13 | ✅ **100% COMPLETE** | 24th largest economy ($0.55T), Oslo (700K), Sovereign Wealth Fund $1.6T, oil/gas, EEA member | Norwegian (no-NO) + English |
 | 🇧🇪 **Belgium** | 13/13 | ✅ **100% COMPLETE** | 23rd largest economy ($0.58T), Brussels (EU/NATO HQ), Antwerp (Europe's 2nd port), federal monarchy | Dutch/French/German + English |
 
-### 🌍 Africa (0/54 = 0%)
-*Coming soon!*
+### 🌍 Africa (1/54 = 1.9%)
+| Country | Files | Status | Key Highlights | Primary Language |
+|---------|-------|--------|-----------------|-----------------|
+| 🇳🇬 **Nigeria** | 13/13 | ✅ **100% COMPLETE** | 28th largest economy ($0.48T), Africa's most populous (223M), fintech leader (4 unicorns), Nollywood | English (en-NG) |
 
 ### 🌏 Oceania (1/14 = 7.1%)
 | Country | Files | Status | Key Highlights | Primary Language |
