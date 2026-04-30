@@ -1,0 +1,12 @@
+country: United Arab Emirates
+ai_strategy: UAE National AI Strategy 2031 (aims to make UAE global AI leader)
+key_ai_hubs:
+  - Dubai AI Campus
+  - Abu Dhabi AI Hub
+cloud_providers:
+  - International: AWS, Microsoft Azure, Google Cloud
+  - Local: Etisalat Cloud, du Cloud
+ai_initiatives:
+  - AI-powered government services (80% by 2031)
+  - Autonomous vehicle trials in Dubai
+  - AI in healthcare (diagnostic tools, patient management)

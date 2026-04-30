@@ -1,0 +1,18 @@
+country: United Arab Emirates
+company_classifications:
+  - size: Micro
+    employees: 1-9
+    share_of_businesses: 75%
+  - size: Small
+    employees: 10-49
+    share_of_businesses: 20%
+  - size: Medium
+    employees: 50-249
+    share_of_businesses: 4%
+  - size: Large
+    employees: 250+
+    share_of_businesses: 1%
+legal_structures:
+  - Mainland (requires UAE national sponsor for some sectors)
+  - Free Zone (100% foreign ownership, no corporate tax)
+  - Offshore (for international business, no physical presence)

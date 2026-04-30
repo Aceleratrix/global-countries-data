@@ -1,0 +1,16 @@
+country: United Arab Emirates
+central_bank: Central Bank of the UAE (CBUAE)
+top_banks:
+  - name: First Abu Dhabi Bank (FAB)
+    assets: $320 billion (2024)
+    headquarters: Abu Dhabi
+  - name: Emirates NBD
+    assets: $210 billion (2024)
+    headquarters: Dubai
+  - name: Abu Dhabi Commercial Bank (ADCB)
+    assets: $120 billion (2024)
+    headquarters: Abu Dhabi
+  - name: Dubai Islamic Bank (DIB)
+    assets: $80 billion (2024)
+    headquarters: Dubai
+payment_systems: UAE Funds Transfer System (UAEFTS), Apple Pay, Google Pay widely accepted

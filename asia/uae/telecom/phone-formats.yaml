@@ -1,0 +1,19 @@
+country: United Arab Emirates
+country_code: +971
+number_length: 9 digits (excluding country code)
+formats:
+  mobile:
+    prefixes: 50, 52, 54, 55, 56, 58
+    format: +971 XX XXX XXXX
+  landline:
+    prefixes:
+      - 02: Abu Dhabi
+      - 03: Al Ain
+      - 04: Dubai
+      - 06: Sharjah
+      - 07: Ras Al Khaimah
+    format: +971 X XXX XXXX
+operators:
+  - Etisalat by e&
+  - du
+  - Virgin Mobile UAE

@@ -1,0 +1,12 @@
+country: United Arab Emirates
+tax_framework:
+  corporate_tax:
+    rate: 9% (effective June 2023)
+    threshold: AED 375,000 taxable income
+    exemptions: Free zone entities with qualifying income
+  value_added_tax_vat:
+    rate: 5% (effective 2018)
+    registration_threshold: AED 375,000 annual turnover
+  personal_income_tax: 0%
+  customs_duty: 5% ad valorem (reduced rates for GCC countries)
+  free_zone_benefits: 0% corporate tax, 0% import/export duties for 50 years

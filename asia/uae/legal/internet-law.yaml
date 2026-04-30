@@ -1,0 +1,15 @@
+country: United Arab Emirates
+jurisdiction: Federal
+laws:
+  - name: Cybercrime Law
+    reference: Federal Decree-Law No. 5 of 2012 (amended 2018)
+    scope: Prohibits hacking, data breaches, online defamation, fake news
+  - name: Personal Data Protection Law (PDPL)
+    reference: Federal Decree-Law No. 45 of 2021
+    scope: Regulates collection, processing, and storage of personal data
+  - name: Media Regulation Law
+    reference: Federal Decree-Law No. 15 of 2020
+    scope: Governs online content, social media, and digital publishing
+content_restrictions:
+  - Pornography, gambling, hate speech, anti-Islamic content prohibited
+  - VoIP services (Skype, WhatsApp call) restricted without license
