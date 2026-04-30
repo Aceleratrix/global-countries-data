@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 22 Countries 100% Complete](https://img.shields.io/badge/Status-22 Countries 100% Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 25 Countries 100% Complete](https://img.shields.io/badge/Status-25 Countries 100% Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (22 / 195 = 11.3%)
+## 📊 Coverage Progress (25 / 195 = 12.8%)
 
 ### 🌎 South America (1/12 = 8.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -156,10 +156,11 @@ global-countries-data/
 │   └── usa/                # 🇺🇸 100% COMPLETE (13 files)
 │       └── ... (same structure as brazil)
 │
-├── asia/                  # 🌏 3/50 countries (6.0%)
+├── asia/                  # 🌏 4/50 countries (8.0%)
 │   ├── japan/            # 🇯🇵 100% COMPLETE (14 files)
 │   ├── china/            # 🇨🇳 100% COMPLETE (13 files)
-│   └── india/            # 🇮🇳 100% COMPLETE (13 files)
+│   ├── india/            # 🇮🇳 100% COMPLETE (13 files)
+│   └── uae/              # 🇦🇪 100% COMPLETE (13 files)
 │
 ├── europe/               # 🌍 4/44 countries (9.1%)
 │   ├── germany/         # 🇩🇪 100% COMPLETE (13 files)
@@ -213,6 +214,13 @@ global-countries-data/
 - **BharatGPT** — Indian LLM (22 official languages support)
 - **Digital India** — $1.43B population, 600M+ internet users
 - **1,400+ Startups** — 110+ unicorns, world's 3rd largest ecosystem
+
+### 🇦🇪 UAE (Asia - Middle East Hub)
+- **Oil & Gas Economy** — $0.50T GDP (26th largest globally)
+- **Dubai AI Strategy 2031** — Global AI leader target, 80% AI-powered gov services
+- **Free Zones** — 0% corporate tax, 100% foreign ownership (45+ zones)
+- **Tourism Hub** — 20M+ visitors/year, Expo 2020 legacy projects
+- **No Personal Income Tax** — 0% tax, 9% corporate tax (2023)
 
 ### 🇩🇪 Germany (Europe)
 - **GDPR (Gold Standard)** — Max €20M or 4% revenue (inspired LGPD, APPI!)
