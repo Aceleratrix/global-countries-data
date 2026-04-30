@@ -1,0 +1,250 @@
+version: 1.0.0
+country: brazil
+last_updated: 2026-04-30
+description: "Mercado imobiliário comercial, coworking e regulamentações de locação"
+
+# Escritórios Comerciais (Commercial Offices)
+commercial_real_estate:
+  major_office_districts:
+    - city: "São Paulo (SP)"
+      regions:
+        - name: "Faria Lima (Itaim Bibi)"
+          class: "AAA"
+          price_brl_sqm_month: [180, 300]
+          price_usd_sqf_month: [15, 25]
+          vacancy_rate_percent: 12.0
+          
+        - name: "Paulista / Consolação"
+          class: "A"
+          price_brl_sqm_month: [120, 200]
+          price_usd_sqf_month: [10, 17]
+          
+        - name: "Brooklin Novo"
+          class: "A+"
+          price_brl_sqm_month: [140, 240]
+          price_usd_sqf_month: [12, 20]
+          
+    - city: "Rio de Janeiro (RJ)"
+      regions:
+        - name: "Barra da Tijuca"
+          class: "A"
+          price_brl_sqm_month: [90, 160]
+          price_usd_sqf_month: [7.50, 13.50]
+          
+        - name: "Centro"
+          class: "B"
+          price_brl_sqm_month: [60, 110]
+          price_usd_sqf_month: [5, 9]
+          
+    - city: "Belo Horizonte (MG)"
+      regions:
+        - name: "Savassi / Lourdes"
+          class: "A"
+          price_brl_sqm_month: [70, 130]
+          price_usd_sqf_month: [6, 11]
+          
+    - city: "Porto Alegre (RS)"
+      regions:
+        - name: "Moinhos de Vento"
+          class: "A"
+          price_brl_sqm_month: [65, 120]
+          price_usd_sqf_month: [5.50, 10]
+          
+    - city: "Curitiba (PR)"
+      regions:
+        - name: "Centro Cívico / Batel"
+          class: "A"
+          price_brl_sqm_month: [60, 110]
+          price_usd_sqf_month: [5, 9]
+
+# Coworking Spaces Populares
+coworking_chains:
+  - name: "WeWork"
+    website: "https://www.wework.com/br-pt"
+    locations_count: 35
+    cities: ["São Paulo", "Rio de Janeiro", "Belo Horizonte", "Porto Alegre"]
+    pricing_brl_person_month: [350, 1200]
+    features_pt: ["Reuniões inclusas", "Café", "Impressão", "Eventos"]
+    features_en: ["Meetings included", "Coffee", "Printing", "Events"]
+    
+  - name: "Impact Hub"
+    website: "https://impacthub.net"
+    locations_count: 15
+    focus: "Impact startups, networking"
+    pricing_brl_person_month: [250, 800]
+    
+  - name: "Cubo Itaú"
+    website: "https://cubo.network"
+    locations_count: 3
+    focus: "Fintechs, startups"
+    pricing_brl_person_month: [300, 900]
+    note_pt: "Seleção via aplicação"
+    note_en: "Selection via application"
+    
+  - name: "Google for Startups Campus"
+    website: "https://campus.co"
+    locations_count: 1
+    city: "São Paulo (Vila Olímpia)"
+    pricing_brl_person_month: 0  # Gratuito
+    note_pt: "Apenas para startups selecionadas"
+    note_en: "Selected startups only"
+    
+  - name: "Regus / Spaces"
+    website: "https://www.regus.com.br"
+    locations_count: 50
+    pricing_brl_person_month: [400, 1500]
+    
+  - name: "Coworking Locais (independentes)"
+    count_estimate: 500+
+    description_pt: "Espaços independentes em quase todas as cidades médias"
+    description_en: "Independent spaces in almost all medium-sized cities"
+
+# Lei do Inquilinato (Locação de Imóveis)
+rental_law:
+  law: "Lei nº 8.245, de 18 de outubro de 1991 (Lei do Inquilinato)"
+  law_en: "Law No. 8,245 of October 18, 1991 (Tenancy Law)"
+  url: "http://www.planalto.gov.br/ccivil_03/leis/l8245.htm"
+  
+  contract_types:
+    - type: "Convencional (Lei 8.245/1991)"
+      duration_months: 30  # Mínimo
+      renewal_pt: "Automático se nenhuma parte notificar"
+      renewal_en: "Automatic if neither party notifies"
+      
+    - type: "Temporada (Lei 8.245/1991)"
+      duration_months: [1, 90]
+      taxation: "Isento de IR (pessoa física)"
+      
+  deposit_requirements_pt:
+    - "Caução (geralmente 3 a 6 alugueis)"
+    - "Seguro-fiança (via seguradora)"
+    - "Título de Capitalização (Caixa, Bradesco)"
+  deposit_requirements_en:
+    - "Deposit (usually 3 to 6 rents)"
+    - "Surety bond (via insurance company)"
+    - "Capitalization bond (Caixa, Bradesco)"
+    
+  rent_adjustment_indexes:
+    - "IGPM (FGV) - o mais comum"
+    - "IPCA (IBGE)"
+    - "IGP-M (FGV)"
+    
+  early_termination_pt: "Multa de 1 a 3 alugueis (convencional)"
+  early_termination_en: "Penalty of 1 to 3 rents (conventional)"
+
+# Zoneamento Comercial (Commercial Zoning)
+zoning:
+  zones_pt:
+    - "Zona Comercial 1 (ZC1) - Uso predominante comercial"
+    - "Zona Comercial 2 (ZC2) - Uso misto (comercial + residencial)"
+    - "Zona Industrial (ZI) - Indústrias e galpões"
+    - "Zona Mista (ZM) - Residencial + Comercial"
+  zones_en:
+    - "Commercial Zone 1 (ZC1) - Predominant commercial use"
+    - "Commercial Zone 2 (ZC2) - Mixed use (commercial + residential)"
+    - "Industrial Zone (ZI) - Industries and warehouses"
+    - "Mixed Zone (ZM) - Residential + Commercial"
+    
+  home_office_pt: "Permitido em zonas residenciais (até 20% da área)"
+  home_office_en: "Allowed in residential zones (up to 20% of area)"
+
+# Impostos sobre Imóveis (Property Taxes)
+property_taxes:
+  - tax: "IPTU (Imposto Predial e Territorial Urbano)"
+    authority: "Prefeituras Municipais"
+    rate_percent: [0.3, 1.5]  # Varia por cidade
+    due_dates_pt: "Parcela única ou até 10x (com desconto à vista)"
+    due_dates_en: "Single payment or up to 10x (with discount for cash)"
+    
+  - tax: "ITBI (Imposto de Transmissão de Bens Imóveis)"
+    authority: "Prefeituras Municipais"
+    rate_percent: 2.0  # Geralmente 2%
+    payable_by: "Buyer"
+    
+  - tax: "IRRF (IR sobre Ganho de Capital na Venda)"
+    authority: "Receita Federal"
+    rate_percent: 15.0
+    exemption_pt: "Venda de imóvel residencial para comprar outro (prazo 6 meses)"
+    exemption_en: "Sale of residential property to buy another (6-month deadline)"
+
+# Licenciamento para Funcionamento (Operating License)
+business_license:
+  name_pt: "Alvará de Funcionamento / Licença de Funcionamento"
+  name_en: "Operating License / Business License"
+  issued_by: "Prefeituras Municipais"
+  requirements_pt:
+    - "CNPJ ativo"
+    - "CNPJ ativo"
+    - "Certidão de uso do solo (zoneamento)"
+    - "AVCB (Auto de Vistoria do Corpo de Bombeiros)"
+    - "Vigilância Sanitária (para alimentação)"
+  requirements_en:
+    - "Active CNPJ"
+    - "Land use certificate (zoning)"
+    - "Fire Department Inspection Report"
+    - "Health Surveillance (for food)"
+  cost_brl: [500, 5000]  # Varia muito por cidade
+  validity_years: 1  # Geralmente anual
+  
+# Trabalho Remoto e Home Office
+remote_work:
+  law: "Lei nº 14.442, de 1º de setembro de 2022"
+  law_en: "Law No. 14,442 of September 1, 2022"
+  description_pt: "Regulamenta o teletrabalho no Brasil"
+  description_en: "Regulates remote work in Brazil"
+  
+  employer_obligations_pt:
+    - "Fornecer equipamentos (computador, cadeira, etc.)"
+    - "Pagar proporcional de contas (internet, energia)"
+    - "Garantir segurança e medicina do trabalho"
+  employer_obligations_en:
+    - "Provide equipment (computer, chair, etc.)"
+    - "Pay proportional bills (internet, electricity)"
+    - "Ensure safety and occupational health"
+    
+  tax_deductions_pt:
+    - "Aluguel de escritório em casa (proporcional)"
+    - "Contas (internet, energia, água) - proporcional"
+    - "Equipamentos (depreciação)"
+  tax_deductions_en:
+    - "Home office rent (proportional)"
+    - "Bills (internet, electricity, water) - proportional"
+    - "Equipment (depreciation)"
+    
+  internet_speed_recommended_mbps: 100  # Mínimo para empresas de tech
+  equipment_budget_brl: [3000, 8000]  # Setup básico
+
+# Galpões Logísticos (Warehouses)
+logistics_warehouses:
+  major_regions:
+    - region: "Grande SP (Anhangüera, Castelo Branco)"
+      price_brl_sqm_month: [25, 45]
+      vacancy_rate_percent: 8.0
+      
+    - region: "Rio de Janeiro (Duque de Caxias, Nova Iguaçu)"
+      price_brl_sqm_month: [20, 38]
+      vacancy_rate_percent: 10.0
+      
+    - region: "Extrema/MG (Polo Logístico)"
+      price_brl_sqm_month: [18, 35]
+      vacancy_rate_percent: 6.0
+      
+  features_pt: ["Piso industrial", "Ponto para docas", "Escritório administrativo"]
+  features_en: ["Industrial floor", "Dock points", "Administrative office"]
+  
+# Escritórios Virtuais (Virtual Offices)
+virtual_offices:
+  providers:
+    - name: "Regus Virtual Office"
+      website: "https://www.regus.com.br"
+      pricing_brl_month: [200, 600]
+      services_pt: ["Endereço comercial", "Recebimento de correspondência", "Salas de reunião sob demanda"]
+      services_en: ["Commercial address", "Mail receipt", "Meeting rooms on demand"]
+      
+    - name: "Coworking com Endereço Fiscal"
+      pricing_brl_month: [150, 400]
+      services_pt: ["Endereço para CNPJ", "Recebimento de SEDEX", "Aluguel de sala por hora"]
+      services_en: ["Address for CNPJ", "SEDEX receipt", "Hourly room rental"]
+      
+  legal_requirements_pt: "Endereço físico obrigatório para abrir CNPJ"
+  legal_requirements_en: "Physical address mandatory to open CNPJ"

@@ -1,0 +1,285 @@
+version: 1.0.0
+country: brazil
+last_updated: 2026-04-30
+description: "Leis trabalhistas, contratação e regulamentações de RH no Brasil"
+
+# Consolidação das Leis do Trabalho (CLT)
+clt:
+  law: "Decreto-Lei nº 5.452, de 1º de maio de 1943 (CLT)"
+  description_pt: "Consolidação das leis trabalhistas brasileiras"
+  description_en: "Brazilian Labor Laws Consolidation"
+  url: "http://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm"
+  
+  employment_types:
+    - type: "CLT (Consolidado)"
+      description_pt: "Contrato padrão com todos os direitos trabalhistas"
+      description_en: "Standard employment contract with full labor rights"
+      benefits_pt: ["FGTS", "13º salário", "Férias + 1/3", "Aviso prévio", "Seguro-desemprego"]
+      benefits_en: ["FGTS", "13th salary", "Vacation + 1/3", "Prior notice", "Unemployment insurance"]
+      severance_pt: "Multa de 40% sobre FGTS + aviso prévio"
+      severance_en: "40% fine on FGTS + prior notice"
+      notice_period_days: 30  # Mínimo, varia com tempo de casa
+      
+    - type: "PJ (Pessoa Jurídica)"
+      description_pt: "Contratação como empresa prestadora de serviços"
+      description_en: "Hiring as a service-providing company"
+      benefits_pt: "Nenhum benefício obrigatório (negociável)"
+      benefits_en: "No mandatory benefits (negotiable)"
+      tax_regime: "Simples Nacional ou Lucro Presumido/Real"
+      invoicing: "NF-e ou NFS-e obrigatória"
+      pros_pt: ["Sem encargos trabalhistas", "Flexibilidade de horário"]
+      pros_en: ["No payroll taxes", "Schedule flexibility"]
+      cons_pt: ["Sem direitos CLT", "Sem estabilidade"]
+      cons_en: ["No CLT rights", "No job stability"]
+      
+    - type: "Estágio (Internship)"
+      description_pt: "Estagiários (estudantes)"
+      description_en: "Interns (students)"
+      age_min: 16
+      workload_max_hours: 30  # 6h/dia para ensino superior
+      benefits_pt: ["Bolsa-auxílio", "Vale-transport"]
+      benefits_en: ["Allowance", "Transport voucher"]
+      contract_min_months: 6
+      
+    - type: "Jovem Aprendiz"
+      description_pt: "Jovens de 14 a 24 anos (primeiro emprego)"
+      description_en: "Youth aged 14-24 (first job)"
+      quota_percent: 5.0  # Das vagas da empresa
+      contract_max_months: 24
+      workload_max_hours: 6  # Por dia
+      
+    - type: "Trabalho Remoto (Home Office)"
+      description_pt: "Regulamentado pela Lei 14.442/2022"
+      description_en: "Regulated by Law 14.442/2022"
+      law: "Lei nº 14.442, de 1º de setembro de 2022"
+      employer_duties_pt: ["Fornecer equipamentos", "Pagar internet", "Segurança do trabalho"]
+      employer_duties_en: ["Provide equipment", "Pay internet", "Occupational safety"]
+      tax_implications_pt: "Possível dedução de despesas home office"
+      tax_implications_en: "Possible home office expense deduction"
+
+# Salário Mínimo e Piso
+minimum_wage:
+  value_brl_month: 1412.00
+  value_usd_month: 282.00
+  last_update: "2024-01-01"
+  adjustment_index: "INPC (Índice Nacional de Preços ao Consumidor)"
+  
+# Tabela de Salários por Função (Tech - 2026)
+tech_salaries_brl_year:
+  - role_pt: "Desenvolvedor Junior (Frontend/Backend)"
+    role_en: "Junior Developer (Frontend/Backend)"
+    range_brl: [48000, 84000]
+    range_usd: [9600, 16800]
+    
+  - role_pt: "Desenvolvedor Pleno"
+    role_en: "Mid-level Developer"
+    range_brl: [84000, 144000]
+    range_usd: [16800, 28800]
+    
+  - role_pt: "Desenvolvedor Senior"
+    role_en: "Senior Developer"
+    range_brl: [144000, 240000]
+    range_usd: [28800, 48000]
+    
+  - role_pt: "Data Scientist Junior"
+    role_en: "Junior Data Scientist"
+    range_brl: [72000, 108000]
+    range_usd: [14400, 21600]
+    
+  - role_pt: "Data Scientist Senior"
+    role_en: "Senior Data Scientist"
+    range_brl: [180000, 300000]
+    range_usd: [36000, 60000]
+    
+  - role_pt: "Product Manager"
+    role_en: "Product Manager"
+    range_brl: [120000, 240000]
+    range_usd: [24000, 48000]
+    
+  - role_pt: "UX/UI Designer"
+    role_en: "UX/UI Designer"
+    range_brl: [72000, 156000]
+    range_usd: [14400, 31200]
+
+# Encargos Trabalhistas (Impostos sobre Folha)
+payroll_taxes_percent:
+  inss_employer_percent: 20.0  # Contribuição patronal
+  rat_percent: 3.0  # Risco de Acidente de Trabalho (varia)
+  fgts_percent: 8.0  # Fundo de Garantia
+  thirtheenth_salary_cost_percent: 8.33  # 13º salário
+  vacation_cost_percent: 11.11  # Férias + 1/3
+  total_min_percent: 40.44  # Mínimo sobre salário bruto
+  total_max_percent: 50.0  # Com RAT máximo e outras verbas
+  
+# Contratação de Estrangeiros
+foreign_workers:
+  visa_types:
+    - type: "Visto Temporário V (Trabalho)"
+      duration_years: 2
+      renewable: true
+      requirement_pt: "Oferta de emprego formal"
+      requirement_en: "Formal job offer"
+      
+    - type: "Visto Permanente"
+      description_pt: "Após 2 anos de visto temporário ou investimento"
+      description_en: "After 2 years of temporary visa or investment"
+      
+  digital_nomad_visa:
+    available: true
+    launched: "2023-01"
+    name_pt: "Visto de Trabalhador Remoto (Digital Nomad)"
+    name_en: "Remote Worker Visa (Digital Nomad)"
+    stay_duration_months: 12
+    renewable: true
+    income_requirement_usd_month: 1500
+
+# Direitos Trabalhistas
+labor_rights_pt:
+  - "Jornada máxima: 8h/dia, 44h/semana"
+  - "Intervalo intrajornada: 1h a 2h (almoço)"
+  - "Adicional noturno: +25% sobre hora normal"
+  - "Horas extras: +50% (ou +100% em feriados/domingos)"
+  - "FGTS: 8% sobre salário depositado todo mês"
+  - "13º salário: em duas parcelas (metade até 30/nov)"
+  - "Férias: 30 dias após 12 meses, +1/3 constitucional"
+  - "Aviso prévio: 30 dias (pode aumentar com tempo)"
+  - "Seguro-desemprego: 3 a 5 parcelas (se demitido sem justa causa)"
+  
+labor_rights_en:
+  - "Max workday: 8h/day, 44h/week"
+  - "Lunch break: 1h to 2h"
+  - "Night shift: +25% on normal hour"
+  - "Overtime: +50% (or +100% on holidays/Sundays)"
+  - "FGTS: 8% deposited monthly on salary"
+  - "13th salary: in two installments (half by Nov 30th)"
+  - "Vacation: 30 days after 12 months, +1/3 constitutional"
+  - "Prior notice: 30 days (can increase with tenure)"
+  - "Unemployment insurance: 3 to 5 installments (if fired without cause)"
+
+# Rescisão Contratual
+termination:
+  - type: "Demissão sem justa causa"
+    description_pt: "Empregador demite, paga multa de 40% sobre FGTS + aviso prévio"
+    description_en: "Employer fires, pays 40% fine on FGTS + prior notice"
+    severance_pay_pt: ["Saldo de salário", "Aviso prévio", "13º proporcional", "Férias proporcionais + 1/3", "Multa de 40%"]
+    severance_pay_en: ["Salary balance", "Prior notice", "Proportional 13th", "Proportional vacation + 1/3", "40% fine"]
+    unemployment_insurance: true
+    
+  - type: "Pedido de demissão (demissão com justa causa)"
+    description_pt: "Funcionário pede demissão, perde direitos"
+    description_en: "Employee resigns, loses rights"
+    severance_pay_pt: ["Saldo de salário", "Férias vencidas + 1/3"]
+    severance_pay_en: ["Salary balance", "Due vacation + 1/3"]
+    unemployment_insurance: false
+    fgts_penalty: true  # Perde 40% do FGTS
+    
+  - type: "Demissão por justa causa"
+    description_pt: "Falta grave do funcionário, sem nenhuma verba rescisória"
+    description_en: "Serious employee misconduct, no severance pay"
+    examples_pt: ["Falta injustificada", "Desonra do patrão", "Crime no trabalho"]
+    examples_en: ["Unjustified absence", "Dishonor employer", "Crime at work"]
+
+# Sindicatos e Negociação Coletiva
+unions:
+  mandatory_contribution_pt: "Contribuição sindical (opt-out, Lei 13.467/2017)"
+  mandatory_contribution_en: "Union contribution (opt-out, Law 13.467/2017)"
+  collective_bargaining_pt: "Acordos coletivos definem pisos por categoria"
+  collective_bargaining_en: "Collective bargaining sets minimum wages per category"
+  
+# Terceirização e Outsourcing
+outsourcing:
+  law: "Lei nº 13.429/2017"
+  description_pt: "Permite terceirização para atividade-fim e meio"
+  description_en: "Allows outsourcing for core and non-core activities"
+  requirements_pt: ["Empresa terceirizada deve ter CNPJ", "Mesmos direitos CLT", "Responsabilidade solidária"]
+  requirements_en: ["Outsourcing company must have CNPJ", "Same CLT rights", "Joint liability"]
+
+# Registro de Ponto (Time Tracking)
+time_tracking:
+  required_for_companies_above: 20  # Funcionários
+  methods_pt: ["Relógio de ponto eletrônico (REP)", "Aplicativo de ponto (com GPS)", "Planilha (casos específicos)"]
+  methods_en: ["Electronic time clock (REP)", "Punch app (with GPS)", "Spreadsheet (specific cases)"]
+  digital_signature_required: true
+  storage_period_years: 5
+
+# eSocial (Folha Digital)
+esocial:
+  description_pt: "Sistema do governo para folha de pagamento digital"
+  description_en: "Government system for digital payroll"
+  mandatory_for: "Todas as empresas (fase final)"
+  url: "https://www.esocial.gov.br"
+  integration: "Web service (XML)"
+  events_tracked_pt: ["Admissão", "Férias", "Afastamentos", "Rescisão", "FGTS"]
+  events_tracked_en: ["Hiring", "Vacation", "Leave", "Termination", "FGTS"]
+
+# Plataformas de RH e Recrutamento
+hr_platforms:
+  - name: "Gupy"
+    website: "https://www.gupy.com.br"
+    type: "Recrutamento e Seleção com IA"
+    features_pt: ["Triagem com IA", "Videoentrevista", "Integração com LinkedIn"]
+    features_en: ["AI screening", "Video interview", "LinkedIn integration"]
+    pricing_brl_month: [500, 2000, 5000]
+    
+  - name: "Love Mondays (Glassdoor_BR)"
+    website: "https://www.lovemondays.com.br"
+    type: "Employer Branding / Reviews"
+    features_pt: ["Avaliações de funcionários", "Salários informados", "Ranking de empresas"]
+    features_en: ["Employee reviews", "Reported salaries", "Company rankings"]
+    
+  - name: "Catho"
+    website: "https://www.catho.com.br"
+    type: "Job Board"
+    features_pt: ["Banco de currículos", "Vagas", "Avaliação de candidatos"]
+    features_en: ["Resume database", "Job postings", "Candidate assessment"]
+    pricing_brl_month: [199, 499, 999]
+    
+  - name: "GeekHunter"
+    website: "https://www.geekhunter.com.br"
+    type: "Tech Recruiting"
+    focus: "Developers, Data Scientists, Tech roles"
+    pricing_brl_per_hire: [5000, 15000]
+    
+  - name: "Revelo"
+    website: "https://www.revelo.com.br"
+    type: "Tech Talent Platform"
+    focus: "Tech recruitment"
+    pricing_brl_per_hire: [3000, 12000]
+
+# Benefícios Mais Comuns (Além de Lei)
+common_benefits:
+  - benefit_pt: "Vale-transporte"
+    benefit_en: "Transport voucher"
+    mandatory: true
+    value_brl_day: 7.00  # Média
+    
+  - benefit_pt: "Vale-refeição ou Alimentação"
+    benefit_en: "Meal or Food voucher"
+    mandatory: false
+    value_brl_day: [25.00, 45.00]
+    
+  - benefit_pt: "Plano de Saúde"
+    benefit_en: "Health Insurance"
+    mandatory: false
+    cost_employer_percent: 70.0  # Empresa paga 70%, funcionário 30%
+    
+  - benefit_pt: "PLR (Participação nos Lucros e Resultados)"
+    benefit_en: "Profit Sharing (PLR)"
+    mandatory: false
+    typical_months_salary: [1, 3]
+    
+  - benefit_pt: "Home office (gastos)"
+    benefit_en: "Home office (expenses)"
+    mandatory: false  # Mas regulamentado (Lei 14.442/2022)
+    items_pt: ["Internet", "Energia", "Equipamentos", "Cadeira ergonômica"]
+    items_en: ["Internet", "Electricity", "Equipment", "Ergonomic chair"]
+
+# Trabalho Intermitente (Lei 13.467/2017)
+intermittent_work:
+  description_pt: "Contrato onde horas são pagas por demanda"
+  description_en: "Contract where hours are paid on demand"
+  law: "Lei nº 13.467/2017"
+  use_cases_pt: ["Entregadores", "Diaristas", "Motoristas de app"]
+  use_cases_en: ["Delivery couriers", "Daily cleaners", "App drivers"]
+  minimum_wage_apply: true
+  fgts_apply: true

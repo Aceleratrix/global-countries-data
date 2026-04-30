@@ -1,0 +1,239 @@
+version: 1.0.0
+country: brazil
+last_updated: 2026-04-30
+description: "Regulamentações de importação, exportação e comércio exterior"
+
+# Órgãos e Sistemas de Comércio Exterior
+trade_authorities:
+  - name: "SISCOMEX (Sistema Integrado de Comércio Exterior)"
+    description_pt: "Sistema da Receita Federal para importação/exportação"
+    description_en: "Federal Revenue system for import/export"
+    url: "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior"
+    access: "Certificado Digital (e-CNPJ)"
+    uses_pt: ["Licenciamento", "Despacho aduaneiro", "Drawback"]
+    uses_en: ["Licensing", "Customs clearance", "Drawback"]
+    
+  - name: "ANVISA (Agência Nacional de Vigilância Sanitária)"
+    description_pt: "Regulamenta produtos de saúde, alimentos, cosméticos"
+    description_en: "Regulates health products, food, cosmetics"
+    url: "https://www.gov.br/anvisa"
+    requirements_pt: "Registros para produtos importados (alimentos, remédios, médicos)"
+    requirements_en: "Registrations for imported products (food, medicines, medical)"
+    
+  - name: "INMETRO (Instituto Nacional de Metrologia)"
+    description_pt: "Regulamenta produtos que exigem certificação obrigatória"
+    description_en: "Regulates products requiring mandatory certification"
+    url: "https://www.gov.br/inmetro"
+    products_pt: ["Eletrônicos", "Brinquedos", "Pneus", "Reguladores de voltagem"]
+    products_en: ["Electronics", "Toys", "Tires", "Voltage regulators"]
+    
+  - name: "MAPA (Ministério da Agricultura)"
+    description_pt: "Regulamenta produtos de origem animal/vegetal"
+    description_en: "Regulates animal/plant origin products"
+    url: "https://www.gov.br/agricultura"
+    products_pt: ["Alimentos", "Sementes", "Agrotóxicos", "Produtos de origem animal"]
+    products_en: ["Food", "Seeds", "Pesticides", "Animal origin products"]
+    
+  - name: "MDIC (Ministério do Desenvolvimento, Indústria, Comércio e Serviços)"
+    description_pt: "Responsável por políticas de comércio exterior"
+    description_en: "Responsible for foreign trade policies"
+    url: "https://www.gov.br/mdic"
+
+# Impostos sobre Importação
+import_taxes:
+  - tax: "II (Imposto de Importação)"
+    rate_percent: [0, 35]  # Varia por NCM
+    calculation: "Ad valorem (sobre valor aduaneiro)"
+    exemption_pt: "Até US$ 50 (remessas expressas/EMS) - uso pessoal"
+    exemption_en: "Up to US$ 50 (express shipments/EMS) - personal use"
+    
+  - tax: "IPI (Imposto sobre Produtos Industrializados)"
+    rate_percent: [0, 15]
+    calculation: "Sobre (Valor Aduaneiro + II)"
+    
+  - tax: "PIS/COFINS de Importação"
+    rate_percent: 9.25
+    calculation: "Sobre (Valor Aduaneiro + II + IPI)"
+    
+  - tax: "ICMS de Importação"
+    rate_percent: 18.0  # SP/RJ/MG (varia por estado)
+    calculation: "Sobre (Valor Aduaneiro + II + IPI + PIS/COFINS)"
+    
+  - tax: "Taxa de Utilização do Siscomex"
+    value_brl: 185.00  # Por documento (DI/DSI)
+    
+  total_tax_burden_percent: [40, 85]  # Carga tributária total (varia por produto)
+
+# Licenciamento de Importação
+import_licensing:
+  types:
+    - type: "Licenciamento Automático"
+      description_pt: "Dispensa análise prévia (produtos sem restrição)"
+      description_en: "No prior analysis (products without restriction)"
+      processing_time_days: 1  # Imediato
+      
+    - type: "Licenciamento Não-Automático"
+      description_pt: "Exige análise de órgãos específicos (ANVISA, INMETRO, MAPA)"
+      description_en: "Requires analysis by specific agencies (ANVISA, INMETRO, MAPA)"
+      processing_time_days: [30, 90]
+      
+  prohibited_items_pt: ["Drogas ilícitas", "Armas sem autorização", "Produtos falsificados"]
+  prohibited_items_en: ["Illicit drugs", "Weapons without authorization", "Counterfeit products"]
+  
+# Código NCM (Nomenclatura Comum do Mercosul)
+ncm_codes:
+  description_pt: "Classificação fiscal de produtos para importação/exportação"
+  description_en: "Fiscal classification of products for import/export"
+  digits: 8
+  example: "8471.30.12"  # Tablets
+  search_url: "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/tratamento-administrativo/ncm"
+  
+# Exportação: Benefícios e Regimes Especiais
+export_incentives:
+  - name: "Drawback"
+    description_pt: "Suspensão/isenção de impostos em insumos para exportação"
+    description_en: "Suspension/exemption of taxes on inputs for export"
+    types_pt: ["Drawback Suspensão", "Drawback Isenção", "Drawback Integrado"]
+    types_en: ["Drawback Suspension", "Drawback Exemption", "Integrated Drawback"]
+    url: "https://www.gov.br/receitafederal/pt-br/assuntos/aduana-e-comercio-exterior/manuais/drawback"
+    
+  - name: "REPES (Regime Especial de Exportação de Serviços)"
+    description_pt: "Isenção de PIS/COFINS e IPI para prestadores de serviços para exportação"
+    description_en: "PIS/COFINS and IPI exemption for service providers exporting"
+    
+  - name: "Ex-Tarifário"
+    description_pt: "Redução do II para máquinas e equipamentos sem similares nacionais"
+    description_en: "II reduction for machinery without national similars"
+    rate_percent: 0.0  # De 0% a 2% (em vez de 14-20%)
+    url: "https://www.gov.br/mdic/pt-br/assuntos/comercio-exterior/regimes-aduaneiros/ex-tarifario"
+
+# Acordos Internacionais
+trade_agreements:
+  - name: "Mercosul (Brasil, Argentina, Uruguai, Paraguai, Venezuela*)"
+    type: "União Aduaneira"
+    benefits_pt: ["Tarifa zero para muitos produtos", "Acordos de complementação econômica"]
+    benefits_en: ["Zero tariff for many products", "Economic complementation agreements"]
+    external_tariff_percent: 14.0  # Tarifa Externa Comum (TEC)
+    
+  - name: "ACE 14 (México)"
+    type: "Acordo de Complementação Econômica"
+    benefits_pt: "Tarifas reduzidas ou zeradas para produtos específicos"
+    benefits_en: "Reduced or zero tariffs for specific products"
+    
+  - name: "EFTA (Islândia, Liechtenstein, Noruega, Suíça)"
+    type: "Acordo de Livre Comércio"
+    status: "Em implementação (2024-2026)"
+    
+  - name: "UE (União Europeia)"
+    type: "Acordo de Livre Comércio"
+    status: "Acordo assinado (2025), ratificação em curso"
+    potential_benefits_pt: "Acesso preferencial para carnes, açúcar, etanol"
+    potential_benefits_en: "Preferential access for meat, sugar, ethanol"
+
+# Freight e Logística Internacional
+international_shipping:
+  major_ports:
+    - name: "Porto de Santos (SP)"
+      type: "Marítimo"
+      participation_percent: 28.0  # Do comércio exterior brasileiro
+      main_cargo_pt: ["Contêineres", "Grãos (soja, milho)", "Açúcar"]
+      main_cargo_en: ["Containers", "Grains (soy, corn)", "Sugar"]
+      
+    - name: "Porto de Paranaguá (PR)"
+      type: "Marítimo"
+      participation_percent: 12.0
+      main_cargo: ["Grãs", "Contêineres"]
+      
+    - name: "Aeroporto de Viracopos (Campinas/SP)"
+      type: "Aéreo"
+      participation_percent: 18.0  # Carga aérea
+      main_cargo: ["Eletrônicos", "Farmacêuticos", "Flores"]
+      
+  major_freight_forwarders:
+    - "DHL Global Forwarding"
+    - "Kuehne + Nagel"
+    - "DB Schenker"
+    - "Ceva Logistics"
+    - "Braspress (doméstico)"
+    
+  shipping_time_days:
+    china_to_brazil: [30, 45]  # Marítimo
+    usa_to_brazil: [5, 10]  # Aéreo
+    europe_to_brazil: [7, 12]  # Aéreo
+
+# Pagamentos Internacionais
+international_payments:
+  methods:
+    - method: "Swift (Transferência Bancária)"
+      cost_brl: [150, 500]  # Taxas bancárias
+      processing_time_days: [2, 5]
+      used_for: "Pagamentos comerciais (importação)"
+      
+    - method: "Carta de Crédito (Letter of Credit)"
+      cost_brl: [500, 2000]
+      processing_time_days: [7, 30]
+      used_for: "Garantia em transações internacionais"
+      
+    - method: "PIX Internacional (em implementação)"
+      cost_brl: 0  # Gratuito (futuro)
+      processing_time: "Instantâneo (futuro)"
+      status: "Projeto Drex + PIX (2026-2027)"
+      
+  exchange_rate_source: "Banco Central (PTAX)"
+  exchange_rate_url: "https://www.bcb.gov.br/estabilidade/precos/pt-br/taxas"
+
+# Barreiras Não-Tarifárias
+non_tariff_barriers:
+  - type: "Quotas de Importação"
+    description_pt: "Limites quantitativos para certos produtos (ex: trigo, leite em pó)"
+    description_en: "Quantitative limits for certain products (e.g., wheat, powdered milk)"
+    
+  - type: "Normas Técnicas (INMETRO/ANVISA)"
+    description_pt: "Certificações obrigatórias para produtos específicos"
+    description_en: "Mandatory certifications for specific products"
+    
+  - type: "Requisitos Sanitários (MAPA)"
+    description_pt: "Fiscalização de produtos de origem animal/vegetal"
+    description_en: "Inspection of animal/plant origin products"
+    
+  - type: "Propriedade Intelectual"
+    description_pt: "Registro de marcas e patentes (INPI) para importação"
+    description_en: "Trademark and patent registration (INPI) for import"
+
+# E-commerce Internacional (Cross-Border)
+cross_border_ecommerce:
+  platforms:
+    - name: "Alibaba (AliExpress)"
+      market_share_percent: 45.0
+      import_tax_pt: "Cobrado na fonte (já incluso no preço)"
+      import_tax_en: "Collected at source (already included in price)"
+      
+    - name: "Amazon Global"
+      market_share_percent: 25.0
+      import_tax_pt: "Cobrado na fronteira (ICMS + II + PIS/COFINS)"
+      import_tax_en: "Collected at border (ICMS + II + PIS/COFINS)"
+      
+    - name: "Shopee International"
+      market_share_percent: 15.0
+      
+  import_threshold_usd: 50.00  # Isento para remessas expressas (uso pessoal)
+  declared_value_requirement_pt: "Valor real deve ser declarado (fraude é crime)"
+  declared_value_requirement_en: "Real value must be declared (fraud is a crime)"
+  
+# Oportunidades para Empresas de IA
+ai_company_import_opportunities:
+  - opportunity: "Importação de Hardware de IA (GPUs, Servidores)"
+    code_ncm: "8471.80.90"  # Outras unidades de máquinas automáticas
+    import_tax_total_percent: 40.0  # II + IPI + PIS/COFINS + ICMS
+    recommendation_pt: "Usar regime de Ex-Tarifário para reduzir para 0-2%"
+    recommendation_en: "Use Ex-Tariff regime to reduce to 0-2%"
+    
+  - opportunity: "Importação de Dados/Métricas (Serviços)"
+    tax_pt: "Sem imposto para importação de dados (serviço)"
+    tax_en: "No tax for data import (service)"
+    payment_method: "Swift ou cartão internacional"
+    
+  - opportunity: "Exportação de Software/SaaS"
+    tax_benefits_pt: "Isenção de PIS/COFINS (REPES) e IPI"
+    tax_benefits_en: "PIS/COFINS exemption (REPES) and IPI"
+    invoicing: "NFS-e ou fatura comercial"
