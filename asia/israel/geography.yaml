@@ -1,0 +1,14 @@
+area_km2: 20770
+region: Middle East
+continent: Asia
+borders:
+  - Lebanon
+  - Syria
+  - Jordan
+  - Egypt
+coastlines:
+  - Mediterranean Sea
+  - Red Sea (Gulf of Aqaba)
+climate: Mediterranean (hot dry summers, mild wet winters)
+highest_point: Mount Meron (1208 m)
+lowest_point: Dead Sea (-430.5 m)

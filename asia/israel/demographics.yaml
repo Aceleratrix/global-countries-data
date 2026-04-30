@@ -1,0 +1,15 @@
+population_2023: 9400000
+population_growth_rate: 1.8
+ethnic_groups:
+  Jewish: 74
+  Arab: 21
+  other: 5
+religions:
+  Jewish: 74
+  Muslim: 18
+  Christian: 2
+  Druze: 2
+  other: 4
+life_expectancy: 83.4
+median_age: 30.1
+literacy_rate: 98

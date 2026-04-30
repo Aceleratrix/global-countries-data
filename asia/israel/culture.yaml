@@ -1,0 +1,20 @@
+languages:
+  official:
+    - Hebrew
+    - Arabic
+  widely_spoken:
+    - English
+    - Russian
+cuisine_staples:
+  - Hummus
+  - Falafel
+  - Shakshuka
+  - Sabich
+major_holidays:
+  - Yom Kippur
+  - Rosh Hashanah
+  - Passover
+  - Independence Day
+cultural_symbols:
+  - Menorah
+  - Star of David

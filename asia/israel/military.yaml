@@ -1,0 +1,10 @@
+defense_expenditure_percent_gdp: 4.5
+armed_forces: Israel Defense Forces (IDF)
+military_service:
+  men: 32 months
+  women: 24 months
+branches:
+  - Ground Forces
+  - Air Force
+  - Navy
+nuclear_status: Undeclared (widely believed to possess nuclear weapons)
