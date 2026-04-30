@@ -1,0 +1,228 @@
+---
+country: "Germany"
+category: "business"
+type: "real_estate"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.immobilienscout24.de"
+  - "https://www.statista.com"
+  - "https://www.bundesbank.de"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Real Estate Market - Germany
+
+## Market Overview
+market_size_eur: 4_200_000_000_000  # total property value
+residential_share: 72  # percentage of market
+commercial_share: 28
+
+## Major Cities (Commercial Hubs)
+cities:
+  - name: "Berlin"
+    population: 3_700_000
+    office_rent_eur_sqm_month: 28.50
+    residential_rent_eur_sqm_month: 13.80
+    vacancy_rate: 3.2
+    
+  - name: "Munich (München)"
+    population: 1_600_000
+    office_rent_eur_sqm_month: 39.80
+    residential_rent_eur_sqm_month: 20.50
+    vacancy_rate: 1.8
+    
+  - name: "Frankfurt am Main"
+    population: 780_000
+    office_rent_eur_sqm_month: 42.50
+    residential_rent_eur_sqm_month: 18.90
+    vacancy_rate: 2.1
+    
+  - name: "Hamburg"
+    population: 1_900_000
+    office_rent_eur_sqm_month: 26.80
+    residential_rent_eur_sqm_month: 15.20
+    vacancy_rate: 2.8
+    
+  - name: "Cologne (Köln)"
+    population: 1_100_000
+    office_rent_eur_sqm_month: 24.50
+    residential_rent_eur_sqm_month: 14.10
+    vacancy_rate: 3.1
+
+## Residential Real Estate
+residential:
+  average_price_eur_sqm_buy:
+    berlin: 5_200
+    munich: 8_900
+    frankfurt: 6_800
+    hamburg: 5_600
+    cologne: 4_900
+    
+  average_rent_eur_sqm_month:
+    new_contracts: 11.50
+    existing_contracts: 8.20
+    
+  rent_control: true
+  rent_control_law: "Mietpreisbremse"
+  rent_increase_limit: 20  # percentage over 3 years max
+  
+  tenant_protection:
+    - "Strong tenant rights (Mietrecht)"
+    - "Eviction protection (Kündigungsschutz)"
+    - "Rent control in tight markets"
+    - "Notice period: 3 months (tenant), 3-9 months (landlord)"
+
+## Commercial Real Estate
+commercial:
+  office_spaces:
+    grade_a_rent_eur_sqm_year: 480
+    grade_b_rent_eur_sqm_year: 320
+    lease_term_years: 5-10
+    deposit_months: 3-6
+    
+  retail:
+    high_street_rent_eur_sqm_month: 120-350
+    shopping_center_rent_eur_sqm_month: 80-200
+    vacancy_rate: 8.5  # increasing due to e-commerce
+    
+  industrial_warehouse:
+    rent_eur_sqm_month: 5.50-9.80
+    prime_yield_percent: 4.2
+
+## Legal Framework
+legal:
+  property_ownership:
+    freehold: "Freehold (Eigentum)"
+    leasehold: "Leasehold (Erbpacht) - 49-99 years"
+    
+  foreign_ownership: "No restrictions for EU citizens; non-EU requires approval"
+  
+  transaction_costs_percent:
+    notary_fees: 1.5-2.0
+    real_estate_transfer_tax: 3.5-6.5  # varies by state (Bundesland)
+    agent_commission: 3.57-7.14  # incl. VAT (buyer pays 50% typically)
+    total_transaction_costs: 8-15
+    
+  grunderwerbsteuer:
+    description: "Real Estate Transfer Tax"
+    rates_by_state:
+      berlin: 6.0
+      bavaria: 3.5
+      bremen: 5.0
+      hamburg: 4.5
+      hessen: 6.0
+      north_rhine_westphalia: 6.5
+      saxony: 3.5
+      # ... other states vary 3.5-6.5%
+
+## Financing
+financing:
+  mortgage_types:
+    - name: "Annuitätendarlehen (Annuity Loan)"
+      description: "Fixed monthly payments, most common"
+      ltv_max: 80
+    - name: "Festdarlehen (Fixed-Rate Loan)"
+      description: "Fixed interest for 5-30 years"
+      typical_term: 10-15
+      
+  interest_rates:
+    fixed_10_years: 3.8  # percent (2026 average)
+    variable: 4.2
+    
+  ltv_ratio:
+    max_ltv: 80  # percent of property value
+    typical_down_payment: 20-30
+    
+  government_programs:
+    - "KfW Home Ownership Program (Wohneigentumsprogramm)"
+    - "KfW Energy Efficiency Program"
+    - "Social Housing (Sozialwohnungen) for low-income"
+
+## Investment Market
+investment:
+  foreign_investment_percent: 62
+  top_investor_countries:
+    - "USA"
+    - "UK"
+    - "Netherlands"
+    - "France"
+    
+  yield_rates_percent:
+    berlin_office: 4.1
+    munich_office: 3.8
+    frankfurt_office: 3.5
+    hamburg_office: 4.3
+    
+  investment_volume_eur_2025: 85_000_000_000
+
+## Zoning & Planning
+zoning:
+  categories:
+    - "Wohngebiet (Residential)"
+    - "Mischgebiet (Mixed-use)"
+    - "Gewerbegebiet (Commercial/Industrial)"
+    - "Industriegebiet (Industrial)"
+    
+  baunutzungsverordnung: "Federal Building Use Ordinance (BauNVO)"
+  
+  development_process:
+    - "Apply for development plan (Bebauungsplan)"
+    - "Submit building permit (Baugenehmigung)"
+    - "Timeline: 3-12 months depending on complexity"
+    - "Public participation required for larger projects"
+
+## Short-Term Rentals
+short_term_rentals:
+  airbnb_regulation: "Registration required in most cities"
+  registration_fee_eur: 20-50
+  restrictions: "Some cities limit whole-apartment rentals to 90 days/year"
+  berlin_mietendeckel: "Strict rent controls (partially overturned, but still influential)"
+
+## Construction & Development
+construction:
+  building_codes:
+    - "Building Code (Bauordnung) by state"
+    - "Energy Performance Certificate (Energieausweis) mandatory"
+    - "Fire safety regulations (Brandschutz)"
+    
+  energy_efficiency:
+    - "GEG (Gebäudeenergiegesetz) - Building Energy Act"
+    - "Heating: 65% renewable energy required for new buildings from 2024"
+    - "KfW efficiency standards (40, 55, 70, 85, 100)"
+    
+  construction_costs_eur_sqm:
+    residential_standard: 2_800
+    residential_luxury: 4_500
+    office_standard: 2_400
+    industrial: 1_200
+
+## Proptech & Digital
+proptech:
+  market_size_eur: 3_200_000_000
+  top_platforms:
+    - "ImmobilienScout24 (market leader)"
+    - "Immowelt"
+    - "WG-Gesucht (shared flats)"
+    - "Wohnungsboerse.net"
+    
+  digital_trends:
+    - "Virtual tours and 3D viewing"
+    - "Digital rental applications"
+    - "Blockchain-based property transactions (pilot phase)"
+    - "Smart building technology integration"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "All property listings and contracts must be in German"
+  - "Notary (Notar) is MANDATORY for property transactions"
+  - "Real Estate Transfer Tax (Grunderwerbsteuer) varies by state (3.5-6.5%)"
+  - "Strong tenant protection laws - evictions are difficult"
+  - "Energy Performance Certificate (Energieausweis) required for all rentals/sales"
+  - "Building Energy Act (GEG) requires 65% renewable heating for new builds"
+  - "KfW bank offers government-subsidized loans for energy renovation"
+  - "ImmobilienScout24 dominates online listings (80% market share)"
+  - "Rental deposits (Kaution) capped at 3 months cold rent"
+  - "Rental contracts typically unlimited duration (unbefristet)"
+  - "Munich and Berlin have tight rental markets (low vacancy)"
+  - "Commercial leases typically 5-10 years with 3-6 months deposit"

@@ -1,0 +1,139 @@
+---
+country: "Germany"
+category: "business"
+type: "import_export"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.destatis.de"
+  - "https://www.bmwk.de"
+  - "https://ec.europa.eu"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Import/Export Regulations - Germany
+
+## Trade Overview
+eu_member: true
+eurozone_member: true
+wto_member: true
+currency: "EUR (Euro)"
+top_trading_partners:
+  - "China"
+  - "USA"
+  - "Netherlands"
+  - "France"
+  - "Poland"
+  - "Italy"
+
+## Export Data
+export_value_eur_2025: 1_650_000_000_000
+top_export_products:
+  - product: "Motor vehicles and parts"
+    value_eur: 245_000_000_000
+    share_percent: 14.8
+  - product: "Machinery"
+    value_eur: 198_000_000_000
+    share_percent: 12.0
+  - product: "Chemical products"
+    value_eur: 156_000_000_000
+    share_percent: 9.5
+  - product: "Electronics and electrical equipment"
+    value_eur: 142_000_000_000
+    share_percent: 8.6
+  - product: "Pharmaceuticals"
+    value_eur: 98_000_000_000
+    share_percent: 5.9
+
+## Import Data
+import_value_eur_2025: 1_420_000_000_000
+top_import_products:
+  - product: "Motor vehicles and parts"
+    value_eur: 156_000_000_000
+    share_percent: 11.0
+  - product: "Machinery"
+    value_eur: 128_000_000_000
+    share_percent: 9.0
+  - product: "Chemical products"
+    value_eur: 118_000_000_000
+    share_percent: 8.3
+  - product: "Electronics"
+    value_eur: 112_000_000_000
+    share_percent: 7.9
+  - product: "Crude oil and petroleum"
+    value_eur: 89_000_000_000
+    share_percent: 6.3
+
+## Customs & Tariffs (EU Framework)
+customs_union: "European Union Customs Union"
+common_external_tariff: true
+average_tariff_percent: 1.8
+
+tariff_structure:
+  industrial_goods: 0-4
+  agricultural_products: 0-25
+  textiles: 0-12
+  steel: 0-25
+
+## Customs Authorities
+authorities:
+  - name: "Zoll (German Customs)"
+    website: "https://www.zoll.de"
+    role: "Border control, customs clearance, VAT collection"
+  - name: "European Commission - Taxation and Customs Union"
+    website: "https://ec.europa.eu/taxation_customs"
+    role: "EU-wide customs policy"
+
+## Import Requirements
+import_licensing:
+  general_rule: "No license required for most goods from EU/EU-FTA countries"
+  restricted_goods:
+    - "Firearms and ammunition (Waffenrecht)"
+    - "Medicinal products (AMG)"
+    - "Narcotics (BtMG)"
+    - "Dual-use items (EU Dual-Use Regulation)"
+    - "Cultural goods (Kulturgutschutzgesetz)"
+
+## Documentation
+required_documents:
+  - "Commercial Invoice (Handelsrechnung)"
+  - "Packing List (Packliste)"
+  - "Bill of Lading / Air Waybill"
+  - "Certificate of Origin (Ursprungszeugnis)"
+  - "EUR.1 certificate (for preferential treatment)"
+  - "ATA Carnet (temporary imports)"
+
+## VAT on Imports
+import_vat:
+  standard_rate: 19
+  reduced_rate: 7
+  vat_payment: "Payable at customs clearance"
+  deferment: "VAT deferment possible with customs authorization"
+
+## Export Controls
+export_controls:
+  authority: "BAFA (Bundesamt für Wirtschaft und Ausfuhrkontrolle)"
+  website: "https://www.bafa.de"
+  controlled_items:
+    - "Dual-use goods"
+    - "Military equipment"
+    - "Cultural goods"
+    - "Strategic goods to embargoed countries"
+
+## EORI Number
+eori:
+  required: true
+  description: "Economic Operators Registration and Identification number"
+  format: "DE + 12 digits"
+  authority: "Zoll (Customs)"
+  application: "Via Zoll portal"
+
+## Important Notes for AI Agents
+ai_agent_guidance:
+  - "Germany is part of EU Customs Union - no customs between EU members"
+  - "VAT registered businesses can defer import VAT"
+  - "EUR.1 certificates needed for preferential tariff treatment"
+  - "BAFA approves export licenses for dual-use and strategic goods"
+  - "EORI number mandatory for ALL customs declarations"
+  - "All customs declarations electronic via ATLAS system"
+  - "Sanctions against Russia heavily impact trade (2022-2026)"
