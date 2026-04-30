@@ -1,0 +1,363 @@
+version: 1.0.0
+country: brazil
+last_updated: 2026-04-30
+description: "Serviços de IA, Machine Learning e Cloud Computing disponíveis no Brasil"
+
+# Provedores de Cloud com Região no Brasil
+cloud_providers_brazil_region:
+  - provider: "AWS (Amazon Web Services)"
+    region_code: "sa-east-1"
+    region_name_pt: "América do Sul (São Paulo)"
+    region_name_en: "South America (São Paulo)"
+    launch_year: 2011
+    services_count: 200+
+    main_services_pt: ["EC2", "S3", "RDS", "Lambda", "Bedrock (IA)"]
+    main_services_en: ["EC2", "S3", "RDS", "Lambda", "Bedrock (AI)"]
+    website: "https://aws.amazon.com/pt/regions/south-america/"
+    compliance_pt: ["LGPD", "PCI DSS", "ISO 27001"]
+    compliance_en: ["LGPD", "PCI DSS", "ISO 27001"]
+    data_residency: true
+    latency_to_sp_ms: 0  # Base
+    pricing_tier: "Medium-High"
+    
+  - provider: "Google Cloud Platform"
+    region_code: "southamerica-east1"
+    region_name_pt: "América do Sul, Leste 1 (São Paulo)"
+    region_name_en: "South America, East 1 (São Paulo)"
+    launch_year: 2017
+    services_count: 150+
+    main_services_pt: ["Compute Engine", "Cloud Storage", "Vertex AI", "Dialogflow"]
+    main_services_en: ["Compute Engine", "Cloud Storage", "Vertex AI", "Dialogflow"]
+    website: "https://cloud.google.com/compute/docs/regions-zones?hl=pt-br"
+    compliance_pt: ["LGPD", "ISO 27001", "SOC 2"]
+    compliance_en: ["LGPD", "ISO 27001", "SOC 2"]
+    data_residency: true
+    
+  - provider: "Microsoft Azure"
+    region_code: "Brazil South"
+    region_name_pt: "Brasil Sul"
+    region_name_en: "Brazil South"
+    launch_year: 2014
+    services_count: 180+
+    main_services_pt: ["Virtual Machines", "Blob Storage", "Azure AI", "Cognitive Services"]
+    main_services_en: ["Virtual Machines", "Blob Storage", "Azure AI", "Cognitive Services"]
+    website: "https://azure.microsoft.com/pt-br/explore/global-infrastructure/products-by-region/"
+    compliance_pt: ["LGPD", "PCI DSS", "HDS"]
+    compliance_en: ["LGPD", "PCI DSS", "HDS"]
+    data_residency: true
+    
+  - provider: "Oracle Cloud"
+    region_code: "sa-saopaulo-1"
+    region_name_pt: "São Paulo"
+    region_name_en: "São Paulo"
+    launch_year: 2021
+    services_count: 100+
+    main_services_pt: ["Compute", "Object Storage", "OCI Generative AI"]
+    main_services_en: ["Compute", "Object Storage", "OCI Generative AI"]
+    website: "https://www.oracle.com/br/cloud/regions/"
+    compliance_pt: ["LGPD", "ISO 27001"]
+    compliance_en: ["LGPD", "ISO 27001"]
+    free_tier: true
+
+# Serviços de IA Generativa Disponíveis
+generative_ai_services:
+  - provider: "AWS Bedrock"
+    description_pt: "Modelos fundacionais via API (Claude, Titan, Llama)"
+    description_en: "Foundation models via API (Claude, Titan, Llama)"
+    models_pt: ["Claude (Anthropic)", "Amazon Titan", "Meta Llama 3", "Cohere"]
+    models_en: ["Claude (Anthropic)", "Amazon Titan", "Meta Llama 3", "Cohere"]
+    region_available: true
+    api_type: "REST"
+    docs_pt: "https://docs.aws.amazon.com/bedrock/"
+    docs_en: "https://docs.aws.amazon.com/bedrock/latest/userguide/"
+    
+  - provider: "Google Vertex AI"
+    description_pt: "Plataforma unificada de IA (Gemini, PaLM)"
+    description_en: "Unified AI platform (Gemini, PaLM)"
+    models_pt: ["Gemini 1.5", "PaLM 2", "Imagen 2 (imagem)"]
+    models_en: ["Gemini 1.5", "PaLM 2", "Imagen 2 (image)"]
+    region_available: true
+    api_type: "REST / gRPC"
+    docs: "https://cloud.google.com/vertex-ai"
+    
+  - provider: "Azure AI"
+    description_pt: "Serviços cognitivos e Azure OpenAI Service"
+    description_en: "Cognitive services and Azure OpenAI Service"
+    models_pt: ["GPT-4", "GPT-3.5", "DALL-E 3", "Whisper"]
+    models_en: ["GPT-4", "GPT-3.5", "DALL-E 3", "Whisper"]
+    region_available: true
+    api_type: "REST"
+    docs: "https://azure.microsoft.com/en-us/products/ai-services/"
+    
+  - provider: "OpenAI API"
+    description_pt: "API direta da OpenAI (via internet)"
+    description_en: "Direct OpenAI API (via internet)"
+    models_pt: ["GPT-4o", "GPT-4", "GPT-3.5", "DALL-E", "Whisper", "TTS"]
+    models_en: ["GPT-4o", "GPT-4", "GPT-3.5", "DALL-E", "Whisper", "TTS"]
+    region_available: false  # Sem região específica
+    latency_ms: 200  # Para o Brasil
+    docs: "https://platform.openai.com/docs"
+    
+  - provider: "Anthropic API (Claude)"
+    description_pt: "API da Anthropic para modelos Claude"
+    description_en: "Anthropic API for Claude models"
+    models_pt: ["Claude 3.5 Sonnet", "Claude 3 Opus", "Claude 3 Haiku"]
+    models_en: ["Claude 3.5 Sonnet", "Claude 3 Opus", "Claude 3 Haiku"]
+    region_available: false
+    latency_ms: 180
+    docs: "https://docs.anthropic.com"
+
+# LLMs Locais / Open Source Populares no Brasil
+local_llms_popular:
+  - name: "Llama 3 (Meta)"
+    type: "Open Source"
+    params_available: ["8B", "70B", "405B"]
+    deployment_pt: "Self-hosted (AWS/GCP/Azure)"
+    deployment_en: "Self-hosted (AWS/GCP/Azure)"
+    use_cases_pt: ["Chatbots", "Análise de textos", "Sumarização"]
+    use_cases_en: ["Chatbots", "Text analysis", "Summarization"]
+    
+  - name: "Mistral / Mixtral"
+    type: "Open Source"
+    params_available: ["7B", "8x7B", "8x22B"]
+    deployment_pt: "Self-hosted ou via Together AI"
+    deployment_en: "Self-hosted or via Together AI"
+    
+  - name: "GPT-4All / LocalAI"
+    type: "Local Runtime"
+    description_pt: "Executar LLMs localmente (sem nuvem)"
+    description_en: "Run LLMs locally (no cloud)"
+    hardware_needed_pt: "GPU com 8GB+ VRAM recomendado"
+    hardware_needed_en: "GPU with 8GB+ VRAM recommended"
+
+# Serviços de NLP (Processamento de Linguagem Natural)
+nlp_services:
+  - provider: "Google Cloud Natural Language"
+    features_pt: ["Análise de sentimento", "Entidades", "Sintaxe"]
+    features_en: ["Sentiment analysis", "Entities", "Syntax"]
+    language_support_pt: ["pt-BR", "en", "es"]
+    language_support_en: ["pt-BR", "en", "es"]
+    api: "https://cloud.google.com/natural-language"
+    
+  - provider: "AWS Comprehend"
+    features_pt: ["Análise de texto", "Extração de entidades", "PII detection"]
+    features_en: ["Text analysis", "Entity extraction", "PII detection"]
+    language_support: ["pt-BR", "en"]
+    api: "https://aws.amazon.com/comprehend/"
+    
+  - provider: "Azure Text Analytics"
+    features_pt: ["Análise de sentimento", "Extração de frases-chave"]
+    features_en: ["Sentiment analysis", "Key phrase extraction"]
+    language_support: ["pt-BR", "en", "es"]
+    api: "https://azure.microsoft.com/products/ai-services/text-analytics/"
+
+# Serviços de Speech (Voz)
+speech_services:
+  - provider: "Google Cloud Speech-to-Text"
+    features_pt: ["Transcrição", "Diarização", "Suporte pt-BR"]
+    features_en: ["Transcription", "Diarization", "pt-BR support"]
+    api: "https://cloud.google.com/speech-to-text"
+    
+  - provider: "AWS Transcribe"
+    features_pt: ["Transcrição médica", "Identificação de locutor"]
+    features_en: ["Medical transcription", "Speaker identification"]
+    language_support: ["pt-BR", "en"]
+    api: "https://aws.amazon.com/transcribe/"
+    
+  - provider: "Azure Speech"
+    features_pt: ["Text-to-Speech", "Speech-to-Text", "Vozes pt-BR"]
+    features_en: ["Text-to-Speech", "Speech-to-Text", "pt-BR voices"]
+    api: "https://azure.microsoft.com/products/ai-services/speech/"
+    
+  - provider: "ElevenLabs"
+    description_pt: "Clonagem e geração de voz AI (pt-BR disponível)"
+    description_en: "AI voice cloning and generation (pt-BR available)"
+    voices_pt: ["Raphael (masculina)", "Alice (feminina)"]
+    voices_en: ["Raphael (male)", "Alice (female)"]
+    api: "https://elevenlabs.io"
+
+# Visão Computacional
+computer_vision_services:
+  - provider: "Google Cloud Vision"
+    features_pt: ["OCR", "Detecção de objetos", "Rótulos", "Face detection"]
+    features_en: ["OCR", "Object detection", "Labels", "Face detection"]
+    api: "https://cloud.google.com/vision"
+    
+  - provider: "AWS Rekognition"
+    features_pt: ["Análise de imagem", "Reconhecimento facial", "Texto em imagem"]
+    features_en: ["Image analysis", "Face recognition", "Text in image"]
+    api: "https://aws.amazon.com/rekognition/"
+    
+  - provider: "Azure Computer Vision"
+    features_pt: ["OCR", "Descrição de imagem", "Leitura de documentos"]
+    features_en: ["OCR", "Image description", "Document reading"]
+    api: "https://azure.microsoft.com/products/ai-services/computer-vision/"
+
+# Serviços de Chatbot e Conversational AI
+conversational_ai:
+  - platform: "Dialogflow (Google)"
+    type: "No-code/Low-code"
+    features_pt: ["Intents", "Entities", "Fulfillment webhook", "Integração WhatsApp"]
+    features_en: ["Intents", "Entities", "Fulfillment webhook", "WhatsApp integration"]
+    pricing: "Free tier + Pay-as-you-go"
+    docs_pt: "https://cloud.google.com/dialogflow/docs?hl=pt-br"
+    docs_en: "https://cloud.google.com/dialogflow/docs"
+    
+  - platform: "Amazon Lex"
+    type: "Low-code"
+    features_pt: ["NLU", "Integração com AWS", "Suporte pt-BR limitado"]
+    features_en: ["NLU", "AWS integration", "Limited pt-BR support"]
+    pricing: "Pay-as-you-go"
+    docs: "https://aws.amazon.com/lex/"
+    
+  - platform: "Rasa (Open Source)"
+    type: "Self-hosted / Open Source"
+    features_pt: ["NLU personalizado", "Chatbot on-premise", "Conversational AI"]
+    features_en: ["Custom NLU", "On-premise chatbot", "Conversational AI"]
+    pricing: "Open Source (gratuito) ou Enterprise"
+    docs: "https://rasa.com/docs/"
+    
+  - platform: "Watson Assistant (IBM)"
+    type: "Enterprise"
+    features_pt: ["IA conversacional", "Integração empresarial", "Suporte pt-BR"]
+    features_en: ["Conversational AI", "Enterprise integration", "pt-BR support"]
+    pricing_usd_month: [0, 140, 500]
+    docs: "https://www.ibm.com/watson/assistant/"
+
+# Data Residency e Compliance
+data_residency:
+  requirement_lgpd_pt: "Dados sensíveis devem ser armazenados no Brasil (recomendado)"
+  requirement_lgpd_en: "Sensitive data should be stored in Brazil (recommended)"
+  cloud_options_pt:
+    - "AWS sa-east-1 (São Paulo) - Full compliance"
+    - "Google Cloud southamerica-east1 - Full compliance"
+    - "Azure Brazil South - Full compliance"
+  cloud_options_en:
+    - "AWS sa-east-1 (São Paulo) - Full compliance"
+    - "Google Cloud southamerica-east1 - Full compliance"
+    - "Azure Brazil South - Full compliance"
+  cross_border_transfer_pt: "Permitido com cláusulas padrão (SCCs) ou BCRs"
+  cross_border_transfer_en: "Allowed with Standard Contractual Clauses (SCCs) or BCRs"
+
+# Provedores de GPU para Treinamento de Modelos
+gpu_providers:
+  - provider: "AWS EC2 (P instances)"
+    gpus_available: ["NVIDIA A100", "V100", "T4"]
+    pricing_usd_hour: [0.40, 32.77]  # T4 to A100
+    spot_instances: true
+    region: "sa-east-1"
+    
+  - provider: "Google Cloud (A2 machines)"
+    gpus_available: ["NVIDIA A100", "T4"]
+    pricing_usd_hour: [0.35, 28.50]
+    preemptible: true
+    region: "southamerica-east1"
+    
+  - provider: "Azure (NC/NV series)"
+    gpus_available: ["NVIDIA A100", "K80", "T4"]
+    pricing_usd_hour: [0.40, 29.00]
+    region: "Brazil South"
+    
+  - provider: "Lambda Labs"
+    description_pt: "GPU cloud especializado (sem região no Brasil)"
+    description_en: "Specialized GPU cloud (no Brazil region)"
+    gpus_available: ["NVIDIA H100", "A100", "RTX 4090"]
+    latency_to_br_ms: 150
+
+# Talentos de IA no Brasil
+ai_talent:
+  data_scientists_estimate: 25000
+  ml_engineers_estimate: 12000
+  nlp_specialists_estimate: 3000
+  computer_vision_specialists_estimate: 2500
+  
+  top_universities_pt:
+    - "USP (Universidade de São Paulo)"
+    - "Unicamp (Universidade Estadual de Campinas)"
+    - "UFRJ (Universidade Federal do Rio de Janeiro)"
+    - "UFMG (Universidade Federal de Minas Gerais)"
+    - "PUC-RJ/SP (Pontifícia Universidade Católica)"
+  top_universities_en:
+    - "USP (University of São Paulo)"
+    - "Unicamp (State University of Campinas)"
+    - "UFRJ (Federal University of Rio de Janeiro)"
+    - "UFMG (Federal University of Minas Gerais)"
+    - "PUC-RJ/SP (Pontifical Catholic University)"
+    
+  average_salary_brl_year:
+    junior_data_scientist: 72000
+    senior_data_scientist: 180000
+    ml_engineer: 156000
+    ai_researcher: 240000
+    
+  hiring_platforms_pt: ["LinkedIn", "Catho", "InfoJobs", "GeekHunter", "Revelo"]
+  hiring_platforms_en: ["LinkedIn", "Catho", "InfoJobs", "GeekHunter", "Revelo"]
+
+# Incentivos Fiscais para IA/Tech
+tax_incentives:
+  - name: "Lei do Bem (Lei 11.196/2005)"
+    description_pt: "Incentivos para P&D em tecnologia (abatimento de IR)"
+    description_en: "R&D incentives for technology (corporate tax relief)"
+    benefit_percent: "60-80% de abatimento em P&D"
+    benefit_en: "60-80% relief on R&D expenses"
+    eligible_activities_pt: ["Desenvolvimento de software", "Pesquisa em IA", "Inovação"]
+    eligible_activities_en: ["Software development", "AI research", "Innovation"]
+    
+  - name: "Startups Law (Lei 14.195/2021)"
+    description_pt: "Quadro legal para startups (redução de burocracia)"
+    description_en: "Legal framework for startups (reduced bureaucracy)"
+    benefits_pt: ["Registro simplificado", "Contratos com governo", "Stock options"]
+    benefits_en: ["Simplified registration", "Government contracts", "Stock options"]
+    
+  - name: "Innovation Zones (Zonas de Inovação)"
+    description_pt: "Regiões com benefícios fiscais para tech (ex: Porto Digital - PE)"
+    description_en: "Regions with tax benefits for tech (e.g., Porto Digital - PE)"
+    examples_pt: ["Porto Digital (Recife)", "San Pedro Valley (BH)", "São Paulo Tech Hub"]
+    examples_en: ["Porto Digital (Recife)", "San Pedro Valley (BH)", "São Paulo Tech Hub"]
+
+# Hackerspaces e Comunidades de IA
+ai_communities:
+  - name: "AI São Paulo"
+    type: "Meetup"
+    members: 5000
+    focus: "Machine Learning, Deep Learning"
+    
+  - name: "Data Science Rio"
+    type: "Meetup"
+    members: 3000
+    focus: "Data Science, Analytics"
+    
+  - name: "PyData Brasil"
+    type: "Community"
+    members: 8000
+    focus: "Python para Data Science"
+    
+  - name: "MLOps Community Brasil"
+    type: "Online"
+    members: 2000
+    focus: "MLOps, Deployment"
+    
+  - name: "Women in AI Brasil"
+    type: "Community"
+    members: 1500
+    focus: "Diversidade em IA"
+
+# Conferências e Eventos de IA
+ai_events:
+  - name: "TDC (The Developers Conference)"
+    location: "São Paulo, Porto Alegre, Recife"
+    frequency: "Anual"
+    focus: "AI, Cloud, Software Development"
+    website: "https://thedevconf.com"
+    
+  - name: "Python Brasil"
+    location: "Rotativo"
+    frequency: "Anual"
+    focus: "Python, Data Science, AI"
+    website: "https://pythonbrasil.com.br"
+    
+  - name: "AI & Big Data Summit"
+    location: "São Paulo"
+    frequency: "Anual"
+    focus: "Enterprise AI, Big Data"
+    website: "https://aibigdatasummit.com.br"
