@@ -22,7 +22,7 @@
 | 14 | 🇰🇷 Coreia do Sul | south-korea | Asia | $1.71T | ✅ 100% COMPLETE |
 | 15 | 🇲🇽 México | mexico | North America | $1.66T | ✅ 100% COMPLETE |
 | 16 | 🇮🇩 Indonésia | indonesia | Asia | $1.49T | ✅ 100% COMPLETE |
-| 17 | 🇳🇱 Holanda (Países Baixos) | netherlands | Europe | $1.09T | 🔄 INICIANDO AGORA |
+| 17 | 🇳🇱 Holanda (Países Baixos) | netherlands | Europe | $1.09T | ✅ 100% COMPLETE |
 | 18 | 🇹🇷 Turquia | turkey | Asia/Europe | $1.03T | ✅ 100% COMPLETE |
 | 19 | 🇸🇦 Arábia Saudita | saudi-arabia | Asia | $1.01T | ✅ 100% COMPLETE |
 | 20 | 🇨🇭 Suíça | switzerland | Europe | $0.91T | ⏳ Pending |
