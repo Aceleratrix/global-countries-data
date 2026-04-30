@@ -1,0 +1,140 @@
+# Mexico Tax Codes & Fiscal Information
+# AI-Ready: Structured for multi-agent systems
+
+country: mexico
+last_updated: "2024-12-15"
+currency: MXN
+usmca_member: true
+oecd_member: true
+
+# IVA (Value Added Tax)
+iva:
+  standard_rate_percent: 16.0
+  border_zone_rate_percent: 8.0
+  exempt_categories: ["Basic food", "Medical services", "Education", "Books"]
+  zero_rated: ["Exports", "International transportation"]
+  registration_threshold_mxn: 0
+  registration_mandatory: true
+  url: "https://www.sat.gob.mx"
+  
+# ISR (Income Tax)
+isr:
+  corporate_rate_percent: 30.0
+  sme_special_rate: false
+  url: "https://www.sat.gob.mx"
+  
+# Personal Income Tax (2024)
+personal_income_tax:
+  brackets:
+    - threshold_mxn: 0
+      threshold_usd: 0
+      rate_percent: 1.92
+    - threshold_mxn: 7465
+      threshold_usd: 438
+      rate_percent: 6.40
+    - threshold_mxn: 63377
+      threshold_usd: 3722
+      rate_percent: 10.88
+    - threshold_mxn: 111470
+      threshold_usd: 6545
+      rate_percent: 16.00
+    - threshold_mxn: 130212
+      threshold_usd: 7647
+      rate_percent: 17.92
+    - threshold_mxn: 156230
+      threshold_usd: 9178
+      rate_percent: 21.36
+    - threshold_mxn: 317223
+      threshold_usd: 18624
+      rate_percent: 23.52
+    - threshold_mxn: 470204
+      threshold_usd: 27600
+      rate_percent: 30.00
+    - threshold_mxn: 560205
+      threshold_usd: 32894
+      rate_percent: 32.00
+    - threshold_mxn: 1120405
+      threshold_usd: 65788
+      rate_percent: 34.00
+  url: "https://www.sat.gob.mx"
+  
+# Withholding Tax
+withholding_tax:
+  dividends_percent: 10
+  interest_percent: 4.9
+  royalties_percent: 25
+  treaty_relief: true
+  dtp_countries: 60
+  url: "https://www.sat.gob.mx"
+  
+# Payroll Tax
+payroll_tax:
+  state_level: true
+  rates_percent: 2.0 to 3.0
+  varies_by_state: true
+  
+# Outsourcing Tax (2021 Reform)
+outsourcing_tax:
+  law: "Ley de Outsourcing (2021)"
+  restrictions: "Core activities cannot be outsourced"
+  imss_social_security: true
+  vat_on_services: true
+  
+# Capital Gains Tax
+capital_gains_tax:
+  applicable: true
+  rate_percent: 30
+  inflation_adjustment: true
+  main_residence_exempt: false
+  url: "https://www.sat.gob.mx"
+  
+# State Taxes
+state_taxes:
+  payroll_tax:
+    rates_percent: 2.0 to 3.0
+    varies_by_state: true
+  property_tax:
+    rate_percent: 0.1 to 1.2
+    local_level: true
+  vehicle_tax:
+    applicable: true
+    varies_by_state: true
+    
+# Trade Agreements
+trade_agreements:
+  usmca_member: true
+  tpp_member: false
+  eu_fta: true
+  cp_tpp_member: true
+  url: "https://www.gob.mx/se"
+  
+# Oil & Gas Taxes
+oil_gas_taxes:
+  pemex_corporate_tax: true
+  extraction_rights: true
+  special_regime: true
+  
+# Reporting & Compliance
+reporting:
+  fiscal_year: "January 1 to December 31"
+  corporate_filing_deadline: "March 31"
+  monthly_vat: true
+  electronic_invoicing: true
+  cfdi_required: true
+  url: "https://www.sat.gob.mx"
+  
+# Incentives
+incentives:
+  maquiladora:
+    isr_rate_percent: 17.5
+    eligibility: "Export manufacturing"
+    url: "https://www.gob.mx/economia"
+    
+  rd_tax_incentive:
+    credit_percent: 30
+    eligibility: "R&D expenses"
+    
+  nearshoring_incentives:
+    accelerated_depreciation: true
+    customs_deferral: true
+    url: "https://www.gob.mx/se"

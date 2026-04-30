@@ -1,0 +1,174 @@
+# Mexico Business: Import & Export
+# AI-Ready: Structured for multi-agent systems
+
+country: mexico
+last_updated: "2024-12-15"
+usmca_member: true
+currency: MXN
+
+# Trade Overview
+trade_overview:
+  total_exports_usd_billions: 593
+  total_imports_usd_billions: 598
+  trade_balance_usd_billions: -5
+  top_trading_partner: "USA"
+  usmca_share_percent: 80
+  
+# Major Exports
+exports:
+  top_commodities:
+    - commodity: "Automotive & Auto Parts"
+      value_usd_billions: 175
+      percent_of_total: 29.5
+      major_markets: ["USA (85%)", "Canada", "Germany"]
+      
+    - commodity: "Electronics & Medical Devices"
+      value_usd_billions: 98
+      percent_of_total: 16.5
+      major_markets: ["USA", "Canada", "China"]
+      
+    - commodity: "Crude Oil"
+      value_usd_billions: 45
+      percent_of_total: 7.6
+      major_markets: ["USA", "Spain", "India"]
+      
+    - commodity: "Machinery"
+      value_usd_billions: 38
+      percent_of_total: 6.4
+      major_markets: ["USA", "Canada", "Brazil"]
+      
+    - commodity: "Beer & Beverages"
+      value_usd_billions: 32
+      percent_of_total: 5.4
+      major_markets: ["USA", "Canada", "Colombia"]
+      
+    - commodity: "Avocados"
+      value_usd_billions: 3.5
+      percent_of_total: 0.6
+      major_markets: ["USA (90%)", "Canada", "Japan"]
+      
+# Major Imports
+imports:
+  top_commodities:
+    - commodity: "Machinery & Electronics"
+      value_usd_billions: 155
+      percent_of_total: 25.9
+      
+    - commodity: "Electrical Machinery"
+      value_usd_billions: 98
+      percent_of_total: 16.4
+      
+    - commodity: "Mineral Fuels & Oil"
+      value_usd_billions: 45
+      percent_of_total: 7.5
+      
+    - commodity: "Vehicles & Auto Parts"
+      value_usd_billions: 42
+      percent_of_total: 7.0
+      
+    - commodity: "Plastics"
+      value_usd_billions: 28
+      percent_of_total: 4.7
+      
+# Top Trading Partners
+trading_partners:
+  exports:
+    - country: "USA"
+      value_usd_billions: 475
+      percent_of_total: 80.1
+    - country: "Canada"
+      value_usd_billions: 28
+      percent_of_total: 4.7
+    - country: "China"
+      value_usd_billions: 15
+      percent_of_total: 2.5
+    - country: "Germany"
+      value_usd_billions: 12
+      percent_of_total: 2.0
+    - country: "Spain"
+      value_usd_billions: 8
+      percent_of_total: 1.3
+      
+  imports:
+    - country: "USA"
+      value_usd_billions: 380
+      percent_of_total: 63.5
+    - country: "China"
+      value_usd_billions: 115
+      percent_of_total: 19.2
+    - country: "Germany"
+      value_usd_billions: 25
+      percent_of_total: 4.2
+    - country: "Japan"
+      value_usd_billions: 18
+      percent_of_total: 3.0
+    - country: "South Korea"
+      value_usd_billions: 15
+      percent_of_total: 2.5
+      
+# Free Trade Agreements
+free_trade_agreements:
+  - name: "USMCA (USA-Mexico-Canada Agreement)"
+    signed: 2018
+    effective: 2020
+    url: "https://www.trade.gov/usmca"
+    
+  - name: "EU-Mexico FTA"
+    signed: 1997
+    effective: 2000
+    modernized: 2020
+    
+  - name: "CPTPP (Comprehensive Progressive Trans-Pacific Partnership)"
+    signed: 2018
+    members: 11
+    
+  - name: "Pacific Alliance"
+    members: ["Mexico", "Colombia", "Peru", "Chile"]
+    
+# Nearshoring Boom
+nearshoring:
+  trend: "US/Asian companies moving production to Mexico"
+  fdi_usd_billions_2023: 36
+  job_creation_2023: 185000
+  top_sectors: ["Automotive", "Electronics", "Medical devices", "Aerospace"]
+  key_states: ["Baja California", "Nuevo León", "Jalisco", "Querétaro"]
+  
+# Trade Promotion
+trade_promotion:
+  promexico:
+    name: "ProMexico (Investment Promotion Agency)"
+    url: "https://www.gob.mx/promexico"
+    services: ["Investment facilitation", "Trade missions", "Market intelligence"]
+    
+  bancomext:
+    name: "Banco Nacional de Comercio Exterior"
+    url: "https://www.bancomext.gob.mx"
+    services: ["Export credit", "Trade finance", "Guarantees"]
+    
+# Import Regulations
+import_regulations:
+  customs_service: "Aduanas (SAT)"
+  url: "https://www.sat.gob.mx"
+  iva_on_imports: true
+  iva_rate_percent: 16
+  duty_rates: "0% to 35% (varies by product, USMCA preferences)"
+  
+# Export Controls
+export_controls:
+  strategic_goods: "Reglamento de Inspección y Verificación en Materia de Comercio Exterior"
+  dual_use_goods: true
+  url: "https://www.gob.mx/economia"
+  
+# Export Finance
+export_finance:
+  bancomext:
+    name: "Banco Nacional de Comercio Exterior"
+    url: "https://www.bancomext.gob.mx"
+    services: ["Export credit insurance", "Working capital", "Guarantees"]
+    
+# Regional Trade
+regional_trade:
+  usmca_member: true
+  pacific_alliance: true
+  oecd_member: true
+  tpp_member: true

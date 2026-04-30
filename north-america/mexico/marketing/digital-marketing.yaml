@@ -1,0 +1,171 @@
+# Mexico Digital Marketing Landscape
+# AI-Ready: Structured for multi-agent systems
+
+country: mexico
+last_updated: "2024-12-15"
+usmca_member: true
+privacy_law_equivalent: "LFPDPPP"
+
+# Digital Marketing Overview
+digital_marketing_overview:
+  market_size_usd_millions: 8200
+  market_size_mxn_billions: 139
+  annual_growth_percent: 18.5
+  percent_of_total_ad_spend: 72
+  programmatic_share_percent: 78
+  
+# Top Social Media Platforms
+social_media:
+  - platform: "Facebook"
+    users_millions: 95
+    penetration_percent: 73
+    business_adoption_percent: 88
+    ad_revenue_usd_millions: 2100
+    
+  - platform: "WhatsApp"
+    users_millions: 95
+    penetration_percent: 73
+    business_adoption_percent: 92
+    ad_revenue_usd_millions: 0
+    
+  - platform: "Instagram"
+    users_millions: 42
+    penetration_percent: 32
+    business_adoption_percent: 75
+    ad_revenue_usd_millions: 1800
+    
+  - platform: "TikTok"
+    users_millions: 58
+    penetration_percent: 45
+    business_adoption_percent: 45
+    ad_revenue_usd_millions: 900
+    
+  - platform: "YouTube"
+    users_millions: 85
+    penetration_percent: 66
+    business_adoption_percent: 68
+    ad_revenue_usd_millions: 1500
+    
+  - platform: "Twitter/X"
+    users_millions: 14
+    penetration_percent: 11
+    business_adoption_percent: 38
+    ad_revenue_usd_millions: 200
+    
+# Search Engines
+search_engines:
+  - engine: "Google"
+    market_share_percent: 95.2
+    
+  - engine: "Bing"
+    market_share_percent: 3.5
+    
+  - engine: "DuckDuckGo"
+    market_share_percent: 0.8
+    
+  - engine: "Others"
+    market_share_percent: 0.5
+    
+# E-commerce Platforms
+ecommerce_platforms:
+  - platform: "Mercado Libre"
+    market_share_percent: 28
+    top_users: ["SMEs", "Large retailers"]
+    url: "https://www.mercadolibre.com.mx"
+    
+  - platform: "Amazon Mexico"
+    market_share_percent: 22
+    launched: 2015
+    url: "https://www.amazon.com.mx"
+    
+  - platform: "Shopify"
+    market_share_percent: 18
+    top_users: ["SMEs", "Direct-to-consumer brands"]
+    
+  - platform: "WooCommerce"
+    market_share_percent: 15
+    top_users: ["WordPress-based stores"]
+    
+  - platform: "Liverpool Online"
+    market_share_percent: 8
+    top_users: ["Department store"]
+    
+# Digital Ad Spend by Channel
+ad_spend_by_channel:
+  search_ads_percent: 38
+  social_media_ads_percent: 40
+  display_ads_percent: 12
+  video_ads_percent: 15
+  email_marketing_percent: 10
+  influencer_marketing_usd_millions: 450
+  
+# Email Marketing
+email_marketing:
+  top_platforms: ["Mailchimp", "ActiveCampaign", "HubSpot", "GetResponse"]
+  average_open_rate_percent: 21.5
+  average_click_rate_percent: 2.5
+  business_adoption_percent: 72
+  
+# SEO & Content Marketing
+seo_content:
+  top_agencies: ["NeoAttack", "Rock Content (MX)", "Webranking", "SeoBySocial"]
+  average_monthly_budget_mxn: 15000 to 50000
+  content_marketing_adoption_percent: 78
+  blog_adoption_percent: 62
+  
+# Influencer Marketing
+influencer_marketing:
+  market_size_usd_millions: 450
+  top_influencer_types: ["Lifestyle", "Beauty", "Gaming", "Food", "Travel"]
+  instagram_influencers_100k_plus: 850
+  tiktok_creators_100k_plus: 520
+  micro_influencers_growth_percent: 65
+  
+# Marketing Automation
+marketing_automation:
+  top_platforms: ["HubSpot", "Marketo", "Salesforce Marketing Cloud", "ActiveCampaign"]
+  adoption_percent: 38
+  average_cost_usd_monthly: 300 to 2000
+  
+# Privacy & Compliance
+privacy_compliance:
+  law: "LFPDPPP (Ley Federal de Protección de Datos Personales)"
+  consent_required: true
+  cookies_banner_required: true
+  email_opt_in: true
+  url: "https://home.inai.org.mx"
+  
+# Mobile Marketing
+mobile_marketing:
+  smartphone_penetration_percent: 72
+  mobile_ad_spend_percent: 68
+  sms_marketing_adoption_percent: 48
+  app_advertising_growth_percent: 32
+  
+# Video Marketing
+video_marketing:
+  youtube_dominance: true
+  tiktok_growth_percent: 95
+  live_streaming_growth_percent: 48
+  video_content_types: ["Tutorials", "Product demos", "Testimonials", "Unboxing"]
+  
+# B2B Marketing
+b2b_marketing:
+  top_channels: ["LinkedIn", "Email", "Webinars", "Whitepapers"]
+  average_deal_size_usd: 45000
+  sales_cycle_days: 60 to 150
+  account_based_marketing_adoption_percent: 32
+  
+# Marketing Technology Stack
+martech_stack:
+  crm: ["Salesforce", "HubSpot", "Zoho CRM", "Microsoft Dynamics"]
+  analytics: ["Google Analytics 4", "Adobe Analytics", "Hotjar"]
+  social_media_management: ["Hootsuite", "Sprout Social", "Buffer"]
+  seo_tools: ["SEMrush", "Ahrefs", "Moz", "Ubersuggest"]
+  
+# Local Marketing
+local_marketing:
+  google_my_business_adoption_percent: 68
+  local_seo_investment_growth_percent: 42
+  review_platforms: ["Google Reviews", "Facebook Reviews", "Trustpilot"]
+  location_based_ads_growth_percent: 38

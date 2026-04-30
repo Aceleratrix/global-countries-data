@@ -1,0 +1,151 @@
+# Mexico Labor Laws
+# AI-Ready: Structured for multi-agent systems
+
+country: mexico
+last_updated: "2024-12-15"
+jurisdiction: MX
+federal_system: true
+usmca_member: true
+
+# Primary Federal Legislation
+federal_law:
+  name: "Ley Federal del Trabajo (LFT)"
+  scope: "Federal"
+  coverage: "Most employees (private sector)"
+  url: "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFT_180124.pdf"
+  effective_date: "1970-04-01"
+  
+# State Variations
+state_variations:
+  note: "Federal labor law applies nationwide; some administrative differences by state"
+  local_labor_courts: true
+  
+# Working Hours
+working_hours:
+  standard_week: 48
+  standard_day: 8
+  max_daily: 12
+  overtime_threshold: 48
+  overtime_rate: 2.0
+  night_shift_multiplier: 0.75
+  sunday_multiplier: 1.25
+  
+# Minimum Wage (2024)
+minimum_wage:
+  daily_mxn: 248.93
+  daily_usd: 14.60
+  monthly_mxn: 7480
+  monthly_usd: 439
+  effective_date: "2024-01-01"
+  review_body: "CONASAMI"
+  url: "https://www.gob.mx/conasami"
+  note: "General minimum wage (Northern Border Zone has higher wage)"
+  northern_border_daily_mxn: 374.89
+  northern_border_daily_usd: 22.00
+  
+# Leave Entitlements
+leave:
+  annual_leave_days: 12
+  annual_leave_years_5_plus: 14
+  annual_leave_years_10_plus: 16
+  annual_leave_years_15_plus: 18
+  annual_leave_years_20_plus: 20
+  sick_leave: "IMSS covered"
+  maternity_leave_weeks: 12
+  paternity_leave_days: 5
+  bereavement_leave_days: 3
+  
+# Employment Types
+employment_types:
+  permanent:
+    definition: "Indefinite contract"
+    benefits: ["Aguinaldo", "Vacaciones", "IMSS", "Severance pay"]
+  temporary:
+    definition: "Fixed-term contract (max 180 days)"
+    benefits: ["Pro-rata benefits", "IMSS"]
+  seasonal:
+    definition: "Work only in certain seasons"
+    benefits: ["IMSS for worked days"]
+  outsourcing:
+    definition: "Ley de Outsourcing (2021 reform)"
+    restrictions: "Prohibited for core activities"
+    imss_registration: true
+    
+# Termination
+termination:
+  notice_period_days: 30
+  severance_pay: true
+  formula: "3 months salary + 20 days per year worked"
+  reinstatement_right: true
+  unjustified_dismissal: "Reinstatement or severance"
+  
+# Social Security (IMSS)
+social_security:
+  system: "IMSS (Instituto Mexicano del Seguro Social)"
+  employer_contribution_percent: 7.58
+  employee_contribution_percent: 1.75
+  coverage: ["Health insurance", "Disability", "Retirement", "Childcare"]
+  url: "https://www.imss.gob.mx"
+  
+# AFORE (Pension)
+pension:
+  system: "AFORE (Administradoras de Fondos para el Retiro)"
+  employee_contribution_percent: 6.5
+  employer_contribution_percent: 2.0
+  government_contribution_percent: 0.5
+  retirement_age: 65
+  url: "https://www.consar.gob.mx"
+  
+# Labor Justice Reform
+justice_reform_2019:
+  change: "Labor courts moved from executive to judicial branch"
+  federal_labor_court: "Nuevo Juicio Laboral (2019)"
+  conciliation_centers: "Centros de Conciliación (mandatory before trial)"
+  url: "https://www.gob.mx/stps"
+  
+# Unions & Collective Bargaining
+unions:
+  coverage_percent: 15.2
+  major_unions:
+    - "Confederación de Trabajadores de México (CTM)"
+    - "Confederación Regional Obrera Mexicana (CROM)"
+    - "Unión Nacional de Trabajadores (UNT)"
+  collective_bargaining: true
+  protection_contracts: "Being eliminated (reform 2019)"
+  
+# Health & Safety
+work_health_safety:
+  act: "Ley Federal del Trabajo (Capítulo IV)"
+  regulator: "STPS (Secretaría del Trabajo y Previsión Social)"
+  url: "https://www.gob.mx/stps"
+  imss_coverage: true
+  workplace_inspections: true
+  
+# Equal Opportunity
+equal_opportunity:
+  federal_law: "Ley Federal para Prevenir y Eliminar la Discriminación"
+  gender_pay_gap_percent: 18.0
+  parental_leave_gender_neutral: false
+  sexual_harassment_protections: true
+  
+# Remote Work
+remote_work:
+  law: "Teletrabajo (2021)"
+  legal_right: true
+  employer_obligations: ["Provide equipment", "Pay internet", "Right to disconnect"]
+  work_from_home_expenses: "Employer paid"
+  
+# AI in the Workplace
+ai_workplace:
+  regulation_status: "Under development"
+  ethical_framework: false
+  employer_notification_required: false
+  human_oversight_required: true
+  
+# Outsourcing Reform (2021)
+outsourcing_reform:
+  law: "Ley Federal de Trabajo (reforma 2021)"
+  core_activities: "Cannot be outsourced"
+  specialized_services: "Can be outsourced (authorized providers)"
+  imss_liability: "Joint liability for contractors"
+  url: "https://www.gob.mx/stps"

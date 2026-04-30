@@ -1,0 +1,143 @@
+# Mexico Banking & Financial System
+# AI-Ready: Structured for multi-agent systems
+
+country: mexico
+last_updated: "2024-12-15"
+currency: MXN
+usmca_member: true
+
+# Banking System Overview
+system:
+  type: "Mixed (Commercial banks + Development banks)"
+  regulator: "Comisión Nacional Bancaria y de Valores (CNBV)"
+  url: "https://www.cnbv.gob.mx"
+  central_bank: "Banco de México (Banxico)"
+  banxico_url: "https://www.banxico.org.mx"
+  deposit_guarantee_mxn: 4000000
+  deposit_guarantee_usd: 235000
+  guarantee_scheme: "Instituto para la Protección al Ahorro Bancario (IPAB)"
+  
+# Major Banks
+major_banks:
+  - name: "BBVA México"
+    market_share_percent: 22
+    branches: 1800
+    digital_users_millions: 15.2
+    ai_initiatives: ["AI customer service", "Fraud detection", "Credit scoring"]
+    
+  - name: "Banorte"
+    market_share_percent: 18
+    branches: 1200
+    digital_users_millions: 10.5
+    ai_initiatives: ["AI-driven analytics", "Chatbots"]
+    
+  - name: "Santander México"
+    market_share_percent: 15
+    branches: 1300
+    digital_users_millions: 9.8
+    ai_initiatives: ["Predictive models", "Risk assessment"]
+    
+  - name: "Banamex (Citigroup)"
+    market_share_percent: 14
+    branches: 1100
+    digital_users_millions: 8.5
+    ai_initiatives: ["Digital transformation", "AI credit models"]
+    
+  - name: "Scotiabank México"
+    market_share_percent: 8
+    branches: 500
+    digital_users_millions: 4.2
+    ai_initiatives: ["AI investment tools"]
+    
+# Payment Methods
+payment_methods:
+  - name: "OXXO"
+    type: "Cash payment network"
+    market_share_percent: 42
+    coverage: "21,000+ stores nationwide"
+    url: "https://www.oxxo.com.mx"
+    api_available: true
+    digital_wallet: "Spin by OXXO"
+    
+  - name: "Credit/Debit Cards"
+    major_brands: ["Visa", "Mastercard", "Carnet", "American Express"]
+    market_share_percent: 35
+    average_credit_limit_mxn: 35000
+    
+  - name: "CoDi (Central Bank Digital)"
+    type: "QR code payments"
+    launched: 2019
+    users_millions: 8
+    url: "https://www.banxico.org.mx/codi"
+    
+  - name: "PayPal"
+    type: "Digital wallet"
+    market_share_percent: 12
+    coverage: "E-commerce growing"
+    
+  - name: "Bank Transfers (SPEI)"
+    type: "Interbank transfers"
+    real_time: true
+    transactions_monthly_millions: 450
+    url: "https://www.banxico.org.mx"
+    
+# Digital Banking
+digital_banking:
+  adoption_percent: 68
+  mobile_banking_percent: 62
+  neobanks: ["Klar", "Nu Mexico (Nubank)", "Hey Banco"]
+  open_banking: false
+  
+# ATMs & Branches
+atms:
+  total: 65000
+  major_bank_ownership_percent: 75
+  independent_operators: true
+  
+# International Transfers
+international_transfers:
+  swift_codes: true
+  major_providers: ["Western Union", "MoneyGram", "Ria", "Bancomer Transfer"]
+  remittances_2023_usd_billions: 63
+  remittances_source: "USA (96%)"
+  average_fee_usd: 5 to 15
+  
+# Stock Exchange
+stock_exchange:
+  name: "Bolsa Mexicana de Valores (BMV)"
+  market_cap_usd_trillions: 0.5
+  listed_companies: 148
+  ipc_index: true
+  url: "https://www.bmv.com.mx"
+  
+# Fintech Ecosystem
+fintech:
+  companies_count: 852
+  total_investment_2023_usd_millions: 1200
+  unicorns: ["Kavak ($8.7B)", "Bitso ($2.1B)", "Clara ($1.5B)"]
+  hot_sectors: ["Payments", "Lending", "Wealth management", "Insurtech"]
+  sandbox: true
+  url: "https://www.cnbv.gob.mx"
+  
+# Cryptocurrency
+cryptocurrency:
+  legal_status: "Legal (regulated)"
+  bitso_dominance: true
+  banxico_guidance: true
+  url: "https://www.banxico.org.mx"
+  
+# Business Banking
+business_banking:
+  business_accounts_required: true
+  rfc_required: true
+  tax_registration_linked: true
+  business_loans:
+    major_providers: ["BBVA", "Banorte", "Santander", "Banamex"]
+    typical_rate_percent: 10.5 to 18.5
+  factoring: true
+  
+# Insurance
+insurance:
+  major_providers: ["Grupo Nacional Provincial (GNP)", "AXA", "Seguros Banorte", "MetLife"]
+  private_health_insurance: true
+  pensions: "AFORE system"

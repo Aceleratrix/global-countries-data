@@ -1,0 +1,153 @@
+# Mexico Business: Company Sizes & Classifications
+# AI-Ready: Structured for multi-agent systems
+
+country: mexico
+last_updated: "2024-12-15"
+usmca_member: true
+
+# Company Size Definitions (INEGI)
+size_definitions:
+  micro:
+    employees_max: 10
+    revenue_mxn_max: 4000000
+    revenue_usd_max: 235000
+    percent_of_businesses: 86.2
+    examples: ["Sole traders", "Small shops", "Freelancers"]
+    
+  small:
+    employees_range: "11-50"
+    revenue_mxn_max: 100000000
+    revenue_usd_max: 5880000
+    percent_of_businesses: 10.8
+    examples: ["Local retailers", "Small manufacturers", "Service providers"]
+    
+  medium:
+    employees_range: "51-250"
+    revenue_mxn_max: 500000000
+    revenue_usd_max: 29400000
+    percent_of_businesses: 2.5
+    examples: ["Regional manufacturers", "Mid-size tech firms", "Growing exporters"]
+    
+  large:
+    employees_min: 251
+    revenue_mxn_min: 500000000
+    revenue_usd_min: 29400000
+    percent_of_businesses: 0.5
+    examples: ["Multinationals", "Major manufacturers", "Listed companies"]
+    
+# Total Businesses
+total_businesses: 4600000
+listed_companies_bmv: 148
+private_companies_percent: 99.9
+
+# Business Structure Types
+business_structures:
+  - type: "Persona Física (Sole Proprietor)"
+    description: "Individual entrepreneur"
+    rfc_required: true
+    percent_of_businesses: 75
+    tax_treatment: "Personal income tax (ISR)"
+    
+  - type: "Sociedad Anónima (S.A.)"
+    description: "Corporation with shares"
+    rfc_required: true
+    percent_of_businesses: 15
+    tax_treatment: "Corporate tax (ISR)"
+    
+  - type: "Sociedad de Responsabilidad Limitada (S. de R.L.)"
+    description: "Limited liability company"
+    rfc_required: true
+    percent_of_businesses: 8
+    tax_treatment: "Corporate tax (ISR)"
+    
+  - type: "Sociedad por Acciones Simplificada (S.A.S.)"
+    description: "Simplified joint stock company (2016 reform)"
+    rfc_required: true
+    percent_of_businesses: 2
+    tax_treatment: "Simplified corporate tax"
+    
+# RFC & Tax Registration
+rfc_tax:
+  rfc:
+    name: "Registro Federal de Contribuyentes"
+    format: "13 characters (person) or 12 (company)"
+    required_for: "All business activities"
+    tax_linked: true
+    url: "https://www.sat.gob.mx"
+    
+# Small Business Support
+small_business_support:
+  secretariat_of_economy:
+    name: "Secretaría de Economía"
+    url: "https://www.gob.mx/se"
+    
+  incentives:
+    - name: "Ley de Fomento a la Micro, Pequeña y Mediana Empresa (Ley de MIPyME)"
+      description: "SME development law"
+      
+    - name: "INCUBATEC"
+      description: "Business incubators"
+      url: "https://www.gob.mx/se"
+      
+# Industry Concentrations
+industry_concentrations:
+  top_industries_by_sme_count:
+    - "Retail Trade"
+    - "Manufacturing (automotive, electronics)"
+    - "Professional, Scientific & Technical Services"
+    - "Construction"
+    - "Food & Beverage"
+    
+# Nearshoring Boom
+nearshoring:
+  trend: "US/Asian companies moving production to Mexico"
+  sectors: ["Automotive", "Electronics", "Medical devices", "Aerospace"]
+  job_creation_2023: 185000
+  fdi_usd_billions_2023: 36
+  tech_hubs: ["Guadalajara", "Mexico City", "Monterrey", "Tijuana"]
+  
+# Startup Ecosystem
+startups:
+  ecosystem_value_usd_billions: 25
+  unicorns: ["Kavak ($8.7B)", "Bitso ($2.1B)", "Clara ($1.5B)", "Rappi ($5.2B)"]
+  startup_hubs: ["Mexico City", "Guadalajara", "Monterrey"]
+  accelerators: ["Y Combinator (presence)", "500 Global", "ALLVP", "Kaszek"]
+  coworking_spaces: ["WeWork", "WeWork (multiple)", "Impact Hub"]
+  
+# Business Licenses & Permits
+licenses_permits:
+  federal:
+    - "RFC (tax registration)"
+    - "IMSS registration (if employees)"
+    - "CFDI digital invoicing"
+    
+  state:
+    - "State business license"
+    - "Municipal permit"
+    - "Environmental permits (if applicable)"
+    
+  professional_registration:
+    required_for: ["Doctors", "Lawyers", "Engineers", "Architects"]
+    regulators: ["Colegio de Médicos", "Barra Nacional de Abogados", "Colegio de Ingenieros"]
+    
+# Business Insurance
+business_insurance:
+  compulsory:
+    - "IMSS (social security)"
+    - "Worker's compensation (RT)"
+    
+  recommended:
+    - "Public liability insurance"
+    - "Professional indemnity insurance"
+    - "Property insurance"
+    
+# Import/Export Business
+import_export:
+  usmca_member: true
+  export_facilitation: "PROMEXICO"
+  url: "https://www.gob.mx/promexico"
+  
+# Indigenous Business
+indigenous_business:
+  support_programs: true
+  url: "https://www.gob.mx"

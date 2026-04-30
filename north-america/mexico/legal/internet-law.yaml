@@ -1,0 +1,103 @@
+# Mexico Internet & Data Protection Laws
+# AI-Ready: Structured for multi-agent systems
+
+country: mexico
+last_updated: "2024-12-15"
+jurisdiction: MX
+usmca_member: true
+oecd_member: true
+
+# Primary Legislation
+laws:
+  - name: "Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP)"
+    type: "Data Protection"
+    scope: "Federal"
+    key_points: ["Consent required", "ARCO rights (Access, Rectify, Cancel, Oppose)", "Privacy notices", "Data breach notification"]
+    effective_date: "2010-07-05"
+    url: "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP_220724.pdf"
+    
+  - name: "Ley Federal del Derecho de Autor"
+    type: "Copyright"
+    scope: "Federal"
+    key_points: ["Moral rights", "Economic rights", "Digital copyright", "Safe harbor for ISPs"]
+    effective_date: "1996-12-24"
+    url: "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFDA_180122.pdf"
+    
+  - name: "Ley de Infraestructura de la Calidad"
+    type: "Telecommunications"
+    scope: "Federal"
+    key_points: ["Net neutrality", "Universal service", "Spectrum allocation"]
+    effective_date: "2014-07-14"
+    
+# AI-Specific Regulations
+ai_regulations:
+  framework: "In development (National AI Strategy)"
+  regulator: "Agencia Nacional de Supervisión de la Inteligencia Artificial (proposed)"
+  key_principles: ["Ethical AI", "Human rights protection", "Transparency", "Accountability"]
+  mandatory_reporting: false
+  high_risk_ai: "Under discussion"
+  
+# Privacy & Data Protection
+privacy:
+  authority: "Instituto Nacional de Transparencia, Acceso a la Información y Protección de Datos Personales (INAI)"
+  url: "https://home.inai.org.mx"
+  gdpr_equivalent: false
+  adequacy_decision: false
+  data_localization: false
+  breach_notification_hours: 72
+  
+# Internet Censorship
+internet_censorship:
+  level: "Low to Moderate"
+  blocked_content: ["Child pornography", "Terrorism-related", "Some gambling sites"]
+  filters: "Limited (mostly child protection)"
+  social_media_bans: false
+  
+# Digital Platform Regulation
+digital_platforms:
+  content_removal: "Judicial order required"
+  hate_speech_laws: true
+  fake_news_regulation: "Under discussion"
+  
+# E-Commerce
+ecommerce:
+  consumer_law: "Ley Federal de Protección al Consumidor"
+  online_purchases: "Same protections as in-store"
+  cooling_off_period: false
+  digital_products_covered: true
+  
+# Telecommunications
+telecommunications:
+  act: "Ley Federal de Telecomunicaciones y Radiodifusión (LFTR)"
+  regulator: "Instituto Federal de Telecomunicaciones (IFT)"
+  url: "https://www.ift.org.mx"
+  metadata_retention: true
+  retention_period_years: 2
+  
+# Cybersecurity
+cybersecurity:
+  strategy: "Estrategia Nacional de Ciberseguridad (2023-2030)"
+  lead_agency: "Secretaría de Seguridad y Protección Ciudadana (SSPC)"
+  url: "https://www.gob.mx/sspc"
+  key_initiatives: ["Critical infrastructure protection", "Cyber incident response", "Cybersecurity skills"]
+  
+# Cross-Border Data Flows
+cross_border:
+  usmca_provisions: true
+  adequacy_countries: []
+  data_transfer_mechanisms: ["Standard contractual clauses", "Binding corporate rules"]
+  
+# Digital Identity
+digital_identity:
+  framework: "e.firma (SAT)"
+  gov_identity: "Clave Única de Registro de Población (CURP)"
+  url: "https://www.gob.mx/curp/"
+  adoption_2024: 120000000
+  
+# Online Gaming
+online_gaming:
+  regulation: "Ley Federal de Juegos y Sorteos"
+  online_gambling: true
+  sports_betting: true
+  license_required: true
+  regulator: "Secretaría de Gobernación"

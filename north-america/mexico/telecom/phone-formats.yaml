@@ -1,0 +1,124 @@
+# Mexico Telecom & Phone Formats
+# AI-Ready: Structured for multi-agent systems
+
+country: mexico
+last_updated: "2024-12-15"
+calling_code: "+52"
+international_prefix: "00"
+emergency_numbers:
+  police: "911"
+  fire: "911"
+  ambulance: "911"
+  unified: true
+  
+# Phone Number Formats
+phone_formats:
+  landline:
+    pattern: "+52 1 XX XXXX XXXX"
+    digits: 10
+    area_codes: ["55 (Mexico City)", "33 (Guadalajara)", "81 (Monterrey)", "22 (Puebla)"]
+    example: "+52 55 1234 5678"
+    regex: "^\\+52[1-9]\\d{9}$"
+    
+  mobile:
+    pattern: "+52 1 XX XXXX XXXX"
+    digits: 10
+    example: "+52 1 55 1234 5678"
+    regex: "^\\+521\\d{10}$"
+    
+  toll_free:
+    pattern: "800 XXX XXXX"
+    example: "800 123 4567"
+    regex: "^800\\d{7}$"
+    
+  premium_rate:
+    pattern: "900 XXX XXXX"
+    example: "900 123 4567"
+    regex: "^900\\d{7}$"
+    
+# Mobile Operators
+mobile_operators:
+  - name: "Telcel (América Móvil)"
+    market_share_percent: 62
+    network: "4G/5G nationwide"
+    coverage_population_percent: 99
+    url: "https://www.telcel.com"
+    
+  - name: "ATT México"
+    market_share_percent: 18
+    network: "4G/5G major cities"
+    coverage_population_percent: 85
+    url: "https://www.att.com.mx"
+    
+  - name: "Movistar (Telefónica)"
+    market_share_percent: 12
+    network: "4G/5G major cities"
+    coverage_population_percent: 80
+    url: "https://www.movistar.com.mx"
+    
+  - name: "Virgin Mobile"
+    market_share_percent: 3
+    network: "MVNO (Telcel network)"
+    coverage_population_percent: 99
+    url: "https://www.virginmobile.mx"
+    
+# Internet & Broadband
+internet:
+  average_speed_mbps: 45.2
+  fiber_coverage_percent: 25
+  telmex_dominance: true
+  major_providers: ["Telmex", "Totalplay", "izzi", "Megacable"]
+  url: "https://www.ift.org.mx"
+  
+# 4G/5G Coverage
+mobile_data:
+  _4g_coverage_percent: 95
+  _5g_coverage_percent: 45
+  major_cities_5g: ["Mexico City", "Guadalajara", "Monterrey", "Tijuana"]
+  telcel_5g_launched: 2022
+  
+# VoIP & Digital Services
+voip_services:
+  providers: ["Telmex", "izzi", "Totalplay", "Skype", "WhatsApp"]
+  business_voip: true
+  emergency_calls_requires: "Registered address"
+  
+# Area Codes by State
+area_codes:
+  mexico_city: "55"
+  guadalajara: "33"
+  monterrey: "81"
+  puebla: "22"
+  tijuana: "66"
+  cancun: "998"
+  
+# SMS & Messaging
+sms:
+  max_length_chars: 160
+  unicode_support: true
+  mms_support: true
+  whatsapp_users_millions: 95
+  wechat_users: "Minimal"
+  telegram_users_millions: 12
+  
+# Telecom Regulation
+regulation:
+  regulator: "Instituto Federal de Telecomunicaciones (IFT)"
+  url: "https://www.ift.org.mx"
+  number_portability: true
+  porting_time_days: 1 to 3
+  mobile_number_portability: true
+  
+# International Calling
+international_calling:
+  prefix: "00"
+  voip_providers: ["Skype", "WhatsApp", "Viber"]
+  calling_cards: true
+  rates_usd_per_minute: 0.10 to 0.50
+  
+# Fax (Still used in some sectors)
+fax:
+  still_used: true
+  medical_sector: true
+  legal_sector: true
+  online_fax_services: ["eFax", "FaxOline"]

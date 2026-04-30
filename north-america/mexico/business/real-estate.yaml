@@ -1,0 +1,140 @@
+# Mexico Business: Real Estate
+# AI-Ready: Structured for multi-agent systems
+
+country: mexico
+last_updated: "2024-12-15"
+usmca_member: true
+currency: MXN
+
+# Real Estate Market Overview
+market_overview:
+  total_value_usd_trillions: 1.2
+  residential_percent: 70
+  commercial_percent: 20
+  industrial_percent: 10
+  
+# Major Cities Property Prices (2024)
+property_prices:
+  mexico_city:
+    median_house_usd: 220000
+    median_apartment_usd: 150000
+    annual_growth_percent: 5.2
+    
+  guadalajara:
+    median_house_usd: 180000
+    median_apartment_usd: 120000
+    annual_growth_percent: 6.8
+    
+  monterrey:
+    median_house_usd: 180000
+    median_apartment_usd: 125000
+    annual_growth_percent: 5.5
+    
+  cancun:
+    median_house_usd: 150000
+    median_apartment_usd: 110000
+    annual_growth_percent: 8.1
+    
+  tijuana:
+    median_house_usd: 120000
+    median_apartment_usd: 90000
+    annual_growth_percent: 7.2
+    
+# Rental Market
+rental_market:
+  mexico_city:
+    median_monthly_usd: 750
+    vacancy_rate_percent: 4.5
+    
+  guadalajara:
+    median_monthly_usd: 600
+    vacancy_rate_percent: 3.8
+    
+  monterrey:
+    median_monthly_usd: 625
+    vacancy_rate_percent: 3.5
+    
+# Commercial Real Estate
+commercial:
+  office:
+    mexico_city_cbd_usd_m2: 25
+    guadalajara_cbd_usd_m2: 18
+    vacancy_rate_percent: 15.5
+    
+  retail:
+    prime_rent_usd_m2: 30 to 80
+    vacancy_rate_percent: 10.5
+    
+  industrial:
+    average_rent_usd_m2: 6
+    vacancy_rate_percent: 5.8
+    demand_drivers: ["Nearshoring", "Manufacturing", "Logistics"]
+    
+# Real Estate Investment
+investment:
+  foreign_investment_usd_billions: 18
+  top_foreign_buyers: ["USA", "Canada", "Spain", "Germany"]
+  fidi_law: true
+  restrictions: "Restricted zone (100km from borders, 50km from coast)"
+  
+# Property Taxes & Costs
+property_taxes:
+  predial:
+    rate_percent: 0.1 to 0.3
+    based_on: "Cadastral value"
+    
+  acquisition_tax:
+    rate_percent: 2.0 to 4.5
+    varies_by_state: true
+    
+  notary_fees_percent: 1.5 to 3.0
+  
+# Real Estate Agents
+real_estate_agents:
+  major_agencies: ["Remax", "Century 21", "Coldwell Banker", "Inmuebles24"]
+  average_commission_percent: 3.0 to 6.0
+  licensing: "State-level licensing required"
+  
+# Buying Process
+buying_process:
+  steps: ["Offer", "Promissory contract", "Due diligence", "Deed signing (before notary)", "Registration"]
+  escrow_required: false
+  notary_required: true
+  closing_costs_percent: 3.0 to 5.0
+  
+# Renting Process
+renting_process:
+  lease_term_months: 12
+  deposit_months: 1
+  guarantor_required: true
+  annual_increase_cap_percent: 10
+  
+# Real Estate Portals
+property_portals:
+  - name: "Inmuebles24"
+    market_share_percent: 45
+    url: "https://www.inmuebles24.com"
+    
+  - name: "Lamudi"
+    market_share_percent: 25
+    url: "https://www.lamudi.com.mx"
+    
+  - name: "Vivanuncios"
+    market_share_percent: 20
+    url: "https://www.vivanuncios.com"
+    
+# Construction & Development
+construction:
+  new_units_2024: 650000
+  major_developers: ["Grupo Carso", "Grupo Cydsa", "Grupo Gigante", "Progreso"]
+  construction_costs_index_percent: 6.5
+  
+# Foreign Buyers
+foreign_buyers:
+  fidi_law_1993: true
+  restricted_zone:
+    coastal_areas: "50km from coast"
+    border_areas: "100km from borders"
+    workaround: "Fideicomiso (bank trust) or Mexican corporation"
+  fideicomiso_years: 50
+  renewable: true

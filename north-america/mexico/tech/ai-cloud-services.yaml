@@ -1,0 +1,121 @@
+# Mexico AI & Cloud Services
+# AI-Ready: Structured for multi-agent systems
+
+country: mexico
+last_updated: "2024-12-15"
+usmca_member: true
+
+# National AI Strategy
+national_strategy:
+  name: "Estrategia Nacional de Inteligencia Artificial (In development)"
+  launched: "2024 (expected)"
+  budget_usd_millions: 150
+  url: "https://www.gob.mx/se"
+  key_pillars: ["AI skills & talent", "AI adoption in industry", "Ethical AI", "Digital infrastructure"]
+  focus_areas: ["Nearshoring AI", "Automotive AI", "AgTech AI", "Fintech AI"]
+  
+# AI in Nearshoring
+nearshoring_ai:
+  trend: "US/Asian companies moving production to Mexico"
+  ai_applications: ["Predictive maintenance", "Quality control (computer vision)", "Supply chain optimization", "Autonomous robotics"]
+  tech_hubs: ["Guadalajara (Silicon Valley of Mexico)", "Mexico City", "Monterrey", "Tijuana"]
+  engineering_graduates_annual: 120000
+  
+# Major AI Companies & Startups
+ai_companies:
+  - name: "Kavak"
+    valuation_usd_billions: 8.7
+    ai_products: ["AI car valuation", "Dynamic pricing", "Fraud detection"]
+    employees: 5000
+    headquarters: "Mexico City"
+    
+  - name: "Bitso"
+    valuation_usd_billions: 2.1
+    ai_products: ["Fraud detection", "Risk scoring", "Trading algorithms"]
+    employees: 1200
+    headquarters: "Mexico City"
+    
+  - name: "Clara"
+    valuation_usd_billions: 1.5
+    ai_products: ["AI credit scoring", "Expense categorization", "Fraud prevention"]
+    employees: 800
+    headquarters: "Mexico City"
+    
+  - name: "Rappi"
+    valuation_usd_billions: 5.2
+    ai_products: ["Delivery route optimization", "Demand prediction", "Personalized recommendations"]
+    employees: 15000
+    presence: "Major in Mexico"
+    
+  - name: "Yunes"
+    focus: "AI-driven logistics"
+    url: "https://yunes.com"
+    
+# AI Research & Academia
+ai_research:
+  top_universities:
+    - "ITESM (Tec de Monterrey) - AI research"
+    - "UNAM - AI Lab"
+    - "IPN - Robotics & AI"
+    - "UAM - Machine Learning"
+    
+  research_institutes:
+    - "CINVESTAV - AI & Computer Vision"
+    - "CONACYT - AI research funding"
+    
+# Cloud Regions
+cloud_regions:
+  aws:
+    regions: ["Mexico (Central) - planned 2024"]
+    availability_zones: 3
+    url: "https://aws.amazon.com/about-aws/global-infrastructure/regions_az/"
+    
+  azure:
+    regions: ["Mexico Central - announced 2024"]
+    availability_zones: 3
+    url: "https://azure.microsoft.com/en-us/explore/global-infrastructure/products-by-region/"
+    
+  google_cloud:
+    regions: ["Mexico - planned"]
+    availability_zones: 2
+    
+  oracle_cloud:
+    regions: ["Mexico City - planned"]
+    availability_zones: 2
+    
+# Government AI Initiatives
+government_ai:
+  digital_transformation: "Estrategia Digital Nacional"
+  ai_procurement_policy: "Under development"
+  ai_ethics_certification: false
+  gov_ai_use_cases: ["Tax fraud detection (SAT)", "Customs optimization", "Health diagnostics", "Education personalization"]
+  url: "https://www.gob.mx"
+  
+# AI Investment & Funding
+ai_investment:
+  venture_capital_2023_usd_millions: 480
+  major_investors: ["Kaszek", "ALLVP", "Monashees", "QED Investors"]
+  gov_ai_funding_usd_millions: 150
+  
+# AI Skills & Talent
+ai_skills:
+  ai_workers_estimate: 45000
+  skills_shortage: true
+  government_training_budget_usd_millions: 25
+  visa_pathways: ["Temporary resident", "Permanent resident"]
+  ai_courses_universities: 120
+  
+# AI Regulations in Development
+ai_regulation_roadmap:
+  2024: "National AI Strategy launch"
+  2025: "AI ethics framework"
+  2026: "AI Act consultation (EU alignment)"
+  alignment: "OECD AI Principles, USMCA digital trade"
+  
+# AI in Key Industries
+industry_ai_adoption:
+  automotive: ["Quality control (CV)", "Predictive maintenance", "Autonomous robots", "Supply chain AI"]
+  aerospace: ["Flight path optimization", "Maintenance prediction", "Materials AI"]
+  agriculture: ["Precision farming", "Crop monitoring (drones)", "Yield prediction"]
+  fintech: ["Credit scoring", "Fraud detection", "Robo-advisory", "KYC automation"]
+  retail: ["Demand forecasting", "Inventory optimization", "Personalized marketing"]
