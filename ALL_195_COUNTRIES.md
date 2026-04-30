@@ -52,7 +52,7 @@
 | 37 | 🇩🇰 Dinamarca | denmark | Europe | $0.37T |
 | 38 | 🇵🇭 Filipinas | philippines | Asia | $0.36T |
 | 39 | 🇵🇰 Paquistão | pakistan | Asia | $0.35T |
-| 40 | 🇸🇬 Cingapura | singapore | Asia | $0.35T |
+| 40 | 🇸🇬 Cingapura | singapore | Asia | ✅ 100% COMPLETE |
 
 ---
 
