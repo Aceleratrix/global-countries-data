@@ -1,0 +1,174 @@
+---
+country: "Italy"
+category: "fiscal"
+type: "tax_codes"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.agenziaentrate.gov.it"
+  - "https://www.normattiva.it"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Tax Codes & Fiscal Information - Italy#
+
+## Value Added Tax (VAT / IVA - Imposta sul Valore Aggiunto)#
+vat_authority: "Agenzia delle Entrate (Revenue Agency)"
+website: "https://www.agenziaentrate.gov.it"
+
+vat_rates:
+  standard:
+    rate_percent: 22
+    applies_to: "Most goods and services"
+    
+  reduced_rate_1:
+    rate_percent: 10
+    applies_to: "Food (takeaway), hotels, transport, some utilities"
+    
+  reduced_rate_2:
+    rate_percent: 4
+    applies_to: "Basic food, books, newspapers, medical devices"
+    
+  super_reduced:
+    rate_percent: 0
+    applies_to: "Exports, intra-EU supplies, some healthcare"
+
+vat_registration:
+  threshold_eur: 85_000  # annual turnover (goods/services)
+  timeline: "Auto-registration (can opt in below threshold)"
+  
+vat_number_format: "IT + 11 digits (IT12345678901)"
+example: "IT12345678901"
+vat_validation_url: "https://ec.europa.eu/taxation_customs/vies/"
+
+## Corporate Tax (IRES - Imposta sul Reddito delle Società)#
+corporate_tax:
+  standard_rate_percent: 24  # IRES (down from 27.5% in 2017)
+  
+  regional_tax:
+    name: "IRAP (Imposta Regionale sulle Attività Produttive)"
+    rate_percent: 3.9  # varies by region (3.9% standard)
+    applies_to: "Productive activities (with some deductions)"
+    
+  capital_gains:
+    rate_percent: 24  # on asset sales (with participations exempt if 20%+ for 12+ months)
+    
+  withholding_tax:
+    dividends: 26  # (reduced by treaties, 1.2% for qualifying EU companies)
+    interest: 26  # (unless EU parent-subsidiary directive)
+    royalties: 22.6  # (unless treaty reduced)
+
+## Personal Income Tax (IRPEF - Imposta sul Reddito delle Persone Fisiche)#
+personal_income_tax:
+  brackets_2026:
+    - "€0 - €15,000: 23%"
+    - "€15,001 - €28,000: 25%"
+    - "€28,001 - €50,000: 35%"
+    - "€50,001+: 43%"
+    
+  regional_tax: 1.23  # percentage (varies by region, 0.9-1.23%)
+  municipal_tax: 0.8  # percentage (varies by comune, 0-0.8%)
+  
+  social_contributions:
+    employee_rate: 9.19  # INPS (pension + health)
+    self_employed_rate: 25.81  # (composite rate, varies by category)
+
+## Social Security Contributions (INPS)#
+social_contributions:
+  employer_rate_percent: 29.87  # average (varies by sector/contract)
+  employee_rate_percent: 9.19  # (pension + health, INPS)
+  
+  breakdown_employer:
+    INPS_pension: 23.81
+    INAIL (worker_comp): 3.48
+    other: 2.58
+    
+  breakdown_employee:
+    INPS_pension: 9.19
+    health_insurance: 0  # covered by employer contributions
+
+## Tax Identification Numbers#
+tax_identification:
+  tin_name: "Codice Fiscale (Tax Code - 税码)"
+  format: "16 alphanumeric characters (surname+name+birthdate+comune)"
+  example: "RSSMRA80A01H501X (Rossi Mario, 1980, Roma)"
+  issuance: "Automatic at birth (individuals), incorporation (companies)"
+  
+  partita_iva:
+    format: "11 digits (VAT number, same as tax code for companies)"
+    example: "12345678901"
+    use: "Business registration (Agenzia Entrate)"
+    
+  codice_ateco:
+    format: "Numeric code (economic activity classification)"
+    example: "62.01.00 (Computer programming)"
+    use: "Business classification (mandatory for companies)"
+
+## Local Business Taxes#
+imu:
+  name: "Imposta Municipale Unica (Municipal Tax)"
+  rate: "0.46-1.06%"  # (by comune, on property value)
+  applies_to: "Buildings (except primary residence, since 2020)"
+  
+taRI:
+  name: "Tassa sui Rifiuti (Waste Tax)"
+  rate: "Varies by comune (based on sqm)"
+  applies_to: "All properties (business + residential)"
+
+## Tax Filing & Payment#
+filing_deadline:
+  corporate_tax: "30/11 (following year, via F24 form)"
+  vat: "Monthly or quarterly (depending on turnover)"
+  personal_income_tax: "30/11 (following year, via F24 or pre-filled)"
+  
+payment_methods:
+  - "F24 form (online banking, RID, at post office)"
+  - "Home banking (F24 pre-filled)"
+  - "Agenzia Entrate services (Entratel, Fisconline)"
+  
+online_filing:
+  mandatory_above: "€100,000 turnover (corporate tax)"
+  platform: "Entratel, Fisconline (Agenzia Entrate)"
+
+## Tax Incentives & Credits#
+tax_credits:
+  - name: "Credito d'Imposta Ricerca e Sviluppo (R&D Tax Credit)"
+    rate: "20% of R&D expenses (up to €5M)"
+    cap: "€5M per beneficiary"
+    use: "R&D, innovation (€4B claimed in 2025)"
+    
+  - name: "Credito d'Imposta Mezzogiorno (Southern Italy)"
+    rate: "25-45% of investments (depending on size/area)"
+    use: "Investments in Southern regions (Campania, Puglia, etc.)"
+    
+  - name: "Bonus Edilizia (Construction Bonus)"
+    rate: "50-110% (depending on type, superbonus 110% until 2025)"
+    use: "Home renovation, energy efficiency (very popular, €58B cost)"
+
+## International Tax#
+treaty_network: "100+ tax treaties (OECD Model)"
+crs_reporting: "Automatic exchange (FATCA, CRS, DAC2)"
+cbcr: "Country-by-Country Reporting (mandatory for €750M+ groups)"
+
+## Digital Services Tax#
+digital_services_tax:
+  rate_percent: 3
+  threshold: "€750M global revenue, €25M Italian revenue"
+  applies_to: "Digital advertising, marketplace, user data"
+  status: "Temporary (pending OECD global agreement)"
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "VAT rates: 22% (standard), 10% (reduced), 4% (super-reduced), 0% (exports)"
+  - "Corporate tax: 24% (IRES) + 3.9% (IRAP) = 27.9% total"
+  - "Codice Fiscale: 16 chars (surname+name+birthdate+comune)"
+  - "Partita IVA: 11 digits (VAT number, same as tax code)"
+  - "Social contributions: employer 29.87%, employee 9.19%"
+  - "Personal income tax: 23-43% (4 brackets + regional/municipal tax)"
+  - "R&D Tax Credit: 20% of expenses (up to €5M)"
+  - "Superbonus 110%: construction/energy (until 2025, €58B cost)"
+  - "Filing: F24 form (online banking, RID)"
+  - "Tax credits: R&D (20%), Mezzogiorno (25-45%), Bonus Edilizia (50-110%)"
+  - "Local taxes: IMU (property), TARI (waste, by comune)"
+  - "Digital Services Tax: 3% (€750M global, €25M Italian threshold)"
+  - "Tax treaties: 100+ (OECD Model, FATCA, CRS, DAC2)"

@@ -1,0 +1,208 @@
+---
+country: "Italy"
+category: "demographics"
+type: "population"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.istat.it"
+  - "https://www.demo.istat.it"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Demographics - Italy#
+
+## Population Overview#
+total_population: 58_900_000
+population_2025: 59_100_000
+population_2030_projection: 59_800_000
+population_2050_projection: 60_500_000
+growth_rate_percent: 0.1
+rank_global: 24
+
+## Age Distribution#
+age_groups:
+  "0-14":
+    population: 7_800_000
+    percentage: 13.2
+  "15-64":
+    population: 38_200_000
+    percentage: 64.9
+  "65+":
+    population: 12_900_000
+    percentage: 21.9
+    
+median_age: 47.3
+dependency_ratio: 54.1  # dependents per 100 working-age
+
+## Urban vs Rural#
+urbanization_rate: 71.5  # percentage
+urban_population: 42_100_000
+rural_population: 16_800_000
+
+urbanization_trend: "Slow growth, 71-72% (aging population, rural revival)"
+
+## Major Cities (Population)#
+major_cities:
+  - name: "Rome (罗马)"
+    population: 4_300_000  # city proper
+    metro: 4_400_000
+    type: "Capital, historical hub"
+  - name: "Milan (米兰)"
+    population: 1_400_000
+    metro: 3_100_000
+    type: "Financial/tech hub (Milanese h're)"
+  - name: "Naples (那不勒斯)"
+    population: 2_960_000
+    metro: 3_100_000
+    type: "Southern Italy hub"
+  - name: "Turin (都灵)"
+    population: 870_000
+    metro: 1_700_000
+    type: "Industrial, automotive (Fiat/Stellantis)"
+  - name: "Palermo (巴勒莫)"
+    population: 650_000
+    metro: 1_200_000
+    type: "Sicily capital"
+  - name: "Genoa (热那亚)"
+    population: 580_000
+    metro: 850_000
+    type: "Port city, shipping"
+  - name: "Bologna (博洛尼亚)"
+    population: 390_000
+    metro: 1_020_000
+    type: "University city, food capital"
+  - name: "Florence (佛罗伦萨)"
+    population: 380_000
+    metro: 720_000
+    type: "Renaissance, tourism"
+
+## Gender Distribution#
+gender_ratio:
+  male: 48.5  # percentage
+  female: 51.5
+  sex_ratio_births: 105  # boys per 100 girls
+
+## Regions (Macro-areas)#
+regions:
+  - name: "Lombardy (Lombardia - 伦巴第)"
+    population: 10_100_000
+    percentage: 17.1
+    gdp_share: 22
+    capital: "Milan"
+    
+  - name: "Lazio (拉齐奥)"
+    population: 5_800_000
+    percentage: 9.8
+    gdp_share: 11
+    capital: "Rome"
+    
+  - name: "Campania (坎帕尼亚)"
+    population: 5_700_000
+    percentage: 9.7
+    gdp_share: 6
+    capital: "Naples"
+    
+  - name: "Sicily (Sicilia - 西西里)"
+    population: 4_800_000
+    percentage: 8.1
+    gdp_share: 5
+    capital: "Palermo"
+    
+  - name: "Veneto (威尼托)"
+    population: 4_900_000
+    percentage: 8.3
+    gdp_share: 9
+    capital: "Venice"
+
+## Languages#
+languages:
+  official: "Italian (Italiano)"
+  regional:
+    - "Sicilian (4M speakers, Sicily)"
+    - "Neapolitan (3.5M speakers, Campania)"
+    - "Venetian (3M speakers, Veneto)"
+    - "Lombard (2M speakers, Lombardy)"
+    - "Sardinian (1M speakers, Sardinia)"
+    - "Friulian (600K speakers, Friuli)"
+    - "Ladin (40K speakers, Dolomites)"
+    - "German (300K speakers, South Tyrol)"
+    - "French (100K speakers, Aosta Valley)"
+    - "Catalan (15K speakers, Alghero)"
+    
+  immigration_languages:
+    - "Arabic (1.8M speakers)"
+    - "Romanian (1.2M speakers)"
+    - "Albanian (600K speakers)"
+    - "Spanish (400K speakers)"
+
+## Education#
+education_levels:
+  literacy_rate: 99  # (age 15+)
+  degree_or_above: 14_200_000  # 34.2% of adults
+  higher_education: 9_800_000  # 23.6%
+  high_school: 16_500_000  # 39.8%
+  no_qualifications: 6_800_000  # 16.4%
+
+## Income & Wealth#
+gdp_per_capita_usd: 39_600
+median_household_income_eur: 32_800  # per year
+gini_coefficient: 0.321  # moderate inequality)
+
+income_distribution:
+  high_income: 16  # percentage (top 20% earn >€100K/year)
+  middle_income: 60  # percentage (€30K-100K/year)
+  low_income: 24  # percentage (<€30K/year)
+
+## Digital Demographics#
+internet_users: 55_000_000
+internet_penetration: 93
+mobile_users: 62_000_000  # 105% (multi-SIM)
+social_media_users: 52_000_000
+
+top_social_platforms:
+  - "WhatsApp: 40M users (DOMINANT)"
+  - "Facebook: 35M users"
+  - "Instagram: 30M users"
+  - "TikTok: 22M users"
+  - "LinkedIn: 25M users"
+  - "X (Twitter): 12M users"
+  - "Telegram: 8M users"
+
+## Ethnicity & Immigration#
+ethnicity_note: "Italy collects citizenship data (not ethnicity/race)"
+immigration:
+  foreign_born: 6_200_000  # 10.5% of population
+  top_origins: "Romania, Albania, Morocco, China, Ukraine"
+  naturalized_citizens: 2_100_000
+  
+regions_of_origin:
+  eu: 35  # Romania, Albania, Ukraine
+  north_africa: 25  # Morocco, Tunisia, Egypt
+  asia: 20
+  latin_america: 10
+  other: 10
+
+## Religion#
+religion:
+  christian: 74.5  # percentage (mainly Catholic: 67%)
+  no_religion: 15.3  # growing
+  islam: 4.9
+  other_christian: 3.2  # Orthodox, Protestant
+  other: 2.1
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "Population: 58.9M, 24th largest globally (declining -0.1%)"
+  - "Italian is OFFICIAL (mandatory for consumer content)"
+  - "WhatsApp 40M users - CRITICAL for customer engagement"
+  - "Urbanization: 71.5%, Milan = financial/tech hub (3.1M metro)"
+  - "Internet users: 55M (93% penetration), mobile 105%"
+  - "Median age: 47.3 (oldest in Europe, 21.9% over 65)"
+  - "Income: median €32.8K, Gini 0.321 (moderate inequality)"
+  - "Rome: 4.4M metro (capital), Milan: 3.1M (financial hub)"
+  - "Immigration: 10.5% foreign-born (Romania, Albania, Morocco)"
+  - "Religion: 74.5% Christian (67% Catholic), 15.3% no religion"
+  - "Education: 34.2% degree+, 16.4% no qualifications"
+  - "Digital: LinkedIn 25M (professional), TikTok 22M (Gen Z)"
+  - "Regional languages: Sicilian (4M), Neapolitan (3.5M), Venetian (3M)"

@@ -1,0 +1,216 @@
+---
+country: "Italy"
+category: "financial"
+type: "banks"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.bancaditalia.it"
+  - "https://www.consob.it"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Banks & Payment Systems - Italy#
+
+## Central Bank#
+central_bank: "Banca d'Italia (意大利银行)"
+website: "https://www.bancaditalia.it"
+governor: "Fabio Panetta"
+role: "Monetary policy, financial stability, banking supervision"
+
+## IBAN Format#
+iban:
+  format: "ITkk XXXX XXXX XXXX XXXX XXXX"
+  length: 27
+  example: "IT60 X054 2811 1010 0000 0123 456"
+  validation_regex: "^IT\\d{2}\\d{4}\\d{4}\\d{4}\\d{4}\\d{4}\\d{2}$"
+  sepa_compliant: true
+
+## Major Banks#
+top_banks:
+  - name: "Intesa Sanpaolo (意大利联合圣保罗银行)"
+    market_share: 18
+    assets_eur: 1_100_000_000_000
+    users: 22_000_000
+    note: "Largest bank in Italy, merger of Intesa + Sanpaolo"
+    
+  - name: "UniCredit (意大利裕信银行)"
+    market_share: 15
+    assets_eur: 950_000_000_000
+    users: 18_000_000
+    note: "Major European bank, HQ in Milan"
+    
+  - name: "Banca Monte dei Paschi di Siena (MPS)"
+    market_share: 5
+    assets_eur: 150_000_000_000
+    users: 6_000_000
+    note: "World's oldest bank (1472), state-supported"
+    
+  - name: "Banco BPM"
+    market_share: 5
+    assets_eur: 140_000_000_000
+    users: 5_500_000
+    note: "Merger of Banco Popolare + BPM"
+    
+  - name: "BPER Banca"
+    market_share: 4
+    assets_eur: 120_000_000_000
+    users: 4_500_000
+    note: "Growing regional bank"
+    
+  - name: "Banca Nazionale del Lavoro (BNL - BNP Paribas)"
+    market_share: 4
+    assets_eur: 110_000_000_000
+    users: 4_000_000
+    note: "Subsidiary of BNP Paribas (French)"
+    
+  - name: "Poste Italiane (Italian Post - BancoPosta)"
+    market_share: 8
+    users: 25_000_000
+    note: "Postal bank, 100% state-owned"
+
+## Payment Systems#
+payment_systems:
+  - name: "Bancomat (银行卡/借记卡)"
+    market_share: 95  # percentage of POS payments
+    users: 55_000_000
+    transaction_volume_eur: 450_000_000_000  # 2025
+    note: "Italian domestic debit scheme (MANDATORY for shops >€60)"
+    features: "Debit cards, ATM withdrawals (Bancomat network)"
+    
+  - name: "SEPA (Single Euro Payments Area)"
+    type: "Bank transfer"
+    share_of_payments: 60  # percentage of non-cash payments
+    volume_annual: 3_800_000_000  # transactions
+    note: "Euro-denominated, cross-EU (1-day to instant)"
+    
+  - name: "Satispay (萨蒂斯佩 - 意大利支付)"
+    users: 10_000_000
+    growth: 45  # percentage YoY
+    note: "Italian P2P payment app (exponential growth)"
+    features: "P2P, QR code payments, SME solutions"
+    
+  - name: "Instant Payments (SEPA Instant)"
+    launched: "2019"
+    share_of_sepa: 30  # percentage of SEPA transfers
+    speed: "Under 10 seconds, 24/7/365"
+    limit_eur: 100_000  # per transaction
+    
+  - name: "PayPal"
+    users: 28_000_000
+    share_ecommerce: 22  # percentage
+    note: "Popular for cross-border, eBay"
+    
+  - name: "Apple Pay / Google Pay"
+    users: 25_000_000
+    growth: 30  # percentage YoY
+    note: "Contactless mobile payments (NFC)"
+
+## Digital & Neobanks#
+neobanks:
+  - name: "FinecoBank"
+    users: 3_500_000
+    type: "Digital-first (Unicredit subsidiary)"
+    features: "Trading, multi-currency, low fees"
+    
+  - name: "Widiba (MPS)"
+    users: 2_000_000
+    type: "Digital bank (Banca MPS subsidiary)"
+    features: "Savings, investments, chat support"
+    
+  - name: "CheBanca! (Mediobanca)"
+    users: 1_500_000
+    type: "Digital bank"
+    features: "Investments, wealth management"
+    
+  - name: "Revolut Italy"
+    users: 2_500_000
+    target: "Consumers, travelers"
+    features: "Multi-currency, crypto, trading"
+    
+  - name: "N26 Italy"
+    users: 1_800_000
+    target: "Consumers, digital natives"
+    features: "German neobank, simple interface"
+
+## Regulatory Authority#
+banking_regulator: "Banca d'Italia (Bank of Italy)"
+website: "https://www.bancaditalia.it"
+role: "Banking supervision, monetary policy"
+
+## Cryptocurrency#
+crypto_regulation:
+  status: "Legal, no ban"
+  registration: "Mandatory with OAM (Organismo Agenti e Mediatori)"
+  
+  top_exchanges_italy:
+    - "Young Platform (Italian, regulated)"
+    - "Conio (Italian, crypto wallet)"
+    - "Binance (global, registered in Italy)"
+    - "Coinbase (US-based, available)"
+    
+  crypto_adoption: "3.8M users (6.5% of population)"
+  yearly_volume_eur: 35_000_000_000  # 2025
+
+## Payment APIs (Open Banking)#
+open_banking:
+  framework: "PSD2 (EU Directive) + DSP2 (Italian transposition)"
+  implementation: "Strong Customer Authentication (SCA) mandatory"
+  
+  major_providers:
+    - "Stripe (dominant for e-commerce)"
+    - "PayPal (popular, widespread)"
+    - "Satispay Business (Italian P2P + SME)"
+    - "Nexi (Italian payment processor, largest)"
+    
+  api_access: "Open Banking APIs (XS2A) - mandatory for banks >€5M assets"
+
+## Consumer Credit#
+consumer_credit:
+  regulation: "TUB (Testo Unico Bancario - Banking Code)"
+  max_apr_percent: 18.50  # (usury cap, varies by loan type)
+  
+  top_lenders:
+    - "Agos (Crédit Agricole Consumer Finance)"
+    - "Compass (Banca Mediolanum)"
+    - "Findomestic (BNP Paribas)"
+    - "Cofidis (French, strong in Italy)"
+    
+  buy_now_pay_later: "Scalapay (Italian leader), Klarna (growing)"
+
+## Investment & Savings#
+savings_products:
+  - name: "Conto Deposito (Deposit Account)"
+    rate_percent: 2.5-4.0  # (varies by bank/duration)
+    tax: "26% on interest (capital income)"
+    users: 35_000_000
+    
+  - name: "Titoli di Stato (Government Bonds)"
+    types: ["BTP (10y)", "BTP Italia (linked to inflation)", "Bot (1y)"]
+    yield_10y_percent: 3.8  # (2026)
+    users: 25_000_000
+    
+  - name: "Fondi Comuni (Mutual Funds)"
+    assets_eur: 700_000_000_000
+    users: 15_000_000
+    
+  - name: "Assicurazioni Vita (人寿保险)"
+    assets_eur: 900_000_000_000
+    tax_advantage: "1.5-12.5% tax (after 5+ years)"
+    note: "Popular investment vehicle"
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "Bancomat (Italian debit): 95% of POS payments, MANDATORY for shops >€60"
+  - "SEPA transfers: 3.8B txns/year, instant available (€100K limit)"
+  - "Satispay: 10M users, Italian P2P (45% YoY growth)"
+  - "Intesa Sanpaolo (18%), UniCredit (15%) lead banking"
+  - "IBAN: IT + 27 chars (ITkk XXXX XXXX XXXX XXXX XXXX)"
+  - "Neobanks: FinecoBank (3.5M), Widiba (2M), CheBanca! (1.5M)"
+  - "Open Banking: PSD2 mandatory, SCA required (Strong Customer Auth)"
+  - "Crypto: Legal, 3.8M users, OAM registration required"
+  - "Payment APIs: Stripe, PayPal, Satispay, Nexi (Italian leader)"
+  - "Consumer credit: max APR 18.50% (usury cap)"
+  - "PayPal: 28M users, 22% e-commerce share"
+  - "Apple Pay/Google Pay: 25M users (NFC contactless)"
+  - "Gov bonds: BTP (3.8% yield), 25M users (popular savings)"

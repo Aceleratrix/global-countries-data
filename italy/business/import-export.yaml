@@ -1,0 +1,226 @@
+---
+country: "Italy"
+category: "business"
+type: "import_export"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.agenziaentrate.gov.it"
+  - "https://www.istat.it"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Import/Export Regulations - Italy#
+
+## Trade Overview#
+wto_member: true
+eu_member: true
+eurozone_member: true
+currency: "EUR (Euro) - €"
+top_trading_partners:
+  - "Germany"
+  - "France"
+  - "USA"
+  - "Spain"
+  - "China"
+  - "Switzerland"
+
+## Export Data#
+export_value_eur_2025: 580_000_000_000  # €580 billion
+top_export_products:
+  - product: "Automotive & parts (Ferrari, Lamborghini, Stellantis)"
+    value_eur: 82_000_000_000
+    share_percent: 14.1
+  - product: "Fashion & Luxury (Gucci, Prada, Armani)"
+    value_eur: 68_000_000_000
+    share_percent: 11.7
+  - product: "Machinery & equipment"
+    value_eur: 58_000_000_000
+    share_percent: 10.0
+  - product: "Food & Beverages (Barilla, Ferrero, Wine)"
+    value_eur: 52_000_000_000
+    share_percent: 9.0
+  - product: "Pharmaceuticals"
+    value_eur: 42_000_000_000
+    share_percent: 7.2
+  - product: "Furniture & Design (Made in Italy)"
+    value_eur: 38_000_000_000
+    share_percent: 6.6
+
+## Import Data#
+import_value_eur_2025: 620_000_000_000  # €620 billion
+top_import_products:
+  - product: "Energy (oil, gas, electricity)"
+    value_eur: 120_000_000_000
+    share_percent: 19.4
+  - product: "Automotive & parts"
+    value_eur: 58_000_000_000
+    share_percent: 9.4
+  - product: "Machinery & electronics"
+    value_eur: 52_000_000_000
+    share_percent: 8.4
+  - product: "Chemicals"
+    value_eur: 48_000_000_000
+    share_percent: 7.7
+  - product: "Metals & minerals"
+    value_eur: 42_000_000_000
+    share_percent: 6.8
+
+## EU Trade Framework#
+eu_trade:
+  single_market: "Full access (no tariffs, no quotas, no customs)"
+  customs_union: "Common external tariff (TARIC)"
+  freedom_of_movement: "Goods, services, capital, people"
+  
+  italy_germany_trade:
+    exports_to_germany: 105_000_000_000  # €105B (largest bilateral)
+    imports_from_germany: 98_000_000_000  # €98B
+    
+  italy_france_trade:
+    exports_to_france: 85_000_000_000  # €85B
+    imports_from_france: 78_000_000_000  # €78B
+
+## Customs & Tariffs#
+customs_authority: "Agenzia delle Dogane e dei Monopoli (Italian Customs)"
+website: "https://www.agenziadoganemonopoli.gov.it"
+
+tariff_structure:
+  eu_common_external_tariff: "TARIC (EU-wide)"
+  average_tariff_percent: 3.0  # on non-EU imports
+  
+  categories:
+    - "Most goods: 0-6% (industrial, consumer goods)"
+    - "Agricultural: 0-25% (CAP protected)"
+    - "Textiles: 0-12%"
+    - "Vehicles: 10% (outside EU)"
+
+## EU Free Trade Agreements#
+eu_ftas:
+  - name: "EU-Japan EPA"
+    effective: "2019-02-01"
+    benefits: "Elimination of 97% tariffs (both sides)"
+    
+  - name: "EU-Canada CETA"
+    effective: "2017-09-21 (provisional)"
+    benefits: "98% tariff elimination (phased)"
+    
+  - name: "EU-South Korea FTA"
+    effective: "2011-07-01"
+    benefits: "Almost all tariffs eliminated"
+    
+  - name: "EU-Singapore FTA"
+    effective: "2019-11-21"
+    benefits: "Elimination of all tariffs"
+    
+  - name: "EU-Vietnam FTA"
+    effective: "2020-08-01"
+    benefits: "99% tariff elimination (phased)"
+
+## Import Requirements#
+import_licensing:
+  general_rule: "No license for most goods (open trade regime)"
+  restricted_goods:
+    - "Firearms & ammunition (license required)"
+    - "Narcotics & controlled drugs"
+    - "Certain chemicals (dual-use)"
+    - "Endangered species (CITES)"
+    - "Food & agricultural products (health certificates)"
+
+## Documentation#
+required_documents:
+  - "Customs Declaration (SAD - Single Administrative Document)"
+  - "Commercial Invoice"
+  - "Packing List"
+  - "Bill of Lading / Air Waybill"
+  - "Certificate of Origin (for FTA benefits)"
+  - "EORI Number (Economic Operator Registration & Identification)"
+  - "SPS Certificate (for food/plants/animals)"
+  - "EUR.1 Movement Certificate (for some FTAs)"
+
+## EORI Number#
+eori:
+  description: "12-character identifier (IT + 9 digits + suffix)"
+  format: "IT123456789000"
+  use: "All EU customs declarations (MANDATORY)"
+  application: "Online via agenziaentrate.gov.it"
+  timeline: "3-5 working days"
+
+## Export Controls#
+export_controls:
+  authority: "Ministero degli Affari Esteri (MAE - Foreign Ministry)"
+  controlled_items:
+    - "Dual-use items (military + civilian)"
+    - "Military equipment (strategic goods)"
+    - "Cultural goods (over 50 years old)"
+    - "Artworks (export license required)"
+    
+  export_licenses:
+    - "Global Export License (for regular exporters)"
+    - "Individual Export License (one-time shipments)"
+    - "EU General Export Authorisation (for dual-use)"
+
+## Special Economic Zones#
+sezs:
+  - name: "No traditional SEZs (unlike Asia)"
+  - name: "ZES (Zone Economiche Speciali - Special Economic Zones)"
+    count: 5
+    locations: "Campania (Naples), Puglia (Bari), Calabria, Sicily, Sardinia"
+    benefits: "10% tax credit, simplified procedures, infrastructure"
+    use: "Investment in Southern Italy (Mezzogiorno)"
+    
+  - name: "Distretti Tecnologici (Technology Districts)"
+    count: 45+
+    benefits: "Tax credits, R&D incentives, networking"
+    use: "Innovation, fashion, automotive, food"
+
+## Incoterms#
+common_incoterms:
+  - "FOB (Free on Board) - common for sea freight"
+  - "CIF (Cost, Insurance, Freight)"
+  - "EXW (Ex Works)"
+  - "DDP (Delivered Duty Paid) - e-commerce"
+  - "FCA (Free Carrier)"
+
+## Customs Procedures#
+procedures:
+  - "SAD (Single Administrative Document) - online system"
+  - "Simplified Procedures (authorized traders - AEO)"
+  - "Transit (T1/T2 documents for EU movements)"
+  
+timeline:
+  air_freight: "1-2 days (after documentation)"
+  sea_freight: "2-5 days (after vessel arrival)"
+
+## Major Ports & Logistics Hubs#
+major_ports:
+  - name: "Port of Genoa (热那亚)"
+    type: "Sea port (largest in Italy)"
+    throughput_teu: 2_800_000
+  - name: "Port of Trieste"
+    type: "Sea port (Adriatic)"
+    throughput_teu: 900_000
+  - name: "Port of Naples"
+    type: "Sea port (Southern Italy)"
+    throughput_teu: 750_000
+  - name: "Milan Malpensa Airport"
+    type: "Air cargo"
+    throughput_tons: 650_000
+  - name: "Rome Fiumicino Airport"
+    type: "Air cargo"
+    throughput_tons: 550_000
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "EORI (12-char IT + 9 digits) MANDATORY for ALL EU customs"
+  - "Italian Customs: agenziaentrate.gov.it (SAD declarations)"
+  - "Average tariff: 3.0% (EU Common External Tariff)"
+  - "Italy exports €580B (2025), imports €620B (trade deficit)"
+  - "Top exports: automotive (14.1%), fashion (11.7%), machinery (10.0%)"
+  - "Top imports: energy (19.4%), automotive (9.4%), machinery (8.4%)"
+  - "Largest trading partner: Germany (€105B exports, €98B imports)"
+  - "SAD (Single Administrative Document) - online filing system"
+  - "EU FTAs: Japan, Canada (CETA), S. Korea, Singapore, Vietnam"
+  - "Export licenses: Global/Individual (dual-use, military)"
+  - "Major ports: Genoa (2.8M TEU), Trieste (900K TEU)"
+  - "ZES (Special Economic Zones): 5 zones (Southern Italy, 10% tax credit)"
+  - "Distretti Tecnologici: 45+ zones (R&D tax credits)"

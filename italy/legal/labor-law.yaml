@@ -1,0 +1,199 @@
+---
+country: "Italy"
+category: "legal"
+type: "labor_law"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.normattiva.it"
+  - "https://www.lavoro.gov.it"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Labor Law - Italy#
+
+## Legal Framework#
+primary_law: "Codice Civile (Italian Civil Code - Titolo II)"
+secondary_laws:
+  - "D.Lgs. 66/2003 (working hours)"
+  - "D.Lgs. 151/2001 (maternity/leave)"
+  - "Statuto dei Lavoratori (1970, workers' rights)"
+authority: "Ministero del Lavoro e delle Politiche Sociali (Ministry of Labor)"
+
+## Employment Contracts#
+contract_types:
+  - type: "Tempo Indeterminato (长期雇佣)"
+    description: "Permanent contract, default for most employees"
+    probation: "3-6 months (by contract/agreement)"
+    notice_period: "15-80 days (by tenure)"
+    share: 72  # percentage
+    
+  - type: "Tempo Determinato (固定期限)"
+    description: "Fixed-term contract (max 24-36 months)"
+    max_duration: "24 months (12+12 extension), 36 months (exceptional)"
+    renewal: "Max 4 renewals (unless justified)"
+    share: 18  # percentage
+    note: "Justified reasons required (replacement, temporary increase)"
+    
+  - type: "Lavoro Intermittente (零工/小时工)"
+    description: "On-call work (voucher system, abolished 2012, reintroduced 2020)"
+    max_hours: "400 hours/year (per employer)"
+    rights: "Same as permanent (pro-rata)"
+    share: 3  # percentage
+    
+  - type: "Lavoro a chiamata (劳务派遣)"
+    description: "Temporary agency work"
+    max_duration: "36 months (same as Tempo Determinato)"
+    rights: "Same as permanent after 1 month"
+    share: 4  # percentage
+    
+  - type: "Lavoro Autonomo (自雇)"
+    description: "Freelance/independent contractor"
+    rights: "Limited (no labor law protection)"
+    note: "2.8M freelancers (Partita IVA)"
+
+## Working Hours#
+standard_hours:
+  per_day: 8
+  per_week: 40  # LEGAL MAX
+  annual_max: 2_080  # hours (48/week avg over 4 months)
+  
+working_time_law:
+  legal_max: 48  # hours/week (average over 4 months)
+  daily_rest: "11 consecutive hours between shifts"
+  weekly_rest: "24 consecutive hours (usually Sunday)"
+  
+overtime_rules:
+  rate_1: "15% extra (hours 41-48, unless collective agreement)"
+  rate_2: "20% extra (hours 49+, night work)"
+  max_overtime: "250 hours/year (mandatory, unless collective agreement)"
+  
+note: "40h/week is standard, overtime limited to 250h/year (strict)"
+
+## Minimum Wage#
+minimum_wage:
+  status: "NO statutory minimum wage (unique in EU)"
+  collective_bargaining: "250+ national contracts (CCNL) set minimums"
+  average_gross_eur: 1_750  # per month (from collective agreements)
+  estimated_minimum_eur: 1_200-1_500  # from CCNL
+  employer_duty: "Must pay at least CCNL minimum (contractual)"
+penalties: "Up to €5,000 fine + 3 years prison (repeated violations)"
+
+## Employment Tribunal (Tribunale del Lavoro)#
+tribunale_lavoro:
+  claim_types: "Unfair dismissal, discrimination, wage disputes, safety"
+  time_limit: "10 years for wage claims, 60 days for unfair dismissal"
+  fees: "€50-500 (depending on claim value)"
+  
+process:
+  step1: "Attempt conciliation (mandatory, 1 session)"
+  step2: "Tribunale hearing (3-12 months)"
+  step3: "Appeal (Corte d'Appello, then Cassazione)"
+  
+compensation:
+  unfair_dismissal: "2-24 months salary (by tenure, capped at €480K)"
+  note: "2015 Jobs Act capped damages (controversial)"
+
+## Termination & Redundancy#
+termination_notice:
+  employer_initiated: "15-80 days (by tenure + CCNL)"
+  employee_initiated: "15-30 days (contractual, usually 15)"
+  
+unfair_dismissal:
+  qualifying_period: "None (protected from day 1)"
+  grounds_required: "Justified reason (objective/subjective)"
+  compensation: "2-24 months salary (capped, by tenure)"
+  
+redundancy_pay:
+  eligibility: "Any tenure (no minimum)"
+  calculation: "1/2 month per year (first 3 years), 1 month (after)"
+  max_payout: "€480,000 (Jobs Act cap)"
+  social_safety_net: "NASpl (unemployment benefit, 2 years)"
+
+## Mandatory Leave#
+leave_entitlements:
+  annual_leave:
+    full_time: "4 weeks (20 days) + public holidays (12)"
+    part_time: "Pro-rata"
+    accrual: "1.66 days/month (legal minimum)"
+    
+  sick_leave:
+    daily_allowance: "50% of daily salary (Day 1-3), 66% (Day 4-20), 75% (Day 21+)"
+    reimbursement: "INPS (Social Security) - 3-day waiting period"
+    duration: "180 days/year (renewable)"
+    
+  maternity_leave:
+    duration: "5 months (2 before + 3 after)"
+    pay: "80% of salary (INPS reimbursement)"
+    eligibility: "All employees (any tenure)"
+    
+  paternity_leave:
+    duration: "10 days (consecutive or split)"
+    pay: "100% of salary (INPS reimbursement)"
+    note: "Increased from 5 days in 2022"
+    
+  parental_leave:
+    duration: "6 months each parent (8 if not used by other parent)"
+    pay: "30% of salary (INPS, first 3 months)"
+    eligibility: "1 year tenure"
+    
+  special_leaves:
+    marriage: "15 days paid (religious/civil)"
+    death_close_family: "3 days paid"
+    moving: "1 day paid"
+    blood_donation: "1 day paid (up to 3/year)"
+
+## Probation Period#
+probation_rules:
+  standard: "3 months (blue-collar), 6 months (white-collar)"
+  max_duration: "6 months (1 year with CCNL agreement)"
+  during_probation: "No severance, 15-day notice period"
+  confirmation: "Based on performance review"
+
+## Non-Compete Agreements#
+non_compete:
+  validity: "Enforceable (if reasonable)"
+  criteria: "Compensation (15-25% salary), duration (6-12 months), geographic scope"
+  compensation: "15-25% of gross salary (mandatory during non-compete)"
+  penalty: "€10,000+ fine for violation"
+
+## Employee Representation#
+works_council:
+  mandatory: "Companies with 15+ employees"
+  members: "Employee-elected representatives (RSU - Rappresentanze Sindacali Unitarie)"
+  powers: "Consulted on redundancies, restructuring, working conditions"
+  
+union_representation:
+  union_density: 35  # percentage (higher than France)
+  major_unions: "CGIL (left), CISL (Catholic), UIL (secular)"
+  rights: "Collective bargaining (250+ CCNL), strike (unlimited, 10-day notice)"
+
+## Special Rules for Foreigners#
+work_visa:
+  required: "For non-EU nationals"
+  types:
+    - "Permesso di Soggiorno per Lavoro (Work Permit)"
+    - "Carta di Soggiorno (Long-term Residence)"
+    - "Stagionale (Seasonal Work, 9 months)"
+    
+  minimum_salary: "No general minimum (CCNL applies)"
+  
+right_to_work:
+  check_mandatory: "All employees (civil penalty €1,500-9,000 for illegal workers)"
+  documents: "Permesso di Soggiorno (residence permit), passport + visa"
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "NO statutory minimum wage (unique in EU!) - CCNL sets minimums (~€1,200-1,500)"
+  - "Legal work week: 40h MAX (overtime capped at 250h/year)"
+  - "Overtime: 15% (41-48h), 20% (49h+), max 250h/year"
+  - "Tribunale del Lavoro: 60-day limit (unfair dismissal), 10 years (wages)"
+  - "Unfair dismissal: no qualifying period, 2-24 months salary (capped €480K)"
+  - "Maternity: 5 months, 80% pay (INPS reimbursement)"
+  - "Paternity: 10 days (up from 5 in 2022), 100% pay"
+  - "Non-compete: 15-25% salary compensation MANDATORY (6-12 months)"
+  - "Notice period: 15-80 days (by tenure + CCNL)"
+  - "Work visa: Permesso di Soggiorno (no minimum salary, CCNL applies)"
+  - "Works council: mandatory 15+ employees (RSU representatives)"
+  - "Union density: 35% (higher than France), 3 major unions (CGIL, CISL, UIL)"
+  - "Tempo Indeterminato = permanent (72%), Tempo Determinato = fixed-term (18%, max 24-36m)"

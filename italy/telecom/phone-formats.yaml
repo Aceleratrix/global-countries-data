@@ -1,0 +1,151 @@
+---
+country: "Italy"
+category: "telecom"
+type: "phone_formats"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.agcom.it"
+  - "https://www.tim.it"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Phone & Telecom Formats - Italy#
+
+## Country Code#
+country_calling_code: "+39"
+international_prefix: "00"
+trunk_prefix: "None (no leading 0)"
+e164_format: true
+
+## Mobile Phone Format#
+mobile_format:
+  pattern: "+39 3XX XXX XXXX"
+  length: 9-10  # digits (after +39)
+  example: "+39 312 345 6789"
+  regex: "^(\\+39)?3\\d{8,9}$"
+  
+mobile_prefixes:
+  - prefix: "3XX"
+    operators: ["TIM", "Vodafone", "WindTre", "Iliad", "PosteMobile"]
+    note: "All Italian mobile numbers start with 3"
+
+## Landline Format#
+landline_format:
+  pattern: "+39 0X XXXX XXXX (area code 2-4 digits)"
+  area_code_length: 2-4  # varies by city
+  local_number_length: 7-8
+  example: "+39 02 1234 5678"  # Milan
+  regex: "^(\\+39)?0\\d{8,11}$"
+  
+major_city_codes:
+  rome: "06"
+  milan: "02"
+  naples: "081"
+  turin: "011"
+  palermo: "091"
+  genoa: "010"
+  bologna: "051"
+  florence: "055"
+  venice: "041"
+  catania: "095"
+
+## Toll-Free Numbers#
+toll_free:
+  prefixes: ["800", "803"]
+  format: "+39 800 XXX XXX"
+  note: "Free to caller from landlines and mobiles"
+  availability: "Available to businesses via telecom operators"
+
+## Special Service Numbers#
+emergency:
+  police: "112"  # EU emergency (unified)
+  carabinieri: "112"  # military police
+  ambulance: "118"
+  fire: "115"
+  non_emergency_police: "113"  # police (non-urgent)
+
+## Telecom Operators#
+mobile_operators:
+  - name: "TIM (Telecom Italia)"
+    market_share: 35
+    users: 28_000_000
+    note: "Historic operator (ex-monopoly), market leader"
+    
+  - name: "Vodafone Italy"
+    market_share: 28
+    users: 22_000_000
+    note: "Sold to Fastweb 2024 (pending approval)"
+    
+  - name: "WindTre"
+    market_share: 22
+    users: 17_500_000
+    note: "Merger of Wind + 3 Italia"
+    
+  - name: "Iliad Italia"
+    market_share: 15
+    users: 9_000_000
+    note: "French, disruptive low-cost (since 2018)"
+    
+  - name: "PosteMobile (Poste Italiane)"
+    market_share: 5
+    users: 4_000_000
+    note: "MVNO (runs on Vodafone network)"
+
+## Internet & Connectivity#
+internet_penetration: 93  # percentage
+internet_users: 55_000_000
+mobile_penetration: 105  # percentage
+broadband_speed_avg_mbps: 85
+
+## 5G Coverage#
+five_g:
+  launched: "2019-07 (TIM first)"
+  coverage: "70% of population (2026)"
+  operators: "TIM, Vodafone, WindTre, Iliad (all launched)"
+  speed_avg_mbps: 160
+  users: 28_000_000  # growing fast
+
+## VoIP & Instant Messaging#
+voip_services:
+  - "WhatsApp (40M users) - DOMINANT"
+  - "Skype (10M users)"
+  - "Zoom (business)"
+  - "Teams (enterprise)"
+  - "FaceTime (iOS users)"
+  
+instant_messaging:
+  - "WhatsApp: 40M users (DOMINANT)"
+  - "Facebook Messenger: 35M users"
+  - "Instagram DM: 30M users"
+  - "Telegram: 8M users"
+  - "Signal: 5M users"
+
+## Phone Number Portability#
+number_portability:
+  available: true
+  introduced: "1998 (mobile), 2001 (landline)"
+  process: "Via operator"
+  timeline: "3-10 working days"
+  fee: "€10 (mobile), €0 (landline)"
+
+## Virtual Phone Numbers#
+virtual_numbers:
+  availability: "Available via Twilio, MessageBird, etc."
+  use_cases: "Business SMS, customer support, OTP"
+  regulatory: "AGCOM oversight, GDPR compliance"
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "Mobile numbers: ALWAYS 9-10 digits starting with 3XX"
+  - "Landlines: area codes 2-4 digits (Rome=06, Milan=02, Naples=081)"
+  - "WhatsApp has 40M users - CRITICAL for business"
+  - "TIM leads (35% share, 28M users), Vodafone 2nd (28%, 22M)"
+  - "Emergency: 112 (unified EU number), 118 (ambulance), 115 (fire)"
+  - "5G launched July 2019, 70% population coverage (2026)"
+  - "Number portability: 3-10 days, €10 for mobile (free landline)"
+  - "Area codes: Rome 06, Milan 02, Naples 081, Turin 011"
+  - "AGCOM (Autorità per le Garanzie nelle Comunicazioni) regulates"
+  - "MVNOs: PosteMobile (5%, runs on Vodafone)"
+  - "Broadband avg: 85 Mbps, growing to 150+ Mbps (FTTH)"
+  - "Iliad Italia: disruptive low-cost (€5/month, French-owned)"

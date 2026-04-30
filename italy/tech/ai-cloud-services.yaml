@@ -1,0 +1,171 @@
+---
+country: "Italy"
+category: "tech"
+type: "ai_cloud_services"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.mise.gov.it"
+  - "https://www.agid.gov.it"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# AI & Cloud Services - Italy#
+
+## Cloud Market Overview#
+total_market_size_usd: 12_000_000_000  # 2025
+growth_rate_percent: 18
+global_rank: 8  # after USA, China, Japan, Germany, India, UK, France
+
+## Top Cloud Providers#
+cloud_providers:
+  - name: "Amazon Web Services (AWS)"
+    market_share: 25
+    regions_in_italy: 1  # Milan (3 AZs)
+    availability_zones: 3
+    users: "900K+ enterprises"
+    
+  - name: "Microsoft Azure"
+    market_share: 22
+    regions_in_italy: 1  # Italy North (Milan)
+    availability_zones: 2
+    users: "800K+ enterprises"
+    
+  - name: "Google Cloud Platform (GCP)"
+    market_share: 10
+    regions_in_italy: 1  # Milan (2 AZs)
+    availability_zones: 2
+    users: "400K+ enterprises"
+    
+  - name: "Aruba (Italian 🚀)"
+    market_share: 15
+    regions_in_italy: 5  # Ponte San Pietro, Arezzo, etc.
+    availability_zones: 8
+    users: "600K+ enterprises"
+    note: "Largest Italian cloud, sovereign solution"
+    
+  - name: "Seeweb (Italian 🚀)"
+    market_share: 8
+    regions_in_italy: 3  # Frosinone, Milan, Rome
+    availability_zones: 4
+    users: "300K+ enterprises"
+    note: "Italian cloud, sustainability focus"
+    
+  - name: "Oracle Cloud"
+    market_share: 3
+    regions_in_italy: 1
+    users: "120K+ enterprises"
+
+## AI Models & LLMs#
+llm_models:
+  - name: "i-gen (Italian LLM)"
+    models: ["i-gen-7B", "i-gen-13B"]
+    users: "200K+ Italian developers"
+    note: "Developed by CINECA/University of Bari"
+    
+  - name: "Google Gemini (via GCP)"
+    users: "350K+ Italian developers"
+    note: "Access via GCP"
+    
+  - name: "OpenAI GPT-4 (via Azure)"
+    users: "500K+ Italian developers"
+    note: "Access via Azure (not direct)"
+    
+  - name: "Claude (Anthropic - via AWS)"
+    users: "120K+ Italian developers"
+    note: "Growing in Italy since 2023"
+    
+  - name: "Mistral AI (French, available in Italy)"
+    users: "80K+ Italian developers"
+    note: "Open-weight models popular in Italy"
+
+## GPU & AI Compute#
+gpu_availability:
+  cloud_providers:
+    - "AWS: A100, V100, T4 (Milan region)"
+    - "Azure: A100, V100 (Italy North)"
+    - "GCP: A100, T4 (Milan)"
+    - "Aruba: V100 (select data centers)"
+    
+  italian_ai_clusters:
+    - name: "CINECA (Bologna)"
+      gpus: "4,000+ (academic + research access)"
+    - name: "Consorzio Interuniversitario (CINECA)"
+      gpus: "3,000+"
+    - name: "University of Milan"
+      gpus: "1,500+"
+    
+ai_compute_investment_usd: 2_200_000_000  # 2025
+ai_startups: 400+
+ai_patents: 5_000
+
+## AI Policy & Regulation#
+ai_governance:
+  status: "EU AI Act adopted March 2024 (phased to 2027)"
+  italian_role: "Supporter, developing i-gen (Italian LLM)"
+  
+  key_principles:
+    - "Risk-based (unacceptable/high/general/minimal)"
+    - "GPAI models: transparency, copyright compliance"
+    - "Sovereign cloud strategy (AgID certification)"
+    - "AI Act implementation (2024-2027)"
+    
+  italian_ai_strategy:
+    - "Italia Digitale 2026: €42B for digital, AI, 5G"
+    - "Milan as AI hub (200+ companies)"
+    - "400+ AI startups, €1.5B+ funding (2025)"
+    - "CINECA (supercomputing, Leonardo supercomputer)"
+
+## AI Infrastructure#
+ai_compute_investment_usd: 2_200_000_000  # 2025
+ai_startups: 400+
+ai_patents: 5_000
+
+## Data Centers & Availability Zones#
+availability_zones_italy: 15+
+major_regions:
+  - "Milan (Lombardy) - 8+ AZs (financial/tech hub)"
+  - "Rome (Lazio) - 3+ AZs (government)"
+  - "Bologna (Emilia-Romagna) - 2+ AZs (university hub)"
+  - "Naples (Campania) - 1+ AZs (southern hub)"
+  - "Bari (Puglia) - 1+ AZs (southern Italy)"
+
+## AI Applications in Italy#
+ai_use_cases:
+  - "Fashion AI (Gucci, Prada, 80+ brands using AI)"
+  - "Automotive AI (Stellantis, Ferrari, 100+ suppliers)"
+  - "Food/Agri AI (Barilla, 150+ startups)"
+  - "Tourism AI (50+ destinations using personalization)"
+  - "Healthcare AI (Ministry of Health, 30+ hospitals)"
+
+## Internet & Speed#
+internet_speed_avg_mbps:
+  fixed: 85
+  mobile: 50
+  5g_coverage: "70% of population (launched 2019)"
+
+## Digital Economy#
+digital_economy_italy:
+  gdp_contribution: 12.5  # percentage
+  tech_hubs:
+    - "Milan (Financial/tech hub - 3.1M metro)"
+    - "Turin (Automotive + AI, Stellantis HQ)"
+    - "Rome (Government, 4.4M metro)"
+    - "Bologna (University, food tech)"
+    - "Naples (Southern hub, growing tech)"
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "AWS (25%), Azure (22%), GCP (10%) lead cloud market"
+  - "Aruba (15%, Italian 🚀) leads sovereign cloud"
+  - "i-gen: Italian LLM (CINECA/University of Bari)"
+  - "EU AI Act: adopted March 2024, phased to 2027"
+  - "Seeweb: Italian cloud (8%, sustainability focus)"
+  - "Italia Digitale 2026: €42B for AI, digital, 5G"
+  - "Milan = financial/tech hub (3.1M metro, 200+ AI cos)"
+  - "400+ AI startups, €1.5B+ funding (2025)"
+  - "GPU access: A100/V100 via AWS/Azure/GCP/Aruba"
+  - "CINECA: Leonardo supercomputer (Bologna)"
+  - "Fashion AI: Gucci, Prada (80+ brands)"
+  - "5G launched 2019, 70% population coverage (2026)"
+  - "Stellantis (Fiat/Chrysler) HQ in Turin (automotive AI)"

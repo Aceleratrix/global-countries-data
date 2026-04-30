@@ -1,0 +1,217 @@
+---
+country: "Italy"
+category: "business"
+type: "company_sizes"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.istat.it"
+  - "https://www.registroimprese.it"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Company Sizes & Types - Italy#
+
+## Company Size Classifications#
+classification_standard: "ISTAT (National Institute of Statistics) + EU definition"
+
+### Micro Enterprises (Micro Imprese)#
+micro_enterprises:
+  - category: "Ditte Individuali (个体户)"
+    employees: "0-9 (usually 1)"
+    turnover_eur: "< €2M"
+    count: 3_200_000
+    share_percent: 72.7
+    note: "Sole proprietors, family businesses"
+    
+  - category: "Micro-enterprise (non-individual)"
+    employees: "1-9"
+    turnover_eur: "< €2M"
+    balance_sheet_eur: "< €2M"
+    count: 600_000
+    share_percent: 13.6
+
+### Small & Medium Enterprises (PMI - Piccole e Medie Imprese)#
+pmi:
+  - category: "Small Enterprise (Piccola Impresa)"
+    employees: "10-49"
+    turnover_eur: "€2M - €10M"
+    balance_sheet_eur: "€2M - €10M"
+    count: 350_000
+    share_percent: 8.0
+    
+  - category: "Medium Enterprise (Media Impresa)"
+    employees: "50-249"
+    turnover_eur: "€10M - €50M"
+    balance_sheet_eur: "€10M - €43M"
+    count: 45_000
+    share_percent: 1.0
+
+### Large Enterprises (Grandi Imprese)#
+large_enterprises:
+  employees: "250+"
+  turnover_eur: "> €50M"
+  balance_sheet_eur: "> €43M"
+  count: 12_000
+  share_percent: 0.3
+
+total_smes: 4_400_000
+employment_sme: 15_800_000  # 78% of total private sector employment
+
+## Company Types (Legal Forms)#
+company_types:
+  - name: "S.r.l. (Società a Responsabilità Limitata - 有限责任公司)"
+    min_directors: 1
+    max_shareholders: "Unlimited"
+    min_capital: "€1 (recommended €10,000+)"
+    use_case: "SMEs, family businesses, startups"
+    count: 1_200_000
+    note: "Most common form for SMEs, simplified"
+    
+  - name: "S.p.A. (Società per Azioni - 股份有限公司)"
+    min_directors: 1 (board of directors)
+    min_shareholders: 2 (or 1 for S.p.A. unipersonale)
+    min_capital: "€50,000 (at least 25% paid up)"
+    use_case: "Large companies, IPO-ready"
+    count: 25_000
+    note: "Listed companies, corporate governance strict"
+    
+  - name: "S.n.c. (Società in Nome Collettivo - 普通合伙)"
+    min_partners: 2
+    features: "Joint unlimited liability"
+    use_case: "Family businesses, small partnerships"
+    count: 180_000
+    note: "Partners have unlimited liability"
+    
+  - name: "S.a.s. (Società in Accomandita Semplice - 有限合伙)"
+    min_partners: 2 (general + limited partners)
+    features: "Mixed liability (general unlimited, limited protected)"
+    use_case: "Family firms, some partners passive"
+    count: 25_000
+    
+  - name: "Ditta Individuale (个体经营者)"
+    features: "Single owner, unlimited liability"
+    registration: "With Chamber of Commerce (Registro Imprese)"
+    use_case: "Freelancers, small shops, consultants"
+    count: 3_200_000
+    
+  - name: "Cooperative (Cooperativa)"
+    min_members: 3
+    features: "Democratic governance (1 member = 1 vote)"
+    use_case: "Worker coops, consumer coops, social enterprises"
+    count: 80_000
+    note: "Strong cooperative tradition in Italy"
+
+## Foreign Investment Vehicles#
+foreign_investment:
+  - type: "Italian Subsidiary (S.r.l./S.p.A.)"
+    description: "Italian-registered company, owned by foreign parent"
+    fdi_route: "Automatic (no restrictions in most sectors)"
+    timeline: "2-3 weeks (S.r.l. most popular for foreigners)"
+    
+  - type: "Branch Office (Succursale)"
+    description: "Italian branch of foreign company"
+    registration: "With Registro Imprese (Chamber of Commerce)"
+    use_case: "Banks, insurance (regulated sectors)"
+    
+  - type: "Representative Office"
+    description: "Liaison office (no trading allowed)"
+    use_case: "Market research, pre-entry"
+
+## Startup Ecosystem#
+startup_italy:
+  unicorns: 8+  # $1B+ valuation
+  valuation_total: 25_000_000_000  # $25B
+  top_hubs:
+    - "Milan (Financial hub, 150+ startups)"
+    - "Turin (Automotive/AI, 80+ startups)"
+    - "Rome (Government/EdTech, 60+ startups)"
+    - "Bologna (FoodTech/AgriTech, 50+ startups)"
+    
+  funding_2025: 3_800_000_000  # $3.8B (VC investment)
+  
+  sectors:
+    - "FashionTech (80+ companies, Gucci, Prada partnerships)"
+    - "AgriFood AI (150+ startups, Barilla partnerships)"
+    - "Automotive AI (100+ suppliers, Stellantis ecosystem)"
+    - "FinTech (200+ companies, Satispay leader)"
+    - "HealthTech (120+ companies, ministry partnerships)"
+
+## Special Economic Areas#
+special_areas:
+  - name: "ZES (Zone Economiche Speciali - Special Economic Zones)"
+    count: 5
+    locations: "Campania, Puglia, Calabria, Sicily, Sardinia (Southern Italy)"
+    benefits: "10% tax credit, simplified procedures, infrastructure"
+    use: "Investment in Southern Italy (Mezzogiorno)"
+    
+  - name: "Distretti Tecnologici (Technology Districts)"
+    count: 45+
+    benefits: "Tax credits, R&D incentives, networking"
+    examples: "Milan (fintech), Turin (automotive), Bologna (food)"
+    
+  - name: "Incubatori Certificati (Certified Incubators)"
+    count: 80+
+    benefits: "Tax breaks, mentorship, EU funding access"
+
+## Registration Process#
+business_registration:
+  authority: "Registro Imprese (Chamber of Commerce - Camera di Commercio)"
+  online_platform: "ComUnica (single notification)"
+  timeline: "5-10 days (online), 2-4 weeks (post)"
+  
+steps:
+  - "Company name check (Registro Imprese)"
+  - "Register directors, shareholders, registered office"
+  - "Notarized deed (for S.p.A.) or simple deed (S.r.l.)"
+  - "Deposit capital in blocked account (if required)"
+  - "File with Registro Imprese (Chamber of Commerce)"
+  - "VAT registration (if >€85K turnover)"
+  - "INPS registration (social security)"
+  - "INAIL registration (worker's compensation)"
+
+costs:
+  registration_fee: "€200-800 (by company type)"
+  notary_fees: "€500-2,500 (for S.p.A., not needed for S.r.l.)"
+  capital_deposit: "€0-50,000 (by company type)"
+
+## Tax & Compliance#
+tax_filing:
+  corporate_tax: "Online via Entratel (9 months after year-end)"
+  vat: "Monthly or quarterly (F24 form)"
+  social_charges: "Monthly (INPS/INAIL)"
+  
+required_filings:
+  annual_accounts: "Must file with Registro Imprese (30 days after approval)"
+  tax_return: "IRES + IRAP (by 30/11 following year)"
+  consolidated_accounts: "For groups (EUR 750M+)"
+
+## Codice Fiscale & Partita IVA#
+codice_fiscale_partita_iva:
+  codice_fiscale:
+    description: "16-character identifier (individuals + companies)"
+    format: "16 alphanumeric (e.g., RSSMRA80A01H501X)"
+    use: "All official documents, tax filings, healthcare"
+    issuance: "Automatic at registration (Agenzia Entrate)"
+    
+  partita_iva:
+    description: "11-digit VAT number"
+    format: "12345678901"
+    use: "Business registration, VAT filings"
+    issuance: "Automatic with VAT registration"
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "SMEs = 99.9% of Italian enterprises (4.4M companies)"
+  - "Most common: Ditte Individuali (3.2M), then S.r.l. (1.2M)"
+  - "S.r.l.: most popular for startups, foreign subsidiaries (simplified)"
+  - "Codice Fiscale: 16 chars (surname+name+birthdate+comune)"
+  - "Partita IVA: 11 digits (VAT number, same as tax code for cos)"
+  - "VAT threshold: €85K (goods/services)"
+  - "Corporate Tax: 24% (IRES) + 3.9% (IRAP) = 27.9% total"
+  - "Business registration: ComUnica (5-10 days online)"
+  - "Milan = financial/tech hub (3.1M metro, 150+ startups)"
+  - "Startup ecosystem: 8+ unicorns, $3.8B VC funding (2025)"
+  - "Annual accounts: MUST file with Registro Imprese (30 days)"
+  - "Social charges: employer 29.87%, employee 9.19%"
+  - "ZES (Special Economic Zones): Southern Italy (10% tax credit)"
