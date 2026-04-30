@@ -1,0 +1,15 @@
+country: "Iran (Islamic Republic of Iran)"
+total_exports_2023_usd: 110000000000  # Down from $250B pre-2018 sanctions
+major_exports:
+  - "Crude oil: $40 billion"
+  - "Petrochemicals: $30 billion"
+  - "Handmade carpets: $1 billion"
+  - "Pistachios: $1 billion"
+  - "Saffron: $500 million"
+total_imports_2023_usd: 50000000000
+major_imports: ["Machinery", "Chemicals", "Foodstuffs", "Pharmaceuticals"]
+top_trading_partners:
+  - "China: $40 billion"
+  - "India: $15 billion"
+  - "Turkey: $10 billion"
+  - "United Arab Emirates: $8 billion"

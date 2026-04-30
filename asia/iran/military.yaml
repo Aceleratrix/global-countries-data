@@ -1,0 +1,12 @@
+country: "Iran (Islamic Republic of Iran)"
+active_personnel: 580000
+reserve_personnel: 350000
+branches:
+  - "Islamic Republic of Iran Army (Artesh)"
+  - "Islamic Revolutionary Guard Corps (IRGC, separate force)"
+  - "IRGC Quds Force (external operations)"
+  - "Basij Resistance Force (volunteer militia)"
+defense_budget_2023: 25000000000  # $25 billion
+nuclear_program: "Uranium enrichment up to 60% purity (2024), IAEA monitoring"
+missile_forces: "Ballistic missiles (Sejjil, Shahab series, up to 2000km range)"
+drone_program: "Shahed series drones exported to Russia, Yemen"

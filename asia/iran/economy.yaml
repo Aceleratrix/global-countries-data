@@ -1,0 +1,16 @@
+country: "Iran (Islamic Republic of Iran)"
+gdp_nominal_usd: 440000000000  # $0.44 trillion
+gdp_global_rank: 30
+gdp_growth_rate_2023: 2.1
+inflation_rate_2023: 42.0  # Sanctions-driven high inflation
+unemployment_rate_2023: 9.1
+labor_force: 32000000
+major_sectors:
+  - "Oil and gas extraction (20% of GDP pre-sanctions)"
+  - "Petrochemicals"
+  - "Agriculture (wheat, rice, fruits, nuts; 18% of employment)"
+  - "Manufacturing (automotive, steel, textiles)"
+  - "Services (retail, informal sector)"
+currency: "Iranian Rial (IRR)"
+official_exchange_rate_2024: 59000  # IRR per USD (black market rate ~10x higher)
+sanctions_impact: "Reduced oil export revenue by 70% since 2018, limited access to global financial systems"

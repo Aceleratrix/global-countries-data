@@ -1,0 +1,14 @@
+country: "Iran (Islamic Republic of Iran)"
+adult_literacy_rate: 97.0
+primary_school_enrollment_pct: 99
+secondary_school_enrollment_pct: 85
+tertiary_education_enrollment_pct: 65
+total_universities: 3000
+public_universities: 100
+private_universities: 2900
+top_universities:
+  - "University of Tehran"
+  - "Sharif University of Technology"
+  - "Amirkabir University of Technology"
+stem_graduates_pct: 40
+brain_drain_note: "Over 1 million educated professionals emigrated since 1979"

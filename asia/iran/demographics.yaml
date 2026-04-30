@@ -1,0 +1,19 @@
+country: "Iran (Islamic Republic of Iran)"
+population_2023: 88400000
+population_density: 53  # per km²
+urban_population_pct: 75.0
+rural_population_pct: 25.0
+ethnic_groups:
+  - "Persians: 61%"
+  - "Azeris: 16%"
+  - "Kurds: 10%"
+  - "Lurs: 6%"
+  - "Arabs: 2%"
+  - "Other: 5%"
+age_structure:
+  - "0-14 years: 24%"
+  - "15-64 years: 68%"
+  - "65+ years: 8%"
+life_expectancy_years: 77.3
+literacy_rate_adult: 97.0
+youth_literacy_rate: 99.0

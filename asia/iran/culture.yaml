@@ -1,0 +1,15 @@
+country: "Iran (Islamic Republic of Iran)"
+official_language: "Persian (Farsi)"
+other_languages: ["Azeri", "Kurdish", "Arabic", "Balochi", "Turkmen"]
+state_religion: "Shia Islam (90-95% of population)"
+major_holidays:
+  - "Nowruz (Persian New Year, March 20-21)"
+  - "Eid al-Fitr"
+  - "Eid al-Adha"
+  - "Ashura (Shia mourning day)"
+literature:
+  - "Ferdowsi's Shahnameh (Persian epic)"
+  - "Rumi, Hafez, Saadi (classical poets)"
+traditional_arts: ["Persian miniature painting", "Carpet weaving", "Calligraphy"]
+cuisine_staples: ["Rice", "Kebabs", "Stews (ghormeh sabzi, fesenjan)", "Saffron"]
+popular_sports: ["Football (most popular)", "Wrestling", "Volleyball", "Weightlifting"]

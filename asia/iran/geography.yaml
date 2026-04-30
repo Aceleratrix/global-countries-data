@@ -1,0 +1,23 @@
+country: "Iran (Islamic Republic of Iran)"
+area_km2: 1648195
+global_area_rank: 17
+borders:
+  - "Iraq (1,458 km)"
+  - "Turkey (499 km)"
+  - "Armenia (35 km)"
+  - "Azerbaijan (689 km)"
+  - "Turkmenistan (992 km)"
+  - "Afghanistan (921 km)"
+  - "Pakistan (909 km)"
+coastline: "Persian Gulf (2,440 km), Caspian Sea (740 km)"
+climate: "Mostly arid/semi-arid; subtropical along Caspian Sea coast"
+major_cities:
+  - "Tehran: ~9 million"
+  - "Mashhad: ~3 million"
+  - "Isfahan: ~2 million"
+  - "Karaj: ~1.9 million"
+  - "Shiraz: ~1.8 million"
+natural_resources:
+  - "Crude oil (4th largest reserves globally)"
+  - "Natural gas (2nd largest reserves globally)"
+  - "Coal, copper, iron ore, lead, zinc, chromium, uranium"

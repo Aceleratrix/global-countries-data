@@ -1,0 +1,9 @@
+country: "Iran (Islamic Republic of Iran)"
+oil_reserves_bbl: 208000000000  # 4th largest globally
+oil_production_2024_bpd: 2500000  # Down from 3.8M pre-2018 sanctions
+oil_exports_2024_bpd: 1000000  # Mostly to China
+gas_reserves_m3: 33900000000000  # 2nd largest globally
+gas_production_2024_m3: 250000000000
+gas_exports: ["Turkey", "Iraq", "Azerbaijan"]
+renewable_energy_share: 0.8  # Mostly solar projects under development
+sanctions_impact: "Blocked from SWIFT, limits on energy sector investment"

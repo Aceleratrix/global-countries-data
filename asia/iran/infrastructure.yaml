@@ -1,0 +1,10 @@
+country: "Iran (Islamic Republic of Iran)"
+road_network_km: 1200000
+paved_roads_pct: 80
+railway_km: 14000
+major_airports: ["Imam Khomeini International (IKA, Tehran)", "Mehrabad Airport (Tehran)"]
+major_seaports: ["Bandar Abbas (Persian Gulf)", "Chabahar (Indian-funded, bypasses Pakistan)"]
+internet_penetration_pct: 80
+mobile_subscriptions_per_100: 120
+water_access_urban_pct: 95
+water_access_rural_pct: 80
