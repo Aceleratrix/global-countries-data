@@ -1,0 +1,283 @@
+version: 1.0.0
+country: usa
+last_updated: 2026-04-30
+description: "Major US banks and payment methods for online businesses"
+
+# Currency
+currency:
+  code: "USD"
+  name: "United States Dollar"
+  symbol: "$"
+  subunit: "cent"
+  decimals: 2
+  symbol_position: "before"  # $100.00
+  central_bank: "Federal Reserve System (The Fed)"
+  central_bank_url: "https://www.federalreserve.gov"
+  exchange_rate_source: "Fed + market"
+
+# Major Banks (Top 10 by Assets)
+banks:
+  - name: "JPMorgan Chase & Co."
+    code: "CHASE"
+    type: "national"
+    category: "major"
+    assets_trillions_usd: 4.0
+    website: "https://www.chase.com"
+    ach_enabled: true
+    wire_transfers: true
+    api_available: true
+    api_docs: "https://developer.chase.com"
+    
+  - name: "Bank of America"
+    code: "BOFA"
+    type: "national"
+    category: "major"
+    assets_trillions_usd: 3.2
+    website: "https://www.bankofamerica.com"
+    ach_enabled: true
+    api_available: true
+    api_docs: "https://developer.bankofamerica.com"
+    
+  - name: "Wells Fargo"
+    code: "WF"
+    type: "national"
+    category: "major"
+    assets_trillions_usd: 1.9
+    website: "https://www.wellsfargo.com"
+    ach_enabled: true
+    api_available: true
+    
+  - name: "Citigroup"
+    code: "CITI"
+    type: "national"
+    category: "major"
+    assets_trillions_usd: 1.7
+    website: "https://www.citi.com"
+    ach_enabled: true
+    international: true
+    
+  - name: "U.S. Bank"
+    code: "USBC"
+    type: "national"
+    category: "major"
+    assets_trillions_usd: 0.7
+    website: "https://www.usbank.com"
+    ach_enabled: true
+    
+  - name: "PNC Financial Services"
+    code: "PNC"
+    type: "regional"
+    category: "major"
+    assets_trillions_usd: 0.6
+    website: "https://www.pnc.com"
+    
+  - name: "Goldman Sachs"
+    code: "GS"
+    type: "investment"
+    category: "major"
+    assets_trillions_usd: 0.5
+    website: "https://www.goldmansachs.com"
+    api_available: true
+    note: "Marcus consumer banking + investment banking"
+    
+  - name: "Truist Financial"
+    code: "TFC"
+    type: "regional"
+    category: "major"
+    assets_trillions_usd: 0.5
+    website: "https://www.truist.com"
+    
+  - name: "Capital One"
+    code: "COF"
+    type: "national"
+    category: "major"
+    assets_trillions_usd: 0.5
+    website: "https://www.capitalone.com"
+    api_available: true
+    note: "Strong in credit cards and digital banking"
+    
+  - name: "TD Bank (US)"
+    code: "TD"
+    type: "regional"
+    category: "major"
+    assets_trillions_usd: 0.4
+    website: "https://www.tdbank.com"
+    note: "Subsidiary of TD Bank Group (Canada)"
+
+# Payment Methods
+payment_methods:
+  - name: "ACH (Automated Clearing House)"
+    type: "bank_transfer"
+    mandatory_for_business: false
+    processing_time_days: [1, 2]  # Business days
+    fees_per_transaction_usd: [0.20, 1.50]  # Very low cost
+    limits_per_transaction_usd: 100000  # Varies by bank
+    same_day_ach: true  # For additional fee
+    api_integration: true
+    regulatory: "NACHA (National Automated Clearing House Association)"
+    usage_percent: 65.0  # For B2B and recurring payments
+    note: "US equivalent to PIX (but slower - 1-2 days)"
+    
+  - name: "Wire Transfer"
+    type: "real_time_bank_transfer"
+    mandatory_for_business: false
+    processing_time_hours: [0.5, 4.0]  # Same day if sent before cutoff
+    fees_per_transaction_usd: [15.00, 50.00]  # More expensive
+    limits_per_transaction_usd: null  # No limit
+    domestic: true
+    international_swift: true
+    note: "For high-value or urgent transfers"
+    
+  - name: "Credit Cards"
+    type: "credit"
+    brands: ["Visa", "Mastercard", "American Express", "Discover"]
+    mandatory_for_business: false
+    installments_allowed: false  # Not common in US
+    fees_merchant_percent: [1.5, 3.5]  # Varies by volume
+    pci_dss_required: true
+    popular_for: ["E-commerce", "In-store", "Subscriptions"]
+    
+  - name: "Debit Cards"
+    type: "debit"
+    brands: ["Visa Debit", "Mastercard Debit"]
+    fees_merchant_percent: [0.5, 1.5]  # Lower than credit
+    pin_required: false  # "Credit" button bypasses PIN
+    
+  - name: "PayPal"
+    type: "digital_wallet"
+    website: "https://www.paypal.com"
+    mandatory_for_business: false
+    processing_time_days: [0, 1]  # Instant for PayPal balance
+    fees_merchant_percent: 2.9  # + $0.30 per transaction
+    api: "https://developer.paypal.com"
+    digital_wallet: true
+    paypal_checkout: true
+    usage_percent: 35.0
+    
+  - name: "Stripe"
+    type: "payment_gateway"
+    website: "https://stripe.com"
+    founded: 2010
+    headquarters: "San Francisco, CA (Silicon Valley)"
+    processing_fees_percent: 2.9  # + $0.30 per transaction
+    api_first: true
+    api_docs: "https://stripe.com/docs/api"
+    products: ["Payment Links", "Checkout", "Subscriptions", "Connect (marketplace)"]
+    usage_percent: 45.0  # #1 for tech startups
+    notable_clients: ["Amazon", "Google", "Shopify", "OpenAI"]
+    
+  - name: "Square (Block)"
+    type: "payment_gateway"
+    website: "https://squareup.com"
+    founded: 2009
+    headquarters: "San Francisco, CA"
+    processing_fees_percent: 2.6  # + $0.10 (in-person), 2.9 + $0.30 (online)
+    pos_hardware: true
+    api: "https://developer.squareup.com"
+    
+  - name: "Apple Pay"
+    type: "digital_wallet"
+    usage_percent: 45.0
+    devices: ["iPhone", "Apple Watch", "Mac"]
+    api: "https://developer.apple.com/documentation/passkit"
+    tokenization: true
+    contactless: true
+    
+  - name: "Google Pay"
+    type: "digital_wallet"
+    usage_percent: 25.0
+    devices: ["Android phones", "Wear OS"]
+    api: "https://developers.google.com/pay"
+    
+  - name: "Venmo"
+    type: "peer_to_peer"
+    parent: "PayPal"
+    usage_percent: 20.0
+    social_feed: true
+    business_profiles: true
+    fees_merchant_percent: 1.9  # + $0.10
+    
+  - name: "Checks"
+    type: "paper"
+    usage_percent: 15.0  # Declining but still used
+    processing_time_days: [2, 5]  # Slow
+    note: "Still common for B2B and rent payments"
+
+# Payment Gateways
+payment_gateways:
+  - name: "Stripe"
+    website: "https://stripe.com"
+    market_share_percent: 45.0
+    api_type: "REST"
+    auth: "API Key (Secret + Publishable)"
+    features: ["Payment Links", "Checkout", "Subscriptions", "Connect", "Radar (fraud)"]
+    pricing_percent: 2.9  # + $0.30
+    docs: "https://stripe.com/docs"
+    
+  - name: "PayPal / Braintree"
+    website: "https://www.paypal.com"
+    market_share_percent: 35.0
+    api_type: "REST"
+    auth: "OAuth2 + API Key"
+    features: ["PayPal Checkout", "Venmo", "Pay Later", "Braintree Marketplace"]
+    pricing_percent: 2.9  # + $0.30
+    docs: "https://developer.paypal.com"
+    
+  - name: "Square"
+    website: "https://squareup.com"
+    market_share_percent: 12.0
+    api_type: "REST"
+    auth: "OAuth2"
+    features: ["POS Hardware", "Invoices", "Appointments", "Payroll"]
+    pricing_percent: 2.6  # + $0.10 (in-person)
+    docs: "https://developer.squareup.com"
+    
+  - name: "Authorize.net"
+    website: "https://www.authorize.net"
+    market_share_percent: 8.0
+    api_type: "REST"
+    auth: "API Login ID + Transaction Key"
+    features: ["Accept.js", "Customer Information Manager", "Advanced Fraud Detection"]
+    pricing_usd_month: 25.00
+    transaction_fee_usd: 0.30  # + 2.9%
+    
+  - name: "Adyen"
+    website: "https://www.adyen.com"
+    market_share_percent: 5.0
+    api_type: "REST"
+    auth: "API Key"
+    features: ["Global payments", "RevenueAccelerate (ML fraud)", "POS"]
+    pricing_percent: [2.0, 3.0]  # Varies by volume
+    notable_clients: ["Netflix", "Spotify", "eBay"]
+
+# Open Banking (Emerging in US - No Federal Framework Like Brazil)
+open_banking:
+  status: "Voluntary (no federal mandate like Brazil's PIX)"
+  framework: "CFPB (Consumer Financial Protection Bureau) rule (2024)"
+  effective: "2026-2027"
+  approach: "Market-driven (not government-mandated)"
+  
+  major_players:
+    - "Plaid (now owned by Visa)"
+    - "Yodlee (Envestnet)"
+    - "MX"
+    - "Finicity (Mastercard)"
+    
+  use_cases: ["Account aggregation", "Payment initiation", "Income verification"]
+  note: "No mandatory instant payment system like Brazil's PIX"
+
+# Regulation
+regulation:
+  payment_systems: "Federal Reserve (FedNow launching 2023 for instant payments)"
+  consumer_protection: "CFPB (Consumer Financial Protection Bureau)"
+  anti_money_laundering: "FinCEN (Financial Crimes Enforcement Network)"
+  pci_dss_required: true  # For card storage
+  state_regulation: "State banking departments (varies by state)"
+
+# Silicon Valley Tech Payment Preferences
+silicon_valley_payments:
+  startups_love: ["Stripe", "PayPal", "ACH (for B2B)"]
+  saas_billing: "Stripe Billing or Chargebee"
+  marketplace: "Stripe Connect or PayPal for Marketplaces"
+  mobile_apps: "Apple Pay, Google Pay, Stripe Mobile"
+  venture_capital_payments: "Wire transfers (high value)"

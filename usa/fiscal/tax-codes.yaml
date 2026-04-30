@@ -1,0 +1,166 @@
+version: 1.0.0
+country: usa
+last_updated: 2026-04-30
+description: "Federal and state tax codes for US businesses"
+
+# Federal Tax System
+federal_taxes:
+  - tax: "Federal Income Tax (Corporate)"
+    code: "IRC Subchapter C"
+    rate_percent: [15.0, 21.0, 35.0]  # Graduated brackets (2026)
+    standard_corporate_rate_percent: 21.0  # After TCJA (2017)
+    applies_to: "C-Corporations"
+    filing_deadline: "March 15 (extensions to Sept 15)"
+    form: "Form 1120"
+    
+  - tax: "Federal Income Tax (Pass-Through Entities)"
+    applies_to: ["S-Corporations", "LLCs", "Partnerships", "Sole Proprietorships"]
+    rate_percent: "Individual tax rates (10-37%)"  # Pass-through to owners
+    filing_deadline: "March 15 (extensions to Sept 15)"
+    form: ["Form 1120-S", "Schedule C (1040)", "Form 1065"]
+    
+  - tax: "Self-Employment Tax (FICA)"
+    rate_percent: 15.3  # 12.4% Social Security + 2.9% Medicare
+    income_ceiling_usd: 160200  # Social Security wage base (2026)
+    applies_to: "Self-employed individuals (Schedule SE)"
+    additional_medicare_percent: 0.9  # On income > $200K (single) / $250K (joint)
+    
+  - tax: "Federal Unemployment Tax (FUTA)"
+    rate_percent: 6.0
+    credit_reduces_to_percent: 0.6  # After state unemployment payments
+    wage_ceiling_usd: 7000
+    applies_to: "Employers only"
+    form: "Form 940"
+    
+  - tax: "Excise Taxes"
+    types:
+      - "Fuel taxes (gasoline: $0.183/gallon)"
+      - "Airline tickets ($4.50 per segment)"
+      - "Alcohol, tobacco, firearms"
+      - "Heavy highway vehicle use"
+    form: "Form 720"
+
+# State Taxes (Vary by State)
+state_taxes:
+  - state: "California (CA)"
+    corporate_rate_percent: 8.84
+    personal_rate_range_percent: [1.0, 13.3]  # Highest in US
+    sales_tax_percent: 7.25  # State base + local = up to 10.75%
+    franchise_tax_usd: 800  # Minimum for LLCs/Corps
+    note: "Silicon Valley location - 40% of US tech exits"
+    
+  - state: "Delaware (DE)"
+    corporate_rate_percent: 8.7
+    personal_rate_range_percent: [0.0, 6.6]
+    sales_tax_percent: 0.0  # No sales tax
+    franchise_tax_usd: [400, 200000]  # Based on authorized shares
+    note: "66% of Fortune 500 incorporated here (business-friendly)"
+    
+  - state: "Texas (TX)"
+    corporate_rate_percent: 0.0  # No corporate income tax
+    franchise_tax_percent: 0.375  # "Margin tax" on revenue
+    personal_rate_range_percent: [0.0, 0.0]  # No personal income tax
+    sales_tax_percent: 6.25  # State base + local = up to 8.25%
+    note: "Austin tech hub - Silicon Hills"
+    
+  - state: "New York (NY)"
+    corporate_rate_percent: 6.5  # NY State + NYC = 8.85% combined
+    personal_rate_range_percent: [4.0, 10.9]
+    sales_tax_percent: 4.0  # State + local = up to 8.875% (NYC)
+    note: "Silicon Alley (NYC) - $2 trillion tech market cap"
+    
+  - state: "Washington (WA)"
+    corporate_rate_percent: 0.0  # No corporate income tax
+    personal_rate_range_percent: [0.0, 0.0]  # No personal income tax
+    sales_tax_percent: 6.5  # State + local = up to 10.4% (Seattle)
+    note: "Seattle tech hub - Amazon, Microsoft HQ"
+
+# Sales Tax (Complex - 10,000+ Jurisdictions)
+sales_tax:
+  description: "State + county + city + special district = 10,000+ jurisdictions"
+  average_rate_percent: 6.5
+  range_percent: [0.0, 10.75]  # OR (0%) to some CA cities (10.75%)
+  
+  nexus_threshold:
+    south_dakota_v_wayfair: "2018 SCOTUS - economic nexus allowed"
+    threshold_usd: 100000  # Sales OR 200+ transactions (most states)
+    marketplace_facilitator: "Amazon, eBay, Etsy collect on behalf"
+    
+  saas_taxability: "Varies by state (41 states tax SaaS as SaaS or service)"
+  digital_goods: "Varies by state (some tax e-books, some don't)"
+  
+  major_cities_2026:
+    - city: "New York City, NY"
+      total_rate_percent: 8.875
+    - city: "Los Angeles, CA"
+      total_rate_percent: 9.5
+    - city: "Chicago, IL"
+      total_rate_percent: 10.25
+    - city: "Seattle, WA"
+      total_rate_percent: 10.4
+
+# Tax Forms for Businesses
+business_tax_forms:
+  federal:
+    - "Form 1040 (Schedule C) - Sole Proprietorship"
+    - "Form 1065 + K-1 - Partnership"
+    - "Form 1120-S - S-Corporation"
+    - "Form 1120 - C-Corporation"
+    - "Form 941 - Quarterly Payroll Tax"
+    - "Form W-2 - Wage and Tax Statement"
+    - "Form 1099-MISC/NEC - Contractor Payments"
+    - "Form 1099-K - Payment Card/Third Party Network"
+    
+  state:
+    - "Varies by state (CA: Form 100, DE: Form CIT-01, etc.)"
+    - "Sales tax permits required in each state"
+
+# Tax Credits & Incentives (For AI/Tech)
+tax_credits:
+  - name: "R&D Tax Credit (Federal)"
+    code: "IRC Section 41"
+    credit_rate_percent: [13.0, 20.0]  # Of qualified research expenses
+    applies_to: "C-Corps, S-Corps, Partnerships, LLCs"
+    ai_ml_eligible: true
+    use_cases: ["Software development", "AI model training", "Algorithm development"]
+    
+  - name: "Qualified Small Business Stock (QSBS)"
+    code: "IRC Section 1202"
+    capital_gains_exclusion_percent: 100.0  # Up to $10M or 10x basis
+    holding_period_years: 5
+    applies_to: "C-Corps with < $50M assets at issuance"
+    tech_benefit: "Founders/early employees pay $0 capital gains on stock sale"
+    
+  - name: "State R&D Credits"
+    california: "15% of qualified expenses (Cap: $2M)"
+    new_york: "9% of qualified expenses (no cap)"
+    texas: "5-20% of qualified expenses (depending on location)"
+    delaware: "10% of qualified expenses"
+
+# IRS (Internal Revenue Service)
+irs:
+  website: "https://www.irs.gov"
+  employer_id_number_ein: "Required for all businesses (like CNPJ in Brazil)"
+  apply_url: "https://www.irs.gov/businesses/small-businesses-self-employed/apply-for-an-employer-identification-number-ein-online"
+  free_file: "Available for income < $79K (2026)"
+  
+# Silicon Valley Specific Tax Considerations
+silicon_valley_tax:
+  stock_options:
+    incentive_stock_options_iso: "No tax at exercise (AMT may apply)"
+    non_qualified_stock_options_nqso: "Taxed as income at exercise"
+    double_trigger_rsus: "Taxed at vesting (not granted)"
+    
+  vesting_schedule: "Standard: 4 years, 1-year cliff, monthly thereafter"
+  early_exercise: "Allowed (83(b) election within 30 days to avoid AMT)"
+    
+  acquisition_tax: "Qualified Small Business Stock (QSBS) - $0 capital gains"
+  
+# Cryptocurrency Taxation
+crypto_tax:
+  irs_classification: "Property (not currency)"
+  form: "Form 8949 + Schedule D"
+  reporting_threshold_usd: 0  # All transactions must be reported
+  tax_rates: "Capital gains rates (0%, 15%, 20% based on income)"
+  mining_income: "Taxed as ordinary income at fair market value"
+  staking_rewards: "Taxed as ordinary income when received"

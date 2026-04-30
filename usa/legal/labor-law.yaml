@@ -1,0 +1,303 @@
+version: 1.0.0
+country: usa
+last_updated: 2026-04-30
+description: "US employment law, at-will doctrine, and Silicon Valley compensation"
+
+# Employment At-Will (Default in Most States)
+employment_at_will:
+  doctrine: "Either party can terminate employment at any time, with or without cause"
+  applies_to: ["California", "Texas", "New York", "Washington", "Most states"]
+  exceptions:
+    - "Montana (only state with just cause requirement after probation)"
+    - "Implied contracts (may override at-will)"
+    - "Public policy exceptions (cannot fire for jury duty, voting, etc.)"
+    - "Discrimination laws (cannot fire based on protected class)"
+  implications_for_ai:
+    - "AI companies can terminate employees freely (within legal bounds)"
+    - "No mandatory severance pay (unless contract says so)"
+    - "Stock options typically vest over 4 years (1-year cliff)"
+
+# Employment Types
+employment_types:
+  - type: "W-2 Employee"
+    description: "Traditional employment with full legal protections"
+    benefits: ["Health insurance (ACA)", "Social Security/Medicare taxes (FICA) paid 7.65% by employer", "Unemployment insurance", "Workers' compensation", "Family/medical leave (FMLA)"]
+    costs_to_employer_percent: 20.0  # Beyond salary (payroll taxes, benefits)
+    probation_period_months: [3, 6]  # At-will applies immediately though
+    silicon_valley_usage: "Standard for full-time tech employees"
+    
+  - type: "1099 Independent Contractor"
+    description: "Self-employed, no benefits, issues 1099-NEC"
+    benefits: "None (contractor responsible for own taxes + benefits)"
+    costs_to_employer_percent: 0.0  # No payroll taxes or benefits
+    tax_forms: ["Form 1099-NEC (if >$600/year)", "Schedule C / Form 1040"]
+    self_employment_tax_percent: 15.3  # Contractor pays both halves of FICA
+    silicon_valley_usage: "Common for freelancers, consultants, gig workers"
+    misclassification_risk: "High - must pass IRS 20-factor test or ABC test (CA)"
+    
+  - type: "C2C (Corp-to-Corp) Contractor"
+    description: "Contractor operates through their own LLC/C-Corp"
+    benefits: "None, but can optimize taxes (S-Corp election)"
+    costs_to_employer_percent: 0.0
+    setup_cost_usd: [500, 2000]  # LLC/C-Corp formation
+    silicon_valley_usage: "Senior contractors, consultants, specialized talent"
+    
+  - type: "Intern (Paid)"
+    description: "Temporary worker (students or recent grads)"
+    age_min: 18
+    duration_months: [3, 12]
+    pay_usd_hour: [20.0, 50.0]  # Varies by role/company
+    silicon_valley_intern_pay_usd_hour: [45.0, 65.0]  # Top tech pays more
+    benefits: "Usually none (except maybe a laptop)"
+    
+  - type: "Remote Work (Distributed)"
+    description: "Employee works outside company office (anywhere in US)"
+    legal_framework: "No federal mandate, state laws vary"
+    tax_implications: "Employee creates tax nexus in their state"
+    silicon_valley_usage: "Very common post-2020 (Google, Meta, etc. allow remote)"
+    equipment_budget_usd: [1000, 5000]  # laptop, monitor, chair
+
+# Silicon Valley Tech Salaries (2026)
+tech_salaries_usd_year:
+  - role: "Software Engineer (SWE) - Level I (New Grad)"
+    base_range: [120000, 160000]
+    total_comp_range: [180000, 250000]  # Including stock + bonus
+    silicon_valley_companies: ["Google", "Meta", "Apple", "Netflix"]
+    
+  - role: "Software Engineer - Level II (Mid)"
+    base_range: [160000, 220000]
+    total_comp_range: [250000, 400000]
+    
+  - role: "Software Engineer - Senior / Staff"
+    base_range: [220000, 320000]
+    total_comp_range: [400000, 800000]
+    
+  - role: "Software Engineer - Principal / Distinguished"
+    base_range: [320000, 500000]
+    total_comp_range: [800000, 2000000]
+    
+  - role: "Data Scientist - Junior"
+    base_range: [110000, 150000]
+    total_comp_range: [160000, 220000]
+    
+  - role: "Data Scientist - Senior"
+    base_range: [180000, 250000]
+    total_comp_range: [300000, 600000]
+    
+  - role: "Product Manager (PM) - APM (Entry)"
+    base_range: [130000, 170000]
+    total_comp_range: [200000, 280000]
+    
+  - role: "Product Manager - Senior PM"
+    base_range: [200000, 280000]
+    total_comp_range: [350000, 700000]
+    
+  - role: "UX/UI Designer - Mid-Level"
+    base_range: [140000, 190000]
+    total_comp_range: [200000, 300000]
+    
+  - role: "AI/ML Engineer - Entry"
+    base_range: [150000, 200000]
+    total_comp_range: [220000, 350000]
+    
+  - role: "AI/ML Engineer - Senior"
+    base_range: [250000, 350000]
+    total_comp_range: [450000, 900000]
+    
+  - role: "Research Scientist (AI/ML)"
+    base_range: [280000, 400000]
+    total_comp_range: [500000, 1200000]
+    note: "PhD typically required, publishes papers"
+    
+  - role: "CEO (Early-Stage Startup)"
+    base_range: [150000, 300000]
+    equity_percent: [1.0, 10.0]  # Significant equity
+    
+  - role: "CEO (Public Tech Co.)"
+    base_range: [1000000, 50000000]  # Huge range, mostly equity
+    note: "Tim Cook (Apple): ~$100M/year in stock, Sundar Pichai (Google): ~$280M in stock"
+
+# Stock Options & Equity Compensation (Silicon Valley Standard)
+equity_compensation:
+  - type: "Incentive Stock Options (ISO)"
+    description: "Tax-advantaged options for employees (no tax at exercise)"
+    tax_code: "IRC Section 422"
+    amt_implications: "Alternative Minimum Tax may apply at exercise"
+    holding_period_years: 1  # For long-term capital gains
+    silicon_valley_usage: "Standard for employees at VC-backed startups"
+    
+  - type: "Non-Qualified Stock Options (NSO)"
+    description: "Taxed as ordinary income at exercise (difference: FMV - strike price)"
+    tax_code: "IRC Section 83"
+    silicon_valley_usage: "For consultants, advisors, early employees"
+    
+  - type: "Restricted Stock Units (RSUs)"
+    description: "Actual shares granted after vesting (no exercise price)"
+    tax: "Taxed as ordinary income when they vest"
+    silicon_valley_usage: "Standard at public tech companies (Google, Meta, Apple)"
+    
+  - type: "83(b) Election"
+    description: "Elect to pay tax on options at grant (not exercise) - must file within 30 days"
+    silicon_valley_critical: true
+    benefit: "Pay tax on low value, avoid AMT on appreciation"
+    penalty_for_missing: "Owe ordinary income tax on full value at exercise"
+    
+  standard_vesting_schedule: "4 years, 1-year cliff, monthly thereafter"
+  example: "ISO: 4-year vest, 25% after 1 year, then monthly for 36 months"
+
+# Payroll Taxes (Employer Costs)
+payroll_taxes_percent:
+  fica_employer_percent: 7.65  # Social Security (6.2%) + Medicare (1.45%)
+  futa_percent: 0.6  # After credits (6.0% base, reduced by state unemployment)
+  state_unemployment_percent: [1.0, 5.4]  # Varies by state + experience rating
+  workers_compensation_percent: [0.5, 3.0]  # Varies by industry (tech is low)
+  health_insurance_percent: 15.0  # Employer typically pays 70-80%
+  total_min_percent: 25.0  # Minimum beyond salary
+  total_max_percent: 35.0  # With generous benefits
+  
+# Termination & Severance
+termination:
+  - type: "At-Will Dismissal (No cause)"
+    description: "Employer fires employee, no reason needed (within legal bounds)"
+    severance_pay: "None required by law (unless contract says so)"
+    notice_period_days: 0
+    unemployment_insurance: true  # Employee can claim
+    
+  - type: "Resignation (Employee quits)"
+    description: "Employee leaves voluntarily"
+    severance_pay: "None"
+    notice_period_days: 0  # Professional courtesy: 2 weeks
+    
+  - type: "Layoff (Reduction in Force)"
+    description: "Company eliminates position (not performance-related)"
+    severance_pay: "Often 2-4 weeks per year of service (voluntary, not required)"
+    notice_period_days: [0, 60]  # WARN Act requires 60 days for large layoffs
+    unemployment_insurance: true
+    silicon_valley_standard: "Many tech companies offer 4+ weeks per year + extended stock vesting"
+
+# WARN Act (Worker Adjustment and Retraining Notification)
+warn_act:
+  applies_to: "Employers with 100+ employees"
+  requirement: "60 days written notice before plant closing or mass layoff"
+  penalties: "Back pay + benefits for each day violated (up to 60 days)"
+  silicon_valley_relevance: "Meta, Google, Microsoft layoffs in 2022-2026 triggered WARN"
+
+# Discrimination & Protected Classes
+discrimination_laws:
+  federal_laws:
+    - "Title VII of Civil Rights Act (race, color, religion, sex, national origin)"
+    - "Americans with Disabilities Act (ADA) - disability"
+    - "Age Discrimination in Employment Act (ADEA) - age 40+"
+    - "Pregnancy Discrimination Act"
+    - "Equal Pay Act"
+  california_additions:
+    - "California Fair Employment and Housing Act (FEHA) - broader protections"
+    - "Gender identity, sexual orientation protected"
+  silicon_valley_ai_implications:
+    - "AI hiring tools must not have disparate impact (EEOC guidance)"
+    - "Algorithmic bias in performance reviews = discrimination"
+    - "Chatbot responses must not be discriminatory"
+
+# Family and Medical Leave (FMLA)
+fmla:
+  applies_to: "Employers with 50+ employees, employees with 1+ year tenure"
+  entitlement: "12 weeks unpaid leave per year"
+  job_protection: true  # Must be reinstated to same or equivalent position
+  california_additions: "California Paid Family Leave (PFL) - 8 weeks paid (60-70% wages)"
+
+# Non-Compete Clauses (State Varies)
+non_compete:
+  federal_status: "FTC proposed rule to ban (2023), struck down by court (2024)"
+  state_laws:
+    - state: "California"
+      status: "Void and unenforceable (Labor Code 16600)"
+      exception: "Can require protection of trade secrets"
+      silicon_valley_impact: "Employees can join competitors (key to talent mobility)"
+    - state: "Texas"
+      status: "Enforceable if reasonable in scope/duration"
+      typical_duration_years: 2
+    - state: "Washington"
+      status: "Enforceable with limitations"
+    - state: "New York"
+      status: "Enforceable if reasonable"
+  
+# Remote Work & Multi-State Taxation
+remote_work_taxation:
+  issue: "Employee working remotely creates tax nexus in their state"
+  nyc_non_resident_tax: "NYC residents pay NYC tax even if working remotely for NY company"
+  california: "Residents pay CA tax on worldwide income, non-residents pay on CA-source income"
+  silicon_valley_remote: "Many tech companies withhold based on employee's physical location"
+
+# HR Platforms & Recruiting (Tech-Focused)
+hr_platforms:
+  - name: "LinkedIn"
+    website: "https://www.linkedin.com"
+    type: "Professional networking + job board"
+    features: ["Job postings", "Recruiter Lite/Recruiter", "Talent insights"]
+    pricing_usd_month: [0, 825, 2500]  # Per seat
+    silicon_valley_usage: "Universal (every tech company recruits here)"
+    market_share_percent: 80.0
+    
+  - name: "Indeed"
+    website: "https://www.indeed.com"
+    type: "Job board"
+    features: ["Job postings", "Resume search", "Sponsored jobs"]
+    pricing_per_day: [5, 500]  # Sponsored listings
+    market_share_percent: 60.0
+    
+  - name: "AngelList (Wellfound)"
+    website: "https://wellfound.com"
+    type: "Startup job board"
+    features: ["Startup jobs", "Equity info", "Remote filters"]
+    pricing: "Free for startups"
+    silicon_valley_usage: "Standard for startup hiring"
+    
+  - name: "Hired"
+    website: "https://hired.com"
+    type: "Tech talent marketplace"
+    features: ["Pre-screened candidates", "Salary transparency", "AI matching"]
+    pricing_usd: [20000, 50000]  # Annual subscription
+    silicon_valley_usage: "Used by Google, Meta, Netflix for mid/senior tech"
+    
+  - name: "Glassdoor"
+    website: "https://www.glassdoor.com"
+    type: "Employer branding + reviews"
+    features: ["Company reviews", "Salary reports", "Interview questions"]
+    pricing_usd_year: [0, 2500]  # Free for job seekers, paid for employers
+    silicon_valley_usage: "Critical for employer branding (tech talent reads reviews)"
+    
+# Benefits (Common in Tech/AI First Companies)
+common_benefits:
+  - benefit: "Health Insurance (Medical, Dental, Vision)"
+    mandatory: false  # Under ACA, 50+ employees must offer (penalty otherwise)
+    cost_employer_percent: 70.0  # Employer pays 70%, employee 30%
+    silicon_valley_standard: "Top tech pays 100% for employee, 75% for dependents"
+    
+  - benefit: "401(k) Retirement Plan"
+    mandatory: false
+    company_match_percent: [0.0, 100.0]  # Match up to X% of salary
+    silicon_valley_standard: "50% match up to 6% of salary (typical)"
+    
+  - benefit: "Stock Options / RSUs"
+    mandatory: false
+    silicon_valley_standard: "Yes, core part of compensation (see equity section)"
+    
+  - benefit: "Unlimited PTO (Paid Time Off)"
+    mandatory: false
+    silicon_valley_standard: "Very common at startups/tech (Google, Meta, Netflix)"
+    note: "No accrual, but can create pressure to not take time off"
+    
+  - benefit: "Remote Work Stipend"
+    mandatory: false
+    amount_usd_year: [1000, 5000]  # For home office setup
+    silicon_valley_standard: "Standard post-2020 (laptop, monitor, internet, chair)"
+    
+  - benefit: "Free Meals / Snacks"
+    mandatory: false
+    silicon_valley_standard: "Google, Meta, Apple provide free gourmet meals"
+    cost_usd_per_employee_day: [15, 40]
+    
+  - benefit: "Gym / Wellness Stipend"
+    mandatory: false
+    amount_usd_year: [500, 2000]
+    silicon_valley_standard: "On-site gyms (Google), gym subsidies (Meta)"

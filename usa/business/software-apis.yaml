@@ -1,0 +1,342 @@
+version: 1.0.0
+country: usa
+last_updated: 2026-04-30
+description: "Business software, ERPs, and SaaS platforms for US companies"
+
+# Accounting Software (US Market)
+accounting_software:
+  - name: "QuickBooks Online"
+    headquarters: "Mountain View, CA (Silicon Valley - Intuit)"
+    website: "https://quickbooks.intuit.com"
+    market_share_percent: 45.0
+    target: "Sole Proprietors, Small Businesses (1-50 employees)"
+    features: ["Invoicing", "Expense Tracking", "Tax Deduction", "Payroll Integration"]
+    pricing_usd_month: [30, 60, 100, 200]
+    api: "https://developer.intuit.com"
+    silicon_valley_note: "Intuit HQ in Mountain View, #1 small biz accounting"
+    
+  - name: "Xero"
+    us_hq: "Denver, CO (strong presence in US)"
+    origin: "New Zealand"
+    website: "https://www.xero.com/us"
+    market_share_percent: 18.0
+    target: "Small to Medium Businesses (10-200 employees)"
+    features: ["Cloud Accounting", "Multi-currency", "Project Tracking", "Payroll"]
+    pricing_usd_month: [15, 40, 80]
+    api: "https://developer.xero.com"
+    
+  - name: "FreshBooks"
+    headquarters: "Toronto, Canada (US office in SF)"
+    website: "https://www.freshbooks.com"
+    market_share_percent: 8.0
+    target: "Freelancers, Small Service Businesses"
+    features: ["Time Tracking", "Invoicing", "Expenses", "Projects"]
+    pricing_usd_month: [17, 30, 55]
+    
+  - name: "Wave Accounting"
+    headquarters: "Toronto, Canada (US operations)"
+    website: "https://www.waveapps.com"
+    market_share_percent: 6.0
+    target: "Freelancers, Micro-Businesses"
+    features: ["Free Accounting", "Invoicing", "Receipt Scanning"]
+    pricing_usd_month: 0  # Free (makes money on payment processing)
+    
+  - name: "NetSuite (Oracle)"
+    headquarters: "San Mateo, CA (Silicon Valley)"
+    website: "https://www.netsuite.com"
+    market_share_percent: 12.0
+    target: "Medium to Large Businesses (50-5000+ employees)"
+    features: ["ERP", "CRM", "E-commerce", "Financial Management", "HR"]
+    pricing_usd_month: [999, 2000, 4000]  # Typical mid-market
+    silicon_valley_note: "Oracle owns NetSuite, HQ in Silicon Valley - key for scaling"
+    notable_clients: ["Qualcomm", "Williams-Sonoma", "Blue Nile"]
+
+# Enterprise ERPs (For Large Companies)
+enterprise_erps:
+  - name: "SAP"
+    us_hq: "Newtown Square, PA (near Philadelphia)"
+    origin: "Germany"
+    website: "https://www.sap.com/usa"
+    market_share_percent: 25.0  # Of enterprise ERP market
+    modules: ["FI (Finance)", "CO (Controlling)", "SD (Sales)", "MM (Materials)", "PP (Production)"]
+    cloud_version: "SAP S/4HANA Cloud"
+    implementation_partners: ["Accenture", "Deloitte", "EY", "PwC", "Capgemini"]
+    pricing_usd_month: [10000, 50000, 200000]  # Enterprise scale
+    
+  - name: "Oracle ERP Cloud"
+    headquarters: "Austin, TX (Silicon Hills) + Redwood Shores, CA"
+    website: "https://www.oracle.com/erp/"
+    market_share_percent: 15.0
+    modules: ["Financials", "Procurement", "Project Management", "Risk Management"]
+    cloud_version: "Oracle Fusion Cloud ERP"
+    pricing_usd_month: [15000, 60000, 150000]
+    silicon_valley_note: "Oracle has major presence in Silicon Valley (Redwood City)"
+    
+  - name: "Microsoft Dynamics 365"
+    headquarters: "Redmond, WA (near Seattle tech hub)"
+    website: "https://dynamics.microsoft.com"
+    market_share_percent: 18.0
+    modules: ["Finance", "Supply Chain", "Sales", "Marketing", "Field Service"]
+    cloud_version: "Dynamics 365 Business Central"
+    pricing_usd_month: [70, 150, 300]  # For SMB
+    notable_clients: ["Charter Communications", "Coca-Cola", "HP"]
+
+# E-commerce Platforms (US Market)
+ecommerce_platforms:
+  - name: "Shopify"
+    headquarters: "Ottawa, Canada (US office in SF - Silicon Valley)"
+    website: "https://www.shopify.com"
+    market_share_percent: 28.0  # Of US e-commerce sites
+    features: ["Storefront", "Checkout", "Payments (Shop Pay)", "POS", "Headless"]
+    pricing_usd_month: [39, 105, 399, 2000]  # Basic to Advanced
+    api: "https://shopify.dev"
+    silicon_valley_appeal: "Strong SF presence, popular with tech startups"
+    notable_clients: ["Allbirds", "Gymshark", "Kylie Cosmetics"]
+    
+  - name: "WooCommerce (WordPress)"
+    headquarters: "San Francisco, CA (Automattic - owned by Matt Mullenweg)"
+    website: "https://woocommerce.com"
+    market_share_percent: 35.0  # Largest by site count
+    features: ["WordPress Plugin", "Open Source", "Self-Hosted", "Extensions"]
+    pricing_usd_month: 0  # Free (costs: hosting, extensions)
+    silicon_valley_note: "Automattic HQ in SF, key open-source platform"
+    
+  - name: "Salesforce Commerce Cloud (Demandware)"
+    headquarters: "San Francisco, CA (Silicon Valley)"
+    website: "https://www.salesforce.com/products/commerce-cloud/"
+    market_share_percent: 8.0
+    features: ["B2C Commerce", "B2B Commerce", "Order Management", "AI Personalization"]
+    pricing_usd_month: [5000, 15000, 50000]  # Enterprise
+    silicon_valley_note: "Salesforce HQ in SF, #1 cloud CRM adding commerce"
+    notable_clients: ["Adidas", "Puma", "L'Oreal"]
+    
+  - name: "BigCommerce"
+    headquarters: "Austin, TX (Silicon Hills)"
+    website: "https://www.bigcommerce.com"
+    market_share_percent: 5.0
+    features: ["SaaS E-commerce", "Headless", "B2B", "Multi-store"]
+    pricing_usd_month: [39, 105, 399, 1200]
+    
+  - name: "Wix eCommerce"
+    headquarters: "Tel Aviv, Israel (US HQ in San Francisco, CA)"
+    website: "https://www.wix.com"
+    market_share_percent: 4.5
+    features: ["Website Builder", "Drag & Drop", "E-commerce", "App Market"]
+    pricing_usd_month: [27, 49, 89]
+
+# Order Management Systems (OMS)
+order_management:
+  - name: "Shopify Plus"
+    website: "https://www.shopify.com/plus"
+    features: ["Multi-channel", "Custom Checkout", "Shop App", "Launchpad"]
+    pricing_usd_month: 2000  # Minimum
+    notable_clients: ["Gymshark", "Fashion Nova", "Kylie Cosmetics"]
+    
+  - name: "Salesforce Order Management"
+    website: "https://www.salesforce.com/products/order-management/"
+    features: ["Unified View", "Distributed Order Management", "AI Predictions"]
+    pricing_usd_month: [300, 600]  # Per org
+    
+  - name: "Skubana (nowpart of 3PL Central)"
+    headquarters: "Los Angeles, CA (near Silicon Valley)"
+    features: ["Multi-channel", "Inventory", "Warehouse Management", "Fulfillment"]
+    pricing_usd_month: [500, 1500, 3000]
+
+# KYC and Identity Verification
+kyc_services:
+  - provider: "Experian"
+    headquarters: "Costa Mesa, CA (near Silicon Valley)"
+    website: "https://www.experian.com"
+    service: "Credit Check, Identity Verification"
+    api: "https://developer.experian.com"
+    features: ["Credit Score", "Identity Verification", "Fraud Detection"]
+    silicon_valley_note: "Major credit bureau with strong CA presence"
+    
+  - provider: "TransUnion"
+    headquarters: "Chicago, IL"
+    website: "https://www.transunion.com"
+    service: "Credit Reporting, TLOxp (Investigations)"
+    api: "https://developer.transunion.com"
+    
+  - provider: "Equifax"
+    headquarters: "Atlanta, GA"
+    website: "https://www.equifax.com"
+    service: "Credit Reporting, ID Verification"
+    api: "https://developer.equifax.com"
+    
+  - provider: "Persona"
+    headquarters: "San Francisco, CA (Silicon Valley)"
+    website: "https://withpersona.com"
+    service: "KYC/AML Compliance, Identity Verification"
+    api: "https://docs.withpersona.com"
+    pricing_usd_month: [500, 2000, 5000]
+    silicon_valley_note: "SF startup, popular with fintech (Stripe, Robinhood)"
+    notable_clients: ["Stripe", "Robinhood", "Marqeta"]
+    
+  - provider: "Onfido (now part of Entrust)"
+    us_hq: "San Francisco, CA"
+    website: "https://onfido.com"
+    service: "Document Verification, Facial Recognition"
+    api: "https://documentation.onfido.com"
+
+# Debt Collection
+debt_collection:
+  - name: "IC System"
+    headquarters: "St. Cloud, MN"
+    type: "Traditional Collection Agency"
+    services: ["First-Party Collections", "Third-Party Collections", "Credit Reporting"]
+    
+  - name: "TrueAccord"
+    headquarters: "San Francisco, CA (Silicon Valley)"
+    type: "Tech-Enabled Debt Collection"
+    website: "https://www.trueaccord.com"
+    approach: "Behavioral analytics, personalized payment plans"
+    silicon_valley_note: "Tech-driven approach, backed by Oak HC/FT and others"
+    
+  - name: "PayPal (for Merchants)"
+    service: "Seller Protection, Chargeback Management"
+    website: "https://www.paypal.com/us/business"
+
+# Customer Service Tools
+customer_service_tools:
+  - name: "Zendesk"
+    headquarters: "San Francisco, CA (Silicon Valley)"
+    website: "https://www.zendesk.com"
+    features: ["Tickets", "Chat", "Voice", "Guide (Knowledge Base)", "AI Agents (Answer Bot)"]
+    pricing_usd_month: [19, 49, 79, 150]
+    api: "https://developer.zendesk.com"
+    silicon_valley_note: "HQ in SF, key for SaaS customer support"
+    notable_clients: ["Shopify", "Stripe", "Airbnb"]
+    
+  - name: "Intercom"
+    headquarters: "San Francisco, CA (Silicon Valley)"
+    website: "https://www.intercom.com"
+    features: ["Live Chat", "Chatbot Builder", "Product Tours", "Fin (AI Agent)"]
+    pricing_usd_month: [74, 128, 499]  # Per seat
+    silicon_valley_note: "SF HQ, #1 for SaaS in-app messaging"
+    notable_clients: ["Amazon", "Microsoft", "Meta"]
+    
+  - name: "HubSpot Service Hub"
+    headquarters: "Cambridge, MA (Boston tech hub)"
+    website: "https://www.hubspot.com/products/service"
+    features: ["Tickets", "Knowledge Base", "Customer Portal", "Feedback Surveys"]
+    pricing_usd_month: [20, 100, 400, 1200]
+    
+  - name: "Salesforce Service Cloud"
+    headquarters: "San Francisco, CA (Silicon Valley)"
+    website: "https://www.salesforce.com/products/service-cloud/"
+    features: ["Case Management", "Omni-Channel Routing", "Field Service", "Einstein AI"]
+    pricing_usd_month: [25, 75, 150, 300]  # Per user
+    silicon_valley_note: "Salesforce HQ SF, enterprise-grade support"
+
+# E-signature and Document Management
+document_management:
+  - name: "DocuSign"
+    headquarters: "San Francisco, CA (Silicon Valley)"
+    website: "https://www.docusign.com"
+    market_share_percent: 65.0  # Of e-signature market
+    features: ["E-signature", "CLM (Contract Lifecycle Management)", "ID Verification", "Notary"]
+    pricing_usd_month: [10, 25, 40, 60]  # Per user
+    api: "https://developers.docusign.com"
+    silicon_valley_note: "HQ in SF, pioneered e-signature in US"
+    notable_clients: ["Google", "Microsoft", "Tesla"]
+    
+  - name: "PandaDoc"
+    headquarters: "San Francisco, CA (US HQ)"
+    origin: "Belarus (US ops in SF)"
+    website: "https://www.pandadoc.com"
+    features: ["Document Creation", "E-signature", "CPQ (Configure, Price, Quote)", "Workflow"]
+    pricing_usd_month: [19, 49, 89]
+    
+  - name: "Dropbox Sign (formerly HelloSign)"
+    headquarters: "San Francisco, CA (Silicon Valley)"
+    website: "https://www.dropbox.com/sign"
+    features: ["E-signature", "Templates", "API", "Team Management"]
+    pricing_usd_month: [15, 25, 45]
+    silicon_valley_note: "Now part of Dropbox (also SF-based)"
+    
+  - name: "Adobe Sign (Acrobat)"
+    headquarters: "San Jose, CA (Silicon Valley - Adobe HQ)"
+    website: "https://www.adobe.com/acrobat/business/esignature.html"
+    features: ["E-signature", "PDF Workflows", "Integration with Adobe CC"]
+    pricing_usd_month: [15, 25, 149]  # Part of Adobe Creative Cloud
+    silicon_valley_note: "Adobe HQ in San Jose, core part of Creative Cloud"
+
+# Fiscal Document APIs (US Equivalent to Brazil's NFe)
+fiscal_document_apis:
+  - provider: "Avalara"
+    headquarters: "Seattle, WA (near Amazon/AWS ecosystem)"
+    website: "https://www.avalara.com"
+    services: ["Sales Tax Calculation", "Exemption Certificates", "Reporting & Filing", "1099/1099-K"]
+    api: "https://developer.avalara.com"
+    pricing_usd_month: [50, 200, 500]  # Varies by volume
+    note: "Leading sales tax compliance for US (10,000+ jurisdictions)"
+    
+  - name: "TaxJar (now part of Stripe)"
+    headquarters: "Austin, TX (Silicon Hills)"
+    website: "https://www.taxjar.com"
+    services: ["Sales Tax Reporting", "AutoFile", "Calculations"]
+    pricing_usd_month: [19, 99, 199]
+    silicon_valley_note: "Acquired by Stripe (SF) in 2021"
+    
+  - name: "Stripe Tax"
+    headquarters: "San Francisco, CA (Silicon Valley)"
+    website: "https://stripe.com/tax"
+    services: ["Real-time Tax Calculation", "Tax Registration", "Reporting"]
+    pricing: "0.5% of transactions (capped at $0.05 per transaction)"
+    silicon_valley_note: "Stripe HQ in SF, integrated with Stripe Payments"
+    
+  - name: "Vertex Inc."
+    headquarters: "King of Prussia, PA"
+    website: "https://www.vertexinc.com"
+    services: ["Indirect Tax", "Exemption Certificates", "Compliance"]
+    pricing: "Enterprise pricing (custom)"
+
+# Open Banking (Emerging in US)
+open_banking:
+  status: "Voluntary (no federal mandate like Brazil's PIX)"
+  framework: "CFPB (Consumer Financial Protection Bureau) rule (2024)"
+  effective: "2026-2027"
+  approach: "Market-driven (not government-mandated)"
+  
+  major_players:
+    - "Plaid (now owned by Visa, SF office)"
+    - "Yodlee (Envestnet - San Jose, CA)"
+    - "MX (Lehi, UT + SF office)"
+    - "Finicity (Mastercard - Salt Lake City + SF office)"
+    - "Stripe (San Francisco, CA - Treasury product)"
+    
+  use_cases: ["Account Aggregation", "Payment Initiation (Stripe Treasury)", "Income Verification"]
+  note: "No mandatory instant payment system like Brazil's PIX, but ACH is ubiquitous"
+
+# Business Analytics
+business_analytics:
+  - tool: "Google Analytics 4"
+    ecommerce_tracking: true
+    enhanced_ecommerce: true
+    integration: ["GA4", "Google Ads", "Search Console", "Looker Studio"]
+    cost: "Free (up to 10M hits/month)"
+    
+  - tool: "Amplitude"
+    headquarters: "San Francisco, CA (Silicon Valley)"
+    features: ["Product Analytics", "Behavioral Analytics", "Funnels", "Retention", "Growth Teams"]
+    pricing_usd_month: [0, 995, 2000]  # Free tier available
+    silicon_valley_note: "SF HQ, key for product-led growth (PLG) startups"
+    
+  - tool: "Mixpanel"
+    headquarters: "San Francisco, CA (Silicon Valley)"
+    website: "https://mixpanel.com"
+    features: ["Event Tracking", "Funnels", "Retention", "A/B Testing"]
+    pricing_usd_month: [0, 25, 99, 999]  # Free tier: 100K events/month
+    silicon_valley_note: "SF HQ, popular with mobile apps and SaaS"
+    
+  - tool: "HubSpot Analytics"
+    features: ["Traffic Analytics", "Deal Analytics", "Campaign Performance"]
+    pricing: "Included with HubSpot subscriptions"
+    
+  - tool: "Tableau (Salesforce)"
+    headquarters: "Seattle, WA (now part of Salesforce)"
+    website: "https://www.tableau.com"
+    features: ["Data Visualization", "Dashboards", "Vizzes", "Server/Online"]
+    pricing_usd_month: [75, 150, 500]  # Per user
+    silicon_valley_note: "Now part of Salesforce (SF)"

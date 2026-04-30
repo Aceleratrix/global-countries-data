@@ -1,0 +1,478 @@
+version: 1.0.0
+country: usa
+last_updated: 2026-04-30
+description: "AI services, cloud computing, and the Silicon Valley tech ecosystem"
+
+# Cloud Providers with US Regions (20+ Regions Total)
+cloud_providers_us_regions:
+  - provider: "AWS (Amazon Web Services)"
+    headquarters: "Seattle, WA (HQ) / Arlington, VA (HQ2)"
+    founded: 2006
+    market_share_percent: 31.0
+    regions_us: ["us-east-1 (N. Virginia)", "us-east-2 (Ohio)", "us-west-1 (N. California - Silicon Valley)", "us-west-2 (Oregon)", "us-central-1 (Iowa)"]
+    launch_years: [2006, 2010, 2011, 2014, 2016]
+    services_count: 300+
+    main_services: ["EC2", "S3", "RDS", "Lambda", "Bedrock (AI)"]
+    website: "https://aws.amazon.com"
+    compliance: ["SOC 2", "PCI DSS", "HIPAA", "FedRAMP"]
+    data_residency: true
+    latency_to_silicon_valley_ms: 5  # us-west-1
+    pricing_tier: "Medium-High"
+    notable_clients: ["Netflix", "Airbnb", "Coinbase", "AI"]
+    
+  - provider: "Google Cloud Platform"
+    headquarters: "Mountain View, CA (Silicon Valley)"
+    founded: 2008
+    market_share_percent: 11.0
+    regions_us: ["us-central1 (Iowa)", "us-east1 (S. Carolina)", "us-west1 (Oregon)", "us-west2 (Los Angeles - Silicon Valley)", "us-west3 (Salt Lake City)"]
+    launch_years: [2011, 2014, 2016, 2018, 2020]
+    services_count: 200+
+    main_services: ["Compute Engine", "Cloud Storage", "Vertex AI (Gemini)", "Dialogflow"]
+    website: "https://cloud.google.com"
+    compliance: ["SOC 2", "PCI DSS", "HIPAA", "FedRAMP"]
+    data_residency: true
+    latency_to_silicon_valley_ms: 8  # us-west2
+    pricing_tier: "Medium"
+    notable_clients: ["Spotify", "Twitter (X)", "Etsy", "Target"]
+    
+  - provider: "Microsoft Azure"
+    headquarters: "Redmond, WA (Seattle area)"
+    founded: 2010 (Azure launch)
+    market_share_percent: 22.0
+    regions_us: ["East US (Virginia)", "West US (California - Silicon Valley)", "Central US (Iowa)", "North Central US (Illinois)", "South Central US (Texas)"]
+    launch_years: [2010, 2012, 2014, 2016, 2018]
+    services_count: 250+
+    main_services: ["Virtual Machines", "Blob Storage", "Azure AI (GPT-4)", "Cognitive Services"]
+    website: "https://azure.microsoft.com"
+    compliance: ["SOC 2", "PCI DSS", "HIPAA", "FedRAMP"]
+    data_residency: true
+    latency_to_silicon_valley_ms: 7  # West US
+    pricing_tier: "Medium-High"
+    notable_clients: ["Walmart", "Adobe", "HP", "Samsung"]
+    
+  - provider: "Oracle Cloud"
+    headquarters: "Austin, TX (Silicon Hills)"
+    founded: 2016 (Oracle Cloud launch)
+    market_share_percent: 2.0
+    regions_us: ["US East (Ashburn)", "US West (Phoenix)", "US Central (Chicago)"]
+    launch_years: [2019, 2020, 2021]
+    services_count: 150+
+    main_services: ["Compute", "Object Storage", "OCI Generative AI"]
+    website: "https://www.oracle.com/cloud/"
+    compliance: ["SOC 2", "PCI DSS", "HIPAA"]
+    data_residency: true
+    pricing_tier: "Low (agressive pricing)"
+    free_tier: true
+    
+  - provider: "IBM Cloud"
+    headquarters: "Armonk, NY"
+    founded: 2013 (SoftLayer acquisition)
+    market_share_percent: 3.0
+    regions_us: ["US East (Washington DC)", "US South (Texas)", "US North (New York)"]
+    services_count: 170+
+    main_services: ["Virtual Servers", "Cloud Object Storage", "Watsonx (AI)"]
+    website: "https://www.ibm.com/cloud"
+    compliance: ["SOC 2", "PCI DSS", "HIPAA"]
+    notable_clients: ["American Airlines", "G&H", "ExxonMobil"]
+
+# Generative AI Services (APIs)
+generative_ai_services:
+  - provider: "OpenAI API"
+    headquarters: "San Francisco, CA (Silicon Valley)"
+    founded: 2015
+    description: "Leading generative AI API"
+    models: ["GPT-4o", "GPT-4 Turbo", "GPT-3.5 Turbo", "DALL-E 3", "Whisper", "TTS"]
+    region: "US-based (servers in US)"
+    api_type: "REST"
+    docs: "https://platform.openai.com/docs"
+    latency_to_silicon_valley_ms: 12
+    pricing: "Per token (GPT-4o: $5/M input, $15/M output)"
+    notable_clients: ["Microsoft Copilot", "Duolingo", "Khan Academy", "Zapier"]
+    
+  - provider: "Anthropic API (Claude)"
+    headquarters: "San Francisco, CA (Silicon Valley)"
+    founded: 2021
+    description: "AI safety-focused company, Claude models"
+    models: ["Claude 3.5 Sonnet", "Claude 3 Opus", "Claude 3 Haiku"]
+    region: "US-based (servers in US)"
+    api_type: "REST"
+    docs: "https://docs.anthropic.com"
+    latency_to_silicon_valley_ms: 12
+    pricing: "Per token (Claude 3.5 Sonnet: $3/M input, $15/M output)"
+    notable_clients: ["Quora (Poe)", "Notion", "Zapier", "Replit"]
+    
+  - provider: "AWS Bedrock"
+    headquarters: "Seattle, WA / Arlington, VA"
+    description: "AWS managed service for foundation models"
+    models: ["Claude (Anthropic)", "Amazon Titan", "Meta Llama 3", "Cohere", "AI21 Labs"]
+    region_available: true
+    api_type: "REST"
+    docs: "https://docs.aws.amazon.com/bedrock/"
+    latency_to_silicon_valley_ms: 5  # us-west-1
+    pricing: "Pay-per-use (varies by model)"
+    
+  - provider: "Google Vertex AI"
+    headquarters: "Mountain View, CA (Silicon Valley)"
+    description: "Unified AI platform (Gemini, PaLM)"
+    models: ["Gemini 1.5 Pro/Ultra", "PaLM 2", "Imagen 2 (image)", "Chirp (audio)"]
+    region_available: true
+    api_type: "REST / gRPC"
+    docs: "https://cloud.google.com/vertex-ai"
+    latency_to_silicon_valley_ms: 8  # us-west2
+    pricing: "Per token/per image (varies)"
+    
+  - provider: "Azure AI"
+    headquarters: "Redmond, WA"
+    description: "Azure OpenAI Service + Cognitive Services"
+    models: ["GPT-4", "GPT-3.5", "DALL-E 3", "Whisper", "Text Analytics"]
+    region_available: true
+    api_type: "REST"
+    docs: "https://azure.microsoft.com/en-us/products/ai-services/"
+    latency_to_silicon_valley_ms: 7  # West US
+    pricing: "Per token (similar to OpenAI)"
+    
+  - provider: "Meta (Llama via Meta API or Self-Hosted)"
+    headquarters: "Menlo Park, CA (Silicon Valley)"
+    description: "Open source LLMs (Llama 3, Llama 2)"
+    models: ["Llama 3 (8B, 70B, 405B)", "Code Llama", "Llama Guard"]
+    api_type: "Self-hosted (AWS/GCP/Azure) or Meta API"
+    docs: "https://llama.meta.com/docs"
+    notable_users: ["Self-hosted by tech companies"]
+
+# Silicon Valley Tech Ecosystem
+silicon_valley_ecosystem:
+  location: "San Francisco Bay Area, California"
+  counties: ["San Francisco", "San Mateo", "Santa Clara", "Alameda", "Contra Costa"]
+  population: 7700000
+  gdp_usd_trillions: 1.2  # ~7% of US GDP
+  
+  major_companies_hq:
+    - name: "Apple"
+      city: "Cupertino"
+      valuation_usd: 2800000000000  # $2.8T
+      sector: "Consumer Electronics, Software"
+    - name: "Google (Alphabet)"
+      city: "Mountain View"
+      valuation_usd: 1800000000000  # $1.8T
+      sector: "Search, Cloud, AI"
+    - name: "Meta (Facebook)"
+      city: "Menlo Park"
+      valuation_usd: 800000000000  # $800B
+      sector: "Social Media, VR/AR"
+    - name: "Netflix"
+      city: "Los Gatos"
+      valuation_usd: 250000000000  # $250B
+      sector: "Streaming, Content"
+    - name: "Adobe"
+      city: "San Jose"
+      valuation_usd: 240000000000  # $240B
+      sector: "Creative Software"
+    - name: "NVIDIA" (key AI chip maker)
+      city: "Santa Clara"
+      valuation_usd: 2200000000000  # $2.2T (2026)
+      sector: "AI Hardware (GPUs)"
+    - name: "OpenAI"
+      city: "San Francisco"
+      valuation_usd: 80000000000  # $80B (2026)
+      sector: "AI Research, GPT"
+    - name: "Anthropic"
+      city: "San Francisco"
+      valuation_usd: 18000000000  # $18B (2026)
+      sector: "AI Safety, Claude"
+    - name: "Salesforce"
+      city: "San Francisco"
+      valuation_usd: 200000000000  # $200B
+      sector: "Enterprise SaaS, CRM"
+      
+  venture_capital:
+    silicon_valley_vc_deployed_usd_2025: 89000000000  # $89B
+    top_firms: ["Sequoia Capital", "Andreessen Horowitz (a16z)", "Kleiner Perkins", "Accel", "Greylock Partners", "Benchmark", "Index Ventures"]
+    unicorns_count: 150+  # >$1B valuation
+    notable_unicorns: ["Stripe ($95B)", "SpaceX ($180B)", "Databricks ($43B)", "AI ($80B)", "Epic Games ($31B)"]
+    
+  startup_density_per_100k: 45.0  # Highest in US
+  ai_companies_count: 2500+
+  average_software_engineer_salary_usd: 185000  # Base + stock
+  
+# Other Major US Tech Hubs
+other_tech_hubs:
+  - name: "Silicon Alley (New York City)"
+    city: "New York, NY"
+    population: 8300000
+    major_companies: ["Google (NYC)", "Meta (NYC)", "Amazon (NYC)", "Microsoft (NYC)", "Spotify"]
+    startup_focus: ["Fintech", "Media", "AdTech"]
+    avg_software_salary_usd: 175000
+    
+  - name: "Seattle (Cloud City)"
+    city: "Seattle, WA"
+    major_companies: ["Amazon (HQ)", "Microsoft (HQ)", "Google", "Meta", "AI (engineering hub)"]
+    startup_focus: ["Cloud", "E-commerce", "AI"]
+    avg_software_salary_usd: 180000
+    
+  - name: "Austin (Silicon Hills)"
+    city: "Austin, TX"
+    major_companies: ["Tesla (HQ)", "Oracle (HQ)", "Dell Technologies", "IBM"]
+    startup_focus: ["Hardware", "Energy Tech", "AI"]
+    avg_software_salary_usd: 155000
+    
+  - name: "Boston (Route 128 / Kendall Square)"
+    city: "Boston, MA"
+    major_companies: ["HubSpot", "Wayfair", "DraftKings", "Moderna"]
+    startup_focus: ["Biotech", "Robotics", "EdTech"]
+    avg_software_salary_usd: 170000
+    
+  - name: "Los Angeles (Silicon Beach)"
+    city: "Los Angeles, CA"
+    major_companies: ["Snapchat (Snap)", "Riot Games", "SpaceX (Hawthorne)", "Hulu"]
+    startup_focus: ["Gaming", "Media", "Aerospace"]
+    avg_software_salary_usd: 165000
+
+# NLP Services (Silicon Valley Companies Dominate)
+nlp_services:
+  - provider: "Google Cloud Natural Language (Mountain View, CA)"
+    features: ["Sentiment analysis", "Entities", "Syntax", "Classication"]
+    language_support: ["en-US", "es-US", "zh-US", 50+ languages]
+    api: "https://cloud.google.com/natural-language"
+    pricing: "$1 per 1000 units"
+    
+  - provider: "AWS Comprehend (Seattle, WA)"
+    features: ["Text analysis", "Entity extraction", "PII detection"]
+    language_support: ["en-US", "es-US", 12+ languages]
+    api: "https://aws.amazon.com/comprehend/"
+    pricing: "$0.0001 per unit"
+    
+  - provider: "Azure Text Analytics (Redmond, WA)"
+    features: ["Sentiment analysis", "Key phrase extraction", "PII"]
+    language_support: ["en-US", "es-US", 20+ languages]
+    api: "https://azure.microsoft.com/products/ai-services/text-analytics/"
+    
+  - provider: "OpenAI GPT-4/3.5 API (San Francisco, CA)"
+    features: ["Advanced reasoning", "Summarization", "Classification", "Extraction"]
+    language_support: ["en-US", "es-US", "fr-US", 50+ languages]
+    api: "https://platform.openai.com/docs"
+    pricing: "$5/1M input tokens (GPT-4o)"
+
+# Speech Services
+speech_services:
+  - provider: "Google Cloud Speech-to-Text (Mountain View, CA)"
+    features: ["Transcription", "Diarization", "Medical transcription"]
+    language_support: ["en-US", "es-US", 125+ languages]
+    api: "https://cloud.google.com/speech-to-text"
+    pricing: "$0.024 per minute"
+    
+  - provider: "AWS Transcribe (Seattle, WA)"
+    features: ["Transcription", "Speaker identification", "Medical"]
+    language_support: ["en-US", "es-US", 30+ languages]
+    api: "https://aws.amazon.com/transcribe/"
+    pricing: "$0.024 per minute"
+    
+  - provider: "Azure Speech (Redmond, WA)"
+    features: ["Text-to-Speech", "Speech-to-Text", "en-US voices"]
+    language_support: ["en-US", "es-US", 140+ languages]
+    api: "https://azure.microsoft.com/products/ai-services/speech/"
+    
+  - provider: "ElevenLabs (New York, NY - but services from US)"
+    description: "AI voice cloning and generation"
+    voices_en_us: ["Rachel (female)", "Domi (male)", "Bella (female)"]
+    api: "https://elevenlabs.io"
+    pricing: "$5-330/month depending on usage"
+
+# Computer Vision
+computer_vision_services:
+  - provider: "Google Cloud Vision (Mountain View, CA)"
+    features: ["OCR", "Object detection", "Labels", "Face detection"]
+    api: "https://cloud.google.com/vision"
+    pricing: "$1.50 per 1000 images"
+    
+  - provider: "AWS Rekognition (Seattle, WA)"
+    features: ["Image analysis", "Face recognition", "Text in image"]
+    api: "https://aws.amazon.com/rekognition/"
+    pricing: "$1 per 1000 images"
+    
+  - provider: "Azure Computer Vision (Redmond, WA)"
+    features: ["OCR", "Image description", "Read (documents)"]
+    api: "https://azure.microsoft.com/products/ai-services/computer-vision/"
+
+# Conversational AI Platforms (Many in Silicon Valley)
+conversational_ai:
+  - platform: "Dialogflow (Google - Mountain View, CA)"
+    type: "No-code/Low-code"
+    features: ["Intents", "Entities", "Fulfillment webhook", "WhatsApp integration"]
+    pricing: "Free tier + $0.002 per request"
+    docs: "https://cloud.google.com/dialogflow/docs"
+    
+  - platform: "Amazon Lex (Seattle, WA)"
+    type: "Low-code"
+    features: ["NLU", "AWS integration", "en-US support"]
+    pricing: "$0.00075 per request + $0.10 per voice request"
+    docs: "https://aws.amazon.com/lex/"
+    
+  - platform: "Rasa (Open Source - but strong SF community)"
+    type: "Self-hosted / Open Source"
+    features: ["Custom NLU", "On-premise chatbot", "Conversational AI"]
+    pricing: "Open Source (free) or Enterprise"
+    docs: "https://rasa.com/docs/"
+    
+  - platform: "Watson Assistant (IBM - Armonk, NY)"
+    type: "Enterprise"
+    features: ["Conversational AI", "Enterprise integration", "en-US support"]
+    pricing_usd_month: [0, 140, 500]
+    docs: "https://www.ibm.com/watson/assistant/"
+
+# GPU Providers for Model Training (Silicon Valley Companies Key)
+gpu_providers:
+  - provider: "AWS EC2 (P instances) (Seattle, WA)"
+    gpus_available: ["NVIDIA A100", "V100", "T4"]
+    pricing_usd_hour: [0.40, 32.77]  # T4 to A100
+    spot_instances: true
+    regions_us: ["us-west-1 (Silicon Valley)", "us-east-1 (Virginia)"]
+    
+  - provider: "Google Cloud (A2 machines) (Mountain View, CA)"
+    gpus_available: ["NVIDIA A100", "T4"]
+    pricing_usd_hour: [0.35, 28.50]
+    preemptible: true
+    regions_us: ["us-west2 (Silicon Valley)", "us-central1 (Iowa)"]
+    
+  - provider: "Azure (NC/NV series) (Redmond, WA)"
+    gpus_available: ["NVIDIA A100", "K80", "T4"]
+    pricing_usd_hour: [0.40, 29.00]
+    regions_us: ["West US (Silicon Valley)", "East US (Virginia)"]
+    
+  - provider: "Lambda Labs (San Francisco, CA - Silicon Valley)"
+    description: "Specialized GPU cloud startup"
+    gpus_available: ["NVIDIA H100", "A100", "RTX 4090"]
+    pricing_usd_hour: [0.50, 8.00]
+    latency_to_silicon_valley_ms: 2
+    notable_clients: ["AI researchers", "Startups"]
+    
+  - provider: "CoreWeave (Headquarters: Roseland, NJ - but major US presence)"
+    description: "Specialized GPU cloud for AI"
+    gpus_available: ["NVIDIA H100", "A100"]
+    pricing_usd_hour: [0.40, 6.00]
+
+# AI Talent in the US
+ai_talent:
+  data_scientists_estimate: 150000
+  ml_engineers_estimate: 85000
+  nlp_specialists_estimate: 25000
+  computer_vision_specialists_estimate: 18000
+  silicon_valley_ai_talent: 38000
+  
+  top_universities:
+    - "Stanford University (Stanford, CA - Heart of Silicon Valley)"
+    - "MIT (Cambridge, MA)"
+    - "Carnegie Mellon (Pittsburgh, PA)"
+    - "UC Berkeley (Berkeley, CA - Silicon Valley)"
+    - "California Institute of Technology - Caltech (Pasadena, CA)"
+    - "University of Washington (Seattle, WA)"
+    - "Georgia Tech (Atlanta, GA)"
+    - "University of Texas at Austin (Austin, TX)"
+    - "Harvard University (Cambridge, MA)"
+    - "Princeton University (Princeton, NJ)"
+    
+  average_salary_usd_year:
+    junior_data_scientist: 95000
+    senior_data_scientist: 210000
+    ml_engineer: 185000
+    ai_researcher: 320000
+    silicon_valley_premium_percent: 25.0  # 25% higher than national average
+    
+  hiring_platforms: ["LinkedIn", "Indeed", "Glassdoor", "AngelList (for startups)", "Hired"]
+
+# Tax Incentives for AI/Tech
+tax_incentives:
+  - name: "Federal R&D Tax Credit (IRC Section 41)"
+    description: "Tax credit for R&D expenses"
+    credit_rate_percent: [13.0, 20.0]  # Of qualified research expenses
+    applies_to: ["C-Corps", "S-Corps", "Partnerships", "LLCs"]
+    ai_ml_eligible: true
+    use_cases: ["Software development", "AI model training", "Algorithm development", "Prototyping"]
+    silicon_valley_companies_claiming: ["Google", "Meta", "Apple", "Netflix"]
+    
+  - name: "Qualified Small Business Stock (QSBS) - IRC Section 1202"
+    description: "Capital gains exclusion for startup stock"
+    capital_gains_exclusion_percent: 100.0  # Up to $10M or 10x basis
+    holding_period_years: 5
+    applies_to: "C-Corps with < $50M assets at issuance"
+    tech_benefit: "Founders/early employees pay $0 capital gains on stock sale"
+    silicon_valley_usage_percent: 85.0  # Most startups use this
+    
+  - name: "California Competes with CA Innovation Hub (iHub) Tax Credits"
+    description: "State-level incentives for tech in California"
+    benefits: ["Sales tax exclusions on equipment", "Hiring credits"]
+    silicon_valley_specific: true
+    
+  - name: "Texas Enterprise Zone Program (Austin - Silicon Hills)"
+    description: "State tax incentives for job creation in TX"
+    benefits: ["Franchise tax credits", "Sales tax refunds"]
+    austin_tech_usage: "Tesla, Oracle, Dell use these"
+
+# Tech Communities & Events in Silicon Valley
+tech_communities:
+  - name: "Silicon Valley AI Meetup"
+    type: "Meetup"
+    members: 12000
+    focus: "AI, Machine Learning, Deep Learning"
+    location: "San Francisco Bay Area"
+    
+  - name: "Stanford AI Lab (SAIL) Events"
+    type: "Academic"
+    focus: "Cutting-edge AI research"
+    location: "Stanford University"
+    
+  - name: "Google Developer Groups (GDG) Silicon Valley"
+    type: "Meetup"
+    members: 8000
+    focus: "Google Cloud, Android, AI"
+    
+  - name: "Silicon Valley Data Science"
+    type: "Meetup"
+    members: 6500
+    focus: "Data Science, Python, R"
+    
+  - name: "Women in AI (WAI) - SF Chapter"
+    type: "Community"
+    members: 3500
+    focus: "Diversity in AI"
+    
+# Major Tech Conferences in US (Many in Silicon Valley)
+tech_events:
+  - name: "Google I/O"
+    location: "Mountain View, CA (Shoreline Amphitheatre)"
+    frequency: "Annual (May)"
+    focus: "Google AI, Cloud, Android, Web"
+    website: "https://io.google/2026/"
+    
+  - name: "Apple WWDC (Worldwide Developers Conference)"
+    location: "San Jose, CA (or online)"
+    frequency: "Annual (June)"
+    focus: "iOS, macOS, AI on Apple devices"
+    website: "https://developer.apple.com/wwdc/"
+    
+  - name: "NVIDIA GTC (GPU Technology Conference)"
+    location: "San Jose, CA"
+    frequency: "Annual (March)"
+    focus: "AI Hardware (GPUs), Deep Learning"
+    website: "https://www.nvidia.com/gtc/"
+    
+  - name: "OpenAI DevDay"
+    location: "San Francisco, CA"
+    frequency: "Annual"
+    focus: "GPT models, API usage, AI applications"
+    
+  - name: "Anthropic Developers Conference"
+    location: "San Francisco, CA"
+    frequency: "Annual (emerging)"
+    focus: "Claude models, AI safety"
+    
+  - name: "TechCrunch Disrupt"
+    location: "San Francisco, CA"
+    frequency: "Annual (September)"
+    focus: "Startups, VC, Innovation"
+    website: "https://techcrunch.com/events/"
+    
+  - name: "AWS re:Invent"
+    location: "Las Vegas, NV"
+    frequency: "Annual (November)"
+    focus: "AWS cloud, AI services, DevOps"
+    website: "https://reinvent.awsevents.com/"

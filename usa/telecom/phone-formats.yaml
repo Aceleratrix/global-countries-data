@@ -1,0 +1,390 @@
+version: 1.0.0
+country: usa
+last_updated: 2026-04-30
+description: "Phone formats, ZIP codes, and address standards for the United States"
+
+# Phone System
+phone:
+  country_code: "+1"
+  international_format: "+1 (AAA) EEE-XXXX"
+  national_format: "(AAA) EEE-XXXX"
+  
+  formats:
+    standard:
+      pattern: "^\\+1[2-9]\\d{2}[2-9]\\d{6}$"
+      example: "+14155552671"
+      formatted_example: "+1 (415) 555-2671"
+      description: "Standard US phone number format"
+      digits_total: 12  # +1 + 10 digits
+      npa_position: [3, 6]  # Area code (NPA)
+      nxx_position: [6, 9]  # Exchange (NXX)
+      station_position: [9, 13]  # Station number
+      
+    toll_free:
+      pattern: "^\\+1(800|888|877|866|855|844|833|822)\\d{7}$"
+      example: "+18005551234"
+      formatted_example: "+1 (800) 555-1234"
+      description: "Toll-free numbers"
+      types: ["800", "888", "877", "866", "855", "844", "833", "822"]
+      
+    vanity:
+      example: "+1800FLOWERS"
+      description: "Vanity numbers (letters map to digits)"
+      note: "2=ABC, 3=DEF, 4=GHI, 5=JKL, 6=MNO, 7=PQRS, 8=TUV, 9=WXYZ"
+      
+  # Area Codes (NPA - Numbering Plan Area)
+  area_codes:
+    - code: "212"
+      city: "New York City"
+      state: "NY"
+      region: "Northeast"
+      overlay_codes: ["646", "332", "929"]  # Overlays
+      population_millions: 8.3
+      
+    - code: "310"
+      city: "Los Angeles"
+      state: "CA"
+      region: "West Coast"
+      overlay_codes: ["424"]
+      population_millions: 3.9
+      
+    - code: "415"
+      city: "San Francisco"
+      state: "CA"
+      region: "West Coast"
+      overlay_codes: ["628"]
+      population_millions: 0.8
+      note: "Silicon Valley / SF Bay Area"
+      
+    - code: "408"
+      city: "San Jose"
+      state: "CA"
+      region: "West Coast"
+      overlay_codes: ["669"]
+      population_millions: 1.9
+      note: "Heart of Silicon Valley (Apple, Adobe)"
+      
+    - code: "206"
+      city: "Seattle"
+      state: "WA"
+      region: "West Coast"
+      overlay_codes: ["253", "425"]
+      population_millions: 3.4
+      note: "Amazon, Microsoft headquarters"
+      
+    - code: "512"
+      city: "Austin"
+      state: "TX"
+      region: "South"
+      overlay_codes: ["737"]
+      population_millions: 2.3
+      note: "Silicon Hills tech hub"
+      
+    - code: "617"
+      city: "Boston"
+      state: "MA"
+      region: "Northeast"
+      overlay_codes: ["857"]
+      population_millions: 4.9
+      note: "Tech/ biotech hub"
+      
+    - code: "312"
+      city: "Chicago"
+      state: "IL"
+      region: "Midwest"
+      overlay_codes: ["872"]
+      population_millions: 2.7
+      note: "Midwest tech hub"
+      
+    - code: "202"
+      city: "Washington DC"
+      state: "DC"
+      region: "Northeast"
+      population_millions: 0.7
+      
+    - code: "305"
+      city: "Miami"
+      state: "FL"
+      region: "South"
+      overlay_codes: ["786"]
+      population_millions: 6.1
+      
+  # Rules
+  validation:
+    npa_rules: "First digit 2-9, second digit 0-9, third digit 0-9"
+    nxx_rules: "First digit 2-9, second digit 0-9, third digit 0-9"
+    station_rules: "Any 4 digits (0000-9999)"
+    toll_free_resricted: "800, 888, 877, 866, 855, 844, 833, 822 only"
+
+# ZIP Codes (Zone Improvement Plan)
+postal_code:
+  name: "ZIP Code"
+  full_name: "Zone Improvement Plan Code"
+  country: "United States"
+  format: "^\\d{5}(-\\d{4})?$"
+  pattern_example: "94102"
+  extended_example: "94102-1234"  # ZIP+4
+  digits: 5  # Or 9 with +4
+  formatted_example: "94102-1234"
+  validation: "USPS (United States Postal Service)"
+  validation_url: "https://tools.usps.com/zip-code-lookup.htm"
+  
+  # Structure
+  structure:
+    digits_1_to_3: "Sectional Center Facility (SCF) - regional processing"
+    digits_4_to_5: "Post office or delivery zone"
+    digits_6_to_9: "Specific delivery route (ZIP+4)"
+    
+  # Ranges by Region
+  ranges_by_region:
+    Northeast: ["01000", "19999"]  # ME to NJ
+    Southeast: ["20000", "34999"]  # DC to FL
+    Midwest: ["35000", "54999"]  # MI to ND
+    South Central: ["55000", "79999"]  # TX to AR
+    Mountain: ["80000", "84999"]  # MT to NM
+    Pacific: ["85000", "99999"]  # AZ to AK/HI
+    
+  major_cities:
+    - zip: "94102"
+      city: "San Francisco"
+      state: "CA"
+      neighborhood: "Civic Center"
+      
+    - zip: "10001"
+      city: "New York"
+      state: "NY"
+      borough: "Manhattan"
+      
+    - zip: "90210"
+      city: "Beverly Hills"
+      state: "CA"
+      
+    - zip: "98101"
+      city: "Seattle"
+      state: "WA"
+      
+    - zip: "78701"
+      city: "Austin"
+      state: "TX"
+      
+  lookup_services:
+    - name: "USPS ZIP Code Lookup"
+      url: "https://tools.usps.com/zip-code-lookup.htm"
+      type: "Official"
+      requires_captcha: false
+      
+    - name: "Zippopotamus API"
+      url: "https://api.zippopotam.us/us/"
+      type: "REST API"
+      free: true
+      
+    - name: "Google Places API"
+      url: "https://developers.google.com/maps/documentation/places"
+      type: "Paid API"
+      
+# US Address Format
+address_format: |
+  {primary_number} {street_direction} {street_name} {street_type}
+  {secondary_address} (if applicable)
+  {city}, {state_abbreviation} {zip_code}
+  United States
+
+address_example: |
+  123 Main Street
+  Suite 100
+  San Francisco, CA 94102
+  United States
+
+# State Abbreviations
+states:
+  - code: "AL"
+    name: "Alabama"
+  - code: "AK"
+    name: "Alaska"
+  - code: "AZ"
+    name: "Arizona"
+  - code: "AR"
+    name: "Arkansas"
+  - code: "CA"
+    name: "California"
+    note: "Silicon Valley, Los Angeles, San Francisco"
+  - code: "CO"
+    name: "Colorado"
+  - code: "CT"
+    name: "Connecticut"
+  - code: "DE"
+    name: "Delaware"
+    note: "66% of Fortune 500 incorporated here"
+  - code: "FL"
+    name: "Florida"
+  - code: "GA"
+    name: "Georgia"
+  - code: "HI"
+    name: "Hawaii"
+  - code: "ID"
+    name: "Idaho"
+  - code: "IL"
+    name: "Illinois"
+    note: "Chicago tech hub"
+  - code: "IN"
+    name: "Indiana"
+  - code: "IA"
+    name: "Iowa"
+  - code: "KS"
+    name: "Kansas"
+  - code: "KY"
+    name: "Kentucky"
+  - code: "LA"
+    name: "Louisiana"
+  - code: "ME"
+    name: "Maine"
+  - code: "MD"
+    name: "Maryland"
+  - code: "MA"
+    name: "Massachusetts"
+    note: "Boston biotech/tech hub"
+  - code: "MI"
+    name: "Michigan"
+  - code: "MN"
+    name: "Minnesota"
+  - code: "MS"
+    name: "Mississippi"
+  - code: "MO"
+    name: "Missouri"
+  - code: "MT"
+    name: "Montana"
+  - code: "NE"
+    name: "Nebraska"
+  - code: "NV"
+    name: "Nevada"
+  - code: "NH"
+    name: "New Hampshire"
+  - code: "NJ"
+    name: "New Jersey"
+  - code: "NM"
+    name: "New Mexico"
+  - code: "NY"
+    name: "New York"
+    note: "Silicon Alley (NYC)"
+  - code: "NC"
+    name: "North Carolina"
+  - code: "ND"
+    name: "North Dakota"
+  - code: "OH"
+    name: "Ohio"
+  - code: "OK"
+    name: "Oklahoma"
+  - code: "OR"
+    name: "Oregon"
+  - code: "PA"
+    name: "Pennsylvania"
+  - code: "RI"
+    name: "Rhode Island"
+  - code: "SC"
+    name: "South Carolina"
+  - code: "SD"
+    name: "South Dakota"
+  - code: "TN"
+    name: "Tennessee"
+  - code: "TX"
+    name: "Texas"
+    note: "Austin Silicon Hills, Dallas, Houston"
+  - code: "UT"
+    name: "Utah"
+  - code: "VT"
+    name: "Vermont"
+  - code: "VA"
+    name: "Virginia"
+  - code: "WA"
+    name: "Washington"
+    note: "Seattle (Amazon, Microsoft)"
+  - code: "WV"
+    name: "West Virginia"
+  - code: "WI"
+    name: "Wisconsin"
+  - code: "WY"
+    name: "Wyoming"
+  - code: "DC"
+    name: "District of Columbia"
+    note: "Washington DC"
+
+# Time Zones (6 Zones)
+time_zones:
+  - name: "Eastern Time (ET)"
+    standard: "UTC-5"
+    daylight: "UTC-4 (EDT)"
+    states: ["NY", "FL", "GA", "NC", "SC", "VA", "WV", "DC", "ME", "NH", "VT", "MA", "RI", "CT", "NJ", "PA", "DE", "MD"]
+    major_cities: ["New York", "Miami", "Atlanta", "Washington DC"]
+    
+  - name: "Central Time (CT)"
+    standard: "UTC-6"
+    daylight: "UTC-5 (CDT)"
+    states: ["TX", "IL", "AL", "MS", "LA", "AR", "MO", "IA", "WI", "TN", "KY", "MN", "OK"]
+    major_cities: ["Chicago", "Dallas", "Houston", "New Orleans"]
+    
+  - name: "Mountain Time (MT)"
+    standard: "UTC-7"
+    daylight: "UTC-6 (MDT)"
+    states: ["MT", "WY", "UT", "CO", "NM", "ID (part)", "AZ (no DST)"]
+    major_cities: ["Denver", "Phoenix (no DST)"]
+    
+  - name: "Pacific Time (PT)"
+    standard: "UTC-8"
+    daylight: "UTC-7 (PDT)"
+    states: ["CA", "WA", "OR", "NV (part)"]
+    major_cities: ["Los Angeles", "San Francisco", "Seattle", "Portland"]
+    note: "Silicon Valley (San Francisco Bay Area) - UTC-8"
+    
+  - name: "Alaska Time (AKT)"
+    standard: "UTC-9"
+    daylight: "UTC-8 (AKDT)"
+    states: ["AK"]
+    
+  - name: "Hawaii-Aleutian Time (HAT)"
+    standard: "UTC-10"
+    daylight: "No daylight saving"
+    states: ["HI", "AK (Aleutian Islands)"]
+
+# Internet Infrastructure
+internet_infrastructure:
+  average_speed_mbps: 150.0
+  fiber_coverage_percent: 43.0
+  broadband_penetration_percent: 93.0
+  
+  isps:
+    - name: "Comcast Xfinity"
+      market_share_percent: 18.0
+      fiber_available: true
+      
+    - name: "Charter Spectrum"
+      market_share_percent: 16.0
+      fiber_available: false
+      
+    - name: "ATT"
+      market_share_percent: 14.0
+      fiber_available: true
+      
+    - name: "Verizon"
+      market_share_percent: 12.0
+      fiber_available: true
+      
+  cloud_providers:
+    - name: "AWS"
+      regions: ["us-east-1 (N. Virginia)", "us-west-1 (N. California)", "us-west-2 (Oregon)"]
+      launch: 2006
+      services: 300+
+      
+    - name: "Google Cloud"
+      regions: ["us-central1 (Iowa)", "us-east1 (S. Carolina)", "us-west1 (Oregon)"]
+      launch: 2011
+      services: 200+
+      
+    - name: "Microsoft Azure"
+      regions: ["East US (Virginia)", "West US (California)", "Central US (Iowa)"]
+      launch: 2010
+      services: 250+
+      
+    - name: "Oracle Cloud"
+      regions: ["US East (Ashburn)", "US West (Phoenix)"]
+      launch: 2019
+      services: 150+

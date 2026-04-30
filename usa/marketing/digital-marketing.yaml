@@ -1,0 +1,359 @@
+version: 1.0.0
+country: usa
+last_updated: 2026-04-30
+description: "Digital marketing platforms and channels for US businesses"
+
+# Ad Platforms (US Market)
+ad_platforms:
+  - name: "Google Ads"
+    headquarters: "Mountain View, CA (Silicon Valley)"
+    website: "https://ads.google.com"
+    market_share_percent: 28.0  # US digital ad market
+    formats: ["Search", "Display", "YouTube", "Shopping", "Discovery", "Performance Max"]
+    payment_methods: ["Credit Card", "Bank Account (ACH)"]
+    min_budget_usd_day: 10.00
+    api: "https://developers.google.com/google-ads"
+    certification: "Google Ads Certification (free)"
+    silicon_valley_note: "Google's own platform - deep integration with Google Cloud"
+    
+  - name: "Meta Ads (Facebook/Instagram)"
+    headquarters: "Menlo Park, CA (Silicon Valley)"
+    website: "https://www.facebook.com/business/ads"
+    market_share_percent: 21.0
+    formats: ["Feed", "Stories", "Reels", "Messenger", "WhatsApp Business"]
+    payment_methods: ["Credit Card", "PayPal"]
+    min_budget_usd_day: 5.00
+    api: "https://developers.facebook.com/docs/marketing-apis"
+    silicon_valley_note: "Meta's advertising backbone - massive user data"
+    
+  - name: "LinkedIn Ads"
+    headquarters: "Sunnyvale, CA (Silicon Valley)"
+    website: "https://business.linkedin.com/marketing-solutions"
+    market_share_percent: 3.5
+    target: "B2B"
+    formats: ["Sponsored Content", "Message Ads", "Dynamic Ads", "Text Ads"]
+    cost_per_click_usd: [5.00, 12.00]  # Higher than consumer platforms
+    api: "https://learn.microsoft.com/en-us/linkedin/marketing/"
+    silicon_valley_note: "Microsoft-owned, key for B2B tech lead gen"
+    
+  - name: "Amazon Ads"
+    headquarters: "Seattle, WA (Satellite office in SF)"
+    website: "https://advertising.amazon.com"
+    market_share_percent: 10.5
+    formats: ["Sponsored Products", "Sponsored Brands", "Display", "Video Ads"]
+    cost_per_click_usd: [0.50, 2.00]  # Lower than Google/Meta
+    api: "https://advertising.amazon.com/API"
+    note: "Fastest-growing ad platform (e-commerce focus)"
+    
+  - name: "Microsoft Ads (Bing)"
+    headquarters: "Redmond, WA"
+    website: "https://about.ads.microsoft.com"
+    market_share_percent: 2.5
+    formats: ["Search", "Audience Ads", "Shopping"]
+    cost_per_click_usd: [1.00, 4.00]  # Cheaper than Google
+    api: "https://docs.microsoft.com/en-us/bingads/"
+    
+  - name: "TikTok Ads"
+    us_hq: "Culver City, CA (Near Silicon Valley)"
+    website: "https://ads.tiktok.com"
+    market_share_percent: 4.5
+    growth_yoy_percent: 35.0
+    formats: ["In-Feed Ads", "TopView", "Branded Hashtag Challenge", "Spark Ads"]
+    api: "https://ads.tiktok.com/marketing-api/docs"
+    silicon_valley_appeal: "Key for Gen Z marketing (13-25 age group)"
+
+# Social Media Platforms (Popularity in US)
+social_media:
+  - platform: "YouTube"
+    owner: "Google (Mountain View, CA)"
+    users_millions: 245.0
+    penetration_percent: 72.0
+    business_features: ["YouTube Ads", "YouTube Shopping", "Super Chat", "Memberships"]
+    api: "https://developers.google.com/youtube"
+    silicon_valley_note: "Largest video platform, owned by Google"
+    
+  - platform: "Facebook"
+    owner: "Meta (Menlo Park, CA)"
+    users_millions: 190.0
+    penetration_percent: 56.0
+    business_features: ["Pages", "Groups", "Marketplace", "Ads Manager"]
+    api: "https://developers.facebook.com/docs"
+    
+  - platform: "Instagram"
+    owner: "Meta (Menlo Park, CA)"
+    users_millions: 170.0
+    penetration_percent: 50.0
+    business_features: ["Instagram Shopping", "Reels Ads", "Stories", "IGTV"]
+    api: "https://developers.facebook.com/docs/instagram-api"
+    
+  - platform: "TikTok"
+    us_hq: "Culver City, CA"
+    users_millions: 150.0
+    penetration_percent: 44.0
+    business_features: ["TikTok For Business", "Creator Marketplace", "Spark Ads"]
+    api: "https://developers.tiktok.com"
+    
+  - platform: "Snapchat"
+    headquarters: "Santa Monica, CA (Near Silicon Valley)"
+    users_millions: 110.0
+    penetration_percent: 32.0
+    business_features: ["Snap Ads", "Collection Ads", "Filters/Lenses"]
+    api: "https://developers.snap.com"
+    silicon_valley_appeal: "Strong among Gen Z (13-25)"
+    
+  - platform: "X (Twitter)"
+    headquarters: "San Francisco, CA (Silicon Valley)"
+    users_millions: 95.0
+    penetration_percent: 28.0
+    business_features: ["X Ads", "Promoted Tweets", "X Premium"]
+    api: "https://developer.x.com"
+    silicon_valley_note: "Headquartered in Twitter HQ (now X Corp)"
+    
+  - platform: "LinkedIn"
+    headquarters: "Sunnyvale, CA (Silicon Valley)"
+    users_millions: 200.0
+    penetration_percent: 59.0
+    business_features: ["Company Pages", "LinkedIn Ads", "Talent Solutions"]
+    api: "https://learn.microsoft.com/en-us/linkedin/"
+    note: "Microsoft-owned, #1 for B2B in US"
+
+# Email Marketing Tools
+email_marketing:
+  - tool: "HubSpot"
+    headquarters: "Cambridge, MA (Boston tech hub)"
+    website: "https://www.hubspot.com"
+    market_share_percent: 18.0
+    features: ["CRM", "Email Marketing", "Marketing Automation", "Sales Hub"]
+    pricing_usd_month: [20, 800, 3200]
+    api: "https://developers.hubspot.com"
+    notable_clients: ["Tesla", "Doordash", "Subaru"]
+    
+  - tool: "Mailchimp"
+    headquarters: "Atlanta, GA"
+    website: "https://mailchimp.com"
+    market_share_percent: 25.0
+    features: ["Email Campaigns", "Automation", "Landing Pages", "Creative Assistant (AI)"]
+    pricing_usd_month: [0, 13, 20, 350]
+    api: "https://mailchimp.com/developer/"
+    
+  - tool: "ActiveCampaign"
+    headquarters: "Chicago, IL"
+    website: "https://www.activecampaign.com"
+    market_share_percent: 12.0
+    features: ["CRM", "Automation", "Email Marketing", "Machine Learning"]
+    pricing_usd_month: [29, 149, 249]
+    
+  - tool: "Constant Contact"
+    headquarters: "Waltham, MA"
+    website: "https://www.constantcontact.com"
+    market_share_percent: 8.0
+    features: ["Email Marketing", "Event Marketing", "Surveys"]
+    pricing_usd_month: [12, 45, 80]
+    
+  - tool: "Salesforce Marketing Cloud"
+    headquarters: "San Francisco, CA (Silicon Valley)"
+    website: "https://www.salesforce.com"
+    market_share_percent: 15.0
+    features: ["Journey Builder", "Email Studio", "Social Studio", "Advertising Studio"]
+    pricing_usd_month: [400, 1500, 4000]
+    silicon_valley_note: "Salesforce HQ in SF, #1 CRM globally"
+
+# SEO and Analytics Tools
+analytics_tools:
+  - tool: "Google Analytics 4"
+    headquarters: "Mountain View, CA (Silicon Valley)"
+    website: "https://analytics.google.com"
+    market_share_percent: 85.0
+    features: ["Event tracking", "E-commerce tracking", "Consent Mode (CCPA compliance)"]
+    api: "https://developers.google.com/analytics"
+    pricing: "Free (up to 10M hits/month), then GA 360 ($150K/year)"
+    silicon_valley_note: "Google's own analytics - deep integration"
+    
+  - tool: "Google Tag Manager"
+    headquarters: "Mountain View, CA"
+    usage_percent: 75.0
+    description: "Tag management for pixels and scripts"
+    pricing: "Free"
+    
+  - tool: "Meta Pixel"
+    headquarters: "Menlo Park, CA (Silicon Valley)"
+    usage_percent: 65.0
+    description: "Facebook/Instagram conversion tracking"
+    pricing: "Free"
+    
+  - tool: "Hotjar"
+    headquarters: "San Francisco, CA (US office)"
+    usage_percent: 25.0
+    features: ["Heatmaps", "Session Recordings", "User Feedback", "Funnels"]
+    pricing_usd_month: [0, 99, 389]
+    
+  - tool: "Looker Studio (Google)"
+    headquarters: "Mountain View, CA"
+    usage_percent: 40.0
+    description: "Data dashboards and reports"
+    pricing: "Free (Pro version $9/month/user)"
+    
+  - tool: "Amplitude"
+    headquarters: "San Francisco, CA (Silicon Valley)"
+    website: "https://amplitude.com"
+    market_share_percent: 12.0
+    features: ["Product Analytics", "Behavioral Analytics", "Funnels", "Retention"]
+    pricing_usd_month: [0, 995, 2000]  # Free tier available
+    silicon_valley_note: "Popular with tech startups for product analytics"
+
+# Influencer Marketing
+influencer_marketing:
+  platforms:
+    - name: "Instagram"
+      influencer_tiers:
+        - name: "Nano"
+          followers: "1K-10K"
+          price_range_usd_post: "$10-100"
+        - name: "Micro"
+          followers: "10K-100K"
+          price_range_usd_post: "$100-500"
+        - name: "Macro"
+          followers: "100K-1M"
+          price_range_usd_post: "$500-5,000"
+        - name: "Mega"
+          followers: "1M+"
+          price_range_usd_post: "$5,000-100,000+"
+          
+    - name: "YouTube"
+      influencer_tiers:
+        - name: "Micro"
+          subscribers: "10K-100K"
+          price_range_usd_video: "$500-3,000"
+        - name: "Macro"
+          subscribers: "100K-1M"
+          price_range_usd_video: "$3,000-20,000"
+        - name: "Mega"
+          subscribers: "1M+"
+          price_range_usd_video: "$20,000-500,000+"
+          
+    - name: "TikTok"
+      growth_yoy_percent: 200.0
+      influencer_tiers:
+        - name: "Micro"
+          followers: "10K-100K"
+          price_range_usd_video: "$200-1,000"
+          
+  agencies: ["Viral Nation", "Mediakix", "NeoReach", "AspireIQ"]
+  
+  disclosure_law: "FTC Guides Concerning Use of Endorsements and Testimonials"
+  requirement: "Must disclose #ad or #sponsored clearly"
+  penalties_max_usd: "Varies (FTC enforcement)"
+
+# Affiliate Marketing
+affiliate_marketing:
+  networks:
+    - name: "Amazon Associates"
+      website: "https://associates.amazon.com"
+      market_share_percent: 45.0
+      commission_percent: [1.0, 10.0]  # Varies by category
+      cookie_duration_days: 24  # Hours (1 day)
+      
+    - name: "ShareASale"
+      website: "https://www.shareasale.com"
+      market_share_percent: 15.0
+      commission_percent: [5.0, 30.0]
+      cookie_duration_days: 30
+      
+    - name: "Rakuten Advertising"
+      website: "https://rakutenadvertising.com"
+      market_share_percent: 12.0
+      commission_percent: [3.0, 20.0]
+      
+    - name: "CJ Affiliate (Commission Junction)"
+      website: "https://www.cj.com"
+      market_share_percent: 18.0
+      commission_percent: [5.0, 25.0]
+      cookie_duration_days: 30
+  
+  cookie_duration_days: 30  # Standard market
+  disclosure_requirement: "FTC requires clear affiliate disclosure"
+
+# Local SEO
+local_seo:
+  google_business_profile: "Google Business Profile (essential for local SEO)"
+  importance_percent: "Local searches lead to store visits within 24h: 76%"
+  
+  local_directories:
+    - "Google Maps"
+    - "Yelp (San Francisco, CA - founded)"
+    - "Facebook Pages"
+    - "Yellow Pages (YP.com)"
+    - "Better Business Bureau (BBB)"
+    
+  review_importance: "4.5+ stars increases conversion by 35% (similar to Brazil)"
+
+# Marketing Budgets (Benchmarks)
+marketing_budgets:
+  small_business_usd_month: [500, 3000]
+  medium_business_usd_month: [3000, 20000]
+  large_business_usd_month: [20000, 500000]
+  
+  channel_allocation_percent:
+    search_ads: 30.0  # Google Ads
+    social_ads: 28.0  # Meta, LinkedIn, TikTok
+    display_ads: 12.0
+    email_marketing: 10.0
+    content_marketing_seo: 10.0
+    other: 10.0
+    
+  cpc_benchmarks_usd:
+    google_search_ave: 2.50
+    meta_facebook_ave: 0.90
+    meta_instagram_ave: 1.10
+    linkedin_ave: 5.50
+    microsoft_bing_ave: 1.50
+    amazon_ads_ave: 0.75
+    
+# MarTech Stack (Silicon Valley Standard)
+martech_stack_silicon_valley:
+  - category: "CRM"
+    tools: ["Salesforce (SF)", "HubSpot", "Pipedrive", "Close (SF)"]
+    
+  - category: "Marketing Automation"
+    tools: ["HubSpot", "Marketo (Adobe - SF)", "Pardot (Salesforce)", "ActiveCampaign"]
+    
+  - category: "Analytics"
+    tools: ["Google Analytics 4", "Amplitude (SF)", "Mixpanel (SF)", "Heap"]
+    
+  - category: "Email"
+    tools: ["HubSpot", "Mailchimp", "SendGrid (Twilio - SF)", "Customer.io"]
+    
+  - category: "Social Media Management"
+    tools: ["Hootsuite (Vancouver but strong SV)", "Buffer", "Sprout Social", "Later"]
+    
+  - category: "SEO"
+    tools: ["SEMrush (Boston)", "Ahrefs", "Moz", "Google Search Console"]
+    
+# AI Marketing Trends (2026)
+ai_marketing_trends:
+  - trend: "Generative AI Content Creation (GPT-4, Claude)"
+    adoption_percent: 55.0
+    tools: ["ChatGPT", "Jasper (Austin, TX)", "Copy.ai (SF)", "Writesonic"]
+    silicon_valley_note: "OpenAI (SF), Anthropic (SF) leading the charge"
+    
+  - trend: "AI-Powered Personalization"
+    adoption_percent: 40.0
+    tools: ["Dynamic Yield (McDonald's - Chicago)", "Nosto (SF)", "Barilliance"]
+    
+  - trend: "Predictive Analytics & Churn"
+    adoption_percent: 30.0
+    tools: ["Amplitude (SF)", "Mixpanel (SF)", "Heap", "Pendo (Raleigh)"]
+    
+  - trend: "AI Chatbots & Customer Service"
+    adoption_percent: 50.0
+    tools: ["Intercom (SF)", "Drift (Boston)", "HubSpot Chatbot", "Ada (Toronto - US office)"]
+    silicon_valley_note: "Intercom HQ in SF, key for SaaS support"
+    
+  - trend: "Programmatic Advertising (AI Bidding)"
+    adoption_percent: 70.0
+    tools: ["Google Ads (automated)", "The Trade Desk (Ventura, CA)", "MediaMath"]
+    
+  - trend: "Voice Search Optimization"
+    adoption_percent: 25.0
+    tools: ["Alexa (Amazon - Seattle)", "Google Assistant (MTV)", "Siri (Apple - Cupertino)"]
+    silicon_valley_note: "All major voice assistants HQ'd in Silicon Valley area"

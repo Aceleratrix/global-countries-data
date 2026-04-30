@@ -1,0 +1,253 @@
+version: 1.0.0
+country: usa
+last_updated: 2026-04-30
+description: "Population demographics and statistics for the United States"
+
+# Total Population (2026 Estimate)
+total_population: 340110988
+source: "US Census Bureau"
+reference_date: "2026-01-01"
+
+# Gender
+gender:
+  male: 169155042
+  female: 170955946
+  male_percent: 49.7
+  female_percent: 50.3
+
+# Age Groups
+age_groups:
+  - range: "0-14"
+    population: 61220000
+    percent: 18.0
+  - range: "15-29"
+    population: 68020000
+    percent: 20.0
+  - range: "30-44"
+    population: 72000000
+    percent: 21.2
+  - range: "45-59"
+    population: 68000000
+    percent: 20.0
+  - range: "60+"
+    population: 70870988
+    percent: 20.8
+
+# Median Age
+median_age: 38.9
+dependency_ratio: 52.3  # Per 100 working-age adults
+birth_rate_per_1000: 11.0
+death_rate_per_1000: 8.3
+life_expectancy_years: 77.5
+
+# Population by Region
+regions:
+  - name: "Northeast"
+    states: ["ME", "NH", "VT", "MA", "RI", "CT", "NY", "NJ", "PA"]
+    population: 57300000
+    percent: 16.9
+    economic_focus: "Finance (NYC), Education, Healthcare, Tech (Boston)"
+    
+  - name: "Midwest"
+    states: ["OH", "MI", "IN", "WI", "IL", "MN", "IA", "MO", "ND", "SD", "NE", "KS"]
+    population: 68900000
+    percent: 20.3
+    economic_focus: "Manufacturing, Agriculture, Tech (Chicago)"
+    
+  - name: "South"
+    states: ["DE", "MD", "DC", "VA", "WV", "KY", "TN", "NC", "SC", "GA", "FL", "AL", "MS", "AR", "LA", "OK", "TX"]
+    population: 128100000
+    percent: 37.7
+    economic_focus: "Energy (TX), Aerospace (TX/FL), Tech (Austin, Atlanta)"
+    
+  - name: "West"
+    states: ["MT", "ID", "WY", "CO", "NM", "AZ", "UT", "NV", "WA", "OR", "CA", "AK", "HI"]
+    population: 86000000
+    percent: 25.3
+    economic_focus: "Tech (Silicon Valley, Seattle), Entertainment (LA), Agriculture"
+    
+# Most Populous States
+top_states:
+  - state: "CA"
+    name: "California"
+    population: 39000000
+    note: "Silicon Valley (San Francisco Bay Area), Los Angeles, San Diego"
+    
+  - state: "TX"
+    name: "Texas"
+    population: 30500000
+    note: "Austin (Silicon Hills), Dallas, Houston, San Antonio"
+    
+  - state: "FL"
+    name: "Florida"
+    population: 22500000
+    note: "Miami, Orlando, Tampa"
+    
+  - state: "NY"
+    name: "New York"
+    population: 19500000
+    note: "New York City (Silicon Alley)"
+    
+  - state: "PA"
+    name: "Pennsylvania"
+    population: 13000000
+    
+# Languages
+languages:
+  primary:
+    code: "en-US"
+    name: "English (American English)"
+    speakers: 258000000
+    percent: 78.5
+    
+  secondary:
+    - code: "es-US"
+      name: "Spanish"
+      speakers: 41600000
+      percent: 13.7
+      context: "Largest minority language, concentrated in CA, TX, FL, NY"
+      
+    - code: "zh-US"
+      name: "Chinese (Mandarin + Cantonese)"
+      speakers: 3500000
+      percent: 1.1
+      context: "Tech workforce, Silicon Valley"
+      
+    - code: "ta-US"
+      name: "Tagalog (Filipino)"
+      speakers: 1700000
+      percent: 0.6
+      
+    - code: "vi-US"
+      name: "Vietnamese"
+      speakers: 1500000
+      percent: 0.5
+      
+    - code: "fr-US"
+      name: "French (including Cajun)"
+      speakers: 1200000
+      percent: 0.4
+      
+    - code: "ar-US"
+      name: "Arabic"
+      speakers: 1100000
+      percent: 0.4
+      
+  indigenous_languages:
+    count: 169
+    speakers_total: 370000
+    main_languages: ["Navajo", "Yupik", "Sioux", "Apache"]
+
+# Time Zones
+time_zones_used: 6  # Eastern, Central, Mountain, Pacific, Alaska, Hawaii-Aleutian
+continental_us_zones: 4  # Eastern, Central, Mountain, Pacific
+
+# Population Density
+density_per_km2: 36.3
+urban_population_percent: 82.8
+rural_population_percent: 17.2
+
+# Social Indicators (2025)
+social_indicators:
+  literacy_rate_percent: 99.0
+  gini_index: 48.5  # Income inequality (0 = equal, 100 = unequal)
+  hdi: 0.921  # Human Development Index (Very High)
+  poverty_rate_percent: 11.5  # Federal poverty threshold (~$15,000 for individual)
+  
+# Religion (Pew Research 2023)
+religion:
+  christian_percent: 63.0
+  evangelical_percent: 25.0
+  catholic_percent: 21.0
+  unaffiliated_percent: 29.0
+  other_faiths_percent: 8.0
+
+# Ethnicity (2025 Estimate)
+ethnicity:
+  white_alone_percent: 59.3
+  hispanic_latino_percent: 19.5
+  black_alone_percent: 13.6
+  asian_alone_percent: 6.3
+  two_or_more_races_percent: 2.4
+  american_indian_alaska_native_percent: 1.3
+  native_hawaiian_pacific_islander_percent: 0.3
+  
+# Tech Demographics (Relevant for AI First Businesses)
+tech_demographics:
+  silicon_valley_population: 7700000  # SF Bay Area
+  silicon_valley_income_median_usd: 118000  # Much higher than national ($74000)
+  
+  tech_workforce: 6100000  # Nationwide
+  silicon_valley_tech_workers: 380000
+  
+  stem_degrees_annual: 950000  # Bachelor's or higher
+  h1b_visas_annual: 85000  # Cap (not all tech, but many are)
+  
+  broadband_access_percent: 93.0
+  smartphone_penetration_percent: 85.0
+  
+# Income Levels (Household Median)
+income_levels:
+  median_household_income_usd: 74580
+  silicon_valley_median_usd: 118000  # San Francisco Bay Area
+  austin_texas_median_usd: 83000
+  seattle_wa_median_usd: 95000
+  
+  income_brackets_percent:
+    under_25000: 22.0
+    "25000-49999": 23.0
+    "50000-74999": 19.0
+    "75000-99999": 14.0
+    "100000-149999": 13.0
+    "150000+": 9.0
+
+# Consumer Behavior (For AI First Businesses)
+consumer_behavior:
+  internet_penetration_percent: 93.0
+  smartphone_penetration_percent: 85.0
+  ecommerce_growth_yoy_percent: 12.0
+  
+  preferred_payment_methods:
+    - "Credit Cards (40%)"
+    - "Debit Cards (25%)"
+    - "PayPal/Stripe (15%)"
+    - "Digital Wallets - Apple Pay, Google Pay (12%)"
+    - "ACH/Bank Transfer (5%)"
+    - "Buy Now Pay Later - Affirm, Klarna (3%)"
+    
+  online_shopping_frequency:
+    weekly_percent: 28.0
+    monthly_percent: 45.0
+    rarely_percent: 27.0
+    
+  preferred_contact_channels:
+    - "Email (88%)"
+    - "Phone (65%)"
+    - "Live Chat (42%)"
+    - "SMS Text (35%)"
+    - "WhatsApp (12% - mostly immigrant communities)"
+    
+# Education Levels
+education:
+  bachelor_degree_or_higher_percent: 37.9
+  high_school_diploma_percent: 90.3
+  advanced_degree_percent: 14.4  # Master's, PhD, Professional
+  
+  top_universities_for_tech:
+    - "Stanford University (Silicon Valley)"
+    - "MIT (Massachusetts)"
+    - "Carnegie Mellon (Pittsburgh)"
+    - "UC Berkeley (Silicon Valley)"
+    - "California Institute of Technology (Caltech)"
+    - "University of Washington (Seattle)"
+    - "Georgia Tech (Atlanta)"
+    - "University of Texas at Austin"
+    
+# Immigration (H-1B for Tech)
+immigration:
+  foreign_born_population_percent: 13.7
+  h1b_visa_cap: 85000  # Annual cap
+  h1b_top_sponsors_tech: ["Amazon", "Microsoft", "Google", "Meta", "Apple"]
+  
+  silicon_valley_foreign_born_percent: 38.0  # Much higher than national average
+  faang_foreign_workers_percent: 35.0  # Estimated for Facebook, Amazon, Apple, Netflix, Google

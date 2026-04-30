@@ -1,0 +1,308 @@
+version: 1.0.0
+country: usa
+last_updated: 2026-04-30
+description: "Internet legal framework and privacy laws (LGPD/GDPR equivalents)"
+
+# Section 230 of the Communications Decency Act (1996)
+section_230:
+  law: "47 U.S.C. § 230"
+  passed: 1996
+  description: "Protects online platforms from liability for user-generated content"
+  nickname: "The 26 words that created the internet"
+  
+  key_provisions:
+    - "No provider or user of an interactive computer service shall be treated as the publisher or speaker of any information provided by another information content provider"
+    - "Platforms can moderate content in good faith without losing immunity"
+  
+  text: "No provider or user of an interactive computer service shall be treated as the publisher or speaker of any information provided by another information content provider."
+  
+  impact_for_ai:
+    - "AI platforms hosting user content are protected from liability"
+    - "Chatbots and AI agents have legal safe harbor"
+    - "Section 230(c)(1) - Publisher immunity"
+    - "Section 230(c)(2) - Good Samaritan blocking"
+  
+  controversies_2026:
+    - "Ongoing debates about AI-generated content liability"
+    - "Proposals to reform for algorithmic amplification"
+    - "State laws attempting to modify (Texas, Florida - stayed by SCOTUS)"
+  
+  ftc_enforcement: true
+  platform_responsibility: "Self-regulation with FTC oversight"
+
+# Digital Millennium Copyright Act (DMCA) - 1998
+dmca:
+  law: "Digital Millennium Copyright Act of 1998"
+  description: "Copyright protection for digital content"
+  
+  key_provisions:
+    - "Safe harbor for OSPs (Online Service Providers) - 17 U.S.C. § 512"
+    - "Anti-circumvention of DRM - 17 U.S.C. § 1201"
+    - "Notice and takedown system"
+  
+  safe_harbors:
+    - "Transitory communications (§ 512(a))"
+    - "System caching (§ 512(b))"
+    - "Storage of information (§ 512(c)) - most common for platforms"
+    - "Information location tools (§ 512(d))"
+  
+  ai_implications:
+    - "AI training on copyrighted data - fair use debates"
+    - "Generative AI output - copyrightability questions"
+    - "Platform liability for AI-generated infringement"
+  
+  takedown_process_days: 10
+  counter_notice_days: 10
+  restore_after_counter_days: 10
+
+# Federal Privacy Laws (Sectoral Approach - No Federal GDPR/LGPD Yet)
+federal_privacy_laws:
+  status: "No comprehensive federal privacy law (unlike GDPR/LGPD)"
+  approach: "Sectoral - different laws for different industries"
+  pending_federal_bill: "American Privacy Rights Act (APRA) - pending 2026"
+  
+  # Health Insurance Portability and Accountability Act (1996)
+  - law: "HIPAA (Health Insurance Portability and Accountability Act)"
+    passed: 1996
+    effective: 2003
+    regulator: "HHS (Department of Health and Human Services)"
+    url: "https://www.hhs.gov/hipaa"
+    
+    covers:
+      - "Healthcare providers (doctors, hospitals)"
+      - "Health plans (insurance, HMOs)"
+      - "Healthcare clearinghouses"
+      - "Business associates (vendors handling PHI)"
+    
+    protected_data: "PHI (Protected Health Information)"
+    penalties_max_usd: 2500000  # Per violation
+    penalties_max_criminal_usd: 250000  # + 10 years imprisonment
+    
+    ai_implications:
+      - "AI health diagnostics must be HIPAA-compliant"
+      - "Patient data anonymization requirements"
+      - "BAA (Business Associate Agreement) required for AI vendors"
+    
+  # Gramm-Leach-Bliley Act (1999)
+  - law: "GLBA (Gramm-Leach-Bliley Act)"
+    passed: 1999
+    regulator: "FFIEC (Federal Financial Institutions Examination Council)"
+    covers: "Financial institutions (banks, credit unions, securities firms)"
+    
+    protected_data: "NPI (Nonpublic Personal Information)"
+    requirements:
+      - "Financial Privacy Rule - disclosure of info sharing"
+      - "Safeguards Rule - data security program"
+      - "Pretexting Protection - prevent fake access"
+    
+    ai_implications:
+      - "AI credit scoring must comply with GLBA"
+      - "FinTech chatbots handling financial data"
+      
+  # Children's Online Privacy Protection Act (1998)
+  - law: "COPPA (Children's Online Privacy Protection Act)"
+    passed: 1998
+    regulator: "FTC (Federal Trade Commission)"
+    url: "https://www.ftc.gov/business-guidance/privacy-security/children"
+    
+    covers: "Children under 13 years old"
+    requirements:
+      - "Verifiable parental consent before collecting data"
+      - "Clear privacy policy for children"
+      - "Limited data collection (only what's necessary)"
+      
+    penalties_max_usd: 52000  # Per violation
+    
+    ai_implications:
+      - "AI chatbots for kids must comply (e.g., YouTube Kids)"
+      - "Age verification challenges for AI platforms"
+      
+  # Fair Credit Reporting Act (1970, amended)
+  - law: "FCRA (Fair Credit Reporting Act)"
+    covers: "Consumer reporting agencies (credit bureaus, background check companies)"
+    rights:
+      - "Access credit report annually for free"
+      - "Dispute inaccurate information"
+      - "Opt-out of prescreening offers"
+      
+    ai_implications:
+      - "AI credit decisioning must comply with FCRA"
+      - "Adverse action notices required"
+
+# State Privacy Laws (LGPD/GDPR Equivalents at State Level)
+state_privacy_laws:
+  description: "15+ states have enacted comprehensive privacy laws (2026)"
+  
+  california:
+    law: "CCPA/CPRA (California Consumer Privacy Act / California Privacy Rights Act)"
+    passed: 2018 (CCPA), 2020 (CPRA)
+    effective: 2020 (CCPA), 2023 (CPRA)
+    regulator: "CPRA (California Privacy Protection Agency)"
+    url: "https://cppa.ca.gov"
+    
+    scope: "Businesses with $25M+ revenue OR 100K+ consumers OR 50%+ revenue from data sales"
+    
+    consumer_rights:
+      - "Right to know what data is collected"
+      - "Right to delete personal information"
+      - "Right to opt-out of sale/sharing"
+      - "Right to non-discrimination"
+      - "Right to correct inaccurate data (CPRA)"
+      - "Right to limit use of sensitive personal information (CPRA)"
+      
+    penalties_max_usd: 7500  # Per intentional violation
+    private_right_of_action: true  # For data breaches
+    
+    ai_implications:
+      - "Automated decision-making opt-out (CPRA)"
+      - "Profiling disclosure requirements"
+      - "Businesses must honor 'Do Not Sell My Info' signals"
+      
+  virginia:
+    law: "VCDPA (Virginia Consumer Data Protection Act)"
+    passed: 2021
+    effective: 2023
+    regulator: "Virginia Attorney General"
+    similar_to: "CCPA but no private right of action"
+    
+  colorado:
+    law: "ColoPA (Colorado Privacy Act)"
+    passed: 2021
+    effective: 2023
+    regulator: "Colorado Attorney General"
+    
+  connecticut:
+    law: "CTDPA (Connecticut Data Privacy Act)"
+    passed: 2022
+    effective: 2023
+    
+  utah:
+    law: "UCPA (Utah Consumer Privacy Act)"
+    passed: 2022
+    effective: 2023
+    
+  iowa:
+    law: "CDPA (Iowa Consumer Data Protection Act)"
+    passed: 2023
+    effective: 2025
+    weaker_than: "CCPA/CPRA"
+    
+  other_states_2026: ["Montana", "Oregon", "Texas", "Florida", "Tennessee", "Indiana"]
+
+# FTC (Federal Trade Commission) Enforcement
+ftc_privacy_enforcement:
+  authority: "Section 5 of FTC Act - unfair or deceptive practices"
+  penalties_2026_max_usd: 50000  # Per violation per day
+  
+  recent_cases_ai:
+    - "Algorithmic discrimination (biased AI hiring tools)"
+    - "Deceptive AI marketing claims"
+    - "Failure to secure consumer data (breach notification)"
+    
+  safe_harbors:
+    - "EU-US Data Privacy Framework (successor to Privacy Shield)"
+    - "APEC Cross-Border Privacy Rules (CBPR)"
+    - "Standard Contractual Clauses (SCCs)"
+
+# Wiretap Act & Electronic Communications Privacy Act (ECPA)
+wiretap_ecpa:
+  law: "ECPA (Electronic Communications Privacy Act of 1986)"
+  covers: "Interception of electronic communications"
+  
+  stora_protection:
+    - "Content in electronic storage < 180 days: warrant required"
+    - "Content in electronic storage > 180 days: warrant OR subpoena"
+    
+  ai_implications:
+    - "AI voice assistants (Alexa, Siri) - warrant requirements"
+    - "Cloud AI services - data access by government"
+
+# CAN-SPAM Act (2003)
+can_spam:
+  law: "Controlling the Assault of Non-Solicited Pornography And Marketing Act"
+  regulator: "FTC"
+  requirements:
+    - "Clear identification as an ad"
+    - "Valid physical postal address"
+    - "Clear opt-out mechanism (honor within 10 days)"
+    - "No deceptive subject lines"
+    
+  penalties_max_usd: 53253  # Per email violation
+  
+  ai_implications:
+    - "AI-generated marketing emails must comply"
+    - "Chatbot opt-out mechanisms required"
+
+# Silicon Valley & Tech-Specific Legal Environment
+silicon_valley_legal:
+  headquarters_state: "California (CA)"
+  applicability: "Most major tech companies (Apple, Google, Meta, Netflix, etc.)"
+  
+  california_laws_applicable:
+    - "CCPA/CPRA (privacy)"
+    - "California Labor Code (employment)"
+    - "California Consumer Legal Remedies Act"
+    - "Unfair Competition Law (UCL)"
+    
+  delaware_incorporation:
+    description: "66% of Fortune 500 incorporated in Delaware (business-friendly)"
+    benefits: ["No state corporate income tax for non-DE operations", "Court of Chancery (specialized business court)", "Flexible corporate law"]
+    
+  remote_work_laws:
+    - "No federal mandate for remote work"
+    - "State laws vary (CA has strict overtime, TX is at-will)"
+    - "Cross-state remote work creates tax nexus issues"
+
+# AI-Specific Regulations (Emerging 2026)
+ai_regulation_federal:
+  status: "No comprehensive federal AI law (yet)"
+  executive_order: "EO 14110 - Safe, Secure, and Trustworthy AI (October 2023)"
+  
+  nist_ai_rmf:
+    name: "NIST AI Risk Management Framework (AI RMF 1.0)"
+    released: "January 2023"
+    url: "https://www.nist.gov/itl/ai-risk-management-framework"
+    approach: "Voluntary, not mandatory"
+    
+  sectoral_ai_rules:
+    - "FDA - AI/ML in medical devices (2026 guidance)"
+    - "EEOC - AI hiring tools (algorithmic bias)"
+    - "CFPB - AI in consumer finance"
+    
+  state_ai_laws:
+    - "Colorado AI Act (2024) - first comprehensive state AI law"
+    - "California - AI transparency requirements (pending)"
+    
+  ai_agent_liability:
+    status: "Evolving case law - no clear federal framework"
+    section_230_applies: true  # For user-facing AI platforms
+    product_liability: "Traditional tort law applies (negligence, strict liability)"
+
+# Data Breach Notification
+breach_notification:
+  federal: "No single federal law - sectoral (HIPAA, GLBA have their own)"
+  state_laws: "50 states have breach notification laws"
+  
+  california:
+    law: "California Shine the Light Act + CCPA"
+    notification_timeline: "Without unreasonable delay (typically 72 hours)"
+    penalties: "Up to $7,500 per violation (CCPA)"
+    
+  new_york:
+    law: "SHIELD Act (2020)"
+    requirements: "Reasonable security measures + notification within 72 hours"
+
+# Cross-Border Data Transfers
+cross_border_transfers:
+  eu_us_framework: "EU-US Data Privacy Framework (2026) - successor to Privacy Shield"
+  adequacy_decision: "EU Commission adequacy decision (July 2023)"
+  
+  restrictions:
+    - "Cloud Act (2018) - US govt can access data stored by US providers globally"
+    - "China data localization - conflicts with Cloud Act"
+    
+  standard_contractual_clauses: "SCCs still valid for non-adequate countries"
+  
+  ai_data_implications:
+    - "Training data stored in US cloud (AWS, GCP, Azure) - subject to Cloud Act"
+    - "EU user data processed by US AI companies - must comply with DPF"

@@ -1,0 +1,316 @@
+version: 1.0.0
+country: usa
+last_updated: 2026-04-30
+description: "Commercial real estate and coworking spaces in US tech hubs"
+
+# Commercial Office Districts (Major Tech Hubs)
+commercial_real_estate:
+  - city: "San Francisco, CA (Silicon Valley - SF Peninsula)"
+      regions:
+        - name: "SoMa (South of Market)"
+          class: "A+"
+          price_usd_sqf_year: [120, 180]
+          price_usd_sqm_year: [1290, 1940]
+          vacancy_rate_percent: 28.0  # Post-COVID high
+          note: "Twitter (X), Airbnb, Uber HQed here"
+          
+        - name: "Financial District"
+          class: "A+"
+          price_usd_sqf_year: [100, 160]
+          price_usd_sqm_year: [1075, 1720]
+          
+        - name: "Mission Bay (UCSF/healthtech)"
+          class: "A"
+          price_usd_sqf_year: [85, 140]
+          price_usd_sqm_year: [915, 1510]
+          note: "Biotech hub, UCSF campus"
+          
+      note: "Silicon Valley core - highest vacancy in a decade (2026)"
+      
+  - city: "San Jose, CA (Silicon Valley - South Bay)"
+      regions:
+        - name: "Downtown San Jose"
+          class: "A"
+          price_usd_sqf_year: [75, 120]
+          price_usd_sqm_year: [805, 1290]
+          vacancy_rate_percent: 22.0
+          note: "Adobe HQ, eBay, Cisco nearby"
+          
+        - name: "North San Jose (Airport area)"
+          class: "B"
+          price_usd_sqf_year: [55, 90]
+          price_usd_sqm_year: [590, 970]
+          
+  - city: "Palo Alto, CA (Venture Capital Heart)"
+      regions:
+        - name: "University Avenue / Downtown"
+          class: "A+"
+          price_usd_sqf_year: [150, 220]
+          price_usd_sqm_year: [1615, 2370]
+          note: "Sequoia Capital, Facebook (original HQ), Tesla"
+          
+  - city: "Mountain View, CA (GooglePlex)"
+      regions:
+        - name: "Shoreline Boulevard"
+          class: "A+"
+          price_usd_sqf_year: [130, 200]
+          price_usd_sqm_year: [1400, 2155]
+          note: "Google HQ (Googleplex), LinkedIn HQ"
+          
+  - city: "Menlo Park, CA (Facebook/Meta)"
+      regions:
+        - name: "Sand Hill Road (VC Alley)"
+          class: "A+"
+          price_usd_sqf_year: [140, 210]
+          price_usd_sqm_year: [1510, 2260]
+          note: "Meta HQ, Sequoia, KPCB, Andreessen Horowitz"
+          
+  - city: "New York City, NY (Silicon Alley)"
+      regions:
+        - name: "Manhattan - Midtown"
+          class: "A+"
+          price_usd_sqf_year: [110, 180]
+          price_usd_sqm_year: [1185, 1940]
+          note: "Google NYC, Meta NYC, Amazon NYC"
+          
+        - name: "Brooklyn - Dumbo/Williamsburg"
+          class: "A"
+          price_usd_sqf_year: [75, 130]
+          price_usd_sqm_year: [805, 1400]
+          note: "Tech startups, creative agencies"
+          
+  - city: "Seattle, WA (Cloud City)"
+      regions:
+        - name: "South Lake Union (Amazon Spheres)"
+          class: "A+"
+          price_usd_sqf_year: [95, 150]
+          price_usd_sqm_year: [1025, 1615]
+          note: "Amazon HQ, Google Seattle, Facebook Seattle"
+          
+  - city: "Austin, TX (Silicon Hills)"
+      regions:
+        - name: "Downtown / 2nd Street"
+          class: "A"
+          price_usd_sqf_year: [65, 110]
+          price_usd_sqm_year: [700, 1185]
+          note: "Tesla Gigafactory nearby, Oracle HQ"
+          
+  - city: "Boston, MA (Route 128 / Kendall Square)"
+      regions:
+        - name: "Kendall Square (Cambridge)"
+          class: "A+"
+          price_usd_sqf_year: [110, 170]
+          price_usd_sqm_year: [1185, 1830]
+          note: "MIT, biotech, HubSpot, Google Cambridge"
+
+# Coworking Chains (National)
+coworking_chains:
+  - name: "WeWork"
+    headquarters: "New York, NY"
+    locations_count: 800+  # US-wide
+    silicon_valley_locations: 45  # SF, San Jose, Palo Alto, etc.
+    pricing_usd_person_month: [450, 1200]
+    features: ["Meeting rooms included", "Coffee", "Printing", "Events", "Phone booths"]
+    silicon_valley_note: "Still dominant despite 2023 bankruptcy/restructuring"
+    
+  - name: "Regus / Spaces"
+    headquarters: "Luxembourg (US HQ: Dallas, TX)"
+    locations_count: 3000+  # US (franchise model)
+    pricing_usd_person_month: [350, 1500]
+    features: ["Flexible terms", "Professional environments", "Reception services"]
+    
+  - name: "Industrious"
+    headquarters: "Chicago, IL"
+    locations_count: 175+  # US
+    silicon_valley_locations: 8
+    pricing_usd_person_month: [400, 1100]
+    features: ["Premium design", "Community events", "Wellness"]
+    target: "Established companies, not early startups"
+    
+  - name: "Knotel (now part of Industrious)"
+    headquarters: "New York, NY"
+    pricing_usd_person_month: [500, 1400]
+    note: "Flexible office solutions"
+    
+  - name: "Hacker Dojo"
+    headquarters: "San Francisco, CA (Silicon Valley)"
+    locations_count: 5  # Mostly SF Bay Area
+    pricing_usd_person_month: [200, 600]
+    features: ["Tech-focused", "24/7 access", "Very basic"]
+    target: "Developers, early-stage startups"
+    silicon_valley_note: "Founded in SF, core hacker/startup culture"
+    
+  - name: "RocketSpace"
+    headquarters: "San Francisco, CA"
+    locations_count: 3  # SF, NYC, London
+    pricing_usd_person_month: [600, 1500]
+    features: ["Startup-focused", "Mentorship", "Investor access"]
+    silicon_valley_note: "SF HQ, helped launch 1000+ startups"
+    
+  - name: "Google for Startups Campus"
+    headquarters: "Mountain View, CA"
+    locations_count: 1  # Google's own campus
+    pricing_usd_person_month: 0  # Free
+    features: ["Google mentorship", "Cloud credits", "Networking"]
+    eligibility: "Selected startups only (application required)"
+    
+  - name: "Coworking Collectives (Independent)"
+    count_estimate: 2500+  # US-wide
+    description: "Independent spaces in almost all mid-sized cities"
+    silicon_valley_count: 150+  # Many in SF Bay Area
+
+# Zoning (Commercial)
+zoning:
+  zones:
+    - "C-1 (Local Commercial) - Neighborhood shops, small offices"
+    - "C-2 (General Commercial) - Larger offices, retail, restaurants"
+    - "C-3 (Central Commercial) - High-rise offices, downtown cores"
+    - "I (Industrial) - Warehouses, manufacturing, logistics"
+    - "M (Mixed-Use) - Residential + Commercial allowed"
+    
+  home_office: "Allowed in residential zones (up to a point - no client visits in R-1)"
+  silicon_valley_specific:
+    - "Mixed-use developments common (live/work lofts in SF)"
+    - "Strict zoning in Palo Alto (preserves residential character)"
+    - "San Francisco allows most residential for home office"
+
+# Property Taxes
+property_taxes:
+  - tax: "Property Tax (Ad Valorem)"
+    authority: "County Assessors"
+    rate_percent: [0.6, 2.5]  # Varies by county/state
+    assessment: "Market value (some states limit increases - Prop 13 in CA)"
+    due_dates: "1-4 installments (varies by county)"
+    
+  - tax: "Transfer Tax (Recordation Tax)"
+    authority: "Counties/Cities"
+    rate_percent: [0.1, 3.3]  # Per $500 of sale price
+    note: "San Francisco: 0.11% city + 0.56% county = 0.67% total"
+    
+  - tax: "Capital Gains Tax (Federal + State)"
+    federal_rate_percent: [0.0, 20.0]  # Based on income
+    state_rates:
+      california: 13.3  # Highest in US
+      texas: 0.0  # No state income tax
+      washington: 0.0  # No state income tax
+      new_york: 10.9  # High
+    exemption: "Section 1031 Like-Kind Exchange (defers, not exempts)"
+
+# Business Licenses
+business_license:
+  name: "Business License / Tax Certificate"
+  issued_by: "City/County where business is located"
+  requirements:
+    - "Form (online or in-person)"
+    - "Fee (varies by city, $50-500)"
+    - "Zoning confirmation (home office vs. commercial)"
+    - "DBA (Doing Business As) filing if not using legal name"
+    
+  cost_usd: [50, 500]  # Varies wildly by city
+  validity_years: 1  # Usually annual renewal
+  silicon_valley_note: "San Francisco: $50-200/year, San Jose: $25-100/year"
+
+# Commercial Leasing
+commercial_leasing:
+  law: "No federal leasing law - state contract law governs"
+  lease_types:
+    - type: "Gross Lease"
+      description: "Tenant pays flat rent, landlord pays all expenses"
+      usage: "Small offices, coworking"
+      
+    - type: "Net Lease (Single/Triple)"
+      description: "Tenant pays rent + property taxes, insurance, maintenance"
+      usage: "Larger offices, Silicon Valley standard"
+      
+    - type: "Modified Gross"
+      description: "Hybrid - tenant pays rent + some expenses"
+      usage: "Most common for tech offices"
+      
+  security_deposit: [3, 12]  # Months of rent
+  lease_term_years: [3, 10]  # Tech prefers flexibility (3-5 years)
+  silicon_valley: "Many startups prefer short-term (1-3 years) due to rapid growth"
+
+# Home Office Deductions (IRS)
+home_office_deduction:
+  irs_requirements:
+    - "Exclusive use (only for business)"
+    - "Regular use (consistent basis)"
+    - "Principal place of business (primary work location)"
+    
+  simplified_method_usd: 5  # Per square foot, up to 300 sq ft = $1500 max
+  actual_expense_method: "Depreciation + percentage of home (mortgage interest, utilities, etc.)"
+  
+  silicon_valley_tech:
+    - "Many startup founders work from home early-stage"
+    - "Google/Meta employees working remotely can claim"
+    - "Contractors (1099) almost always claim"
+
+# Warehouses & Logistics
+logistics_warehouses:
+  - region: "Silicon Valley (Fremont, Newark, Union City)"
+      price_usd_sqf_year: [15, 28]
+      vacancy_rate_percent: 5.0
+      note: "Tight market, close to tech HQs for hardware"
+      
+  - region: "Los Angeles / Inland Empire, CA"
+      price_usd_sqf_year: [12, 22]
+      vacancy_rate_percent: 4.5
+      note: "Major port access (Los Angeles/Long Beach)"
+      
+  - region: "New York / New Jersey"
+      price_usd_sqf_year: [14, 25]
+      vacancy_rate_percent: 5.5
+      
+  - region: "Dallas-Fort Worth, TX"
+      price_usd_sqf_year: [8, 18]
+      vacancy_rate_percent: 6.5
+      note: "Austin/Silicon Hills uses this corridor"
+      
+  features: ["Industrial floor", "Dock doors", "High ceilings (28-32 ft)", "Office space"]
+  
+# Virtual Offices
+virtual_offices:
+  providers:
+    - name: "Regus Virtual Office"
+      pricing_usd_month: [150, 500]
+      services: ["Business address", "Mail handling", "Meeting room access"]
+      
+    - name: "Alliance Virtual Offices"
+      pricing_usd_month: [100, 350]
+      services: ["Prestigious address", "Live receptionist", "Meeting rooms"]
+      
+    - name: "DaVinci Virtual"
+      pricing_usd_month: [99, 299]
+      services: ["Business address", "Mail forwarding", "Phone answering"]
+      
+  legal_requirement: "Physical address required to incorporate (registered agent)"
+  silicon_valley_note: "Many startups use virtual office before getting real space"
+
+# Data Centers (Critical for AI/Cloud)
+data_centers:
+  - region: "Silicon Valley (San Francisco Bay Area)"
+      major_providers: ["Equinix", "Digital Realty", "CoreSite"]
+      pricing_usd_kw_month: [150, 300]
+      power_density_watts_per_sqf: [100, 300]  # For AI: 300+ (GPU clusters)
+      note: "Expensive but low latency to tech HQs"
+      
+  - region: "Northern Virginia (Ashburn - 'Data Center Alley')"
+      major_providers: ["Equinix", "Digital Realty", "Dupont Fabros"]
+      pricing_usd_kw_month: [100, 200]
+      note: "AWS us-east-1, Google us-east1 here (NOT Silicon Valley)"
+      
+  - region: "Oregon (The Dalles - Google, Facebook)"
+      major_providers: ["Google", "Meta", "Apple"]
+      pricing_usd_kw_month: [60, 120]  # Cheaper power
+      note: "AWS us-west-2 (Oregon) - NOT Silicon Valley"
+      
+  - region: "Texas (Austin, Dallas)"
+      major_providers: ["Digital Realty", "QTS", "RagingWire"]
+      pricing_usd_kw_month: [80, 160]
+      note: "Austin (Silicon Hills) has growing data center market"
+      
+  ai_training_requirements:
+    - "High power density (300+ watts/sq ft for GPU clusters)"
+    - "Liquid cooling for NVIDIA H100/A100"
+    - "Redundant fiber (multiple carriers)"
+    - "Low latency to cloud regions (or on-prem for training)"

@@ -1,0 +1,284 @@
+version: 1.0.0
+country: usa
+last_updated: 2026-04-30
+description: "Company sizes, types, and business structures for US AI First businesses"
+
+# Company Types (Business Entities)
+company_types:
+  - type: "Sole Proprietorship"
+    description: "Single owner, no legal separation from owner"
+    formation: "None required (default for individuals)"
+    pros: ["Simple", "No formation cost", "Pass-through taxation"]
+    cons: ["Unlimited personal liability", "Hard to raise capital"]
+    tax_form: "Schedule C (Form 1040)"
+    best_for: "Freelancers, consultants, side hustles"
+    silicion_valley_usage: "Rare for tech (liability risk)"
+    
+  - type: "Limited Liability Company (LLC)"
+    description: "Hybrid: liability protection + pass-through taxation"
+    formation: "File Articles of Organization with Secretary of State"
+    cost_usd: [50, 500]  # Varies by state
+    pros: ["Limited liability", "Flexible taxation (can elect S-Corp)", "Less paperwork than C-Corp"]
+    cons: ["Self-employment tax (15.3%)", "State annual fees"]
+    tax_form: ["Schedule C (disregarded)", "Form 1120-S (S-Corp election)"]
+    best_for: "Small businesses, consultants, early-stage startups"
+    silicion_valley_usage: "Common for early-stage startups, contractors"
+    delaware_franchise_tax_usd: 300  # Minimum
+    
+  - type: "C-Corporation (C-Corp)"
+    description: "Standard corporation, double taxation (corporate + dividends)"
+    formation: "File Articles of Incorporation, adopt bylaws, issue stock"
+    cost_usd: [100, 1000]  # Varies by state
+    pros: ["Limited liability", "Easy to raise venture capital", "Stock options for employees", "Unlimited shareholders"]
+    cons: ["Double taxation", "More paperwork (Form 1120)", "Formalities (board meetings, minutes)"]
+    tax_form: "Form 1120"
+    best_for: "Startups seeking VC funding, high-growth companies"
+    silicion_valley_usage: "Standard for venture-backed startups (90%+ of VC deals)"
+    delaware_franchise_tax_usd: [400, 200000]  # Based on authorized shares
+    note: "66% of Fortune 500 incorporated in DE for business-friendly courts"
+    
+  - type: "S-Corporation (S-Corp)"
+    description: "Pass-through taxation, limited to 100 shareholders"
+    formation: "Form 2553 (IRS election) after incorporating"
+    cost_usd: [100, 1000]  # Same as C-Corp formation
+    pros: ["No double taxation", "Self-employment tax savings (salary vs. distribution)", "Limited liability"]
+    cons: ["100 shareholder limit", "US citizens/residents only", "One class of stock only"]
+    tax_form: "Form 1120-S + K-1"
+    best_for: "Profitable small businesses, avoiding double taxation"
+    silicion_valley_usage: "Used by profitable startups to save on payroll taxes"
+    shareholder_limit: 100
+    
+  - type: "B-Corporation (B-Corp)"
+    description: "Certification for social/environmental mission (not a tax status)"
+    formation: "Certification by B Lab (must meet standards)"
+    cost_usd: [2000, 50000]  # Certification + legal fees
+    pros: ["Brand differentiation", "Mission-driven", "Attracts impact investors"]
+    cons: ["Certification process", "Ongoing reporting", "Not a tax status (files as C-Corp or B-Corp)"]
+    tax_form: "Same as underlying entity (usually C-Corp)"
+    best_for: "Social enterprises, impact startups"
+    silicion_valley_usage: "Used by some mission-driven startups (e.g., Patagonia, Ben & Jerry's not tech)"
+    
+  - type: "Non-Profit Corporation (501(c)(3))"
+    description: "Tax-exempt for charitable/educational purposes"
+    formation: "Form 1023 (IRS), state charitable registration"
+    pros: ["Tax-exempt status", "Donations are tax-deductible", "Grant eligibility"]
+    cons: ["No political lobbying", "Public disclosure of Form 990", "Strict compliance"]
+    tax_form: "Form 990"
+    best_for: "Charities, educational organizations, research institutes"
+    silicion_valley_usage: "Used by AI research labs (e.g., some research orgs), open-source foundations"
+
+# Company Sizes (By Revenue & Employees)
+company_sizes:
+  - size: "Micro"
+    name: "Micro Business"
+    employees: [1, 9]
+    revenue_usd_annual: [0, 250000]
+    typical_examples: ["Freelancers", "Sole proprietors", "Tiny LLCs"]
+    prevalence_percent: 75.0  # Of all US businesses
+    tech_relevance: "Many early-stage startups, indie developers"
+    
+  - size: "Small"
+    name: "Small Business"
+    employees: [10, 99]
+    revenue_usd_annual: [250000, 10000000]
+    typical_examples: ["Local services", "Small SaaS", "Boutique agencies"]
+    prevalence_percent: 20.0
+    tech_relevance: "Many B2B SaaS, consultancies, digital agencies"
+    
+  - size: "Medium"
+    name: "Medium Business"
+    employees: [100, 499]
+    revenue_usd_annual: [10000000, 1000000000]
+    typical_examples: ["Mid-market SaaS", "Regional tech firms", "Growing startups"]
+    prevalence_percent: 4.5
+    tech_relevance: "Series B/C startups, established tech companies"
+    
+  - size: "Large"
+    name: "Large Business"
+    employees: [500, 9999]
+    revenue_usd_annual: [1000000000, 10000000000]
+    typical_examples: ["Public tech companies", "Unicorns", "Late-stage startups"]
+    prevalence_percent: 0.4
+    tech_relevance: "Public tech (Google, Meta), unicorns (Stripe, SpaceX)"
+    
+  - size: "Enterprise"
+    name: "Enterprise"
+    employees: [10000, null]  # 10,000+
+    revenue_usd_annual: [10000000000, null]  # $10B+
+    typical_examples: ["Fortune 500", "Big Tech"]
+    prevalence_percent: 0.1
+    tech_relevance: "FAANG/Big Tech (Apple, Microsoft, Google, Amazon, Meta)"
+
+# Silicon Valley Specific: Startup Growth Stages
+silicon_valley_startup_stages:
+  - stage: "Pre-Seed / Idea Stage"
+    capital_usd: [0, 500000]
+    employees: [1, 3]
+    entity_type: "LLC (early) or C-Corp (if expecting VC)"
+    burn_rate_usd_month: [5000, 20000]
+    focus: "MVP, product-market fit"
+    
+  - stage: "Seed"
+    capital_usd: [500000, 3000000]
+    employees: [3, 15]
+    entity_type: "C-Corp (Delaware)"
+    burn_rate_usd_month: [20000, 100000]
+    focus: "Product development, early traction"
+    
+  - stage: "Series A"
+    capital_usd: [3000000, 15000000]
+    employees: [15, 100]
+    entity_type: "C-Corp (Delaware)"
+    burn_rate_usd_month: [100000, 500000]
+    focus: "Scaling, go-to-market"
+    
+  - stage: "Series B, C, D..."
+    capital_usd: [15000000, 500000000]
+    employees: [100, 2000]
+    entity_type: "C-Corp (Delaware)"
+    burn_rate_usd_month: [500000, 10000000]
+    focus: "Growth, profitability, IPO prep"
+    
+  - stage: "IPO / Public"
+    capital_usd: "Public markets ($100M+ raises)"
+    employees: [2000, 100000+]
+    entity_type: "Public C-Corp"
+    focus: "Quarterly earnings, public shareholders"
+
+# NAICS Codes (North American Industry Classification System)
+naics_codes:
+  description: "Standard classification for US businesses"
+  digits: 6
+  main_sectors:
+    - code: "51"
+      name: "Information"
+      gdp_share_percent: 5.5
+      tech_relevance: "Software, publishing, broadcasting, telecommunications"
+      
+    - code: "5415"
+      name: "Computer Systems Design and Related Services"
+      gdp_share_percent: 3.8
+      tech_relevance: "Custom software, systems integration, tech consulting"
+      
+    - code: "5417"
+      name: "Scientific R&D Services"
+      gdp_share_percent: 2.1
+      tech_relevance: "AI research, biotech R&D, physical sciences"
+      
+    - code: "518"
+      name: "Data Processing, Hosting, Related Services"
+      gdp_share_percent: 1.8
+      tech_relevance: "Cloud computing, web hosting, data processing"
+      
+    - code: "5112"
+      name: "Software Publishers"
+      gdp_share_percent: 1.5
+      tech_relevance: "SaaS, mobile apps, video games"
+      
+    - code: "524"
+      name: "Credit Intermediation and Related Activities"
+      gdp_share_percent: 7.2
+      tech_relevance: "Fintech, digital banking, payment processing"
+      
+    - code: "339"
+      name: "Computer and Electronic Product Manufacturing"
+      gdp_share_percent: 1.9
+      tech_relevance: "Hardware, semiconductors (NVIDIA, Apple devices)"
+
+# Silicon Valley Tech Sector Breakdown
+silicon_valley_sectors:
+  - sector: "Software & SaaS"
+    employment_percent: 35.0
+    notable_companies: ["Salesforce", "Adobe", "Intuit", "Zoom"]
+    
+  - sector: "Hardware & Semiconductors"
+    employment_percent: 25.0
+    notable_companies: ["Apple", "NVIDIA", "Intel", "AMD"]
+    
+  - sector: "Social Media & Content"
+    employment_percent: 20.0
+    notable_companies: ["Meta (Facebook)", "Google/Alphabet", "Netflix", "Snap"]
+    
+  - sector: "Fintech & Payments"
+    employment_percent: 10.0
+    notable_companies: ["Stripe", "PayPal", "Square (Block)", "Robinhood"]
+    
+  - sector: "AI & ML"
+    employment_percent: 8.0
+    notable_companies: ["OpenAI", "Anthropic", "DeepMind (Google)", "NVIDIA AI"]
+    
+  - sector: "Biotech & HealthTech"
+    employment_percent: 2.0
+    notable_companies: ["Genentech", "Gilead", "23andMe", "Verily (Google)"]
+
+# Business Hours (Standard US)
+business_hours:
+  weekdays:
+    start: "08:00"
+    end: "18:00"
+    lunch_break: "12:00-13:00"  # Optional
+  saturday:
+    start: "09:00"
+    end: "13:00"
+    optional: true
+  sunday:
+    closed: true
+    exceptions: ["Malls", "Restaurants", "Tech support (24/7 for SaaS)"]
+    
+# Federal Holidays (2026)
+federal_holidays_2026:
+  - date: "2026-01-01"
+    name: "New Year's Day"
+  - date: "2026-01-19"
+    name: "Martin Luther King Jr. Day"
+  - date: "2026-02-16"
+    name: "Presidents' Day"
+  - date: "2026-05-25"
+    name: "Memorial Day"
+  - date: "2026-07-03"
+    name: "Independence Day (observed)"
+  - date: "2026-09-07"
+    name: "Labor Day"
+  - date: "2026-10-12"
+    name: "Columbus Day / Indigenous Peoples' Day"
+  - date: "2026-11-11"
+    name: "Veterans Day"
+  - date: "2026-11-26"
+    name: "Thanksgiving Day"
+  - date: "2026-11-27"
+    name: "Day After Thanksgiving (Black Friday)"
+  - date: "2026-12-25"
+    name: "Christmas Day"
+
+# Startup Ecosystem Stats
+startup_ecosystem:
+  total_startups_estimate: 78000  # Active tech startups
+  unicorns: 750+  # Valued >$1B (2026)
+  most_unicorns_city: "San Francisco Bay Area (380+)"
+  
+  top_hubs:
+    - "San Francisco Bay Area (Silicon Valley) - 1,200+ active startups, 380+ unicorns"
+    - "New York City (Silicon Alley) - 800+ startups, 120+ unicorns"
+    - "Los Angeles (Silicon Beach) - 600+ startups, 50+ unicorns"
+    - "Seattle - 400+ startups, 40+ unicorns"
+    - "Austin (Silicon Hills) - 350+ startups, 25+ unicorns"
+    - "Boston - 300+ startups, 30+ unicorns"
+  
+  foreign_investment_usd_billions: 120.0  # 2025
+  venture_capital_deployed_usd_billions: 285.0  # 2025
+
+# Incorporation Preferences
+incorporation:
+  delaware:
+    percent_of_fortune500: 66.0
+    reasons: ["Court of Chancery (specialized business court)", "Business-friendly laws", "No state corporate income tax for non-DE operations"]
+    cost_usd: [89, 200000]  # Franchise tax (based on shares)
+    
+  nevada:
+    percent_of_tech: 10.0
+    reasons: ["No state corporate income tax", "No franchise tax", "Privacy (no public shareholder list)"]
+    
+  california:
+    percent_of_tech: 15.0
+    reasons: ["Headquarters location (Silicon Valley)", "Required if doing business in CA"]
+    note: "Many companies incorporate in DE but register in CA (foreign qualification)"
