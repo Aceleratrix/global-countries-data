@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 9 Countries 100% Complete](https://img.shields.io/badge/Status-9 Countries 100% Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 11 Countries 100% Complete](https://img.shields.io/badge/Status-11 Countries 100% Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,17 +35,18 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (9 / 195 = 4.6%)
+## 📊 Coverage Progress (11 / 195 = 5.6%)
 
 ### 🌎 South America (1/12 = 8.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇧🇷 **Brazil** | 17/17 | ✅ **100% COMPLETE** | PIX (76% adoption), LGPD, 4 cloud regions | Portuguese (pt-BR) + English |
 
-### 🌎 North America (1/3 = 33.3%)
+### 🌎 North America (2/3 = 66.7%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇺🇸 **USA** | 13/13 | ✅ **100% COMPLETE** | Silicon Valley, Section 230, 20+ cloud regions | English (en-US) |
+| 🇨🇦 **Canada** | 13/13 | ✅ **100% COMPLETE** | Pan-Canadian AI $2.4B, Cohere $5.5B, Interac, bilingual (EN/FR) | English (en-CA) + French |
 
 ### 🌏 Asia (3/50 = 6.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -68,7 +69,7 @@ A structured, machine-readable database of country-specific data designed for **
 ### 🌏 Oceania (0/14 = 0%)
 *Coming soon!*
 
-**Total: 122 structured YAML files covering 9 countries across 4 continents!**
+**Total: 148 structured YAML files covering 11 countries across 4 continents!**
 
 ---
 
@@ -382,7 +383,7 @@ This project is licensed under the **MIT License** — see [LICENSE](LICENSE) fo
 **Created by**: [@mtorresbr](https://github.com/mtorresbr)  
 **Organization**: [Aceleratrix](https://github.com/Aceleratrix)  
 **Last Updated**: 2026-04-30  
-**Status**: 🚧 Constantly expanding (9 countries 100% complete, many more coming!)  
+**Status**: 🚧 Constantly expanding (11 countries 100% complete, many more coming!)  
 
 ---
 
