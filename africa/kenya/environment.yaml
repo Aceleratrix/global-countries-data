@@ -1,0 +1,11 @@
+national_parks:
+  - Maasai Mara National Reserve
+  - Amboseli National Park
+  - Tsavo East National Park
+  - Tsavo West National Park
+endangered_species:
+  - African elephant
+  - Black rhinoceros
+  - Grevy's zebra
+deforestation_rate: ~0.5% per year
+forest_cover: ~7% of total land area
