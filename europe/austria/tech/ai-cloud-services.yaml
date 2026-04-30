@@ -1,0 +1,14 @@
+country: Austria
+cloud_providers:
+  global:
+    - AWS (eu-central-1 region)
+    - Microsoft Azure (Austria Central)
+    - Google Cloud Platform
+  local:
+    - A1 Telekom Austria
+    - T-Mobile Austria
+ai_initiatives:
+  - Austrian AI Research Center (AIA)
+  - National AI Strategy 2023-2030
+  - €50 million AI startup funding (2024)
+internet_penetration: 92%

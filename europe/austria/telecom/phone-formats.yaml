@@ -1,0 +1,17 @@
+country: Austria
+country_code: "+43"
+emergency_numbers:
+  police: 133
+  fire: 122
+  ambulance: 144
+landline_format: "+43 [area_code] [local_number]"
+mobile_format: "+43 [6xx] [xxx xxx]"
+area_codes:
+  vienna: 1
+  graz: 316
+  linz: 732
+  salzburg: 662
+  innsbruck: 512
+examples:
+  vienna_landline: "+43 1 234 5678"
+  mobile: "+43 650 123 456"

@@ -1,0 +1,10 @@
+country: Austria
+jurisdiction: European Union Member State
+key_laws:
+  - GDPR (General Data Protection Regulation)
+  - Digital Services Act (DSA)
+  - Austrian Data Protection Act (Datenschutzgesetz, DSG)
+  - E-Commerce Act (E-Commerce-Gesetz, ECG)
+  - Network Enforcement Act (NetzDG)
+regulatory_body: Austrian Data Protection Authority (Datenschutzbehörde, DSB)
+notes: Austria fully implements all EU digital legislation with national enforcement mechanisms.

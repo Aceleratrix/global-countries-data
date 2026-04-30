@@ -1,0 +1,14 @@
+country: Austria
+corporate_tax_rate: 25%
+personal_income_tax:
+  - "0-11,000 EUR: 0%"
+  - "11,000-18,000 EUR: 20%"
+  - "18,000-31,000 EUR: 30%"
+  - "31,000-60,000 EUR: 41%"
+  - "60,000-90,000 EUR: 48%"
+  - "90,000+ EUR: 55%"
+vat:
+  standard: 20%
+  reduced: 10% (food, books, medicines)
+  super_reduced: 5% (agricultural products)
+tax_authority: Federal Ministry of Finance
