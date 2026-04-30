@@ -1,194 +1,91 @@
-# Spain Business: Company Sizes & Classifications
-# AI-Ready: Structured for multi-agent systems
+# Espanha - Company Sizes (Negócios)
+# Fonte: INE, Ministerio de Industria
 
-country: spain
-last_updated: "2024-12-15"
-eu_member: true
+country: "Spain"
+iso_code: "ES"
 
-# Company Size Definitions (EU + Spanish Law)
-size_categories:
-  - category: "Micro-enterprise (Microempresa)"
-    employees_max: 10
-    turnover_max_eur: 2000000
-    balance_sheet_max_eur: 2000000
-    percentage_of_total: 94.5
-    notes: "Most common type; family businesses, freelancers (autónomos)"
-  
-  - category: "Small enterprise (Pequeña empresa)"
-    employees_min: 10
-    employees_max: 50
-    turnover_max_eur: 10000000
-    balance_sheet_max_eur: 10000000
-    percentage_of_total: 4.3
-    notes: "Local SMEs, regional businesses"
-  
-  - category: "Medium enterprise (Mediana empresa)"
-    employees_min: 50
-    employees_max: 250
-    turnover_max_eur: 50000000
-    balance_sheet_max_eur: 43000000
-    percentage_of_total: 0.9
-    notes: "Regional to national reach"
-  
-  - category: "Large enterprise (Gran empresa)"
-    employees_min: 250
-    turnover_min_eur: 50000000
-    balance_sheet_min_eur: 43000000
-    percentage_of_total: 0.3
-    notes: "Multinationals, large Spanish corporations"
-  
-  - category: "Self-employed (Autónomo)"
-    employees: 0
-    description: "Freelancers, sole traders"
-    count_2024: 3300000
-    percentage_of_total: "N/A (separate category)"
-    notes: "Not counted in enterprise statistics; separate legal regime"
+classification:
+  micro_enterprise:
+    employees: "1-9"
+    turnover: "< €2M"
+    balance_sheet: "< €2M"
+    examples: ["Freelancers", "Small shops", "Consultants"]
+    count: 3200000  # 95% of all companies
+    
+  small_enterprise:
+    employees: "10-49"
+    turnover: "≤ €10M"
+    balance_sheet: "≤ €10M"
+    examples: ["Local manufacturers", "SMEs", "Tech startups"]
+    count: 150000
+    
+  medium_enterprise:
+    employees: "50-249"
+    turnover: "≤ €50M"
+    balance_sheet: "≤ €43M"
+    examples: ["Regional companies", "Growing tech firms"]
+    count: 18000
+    
+  large_enterprise:
+    employees: "250+"
+    turnover: "> €50M"
+    examples: ["Multinationals", "Major banks", "Inditex"]
+    count: 3000
 
-# Regional Distribution (Autonomous Communities)
-regional_breakdown:
-  - region: "Madrid"
-    total_companies: 650000
-    sme_percentage: 99.2
-    large_companies: 5200
-  
-  - region: "Catalonia"
-    total_companies: 580000
-    sme_percentage: 99.1
-    large_companies: 4800
-  
-  - region: "Andalusia"
-    total_companies: 520000
-    sme_percentage: 99.4
-    large_companies: 3100
-  
-  - region: "Valencia"
-    total_companies: 380000
-    sme_percentage: 99.3
-    large_companies: 2600
-  
-  - region: "Basque Country"
-    total_companies: 180000
-    sme_percentage: 98.8
-    large_companies: 2100
+total_companies: 3370000
+sme_share: "99.8%"  # Of all enterprises
 
-# Sectoral Distribution (by number of companies)
-sectoral_breakdown:
-  - sector: "Services (Servicios)"
-    percentage: 48
-    examples: ["Tourism", "Retail", "Consulting", "Financial services"]
-  
-  - sector: " Construction (Construcción)"
-    percentage: 18
-    examples: ["Residential", "Commercial", "Infrastructure"]
-  
-  - sector: " Manufacturing (Industria)"
-    percentage: 15
-    examples: ["Automotive", "Food & beverage", "Textiles"]
-  
-  - sector: " Retail & Wholesale (Comercio)"
-    percentage: 12
-    examples: ["Supermarkets", "Wholesale distributors"]
-  
-  - sector: " Agriculture (Agricultura)"
-    percentage: 4
-    examples: ["Olive oil", "Wine", "Citrus", "Vegetables"]
-  
-  - sector: "Other"
-    percentage: 3
-    examples: ["Technology", "Energy", "Mining"]
+by_sector:
+  services: "42%"
+  construction: "25%"
+  manufacturing: "18%"
+  agriculture: "10%"
+  tech: "5%"
 
-# Business Creation & Closure
-business_dynamics:
-  new_companies_2023: 105000
-  dissolved_companies_2023: 28000
-  net_growth_2023: 77000
-  survival_rate_5_years_percent: 62
-  survival_rate_10_years_percent: 45
+startup_ecosystem:
+  total_startups: 12000
+  unicorns: 4
+  unicorn_list:
+    - "Glovo ($2.5B)"
+    - "Cabify ($1.4B)"
+    - "Wallapop ($1B)"
+    - "Flywire ($3B, US-Spanish)"
+  startup_law: "Ley de Startups (2022)"
+  benefits:
+    - "Reduced corporate tax (15% for 4 years)"
+    - "Stock options up to €50k tax-free"
+    - "Fast-track foreign talent visas"
+    - "BBVA, Santander venture arms active"
 
-# Foreign Companies in Spain
 foreign_companies:
-  total_count: 14500
-  top_origin_countries:
-    - country: "United States"
-      count: 3200
-    - country: "France"
-      count: 2100
-    - country: "Germany"
-      count: 1800
-    - country: "United Kingdom"
-      count: 1500
-    - country: "Italy"
-      count: 900
-  main_sectors: ["Automotive", "Financial services", "Technology", "Energy"]
-  employment_generated: 1800000
+  usa: ["Microsoft", "Google", "Amazon", "Apple", "Meta"]
+  germany: ["Siemens", "BMW", "Mercedes-Benz"]
+  france: ["Renault", "TotalEnergies", "BNP Paribas"]
+  china: ["Huawei", "ZTE", "Lenovo"]
+  total_foreign_subsidiaries: 15000
 
-# Startup Ecosystem
-startups:
-  total_2024: 12000
-  unicorns_count: 8
-  top_unicorns:
-    - name: "Glovo (delivery)"
-      valuation_billions: 2.5
-    - name: "Wallbox (EV charging)"
-      valuation_billions: 1.5
-    - name: "Spotahome (rentals)"
-      valuation_billions: 1.0
-  startup_hubs:
-    - city: "Madrid"
-      startups: 4500
-    - city: "Barcelona"
-      startups: 3800
-    - city: "Valencia"
-      startups: 1200
+government_incentives:
+  startup_visa: "Ley de Startups (fast-track for founders)"
+  r_and_d_tax_credit: "25% (up to 42% for newly created companies)"
+  enisa_loans: "EU-backed loans for SMEs (€50k-€1.5M)"
+  digital_kit: "€3,000-€12,000 for digitalization (SMEs)"
 
-# Franchise Sector
-franchises:
-  total_brands: 1400
-  total_outlets: 85000
-  top_sectors:
-    - sector: " Food & Beverage"
-      percentage: 35
-    - sector: " Retail"
-      percentage: 30
-    - sector: " Services"
-      percentage: 20
-    - sector: " Hospitality & Tourism"
-      percentage: 15
-  top_franchises: ["Mercadona", "Zara", "El Corte Inglés", "Repsol"]
+business_creation:
+  new_companies_2024: 100000
+  dissolution_rate: "8%"
+  average_lifespan: "7 years"
+  main_barriers: ["Bureaucracy", "Late payments", "Access to finance"]
 
-# Cooperatives & Social Economy
-social_economy:
-  cooperatives_count: 22000
-  employee_owned_companies: 3000
-  social_economy_workers: 320000
-  top_cooperatives:
-    - name: "Mondragón Corporation"
-      turnover_eur_billions: 11
-      employees: 80000
-    - name: "Eroski (supermarket chain)"
-      employees: 40000
+remote_work_companies:
+  fully_remote: "15% of tech companies"
+  hybrid: "60% of tech companies"
+  office_only: "25%"
+  law: "Ley de Teletrabajo (2021) guarantees rights"
 
-# Business Count by Size (2024)
-business_counts:
-  autónomos_freelancers: 3300000
-  micro_enterprises: 3100000
-  small_enterprises: 140000
-  medium_enterprises: 29000
-  large_enterprises: 11000
-  total_active_companies: 3379000
-
-# High-Growth Enterprises
-high_growth:
-  count_2023: 8500
-  employment_generated: 120000
-  sectors: ["Technology", "E-commerce", "Renewable energy", "Biotech"]
-  definition: "20%+ annual growth over 3 years"
-
-# Digital Transformation
-digital_adoption:
-  digital_intensity_high_percent: 28
-  digital_intensity_medium_percent: 45
-  digital_intensity_low_percent: 27
-  cloud_adoption_percent: 42
-  ecommerce_adoption_percent: 38
-  ai_adoption_percent: 18
+notes: >
+  Espanha tem um tecido empresarial dominado por micro e pequenas empresas
+  (99.8% das empresas são PMEs). A "Ley de Startups" de 2022 revolucionou
+  o ecossistema, atraindo talento estrangeiro e investimento. O país é o
+  3º maior ecossistema de startups do sul da Europa, atrás apenas de
+  Israel e Alemanha. O desafio principal permanece a burocracia e o
+  atraso nos pagamentos B2B (média de 85 dias).

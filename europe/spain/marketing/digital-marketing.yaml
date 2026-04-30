@@ -1,273 +1,130 @@
-# Spain Digital Marketing Landscape
-# AI-Ready: Structured for multi-agent systems
+# Espanha - Digital Marketing (Marketing Digital)
+# Fonte: IAB Spain, Google, Meta
 
-country: spain
-last_updated: "2024-12-15"
-eu_member: true
-gdpr_implementation: true
+country: "Spain"
+iso_code: "ES"
+population: 47350000
+internet_users: 44000000  # 93%
 
-# Digital Marketing Overview
-digital_ad_spend_2024_eur_millions: 7200
-growth_rate_percent: 12
-digital_share_of_total_ad_spend: 68
-global_rank: 15
-
-# Digital Platform Market Share (2024)
-platforms:
-  - name: "Google"
-    share_percent: 42
-    services: ["Search Ads", "Display", "YouTube", "Google Shopping"]
-    billing_currency: "EUR"
+digital_marketing_spend_2024:
+  total: "$9.2B"
+  growth: "14% YoY"
+  per_capita: "$195"
   
-  - name: "Meta (Facebook/Instagram)"
-    share_percent: 28
-    services: ["Feed Ads", "Stories", "Reels", "Facebook Ads"]
-    billing_currency: "EUR"
+channels:
+  search_ads:
+    share: "35%"
+    platforms:
+      - name: "Google Ads"
+        market_share: "90%"
+      - name: "Microsoft Advertising"
+        market_share: "10%"
+    cpc_average: "$0.45"
+    top_keywords: ["seguro coche", "vuelos baratos", "alquiler Madrid"]
+    
+  social_media_ads:
+    share: "30%"
+    platforms:
+      - name: "Meta (Facebook/Instagram)"
+        market_share: "65%"
+        ad_spend: "$1.8B"
+      - name: "TikTok"
+        market_share: "20%"
+        growth: "45% YoY"
+      - name: "LinkedIn"
+        market_share: "10%"
+        focus: "B2B"
+      - name: "Twitter/X"
+        market_share: "5%"
+        
+  display_ads:
+    share: "20%"
+    programmatic_share: "80%"
+    top_networks: ["Google Display", "Amazon DSP", "The Trade Desk"]
+    
+  video_ads:
+    share: "15%"
+    platforms:
+      - "YouTube (70%)"
+      - "TikTok (20%)"
+      - "Twitch (10%)"
+    ctv_growth: "35% YoY"  # Connected TV
+    
+social_media_usage:
+  whatsapp: "90% penetration (42M users)"
+  instagram: "65% (30M users)"
+  facebook: "60% (28M users)"
+  tiktok: "45% among 18-34 (15M users)"
+  linkedin: "25% professionals (12M users)"
+  twitter_x: "20% (9M users)"
   
-  - name: "Amazon Ads"
-    share_percent: 12
-    services: ["Sponsored Products", "Display", "Video"]
-    billing_currency: "EUR"
-  
-  - name: "TikTok"
-    share_percent: 8
-    services: ["In-feed Ads", "Branded Hashtag Challenges"]
-    billing_currency: "EUR"
-  
-  - name: "LinkedIn"
-    share_percent: 5
-    services: ["Sponsored Content", "Message Ads", "Dynamic Ads"]
-    billing_currency: "EUR"
-  
-  - name: "Twitter/X"
-    share_percent: 3
-    services: ["Promoted Tweets", "Trend Takeover"]
-    billing_currency: "EUR"
-  
-  - name: "Other (Snapchat, Pinterest, etc.)"
-    share_percent: 2
-
-# Social Media Usage (monthly active users, 2024)
-social_media:
-  - platform: "WhatsApp"
-    users_millions: 42
-    penetration_percent: 88
-    primary_use: "Messaging, Business accounts"
-  
-  - platform: "Instagram"
-    users_millions: 24
-    penetration_percent: 50
-    primary_use: "Visual content, Stories, Reels"
-  
-  - platform: "Facebook"
-    users_millions: 22
-    penetration_percent: 46
-    trend: "Declining among youth, strong in 35+"
-  
-  - platform: "TikTok"
-    users_millions: 18
-    penetration_percent: 38
-    trend: "Rapid growth, 16-34 age group"
-  
-  - platform: "Twitter/X"
-    users_millions: 9
-    penetration_percent: 19
-    primary_use: "News, professional networking"
-  
-  - platform: "LinkedIn"
-    users_millions: 14
-    penetration_percent: 29
-    primary_use: "B2B, recruitment, professional content"
-  
-  - platform: "YouTube"
-    users_millions: 38
-    penetration_percent: 80
-    primary_use: "Video consumption, influencer marketing"
-
-# Influencer Marketing
 influencer_marketing:
-  market_size_eur_millions: 320
-  growth_rate_percent: 25
-  top_categories:
-    - "Fashion & Beauty"
-    - "Travel & Lifestyle"
-    - "Gaming"
-    - "Food & Cooking"
-    - "Fitness & Wellness"
-  influencer_agencies:
-    - "The Coconut Agency"
-    - "Mediastay"
-    - "Social Noise"
-  regulations: "Transparency required (ad label, #publi, #ad)"
-
-# Search Engine Market Share
-search_engines:
-  - name: "Google"
-    share_percent: 94
-  - name: "Bing"
-    share_percent: 4
-  - name: "DuckDuckGo"
-    share_percent: 1.5
-  - name: "Other"
-    share_percent: 0.5
-  seo_local_focus: "Local SEO critical for Spanish businesses"
-  top_searches_2024:
-    - "viajes baratos (cheap travel)"
-    - "alquiler (rental)"
-    - "trabajo (jobs)"
-    - "comida a domicilio (food delivery)"
-
-# Email Marketing
-email_marketing:
-  average_open_rate_percent: 22
-  average_click_rate_percent: 3.5
-  top_esp_providers:
-    - "Mailchimp"
-    - "ActiveCampaign"
-    - "HubSpot"
-    - "Benchmark Email (Spanish)"
-  gdpr_compliance: "Double opt-in required, easy unsubscribe mandatory"
-
-# Programmatic Advertising
-programmatic:
-  share_of_display_ads_percent: 85
-  top_dsps:
-    - "Google DV360"
-    - "The Trade Desk"
-    - "Amazon DSP"
-  header_bidding_adoption_percent: 60
-  connected_tv_ctv_growth_percent: 45
-
-# E-commerce Platforms
-ecommerce_platforms:
-  - name: "Shopify"
-    market_share: 25
-    spanish_support: true
-    api_available: true
+  market_size: "$450M"
+  top_influencers:
+    - "@el_rubius (8M followers)"
+    - "@alexandra_pereira (6M followers)"
+    - "@the_grefg (5M followers)"
+  platforms: "Instagram, TikTok, YouTube"
+  regulation: "Mandatory disclosure (#publi, #ad)"
   
-  - name: "WooCommerce"
-    market_share: 30
-    spanish_support: true
-    api_available: true
+seo:
+  top_search_engine: "Google (95% share)"
+  bing: "4%"
+  local_seo: "Important (Google Business Profile)"
+  voice_search: "Growing (15% of searches)"
+  top_seo_agencies: ["Ginco", "Interactiva", "La Teva Web"]
   
-  - name: "PrestaShop"
-    market_share: 20
-    origin: "France, strong in Spain"
-    spanish_support: true
-    api_available: true
-  
-  - name: "Magento/Adobe Commerce"
-    market_share: 10
-    spanish_support: true
-    api_available: true
-  
-  - name: "Salesforce Commerce Cloud"
-    market_share: 8
-    spanish_support: true
-    api_available: true
-
-# Affiliate Marketing
-affiliate_marketing:
-  market_size_eur_millions: 180
-  top_networks:
-    - "Amazon Associates"
-    - "TradeTracker"
-    - "Awin"
-    - "Webgains"
-  top_verticals:
-    - "Fashion"
-    - "Electronics"
-    - "Travel"
-    - "Financial services"
-
-# Content Marketing
 content_marketing:
-  top_formats:
-    - "Blog posts (SEO-driven)"
-    - "Video (YouTube, Reels, TikTok)"
-    - "Podcasts (growing rapidly)"
-    - "Infographics"
-    - "Webinars"
-  content_trends:
-    - "Short-form video (TikTok, Reels)"
-    - "User-generated content (UGC)"
-    - "Sustainability & purpose-driven content"
-    - "Localized content (regional languages)"
-
-# Marketing Regulations
-marketing_laws:
-  - law: "GDPR (EU)"
-    applies_to: "Data collection, email marketing, cookies"
-    penalty_range: "€600 - €40M or 4% of global turnover"
+  formats:
+    video: "50%"
+    blog_articles: "25%"
+    infographics: "15%"
+    podcasts: "10%"
+  top_platforms: ["YouTube", "Spotify", "iVoox"]
   
-  - law: "LSSI (Spanish E-commerce Law)"
-    applies_to: "Commercial emails, online advertising"
-    requirements: "Clear identification, opt-out mechanism"
-    penalty_range: "€30,000 - €600,000"
+email_marketing:
+  penetration: "85% of users"
+  open_rate_average: "22%"
+  click_rate_average: "3.5%"
+  top_tools: ["Mailchimp", "ActiveCampaign", "Benchmark"]
   
-  - law: "Consumer Protection Law"
-    applies_to: "Influencer disclosures, ad labeling"
-    requirements: "Clear #ad, #publi labels"
-    penalty_range: "€150 - €600,000"
+affiliate_marketing:
+  market_size: "$350M"
+  top_networks: ["Tradedoubler", "Awin", "Amazon Associates"]
+  top_verticals: ["Travel", "Fashion", "Finance"]
   
-  - law: "Audiovisual Media Services Law"
-    applies_to: "TV, streaming ads, influencer content"
-    regulator: "CNMC"
-
-# Marketing Automation & AI
-marketing_tech_stack:
-  marketing_automation: ["HubSpot", "ActiveCampaign", "Marketo", "Pardot"]
-  ai_tools:
-    - "ChatGPT (content generation)"
-    - "Jasper (copywriting)"
-    - "Midjourney (visual content)"
-    - "Hootsuite Insights (social listening)"
-  personalization_platforms: ["Dynamic Yield", "Optimizely", "Adobe Target"]
-  attribution_modeling: "Multi-touch attribution growing (from last-click)"
-
-# Mobile Marketing
 mobile_marketing:
-  mobile_ad_spend_percent: 65
-  mobile_video_ads_percent: 70
-  sms_marketing: "High adoption (local telcos), requires opt-in"
-  in_app_advertising: "Strong growth (mobile gaming, utility apps)"
-  location_based_marketing: "Beacon technology in retail, geofencing"
-
-# Regional Marketing Considerations
-regional_specifics:
-  catalonia:
-    language: "Catalan preferred in marketing"
-    market_size_percent: 19
-  basque_country:
-    language: "Basque (Euskera) for local campaigns"
-    market_size_percent: 5
-  galicia:
-    language: "Galician for regional campaigns"
-    market_size_percent: 6
-  madrid:
-    market_size_percent: 18
-    focus: "National campaigns, luxury brands"
-  andalusia:
-    market_size_percent: 18
-    focus: "Tourism, agriculture, local services"
-
-# Marketing Agencies & MarTech
-top_agencies:
-  - name: "Lola MullenLowe"
-    type: "Global network"
-    focus: "Creative, digital"
-  - name: "ThinkSmart"
-    type: "Digital agency"
-    focus: "Performance marketing"
-  - name: "Grey Spain"
-    type: "Global network"
-    focus: "Brand strategy"
-
-# Measurement & Analytics
-analytics_tools:
-  - "Google Analytics 4 (GA4) - 85% adoption"
-  - "Adobe Analytics - 8% adoption"
-  - "Meta Pixel - 75% adoption"
-  - "Hotjar - 30% adoption (UX insights)"
-  - "Google Tag Manager - 80% adoption"
-  attribution_models: "Shift from last-click to data-driven attribution"
+  smartphone_penetration: "88%"
+  mobile_ad_spend_share: "65%"
+  in_app_ads: "Growing (40% of mobile spend)"
+  sms_marketing: "Regulated (opt-in required)"
+  
+privacy_regulation:
+  gdpr_compliance: "Mandatory"
+  lopdgdd: "Spanish data protection law"
+  cookie_banners: "Explicit consent required"
+  third_party_cookies: "Phasing out (Google Privacy Sandbox)"
+  
+marketing_technology:
+  top_crms: ["Salesforce", "HubSpot", "Zoho"]
+  top_automation: ["HubSpot", "ActiveCampaign", "Marketo"]
+  top_analytics: ["Google Analytics 4", "Adobe Analytics"]
+  
+b2b_marketing:
+  top_channels: ["LinkedIn Ads", "Google Search", "Email", "Webinars"]
+  decision_makers: "LinkedIn primary platform"
+  trade_shows: ["Mobile World Congress (Barcelona)", "ITMA", "Alimentaria"]
+  
+cultural_notes:
+  language: "Spanish primary, regional languages important"
+  peak_hours: "13:00-15:00, 20:00-23:00"
+  payment_preferences: "Credit card (45%), PayPal (20%), Bizum (25%)"
+  Seasonal peaks: ["Black Friday", "Christmas", "Summer sales (July)"]
+  
+notes: >
+  Espanha tem um mercado de marketing digital vibrante e em rápido crescimento.
+  O Mobile World Congress em Barcelona atrai 100k profissionais anualmente.
+  O WhatsApp é onipresente (90% uso) e muitas campanhas usam WhatsApp
+  Business API para conversão. O influenciador @el_rubius tem 8M seguidores,
+  sendo um dos maiores da Europa. A regulação de privacidade é rigorosa,
+  com a AEPD aplicando multas significativas por violações de cookies/GDPR.

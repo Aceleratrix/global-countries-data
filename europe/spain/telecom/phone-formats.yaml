@@ -1,185 +1,94 @@
-# Spain Telecom & Phone Formats
-# AI-Ready: Structured for multi-agent systems
+# Espanha - Phone Formats (Telecomunicações)
+# Fonte: CNMC (Comisión Nacional de los Mercados y la Competencia)
 
-country: spain
-last_updated: "2024-12-15"
-calling_code: "+34"
+country: "Spain"
+iso_code: "ES"
+country_code: "+34"
 international_prefix: "00"
-emergency_numbers:
-  police: 112
-  ambulance: 112
-  fire: 112
+trunk_prefix: "9"  # Para chamadas nacionais
 
-# Phone Number Format
-phone_format:
-  general_pattern: "+34 XXX XXX XXX"
-  country_code: "34 (no leading zero)"
-  national_prefix: "None (dialed as XXX XXX XXX domestically)"
-  regex_national: "^[6-9][0-9]{8}$"
-  regex_international: "^\\+34[6-9][0-9]{8}$"
-  example_national: "612 345 678"
-  example_international: "+34 612 345 678"
-  total_length: 9
-  notes: "No area codes; all numbers are 9 digits starting with 6, 7, 8, or 9"
-
-# Mobile Numbers
-mobile:
-  prefixes: ["6", "7"]
-  format: "6XX XXX XXX / 7XX XXX XXX"
-  example: "+34 612 345 678"
-  total_numbers: 900000000
-  assigned_numbers: 650000000
-  saturation: 72
-
-# Landline Numbers
+phone_number_format:
+  general_pattern: "\\+34[6-9]\\d{8}"
+  total_digits: 9  # After country code
+  area_code_required: false  # Direct dialing nationwide
+  mobile_prefixes: ["6", "7"]
+  landline_prefixes: ["8", "9"]
+  
 landline:
-  prefixes: ["8", "9"]
-  format: "8XX XXX XXX / 9XX XXX XXX"
-  example: "+34 912 345 678"
-  notes: "9 = Madrid, Barcelona, major cities; 8 = rest of country"
-  regional_blocks:
-    - prefix: "91"
-      region: "Madrid"
-    - prefix: "93"
-      region: "Barcelona"
-    - prefix: "96"
-      region: "Valencia"
-    - prefix: "95"
-      region: "Andalusia (eastern)"
-    - prefix: "85"
-      region: "Galicia"
+  format: "+34 9XX XXX XXX"
+  examples: ["+34 913 123 456", "+34 932 123 456"]
+  major_area_codes:
+    Madrid: "91"
+    Barcelona: "93"
+    Valencia: "96"
+    Seville: "95"
+    Bilbao: "94"
+  number_portability: true
+  portability_time: "1 business day"
 
-# Toll-Free & Special Numbers
+mobile:
+  format: "+34 6XX XXX XXX or +34 7XX XXX XXX"
+  examples: ["+34 612 345 678", "+34 712 345 678"]
+  major_operators:
+    - name: "Movistar"
+      market_share: "32%"
+      prefix_range: "600-609, 690-699"
+    - name: "Vodafone"
+      market_share: "27%"
+      prefix_range: "610-619, 650-659"
+    - name: "Orange"
+      market_share: "22%"
+      prefix_range: "620-629, 670-679"
+    - name: "MásMóvil"
+      market_share: "15%"
+      prefix_range: "640-649, 680-689"
+  number_portability: true
+  portability_time: "1 business day"
+  prepaid_vs_postpaid: "40% prepaid, 60% postpaid"
+
 special_numbers:
-  - type: "Toll-free"
-    prefix: "800 / 900"
-    format: "900 XXX XXX"
+  emergency: "112"
+  police: "091"
+  civil_guard: "062"
+  fire: "080"
+  ambulance: "061"
+  operator: "11818"
+  toll_free:
+    prefix: "900"
+    format: "+34 900 XXX XXX"
     cost: "Free for caller"
-    example: "900 123 456"
-  
-  - type: "Premium rate"
-    prefix: "803 / 806 / 807"
-    format: "80X XXX XXX"
-    cost: "€0.50 - €6.00/min"
-    example: "806 123 456"
-  
-  - type: "Shared cost"
-    prefix: "901 / 902"
-    format: "90X XXX XXX"
-    cost: "Local call rate"
-    example: "902 123 456"
-  
-  - type: "Emergency"
-    number: "112"
-    description: "Universal emergency number (police, fire, ambulance)"
-  
-  - type: "Short codes"
-    numbers: ["010 (Info)", "012 (Citizen services)", "016 (Gender violence)"]
-    description: "2-3 digit numbers for specific services"
+  premium_rate:
+    prefix: "901-909"
+    format: "+34 90X XXX XXX"
+    cost: "Variable (€0.50-€3.00/min)"
+  short_codes:
+    time: "093"
+    weather: "096"
 
-# Mobile Operators (2024)
-mobile_operators:
-  - name: "Movistar"
-    parent: "Telefónica"
-    market_share: 31
-    network: "4G/5G"
-    mnc: "07"
-    api_available: false
-    website: "https://www.movistar.es"
-  
-  - name: "Vodafone"
-    market_share: 25
-    network: "4G/5G"
-    mnc: "01"
-    api_available: false
-    website: "https://www.vodafone.es"
-  
-  - name: "Orange"
-    market_share: 22
-    network: "4G/5G"
-    mnc: "03"
-    api_available: false
-    website: "https://www.orange.es"
-  
-  - name: "Yoigo"
-    parent: "MásMóvil"
-    market_share: 12
-    network: "4G/5G"
-    mnc: "04"
-    api_available: false
-    website: "https://www.yoigo.com"
-  
-  - name: "MásMóvil"
-    market_share: 10
-    network: "4G/5G"
-    mnc: "23"
-    api_available: false
-    website: "https://www.masmovil.es"
+voip:
+  regulation: "Liberalized"
+  major_providers: ["Skype", "Zoom", "Teams", "WhatsApp"]
+  number_porting: "Allows VoIP numbers from fixed operators"
 
-# Internet Service Providers
-isps:
-  - name: "Movistar"
-    technology: ["Fiber (FTTH)", "ADSL", "5G"]
-    max_fiber_speed_mbps: 1000
-    coverage_percent: 85
+satellite:
+  providers: ["Hispasat", "Eutelsat"]
+  coverage: "Spain, Portugal, Latin America"
   
-  - name: "Orange"
-    technology: ["Fiber (FTTH)", "5G"]
-    max_fiber_speed_mbps: 1000
-    coverage_percent: 75
-  
-  - name: "Vodafone"
-    technology: ["Fiber (FTTH)", "Cable", "5G"]
-    max_fiber_speed_mbps: 1000
-    coverage_percent: 70
-  
-  - name: "MásMóvil"
-    technology: ["Fiber (FTTH)", "5G"]
-    max_fiber_speed_mbps: 600
-    coverage_percent: 60
+5g:
+  rollout_status: "Advanced"
+  coverage_population: "75%"
+  major_cities: "Madrid, Barcelona, Valencia, Seville covered"
+  operators: ["Movistar", "Vodafone", "Orange", "MásMóvil"]
 
-# Internet Penetration
-internet:
-  penetration_percent: 94
-  broadband_households_percent: 88
-  fiber_penetration_percent: 70
-  avg_fixed_speed_mbps: 185
-  avg_mobile_speed_mbps: 65
-  rank_global_speed: 25
+telecom_regulator:
+  name: "CNMC"
+  website: "https://www.cnmc.es"
+  responsibilities: ["Competition", "Spectrum", "Consumer protection"]
 
-# 5G & Future
-mobile_generation:
-  "2G": "Sunset planned 2025"
-  "3G": "Sunset completed 2022"
-  "4G": "99% population coverage"
-  "5G": "75% population coverage (2024)"
-  "5G_standalone": "Launched 2023 (Movistar, Vodafone)"
-
-# VoIP & Business Telephony
-voip_providers:
-  - name: "Teams Phone (Microsoft)"
-  - name: "Zoom Phone"
-  - name: "RingCentral"
-  - name: "3CX (popular in Spain)"
-  - name: "Local VoIP (Movistar, Orange)"
-
-# SMS & Messaging APIs
-sms_apis:
-  - provider: "Twilio"
-    supported: true
-    sender_id: "Alphanumeric (11 chars max)"
-  - provider: "Vonage"
-    supported: true
-  - provider: "Sinch"
-    supported: true
-  - provider: "Local operators"
-    api_available: false
-    notes: "Spanish operators don't offer public SMS APIs"
-
-# Number Portability
-portability:
-  available: true
-  timeframe_days: 1
-  cost: "Free (since 2001)"
-  regulator: "CNMC (Comisión Nacional de los Mercados y la Competencia)"
-  notes: "Port your number between operators instantly"
+notes: >
+  Espanha tem um dos mercados de telecomunicações mais competitivos da UE,
+  com 4 grandes operadores e dezenas de MVNOs. O country code +34 é curto
+  e fácil de memorizar. A portabilidade numérica é instantânea (1 dia).
+  O Bizum é integrado com números de celular para pagamentos instantâneos.
+  5G cobre 75% da população, com Meta (WhatsApp) e Google (Duo) sendo
+  os apps de chamadas VOIP mais usados.

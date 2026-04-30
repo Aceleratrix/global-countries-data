@@ -1,211 +1,112 @@
-# Spain Demographics & Population
-# AI-Ready: Structured for multi-agent systems
+# Espanha - Population (Demografia)
+# Fonte: INE (Instituto Nacional de Estadística)
 
-country: spain
-last_updated: "2024-12-15"
-eu_member: true
+country: "Spain"
+iso_code: "ES"
 
-# Population Overview
 population:
-  total_2024: 47400000
-  total_2023: 48200000
-  trend: "Declining (-1.7% from 2023 due to statistical recalculation)"
-  population_density_per_km2: 94
-  rank_global: 30
-  median_age: 44.5
-  life_expectancy_years: 83.5
-
-# Regional Distribution (17 Autonomous Communities)
-regions:
-  - name: "Andalusia (Andalucía)"
-    population: 8490000
-    capital: "Seville"
-    density_km2: 95
+  total_2024: 47350000
+  rank_world: 30
+  density: "93.7 per km²"
+  land_area_km2: 505990
   
-  - name: "Catalonia (Cataluña)"
-    population: 7900000
-    capital: "Barcelona"
-    density_km2: 247
+growth:
+  rate_2024: "0.8%"  # Immigration-driven
+  trend: "Aging population with immigration offset"
+  projection_2050: 52000000
   
-  - name: "Madrid"
-    population: 6800000
-    capital: "Madrid"
-    density_km2: 826
+age_structure:
+  "0-14": "14.2%"
+  "15-64": "66.3%"
+  "65+": "19.5%"
+  median_age: 44.7
+  life_expectancy: 83.5  # (EU average: 81.5)
   
-  - name: "Valencia"
-    population: 5100000
-    capital: "Valencia"
-    density_km2: 224
-  
-  - name: "Galicia"
-    population: 2700000
-    capital: "Santiago de Compostela"
-    density_km2: 92
-  
-  - name: "Castile and León"
-    population: 2400000
-    capital: "Valladolid"
-    density_km2: 26
-  
-  - name: "Basque Country (País Vasco)"
-    population: 2200000
-    capital: "Vitoria-Gasteiz"
-    density_km2: 306
-  
-  - name: "Canary Islands (Canarias)"
-    population: 2200000
-    capital: "Santa Cruz de Tenerife / Las Palmas"
-    density_km2: 287
-  
-  - name: "Castile-La Mancha"
-    population: 2100000
-    capital: "Toledo"
-    density_km2: 26
-  
-  - name: "Murcia"
-    population: 1500000
-    capital: "Murcia"
-    density_km2: 133
-
-# Urbanization
-urbanization:
-  urban_percent: 81
-  rural_percent: 19
-  largest_cities:
-    - city: "Madrid"
-      population: 3400000
-      metro_area: 6800000
-    - city: "Barcelona"
-      population: 1600000
-      metro_area: 5400000
-    - city: "Valencia"
-      population: 800000
-      metro_area: 1800000
-    - city: "Seville"
-      population: 690000
-      metro_area: 1500000
-    - city: "Zaragoza"
-      population: 675000
-      metro_area: 750000
-
-# Age Structure
-age_groups:
-  "0-14": 14
-  "15-29": 16
-  "30-44": 22
-  "45-64": 28
-  "65+": 20
-  notes: "One of the oldest populations in Europe; 20% over 65"
-
-# Gender Distribution
 gender:
-  male_percent: 49.2
-  female_percent: 50.8
-  gender_ratio_males_per_100_females: 96.9
+  male: "49.1%"
+  female: "50.9%"
+  sex_ratio: "96.4 males per 100 females"
 
-# Birth & Death Rates
-vital_statistics:
-  birth_rate_per_1000: 7.4
-  death_rate_per_1000: 9.8
-  natural_increase_rate: -2.4
-  fertility_rate_children_per_woman: 1.19
-  notes: "Low fertility rate; population maintained by immigration"
+urbanization:
+  urban_population: "80.5%"
+  rural_population: "19.5%"
+  largest_cities:
+    - name: "Madrid"
+      population: 3400000  # Metropolitan area
+    - name: "Barcelona"
+      population: 5700000  # Metropolitan area
+    - name: "Valencia"
+      population: 1600000
+    - name: "Seville"
+      population: 1500000
+    - name: "Zaragoza"
+      population: 700000
 
-# Immigration
+autonomous_communities:
+  largest_by_population:
+    - name: "Andalucía"
+      population: 8480000
+    - name: "Cataluña"
+      population: 7960000
+    - name: "Madrid"
+      population: 6760000
+    - name: "Valencia"
+      population: 5100000
+
 immigration:
-  foreign_born_percent: 15.2
+  foreign_born: "15.2%"  # 7.2M people
   top_origin_countries:
-    - country: "Morocco"
-      population: 900000
-    - country: "Colombia"
-      population: 500000
-    - country: "Ecuador"
-      population: 400000
-    - country: "Romania"
-      population: 350000
-    - country: "Venezuela"
-      population: 300000
-  refugees_2024: 65000
-  asylum_applications_2024: 120000
+    - "Morocco (1.1M)"
+    - "Romania (0.6M)"
+    - "Colombia (0.5M)"
+    - "Venezuela (0.4M)"
+    - "Ecuador (0.3M)"
+  eu_citizens: "40% of immigrants"
 
-# Languages
 languages:
-  official_national: "Spanish (Castilian)"
+  official: "Spanish (Castilian)"
   co_official_regional:
-    - language: "Catalan"
-      region: "Catalonia, Balearic Islands, Valencia (Valencian)"
-      speakers_percent: 19
-    - language: "Basque (Euskera)"
-      region: "Basque Country, Navarre"
-      speakers_percent: 5
-    - language: "Galician (Galego)"
-      region: "Galicia"
-      speakers_percent: 6
-  immigrant_languages:
-    - "Arabic"
-    - "Berber"
-    - "English"
-    - "Portuguese"
-  english_proficiency: "Low (EF EPI score: 48, rank 34/113 countries)"
-
-# Religion
+    - "Catalan (Catalonia, Valencia, Balearics)"
+    - "Basque (Basque Country, Navarra)"
+    - "Galician (Galicia)"
+  english_proficiency: "Low (EF EPI: 34/88 countries)"
+  
 religion:
-  catholic_percent: 59
-  non_religious_percent: 34
-  other_religions_percent: 7
-  muslim_population: 2300000
-  jewish_population: 45000
-  notes: "Secular society; religious practice declining rapidly"
+  catholic: "68%"
+  non_religious: "25%"
+  other_religions: "7%"  # Islam 4%, Protestant 1%, Others 2%
 
-# Education
 education:
-  literacy_rate_percent: 98.5
-  tertiary_education_percent: 42
-  school_life_expectancy_years: 18
-  top_universities:
-    - name: "University of Barcelona"
-      rank_global: 73
-    - name: "Autonomous University of Madrid"
-      rank_global: 200
-    - name: "Complutense University of Madrid"
-      rank_global: 210
-  tuition_public_universities_eur_year: 1000
-  tuition_private_universities_eur_year: 10000
+  literacy_rate: "98.6%"
+  tertiary_education: "42%"  # (EU average: 41%)
+  stem_graduates: "22% of all graduates"
+  
+households:
+  average_size: 2.5
+  single_person: "25%"
+  families_with_children: "55%"
+  home_ownership: "75%"  # High home ownership rate
 
-# Ethnicity & Race
-ethnicity:
-  white_spanish_percent: 85
-  mixed_percent: 3
-  immigrant_background_percent: 12
-  notes: "Spain does not collect official ethnicity data in census; estimates based on origin"
+digital_adoption:
+  internet_users: "93%"
+  smartphone_penetration: "88%"
+  social_media_users: "75%"
+  top_platforms:
+    - "WhatsApp (90%)"
+    - "Instagram (65%)"
+    - "Facebook (60%)"
+    - "TikTok (45% among youth)"
 
-# Digital Demographics
-digital:
-  internet_users_percent: 94
-  social_media_users_percent: 72
-  facebook_users_millions: 24
-  instagram_users_millions: 18
-  twitter_users_millions: 9
-  tiktok_users_millions: 15
-  linkedin_users_millions: 14
-  smartphone_penetration_percent: 88
-  ecommerce_users_percent: 68
+labor_force:
+  total: 23000000
+  participation_rate: "57.9%"
+  unemployment_rate: "12.1%"  # (EU average: 6.5%)
+  youth_unemployment: "28%"  # (Major challenge)
 
-# Income & Socioeconomic
-socioeconomic:
-  gini_coefficient: 33.6
-  poverty_rate_percent: 20.4
-  at_risk_of_poverty_threshold_eur_year: 9100
-  household_income_median_eur_year: 29800
-  youth_unemployment_rate: 28.5
-  long_term_unemployment_rate: 6.5
-
-# Health Statistics
-health:
-  public_healthcare_coverage_percent: 99
-  doctors_per_1000_population: 4.9
-  hospital_beds_per_1000: 3.0
-  obesity_rate_percent: 24.2
-  smoking_rate_percent: 24
-  life_expectancy_female: 86.2
-  life_expectancy_male: 80.8
+notes: >
+  Espanha tem uma população envelhecida (mediana 44.7 anos) mas com
+  crescimento impulsionado por imigração (15.2% nascidos no exterior).
+  Madrid e Barcelona são as únicas megacidades, concentrando 40% da
+  população. O país tem alta pegada digital (93% internet users) mas
+  baixa proficiência em inglês. O desemprego juvenil de 28% continua
+  sendo um desafio estrutural apesar do crescimento econômico.

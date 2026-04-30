@@ -1,142 +1,84 @@
-# Spain Labor Laws
-# AI-Ready: Structured for multi-agent systems
+# Espanha - Labor Law (Estatuto dos Trabalhadores)
+# Fonte: Ministerio de Trabajo y Economía Social
 
-country: spain
-last_updated: "2024-12-15"
-jurisdiction: ES
-eu_member: true
+country: "Spain"
+iso_code: "ES"
 
-# Primary Legislation
-primary_law:
-  name: "Estatuto de los Trabajadores (Workers' Statute)"
-  code: "Real Decreto Legislativo 2/2015"
-  official_url: "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430"
+employment_contracts:
+  types:
+    - name: "Indefinido (Permanent)"
+      description: "Contrato sem prazo determinado"
+      max_probation: "6 months"
+      
+    - name: "Temporal (Temporary)"
+      description: "Máximo 24 meses em 36 meses"
+      max_duration: "24 months"
+      
+    - name: "Formación (Training)"
+      description: "Para jovens até 30 anos"
+      max_duration: "2 years"
 
-# Employment Contracts
-contract_types:
-  - type: "Indefinido (Permanent)"
-    description: "No end date, full labor protections"
-    probation_period_months: 6
-    severance: "33 days per year worked (capped at 24 months)"
-  
-  - type: "Temporal (Temporary)"
-    description: "Fixed-term contract"
-    max_duration_months: 24
-    extensions_allowed: 3
-    severance: "12 days per year worked"
-  
-  - type: "Formativo (Training)"
-    description: "For professional training/education"
-    max_duration_months: 24
-    age_limit: 30
-  
-  - type: "De relevo (Partial retirement)"
-    description: "Worker reduces hours for partial retirement"
-    min_hours_reduction: 25
-    max_hours_reduction: 50
-
-# Working Hours
 working_hours:
   max_weekly_hours: 40
   max_daily_hours: 9
-  rest_between_shifts_hours: 12
-  annual_overtime_limit: 80
-  overtime_rate: "175% minimum (collective agreements may vary)"
-  night_shift_premium: "25-50% extra"
+  rest_between_shifts: "12 hours"
+  weekly_rest: "1.5 days minimum"
+  night_work_limit: "8 hours/day"
 
-# Minimum Wage
 minimum_wage:
-  amount_2024_eur: 1134
-  payment_schedule: "14 payments per year (12 months + 2 extra)"
-  annual_equivalent_eur: 15876
-  notes: "Collective agreements may set higher wages by sector"
+  year_2024: "€1,134/month (14 pagamentos)"
+  annual_equivalent: "€15,876"
+  coverage: "All sectors"
 
-# Sick Leave & Benefits
-sick_leave:
-  first_3_days: "No pay (unless collective agreement provides)"
-  day_4_to_20: "60% of base salary (INSS)"
-  day_21_onwards: "75% of base salary (INSS)"
-  employer_top_up: "Many collective agreements require 100% pay"
+overtime:
+  max_per_year: 80
+  compensation: "Pay or time off"
+  night_shift_premium: "25-50%"
 
-# Vacation & Leave
 vacation:
   minimum_days: 30
-  calculation: "Per calendar year"
-  carry_over: "Not allowed (must be taken within 18 months)"
-  public_holidays_national: 14
-  regional_holidays: "Varies by autonomous community (2-3 additional)"
+  public_holidays: 14
+  annual_leave_accrual: "2.5 days/month"
 
-# Parental Leave
-parental_leave:
-  maternity:
-    duration_weeks: 16
-    paid: true
-    pay_rate: "100% of salary (capped)"
-    paternity_equivalent: true
-  
-  paternity:
-    duration_weeks: 16
-    paid: true
-    pay_rate: "100% of salary (capped)"
-  
-  adoption_leave:
-    duration_weeks: 16
-    paid: true
-
-# Termination
 termination:
-  notice_period_days: 15
-  severance_indefinite: "33 days per year worked (max 24 months)"
-  severance_temporary: "12 days per year worked"
-  unfair_dismissal: "Compensation or reinstatement"
-  collective_redundancy: "30+ workers, special procedures, 15-30 days notice"
+  probation_period: "6 months (indefinite contracts)"
+  severance_permanent: "33 days/year worked (max 24 months)"
+  severance_temporary: "12 days/year worked"
+  notice_period: "15-30 days"
 
-# Remote Work
-remote_work:
-  law: "Ley 10/2021 (Remote Work Law)"
-  requirements:
-    - "Written agreement between employer and employee"
-    - "Right to reimbursement of expenses"
-    - "Right to digital disconnection"
-    - "Non-discrimination in career advancement"
-  max_remote_percentage: "No limit (by agreement)"
-  equipment_provision: "Employer must provide necessary equipment"
-
-# AI in Employment
-ai_employment_rules:
-  automated_decision_making: "GDPR Art. 22 applies – right to human intervention"
-  worker_monitoring: "Requires worker representation agreement + AEPD notification"
-  algorithmic_management: "Transparency required, right to explanation"
-  prohibited_practices:
-    - "Biometric monitoring without consent"
-    - "Emotional recognition at work (except safety)"
-    - "Automated hiring decisions without human review"
-
-# Collective Bargaining
-collective_bargaining:
-  coverage_rate: "Approximately 70% of workforce"
-  agreement_types:
-    - "Sectoral (industry-wide)"
-    - "Company-level"
-    - "Regional"
-  minimum_benefits: "Collective agreements cannot go below statutory minimums"
-
-# Social Security
 social_security:
-  employer_contribution_rate: "29.9% (average, varies by sector)"
-  employee_contribution_rate: "6.35% (general regime)"
-  unemployment_insurance: "Included in social security"
-  healthcare: "Universal coverage through INSS"
-  pension: "Contributory, based on 25 highest-earning years"
+  employee_rate: "6.35%"
+  employer_rate: "23.60%"
+  unemployment_coverage: "70% salário (6 months)"
 
-# Foreign Workers
-foreign_workers:
-  eu_citizens: "No work permit required"
-  non_eu_citizens: "Work permit + residence authorization required"
-  highly_skilled: "Fast-track for university degrees (Ley 14/2013)"
-  digital_nomads: "New visa introduced 2023 (Law 28/2022)"
-  digital_nomad_requirements:
-    - "Remote work for non-Spanish company"
-    - "Minimum income: €2,762/month"
-    - "University degree OR 3 years experience"
-    - "Clean criminal record"
+remote_work:
+  law: "Ley 10/2021"
+  rights:
+    - "Right to disconnect"
+    - "Reimbursement of expenses"
+    - "Prior written agreement"
+  maximum_remote: "No limit (100% remote allowed)"
+
+non_compete:
+  max_duration: "6 months (employees)"
+  max_duration_executives: "2 years"
+  compensation_required: true
+  compensation_min: "50% salary during restriction"
+
+strikes:
+  legal_requirements:
+    - "Pre-notice 5 days"
+    - "Minimum services maintained"
+  protection: "No retaliation allowed"
+
+unions:
+  major_unions:
+    - "CCOO (Comisiones Obreras)"
+    - "UGT (Unión General de Trabajadores)"
+  collective_bargaining_coverage: "80%"
+
+notes: >
+  Espanha reformou profundamente sua legislação trabalhista em 2022-2023,
+  aumentando direitos de trabalhadores e restringindo contratos temporários.
+  A "Ley de Teletrabajo" é uma das mais avançadas da UE, garantindo
+  desconexão digital e reembolso de despesas para trabalho remoto.

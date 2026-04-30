@@ -1,121 +1,65 @@
-# Spain Internet & Data Protection Laws
-# AI-Ready: Structured for multi-agent systems
+# Espanha - Internet Law (Proteção de Dados)
+# Fonte: AEPD (Agencia Española de Protección de Datos)
 
-country: spain
-last_updated: "2024-12-15"
-jurisdiction: ES
-eu_member: true
+country: "Spain"
+iso_code: "ES"
+data_protection_authority: "AEPD"
+website: "https://www.aepd.es"
 
-# Primary Legislation
 laws:
-  - name: "LSSI (Ley de Servicios de la Sociedad de la Información)"
-    code: "Ley 34/2002"
-    scope: "E-commerce, online services, ISPs"
-    official_url: "https://www.boe.es/buscar/act.php?id=BOE-A-2002-13758"
-  
-  - name: "GDPR (EU Regulation 2016/679)"
-    code: "Reglamento (UE) 2016/679"
-    scope: "Data protection, privacy rights"
-    official_url: "https://gdpr.eu"
-  
   - name: "LOPDGDD (Ley Orgánica 3/2018)"
-    code: "Ley Orgánica 3/2018"
-    scope: "Spanish data protection implementation of GDPR"
-    official_url: "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    description: "Adaptação espanhola do GDPR"
+    effective_date: "2018-12-05"
+    gdpr_alignment: "complete"
+    
+  - name: "LSSI-CE (Ley 34/2002)"
+    description: "Serviços da Sociedade da Informação e Comércio Eletrônico"
+    effective_date: "2002-07-11"
+    
+  - name: "RGPD (Reglamento UE 2016/679)"
+    description: "Regulamento Geral de Proteção de Dados da UE"
+    effective_date: "2018-05-25"
+
+data_protection:
+  dpo_required:
+    public_authorities: true
+    large_scale_monitoring: true
+    large_scale_special_categories: true
+    threshold_employees: 250
+    
+  penalties:
+    max_administrative_fine:
+      tier_1: "€10M ou 2% faturamento global"
+      tier_2: "€20M ou 4% faturamento global"
+      
+  rights:
+    access: true
+    rectification: true
+    erasure: true
+    portability: true
+    objection: true
+    automated_decision_making: true
+
+e_commerce:
+  cookie_consent: "explicit"
+  privacy_policy_required: true
+  data_breach_notification: "72 hours"
+  commercial_communications: "opt-in"
   
-  - name: "LPI (Propiedad Intelectual)"
-    code: "Real Decreto Legislativo 1/1996"
-    scope: "Copyright, intellectual property"
-    official_url: "https://www.boe.es/buscar/act.php?id=BOE-A-1996-8930"
-
-# AI-Specific Regulations
-ai_regulations:
-  national_strategy: "Estrategia Nacional de IA (2020-2025)"
-  eu_ai_act_status: "adopted"
-  high_risk_ai_categories:
-    - "Biometric identification"
-    - "Critical infrastructure"
-    - "Education and vocational training"
-    - "Employment and workers management"
-    - "Access to essential services"
-  
-  requirements:
-    - "AI system registration with AEPD (Data Protection Agency)"
-    - "Human oversight for high-risk systems"
-    - "Transparency in AI-generated content"
-    - "Impact assessments for biometric systems"
-
-# Digital Services Act (EU)
-digital_services_act:
-  effective: "2024-02-17"
-  scope: "Online platforms, VLOPs (Very Large Online Platforms)"
-  spanish_coordinator: "AEPD + CNMC"
-
-# Domain & Hosting
 domain_registration:
-  registry: "Red.es"
-  ccTLD: ".es"
-  annual_cost_eur: 10
+  registry: "RED.es"
   requirements:
-    - "EU resident OR"
-    - "Company incorporated in EU OR"
-    - "Trademark holder"
-  official_url: "https://www.nic.es"
+    - "NIF/NIE para residentes"
+    - "Passaporte + NIE para estrangeiros"
+  average_price: "€12-25/ano"
 
-# Data Localization
-data_localization:
-  requirement: "partial"
-  notes: "No general data localization mandate, but GDPR requires adequate protection for transfers outside EU/EEA"
-  restricted_sectors:
-    - "Health data (certain processing requires Spanish territory)"
-    - "Government data (public sector)"
-
-# Cookies & Tracking
-cookie_law:
-  basis: "LSSI + GDPR"
-  consent_required: true
-  exceptions:
-    - "Strictly necessary cookies"
-    - "Session cookies for load balancing"
-  penalty_range: "€600 - €40M or 4% of global turnover (GDPR)"
-
-# Consumer Protection
-ecommerce_consumer_protection:
-  right_of_withdrawal: "14 days"
-  mandatory_disclosure:
-    - "Company identity and contact details"
-    - "Product/service description"
-    - "Price including taxes"
-    - "Payment and delivery terms"
-    - "Withdrawal rights"
-  alternative_dispute_resolution: "ODR platform (EU)"
-
-# Cybersecurity
-cybersecurity_framework:
-  law: "Ley de Ciberseguridad (pending transposition of NIS2)"
-  authority: "INCIBE (Instituto Nacional de Ciberseguridad)"
-  incident_reporting: "72 hours to INCIBE-CERT"
-  official_url: "https://www.incibe.es"
-
-# AI Training Data Restrictions
-training_data_rules:
-  personal_data: "Requires GDPR compliance (legal basis, transparency)"
-  copyrighted_material: "Text and Data Mining exception under EU Copyright Directive"
-  public_sector_data: "Reuse allowed under Law 37/2007 (PSI Directive)"
-  exceptions:
-    - "Scientific research and innovation"
-    - "Cultural heritage digitization"
-
-# Notable Enforcement Cases
-enforcement_examples:
-  - year: 2023
-    authority: "AEPD"
-    fine: "€15M"
-    company: "Major telecom operator"
-    violation: "GDPR - insufficient lawful basis for processing"
+ai_regulation:
+  eu_ai_act_status: "adopted"
+  high_risk_systems: "regulated"
+  transparency_requirements: "mandatory"
   
-  - year: 2022
-    authority: "AEPD"
-    fine: "€8.5M"
-    company: "E-commerce platform"
-    violation: "Unsolicited commercial communications (LSSI)"
+notes: >
+  Espanha possui um dos regimes de proteção de dados mais rigorosos da UE.
+  A AEPD é uma das autoridades de proteção mais ativas, com multas
+  frequentes para grandes tech companies. O país é referência em
+  implementação de IA ética na UE.

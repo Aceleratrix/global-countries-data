@@ -1,193 +1,95 @@
-# Spain Business: Real Estate
-# AI-Ready: Structured for multi-agent systems
+# Espanha - Real Estate (Mercado Imobiliário)
+# Fonte: Ministerio de Transportes, INE, Idealista
 
-country: spain
-last_updated: "2024-12-15"
-eu_member: true
-eurozone: true
+country: "Spain"
+iso_code: "ES"
+currency: "EUR"
 
-# Real Estate Market Overview
 market_overview:
-  total_value_eur_trillions: 5.2
-  residential_percent: 65
-  commercial_percent: 25
-  industrial_percent: 10
-  market_trend: "Recovery post-COVID, prices rising in major cities"
-
-# Property Prices (2024, per m²)
-residential_prices_eur_m2:
-  madrid:
-    average: 3900
-    city_center: 5500
-    suburbs: 3200
-  barcelona:
-    average: 4200
-    city_center: 6000
-    suburbs: 3400
-  valencia:
-    average: 2400
-    city_center: 3200
-    suburbs: 1900
-  malaga:
-    average: 2800
-    city_center: 3800
-    suburbs: 2200
-  seville:
-    average: 2200
-    city_center: 2900
-    suburbs: 1800
-  zaragoza:
-    average: 1800
-    city_center: 2400
-    suburbs: 1500
-
-# Commercial Real Estate
-commercial_prices_eur_m2_month:
-  madrid_office_prime: 32
-  barcelona_office_prime: 28
-  valencia_office_prime: 18
-  retail_high_street_madrid: 120
-  retail_high_street_barcelona: 110
-  industrial_logistics_madrid: 6.5
-  industrial_logistics_barcelona: 6.0
-
-# Rental Market
-rental_market:
-  madrid:
-    apartment_2bed_eur_month: 1500
-    apartment_3bed_eur_month: 2200
-  barcelona:
-    apartment_2bed_eur_month: 1600
-    apartment_3bed_eur_month: 2400
-  valencia:
-    apartment_2bed_eur_month: 900
-    apartment_3bed_eur_month: 1300
-  rental_yield_percent: 4.5
-  notes: "Rental prices rising 10-15% year-on-year in major cities"
-
-# Legal Framework
-legal_framework:
-  property_law: "Spanish Civil Code (Código Civil)"
-  land_registry: "Registro de la Propiedad"
-  notary_required: true
-  official_url: "https://www.registradores.org"
-
-# Property Purchase Process
-purchase_process:
-  steps:
-    - "Obtain NIE (foreigner ID number)"
-    - "Open Spanish bank account"
-    - "Sign preliminary contract (contrato de arras) + 10% deposit"
-    - "Notary signing of title deed (escritura)"
-    - "Register property at Land Registry"
-  timeline_days: 30
-  notary_fees_percent: 1
-  land_registry_fees_percent: 0.5
-  taxes_percent: 10
-  total_transaction_costs_percent: 12
-
-# Property Taxes
-property_taxes:
-  - name: "IBI (Impuesto sobre Bienes Inmuebles)"
-    basis: "Cadastral value (valor catastral)"
-    rate_range: "0.4% - 1.1%"
-    collected_by: "Municipality"
+  total_value_2024: "€1.8T"
+  residential_share: "75%"
+  commercial_share: "20%"
+  industrial_share: "5%"
   
-  - name: "Non-resident income tax (NRI)"
-    applies_to: "Non-residents owning property"
-    rate: 19
-    basis: "Imputed income (2% of cadastral value)"
+price_trends:
+  residential_growth_2024: "5.2%"
+  commercial_growth_2024: "3.8%"
+  forecast_2025: "4-6% growth"
+  bubble_risk: "Low (healthy fundamentals)"
+
+residential:
+  average_price_m2: "€1,850"
+  by_city:
+    Madrid: "€3,200/m²"
+    Barcelona: "€4,100/m²"
+    Valencia: "€2,100/m²"
+    Seville: "€1,800/m²"
+    Malaga: "€2,800/m²"  # (Costa del Sol boom)
+    
+  property_types:
+    apartment: "70% of transactions"
+    detached_house: "20%"
+    townhouse: "10%"
+    
+  foreign_buyers: "18% of transactions"
+  top_origins: ["UK", "Germany", "France", "Scandinavia", "USA"]
   
-  - name: "Wealth tax (Patrimonio)"
-    applies_to: "Properties > €700,000 (regional, varies)"
-    rate_range: "0.2% - 3.75%"
-  
-  - name: "Capital gains tax"
-    rate_range: "19% - 26%"
-    notes: "19% up to €6,000 gain, 21% €6,000-50,000, 23% €50,000-200,000, 26% >€200,000"
+  rental_market:
+    average_rent_madrid: "€1,200/month (80m²)"
+    average_rent_barcelona: "€1,400/month (80m²)"
+    yield: "4-5% (investment properties)"
+    regulation: "Ley de Vivienda (2023) - rent caps in stressed areas"
 
-# Commercial Leases
-commercial_leases:
-  typical_term_years: 5
-  break_clause_years: 3
-  rent_review: "Annual (CPI-linked)"
-  security_deposit_months: 2
-  legal_framework: "Ley de Arrendamientos Urbanos (LAU)"
-  notes: "Commercial leases more flexible than residential"
+commercial:
+  office:
+    prime_rent_madrid: "€30/m²/month"
+    prime_rent_barcelona: "€28/m²/month"
+    vacancy_rate: "12% (Madrid), 10% (Barcelona)"
+    
+  retail:
+    high_street_rent_madrid: "€120/m²/month"
+    shopping_centers: "500+ nationwide"
+    e_commerce_impact: "20% of retail sales"
+    
+  hospitality:
+    hotel_investment_2024: "€3.5B"
+    occupancy_rate: "72% (post-COVID recovery)"
+    adr: "€130/night (average daily rate)"
 
-# Foreign Investment Restrictions
-foreign_ownership:
-  restrictions: "None for EU citizens"
-  non_eu_restrictions: "None (reciprocity principle applies)"
-  golden_visa: "€500,000 property investment (being phased out 2025)"
-  reporting: "Model 720 for assets > €50,000 abroad"
+industrial:
+  logistics:
+    prime_rent: "€6.5/m²/month"
+    vacancy_rate: "4% (low supply)"
+    major_markets: ["Madrid", "Barcelona", "Valencia", "Zaragoza"]
+  warehouses:
+    average_size: "20,000 m²"
+    e_commerce_demand: "Growing 15% YoY"
 
-# Real Estate Investment Trusts (SOCIMIs)
-socimis:
-  description: "Spanish REITs (Sociedades Anónimas Cotizadas de Inversión en el Mercado Inmobiliario)"
-  tax_rate: 0
-  requirements: "Listed on stock exchange, 80% rental income
-  major_socimis:
-    - name: "Merlin Properties"
-      market_cap_eur_billions: 6.5
-    - name: "Colonial"
-      market_cap_eur_billions: 4.2
-    - name: "Lar España"
-      market_cap_eur_billions: 1.8
-
-# Construction & Development
-construction:
-  permits_required: true
-  authority: "Municipal urban planning department (Ayuntamiento)"
-  timeline_residential_months: 12
-  timeline_commercial_months: 24
-  building_costs_eur_m2: 1200
-  sustainable_building_percent: 35
-  leed_certified_buildings: 850
-
-# Zoning & Land Use
 zoning:
-  categories:
-    - "Residential (Residencial)"
-    - "Commercial (Comercial)"
-    - "Industrial (Industrial)"
-    - "Agricultural (Rústico)"
-    - "Protected (Protegido - coast, heritage)"
-  coastal_law: "Ley de Costas (restricts building within 100m of coast)"
-  tourist_licenses: "Required for short-term rentals (Airbnb) in most cities"
+  residential_zones: "Qualified by municipality"
+  commercial_zones: "City centers, business parks"
+  industrial_zones: "Peripheral areas, logistics parks"
+  coastal_protection: "Restricted in some areas (Ley de Costas)"
 
-# Real Estate Platforms & APIs
-real_estate_platforms:
-  - name: "Idealista"
-    market_share: 45
-    api_available: true
-    api_url: "https://www.idealista.com/data"
-    website: "https://www.idealista.com"
+foreign_investment:
+  total_2024: "€12B"
+  top_buyers: ["USA", "UK", "Germany", "France"]
+ 法律保护: "Equal rights for EU citizens"
+  golden_visa: "€500k property = residency (ending 2025)"
   
-  - name: "Fotocasa"
-    market_share: 25
-    api_available: true
-    website: "https://www.fotocasa.es"
+proptech:
+  startups: ["Spotahome", "Idealista", "Fotocasa", "Housers"]
+  innovations: ["Virtual tours", "AI pricing", "Blockchain titles"]
   
-  - name: "Habitaclia"
-    market_share: 15
-    api_available: false
-    website: "https://www.habitaclia.com"
+real_estate_agents:
+  regulation: "Required license (unclear central regulation)"
+  commission: "3-5% (seller pays)"
+  mls_system: "No unified MLS, fragmentation"
   
-  - name: "Pisos.com"
-    market_share: 10
-    api_available: false
-    website: "https://www.pisos.com"
-
-# Mortgage Market
-mortgages:
-  average_interest_rate: 4.2
-  ltv_max_percent: 80
-  term_max_years: 30
-  fixed_rate_products_percent: 60
-  variable_rate_products_percent: 40
-  requirements:
-    - "Proof of income"
-    - "No credit defaults"
-    - "Debt-to-income < 35%"
-  top_lenders: ["Santander", "BBVA", "CaixaBank", "Bankinter"]
+notes: >
+  O mercado imobiliário espanhol está em plena recuperação pós-COVID,
+  com crescimento sólido mas sustentável. Madrid e Barcelona lideram
+  preços, enquanto cidades secundárias oferecem boas oportunidades.
+  A "Ley de Vivienda" de 2023 introduziu controles de aluguel em áreas
+  tensionadas. O investimento estrangeiro continua forte, especialmente
+  no setor logístico impulsionado pelo e-commerce e nearshoring.

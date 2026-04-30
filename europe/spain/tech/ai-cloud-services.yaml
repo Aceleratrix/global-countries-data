@@ -1,227 +1,110 @@
-# Spain AI & Cloud Services
-# AI-Ready: Structured for multi-agent systems
+# Espanha - AI & Cloud Services (Tecnologia)
+# Fonte: Ministry of Economic Affairs, CNMC
 
-country: spain
-last_updated: "2024-12-15"
-eu_member: true
-gdpr_compliant: true
+country: "Spain"
+iso_code: "ES"
 
-# National AI Strategy
-national_strategy:
-  name: "Estrategia Nacional de Inteligencia Artificial 2020-2025"
-  budget_eur: 4300000000
-  launched: 2020
-  extended_to: 2025
-  key_pillars:
-    - "AI talent development (12,000 specialists)"
-    - "Infrastructure (5 supercomputing centers)"
-    - "Ethical AI & regulation"
-    - "Sectoral adoption (health, transport, tourism)"
-    - "Startups & entrepreneurship"
-  official_url: "https://www.ia.gob.es"
+cloud_adoption:
+  market_size_2024: "$5.2B"
+  growth_rate: "22% YoY"
+  penetration: "65% enterprises"
+  public_cloud_share: "70%"
+  private_cloud_share: "30%"
 
-# AI Research & Supercomputing
-supercomputing:
-  - name: "MareNostrum 5 (Barcelona Supercomputing Center)"
-    peak_performance_petaflops: 314
-    rank_europe: 1
-    ai_capable: true
-    hosting: "BSC-CNS"
-    website: "https://www.bsc.es"
-  
-  - name: "MareNostrum 4 (still operational)"
-    peak_performance_petaflops: 11.1
-    ai_capable: true
-  
-  - name: "Finisterrae III (Galicia)"
-    peak_performance_petaflops: 6.5
-    ai_capable: true
-  
-  - name: "Picasso (Málaga)"
-    peak_performance_petaflops: 3.2
-    ai_capable: true
-  
-  - name: "Cierzo (Zaragoza)"
-    peak_performance_petaflops: 2.8
-    ai_capable: true
-
-# Cloud Providers (Spain region)
-cloud_providers:
-  - name: "AWS (Amazon Web Services)"
-    region: "eu-south-2 (Spain/Madrid)"
-    launched: 2022
-    services: ["EC2", "S3", "RDS", "Lambda", "Bedrock (AI)"]
-    compliance: ["GDPR", "ENS (Esquema Nacional de Seguridad)"]
-    website: "https://aws.amazon.com/es"
-  
+major_providers:
   - name: "Microsoft Azure"
-    region: "spain-central (Madrid)"
-    launched: 2023
-    services: ["Virtual Machines", "Azure AI", "Cosmos DB", "OpenAI Service"]
-    compliance: ["GDPR", "ENS High", "ISO 27001"]
-    website: "https://azure.microsoft.com/es-es"
-  
-  - name: "Google Cloud"
-    region: "europe-southwest1 (Madrid)"
-    launched: 2023
-    services: ["Compute Engine", "Vertex AI", "Cloud Storage"]
-    compliance: ["GDPR", "ISO 27001"]
-    website: "https://cloud.google.com"
-  
+    region: "Azure Spain Central (Madrid)"
+    market_share: "30%"
+    data_centers: 2
+    ai_services: ["Azure AI", "Copilot", "Cognitive Services"]
+    
+  - name: "Amazon Web Services (AWS)"
+    region: "AWS Europe (Spain)"
+    market_share: "28%"
+    data_centers: 2
+    ai_services: ["Bedrock", "SageMaker", "Rekognition"]
+    
+  - name: "Google Cloud Platform"
+    region: "GCP Madrid"
+    market_share: "18%"
+    data_centers: 1
+    ai_services: ["Vertex AI", "Gemini", "Document AI"]
+    
+  - name: "IBM Cloud"
+    market_share: "8%"
+    focus: "Enterprise, banking"
+    ai_services: ["Watsonx", "Watson Assistant"]
+    
   - name: "Oracle Cloud"
-    region: "eu-madrid-1"
-    launched: 2022
-    services: ["OCI Compute", "Oracle AI"]
-    compliance: ["GDPR"]
-    website: "https://www.oracle.com/es/cloud"
+    market_share: "6%"
+    focus: "Enterprise, government"
 
-# Spanish AI Companies & Startups
-ai_companies:
-  - name: "Gamma AI"
-    focus: "Computer vision for retail"
-    funding_millions: 15
-    location: "Barcelona"
-  
-  - name: "Kido Dynamics"
-    focus: "Mobility AI, urban planning"
-    funding_millions: 8
-    location: "Madrid"
-  
-  - name: "Sherpa.ai"
-    focus: "Predictive AI, privacy-first"
-    funding_millions: 25
-    location: "Bilbao"
-  
-  - name: "Bamboo AI"
-    focus: "Legal AI, contract analysis"
-    funding_millions: 5
-    location: "Barcelona"
-  
-  - name: "Allego (by Telefónica)"
-    focus: "Telco AI, network optimization"
-    parent: "Telefónica"
-    location: "Madrid"
+spanish_tech_hubs:
+  - name: "Madrid"
+    focus: ["Fintech", "Enterprise software", "AI startups"]
+    unicorns: ["Glovo", "Cabify"]
+    
+  - name: "Barcelona"
+    focus: ["Mobile tech", "IoT", "Design"]
+    unicorns: ["Wallapop", "Typeform"]
+    
+  - name: "Valencia"
+    focus: ["AgriTech", "Smart cities"]
+    
+  - name: "Bilbao"
+    focus: ["Industrial tech", "Energy"]
 
-# AI Research Centers
-ai_research:
-  - name: "Barcelona Supercomputing Center (BSC)"
-    focus: ["High-performance AI", "Climate modeling", "Bioinformatics"]
-    researchers: 600
+ai_ecosystem:
+  national_strategy: "España IA 2024-2027"
+  investment: "€1.3B"
+  priorities: ["Healthcare AI", "Smart cities", "Industrial AI"]
   
-  - name: "Vicomtech (San Sebastián)"
-    focus: ["Computer vision", "Human-computer interaction"]
-    researchers: 120
-  
-  - name: "IIIA-CSIC (Barcelona)"
-    focus: ["Artificial Intelligence", "Multi-agent systems"]
-    researchers: 80
-  
-  - name: "CVC (Computer Vision Center)"
-    focus: ["Computer vision", "Deep learning"]
-    researchers: 100
+  research_centers:
+    - "Barcelona Supercomputing Center (MareNostrum 5)"
+    - "Madrid AI Institute"
+    - "Vicomtech (Basque Country)"
+    
+  startups:
+    - name: "Sherpa.ai"
+      focus: "Privacy-preserving AI"
+    - name: "Bitext"
+      focus: "NLP, sentiment analysis"
+    - name: "Fever"
+      focus: "Event discovery AI"
+      
+  unicorns:
+    - "Glovo (delivery, $2.5B valuation)"
+    - "Cabify (mobility, $1.4B valuation)"
 
-# AI Ethics & Regulation
-ai_ethics:
-  framework: "EU AI Act + Spanish AI Ethics Guidelines"
-  authority: "AEPD (Data Protection Agency) + AES (Secretaría de Estado de Digitalización)"
-  ethical_principles:
-    - "Human agency and oversight"
-    - "Technical robustness and safety"
-    - "Privacy and data governance"
-    - "Transparency and explainability"
-    - "Diversity, non-discrimination, fairness"
-    - "Societal and environmental wellbeing"
-    - "Accountability"
-  high_risk_ai_systems: "Registration required with AEPD"
-  sandboxes: "Planned (2025) for AI testing in regulated sectors"
+data_sovereignty:
+  eu_data_act_compliance: true
+  data_localization: "Recommended for public sector"
+  schrems_ii_compliance: "Adequacy decision in place"
+  
+5g_rollout:
+  status: "Advanced"
+  coverage: "75% population"
+  industrial_use_cases: ["Smart factories", "Port of Barcelona", "Connected cars"]
 
-# AI Talent & Education
-ai_talent:
-  universities_with_ai_programs: 45
-  ai_graduates_per_year: 3500
-  top_ai_universities:
-    - "Polytechnic University of Catalonia (UPC)"
-    - "Complutense University of Madrid"
-    - "Technical University of Madrid (UPM)"
-    - "University of Barcelona"
-    - "Pompeu Fabra University"
-  ai_researchers: 2500
-  foreign_ai_talent_percent: 18
+digital_government:
+  strategy: "España Digital 2026"
+  budget: "€20B (NextGenEU funds)"
+  targets:
+    - "100% digital services by 2026"
+    - "90% e-invoicing adoption"
+    - "10M digital skills trained"
 
-# AI Adoption by Sector
-sectoral_adoption:
-  - sector: "Banking & Finance"
-    adoption_percent: 65
-    use_cases: ["Fraud detection", "Credit scoring", "Chatbots", "Algorithmic trading"]
-  
-  - sector: "Telecommunications"
-    adoption_percent: 60
-    use_cases: ["Network optimization", "Predictive maintenance", "Customer service AI"]
-  
-  - sector: "Automotive"
-    adoption_percent: 55
-    use_cases: ["Quality control", "Predictive maintenance", "Autonomous driving R&D"]
-  
-  - sector: "Tourism & Hospitality"
-    adoption_percent: 40
-    use_cases: ["Personalized recommendations", "Dynamic pricing", "Chatbots"]
-  
-  - sector: "Healthcare"
-    adoption_percent: 35
-    use_cases: ["Medical imaging", "Patient triage", "Drug discovery"]
+spanish_language_ai:
+  models:
+    - "MarIA (BSC - Barcelona Supercomputing Center)"
+    - "Spanish GPT models (multiple startups)"
+  corpora: "Real Academia Española resources"
+  market_size: "500M Spanish speakers worldwide"
 
-# AI Funding & Investment
-ai_investment:
-  vc_investment_2023_millions: 450
-  government_grants_2024_millions: 1200
-  eu_funds_2024_millions: 800
-  top_funding_rounds:
-    - company: "Sherpa.ai"
-      amount_millions: 25
-    - company: "Gamma AI"
-      amount_millions: 15
-
-# AI Conferences & Events
-ai_events:
-  - name: "Spanish AI Congress (CAEPIA)"
-    frequency: "Annual"
-    location: "Rotating cities"
-  
-  - name: "Barcelona AI & Big Data Congress"
-    frequency: "Annual"
-    location: "Barcelona"
-  
-  - name: "Madrid AI Summit"
-    frequency: "Annual"
-    location: "Madrid"
-
-# AI APIs & Services Available
-available_ai_apis:
-  - provider: "Google Cloud AI"
-    services: ["Vision API", "Natural Language API", "Translation API", "Vertex AI"]
-    region: "europe-southwest1"
-  
-  - provider: "Azure AI"
-    services: ["Cognitive Services", "Azure OpenAI Service", "Machine Learning"]
-    region: "spain-central"
-  
-  - provider: "AWS AI"
-    services: ["Bedrock", "Rekognition", "Comprehend", "Translate"]
-    region: "eu-south-2"
-  
-  - provider: "Hugging Face"
-    services: ["Model Hub", "Inference API"]
-    eu_hosting: true
-
-# Language Models (Spanish-focused)
-spanish_llms:
-  - name: "MarIA (Spanish GPT)"
-    developer: "NLP & UPV"
-    parameters: 7000000000
-    open_source: true
-    website: "https://maria.readthedocs.io"
-  
-  - name: "SpanishT5"
-    developer: "Various Spanish universities"
-    parameters: 3000000000
-    open_source: true
+notes: >
+  Espanha está se posicionando como o hub de IA do sul da Europa, com
+  investimentos massivos via fundos NextGenEU. O país sediará o primeiro
+  supercomputador de IA da UE (MareNostrum 5 em Barcelona). Microsoft,
+  Amazon e Google estabeleceram data centers locais para atender à
+  demanda de soberania de dados da UE. O ecossistema de startups
+  espanholas é vibrante, com 2 unicórnios no setor de IA/mobilidade.

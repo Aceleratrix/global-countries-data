@@ -1,62 +1,43 @@
-# 🇪🇸 Spain (España)
+# 🇪🇸 Espanha (Spain)
 
-**Capital:** Madrid  
-**Population:** 47.4 million (2024)  
-**Currency:** Euro (EUR, €)  
-**Official Language:** Spanish (Español)  
-**Government:** Parliamentary Constitutional Monarchy  
-**GDP (Nominal):** $1.58 trillion (2024) – 14th largest economy globally  
-**GDP Per Capita:** $32,578  
-**HDI:** 0.911 (Very High) – 27th globally  
-**Time Zones:** CET (UTC+1) / CEST (UTC+2)  
+## Informações Básicas
+- **Nome Oficial**: Reino de España
+- **Código ISO**: ES (alpha-2), ESP (alpha-3)
+- **Capital**: Madrid
+- **Moeda**: Euro (EUR) - €
+- **Língua Oficial**: Espanhol (Castelhano)
+- **População**: 47.35 milhões (2024)
+- **PIB Nominal**: $1.62T (2024) - 12ª maior economia
+- **Membro da UE**: Sim (desde 1986)
+- **Fuso Horário**: CET (UTC+1) / CEST (UTC+2)
 
-## 🌐 Quick Facts
+## Dados para IA
+- **Formato de Telefone**: +34 seguido de 9 dígitos
+- **CEP**: 5 dígitos (ex: 28001 para Madrid)
+- **ID Fiscal**: NIF (Número de Identificación Fiscal)
+- **Formato de Data**: DD/MM/YYYY
+- **Lado de Direção**: Direita
 
-- **ISO 3166-1:** ES (Alpha-2), ESP (Alpha-3), 724 (Numeric)
-- **Internet TLD:** .es
-- **Calling Code:** +34
-- **EU Member:** Yes (since 1986)
-- **Schengen Area:** Yes
-- **Eurozone:** Yes
-- **NATO Member:** Yes
+## Setores Econômicos Principais
+1. **Turismo** (12% do PIB) - 2º destino mundial
+2. **Manufatura** - Inditex (Zara), SEAT
+3. **Agricultura** - Maior produtor de azeite do mundo
+4. **Energia Renovável** - 50% da eletricidade
+5. **Tecnologia** - Hub do sul da Europa
 
-## 🏢 Business Environment
+## Grandes Empresas
+- Inditex (Zara) - $140B market cap
+- Banco Santander - $70B
+- BBVA - $50B
+- Telefónica - $25B
+- Iberdrola - $80B (energia renovável)
 
-Spain has a diversified economy with strong sectors in tourism, manufacturing, renewable energy, agriculture, and financial services. The country is a major hub for Latin American markets due to language and cultural ties.
+## Presença de Tech Giants
+- Microsoft, Amazon, Google, IBM com escritórios
+- Vodafone, Orange, MásMóvil (telecom)
+- Glovo, Cabify (unicórnios locais)
 
-**Key Industries:**
-- Tourism & Hospitality (world's 2nd most visited country)
-- Automotive Manufacturing (8th largest producer globally)
-- Renewable Energy (wind & solar power leader)
-- Agriculture (olive oil, citrus, wine)
-- Financial Services (Banco Santander, BBVA)
-- Textiles & Fashion (Inditex/Zara)
-
-## 🤖 AI Readiness
-
-Spain is investing heavily in AI with the **National AI Strategy (2020-2023)** extended through 2025:
-- €4.3 billion in public-private AI investments
-- 5 supercomputing centers with AI capabilities
-- Strong focus on ethical AI and data sovereignty
-- Growing startup ecosystem in Madrid and Barcelona
-
-**Major AI Companies/Initiatives:**
-- Telefónica (AI-driven telecom)
-- BBVA (AI-powered banking)
-- Inditex (AI in fashion retail)
-- Barcelona Supercomputing Center (MareNostrum)
-
-## 📊 Economic Highlights
-
-- **Unemployment Rate:** 11.8% (2024, improved from 26% in 2013)
-- **Inflation Rate:** 3.2% (2024)
-- **Foreign Direct Investment:** $28 billion (2023)
-- **Minimum Wage:** €1,134/month (2024, 14 payments)
-- **Corporate Tax Rate:** 25% (standard), 15% (new companies, first 2 profitable years)
-
-## 🔗 Useful Links
-
-- [Government of Spain](https://www.lamoncloa.gob.es)
-- [Spanish Tax Agency (AEAT)](https://www.agenciatributaria.es)
-- [Bank of Spain (Banco de España)](https://www.bde.es)
-- [Spain Data Portal](https://datos.gob.es)
+## Links Úteis
+- Governo: https://www.lamoncloa.gob.es
+- Agência Tributária: https://www.agenciatributaria.es
+- INE (Estatísticas): https://www.ine.es
