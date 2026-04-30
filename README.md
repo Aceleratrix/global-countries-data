@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (25 / 195 = 12.8%)
+## 📊 Coverage Progress (24 / 195 = 12.3%)
 
 ### 🌎 South America (1/12 = 8.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -70,6 +70,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇪🇸 **Spain** | 13/13 | ✅ **100% COMPLETE** | Bizum (25M users), Inditex (Zara), 2nd tourism destination, 50% renewable energy, Glovo unicorn | Spanish (es-ES) + English |
 | 🇹🇷 **Turkey** | 13/13 | ✅ **100% COMPLETE** | 18th largest economy ($1.03T), Istanbul (15M), Turkcell, KVKK data law, transcontinental | Turkish (tr-TR) + English |
 | 🇦🇹 **Austria** | 13/13 | ✅ **100% COMPLETE** | 23rd largest economy ($0.85T), Vienna (1.9M), Erste Group, EU member, Alpine tourism hub | German (de-AT) + English |
+| 🇳🇴 **Norway** | 13/13 | ✅ **100% COMPLETE** | 24th largest economy ($0.55T), Oslo (700K), Sovereign Wealth Fund $1.6T, oil/gas, EEA member | Norwegian (no-NO) + English |
 
 ### 🌍 Africa (0/54 = 0%)
 *Coming soon!*
