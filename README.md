@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 11 Countries 100% Complete](https://img.shields.io/badge/Status-11 Countries 100% Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 12 Countries 100% Complete](https://img.shields.io/badge/Status-12 Countries 100% Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (11 / 195 = 5.6%)
+## 📊 Coverage Progress (12 / 195 = 6.2%)
 
 ### 🌎 South America (1/12 = 8.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -48,12 +48,13 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇺🇸 **USA** | 13/13 | ✅ **100% COMPLETE** | Silicon Valley, Section 230, 20+ cloud regions | English (en-US) |
 | 🇨🇦 **Canada** | 13/13 | ✅ **100% COMPLETE** | Pan-Canadian AI $2.4B, Cohere $5.5B, Interac, bilingual (EN/FR) | English (en-CA) + French |
 
-### 🌏 Asia (3/50 = 6.0%)
+### 🌏 Asia (4/50 = 8.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇯🇵 **Japan** | 14/14 | ✅ **100% COMPLETE** | Konbini (25% e-commerce!), LINE (95%), Society 5.0 | English (en-US) |
 | 🇨🇳 **China** | 13/13 | ✅ **100% COMPLETE** | WeChat (1.3B users), PIPL, Alibaba Cloud (37%), Digital Yuan, Great Firewall | English (en-US) |
 | 🇮🇳 **India** | 13/13 | ✅ **100% COMPLETE** | UPI (12B+ txns/month), WhatsApp (530M), BharatGPT, Digital India, 1.43B population | English (en-US) |
+| 🇰🇷 **South Korea** | 13/13 | ✅ **100% COMPLETE** | Samsung/SK Hynix 60% chips, K-pop $10B, 95% 5G, world's fastest internet | English (en-US) |
 
 ### 🌍 Europe (4/44 = 9.1%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -69,7 +70,7 @@ A structured, machine-readable database of country-specific data designed for **
 ### 🌏 Oceania (0/14 = 0%)
 *Coming soon!*
 
-**Total: 148 structured YAML files covering 11 countries across 4 continents!**
+**Total: 161 structured YAML files covering 12 countries across 4 continents!**
 
 ---
 
@@ -383,7 +384,7 @@ This project is licensed under the **MIT License** — see [LICENSE](LICENSE) fo
 **Created by**: [@mtorresbr](https://github.com/mtorresbr)  
 **Organization**: [Aceleratrix](https://github.com/Aceleratrix)  
 **Last Updated**: 2026-04-30  
-**Status**: 🚧 Constantly expanding (11 countries 100% complete, many more coming!)  
+**Status**: 🚧 Constantly expanding (12 countries 100% complete, many more coming!)  
 
 ---
 
