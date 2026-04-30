@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (35 / 195 = 17.9%)
+## 📊 Coverage Progress (33 / 195 = 16.9%)
 
 ### 🌎 South America (1/12 = 8.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -58,6 +58,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇰🇷 **South Korea** | 13/13 | ✅ **100% COMPLETE** | Samsung/SK Hynix 60% chips, K-pop $10B, 95% 5G, world's fastest internet | English (en-US) |
 | 🇸🇦 **Saudi Arabia** | 13/13 | ✅ **100% COMPLETE** | Vision 2030 ($3T), NEOM, Saudi Aramco (largest company), 98% internet users | English (en-US) |
 | 🇹🇭 **Thailand** | 13/13 | ✅ **100% COMPLETE** | 27th largest economy ($0.49T), Tourism 20% GDP, World's largest rice exporter, 71.8M population | English (en-US) |
+| 🇮🇷 **Iran** | 13/13 | ✅ **100% COMPLETE** | 30th largest economy ($0.44T), Tehran (9M), oil/gas superpower, JCPOA nuclear deal | English (en-US) |
 
 ### 🌍 Europe (12/44 = 27.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
