@@ -1,0 +1,10 @@
+country: Nigeria
+total_road_network_km: 194000
+paved_roads_km: 60000
+railway_network_km: 3800
+major_airports:
+  - Murtala Muhammed International Airport (Lagos)
+  - Nnamdi Azikiwe International Airport (Abuja)
+internet_penetration_percentage: 45% (2023 est)
+mobile_subscriptions_per_100_people: 190
+electricity_access_percentage: 55%
