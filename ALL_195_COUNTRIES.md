@@ -47,7 +47,7 @@
 | 32 | 🇷🇴 Romênia | romania | Europe | ✅ 100% COMPLETE |
 | 33 | 🇮🇱 Israel | israel | Asia | ✅ 100% COMPLETE |
 | 34 | 🇵🇹 Portugal | portugal | Europe | ✅ 100% COMPLETE |
-| 35 | 🇮🇾 Iraque | iraq | Asia | $0.37T |
+| 35 | 🇮🇾 Iraque | iraq | Asia | ✅ 100% COMPLETE |
 | 36 | 🇲🇾 Malásia | malaysia | Asia | $0.37T |
 | 37 | 🇩🇰 Dinamarca | denmark | Europe | $0.37T |
 | 38 | 🇵🇭 Filipinas | philippines | Asia | $0.36T |
