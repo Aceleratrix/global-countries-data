@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 38 Countries 100% Complete](https://img.shields.io/badge/Status-38 Countries 100% Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 46 Countries 100% Complete](https://img.shields.io/badge/Status-46 Countries 100% Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (38 / 195 = 19.5%)
+## 📊 Coverage Progress (46 / 195 = 23.6%)
 
 ### 🌎 South America (1/12 = 8.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -81,11 +81,12 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇵🇹 **Portugal** | 13/13 | ✅ **100% COMPLETE** | 34th largest economy ($0.38T), Lisbon (3M), cork capital, tourism 17% GDP | English (en-US) |
 | 🇷🇴 **Romania** | 13/13 | ✅ **100% COMPLETE** | 32nd largest economy ($0.40T), Bucharest (2M), EU/NATO member, Carpathian Mountains | English (en-US) |
 
-### 🌍 Africa (2/54 = 3.7%)
+### 🌍 Africa (3/54 = 5.6%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇳🇬 **Nigeria** | 13/13 | ✅ **100% COMPLETE** | 28th largest economy ($0.48T), Africa's most populous (223M), fintech leader (4 unicorns), Nollywood | English (en-NG) |
 | 🇪🇬 **Egypt** | 13/13 | ✅ **100% COMPLETE** | 29th largest economy ($0.47T), Suez Canal, Pyramids of Giza, Nile River | Arabic (ar-EG) + English |
+| 🇰🇪 **Kenya** | 13/13 | ✅ **100% COMPLETE** | 41st largest economy ($0.34T), Nairobi (5M), Maasai Mara, athletics powerhouse (Kipchoge) | English (en-KE) + Swahili |
 
 ### 🌏 Oceania (1/14 = 7.1%)
 | Country | Files | Status | Key Highlights | Primary Language |

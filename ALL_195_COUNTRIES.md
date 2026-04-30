@@ -60,7 +60,7 @@
 
 | # | País | Código | Continente | PIB (USD Trilhões) |
 |---|------|--------|-----------|-------------------|
-| 41 | 🇰🇪 Quênia | kenya | Africa | $0.34T |
+| 41 | 🇰🇪 Quênia | kenya | Africa | ✅ 100% COMPLETE |
 | 42 | 🇬🇷 Grécia | greece | Europe | $0.34T |
 | 43 | 🇫🇰 Finlândia | finland | Europe | $0.33T |
 | 44 | 🇦🇷 Colômbia | colombia | South America | $0.33T |
