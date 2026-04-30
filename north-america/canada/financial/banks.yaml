@@ -1,0 +1,204 @@
+# Canada Banking & Financial System
+# AI-Ready: Structured for multi-agent systems
+
+country: canada
+last_updated: "2024-12-15"
+currency: CAD
+usmca_member: true
+
+# Banking System Overview
+system:
+  type: "Universal banking model"
+  regulator: "Office of the Superintendent of Financial Institutions (OSFI)"
+  deposit_guarantee: "$100,000 per depositor (CDIC)"
+  official_url: "https://www.osfi-bsif.gc.ca"
+  cdic_url: "https://www.cdic.ca"
+
+# Big 5 Banks (by total assets, 2024)
+big_5_banks:
+  - name: "Royal Bank of Canada (RBC)"
+    type: "Commercial bank"
+    headquarters: "Toronto, Ontario"
+    total_assets_cad_b: 2000
+    global_rank: 11
+    api_available: true
+    api_url: "https://developer.rbc.com"
+    open_banking: "In development"
+    website: "https://www.rbc.com"
+  
+  - name: "Toronto-Dominion Bank (TD)"
+    type: "Commercial bank"
+    headquarters: "Toronto, Ontario"
+    total_assets_cad_b: 1800
+    global_rank: 12
+    api_available: true
+    api_url: "https://developer.td.com"
+    open_banking: "In development"
+    website: "https://www.td.com"
+  
+  - name: "Bank of Nova Scotia (Scotiabank)"
+    type: "Commercial bank"
+    headquarters: "Toronto, Ontario"
+    total_assets_cad_b: 1400
+    global_rank: 18
+    api_available: true
+    open_banking: "In development"
+    website: "https://www.scotiabank.com"
+  
+  - name: "Bank of Montreal (BMO)"
+    type: "Commercial bank"
+    headquarters: "Toronto, Ontario"
+    total_assets_cad_b: 1300
+    global_rank: 22
+    api_available: true
+    open_banking: "In development"
+    website: "https://www.bmo.com"
+  
+  - name: "Canadian Imperial Bank of Commerce (CIBC)"
+    type: "Commercial bank"
+    headquarters: "Toronto, Ontario"
+    total_assets_cad_b: 1100
+    global_rank: 26
+    api_available: true
+    open_banking: "In development"
+    website: "https://www.cibc.com"
+
+# Payment Methods (by transaction volume, 2024)
+payment_methods:
+  - method: "Interac (Debit & e-Transfer)"
+    market_share: 48
+    types:
+      - "Interac Debit (in-person)"
+      - "Interac e-Transfer (P2P, 20M+ users)"
+    daily_limit_cad: 3000
+    notes: "Most popular payment method in Canada"
+  
+  - method: "Credit/Debit Cards"
+    market_share: 35
+    major_providers: ["Visa", "Mastercard", "American Express"]
+    contactless_limit_cad: 250
+    notes: "Widely accepted"
+  
+  - method: "Cash"
+    market_share: 10
+    notes: "Declining rapidly"
+  
+  - method: "Digital Wallets"
+    market_share: 5
+    providers:
+      - name: "Apple Pay"
+        adoption: "High"
+      - name: "Google Pay"
+        adoption: "High"
+      - name: "Samsung Pay"
+        adoption: "Medium"
+  
+  - method: "Bank Transfers (EFT)"
+    market_share: 2
+    notes: "Used for payroll, bills"
+
+# Payment APIs & Open Banking
+open_banking:
+  status: "Framework in development (2024-2025)"
+  legislation: "Consumer-Driven Banking Framework"
+  implementation: "Planned 2025"
+  major_aggregators:
+    - name: "Plaid"
+      coverage: "Major Canadian banks"
+      api_url: "https://plaid.com/canada"
+    - name: "Yodlee (Envestnet)"
+      coverage: "All major banks"
+    - name: "Flinks"
+      origin: "Canada (Montreal)"
+      coverage: "All major banks"
+      api_url: "https://flinks.com"
+  
+  interac_api: "e-Transfer API available for businesses (limited)"
+  notes: "Open banking regulation expected in 2025"
+
+# Routing Number Format
+routing:
+  format: "3-digit institution + 5-digit branch"
+  example: "003 01234 (BMO institution 003)"
+  institution_codes:
+    - "001: Bank of Montreal (BMO)"
+    - "002: Bank of Nova Scotia (Scotiabank)"
+    - "003: Royal Bank of Canada (RBC)"
+    - "004: Toronto-Dominion Bank (TD)"
+    - "010: Canadian Imperial Bank of Commerce (CIBC)"
+
+# Fintech & Neobanks
+fintech_landscape:
+  - name: "Wealthsimple"
+    origin: "Canada"
+    users_millions: 3
+    services: ["Commission-free trading", "Crypto", "Chequing"]
+    valuation_cad_b: 5
+  
+  - name: "Koho"
+    origin: "Canada"
+    users_millions: 1.5
+    services: ["Prepaid cards", "Spending insights"]
+  
+  - name: "Neo Financial"
+    origin: "Canada"
+    users_millions: 1
+    services: ["Credit cards", "High-interest savings"]
+  
+  - name: "Revolut"
+    origin: "UK"
+    users_canada_millions: 0.8
+    license: "Lithuanian (EU passport, no CDIC)"
+  
+  - name: "Wise"
+    origin: "Estonia/UK"
+    services: ["International transfers", "Multi-currency"]
+
+# E-Commerce Payment Gateways
+payment_gateways:
+  - name: "Stripe"
+    market_share: 35
+    api_available: true
+  
+  - name: "PayPal"
+    market_share: 25
+    api_available: true
+  
+  - name: "Square (Block)"
+    market_share: 15
+    api_available: true
+  
+  - name: "Moneris"
+    market_share: 10
+    type: "Canadian payment processor (RBC + BMO)"
+    api_available: true
+    website: "https://www.moneris.com"
+  
+  - name: "Adyen"
+    market_share: 8
+    api_available: true
+
+# Cryptocurrency Regulations
+cryptocurrency:
+  legal_status: "Legal (not recognized as legal tender)"
+  regulator: "CSA (Canadian Securities Administrators)"
+  registration_required: true
+  reporting: "Crypto holdings > $100,000 CAD (Form T1135)"
+  tax: "Subject to capital gains tax (50% inclusion)"
+  vat: "Not subject to GST/HST on purchases"
+  notes: "Crypto platforms must register as Money Service Businesses (MSBs)"
+
+# Invoicing Requirements
+invoicing:
+  mandatory_fields:
+    - "Invoice number"
+    - "Invoice date"
+    - "Vendor and customer information"
+    - "Description of goods/services"
+    - "GST/HST amount (if registered)"
+    - "Total amount"
+  electronic_invoicing:
+    b2g_required: false
+    b2b_optional: true
+    standard: "Peppol (being adopted)"
+  retention: "6 years (recommended)"

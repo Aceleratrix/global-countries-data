@@ -1,0 +1,208 @@
+# Canada Business: Import & Export
+# AI-Ready: Structured for multi-agent systems
+
+country: canada
+last_updated: "2024-12-15"
+usmca_member: true
+currency: CAD
+
+# Trade Overview
+trade_overview:
+  total_exports_cad_billions: 680
+  total_imports_cad_billions: 720
+  trade_balance_cad_billions: -40
+  rank_global_exports: 12
+  rank_global_imports: 11
+
+# Top Export Destinations (2024)
+top_export_destinations:
+  - country: "United States"
+    value_cad_billions: 480
+    share_percent: 70.6
+    notes: "USMCA duty-free access"
+  
+  - country: "China"
+    value_cad_billions: 28
+    share_percent: 4.1
+  
+  - country: "United Kingdom"
+    value_cad_billions: 22
+    share_percent: 3.2
+    
+  - country: "Japan"
+    value_cad_billions: 18
+    share_percent: 2.6
+    
+  - country: "Mexico"
+    value_cad_billions: 15
+    share_percent: 2.2
+    notes: "USMCA duty-free access"
+
+# Top Export Products (2024)
+top_export_products:
+  - product: "Crude Oil & Petroleum Products"
+    value_cad_billions: 145
+    share_percent: 21.3
+    hs_code: "27"
+    
+  - product: "Motor Vehicles & Parts"
+    value_cad_billions: 85
+    share_percent: 12.5
+    hs_code: "87"
+    
+  - product: "Natural Gas"
+    value_cad_billions: 42
+    share_percent: 6.2
+    hs_code: "27"
+    
+  - product: "Gold & Precious Metals"
+    value_cad_billions: 38
+    share_percent: 5.6
+    hs_code: "71"
+    
+  - product: "Aircraft & Parts"
+    value_cad_billions: 32
+    share_percent: 4.7
+    hs_code: "88"
+    
+  - product: "Wood & Lumber"
+    value_cad_billions: 28
+    share_percent: 4.1
+    hs_code: "44"
+
+# Top Import Sources (2024)
+top_import_sources:
+  - country: "United States"
+    value_cad_billions: 400
+    share_percent: 55.6
+    notes: "USMCA duty-free"
+    
+  - country: "China"
+    value_cad_billions: 85
+    share_percent: 11.8
+    
+  - country: "Mexico"
+    value_cad_billions: 35
+    share_percent: 4.9
+    notes: "USMCA duty-free"
+    
+  - country: "Germany"
+    value_cad_billions: 22
+    share_percent: 3.1
+    
+  - country: "Japan"
+    value_cad_billions: 18
+    share_percent: 2.5
+
+# Top Import Products (2024)
+top_import_products:
+  - product: "Motor Vehicles & Parts"
+    value_cad_billions: 95
+    share_percent: 13.2
+    
+  - product: "Machinery & Mechanical Appliances"
+    value_cad_billions: 68
+    share_percent: 9.4
+    hs_code: "84"
+    
+  - product: "Electronic Equipment"
+    value_cad_billions: 58
+    share_percent: 8.1
+    hs_code: "85"
+    
+  - product: "Pharmaceuticals"
+    value_cad_billions: 32
+    share_percent: 4.4
+    hs_code: "30"
+
+# Trade Agreements
+trade_agreements:
+  usmca:
+    name: "US-Mexico-Canada Agreement"
+   生效: 2020-07-01
+    benefits: "Duty-free trade, integrated supply chains"
+    rules_of_origin: "75% North American content for autos"
+    official_url: "https://www.international.gc.ca/trade-commerce/trade-agreements-accords-commerciaux/agr-acc/usmca-aceum/index.aspx"
+  
+  ceta:
+    name: "Comprehensive Economic and Trade Agreement (EU)"
+    status: "Provisionally applied"
+    benefits: "98% tariff elimination"
+    
+  cpptpp:
+    name: "Comprehensive and Progressive Trans-Pacific Partnership"
+   生效: 2018-12-30
+    members: ["Australia", "Brunei", "Canada", "Chile", "Japan", "Malaysia", "Mexico", "New Zealand", "Peru", "Singapore", "Vietnam"]
+    
+  bilateral_agreements:
+    - name: "Canada-Korea FTA"
+     生效: 2015-01-01
+    - name: "Canada-Ukraine FTA"
+     生效: 2017-08-01
+
+# Customs & Duties
+customs:
+  authority: "Canada Border Services Agency (CBSA)"
+  official_url: "https://www.cbsa-asfc.gc.ca"
+  customs_union: false
+  average_tariff_outside_usmca: "Varies by product (0-35%)"
+  customs_tariff: "Customs Tariff Act (S.C. 1997, c. 36)"
+  import_gst_hst: "GST/HST applies to most imports"
+  customs_value: "Transaction value (WTO Valuation Agreement)"
+  non_tariff_barriers: "Sanitary and Phytosanitary (SPS) measures, technical standards"
+
+# Import/Export Procedures
+procedures:
+  exports:
+    - "No export license required for most goods"
+    - "Export Declaration (B13A) for goods >$2,000 CAD"
+    - "USMCA Certificate of Origin for preferential tariff"
+    - "Export controls for military/dual-use items (Export Permit Board)"
+    
+  imports:
+    - "Commercial Import Declaration (B3-3)"
+    - "Payment of duties and taxes at border"
+    - "Release on Minium Documentation (RMD) for frequent importers"
+    - "Canadian Food Inspection Agency (CFIA) for food/plants/animals"
+
+# Special Economic Zones
+special_zones:
+  - name: "Foreign Trade Zones (FTZs)"
+    benefits: "Duty deferral, streamlined customs"
+    locations: "Major ports and border crossings"
+    
+  - name: "Canadian Free Trade Agreement (CFTA)"
+    benefits: "Interprovincial trade liberalization"
+    covers: "All 13 provinces and territories"
+
+# Trade Finance
+trade_finance:
+  export_credit_agency: "Export Development Canada (EDC)"
+  official_url: "https://www.edc.ca"
+  services: ["Export credit insurance", "Trade finance", "Political risk insurance"]
+  letter_of_credit_providers: ["RBC", "TD", "BMO", "Scotiabank", "CIBC"]
+  export_financing: "EDC direct loans, working capital guarantees"
+
+# Incoterms 2020
+common_incoterms:
+  - "EXW (Ex Works)"
+  - "FCA (Free Carrier)"
+  - "FOB (Free on Board)"
+  - "CIF (Cost, Insurance, Freight)"
+  - "DDP (Delivered Duty Paid)"
+  official_rules: "ICC Incoterms 2020"
+
+# E-Commerce Cross-Border
+ecommerce_imports:
+  usmca_orders: "No duties for goods <$150 CAD"
+  non_usmca_orders: "Duties + GST/HST apply"
+  platform_responsibility: "Marketplace sellers responsible for compliance"
+  customs_broker: "Required for commercial imports >$3,300 CAD"
+
+# Export Promotion
+export_promotion:
+  agency: "Global Affairs Canada (GAC)"
+  official_url: "https://www.international.gc.ca"
+  services: ["Trade commissions", "Market research", "Trade missions", "Trade shows"]
+  trade_offices_worldwide: 160
+  focus_sectors: ["Clean technology", "Aerospace", "Agri-food", "Digital industries", "Mining"]

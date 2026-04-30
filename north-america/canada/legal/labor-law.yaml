@@ -1,0 +1,165 @@
+# Canada Labor Laws
+# AI-Ready: Structured for multi-agent systems
+
+country: canada
+last_updated: "2024-12-15"
+jurisdiction: CA
+federal_system: true
+
+# Primary Federal Legislation
+federal_law:
+  name: "Canada Labour Code (Part III)"
+  code: "RSC 1985, c L-2"
+  applies_to: "Federal jurisdiction (banks, telecom, interprovincial transport)"
+  official_url: "https://laws-lois.justice.gc.ca/eng/acts/L-2"
+
+# Provincial Variations (each province has its own employment standards)
+provincial_laws:
+  - province: "Ontario"
+    law: "Employment Standards Act (ESA)"
+    official_url: "https://www.ontario.ca/laws/statute/00e41"
+  
+  - province: "Quebec"
+    law: "Act respecting labour standards (ALS)"
+    official_url: "https://www.legisquebec.gouv.qc.ca/en/document/cs/N-1.1"
+  
+  - province: "British Columbia"
+    law: "Employment Standards Act"
+    official_url: "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96113_00"
+
+# Employment Contracts
+contract_types:
+  - type: "Indefinite (Permanent)"
+    description: "No end date, full protections"
+    probation_period_months: 3
+    severance: "2+ weeks per year worked (federal)"
+  
+  - type: "Fixed-term (Contract)"
+    description: "Specific end date"
+    max_duration: "No limit, but renewals may trigger permanent status"
+    severance: "Varies by jurisdiction"
+  
+  - type: "Casual/Part-time"
+    description: "On-call or irregular hours"
+    benefits: "Pro-rated if meets thresholds"
+
+# Working Hours
+working_hours:
+  standard_hours_week: 40
+  standard_hours_day: 8
+  rest_between_shifts_hours: 8
+  overtime_threshold: "44 hours/week (federal)"
+  overtime_rate: "1.5x regular wage"
+  meal_break: "30 minutes after 5 hours (federal)"
+
+# Minimum Wage (by province, 2024)
+minimum_wage:
+  federal: 17.30
+  provinces:
+    - province: "Alberta"
+      rate_cad: 15.00
+    - province: "British Columbia"
+      rate_cad: 17.40
+    - province: "Ontario"
+      rate_cad: 16.55
+    - province: "Quebec"
+      rate_cad: 15.75
+    - province: "Saskatchewan"
+      rate_cad: 15.00
+  notes: "Rates updated annually (linked to inflation)"
+
+# Sick Leave & Benefits
+sick_leave:
+  federal:
+    paid_days: 0
+    unpaid_days: 5
+    medical_note: "May be required after 3 days"
+  provincial:
+    ontario: "3 paid sick days (employers 25+ employees)"
+    quebec: "2 paid sick days"
+    british_columbia: "5 unpaid days"
+
+# Vacation & Leave
+vacation:
+  minimum_weeks: 2
+  after_5_years_weeks: 3
+  vacation_pay: "4% (2 weeks) or 6% (3 weeks) of gross wages"
+  
+  public_holidays_federal: 10
+  public_holidays_provincial: "Varies (8-10)"
+
+# Parental Leave
+parental_leave:
+  maternity:
+    duration_weeks: 15
+    paid: false
+    notes: "Employment insurance (EI) may provide 55% of wages"
+  
+  parental:
+    duration_weeks: 35
+    paid: false
+    shared: true
+    notes: "EI covers up to 55% (max $668/week 2024)"
+  
+  adoption:
+    duration_weeks: 35
+    same_as_parental: true
+
+# Termination
+termination:
+  notice_period_weeks: "2 weeks (3+ months employment)"
+  severance_federal:
+    eligibility: "12+ months continuous employment"
+    calculation: "2+ days per month (capped at 40 weeks)"
+  wrongful_dismissal: "Common law notice (often weeks per year worked)"
+
+# Remote Work
+remote_work:
+  federal_policy: "Directive on Telework (2022)"
+  requirements:
+    - "Written agreement with employer"
+    - "Right to disconnect (some provinces)"
+    - "Employer may provide equipment"
+  provincial_variations: "Varies by province"
+  tax_implications: "Work-from-home deductions available"
+
+# AI in Employment
+ai_employment_rules:
+  automated_decision_making:
+    federal: "Policy on Automated Decision-Making (2024)"
+    requirements:
+      - "Impact assessment before deployment"
+      - "Human oversight"
+      - "Transparency to affected individuals"
+      - "Explanation of decisions on request"
+  
+  worker_monitoring: "Privacy laws apply (PIPEDA, provincial)"
+  algorithmic_management: "Transparency required"
+  prohibited_practices:
+    - "Biometric monitoring without consent"
+    - "Discriminatory AI in hiring"
+    - "Automated termination without human review"
+
+# Collective Bargaining
+collective_bargaining:
+  coverage_rate: 27
+  federal_law: "Canada Labour Code Part I"
+  certification: "Majority support (50%+1)"
+  mandatory_bargaining: true
+  strikes_legal: "After mediation/conciliation"
+
+# Workers' Compensation
+workers_compensation:
+  coverage: "No-fault insurance (provincial boards)"
+  funding: "Employer premiums only"
+  benefits: "75-90% of net earnings (varies by province)"
+
+# Foreign Workers
+foreign_workers:
+  temporary_foreign_worker_program: "LMIA required (Labour Market Impact Assessment)"
+  international_mobility_program: "LMIA-exempt (CUSMA, youth exchanges)"
+  work_permits:
+    - "Employer-specific (LMIA-based)"
+    - "Open work permit (spouses, graduates)"
+  processing_time_months: 2
+  official_url: "https://www.canada.ca/en/immigration-refugees-citizenship"

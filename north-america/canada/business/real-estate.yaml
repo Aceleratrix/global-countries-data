@@ -1,0 +1,191 @@
+# Canada Business: Real Estate
+# AI-Ready: Structured for multi-agent systems
+
+country: canada
+last_updated: "2024-12-15"
+usmca_member: true
+currency: CAD
+
+# Real Estate Market Overview
+market_overview:
+  total_value_cad_trillions: 5.5
+  residential_percent: 70
+  commercial_percent: 25
+  industrial_percent: 5
+  market_trend: "Cooling after rapid growth 2020-2022, some areas declining"
+
+# Property Prices (2024, CAD per m²)
+residential_prices_cad_m2:
+  toronto:
+    average: 10500
+    city_center: 14500
+    suburbs: 8500
+  vancouver:
+    average: 12000
+    city_center: 16500
+    suburbs: 9500
+  montreal:
+    average: 7000
+    city_center: 9500
+    suburbs: 5500
+  calgary:
+    average: 5500
+    city_center: 7000
+    suburbs: 4500
+  ottawa:
+    average: 6000
+    city_center: 8000
+    suburbs: 5000
+
+# Commercial Real Estate
+commercial_prices_cad_m2_month:
+  toronto_office_prime: 45
+  vancouver_office_prime: 40
+  montreal_office_prime: 28
+  retail_high_street_toronto: 180
+  retail_high_street_vancouver: 160
+  industrial_logistics_toronto: 12
+  industrial_logistics_vancouver: 11
+
+# Rental Market
+rental_market:
+  toronto:
+    apartment_2bed_cad_month: 3200
+    apartment_3bed_cad_month: 4200
+  vancouver:
+    apartment_2bed_cad_month: 3500
+    apartment_3bed_cad_month: 4500
+  montreal:
+    apartment_2bed_cad_month: 1900
+    apartment_3bed_cad_month: 2500
+  rental_yield_percent: 3.8
+  notes: "Rental prices declining slightly in 2024 after peak in 2022"
+
+# Legal Framework
+legal_framework:
+  property_law: "Provincial jurisdiction (each province has own laws)"
+  foreign_ownership: "Prohibited for residential in British Columbia (since 2023), 25% tax in Ontario"
+  official_url: "Provincial land registry websites"
+
+# Property Purchase Process (for Canadians)
+purchase_process_domestic:
+  steps:
+    - "Get mortgage pre-approval"
+    - "Make offer (with conditions)"
+    - "Remove conditions (inspection, financing)"
+    - "Hire lawyer/notary for closing"
+    - "Pay land transfer tax + legal fees"
+  timeline_days: 30
+  legal_fees_cad: 1500
+  land_transfer_tax: "Varies by province (Toronto: 2%+ on >$2M)"
+  notes: "No notary requirement in Ontario (lawyers only)"
+
+# Property Purchase Process (Foreign Buyers)
+purchase_process_foreign:
+  restrictions: "British Columbia: banned until 2025, Ontario: 25% tax"
+  non_resident_tax: "25% on rental income (Section 216 return)"
+  capital_gains: "Worldwide tax for residents, Canadian-source only for non-residents"
+
+# Property Taxes
+property_taxes:
+  - name: "Property Tax (Municipal)"
+    basis: "Assessed value (municipal assessment)"
+    rate_range: "0.5% - 1.2% annually"
+    collected_by: "Municipality"
+  
+  - name: "Land Transfer Tax"
+    applies_to: "Property purchases"
+    rate_range: "0.5% - 2.5% (progressive)"
+    collected_by: "Province + Toronto (double in Toronto)"
+  
+  - name: "Speculation Tax (British Columbia)"
+    applies_to: "Vacant properties in urban areas"
+    rate: 2
+    notes: "Targets foreign/empty homes"
+
+# Commercial Leases
+commercial_leases:
+  typical_term_years: 5
+  break_clause_years: 3
+  rent_review: "Annual (CPI-linked or fixed %)"
+  security_deposit_months: 3
+  legal_framework: "Provincial commercial tenancy acts"
+  notes: "Net leases common (tenant pays taxes, maintenance)"
+
+# Foreign Investment
+foreign_ownership:
+  restrictions: "British Columbia: ban until 2025 (21-month freeze)"
+  ontario_non_resident_tax: 25
+  reporting: "T1135 for foreign property >$100,000"
+  notes: "Federal government monitoring, may extend restrictions"
+
+# Real Estate Investment Trusts (REITs)
+reits:
+  description: "Publicly traded real estate investment trusts"
+  tax_advantages: "Flow-through entity (90% income distributed)"
+  major_reits:
+    - name: "RioCan REIT"
+      market_cap_cad_billions: 7.5
+      focus: "Retail & mixed-use"
+    - name: "Brookfield Property Partners"
+      market_cap_usd_billions: 25
+      focus: "Global office & retail"
+    - name: "Canadian Apartment Properties (CAPREIT)"
+      market_cap_cad_billions: 12
+      focus: "Residential rental"
+
+# Construction & Development
+construction:
+  permits_required: true
+  authority: "Municipal planning departments"
+  timeline_residential_months: 10
+  timeline_commercial_months: 20
+  building_costs_cad_m2: 2500
+  sustainable_building_percent: 40
+  leed_certified_buildings: 3500
+
+# Zoning & Land Use
+zoning:
+  categories:
+    - "Residential (R1, R2, etc.)"
+    - "Commercial (C1, C2)"
+    - "Industrial (M1, M2)"
+    - "Agricultural (A1)"
+    - "Mixed-use (MU)"
+  official_plans: "Municipal official plans guide development"
+
+# Real Estate Platforms & APIs
+real_estate_platforms:
+  - name: "Realtor.ca"
+    market_share: 50
+    api_available: false
+    website: "https://www.realtor.ca"
+  
+  - name: "Zolo"
+    market_share: 25
+    api_available: false
+    website: "https://www.zolo.ca"
+  
+  - name: "Point2Homes"
+    market_share: 15
+    api_available: false
+    website: "https://www.point2homes.com"
+  
+  - name: "Century 21 Canada"
+    market_share: 10
+    api_available: false
+    website: "https://www.century21.ca"
+
+# Mortgage Market
+mortgages:
+  average_interest_rate: 5.2
+  ltv_max_percent: 80
+  amortization_max_years: 25
+  fixed_rate_products_percent: 45
+  variable_rate_products_percent: 55
+  stress_test: "Minimum qualifying rate (higher of: contract rate + 2% or 5.25%)"
+  requirements:
+    - "Down payment (min 5% for <$500K, 10% for >$500K)"
+    - "Proof of income"
+    - "Credit score 680+ for best rates"
+  top_lenders: ["RBC", "TD", "BMO", "Scotiabank", "CIBC"]

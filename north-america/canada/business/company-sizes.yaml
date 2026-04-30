@@ -1,0 +1,195 @@
+# Canada Business: Company Sizes & Classifications
+# AI-Ready: Structured for multi-agent systems
+
+country: canada
+last_updated: "2024-12-15"
+usmca_member: true
+
+# Company Size Definitions (Canada Revenue Agency & Statistics Canada)
+size_categories:
+  - category: "Small CCPC (Canadian-Controlled Private Corporation)"
+    employees_max: 100
+    revenue_max_cad: 500000
+    assets_max_cad: 15000000
+    percentage_of_total: 98.5
+    notes: "Eligible for small business deduction (9% tax rate)"
+  
+  - category: "Medium Enterprise"
+    employees_min: 100
+    employees_max: 500
+    revenue_max_cad: 50000000
+    percentage_of_total: 1.0
+    notes: "Regional to national reach"
+  
+  - category: "Large Enterprise"
+    employees_min: 500
+    revenue_min_cad: 50000000
+    percentage_of_total: 0.5
+    notes: "Multinationals, large Canadian corporations"
+  
+  - category: "Self-employed (Sole Proprietor)"
+    employees: 0
+    description: "Freelancers, sole proprietors"
+    count_2024: 2800000
+    percentage_of_total: "N/A (separate category)"
+    notes: "Not counted in enterprise statistics"
+
+# Provincial Distribution
+provincial_breakdown:
+  - province: "Ontario"
+    total_companies: 520000
+    sme_percentage: 99.3
+    large_companies: 3500
+  
+  - province: "Quebec"
+    total_companies: 380000
+    sme_percentage: 99.2
+    large_companies: 3000
+  
+  - province: "British Columbia"
+    total_companies: 220000
+    sme_percentage: 99.4
+    large_companies: 1300
+  
+  - province: "Alberta"
+    total_companies: 200000
+    sme_percentage: 99.1
+    large_companies: 1800
+    
+  - province: "Manitoba"
+    total_companies: 60000
+    sme_percentage: 99.5
+    large_companies: 300
+
+# Sectoral Distribution (by number of companies)
+sectoral_breakdown:
+  - sector: "Professional, Scientific, Technical Services"
+    percentage: 18
+    examples: ["Consulting", "IT services", "Engineering"]
+  
+  - sector: "Retail Trade"
+    percentage: 16
+    examples: ["Retail stores", "E-commerce"]
+  
+  - sector: "Construction"
+    percentage: 14
+    examples: ["Residential", "Commercial", "Infrastructure"]
+  
+  - sector: "Health Care and Social Assistance"
+    percentage: 12
+    examples: ["Medical clinics", "Home care", "Social services"]
+    
+  - sector: "Finance and Insurance"
+    percentage: 10
+    examples: ["Banks", "Credit unions", "Insurance"]
+    
+  - sector: "Manufacturing"
+    percentage: 8
+    examples: ["Automotive", "Food processing", "Aerospace"]
+    
+  - sector: "Accommodation and Food Services"
+    percentage: 7
+    examples: ["Restaurants", "Hotels"]
+    
+  - sector: "Other"
+    percentage: 15
+    examples: ["Agriculture", "Mining", "Transportation"]
+
+# Business Creation & Closure
+business_dynamics:
+  new_companies_2023: 430000
+  dissolved_companies_2023: 120000
+  net_growth_2023: 310000
+  survival_rate_5_years_percent: 68
+  survival_rate_10_years_percent: 50
+
+# Foreign Companies in Canada
+foreign_companies:
+  total_count: 22000
+  top_origin_countries:
+    - country: "United States"
+      count: 12000
+    - country: "United Kingdom"
+      count: 2000
+    - country: "Germany"
+      count: 1500
+    - country: "France"
+      count: 1000
+    - country: "Japan"
+      count: 900
+  main_sectors: ["Manufacturing", "Financial services", "Technology", "Energy"]
+  employment_generated: 2200000
+
+# Startup Ecosystem
+startups:
+  total_2024: 18000
+  unicorns_count: 12
+  top_unicorns:
+    - name: "Cohere (AI)"
+      valuation_usd_billions: 5.5
+    - name: "Wealthsimple (Fintech)"
+      valuation_cad_billions: 5.0
+    - name: "Lightspeed (POS)"
+      valuation_usd_billions: 1.5
+  startup_hubs:
+    - city: "Toronto-Waterloo"
+      startups: 7500
+    - city: "Montreal"
+      startups: 4200
+    - city: "Vancouver"
+      startups: 3200
+    - city: "Calgary"
+      startups: 1800
+
+# Franchise Sector
+franchises:
+  total_brands: 1200
+  total_outlets: 78000
+  top_sectors:
+    - sector: "Food & Beverage"
+      percentage: 40
+    - sector: "Retail"
+      percentage: 25
+    - sector: "Services"
+      percentage: 20
+    - sector: "Accommodation"
+      percentage: 15
+  top_franchises: ["Tim Hortons", "Subway", "McDonald's", "7-Eleven"]
+
+# Cooperatives
+cooperatives:
+  count: 9000
+  members: 18000000
+  assets_cad_billions: 70
+  top_cooperatives:
+    - name: "Desjardins Group"
+      assets_cad_billions: 450
+      type: "Credit union federation"
+    - name: "Federated Cooperatives Limited"
+      revenue_cad_billions: 9.5
+      sector: "Retail/Wholesale"
+
+# Business Count by Size (2024)
+business_counts:
+  self_employed_freelancers: 2800000
+  small_businesses: 1300000
+  medium_businesses: 14000
+  large_businesses: 7000
+  total_active_companies: 1354000
+
+# High-Growth Enterprises
+high_growth:
+  count_2023: 12000
+  employment_generated: 180000
+  sectors: ["Technology", "E-commerce", "Clean energy", "Biotech"]
+  definition: "20%+ annual growth over 3 years"
+
+# Digital Transformation
+digital_adoption:
+  digital_intensity_high_percent: 32
+  digital_intensity_medium_percent: 42
+  digital_intensity_low_percent: 26
+  cloud_adoption_percent: 48
+  ecommerce_adoption_percent: 42
+  ai_adoption_percent: 22
+  bnpl_adoption_percent: 35

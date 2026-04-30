@@ -1,0 +1,190 @@
+# Canada Tax Codes & Fiscal Information
+# AI-Ready: Structured for multi-agent systems
+
+country: canada
+last_updated: "2024-12-15"
+currency: CAD
+usmca_member: true
+
+# GST/HST (Goods and Services Tax / Harmonized Sales Tax)
+gst_hst:
+  federal_gst_rate: 5
+  hst_rates_by_province:
+    - province: "Ontario"
+      rate: 13
+      type: "HST"
+    - province: "Nova Scotia"
+      rate: 15
+      type: "HST"
+    - province: "New Brunswick"
+      rate: 15
+      type: "HST"
+    - province: "Newfoundland and Labrador"
+      rate: 15
+      type: "HST"
+    - province: "Prince Edward Island"
+      rate: 15
+      type: "HST"
+  
+  gst_only_provinces:
+    - province: "Alberta"
+      rate: 5
+      type: "GST only"
+    - province: "British Columbia"
+      rate: 5
+      type: "GST + PST 7%"
+    - province: "Saskatchewan"
+      rate: 5
+      type: "GST + PST 6%"
+    - province: "Manitoba"
+      rate: 5
+      type: "GST + PST 7%"
+    - province: "Quebec"
+      rate: 5
+      type: "GST + QST 9.975%"
+  
+  registration_threshold_cad: 30000
+  filing_frequency: "Quarterly (annual possible under $1.5M revenue)"
+  official_url: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst.html"
+
+# Corporate Income Tax
+corporate_tax:
+  federal_rate: 15
+  additional_sme_deduction: 9
+  effective_rate_sme: 9
+  requirements:
+    - "Canadian-controlled private corporation (CCPC)"
+    - "Active business income under $500,000"
+  
+  provincial_rates:
+    - province: "Ontario"
+      rate: 11.5
+      total_effective: 26.5
+    - province: "Quebec"
+      rate: 11.5
+      total_effective: 26.5
+    - province: "Alberta"
+      rate: 8
+      total_effective: 23
+    - province: "British Columbia"
+      rate: 12
+      total_effective: 27
+  
+  small_business_limit: 500000
+  filing_deadline: "6 months after fiscal year-end"
+  advance_payments: "Monthly or quarterly (if tax > $3,000)"
+  official_url: "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporate-income-tax.html"
+
+# Personal Income Tax
+personal_income_tax:
+  type: "Progressive (federal + provincial)"
+  
+  federal_brackets_2024:
+    - up_to_cad: 55867
+      rate: 15
+    - from_cad: 55867
+      up_to_cad: 111733
+      rate: 20.5
+    - from_cad: 111733
+      up_to_cad: 173205
+      rate: 26
+    - from_cad: 173205
+      up_to_cad: 246752
+      rate: 29
+    - from_cad: 246752
+      rate: 33
+  
+  provincial_brackets: "Varies by province (see provincial tax calculators)"
+  capital_gains_inclusion: 50
+  dividend_tax_credit: true
+  filing_deadline: "April 30 (June 15 for self-employed)"
+
+# Payroll Taxes
+payroll_taxes:
+  cpp_qpp:
+    name: "Canada Pension Plan / Quebec Pension Plan"
+    employee_rate: 5.95
+    employer_rate: 5.95
+    max_contributory_earnings_cad: 68500
+    exemption: "First $3,500"
+  
+  ei_premiums:
+    name: "Employment Insurance"
+    employee_rate: 1.66
+    employer_rate: 2.324
+    max_insurable_earnings_cad: 63200
+  
+  health_premium:
+    provinces: ["Ontario (until 2020)", "Alberta (until 2009)"]
+    notes: "Most provinces eliminated health premiums"
+
+# Provincial Taxes
+provincial_taxes:
+  - name: "Ontario Health Premium"
+    notes: "Replaced by progressive tax in 2020"
+  
+  - name: "Quebec Health Services Fund"
+    employer_contribution: "Varies by payroll size"
+  
+  - name: "Workers' Compensation (provincial)"
+    coverage: "All provinces"
+    funded_by: "Employers only"
+
+# Digital Services Tax
+digital_services_tax:
+  status: "Proposed (3% rate, $750M global revenue threshold)"
+  applies_to: "Digital services revenue (ads, platforms, data)"
+  implementation: "Expected 2025"
+
+# Withholding Taxes
+withholding_tax:
+  dividends:
+    domestic: 0
+    non_resident: 25
+    treaty_relief: true
+  interest:
+    domestic: 0
+    non_resident: 25
+    exceptions: "Arm's length, related party rules"
+  royalties:
+    domestic: 0
+    non_resident: 25
+    treaty_relief: true
+
+# Tax Identification Numbers
+tax_ids:
+  - name: "SIN (Social Insurance Number)"
+    format: "XXX XXX XXX (9 digits)"
+    example: "123 456 789"
+    for: "Individuals (employment, taxes, benefits)"
+    issued_by: "Service Canada"
+  
+  - name: "BN (Business Number)"
+    format: "XXXXXXXXX (9 digits)"
+    example: "123456789"
+    for: "Corporations, GST/HST, payroll"
+    issued_by: "CRA"
+  
+  - name: "GST/HST Number"
+    format: "BN + RT000X"
+    example: "123456789 RT0001"
+    for: "Businesses collecting GST/HST"
+
+# Tax Year
+tax_year:
+  standard: "Calendar year (Jan 1 - Dec 31)"
+  fiscal_year_allowed: true
+  corporate_deadline: "6 months after year-end"
+  individual_deadline: "April 30"
+
+# Tax Treaties
+tax_treaties: "Over 90 treaties to avoid double taxation"
+official_treaty_list: "https://www.canada.ca/en/department-finance/programs/tax-policy/tax-treaties.html"
+
+# Digital Tax Administration
+tax_administration:
+  name: "Canada Revenue Agency (CRA)"
+  digital_services: "My Business Account, Represent-a-Client"
+  online_filing: "Mandatory for corporations over $1M revenue"
+  certification_required: "Representative authorization (Form AUT-01)"
+  official_url: "https://www.canada.ca/en/revenue-agency.html"

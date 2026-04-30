@@ -1,0 +1,133 @@
+# Canada Internet & Data Protection Laws
+# AI-Ready: Structured for multi-agent systems
+
+country: canada
+last_updated: "2024-12-15"
+jurisdiction: CA
+gdpr_equivalent: "PIPEDA"
+
+# Primary Legislation
+laws:
+  - name: "PIPEDA (Personal Information Protection and Electronic Documents Act)"
+    code: "SC 2000, c 5"
+    scope: "Private sector privacy, data protection"
+    official_url: "https://laws-lois.justice.gc.ca/eng/acts/P-8.6"
+  
+  - name: "Canada's Anti-Spam Legislation (CASL)"
+    code: "SC 2010, c 23"
+    scope: "Commercial electronic messages, malware"
+    official_url: "https://laws-lois.justice.gc.ca/eng/acts/E-5.6"
+  
+  - name: "Copyright Act"
+    code: "RSC 1985, c C-42"
+    scope: "Copyright, digital rights"
+    official_url: "https://laws-lois.justice.gc.ca/eng/acts/C-42"
+  
+  - name: "Artificial Intelligence and Data Act (AIDA)"
+    code: "Part of Bill C-27"
+    status: "Pending (passed House, in Senate 2024)"
+    scope: "Regulates high-impact AI systems"
+    official_url: "https://www.justice.gc.ca/eng/ai-rec-cia/"
+
+# AI-Specific Regulations
+ai_regulations:
+  status: "AIDA pending royal assent (expected 2025)"
+  framework: "Risk-based approach similar to EU AI Act"
+  high_risk_ai_categories:
+    - "Critical infrastructure"
+    - "Employment decisions"
+    - "Services affecting personal safety"
+    - "Biometric systems"
+  
+  requirements:
+    - "Transparency in AI system capabilities"
+    - "Human oversight for high-impact systems"
+    - "Impact assessments for biometric systems"
+    - "Record-keeping for audit purposes"
+
+# Provincial Privacy Laws
+provincial_laws:
+  - province: "Quebec"
+    law: "Law 25 (Act to modernize legislative provisions regarding privacy)"
+    effective: "2023-09-22"
+    gdpr_comparable: true
+    requirements: "Privacy by design, data portability, right to erasure"
+  
+  - province: "British Columbia"
+    law: "Personal Information Protection Act (PIPA BC)"
+  
+  - province: "Alberta"
+    law: "Personal Information Protection Act (PIPA AB)"
+
+# Domain & Hosting
+domain_registration:
+  registry: "CIRA (Canadian Internet Registration Authority)"
+  ccTLD: ".ca"
+  annual_cost_cad: 15
+  requirements:
+    - "Canadian presence (citizen, resident, company)"
+    - "90% ownership by Canadians for corporations"
+  official_url: "https://cira.ca"
+  notes: "Foreign companies need Canadian partner or subsidiary"
+
+# Data Localization
+data_localization:
+  requirement: "partial"
+  notes: "No general data localization mandate, but some sectors require Canadian storage"
+  restricted_sectors:
+    - "Health data (varies by province)"
+    - "Government data (public sector)"
+    - "Financial data (federal institutions)"
+
+# Cookies & Tracking
+cookie_law:
+  basis: "PIPEDA + CASL"
+  consent_required: true
+  exceptions:
+    - "Strictly necessary cookies"
+    - "Session cookies for functionality"
+  penalty_range: "Up to $100,000 per violation (CASL)"
+
+# Consumer Protection
+ecommerce_consumer_protection:
+  federal_law: "Competition Act"
+  cooling_off_period: "Varies by province (10-30 days for door-to-door)"
+  mandatory_disclosure:
+    - "Business identity and contact"
+    - "Product/service description"
+    - "Total price including taxes"
+    - "Delivery terms"
+  dispute_resolution: "Better Business Bureau, provincial consumer agencies"
+
+# Cybersecurity
+cybersecurity_framework:
+  strategy: "National Cyber Security Strategy (2018-2026)"
+  authority: "Canadian Centre for Cyber Security (Cyber Centre)"
+  incident_reporting: "Voluntary (mandatory for critical infrastructure in development)"
+  official_url: "https://cyber.gc.ca"
+  critical_cyber_entities: "New regulations pending (2025)"
+
+# AI Training Data Restrictions
+training_data_rules:
+  personal_data: "Requires valid consent or legal basis under PIPEDA"
+  copyrighted_material: "Fair dealing exceptions apply (research, education)"
+  indigenous_data: "OCAP principles (Ownership, Control, Access, Possession)"
+  government_data: "Open Government License Canada"
+  exceptions:
+    - "Research purposes"
+    - "Fair dealing"
+    - "Publicly available information"
+
+# Notable Enforcement Cases
+enforcement_examples:
+  - year: 2023
+    authority: "Privacy Commissioner of Canada"
+    fine: "$300,000 CAD"
+    company: "Telecom operator"
+    violation: "PIPEDA - insufficient security safeguards"
+  
+  - year: 2022
+    authority: "CRTC (CASL)"
+    fine: "$1.1 million CAD"
+    company: "Marketing firm"
+    violation: "Commercial electronic messages without consent"

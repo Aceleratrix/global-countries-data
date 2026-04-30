@@ -1,0 +1,242 @@
+# Canada AI & Cloud Services
+# AI-Ready: Structured for multi-agent systems
+
+country: canada
+last_updated: "2024-12-15"
+usmca_member: true
+
+# National AI Strategy
+national_strategy:
+  name: "Pan-Canadian Artificial Intelligence Strategy"
+  launched: 2017
+  budget_cad_billions: 2.4
+  renewal_2021_cad_billions: 0.44
+  key_pillars:
+    - "AI research excellence (3 hubs)"
+    - "AI talent development (scholarships, chairs)"
+    - "AI adoption in industry"
+    - "AI infrastructure (compute, data)"
+  official_url: "https://www.ic.gc.ca/ai"
+
+# AI Research Hubs (The "Big 3")
+ai_hubs:
+  - name: "Mila (Montreal Institute for Learning Algorithms)"
+    location: "Montreal, Quebec"
+    director: "Yoshua Bengio (Turing Award)"
+    researchers: 900
+    focus: ["Deep learning", "Generative AI", "Health AI"]
+    website: "https://mila.quebec"
+  
+  - name: "Vector Institute"
+    location: "Toronto, Ontario"
+    director: "Alán Aspuru-Guzik"
+    researchers: 700
+    focus: ["Machine learning", "Drug discovery", "Finance AI"]
+    website: "https://vectorinstitute.ai"
+  
+  - name: "Amii (Alberta Machine Intelligence Institute)"
+    location: "Edmonton, Alberta"
+    researchers: 300
+    focus: ["Reinforcement learning", "Energy AI"]
+    website: "https://amii.ca"
+
+# Supercomputing & Compute
+supercomputing:
+  - name: "Narval (Calcul Quebec)"
+    peak_performance_petaflops: 12
+    ai_capable: true
+    location: "Montreal"
+  
+  - name: "Cedar (Compute Canada)"
+    peak_performance_petaflops: 5.5
+    ai_capable: true
+    location: "Simon Fraser University"
+  
+  - name: "Graham (Compute Canada)"
+    peak_performance_petaflops: 4.8
+    ai_capable: true
+    location: "University of Waterloo"
+
+# Cloud Providers (Canada regions)
+cloud_providers:
+  - name: "AWS (Amazon Web Services)"
+    region: "ca-central-1 (Montreal)"
+    launched: 2016
+    services: ["EC2", "S3", "RDS", "Lambda", "Bedrock (AI)"]
+    compliance: ["PIPEDA", "CSA Notice"]
+    website: "https://aws.amazon.com/ca"
+  
+  - name: "Microsoft Azure"
+    region: "canada-central (Toronto)"
+    launched: 2016
+    services: ["Virtual Machines", "Azure AI", "Cosmos DB", "OpenAI Service"]
+    compliance: ["PIPEDA", "CSA Notice"]
+    website: "https://azure.microsoft.com/en-ca"
+  
+  - name: "Google Cloud"
+    region: "northamerica-northeast1 (Montreal)"
+    launched: 2018
+    services: ["Compute Engine", "Vertex AI", "Cloud Storage"]
+    compliance: ["PIPEDA"]
+    website: "https://cloud.google.com"
+  
+  - name: "Oracle Cloud"
+    region: "ca-montreal-1"
+    launched: 2021
+    services: ["OCI Compute", "Oracle AI"]
+    compliance: ["PIPEDA"]
+    website: "https://www.oracle.com/ca-en/cloud"
+
+# Canadian AI Companies & Startups
+ai_companies:
+  - name: "Cohere"
+    focus: "Large Language Models (Command R+)"
+    funding_cad_billions: 2.2
+    valuation_usd_billions: 5.5
+    location: "Toronto"
+    website: "https://cohere.com"
+  
+  - name: "Vector Institute (spinoffs)"
+    focus: "AI research commercialization"
+    notable: ["Deep Genomics", "Blue J Legal", "BenchSci"]
+  
+  - name: "BlackBerry (Cylance)"
+    focus: "AI cybersecurity"
+    location: "Waterloo"
+    website: "https://www.blackberry.com"
+  
+  - name: "RBC (Borealis AI)"
+    focus: "Banking AI research"
+    location: "Toronto"
+    status: "Closed 2023 (talent absorbed)"
+  
+  - name: "Thomson Reuters (Westlaw Edge AI)"
+    focus: "Legal AI"
+    location: "Toronto"
+    website: "https://www.thomsonreuters.com"
+
+# AI Research Institutions
+ai_research:
+  - name: "University of Toronto - Computer Science"
+    focus: ["Machine learning", "Computer vision", "NLP"]
+    researchers: 150
+    notable: "Geoffrey Hinton (Turing Award, 2018)"
+  
+  - name: "University of Montreal - MILA"
+    focus: ["Deep learning", "Generative models"]
+    researchers: 200
+  
+  - name: "University of Alberta - Amii"
+    focus: ["Reinforcement learning"]
+    researchers: 80
+    notable: "Richard Sutton (father of RL)"
+
+# AI Ethics & Regulation
+ai_ethics:
+  framework: "Directive on Automated Decision-Making (federal)"
+  authority: "Treasury Board Secretariat"
+  ethical_principles:
+    - "Accountability"
+    - "Transparency"
+    - "Fairness"
+    - "Privacy protection"
+  algorithm_assessment:
+    - "Impact assessment required for federal systems"
+    - "Four levels: Exclusion, Perception, Nudge, Material"
+  aid_a_bill: "Expected to become law 2025"
+
+# AI Talent & Education
+ai_talent:
+  universities_with_ai_programs: 45
+  ai_graduates_per_year: 1800
+  top_ai_universities:
+    - "University of Toronto (CS)"
+    - "University of Montreal (MILA)"
+    - "University of Alberta (Amii)"
+    - "McGill University"
+    - "University of Waterloo"
+  ai_researchers: 2500
+  international_ai_talent_percent: 35
+
+# AI Adoption by Sector
+sectoral_adoption:
+  - sector: "Financial Services"
+    adoption_percent: 70
+    use_cases: ["Fraud detection", "Credit scoring", "Robo-advisory"]
+  
+  - sector: "Healthcare"
+    adoption_percent: 45
+    use_cases: ["Medical imaging", "Drug discovery", "Patient triage"]
+  
+  - sector: "Retail & E-commerce"
+    adoption_percent: 55
+    use_cases: ["Recommendation engines", "Inventory optimization"]
+  
+  - sector: "Manufacturing"
+    adoption_percent: 40
+    use_cases: ["Predictive maintenance", "Quality control"]
+  
+  - sector: "Energy & Natural Resources"
+    adoption_percent: 50
+    use_cases: ["Drilling optimization", "Grid management"]
+
+# AI Funding & Investment
+ai_investment:
+  vc_investment_2023_cad_millions: 3200
+  government_grants_2024_cad_millions: 440
+  top_funding_rounds:
+    - company: "Cohere"
+      amount_cad_millions: 600
+    - company: "Deep Genomics"
+      amount_cad_millions: 180
+
+# AI Conferences & Events
+ai_events:
+  - name: "NeurIPS (Conference on Neural Information Processing Systems)"
+    frequency: "Annual"
+    location: "Rotating (Montreal hosted 2018, 2019)"
+  
+  - name: "Canadian AI Conference (CAIAC)"
+    frequency: "Annual"
+    location: "Rotating cities"
+  
+  - name: "AI for Good (Montreal)"
+    frequency: "Annual"
+    location: "Montreal"
+
+# AI APIs & Services Available
+available_ai_apis:
+  - provider: "Google Cloud AI"
+    services: ["Vision API", "Natural Language API", "Translation API", "Vertex AI"]
+    region: "northamerica-northeast1"
+  
+  - provider: "Azure AI"
+    services: ["Cognitive Services", "Azure OpenAI Service", "Machine Learning"]
+    region: "canada-central"
+  
+  - provider: "AWS AI"
+    services: ["Bedrock", "Rekognition", "Comprehend", "Translate"]
+    region: "ca-central-1"
+  
+  - provider: "Cohere"
+    services: ["Command R+ API", "Embed API"]
+    endpoint: "https://api.cohere.ai"
+
+# Language Models (English & French)
+canadian_llms:
+  - name: "Cohere Command R+"
+    parameters: 104000000000
+    languages: ["English", "French", "Multilingual"]
+    open_source: false
+    api_available: true
+    website: "https://cohere.com/command"
+  
+  - name: "GPT-3/4 (OpenAI via Azure)"
+    languages: ["English", "French"]
+    canadian_hosting: true (Azure Canada)
+  
+  - name: "Bloom (BigScience, Montreal)"
+    parameters: 176000000000
+    languages: 46
+    open_source: true
+    developed_in: "Montreal (Hugging Face)"

@@ -1,0 +1,282 @@
+# Canada Digital Marketing Landscape
+# AI-Ready: Structured for multi-agent systems
+
+country: canada
+last_updated: "2024-12-15"
+usmca_member: true
+gdpr_equivalent: "PIPEDA"
+
+# Digital Marketing Overview
+digital_ad_spend_2024_cad_millions: 10500
+growth_rate_percent: 14
+digital_share_of_total_ad_spend: 72
+global_rank: 10
+
+# Digital Platform Market Share (2024)
+platforms:
+  - name: "Google"
+    share_percent: 40
+    services: ["Search Ads", "Display", "YouTube", "Google Shopping"]
+    billing_currency: "CAD"
+  
+  - name: "Meta (Facebook/Instagram)"
+    share_percent: 30
+    services: ["Feed Ads", "Stories", "Reels", "Facebook Ads"]
+    billing_currency: "CAD"
+  
+  - name: "Amazon Ads"
+    share_percent: 15
+    services: ["Sponsored Products", "Display", "Video"]
+    billing_currency: "CAD"
+  
+  - name: "TikTok"
+    share_percent: 7
+    services: ["In-feed Ads", "Branded Hashtag Challenges"]
+    billing_currency: "CAD"
+  
+  - name: "LinkedIn"
+    share_percent: 4
+    services: ["Sponsored Content", "Message Ads", "Dynamic Ads"]
+    billing_currency: "CAD"
+  
+  - name: "Twitter/X"
+    share_percent: 2
+    services: ["Promoted Tweets", "Trend Takeover"]
+    billing_currency: "CAD"
+  
+  - name: "Other (Snapchat, Pinterest, etc.)"
+    share_percent: 2
+
+# Social Media Usage (monthly active users, 2024)
+social_media:
+  - platform: "YouTube"
+    users_millions: 33
+    penetration_percent: 80
+    primary_use: "Video consumption, influencer marketing"
+  
+  - platform: "Facebook"
+    users_millions: 25
+    penetration_percent: 61
+    trend: "Declining among youth, strong in 35+"
+  
+  - platform: "Instagram"
+    users_millions: 22
+    penetration_percent: 53
+    primary_use: "Visual content, Stories, Reels"
+  
+  - platform: "TikTok"
+    users_millions: 18
+    penetration_percent: 44
+    trend: "Rapid growth, all age groups"
+  
+  - platform: "LinkedIn"
+    users_millions: 20
+    penetration_percent: 48
+    primary_use: "B2B, recruitment, professional content"
+  
+  - platform: "Twitter/X"
+    users_millions: 11
+    penetration_percent: 27
+    primary_use: "News, professional networking"
+  
+  - platform: "Snapchat"
+    users_millions: 8
+    penetration_percent: 19
+    primary_use: "Younger demographics (Gen Z)"
+
+# Influencer Marketing
+influencer_marketing:
+  market_size_cad_millions: 450
+  growth_rate_percent: 30
+  top_categories:
+    - "Fashion & Beauty"
+    - "Travel & Lifestyle"
+    - "Gaming"
+    - "Food & Cooking"
+    - "Health & Wellness"
+  influencer_agencies:
+    - "Bread & Butter"
+    - "Match & Wood"
+    - "The Provincial"
+  regulations: "Ad disclosure required (#ad, #sponsored)"
+
+# Search Engine Market Share
+search_engines:
+  - name: "Google"
+    share_percent: 92
+  - name: "Bing"
+    share_percent: 6
+  - name: "DuckDuckGo"
+    share_percent: 1.5
+  - name: "Other"
+    share_percent: 0.5
+  seo_local_focus: "Local SEO critical for Canadian businesses"
+  top_searches_2024:
+    - "weather"
+    - "jobs"
+    - "real estate"
+    - "news"
+    - "black friday deals"
+
+# Email Marketing
+email_marketing:
+  average_open_rate_percent: 24
+  average_click_rate_percent: 3.8
+  top_esp_providers:
+    - "Mailchimp"
+    - "Constant Contact (Canadian)"
+    - "HubSpot"
+    - "ActiveCampaign"
+  pipeda_compliance: "Implied consent 30 days, express consent unlimited"
+
+# Programmatic Advertising
+programmatic:
+  share_of_display_ads_percent: 88
+  top_dsps:
+    - "Google DV360"
+    - "The Trade Desk"
+    - "Amazon DSP"
+  header_bidding_adoption_percent: 65
+  connected_tv_ctv_growth_percent: 50
+
+# E-Commerce Platforms
+ecommerce_platforms:
+  - name: "Shopify"
+    market_share: 35
+    origin: "Canada (Ottawa)"
+    canadian_support: true
+    api_available: true
+    website: "https://www.shopify.ca"
+  
+  - name: "WooCommerce"
+    market_share: 25
+    canadian_support: true
+    api_available: true
+  
+  - name: "Magento/Adobe Commerce"
+    market_share: 12
+    canadian_support: true
+    api_available: true
+  
+  - name: "Salesforce Commerce Cloud"
+    market_share: 10
+    canadian_support: true
+    api_available: true
+    
+  - name: "BigCommerce"
+    market_share: 8
+    canadian_support: true
+    api_available: true
+
+# Affiliate Marketing
+affiliate_marketing:
+  market_size_cad_millions: 250
+  top_networks:
+    - "Amazon Associates Canada"
+    - "Rakuten Advertising"
+    - "Impact"
+    - "ShareASale"
+  top_verticals:
+    - "Fashion"
+    - "Electronics"
+    - "Travel"
+    - "Financial services"
+
+# Content Marketing
+content_marketing:
+  top_formats:
+    - "Blog posts (SEO-driven)"
+    - "Video (YouTube, Reels, TikTok)"
+    - "Podcasts (growing rapidly)"
+    - "Infographics"
+    - "Webinars"
+  content_trends:
+    - "Short-form video (TikTok, Reels)"
+    - "User-generated content (UGC)"
+    - "Sustainability & purpose-driven content"
+    - "Bilingual content (English + French)"
+    - "Indigenous content (growing)"
+
+# Marketing Regulations
+marketing_laws:
+  - law: "PIPEDA (Federal)"
+    applies_to: "Data collection, email marketing, cookies"
+    penalty_range: "Up to $100,000 per violation"
+  
+  - law: "CASL (Anti-Spam)"
+    applies_to: "Commercial electronic messages"
+    requirements: "Express or implied consent, unsubscribe mechanism"
+    penalty_range: "Up to $10M per violation"
+  
+  - law: "Competition Act"
+    applies_to: "Advertising standards, influencer disclosures"
+    requirements: "Truth in advertising, #ad labels"
+    penalty_range: "Up to $10M for corporations"
+    
+  - law: "Quebec Law 25"
+    applies_to: "Privacy, data portability"
+    penalty_range: "Up to $25M CAD"
+
+# Marketing Automation & AI
+marketing_tech_stack:
+  marketing_automation: ["HubSpot", "ActiveCampaign", "Marketo", "Pardot"]
+  ai_tools:
+    - "ChatGPT (content generation)"
+    - "Jasper (copywriting)"
+    - "Midjourney (visual content)"
+    - "Hootsuite Insights (social listening)"
+  personalization_platforms: ["Dynamic Yield", "Optimizely", "Adobe Target"]
+  attribution_modeling: "Multi-touch attribution growing (from last-click)"
+
+# Mobile Marketing
+mobile_marketing:
+  mobile_ad_spend_percent: 68
+  mobile_video_ads_percent: 72
+  sms_marketing: "High adoption (Telus, Rogers), requires consent (CASL)"
+  in_app_advertising: "Strong growth (mobile gaming, utility apps)"
+  location_based_marketing: "Geofencing in retail, proximity marketing"
+
+# Regional Marketing Considerations
+regional_specifics:
+  quebec:
+    language: "French required (Bill 96, Charter of the French Language)"
+    market_size_percent: 22
+    notes: "All marketing materials must be in French (80% minimum)"
+  
+  ontario:
+    market_size_percent: 39
+    focus: "National campaigns, Toronto financial hub"
+  
+  british_columbia:
+    market_size_percent: 14
+    focus: "Tech, sustainability, outdoor lifestyle"
+    
+  alberta:
+    market_size_percent: 12
+    focus: "Energy sector, conservative messaging"
+    
+  bilingual_mandate: "Federal government communications must be bilingual"
+
+# Marketing Agencies & MarTech
+top_agencies:
+  - name: "Cossette"
+    type: "National network"
+    focus: "Creative, digital, data-driven"
+    website: "https://cossette.com"
+  
+  - name: "Zulu Alpha Zulu (ZAZ)"
+    type: "Digital-first agency"
+    focus: "Performance marketing, social"
+    
+  - name: "The Gary Group"
+    type: "Bilingual agency (QC/ON)"
+    focus: "Brand strategy, creative"
+
+# Measurement & Analytics
+analytics_tools:
+  - "Google Analytics 4 (GA4) - 88% adoption"
+  - "Adobe Analytics - 7% adoption"
+  - "Meta Pixel - 78% adoption"
+  - "Hotjar - 32% adoption (UX insights)"
+  - "Google Tag Manager - 82% adoption"
+  attribution_models: "Shift from last-click to data-driven attribution"

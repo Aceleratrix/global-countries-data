@@ -1,0 +1,257 @@
+# Canada Demographics & Population
+# AI-Ready: Structured for multi-agent systems
+
+country: canada
+last_updated: "2024-12-15"
+usmca_member: true
+
+# Population Overview
+population:
+  total_2024: 41300000
+  total_2023: 40500000
+  trend: "Growing (+2.0% from 2023, highest growth rate in G7)"
+  population_density_per_km2: 4.2
+  rank_global: 38
+  median_age: 41.2
+  life_expectancy_years: 82.3
+
+# Provincial & Territorial Distribution
+provinces_territories:
+  - name: "Ontario"
+    population: 15900000
+    capital: "Toronto"
+    density_km2: 15.5
+  
+  - name: "Quebec"
+    population: 9000000
+    capital: "Quebec City"
+    density_km2: 6.8
+  
+  - name: "British Columbia"
+    population: 5600000
+    capital: "Victoria"
+    density_km2: 5.9
+  
+  - name: "Alberta"
+    population: 4800000
+    capital: "Edmonton"
+    density_km2: 7.2
+  
+  - name: "Manitoba"
+    population: 1500000
+    capital: "Winnipeg"
+    density_km2: 2.5
+  
+  - name: "Saskatchewan"
+    population: 1200000
+    capital: "Regina"
+    density_km2: 2.0
+  
+  - name: "Nova Scotia"
+    population: 1050000
+    capital: "Halifax"
+    density_km2: 18.5
+  
+  - name: "New Brunswick"
+    population: 830000
+    capital: "Fredericton"
+    density_km2: 11.2
+  
+  - name: "Newfoundland and Labrador"
+    population: 530000
+    capital: "St. John's"
+    density_km2: 1.4
+  
+  - name: "Prince Edward Island"
+    population: 175000
+    capital: "Charlottetown"
+    density_km2: 27.5
+  
+  - name: "Northwest Territories"
+    population: 45000
+    capital: "Yellowknife"
+    density_km2: 0.05
+  
+  - name: "Nunavut"
+    population: 40000
+    capital: "Iqaluit"
+    density_km2: 0.02
+  
+  - name: "Yukon"
+    population: 45000
+    capital: "Whitehorse"
+    density_km2: 0.09
+
+# Urbanization
+urbanization:
+  urban_percent: 82
+  rural_percent: 18
+  largest_cities:
+    - city: "Toronto"
+      population_2024: 3100000
+      metro_area: 6800000
+    - city: "Montreal"
+      population_2024: 1850000
+      metro_area: 4400000
+    - city: "Vancouver"
+      population_2024: 720000
+      metro_area: 2900000
+    - city: "Calgary"
+      population_2024: 1550000
+      metro_area: 1700000
+    - city: "Edmonton"
+      population_2024: 1100000
+      metro_area: 1500000
+
+# Age Structure
+age_groups:
+  "0-14": 16
+  "15-29": 18
+  "30-44": 21
+  "45-64": 26
+  "65+": 19
+  notes: "Aging population, but immigration helps maintain working-age ratio"
+
+# Gender Distribution
+gender:
+  male_percent: 49.3
+  female_percent: 50.7
+  gender_ratio_males_per_100_females: 97.2
+
+# Birth & Death Rates
+vital_statistics:
+  birth_rate_per_1000: 10.2
+  death_rate_per_1000: 8.1
+  natural_increase_rate: 2.1
+  fertility_rate_children_per_woman: 1.47
+  notes: "Positive natural increase, but immigration drives most growth"
+
+# Immigration
+immigration:
+  annual_target_2024: 485000
+  newcomers_2023: 471000
+  top_origin_countries:
+    - country: "India"
+      percentage: 27
+    - country: "China"
+      percentage: 8
+    - country: "Philippines"
+      percentage: 6
+    - country: "Afghanistan"
+      percentage: 5
+    - country: "Nigeria"
+      percentage: 4
+  refugees_2024: 76000
+  asylum_applications_2024: 140000
+  permanent_residents_2023: 471000
+  international_students_2023: 800000
+
+# Languages
+languages:
+  official_federal: ["English", "French"]
+  english_speakers_percent: 75
+  french_speakers_percent: 22
+  bilingual_english_french_percent: 18
+  
+  provincial_official:
+    - province: "Quebec"
+      language: "French"
+      notes: "Bill 96 strengthens French language requirements"
+    - province: "New Brunswick"
+      languages: ["English", "French"]
+      notes: "Only officially bilingual province"
+  
+  immigrant_languages:
+    - "Mandarin"
+    - "Punjabi"
+    - "Spanish"
+    - "Arabic"
+    - "Tagalog"
+  
+  english_proficiency: "Native (EF EPI score: 70, rank 18/113)"
+  french_proficiency_outside_quebec: "Limited (18% bilingual)"
+
+# Religion
+religion:
+  christian_percent: 53
+  catholic_percent: 30
+  protestant_percent: 23
+  non_religious_percent: 35
+  other_religions_percent: 12
+  muslim_population: 1800000
+  jewish_population: 390000
+  sikh_population: 770000
+  hindu_population: 830000
+  buddhist_population: 390000
+  notes: "Increasing religious diversity due to immigration"
+
+# Education
+education:
+  literacy_rate_percent: 99
+  tertiary_education_percent: 60
+  school_life_expectancy_years: 16
+  top_universities:
+    - name: "University of Toronto"
+      rank_global: 18
+    - name: "McGill University"
+      rank_global: 31
+    - name: "University of British Columbia"
+      rank_global: 47
+    - name: "University of Alberta"
+      rank_global: 110
+  tuition_domestic_universities_cad_year: 7000
+  tuition_international_universities_cad_year: 35000
+
+# Ethnicity & Race
+ethnicity:
+  white_percent: 70
+  south_asian_percent: 8
+  indigenous_percent: 5
+  chinese_percent: 4.5
+  black_percent: 4
+  filipino_percent: 3
+  arab_percent: 2
+  latin_american_percent: 2
+  other_percent: 1.5
+  notes: "One of the world's most multicultural societies"
+
+# Indigenous Peoples
+indigenous_peoples:
+  total_population: 1830000
+  first_nations_percent: 58
+  metis_percent: 35
+  inuit_percent: 4
+  other_percent: 3
+  official_languages: ["Cree", "Inuktitut", "Ojibwe", "others"]
+
+# Digital Demographics
+digital:
+  internet_users_percent: 96
+  social_media_users_percent: 78
+  facebook_users_millions: 24
+  instagram_users_millions: 18
+  twitter_users_millions: 10
+  tiktok_users_millions: 16
+  linkedin_users_millions: 18
+  smartphone_penetration_percent: 92
+  ecommerce_users_percent: 82
+
+# Income & Socioeconomic
+socioeconomic:
+  gini_coefficient: 30.5
+  poverty_rate_percent: 10.2
+  low_income_cutoff_after_tax_cad: 28000
+  household_income_median_cad_year: 85000
+  youth_unemployment_rate: 11.5
+  long_term_unemployment_rate: 2.5
+
+# Health Statistics
+health:
+  public_healthcare: "Medicare (universal coverage)"
+  doctors_per_1000_population: 2.8
+  hospital_beds_per_1000: 2.5
+  obesity_rate_percent: 29.2
+  smoking_rate_percent: 14
+  life_expectancy_female: 84.4
+  life_expectancy_male: 80.2
+  wait_times: "Long for non-urgent specialist care (varies by province)"
