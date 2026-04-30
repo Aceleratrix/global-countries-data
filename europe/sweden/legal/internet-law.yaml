@@ -1,0 +1,11 @@
+country: Sweden
+internet_law:
+  - name: General Data Protection Regulation (GDPR)
+    jurisdiction: EU (applies to Sweden)
+    key_points: Personal data protection, consent requirements, data breach notifications
+  - name: Swedish Data Protection Act (SDA)
+    jurisdiction: Sweden
+    key_points: Implements GDPR locally, regulates public sector data processing
+  - name: Copyright Act (1960:729)
+    jurisdiction: Sweden
+    key_points: Protects digital content, anti-piracy measures, safe harbor for ISPs

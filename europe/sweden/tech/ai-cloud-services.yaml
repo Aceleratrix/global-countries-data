@@ -1,0 +1,11 @@
+country: Sweden
+ai_cloud_services:
+  - major_cloud_providers:
+      - AWS (Stockholm region)
+      - Microsoft Azure (Sweden Central)
+      - Google Cloud (Sweden)
+      - City Network (local provider)
+  - ai_companies:
+      - Spotify (AI-driven music recommendations)
+      - Ericsson (5G/AI network optimization)
+  - government_ai_initiatives: National AI Strategy (2018) targeting 10% GDP growth via AI

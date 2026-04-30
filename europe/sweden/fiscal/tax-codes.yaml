@@ -1,0 +1,10 @@
+country: Sweden
+tax_codes:
+  - corporate_tax_rate: 20.6% (2024)
+  - vat:
+      standard: 25%
+      reduced: 12% (food, hospitality)
+      super_reduced: 6% (books, newspapers, passenger transport)
+  - personal_income_tax:
+      municipal: ~29-35%
+      central: 20% on income over ~613,000 SEK (2024)

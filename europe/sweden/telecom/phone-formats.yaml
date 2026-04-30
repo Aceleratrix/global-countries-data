@@ -1,0 +1,10 @@
+country: Sweden
+phone_formats:
+  - country_code: +46
+  - mobile_prefixes: [70, 72, 73, 76, 79]
+  - landline_prefixes:
+      - 08: Stockholm
+      - 031: Gothenburg
+      - 040: Malmö
+  - example_mobile: +46 70 123 45 67
+  - example_landline: +46 8 123 45 67

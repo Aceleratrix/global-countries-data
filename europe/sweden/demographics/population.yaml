@@ -1,0 +1,9 @@
+country: Sweden
+demographics:
+  - total_population: 10,500,000 (2023 est.)
+  - capital_population: 1,000,000 (Stockholm metro area)
+  - age_distribution:
+      - 0-14: 18%
+      - 15-64: 63%
+      - 65+: 19%
+  - urbanization_rate: 88% (2023)

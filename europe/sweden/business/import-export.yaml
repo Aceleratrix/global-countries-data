@@ -1,0 +1,16 @@
+country: Sweden
+import_export:
+  - main_exports:
+      - Machinery and equipment
+      - Motor vehicles
+      - Pharmaceuticals
+      - Wood and paper products
+  - main_imports:
+      - Machinery
+      - Petroleum and petroleum products
+      - Chemicals
+      - Food and live animals
+  - trade_partners:
+      - EU (55% of exports, 60% of imports)
+      - Norway
+      - United States

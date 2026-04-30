@@ -1,0 +1,7 @@
+country: Sweden
+company_sizes:
+  - micro: 1-9 employees (~90% of all companies)
+  - small: 10-49 employees (~7%)
+  - medium: 50-249 employees (~2.5%)
+  - large: 250+ employees (~0.5%)
+  - total_companies: ~1.1 million (2023)

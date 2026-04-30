@@ -1,0 +1,10 @@
+country: Sweden
+major_banks:
+  - name: Swedbank
+    assets: ~2.8 trillion SEK (2023)
+  - name: SEB (Skandinaviska Enskilda Banken)
+    assets: ~3.2 trillion SEK (2023)
+  - name: Handelsbanken
+    assets: ~3.1 trillion SEK (2023)
+  - name: Nordea
+    assets: ~6.3 trillion SEK (2023, Nordic region)
