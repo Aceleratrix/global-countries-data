@@ -1,0 +1,52 @@
+# AI and Cloud Services in Turkey
+cloud_providers:
+  - name: "AWS Istanbul Region"
+    type: international
+    launched: 2023
+    services: compute, storage, database, machine learning
+    
+  - name: "Google Cloud Edge Locations"
+    type: international
+    services: CDN, edge computing, AI APIs
+    
+  - name: "Microsoft Azure"
+    type: international
+    services: full stack cloud, AI/ML services
+    
+  - name: "Turkcell Cloud"
+    type: local
+    services: IaaS, PaaS, SaaS, IoT
+    market_share: "leading local provider"
+    
+  - name: "Türk Telekom Cloud"
+    type: local
+    services: cloud storage, server hosting, enterprise solutions
+    
+  - name: "Digiturk Cloud"
+    type: local
+    services: media streaming, content delivery
+
+ai_companies:
+  - name: "Sesta"
+    focus: computer vision, AI for retail and smart cities
+    founded: 2015
+    
+  - name: "Inveon"
+    focus: AI-driven e-commerce and personalization
+    founded: 2006
+    
+  - name: "Yektanet"
+    focus: AI-powered digital advertising
+    founded: 2012
+    
+  - name: "Foriba"
+    focus: AI for finance and accounting automation
+    founded: 2012
+
+national_initiatives:
+  - "National AI Strategy 2021-2025"
+  - "Digital Turkey Roadmap"
+  - "AI Research Centers at major universities"
+  
+ai_talent: "15,000+ AI professionals (2024)"
+ai_market_size: "$500 million (2024)"

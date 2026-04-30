@@ -1,0 +1,46 @@
+# Major Banks in Turkey
+banks:
+  - name: "Türkiye Cumhuriyeti Ziraat Bankası A.Ş."
+    type: public
+    total_assets: "$110 billion (2024)"
+    headquarters: Ankara
+    branches: 1,800+
+    focus: retail, agriculture, SME
+    
+  - name: "Türkiye İş Bankası A.Ş."
+    type: private (largest private bank)
+    total_assets: "$95 billion (2024)"
+    headquarters: Istanbul
+    branches: 1,200+
+    focus: commercial, retail, investment
+    
+  - name: "Garanti BBVA"
+    type: private (BBVA subsidiary)
+    total_assets: "$85 billion (2024)"
+    headquarters: Istanbul
+    branches: 800+
+    focus: retail, digital banking
+    
+  - name: "Akbank T.A.Ş."
+    type: private
+    total_assets: "$75 billion (2024)"
+    headquarters: Istanbul
+    branches: 700+
+    focus: corporate, commercial
+    
+  - name: "Yapı ve Kredi Bankası A.Ş."
+    type: private
+    total_assets: "$70 billion (2024)"
+    branches: 900+
+    headquarters: Istanbul
+    focus: retail, SME
+    
+  - name: "QNB Finansbank A.Ş."
+    type: private (QNB subsidiary)
+    total_assets: "$40 billion (2024)"
+    headquarters: Istanbul
+    focus: corporate, investment
+
+regulatory_body: "Banking Regulation and Supervision Agency (BDDK)"
+central_bank: "Central Bank of the Republic of Turkey (TCMB)"
+total_banking_assets: "$800 billion (2024)"

@@ -1,0 +1,72 @@
+# Import/Export Data for Turkey
+total_exports_2024: "$285 billion"
+total_imports_2024: "$360 billion"
+trade_balance: "-$75 billion (deficit)"
+trade_to_gdp_ratio: 63%
+
+top_exports:
+  - category: automotive
+    value: "$32 billion"
+    share: 11.2%
+    key_markets: "EU, USA, UK"
+    
+  - category: textiles and apparel
+    value: "$28 billion"
+    share: 9.8%
+    key_markets: "EU, USA, Middle East"
+    
+  - category: electronics
+    value: "$22 billion"
+    share: 7.7%
+    key_markets: "EU, Africa, CIS"
+    
+  - category: machinery and equipment
+    value: "$18 billion"
+    share: 6.3%
+    key_markets: "EU, Middle East"
+    
+  - category: iron and steel
+    value: "$15 billion"
+    share: 5.3%
+    key_markets: "EU, USA, Asia"
+
+top_imports:
+  - category: energy (oil, natural gas)
+    value: "$50 billion"
+    share: 13.9%
+    key_suppliers: "Russia, Iraq, Azerbaijan"
+    
+  - category: machinery
+    value: "$40 billion"
+    share: 11.1%
+    key_suppliers: "EU, China, USA"
+    
+  - category: chemicals
+    value: "$25 billion"
+    share: 6.9%
+    key_suppliers: "EU, USA, China"
+    
+  - category: precious metals
+    value: "$20 billion"
+    share: 5.6%
+    key_suppliers: "Switzerland, UAE, UK"
+
+key_trade_partners:
+  exports:
+    - "EU: 40% ($114 billion)"
+    - "USA: 8% ($22.8 billion)"
+    - "Iraq: 6% ($17.1 billion)"
+    - "UK: 5% ($14.25 billion)"
+  imports:
+    - "EU: 30% ($108 billion)"
+    - "Russia: 12% ($43.2 billion)"
+    - "China: 10% ($36 billion)"
+    - "USA: 5% ($18 billion)"
+
+trade_agreements:
+  - "Customs Union with European Union (1995)"
+  - "Free Trade Agreements: 28 countries"
+  - "EU Candidate Country (negotiations ongoing)"
+
+customs_authority: "Ministry of Trade (Ticaret Bakanlığı)"
+main_ports: "Istanbul, Izmir, Mersin, Antalya"

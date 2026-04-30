@@ -1,0 +1,38 @@
+# Real Estate Market in Turkey
+house_price_index_growth: 60% YoY (2024, nominal)
+average_house_price: "$120,000 USD (2024)"
+average_rent: "$400-800 USD/month (Istanbul)"
+rental_yields: "4-6% (Istanbul), 5-7% (Ankara)"
+
+major_markets:
+  - city: Istanbul
+    average_price_per_m2: "$1,800 USD"
+    prime_locations: "Beşiktaş, Şişli, Kadıköy, Bakırköy"
+    growth_2024: 65%
+    
+  - city: Ankara
+    average_price_per_m2: "$1,200 USD"
+    prime_locations: "Çankaya, Yenimahalle, Mamak"
+    growth_2024: 50%
+    
+  - city: Izmir
+    average_price_per_m2: "$1,400 USD"
+    prime_locations: "Konak, Bornova, Karşıyaka"
+    growth_2024: 55%
+    
+  - city: Antalya
+    average_price_per_m2: "$1,100 USD"
+    prime_locations: "Konyaaltı, Lara, Muratpaşa"
+    growth_2024: 70% (tourism-driven)
+
+foreign_ownership:
+  allowed: true (except border areas and military zones)
+  restrictions: "Reciprocity required for some nationalities"
+  top_buyers: "Russian, Iranian, Iraqi, German citizens"
+  
+property_tax: "0.1% to 0.6% of assessed value (annual)"
+capital_gains_tax: "15-35% (if sold within 5 years)"
+title_transfer_fee: "4% (split between buyer and seller)"
+
+regulatory_body: "General Directorate of Land Registry and Cadastre (Tapu ve Kadastro Genel Müdürlüğü)"
+total_real_estate_transactions_2024: 1.5 million

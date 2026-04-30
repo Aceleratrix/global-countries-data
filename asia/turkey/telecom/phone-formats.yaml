@@ -1,0 +1,42 @@
+# Phone Number Formats in Turkey
+country_code: "+90"
+number_length: 10 digits (excluding country code)
+emergency_numbers:
+  - "112: Emergency (all services)"
+  - "155: Police"
+  - "110: Fire"
+  - "118: Directory assistance"
+
+formats:
+  - type: mobile
+    prefix: "5XX"
+    pattern: "^90 5[0-9]{2} [0-9]{3} [0-9]{2} [0-9]{2}$"
+    example: "+90 555 123 45 67"
+    operators:
+      - "Turkcell: 530-539, 561-569"
+      - "Vodafone: 540-549"
+      - "Türk Telekom: 500-509, 550-559"
+      
+  - type: landline
+    prefix: "2XX (geographic)"
+    pattern: "^90 2[0-9]{2} [0-9]{3} [0-9]{2} [0-9]{2}$"
+    example: "+90 212 345 67 89"
+    major_area_codes:
+      - "212: Istanbul (European side)"
+      - "216: Istanbul (Asian side)"
+      - "312: Ankara"
+      - "232: Izmir"
+      - "224: Bursa"
+      - "242: Antalya"
+      
+  - type: toll_free
+    prefix: "800, 850, 888"
+    example: "0850 123 45 67"
+    
+  - type: premium_rate
+    prefix: "900"
+    example: "0900 123 45 67"
+
+regulatory_body: "Information and Communication Technologies Authority (BTK)"
+mobile_penetration: "95% (2024)"
+internet_users: "72 million (84% population)"

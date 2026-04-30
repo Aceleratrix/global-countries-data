@@ -1,0 +1,39 @@
+# Population Data for Turkey
+total_population: 85_372_377
+census_year: 2024
+population_growth_rate: 0.65%
+
+demographics:
+  density: 111 per km²
+  urban_population: 75%
+  median_age: 32.1 years
+  life_expectancy: 78.3 years
+  fertility_rate: 1.7 children per woman
+  
+age_distribution:
+  - "0-14 years: 22%"
+  - "15-64 years: 68%"
+  - "65+ years: 10%"
+  
+largest_cities:
+  - name: Istanbul
+    population: 15_066_000
+    share_of_total: 17.6%
+  - name: Ankara
+    population: 5_782_000
+    share_of_total: 6.8%
+  - name: Izmir
+    population: 4_418_000
+    share_of_total: 5.2%
+  - name: Bursa
+    population: 3_147_000
+    share_of_total: 3.7%
+  - name: Antalya
+    population: 2_688_000
+    share_of_total: 3.1%
+    
+education:
+  literacy_rate: 96.7%
+  tertiary_education: 34% of population aged 25-34
+  
+source: "Turkish Statistical Institute (Türkiye İstatistik Kurumu - TUIK)"

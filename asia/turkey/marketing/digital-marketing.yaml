@@ -1,0 +1,57 @@
+# Digital Marketing Landscape in Turkey
+internet_users: 72_000_000
+internet_penetration: 84.3% (2024)
+social_media_users: 65_000_000
+social_media_penetration: 76.2%
+mobile_internet_users: 68_000_000
+
+top_social_platforms:
+  - platform: Instagram
+    users: 45_000_000
+    growth: 8% YoY
+    
+  - platform: Facebook
+    users: 38_000_000
+    growth: -2% YoY (declining)
+    
+  - platform: TikTok
+    users: 28_000_000
+    growth: 25% YoY
+    
+  - platform: LinkedIn
+    users: 12_000_000
+    growth: 15% YoY
+    
+  - platform: Twitter/X
+    users: 10_000_000
+    growth: 5% YoY
+    
+  - platform: YouTube
+    users: 55_000_000
+    growth: 10% YoY
+
+digital_ad_spend_2024: "$2.5 billion"
+growth_rate: 12% YoY
+ad_spend_breakdown:
+  - "Social media: 45%"
+  - "Search: 30%"
+  - "Display: 15%"
+  - "Video: 10%"
+
+key_trends:
+  - "Influencer marketing (micro-influencers dominant)"
+  - "Short-form video content (TikTok, Instagram Reels)"
+  - "E-commerce integration (social commerce)"
+  - "WhatsApp Business for customer service"
+  - "Programmatic advertising growth"
+
+top_agencies:
+  - "Wunderman Thompson Turkey"
+  - "Publicis Groupe Turkey"
+  - "Dentsu Turkey"
+  - "Local digital agencies: 500+"
+
+ecommerce_market_size: "$35 billion (2024)"
+mobile_commerce_share: 65%
+
+regulatory_note: "Advertising self-regulation by Advertising Board (Reklam Kurulu)"

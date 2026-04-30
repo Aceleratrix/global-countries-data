@@ -1,0 +1,32 @@
+# Internet Laws in Turkey
+laws:
+  - name: "Law on the Regulation of Publications on the Internet and Suppression of Crimes Committed via Such Publications"
+    number: "5651"
+    enacted: 2007
+    last_amended: 2020
+    key_provisions:
+      - Content blocking and filtering mechanisms
+      - ISP liability for user-generated content
+      - Data retention requirements (2 years)
+      - Court-ordered takedown procedures
+      
+  - name: "Personal Data Protection Law (KVKK)"
+    number: "6698"
+    enacted: 2016
+    key_provisions:
+      - GDPR-aligned data protection framework
+      - Data controller registration requirements
+      - Breach notification within 72 hours
+      - Cross-border data transfer restrictions
+      
+  - name: "Cybersecurity Law"
+    number: "7035"
+    enacted: 2017
+    key_provisions:
+      - National cybersecurity strategy implementation
+      - Critical infrastructure protection
+      - Incident reporting to authorities
+      - Cybersecurity certification requirements
+
+regulatory_body: "Information and Communication Technologies Authority (BTK)"
+privacy_regulator: "Personal Data Protection Authority (KVKK Kurumu)"

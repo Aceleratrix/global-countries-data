@@ -1,0 +1,33 @@
+# Company Size Classifications in Turkey
+criteria: "number of employees and annual revenue"
+source: "Turkish Statistical Institute (TUIK)"
+
+categories:
+  - size: micro
+    employees: 1-9
+    annual_revenue: "< 3 million TRY"
+    percentage_of_total: 95.2%
+    characteristics: "Family-owned, local operations"
+    
+  - size: small
+    employees: 10-49
+    annual_revenue: "3-25 million TRY"
+    percentage_of_total: 3.5%
+    characteristics: "SME support programs available"
+    
+  - size: medium
+    employees: 50-249
+    annual_revenue: "25-125 million TRY"
+    percentage_of_total: 1.2%
+    characteristics: "Export-oriented, growth stage"
+    
+  - size: large
+    employees: 250+
+    annual_revenue: "> 125 million TRY"
+    percentage_of_total: 0.1%
+    characteristics: "Multinational operations, public companies"
+
+total_companies: 3.6 million (2024)
+sme_share: 99.9% of all enterprises
+exporting_companies: 85,000+
+public_companies: 600+ (BIST - Borsa Istanbul)
