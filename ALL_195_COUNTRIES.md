@@ -41,7 +41,7 @@
 | 26 | 🇦🇪 Emirados Árabes | uae | Asia | $0.50T | ✅ 100% COMPLETE |
 | 27 | 🇹🇭 Tailândia | thailand | Asia | ✅ 100% COMPLETE |
 | 28 | 🇮🇾 Nigéria | nigeria | Africa | ✅ 100% COMPLETE |
-| 29 | 🇮🇾 Egito | egypt | Africa | $0.47T |
+| 29 | 🇮🇾 Egito | egypt | Africa | ✅ 100% COMPLETE |
 | 30 | 🇮🇷 Irã | iran | Asia | ✅ 100% COMPLETE |
 | 31 | 🇨🇿 República Tcheca | czech-republic | Europe | ✅ 100% COMPLETE |
 | 32 | 🇷🇴 Romênia | romania | Europe | $0.40T |

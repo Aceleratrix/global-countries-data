@@ -77,10 +77,11 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇸🇪 **Sweden** | 13/13 | ✅ **100% COMPLETE** | 22nd/24th largest economy ($0.58T), Spotify, Skype, Ericsson, Stockholm (1M), high welfare state | English (en-US) |
 | 🇨🇿 **Czech Republic** | 13/13 | ✅ **100% COMPLETE** | 31st largest economy ($0.43T), Skoda Auto, Pilsner beer, Prague (1.3M) | English (en-US) |
 
-### 🌍 Africa (1/54 = 1.9%)
+### 🌍 Africa (2/54 = 3.7%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇳🇬 **Nigeria** | 13/13 | ✅ **100% COMPLETE** | 28th largest economy ($0.48T), Africa's most populous (223M), fintech leader (4 unicorns), Nollywood | English (en-NG) |
+| 🇪🇬 **Egypt** | 13/13 | ✅ **100% COMPLETE** | 29th largest economy ($0.47T), Suez Canal, Pyramids of Giza, Nile River | Arabic (ar-EG) + English |
 
 ### 🌏 Oceania (1/14 = 7.1%)
 | Country | Files | Status | Key Highlights | Primary Language |
