@@ -124,7 +124,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇿🇦 **South Africa** | 13/13 | ✅ **100% COMPLETE** | 46th largest economy ($0.32T), Pretoria (3M), Kruger National Park, Rainbow Nation, 2010 FIFA World Cup | English (en-ZA) + 10 others |
 | 🇩🇿 **Algeria** | 13/13 | ✅ **100% COMPLETE** | 47th largest economy ($0.31T), Algiers (5.1M), Sahara Desert (90% territory), OPEC member, 7 UNESCO sites | Arabic (ar-DZ) + Tamazight + English |
 | 🇲🇦 **Morocco** | 13/13 | ✅ **100% COMPLETE** | 135th largest economy ($0.06T), Rabat (capital), Atlas Mountains, Sahara Desert, 7 UNESCO sites, Casablanca (largest city) | Arabic (ar-MA) + Tamazight + English |
-| 🇪🇹 **Ethiopia** | 13/13 | ✅ **100% COMPLETE** | 97th largest economy ($0.10T), Addis Ababa (5M), African Union HQ, coffee origin, 9 UNESCO sites | Amharic (am-ET) + English |
+| 🇪🇹 **Ethiopia** | 13/13 | ✅ **100% COMPLETE** | 118th largest economy ($0.07T), Addis Ababa (5M), African Union HQ, coffee origin, 9 UNESCO sites | Amharic (am-ET) + English |
 | 🇬🇭 **Ghana** | 13/13 | ✅ **100% COMPLETE** | 98th largest economy ($0.10T), Accra (capital), Gold Coast history, cocoa exports, Lake Volta (world's largest reservoir) | English (en-GH) + Akan/Ewe/Ga |
 | 🇺🇬 **Uganda** | 13/13 | ✅ **100% COMPLETE** | 100th largest economy ($0.09T), Kampala (capital), Pearl of Africa, Lake Victoria, mountain gorillas | English (en-UG) + Swahili |
 | 🇲🇱 **Mali** | 13/13 | ✅ **100% COMPLETE** | 105th largest economy ($0.08T), Bamako (capital), landlocked Western Africa, Sahel region, Timbuktu historical site | French (fr-ML) + English |
