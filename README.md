@@ -43,7 +43,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇧🇷 **Brazil** | 17/17 | ✅ **100% COMPLETE** | PIX (76% adoption), LGPD, 4 cloud regions | Portuguese (pt-BR) + English |
 | 🇨🇴 **Colombia** | 13/13 | ✅ **100% COMPLETE** | 44th largest economy ($0.33T), Bogotá (8M), Coffee Triangle, Caribbean/Pacific coasts | Spanish (es-CO) + English |
 | 🇨🇱 **Chile** | 13/13 | ✅ **100% COMPLETE** | 45th largest economy ($0.33T), Santiago (7M), Atacama Desert, Pacific coast | Spanish (es-CL) + English |
-| 🇺🇾 **Uruguay** | 13/13 | ✅ **100% COMPLETE** | 57th largest economy ($0.23T), Montevideo (2M), Beef/soy exports, 98% renewable energy | Spanish (es-UY) + English |
+| 🇺🇾 **Uruguay** | 13/13 | ✅ **100% COMPLETE** | 95th largest economy ($0.10T), Montevideo (3.5M), Beef/soy exports, 98% renewable energy | Spanish (es-UY) + English |
 
 ### 🌎 North America (8/23 = 34.8%)
 | Country | Files | Status | Key Highlights | Primary Language |

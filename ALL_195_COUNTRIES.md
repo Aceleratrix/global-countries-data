@@ -76,7 +76,7 @@
 | 54 | 🇭🇷 Marrocos | morocco | Africa | ✅ 100% COMPLETE |
 | 55 | 🇸🇰 Eslováquia (ver linha 92) | slovakia | Europe | $0.24T | ✅ 100% COMPLETE |
 | 56 | 🇪🇨 Equador | ecuador | South America | $0.23T |
-| 57 | 🇷🇺 Uruguai | uruguay | South America | ✅ 100% COMPLETE |
+| 95 | 🇺🇾 Uruguai | uruguay | South America | $0.10T | ✅ 100% COMPLETE |
 | 85 | 🇭🇷 Croácia | croatia | Europe | $0.13T | ✅ 100% COMPLETE |
 | 59 | 🇧🇬 Luxemburgo | luxembourg | Europe | $0.22T |
 | 60 | 🇧🇬 Bulgária | bulgaria | Europe | ✅ 100% COMPLETE |
