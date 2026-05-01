@@ -1,13 +1,9 @@
-# Infrastructure data for Benin
-country: Benin
-driving_side: right
-calling_code:
-  root: "+2"
-  suffix: "29"
-idd: +229
-car_signs:
-  - DY
-top_level_domain:
-  - .bj
-notable_ports:
-  - Cotonou Port (largest port)
+total_roads_km: 16000
+paved_roads_percentage: 30%
+railways_km: 578
+airports_total: 6
+airports_paved_runways: 2
+internet_penetration: 34%
+mobile_phone_subscriptions_per_100: 95
+idd_code: +229
+tld: .bj

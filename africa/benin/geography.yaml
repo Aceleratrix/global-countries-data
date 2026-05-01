@@ -1,23 +1,7 @@
-# Geography data for Benin
-country: Benin
-official_name: Republic of Benin
-region: Africa
-subregion: Western Africa
+terrain: Mostly flat coastal plains, with hills in the west and plateau in the north
+climate: Tropical, with rainy season (April-October) and dry season (November-March)
+highest_point: Mont Sokbaro (658 m)
+lowest_point: Atlantic Ocean (0 m)
+natural_resources: Oil, limestone, marble, arable land, timber
+coastline_km: 121
 landlocked: false
-area_km2: 112622.0
-borders:
-  - BFA  # Burkina Faso
-  - NER  # Niger
-  - NGA  # Nigeria
-  - TGO  # Togo
-capital: Porto-Novo
-coordinates:
-  latitude: 9.5
-  longitude: 2.25
-timezones:
-  - UTC+01:00
-continents:
-  - Africa
-maps:
-  google_maps: https://goo.gl/maps/uMw1BsHEXQYgVFFu6
-  openstreetmap: https://www.openstreetmap.org/relation/192784

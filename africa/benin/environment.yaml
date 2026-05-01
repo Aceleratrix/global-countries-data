@@ -1,9 +1,10 @@
-# Environment data for Benin
-country: Benin
-ecoregions:
-  - Guinean Forests of West Africa
-  - West Sudanian Savanna
-notable_parks:
-  - Pendjari National Park (UNESCO World Heritage Site)
-  - W National Park (transboundary)
-climate: Tropical, hot and humid in south, semi-arid in north
+forest_coverage_percentage: 40%
+protected_areas:
+  - Pendjari National Park
+  - W National Park (UNESCO World Heritage Site)
+  - Porto-Novo Lagoon Protected Area
+environmental_issues:
+  - Deforestation
+  - Soil erosion
+  - Water pollution from agricultural runoff
+  - Coastal erosion

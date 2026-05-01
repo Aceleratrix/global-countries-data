@@ -1,45 +1,26 @@
-# Benin (🇧🇯)
+# Benin (Republic of Benin)
 
 ## Basic Information
-- **Official Name**: Republic of Benin
 - **Common Name**: Benin
-- **Native Name**: Bénin (French)
+- **Official Name**: Republic of Benin
+- **CCA2 Code**: BJ
+- **CCA3 Code**: BEN
+- **Region**: Africa
+- **Subregion**: Western Africa
 - **Capital**: Porto-Novo
-- **Country Codes**: 
-  - ISO 2: BJ
-  - ISO 3: BEN
-  - Numeric: 204
-  - FIFA: BEN
-  - IOC: BEN
-- **Region**: Africa (Western Africa)
+- **Population**: 12,123,000 (2023 estimate)
 - **Area**: 112,622 km²
-- **Population**: 13,224,860 (2023 estimate)
-- **Timezone**: UTC+01:00
-- **Currency**: West African CFA franc (XOF, Fr)
-- **Languages**: French (official)
-- **Driving Side**: Right
-- **Calling Code**: +229
-- **Top-Level Domain**: .bj
 
 ## Economy
-- **GDP (2024 estimate)**: $0.06 Trillion (143rd largest economy globally)
-- **Currency**: West African CFA franc (pegged to Euro)
+- **GDP**: $0.06 Trillion (2024 estimate)
+- **Global GDP Rank**: 143rd largest economy
 
-## Geography
-- **Borders**: Burkina Faso (BFA), Niger (NER), Nigeria (NGA), Togo (TGO)
-- **Coastal**: Yes (Atlantic Ocean coastline)
-- **Continent**: Africa
-- **Coordinates**: 9.5°N, 2.25°E
+## Languages
+- Official: French
+- Indigenous: Fon, Yoruba, Bariba, Dendi, and others
 
-## Government
-- **Independent**: Yes
-- **UN Member**: Yes
-- **Form of Government**: Republic
+## Currencies
+- West African CFA Franc (XOF)
 
-## Demographics
-- **Demonyms**: Beninese (English), Béninois (French, male), Béninoise (French, female)
-- **Population**: 13,224,860
-
-## Sources
-- REST Countries API v3.1
-- World Bank GDP data (2024 estimate)
+## Borders
+- Burkina Faso, Niger, Nigeria, Togo

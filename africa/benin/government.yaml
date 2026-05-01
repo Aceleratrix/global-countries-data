@@ -1,12 +1,8 @@
-# Government data for Benin
-country: Benin
-official_name: Republic of Benin
+government_type: Presidential republic
+head_of_state: President
+head_of_government: Prime Minister (appointed by President)
+independence_date: 1960-08-01
+former_colonial_power: France
+administrative_divisions: 12 departments
 independent: true
 un_member: true
-government_type: Republic
-country_codes:
-  cca2: BJ
-  ccn3: "204"
-  cca3: BEN
-  cioc: BEN
-  fifa: BEN

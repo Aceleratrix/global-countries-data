@@ -1,16 +1,10 @@
-# Demographics data for Benin
-country: Benin
-population: 13224860
-demonyms:
-  english:
-    male: Beninese
-    female: Beninese
-  french:
-    male: Béninois
-    female: Béninoise
-languages:
-  fra: French
-native_names:
-  fra:
-    official: République du Bénin
-    common: Bénin
+population: 12123000
+population_growth_rate: 2.8%
+life_expectancy_years: 62
+urban_population_percentage: 48%
+major_ethnic_groups:
+  - Fon: 39%
+  - Adja: 15%
+  - Yoruba: 12%
+  - Bariba: 9%
+  - Other: 25%

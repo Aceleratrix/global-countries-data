@@ -1,8 +1,8 @@
-# Education data for Benin
-country: Benin
-education_system: French-based system
-official_language_education: French
-literacy_rate_percent: 42.4  # World Bank 2020 estimate
-notable_institutions:
+literacy_rate: 42.4%
+compulsory_education_age: 6-11 years
+primary_school_enrollment: 97%
+secondary_school_enrollment: 45%
+higher_education_institutions:
   - University of Abomey-Calavi
   - University of Parakou
+  - National University of Sciences, Technologies, Engineering and Mathematics

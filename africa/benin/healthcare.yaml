@@ -1,0 +1,5 @@
+physicians_per_1000_people: 0.1
+nurses_per_1000_people: 0.5
+infant_mortality_rate_per_1000: 55
+under_five_mortality_rate_per_1000: 80
+life_expectancy_at_birth: 62 years

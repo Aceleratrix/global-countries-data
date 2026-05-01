@@ -1,17 +1,15 @@
-# Culture data for Benin
-country: Benin
-languages:
-  official: French
-  native: French (Bénin)
-translations:
-  english: Benin
-  french: Bénin
-  spanish: Benin
-  arabic: بنين
-  chinese: 贝宁
-  russian: Бенин
-flag_emoji: 🇧🇯
-alt_spellings:
-  - BJ
-  - Republic of Benin
-  - République du Bénin
+official_language: French
+indigenous_languages:
+  - Fon
+  - Yoruba
+  - Bariba
+  - Dendi
+  - Mahi
+major_religions:
+  - Christianity: 42.8%
+  - Islam: 24.4%
+  - Traditional African religions: 17.9%
+  - Other: 14.9%
+cultural_events:
+  - Annual Vodun Festival (Ouidah)
+  - Porto-Novo International Film Festival
