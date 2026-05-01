@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 100/195 (51.3%) Complete](https://img.shields.io/badge/Status-100/195 (51.3%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 102/195 (52.3%) Complete](https://img.shields.io/badge/Status-102/195 (52.3%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (100 / 195 = 51.3%)
+## 📊 Coverage Progress (102 / 195 = 52.3%)
 
 ### 🌎 South America (5/12 = 41.7%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -59,7 +59,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇭🇳 **Honduras** | 13/13 | ✅ **100% COMPLETE** | 84th largest economy ($0.14T), Tegucigalpa (1M), Mayan ruins, Caribbean/Pacific coasts | Spanish (es-HN) + English |
 | 🇧🇿 **Belize** | 13/13 | ✅ **100% COMPLETE** | 132nd largest economy ($0.06T), Belmopan (capital), Caribbean coast, Belize Barrier Reef | English (en-BZ) + Spanish |
 
-### 🌏 Asia (19/50 = 38.0%)
+### 🌏 Asia (20/50 = 40.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇮🇱 **Israel** | 13/13 | ✅ **100% COMPLETE** | 33rd largest economy ($0.39T), Startup Nation, 8K+ tech startups, 100+ unicorns | English (en-US) |

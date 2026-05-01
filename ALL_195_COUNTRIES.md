@@ -107,7 +107,7 @@
 | 76 | 🇧🇹 Butão | bhutan | Asia | $0.16T | |
 | 77 | 🇹🇳 Tunísia | tunisia | Africa | $0.16T | ✅ 100% COMPLETE |
 | 78 | 🇰🇿 Cazaquistão | kazakhstan | Asia | $0.20T | ✅ 100% COMPLETE |
-| 79 | 🇦🇲 Armênia | armenia | Asia | $0.15T | |
+| 79 | 🇦🇲 Armênia | armenia | Asia | $0.15T | ✅ 100% COMPLETE |
 | 80 | 🇸🇾 Síria | syria | Asia | $0.13T | ✅ 100% COMPLETE |
 | 80 | 🇲🇳 Mongólia | mongolia | Asia | $0.15T | |
 | 80 | 🇦🇿 Azerbaijão | azerbaijan | Asia | $0.15T | ✅ 100% COMPLETE |
@@ -131,10 +131,11 @@
 | 91 | 🇱🇧 Líbano | lebanon | Asia | $0.11T | ✅ 100% COMPLETE |
 | 92 | 🇮🇻 Macedônia do Norte | north-macedonia | Europe | $0.12T |
 | 93 | 🇲🇻 Moldávia | moldova | Europe | $0.12T |
-| 94 | 🇦🇱 Albânia | albania | Europe | $0.12T |
+| 108 | 🇦🇱 Albânia | albania | Europe | $0.08T | ✅ 100% COMPLETE |
 | 95 | 🇬🇳 Gabão | gabon | Africa | $0.12T |
 | 96 | 🇳🇵 Níger | niger | Africa | $0.12T |
 | 106 | 🇸🇳 Senegal | senegal | Africa | $0.08T | ✅ 100% COMPLETE |
+| 107 | 🇬🇪 Georgia | georgia | Europe | $0.08T | ✅ 100% COMPLETE |
 | 98 | 🇬🇭 Ghana | ghana | Africa | $0.10T | ✅ 100% COMPLETE |
 | 118 | 🇲🇼 Malaui (Malawi) | malawi | Africa | $0.08T | ✅ 100% COMPLETE |
 | 100 | 🇺🇬 Uganda | uganda | Africa | $0.09T | ✅ 100% COMPLETE |
@@ -171,7 +172,7 @@
 | 🌎 South America | 12 | 5 | 7 | 41.7% |
 | 🌏 Oceania | 14 | 1 | 13 | 7.1% |
 | 🌍 Africa | 54 | 8 | 46 | 14.8% |
-| **TOTAL** | **195** | **99** | **96** | **50.8%** |
+| **TOTAL** | **195** | **100** | **95** | **51.3%** |
 
 ---
 
