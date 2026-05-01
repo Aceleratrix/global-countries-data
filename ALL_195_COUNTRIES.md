@@ -151,7 +151,7 @@
 - 🇨🇩 Chade, 🇨🇫 República Centro-Africana, 🇨🇬 República do Congo, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade
 
 **Ásia (continuação):**
-- 🇦🇫 Afeganistão, 🇧🇩 Bangladesh, 🇱🇵 Laos, 🇳🇵 Iêmen, 🇸🇾 Síria, 🇱🇧 Líbano ✅ 100% COMPLETE, 🇵🇰 Quirguistão, 🇹🇯 Tajiquistão, 🇹🇲 Turcomenistão, 🇧🇳 Brunei, 🇹🇼 Timor-Leste, 🇵🇬 Papua Nova Guiné, 🇸🇧 Ilhas Salomão, 🇻🇺 Vanuatu, 🇫🇲 Fiji, 🇼🇸 Samoa, 🇹🇴 Tonga, 🇰🇮 Kiribati, 🇫🇼 Tuvalu, 🇫🇲 Fiji, 🇼🇸 Samoa, 🇹🇴 Tonga, 🇰🇮 Kiribati, 🇫🇼 Tuvalu, 🇲🇭 Micronésia, 🇵🇼 Palau, 🇲🇭 Ilhas Marshall, 🇳🇷 Nauru
+- 🇦🇫 Afeganistão, 🇧🇩 Bangladesh, 🇱🇵 Laos, 🇳🇵 Nepal ✅ 100% COMPLETE (101st GDP, $0.09T), 🇸🇾 Síria, 🇱🇧 Líbano ✅ 100% COMPLETE, 🇵🇰 Quirguistão, 🇹🇯 Tajiquistão, 🇹🇲 Turcomenistão, 🇧🇳 Brunei, 🇹🇼 Timor-Leste, 🇵🇬 Papua Nova Guiné, 🇸🇧 Ilhas Salomão, 🇻🇺 Vanuatu, 🇫🇲 Fiji, 🇼🇸 Samoa, 🇹🇴 Tonga, 🇰🇮 Kiribati, 🇫🇼 Tuvalu, 🇫🇲 Fiji, 🇼🇸 Samoa, 🇹🇴 Tonga, 🇰🇮 Kiribati, 🇫🇼 Tuvalu, 🇲🇭 Micronésia, 🇵🇼 Palau, 🇲🇭 Ilhas Marshall, 🇳🇷 Nauru
 
 **Américas (continuação):**
 - 🇸🇻 El Salvador, 🇳🇮 Nicarágua, 🇵🇦 Panamá (já listado), 🇨🇺 Uruguai (já listado), 🇧🇴 Bolívia, 🇻🇪 Venezuela, 🇬🇾 Guiana, 🇸🇷 Suriname, 🇫🇶 Guiana Francesa, 🇵🇷 Porto Rico, 🇩🇴 República Dominicana (já listado), 🇭🇶 Martinica, 🇬🇵 Guadalupe, 🇧🇶 Ilhas Virgens Americanas, 🇦🇬 Aruba, 🇸🇽 Sint Maarten, 🇨🇼 Curaçao, 🇧🇶 Ilhas Virgens Britânicas, 🇲🇸 Montserrat, 🇰🇳 São Cristóvão e Névis, 🇦🇬 Antígua e Barbuda, 🇩🇲 Dominica, 🇬🇩 Granada, 🇱🇨 Santa Lúcia, 🇻🇨 São Vicente e Granadinas, 🇧🇧 Barbados, 🇹🇹 Trinidad e Tobago, 🇯🇲 Jamaica, 🇭🇸 Bahamas, 🇹🇨 Cuba, 🇭🇶 Haiti, 🇩🇴 República Dominicana (já listado)
@@ -171,7 +171,7 @@
 | 🌎 South America | 12 | 1 | 11 | 8.3% |
 | 🌏 Oceania | 14 | 1 | 13 | 7.1% |
 | 🌍 Africa | 54 | 2 | 52 | 3.7% |
-| **TOTAL** | **195** | **20** | **175** | **10.3%** |
+| **TOTAL** | **195** | **21** | **174** | **10.8%** |
 
 ---
 
