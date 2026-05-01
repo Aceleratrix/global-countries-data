@@ -1,0 +1,10 @@
+# Currency information for Namibia
+currencies:
+  - code: "NAD"
+    symbol: "$"
+    name: "Namibian dollar"
+    primary: true
+  - code: "ZAR"
+    symbol: "R"
+    name: "South African rand"
+    primary: false

@@ -1,0 +1,23 @@
+# General country metadata for Namibia
+country_code_cca2: "NA"
+country_code_cca3: "NAM"
+numeric_code_ccn3: "516"
+ioc_code: "NAM"
+independent: true
+un_member: true
+status: "officially-assigned"
+tld: [".na"]
+capital: ["Windhoek"]
+region: "Africa"
+subregion: "Southern Africa"
+landlocked: false
+start_of_week: "monday"
+driving_side: "left"
+idd_root: "+2"
+idd_suffixes: ["64"]
+fifa_code: "NAM"
+car_signs: ["NAM"]
+population: 3022401
+area: 825615.0
+latlng: [-22.0, 17.0]
+capital_info_latlng: [-22.57, 17.08]

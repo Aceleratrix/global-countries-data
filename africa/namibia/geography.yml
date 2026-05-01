@@ -1,0 +1,13 @@
+# Geographic data for Namibia
+region: "Africa"
+subregion: "Southern Africa"
+continent: ["Africa"]
+landlocked: false
+area_km2: 825615.0
+coordinates: [-22.0, 17.0]
+borders: ["AGO", "BWA", "ZAF", "ZMB"]
+maps:
+  google_maps: "https://goo.gl/maps/oR1i8BFEYX3EY83WA"
+  open_street_maps: "https://www.openstreetmap.org/relation/195266"
+capital: "Windhoek"
+capital_coordinates: [-22.57, 17.08]

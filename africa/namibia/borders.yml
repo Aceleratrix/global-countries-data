@@ -1,0 +1,11 @@
+# Border countries of Namibia
+borders:
+  - code: "AGO"
+    name: "Angola"
+  - code: "BWA"
+    name: "Botswana"
+  - code: "ZAF"
+    name: "South Africa"
+  - code: "ZMB"
+    name: "Zambia"
+border_count: 4

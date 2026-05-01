@@ -1,0 +1,40 @@
+# Languages spoken in Namibia
+official_language: "English"
+languages:
+  afr: "Afrikaans"
+  deu: "German"
+  eng: "English"
+  her: "Herero"
+  hgm: "Khoekhoe"
+  kwn: "Kwangali"
+  loz: "Lozi"
+  ndo: "Ndonga"
+  tsn: "Tswana"
+native_names:
+  afr:
+    official: "Republiek van Namibië"
+    common: "Namibië"
+  deu:
+    official: "Republik Namibia"
+    common: "Namibia"
+  eng:
+    official: "Republic of Namibia"
+    common: "Namibia"
+  her:
+    official: "Republic of Namibia"
+    common: "Namibia"
+  hgm:
+    official: "Republic of Namibia"
+    common: "Namibia"
+  kwn:
+    official: "Republic of Namibia"
+    common: "Namibia"
+  loz:
+    official: "Republic of Namibia"
+    common: "Namibia"
+  ndo:
+    official: "Republic of Namibia"
+    common: "Namibia"
+  tsn:
+    official: "Lefatshe la Namibia"
+    common: "Namibia"

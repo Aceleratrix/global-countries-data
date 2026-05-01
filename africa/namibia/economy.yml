@@ -1,0 +1,11 @@
+# Economic data for Namibia
+gdp_rank: 109
+gdp_nominal_trillion: 0.08
+gini_index_2015: 59.1
+currencies:
+  NAD:
+    symbol: "$"
+    name: "Namibian dollar"
+  ZAR:
+    symbol: "R"
+    name: "South African rand"

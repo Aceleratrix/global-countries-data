@@ -1,0 +1,10 @@
+# Population data for Namibia
+total_population: 3022401
+demonyms:
+  eng:
+    m: "Namibian"
+    f: "Namibian"
+  fra:
+    m: "Namibien"
+    f: "Namibienne"
+population_density: 3.66 # calculated: 3022401 / 825615 ≈ 3.66 per km2
