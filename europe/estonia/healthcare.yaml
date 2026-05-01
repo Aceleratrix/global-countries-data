@@ -1,9 +1,6 @@
-country: Estonia
-healthcare_system: Universal public healthcare (tax-funded)
-health_expenditure: 7.2% of GDP (2022)
-physicians_per_1000_people: 3.7 (2021)
-hospital_beds_per_1000_people: 5.1 (2021)
-life_expectancy: 78.8 years (2022)
-infant_mortality_rate: 2.2 per 1000 live births (2023)
-major_health_challenges: Cardiovascular disease, cancer, mental health
-digital_health: One of world's most digitized healthcare systems (e-Health system since 2008)
+healthcare_system: "universal public healthcare system"
+life_expectancy: 78.8
+infant_mortality_rate: 2.1  # per 1000 live births
+physicians_per_1000: 3.2
+hospital_beds_per_1000: 5.1
+public_healthcare_coverage: 95

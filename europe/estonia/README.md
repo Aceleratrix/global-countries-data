@@ -1,8 +1,20 @@
-# Estonia
-This directory contains 13 mandatory data files for Estonia (64th largest economy, $0.20T GDP).
-All data is sourced from official and verified public datasets (2023-2024 estimates).
+# Estonia Country Data
+This directory contains structured data for Estonia (Republic of Estonia), 93rd largest economy globally with $0.10T GDP.
 
-## Files Included
-- COUNTRY.md: Core country overview
-- 11 YAML data files covering economy, demographics, geography, etc.
-- This README.md: Directory documentation
+## Files
+- `COUNTRY.md`: Core country overview
+- 11 structured YAML data files:
+  - `general.yaml`
+  - `geography.yaml`
+  - `demographics.yaml`
+  - `economy.yaml`
+  - `government.yaml`
+  - `culture.yaml`
+  - `infrastructure.yaml`
+  - `education.yaml`
+  - `healthcare.yaml`
+  - `military.yaml`
+  - `environment.yaml`
+- `README.md`: This file
+
+All data is sourced from verified public records and the REST Countries API.

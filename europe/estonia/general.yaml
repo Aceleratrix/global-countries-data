@@ -1,0 +1,11 @@
+country_code_alpha2: "EE"
+country_code_alpha3: "EST"
+common_name: "Estonia"
+official_name: "Republic of Estonia"
+capital: "Tallinn"
+calling_code: "+372"
+tld: ".ee"
+region: "Europe"
+subregion: "Northern Europe"
+independent: true
+status: "officially-assigned"

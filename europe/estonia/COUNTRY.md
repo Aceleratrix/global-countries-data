@@ -1,14 +1,19 @@
-# Estonia (Eesti)
-**Capital:** Tallinn (population: ~500,000 as of 2023)
-**Population:** 1,331,056 (2023 estimate)
-**GDP:** $0.20 trillion (64th largest economy globally)
-**Area:** 45,339 km²
-**Currency:** Euro (EUR)
-**Official Language:** Estonian
-**Government:** Unitary parliamentary republic
-**President:** Alar Karis
-**Prime Minister:** Kaja Kallas
-**Key Memberships:** EU (2004), NATO (2004), Eurozone (2011), Schengen Area (2007)
-**Main Industries:** Information technology, electronics manufacturing, forestry, tourism, renewable energy
-**Internet TLD:** .ee
-**Calling Code:** +372
+# Estonia 🇪🇪
+## Basic Info
+- **Common Name**: Estonia
+- **Official Name**: Republic of Estonia
+- **Capital**: Tallinn
+- **Country Codes**: Alpha-2: EE, Alpha-3: EST
+- **Calling Code**: +372
+- **Top-Level Domain**: .ee
+- **Region**: Europe
+- **Subregion**: Northern Europe
+
+## Key Stats
+- **Population**: ~1,331,000 (2024 est)
+- **Area**: 45,227 km²
+- **GDP**: $0.10T (93rd largest economy globally)
+- **Currency**: Euro (EUR)
+- **Official Language**: Estonian
+- **Timezones**: UTC+2 (EET), UTC+3 (EEST)
+- **Borders**: Latvia, Russia

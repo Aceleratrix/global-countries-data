@@ -1,13 +1,12 @@
-country: Estonia
-transportation:
-  - Road network: 58,013 km total
-  - Rail network: 2,200 km (mostly electrified)
-  - Major ports: Tallinn, Muuga, Paldiski
-  - Airports: Lennart Meri Tallinn Airport (main international)
-energy:
-  - Renewable energy share: 38% of total consumption (2023)
-  - Main sources: Wind, biomass, solar
-telecommunications:
-  - Internet penetration: 93% (2023)
-  - 5G coverage: 85% of population (2024)
-  - One of world's most digitized societies (e-residency program since 2014)
+roadways_km: 58400
+railways_km: 1200
+airports: 12
+major_ports:
+  - "Tallinn"
+  - "Paldiski"
+  - "Sillamäe"
+internet_tld: ".ee"
+mobile_networks:
+  - "Teliamob"
+  - "Elisa"
+  - "Tele2"

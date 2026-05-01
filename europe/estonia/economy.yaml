@@ -1,18 +1,26 @@
-country: Estonia
-gdp_nominal_usd: 0.20 trillion
-gdp_global_rank: 64th
-gdp_per_capita_usd: 15000 (2023 estimate)
-currency: Euro (EUR)
-main_industries:
-  - Information technology
-  - Electronics manufacturing
-  - Forestry and wood processing
-  - Tourism
-  - Renewable energy (wind, biomass)
-stock_exchange: Nasdaq Baltic (Tallinn segment)
-trade_partners:
-  - Finland
-  - Sweden
-  - Germany
-  - Latvia
-  - Lithuania
+gdp_trilion_usd: 0.10
+gdp_global_rank: 93
+gdp_per_capita_usd: 27000  # 2023 est
+currency_code: "EUR"
+currency_name: "Euro"
+economy_type: "advanced, high-income economy"
+key_industries:
+  - "information technology"
+  - "telecommunications"
+  - "engineering"
+  - "electronics"
+  - "wood products"
+  - "textiles"
+  - "food processing"
+  - "tourism"
+exports:
+  - "machinery and equipment"
+  - "wood products"
+  - "textiles"
+  - "food products"
+  - "electronics"
+imports:
+  - "machinery and equipment"
+  - "chemicals"
+  - "fuels"
+  - "food products"

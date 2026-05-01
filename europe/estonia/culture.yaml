@@ -1,13 +1,17 @@
-country: Estonia
-official_language: Estonian (Uralic language family)
-minority_languages: Russian, Ukrainian, Swedish
+official_language: "Estonian"
+other_languages:
+  - "Russian"
+  - "English"
+  - "Finnish"
 national_holidays:
-  - Independence Day: 24 February
-  - Victory Day: 23 June
-  - Midsummer Day: 24 June
-traditional_music: Runic singing, choral music (Estonian Song Festival every 5 years)
-unESCO_heritage_sites:
-  - Old Town of Tallinn (cultural)
-  - Struve Geodetic Arc (shared, scientific)
-cuisine: Dark rye bread, pork dishes, dairy products, marinated herring, kama (flour mix)
-famous_cultural_figures: Arvo Pärt (composer), Jaan Kross (writer)
+  - "Independence Day: February 24"
+  - "Victory Day: June 23"
+  - "Restoration of Independence Day: August 20"
+cultural_symbols:
+  - "National flower: Cornflower"
+  - "National bird: Barn swallow"
+  - "National stone: Limestone"
+cuisine_highlights:
+  - "Verivorst (blood sausage)"
+  - "Kama (flour mixture)"
+  - "Mämmi (rye pudding)"

@@ -1,11 +1,8 @@
-country: Estonia
-forest_coverage: 52% of total land area
-protected_areas: 21% of total territory (national parks, nature reserves)
-main_ecoregions: Baltic mixed forests, Scandinavian and Russian taiga
-biodiversity: Over 1,500 plant species, 400 bird species, 70 mammal species
-environmental_challenges:
-  - Air pollution from oil shale combustion
-  - Water pollution in some river basins
-  - Climate change impacts (rising sea levels, warmer winters)
-carbon_neutrality_target: 2050
-renewable_energy_target: 65% of final energy consumption by 2030
+forest_coverage_percent: 52
+protected_areas_percent: 18
+key_environmental_issues:
+  - "air pollution from oil shale industry"
+  - "water pollution in some rivers and lakes"
+  - "loss of biodiversity"
+renewable_energy_percent: 30  # 2023 est
+carbon_emissions_mt: 12.5  # 2022 est

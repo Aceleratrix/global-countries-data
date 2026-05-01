@@ -1,14 +1,17 @@
-country: Estonia
-total_area_km²: 45339
-land_area_km²: 42388
-water_area_km²: 2951
-continent: Europe
-region: Northern Europe (Baltic states)
+area_km2: 45227
+area_mi2: 17463
+latitude: 58.5953
+longitude: 25.0136
 borders:
-  - Latvia (339 km)
-  - Russia (294 km)
-coastline: 3794 km (Baltic Sea, Gulf of Finland)
-highest_point: Suur Munamägi (318 m)
-largest_lake: Lake Peipus (shared with Russia, 3555 km² total)
-climate: Humid continental, maritime influence
-time_zone: UTC+2 (EET), UTC+3 (EEST) summer
+  - "LVA"  # Latvia
+  - "RUS"  # Russia
+terrain: "flat, mostly lowlands with some hills in the south"
+climate: "temperate; wet, moderate winters, cool summers"
+natural_resources:
+  - "oil shale"
+  - "peat"
+  - "limestone"
+  - "phosphorite"
+  - "clay"
+  - "sand"
+  - "timber"
