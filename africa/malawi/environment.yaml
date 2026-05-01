@@ -1,0 +1,12 @@
+forest_coverage_percent: 34
+protected_areas_percent: 12
+major_ecosystems:
+  - "Lake Malawi (biodiversity hotspot, 800+ fish species)"
+  - "Miombo woodlands"
+  - "Montane forests (Mount Mulanje)"
+threats:
+  - "Deforestation (fuelwood, agriculture)"
+  - "Overfishing in Lake Malawi"
+  - "Soil erosion"
+climate_change_impact: "Increased droughts, erratic rainfall affecting agriculture"
+renewable_energy_percent: 82  # mostly hydro

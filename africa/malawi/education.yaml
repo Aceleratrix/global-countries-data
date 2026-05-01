@@ -1,0 +1,10 @@
+literacy_rate_percent: 62.1
+primary_education_completion_rate: 72
+secondary_education_completion_rate: 28
+tertiary_education_enrollment_percent: 1.2
+major_universities:
+  - "University of Malawi"
+  - "Mzuzu University"
+  - "Lilongwe University of Agriculture and Natural Resources"
+education_expenditure_percent_gdp: 5.4
+free_primary_education: true (since 1994)

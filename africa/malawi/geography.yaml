@@ -1,0 +1,10 @@
+total_area_km2: 118484
+land_area_km2: 94081
+water_area_km2: 24403  # Lake Malawi covers ~24k km²
+highest_point: "Sapitwa Peak (Mount Mulanje)"
+highest_elevation_m: 3002
+lowest_point: "Shire River"
+lowest_elevation_m: 37
+lake_malawi_coverage_percent: 20
+climate: "Tropical continental; rainy season (Nov-Apr), dry season (May-Oct)"
+terrain: "Narrow elongated plateau, mountains in south, low-lying valley along Shire River"

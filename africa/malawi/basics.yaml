@@ -1,0 +1,17 @@
+country_code: "MW"
+iso_alpha3: "MWI"
+capital: "Lilongwe"
+population: 20405317
+area_km2: 118484
+currency_code: "MWK"
+currency_name: "Malawian Kwacha"
+languages:
+  - "English"
+  - "Chichewa"
+borders:
+  - "TZA"  # Tanzania
+  - "ZMB"  # Zambia
+  - "MOZ"  # Mozambique
+region: "Africa"
+subregion: "Eastern Africa"
+landlocked: true

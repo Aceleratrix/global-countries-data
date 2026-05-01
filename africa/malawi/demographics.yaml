@@ -1,0 +1,16 @@
+population_2023: 20405317
+population_growth_rate: 2.7  # percent
+life_expectancy_years: 64.2
+median_age: 16.9
+urban_population_percent: 17.4
+ethnic_groups:
+  - "Chewa"  # ~34%
+  - "Lomwe"  # ~19%
+  - "Yao"    # ~13%
+  - "Ngoni"  # ~12%
+  - "Tumbuka"# ~9%
+  - "Others" # ~13%
+religions:
+  - "Christian"  # ~82%
+  - "Muslim"     # ~13%
+  - "Traditional/Other" # ~5%
