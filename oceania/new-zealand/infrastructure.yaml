@@ -1,0 +1,8 @@
+# Infrastructure
+capital: ['Wellington']
+capitalInfo:
+  latlng: [-41.3, 174.78]
+timezones: ['UTC-11:00', 'UTC-10:00', 'UTC+12:00', 'UTC+12:45', 'UTC+13:00']
+car:
+  signs: ['NZ']
+  side: left

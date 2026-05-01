@@ -1,0 +1,7 @@
+# Demographics
+population: 5324700
+demonyms:
+  eng:
+    m: New Zealander
+    f: New Zealander
+languages: {'eng': 'English', 'mri': 'Māori', 'nzs': 'New Zealand Sign Language'}

@@ -1,0 +1,11 @@
+# Contact & Location
+idd:
+  root: +6
+  suffixes: ['4']
+tld: ['.nz']
+postalCode:
+  format: ####
+  regex: ^(\d{4})$
+maps:
+  googleMaps: https://goo.gl/maps/xXiDQo65dwdpw9iu8
+  openStreetMaps: https://www.openstreetmap.org/relation/556706#map=5/-46.710/172.046

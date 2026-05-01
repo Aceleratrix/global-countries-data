@@ -1,0 +1,7 @@
+# Metadata
+data_source: REST Countries API v3.1
+source_url: https://restcountries.com/v3.1/alpha/NZ
+last_updated: 2026-05-01
+gdp_trl: 0.06
+gdp_rank: 139
+files_generated: 13

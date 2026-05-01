@@ -1,0 +1,22 @@
+# General Country Info
+cca2: NZ
+cca3: NZL
+ccn3: 554
+cioc: NZL
+independent: True
+unMember: True
+status: officially-assigned
+name:
+  common: New Zealand
+  official: New Zealand
+  nativeName:
+    eng:
+      common: New Zealand
+      official: New Zealand
+    mri:
+      common: Aotearoa
+      official: Aotearoa
+    nzs:
+      common: New Zealand
+      official: New Zealand
+altSpellings: ['NZ', 'Aotearoa']
