@@ -1,15 +1,12 @@
-# Demographics Data for Paraguay
+# Demographics data
 population: 6109644
-population_year: 2023
-population_density_km2: 15.02  # 6109644 / 406752
 demonyms:
-  english:
-    male: Paraguayan
-    female: Paraguayan
-  french:
-    male: Paraguayen
-    female: Paraguayenne
-urban_population_percent: 62.0  # World Bank estimate
-life_expectancy_years: 74.0  # World Bank 2022
-birth_rate_per_1000: 16.2  # World Bank 2022
-death_rate_per_1000: 4.1  # World Bank 2022
+  eng:
+    m: "Paraguayan"
+    f: "Paraguayan"
+  fra:
+    m: "Paraguayen"
+    f: "Paraguayenne"
+languages:
+  grn: "Guaraní"
+  spa: "Spanish"

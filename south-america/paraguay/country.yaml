@@ -1,0 +1,14 @@
+# Basic country identifiers
+cca2: "PY"
+cca3: "PRY"
+ccn3: "600"
+cioc: "PAR"
+independent: true
+unMember: true
+status: "officially-assigned"
+tld:
+  - ".py"
+startOfWeek: "monday"
+postalCode:
+  format: "######"
+  regex: "^(\\d{6})$"

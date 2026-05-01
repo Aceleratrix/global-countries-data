@@ -1,27 +1,5 @@
-# Economy Data for Paraguay
-gdp_trillion_usd: 0.14
-gdp_global_rank: 83
-currency:
-  code: PYG
-  name: Paraguayan guaraní
-  symbol: ₲
-gini_index: 45.7
-gini_year: 2019
-main_industries:
-  - Agriculture
-  - Livestock
-  - Hydroelectric power
-  - Textiles
-  - Tobacco
-exports:
-  - Soybeans
-  - Beef
-  - Electricity
-  - Tobacco
-  - Leather
-major_partners:
-  - Brazil
-  - Argentina
-  - Chile
-  - Germany
-  - United States
+# Economy data (GDP rank/value per task specs, Gini from API)
+gdpRank: 83
+gdpValue: "$0.14T"
+gini:
+  2019: 45.7

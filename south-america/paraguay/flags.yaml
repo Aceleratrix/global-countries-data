@@ -1,0 +1,9 @@
+# Flag and coat of arms data
+flag: "🇵🇾"
+flags:
+  png: "https://flagcdn.com/w320/py.png"
+  svg: "https://flagcdn.com/py.svg"
+  alt: "The flag of Paraguay features three equal horizontal bands of red, white and blue, with an emblem centered in the white band. On the obverse side of the flag depicted, this emblem is the national coat of arms."
+coatOfArms:
+  png: "https://mainfacts.com/media/images/coats_of_arms/py.png"
+  svg: "https://mainfacts.com/media/images/coats_of_arms/py.svg"
