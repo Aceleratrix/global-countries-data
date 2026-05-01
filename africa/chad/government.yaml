@@ -1,0 +1,11 @@
+# Government data for Chad
+official_name: "Republic of Chad"
+government_type: "Republic"  # Note: REST API doesn't provide gov type, using standard reference
+independent: true
+un_member: true
+idd:
+  root: "+2"
+  suffixes: ["35"]
+car:
+  signs: ["TCH", "TD"]
+  side: "right"

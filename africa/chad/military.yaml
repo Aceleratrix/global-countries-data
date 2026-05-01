@@ -1,0 +1,4 @@
+# Military data for Chad
+# Note: REST Countries API does not provide military metrics
+country_code: "TD"
+borders: ["CMR", "CAF", "LBY", "NER", "NGA", "SDN"]

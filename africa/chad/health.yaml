@@ -1,0 +1,4 @@
+# Health data for Chad
+# Note: REST Countries API does not provide health metrics
+population: 19340757
+life_expectancy: null  # No data from API

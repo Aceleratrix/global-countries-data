@@ -1,0 +1,9 @@
+# Infrastructure data for Chad
+timezones: ["UTC+01:00"]
+idd:
+  root: "+2"
+  suffixes: ["35"]
+tld: [".td"]
+postal_code:
+  format: null
+  regex: null

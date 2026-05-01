@@ -1,0 +1,22 @@
+# Cultural data for Chad
+languages:
+  ara: "Arabic"
+  fra: "French"
+translations:
+  ara:
+    official: "جمهورية تشاد"
+    common: "تشاد"
+  fra:
+    official: "République du Tchad"
+    common: "Tchad"
+  eng:
+    official: "Republic of Chad"
+    common: "Chad"
+flag:
+  emoji: "🇹🇩"
+  description: "Three equal vertical bands of blue, gold and red."
+  png: "https://flagcdn.com/w320/td.png"
+  svg: "https://flagcdn.com/td.svg"
+coat_of_arms:
+  png: "https://mainfacts.com/media/images/coats_of_arms/td.png"
+  svg: "https://mainfacts.com/media/images/coats_of_arms/td.svg"

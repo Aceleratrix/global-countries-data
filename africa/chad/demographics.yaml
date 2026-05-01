@@ -1,0 +1,18 @@
+# Demographic data for Chad
+population: 19340757
+demonyms:
+  eng:
+    m: "Chadian"
+    f: "Chadian"
+  fra:
+    m: "Tchadien"
+    f: "Tchadienne"
+native_names:
+  ara:
+    official: "جمهورية تشاد"
+    common: "تشاد‎"
+  fra:
+    official: "République du Tchad"
+    common: "Tchad"
+gini:
+  2011: 43.3

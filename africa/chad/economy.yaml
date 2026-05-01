@@ -1,0 +1,7 @@
+# Economic data for Chad
+gdp_nominal_trillion: 0.08
+global_gdp_rank: 116
+currency:
+  code: "XAF"
+  name: "Central African CFA franc"
+  symbol: "Fr"

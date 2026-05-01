@@ -1,0 +1,4 @@
+# Education data for Chad
+# Note: REST Countries API does not provide education metrics
+official_languages: ["French", "Arabic"]
+literacy_rate: null  # No data from API
