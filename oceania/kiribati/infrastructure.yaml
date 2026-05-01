@@ -1,0 +1,6 @@
+transport_modes: [Domestic flights, Cargo ships, Small roads (Tarawa)]
+energy_sources: [Diesel generators, Solar power]
+telecommunications: Mobile coverage (major atolls), Satellite internet
+airports_total: 21
+paved_airports: 3
+major_port: Tarawa
