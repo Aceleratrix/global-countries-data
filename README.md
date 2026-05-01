@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-| ![Status: 116/195 (59.5%) Complete](https://img.shields.io/badge/Status-116/195 (59.5%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+| ![Status: 117/195 (60.0%) Complete](https://img.shields.io/badge/Status-117/195 (60.0%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -115,7 +115,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇱🇺 **Luxembourg** | 13/13 | ✅ **100% COMPLETE** | 129th largest economy ($0.07T), Luxembourg City (capital), landlocked Western Europe, EU/NATO/Eurozone member | English (en-US) |
 | 🇦🇱 **Albania** | 13/13 | ✅ **100% COMPLETE** | 108th largest economy ($0.08T), Tirana (capital), Southeast Europe, 2.3M population, Albania Alps | English (en-US) |
 
-### 🌍 Africa (26/54 = 48.1%)
+### 🌍 Africa (27/54 = 50.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇳🇬 **Nigeria** | 13/13 | ✅ **100% COMPLETE** | 28th largest economy ($0.48T), Africa's most populous (223M), fintech leader (4 unicorns), Nollywood | English (en-NG) |
@@ -143,6 +143,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇬🇲 **Gambia** | 13/13 | ✅ **100% COMPLETE** | 145th largest economy ($0.05T), Banjul (capital), West Africa, smallest country on mainland Africa, borders only Senegal, Gambia River flows through country | English (en-GM) + English |
 | 🇹🇬 **Togo** | 13/13 | ✅ **100% COMPLETE** | 148th largest economy ($0.05T), Lomé (capital), West Africa, borders Benin/Burkina Faso/Ghana, Togolese Republic | French (fr-TG) + English |
 | 🇨🇫 **Central African Republic** | 13/13 | ✅ **100% COMPLETE** | 149th largest economy ($0.05T), Bangui (capital), landlocked Central Africa, borders 6 countries, Central African CFA franc | French (fr-CF) + Sango + English |
+| 🇸🇿 **Eswatini** | 13/13 | ✅ **100% COMPLETE** | 150th largest economy ($0.05T), Mbabane (administrative)/Lobamba (legislative), absolute monarchy, Swazi lilangeni currency | English (en-SZ) + Swati |
 
 ### 🌏 Oceania (2/14 = 14.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
