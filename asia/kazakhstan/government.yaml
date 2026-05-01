@@ -1,0 +1,10 @@
+# Government - Kazakhstan
+form_of_government: "Unitary presidential republic"
+current_president: "Kassym-Jomart Tokayev"
+legislature: "Bicameral Parliament"
+  senate: "Upper house, 47 members"
+  mazhilis: "Lower house, 107 members"
+constitution_adopted: 1995
+judicial_branch: "Supreme Court of Kazakhstan"
+administrative_divisions: 17 regions (oblys) + 4 city districts (Almaty, Astana, Shymkent, Baikonur)
+international_organizations: ["UN", "CIS", "CSTO", "SCO", "OIC", "EAEU"]

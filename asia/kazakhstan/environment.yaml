@@ -1,18 +1,11 @@
-environment:
-  forest_cover_percent: 1.2
-  protected_areas_percent: 5.3
-  protected_areas_year: 2023
-  major_environmental_issues:
-    - radioactive contamination from former Soviet nuclear test sites (Semipalatinsk)
-    - soil erosion and desertification
-    - water pollution from industrial and agricultural runoff
-    - air pollution in major cities (Almaty, Astana)
-  carbon_dioxide_emissions_mt_2023: 320
-  renewable_energy_target_2030_percent: 15
-  national_parks:
-    - Altai Mountains National Park
-    - Charyn Canyon National Park
-    - Burabay National Park
-  biodiversity:
-    - endemic plant species: ~500
-    - protected animal species: snow leopard, saiga antelope, golden eagle
+# Environment - Kazakhstan
+protected_areas_percent_land: 4.5
+major_ecoregions: ["Kazakh steppe", "Tian Shan montane conifer forests", "Caspian lowland desert"]
+endangered_species:
+  - "Snow leopard"
+  - "Saiga antelope"
+  - "Saker falcon"
+  - "Goitered gazelle"
+major_environmental_issues: ["Desertification", "Water pollution from industrial waste", "Air pollution in urban areas", "Nuclear legacy from Semipalatinsk test site"]
+renewable_energy_target_percent: 15.0  # By 2030
+carbon_dioxide_emissions_mt: 250.0  # Annual

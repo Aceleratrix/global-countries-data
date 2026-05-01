@@ -1,33 +1,28 @@
-culture:
-  official_languages:
-    - Kazakh
-    - Russian
-  spoken_languages:
-    - Kazakh (70% native speakers)
-    - Russian (widely used in business, government, and urban areas)
-    - Uzbek
-    - Ukrainian
-  national_holidays:
-    - New Year (January 1-2)
-    - Orthodox Christmas (January 7)
-    - International Women's Day (March 8)
-    - Nauryz Meyrami (March 21-23, spring equinox)
-    - Unity Day (May 1)
-    - Defender of the Fatherland Day (May 7)
-    - Victory Day (May 9)
-    - Capital City Day (July 6)
-    - Constitution Day (August 30)
-    - Independence Day (December 16-17)
-  traditional_cuisine:
-    - Beshbarmak (boiled meat with noodles)
-    - Kazy (horse meat sausage)
-    - Kumis (fermented mare's milk)
-    - Baursak (fried dough balls)
-  cultural_symbols:
-    - National animal: Golden eagle
-    - National flower: Lily
-    - National tree: Birch
-  world_heritage_sites:
-    - Mausoleum of Khoja Ahmed Yasawi (Turkistan)
-    - Petroglyphs within the Archaeological Landscape of Tamgaly
-    - Saryarka – Steppe and Lakes of Northern Kazakhstan
+# Culture - Kazakhstan
+traditional_symbols:
+  national_animal: "Golden eagle"
+  national_flower: "Lily"
+  national_tree: "Birch"
+  national_sport: "Kokpar (horseback wrestling)"
+official_holidays:
+  - "New Year (January 1)"
+  - "Orthodox Christmas (January 7)"
+  - "International Women's Day (March 8)"
+  - "Nauryz Meyrami (March 21-23)"
+  - "Unity Day (May 1)"
+  - "Defender of the Fatherland Day (May 7)"
+  - "Victory Day (May 9)"
+  - "Capital City Day (July 6)"
+  - "Constitution Day (August 30)"
+  - "Republic Day (October 25)"
+  - "Independence Day (December 16)"
+traditional_cuisine:
+  - "Beshbarmak (boiled meat with noodles)"
+  - "Kazy (horse meat sausage)"
+  - "Kumys (fermented mare's milk)"
+  - "Baursak (fried dough balls)"
+unesco_world_heritage_sites:
+  - "Mausoleum of Khoja Ahmed Yasawi"
+  - "Petroglyphs within the Archaeological Landscape of Tamgaly"
+  - "Saryarka - Steppe and Lakes of Northern Kazakhstan"
+  - "Western Tien-Shan"

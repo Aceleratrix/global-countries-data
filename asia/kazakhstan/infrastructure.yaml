@@ -1,25 +1,17 @@
-infrastructure:
-  transportation:
-    total_roads_km: 189000
-    paved_roads_km: 108000
-    railways_km: 15000
-    major_airports:
-      - Almaty International Airport
-      - Nursultan Nazarbayev International Airport (Astana)
-      - Shymkent International Airport
-    public_transport:
-      - buses, marshrutkas (shared minibuses), metro (Almaty, Astana)
-  energy_infrastructure:
-    total_electricity_capacity_mw: 24000
-    main_sources:
-      - coal (65%)
-      - natural gas (20%)
-      - hydro (10%)
-      - renewable (5%)
-  telecommunications:
-    internet_penetration_percent: 87
-    mobile_penetration_percent: 112
-    fixed_broadband_subscriptions_per_100: 18
-  water_supply:
-    urban_access_percent: 98
-    rural_access_percent: 82
+# Infrastructure - Kazakhstan
+transportation:
+  total_road_length_km: 97600
+  paved_road_length_km: 84000
+  railway_length_km: 15000
+  major_airports:
+    - "Almaty International Airport (ALA)"
+    - "Nursultan Nazarbayev International Airport (NQZ)"
+    - "Shymkent International Airport (CIT)"
+  major_ports: ["Aktau Port (Caspian Sea)", "Atyrau Port (Ural River)"]
+energy:
+  primary_energy_sources: ["Oil", "Natural gas", "Coal", "Hydroelectric"]
+  oil_pipeline_length_km: 12000
+telecommunications:
+  internet_country_code: ".kz"
+  mobile_penetration_rate: 120.0  # Per 100 people
+  fixed_broadband_subscriptions: 15.0  # Per 100 people

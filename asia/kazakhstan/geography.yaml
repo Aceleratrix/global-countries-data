@@ -1,30 +1,28 @@
-geography:
-  total_area_km²: 2724900
-  global_area_rank: 9
-  landlocked: true
-  continent: Asia
-  subregion: Central Asia
-  borders:
-    - country: Russia
-      length_km: 6846
-    - country: China
-      length_km: 1460
-    - country: Kyrgyzstan
-      length_km: 980
-    - country: Uzbekistan
-      length_km: 2200
-    - country: Turkmenistan
-      length_km: 380
-  coastline_km: 0
-  highest_point: Khan Tengri (7010 m)
-  lowest_point: Karagiye Depression (-132 m)
-  major_rivers:
-    - Irtysh
-    - Syr Darya
-    - Ural
-    - Ishim
-  major_lakes:
-    - Caspian Sea (shared)
-    - Lake Balkhash
-    - Lake Zaysan
-  climate: continental (hot summers, cold winters, low precipitation)
+# Geography - Kazakhstan
+coordinates:
+  latitude: 48.0196
+  longitude: 66.9237
+capital_coordinates:
+  latitude: 51.16
+  longitude: 71.45
+area_km2: 2724900.0
+landlocked: true
+borders:
+  - country: "China"
+    code: "CHN"
+  - country: "Kyrgyzstan"
+    code: "KGZ"
+  - country: "Russia"
+    code: "RUS"
+  - country: "Turkmenistan"
+    code: "TKM"
+  - country: "Uzbekistan"
+    code: "UZB"
+terrain: "Vast steppes, Tian Shan mountains in southeast, Kyzylkum desert in south"
+major_rivers: ["Ural", "Syr Darya", "Ili"]
+major_lakes: ["Caspian Sea (shores)", "Lake Balkhash", "Lake Zaysan"]
+maps:
+  google_maps: "https://goo.gl/maps/8VohJGu7ShuzZYyeA"
+  openstreetmap: "https://www.openstreetmap.org/relation/214665"
+continents: ["Asia"]
+region: "Central Asia"
