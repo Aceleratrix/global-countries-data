@@ -46,7 +46,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇺🇾 **Uruguay** | 13/13 | ✅ **100% COMPLETE** | 95th largest economy ($0.10T), Montevideo (3.5M), Beef/soy exports, 98% renewable energy | Spanish (es-UY) + English |
 | 🇸🇷 **Suriname** | 13/13 | ✅ **100% COMPLETE** | 124th largest economy ($0.07T), Paramaribo (616K), Dutch-speaking, borders Brazil/French Guiana/Guyana | Dutch (nld) + English |
 
-### 🌎 North America (8/23 = 34.8%)
+### 🌎 North America (9/23 = 39.1%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇺🇸 **USA** | 13/13 | ✅ **100% COMPLETE** | Silicon Valley, Section 230, 20+ cloud regions | English (en-US) |
@@ -57,6 +57,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇨🇷 **Costa Rica** | 13/13 | ✅ **100% COMPLETE** | 71st largest economy ($0.16T), San José (1.5M metro), abolished army 1949, 5% global biodiversity | Spanish (es-CR) + English |
 | 🇵🇦 **Panama** | 13/13 | ✅ **100% COMPLETE** | 72nd largest economy ($0.16T), Panama City (2M), Panama Canal, dollarized economy, logistics hub | Spanish (es-PA) + English |
 | 🇭🇳 **Honduras** | 13/13 | ✅ **100% COMPLETE** | 84th largest economy ($0.14T), Tegucigalpa (1M), Mayan ruins, Caribbean/Pacific coasts | Spanish (es-HN) + English |
+| 🇧🇿 **Belize** | 13/13 | ✅ **100% COMPLETE** | 132nd largest economy ($0.06T), Belmopan (capital), Caribbean coast, Belize Barrier Reef | English (en-BZ) + Spanish |
 
 ### 🌏 Asia (19/50 = 38.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
