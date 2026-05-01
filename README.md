@@ -115,7 +115,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇱🇺 **Luxembourg** | 13/13 | ✅ **100% COMPLETE** | 129th largest economy ($0.07T), Luxembourg City (capital), landlocked Western Europe, EU/NATO/Eurozone member | English (en-US) |
 | 🇦🇱 **Albania** | 13/13 | ✅ **100% COMPLETE** | 108th largest economy ($0.08T), Tirana (capital), Southeast Europe, 2.3M population, Albania Alps | English (en-US) |
 
-### 🌍 Africa (24/54 = 44.4%)
+### 🌍 Africa (25/54 = 46.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇳🇬 **Nigeria** | 13/13 | ✅ **100% COMPLETE** | 28th largest economy ($0.48T), Africa's most populous (223M), fintech leader (4 unicorns), Nollywood | English (en-NG) |
@@ -141,6 +141,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇧🇯 **Benin** | 13/13 | ✅ **100% COMPLETE** | 143rd largest economy ($0.06T), Porto-Novo (capital), West Africa, borders 4 countries, Vodun culture, former Dahomey kingdom | French (fr-BJ) + English |
 | 🇬🇲 **Gambia** | 13/13 | ✅ **100% COMPLETE** | 145th largest economy ($0.05T), Banjul (capital), West Africa, smallest country on mainland Africa, borders only Senegal, Gambia River flows through country | English (en-GM) + English |
 | 🇹🇬 **Togo** | 13/13 | ✅ **100% COMPLETE** | 148th largest economy ($0.05T), Lomé (capital), West Africa, borders Benin/Burkina Faso/Ghana, Togolese Republic | French (fr-TG) + English |
+| 🇨🇫 **Central African Republic** | 13/13 | ✅ **100% COMPLETE** | 149th largest economy ($0.05T), Bangui (capital), landlocked Central Africa, borders 6 countries, Central African CFA franc | French (fr-CF) + Sango + English |
 
 ### 🌏 Oceania (2/14 = 14.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
