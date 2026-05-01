@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 97/195 (49.7%) Complete](https://img.shields.io/badge/Status-97/195 (49.7%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 28/195 (14.4%) Complete](https://img.shields.io/badge/Status-28/195 (14.4%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -106,7 +106,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇭🇷 **Croatia** | 13/13 | ✅ **100% COMPLETE** | 85th largest economy ($0.13T), Zagreb (0.8M), Adriatic coastline, 8 UNESCO sites, EU/NATO/Eurozone member | English (en-US) |
 | 🇱🇹 **Lithuania** | 13/13 | ✅ **100% COMPLETE** | 87th largest economy ($0.12T), Vilnius (0.6M), EU/NATO/Eurozone member, 3 UNESCO sites, Baltic state | English (en-US) |
 
-### 🌍 Africa (16/54 = 29.6%)
+### 🌍 Africa (17/54 = 31.5%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇳🇬 **Nigeria** | 13/13 | ✅ **100% COMPLETE** | 28th largest economy ($0.48T), Africa's most populous (223M), fintech leader (4 unicorns), Nollywood | English (en-NG) |
@@ -124,13 +124,14 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇿🇲 **Zambia** | 13/13 | ✅ **100% COMPLETE** | 111th largest economy ($0.08T), Lusaka (capital), landlocked Southern Africa, Victoria Falls, copper mining hub | English (en-ZM) + 7 national languages |
 | 🇿🇼 **Zimbabwe** | 13/13 | ✅ **100% COMPLETE** | 113th largest economy ($0.08T), Harare (capital), landlocked Southern Africa, Victoria Falls, Great Zimbabwe ruins | English (en-ZW) + 15 national languages |
 | 🇹🇩 **Chad** | 13/13 | ✅ **100% COMPLETE** | 116th largest economy ($0.08T), N'Djamena (capital), landlocked Central Africa, Sahara Desert, Lake Chad | French (fr-TD) + Arabic + English |
+| 🇲🇼 **Malawi** | 13/13 | ✅ **100% COMPLETE** | 118th largest economy ($0.08T), Lilongwe (capital), landlocked Eastern Africa, Lake Malawi (20% of territory), "Warm Heart of Africa" | English (en-MW) + Chichewa |
 
 ### 🌏 Oceania (1/14 = 7.1%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇦🇺 **Australia** | 13/13 | ✅ **100% COMPLETE** | Big 4 banks, Canva $40B, AI Action Plan $124M, 92% digital banking, APEC | English (en-AU) |
 
-**Total: 351 structured YAML files covering 27 countries across 5 continents!**
+**Total: 362 structured YAML files covering 28 countries across 5 continents!**
 
 ---
 

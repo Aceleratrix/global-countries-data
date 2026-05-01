@@ -136,7 +136,7 @@
 | 96 | 🇳🇵 Níger | niger | Africa | $0.12T |
 | 106 | 🇸🇳 Senegal | senegal | Africa | $0.08T | ✅ 100% COMPLETE |
 | 98 | 🇬🇭 Ghana | ghana | Africa | $0.10T | ✅ 100% COMPLETE |
-| 99 | 🇲🇼 Malaui | malawi | Africa | $0.12T |
+| 118 | 🇲🇼 Malaui (Malawi) | malawi | Africa | $0.08T | ✅ 100% COMPLETE |
 | 100 | 🇺🇬 Uganda | uganda | Africa | $0.09T | ✅ 100% COMPLETE |
 | 99 | 🇹🇿 Tanzânia (Tanzania) | tanzania | Africa | $0.09T | ✅ 100% COMPLETE |
 
@@ -148,7 +148,7 @@
 - 🇲🇪 Montenegro, 🇲🇰 Kosovo, 🇷🇸 Sérvia, 🇦🇩 Chipre, 🇲🇹 Malta, 🇮🇩 Islândia, 🇦🇩 Andorra, 🇲🇨 Mônaco, 🇸🇲 San Marino, 🇻🇦 Cidade do Vaticano, 🇬🇮 Gibraltar, 🇮🇪 Jersey, 🇬🇬 Guernsey, 🇮🇫 Ilha de Man, 🇦🇽 Ilhas Faroe, 🇮🇩 Islândia
 
 **África (continuação):**
-- 🇨🇲 Camarões (Cameroon) (104th GDP, $0.09T) ✅ 100% COMPLETE, 🇲🇱 Mali (105th GDP, $0.08T) ✅ 100% COMPLETE, 🇳🇦 Namibia (109th GDP, $0.08T) ✅ 100% COMPLETE, 🇧🇼 Botswana (110th GDP, $0.08T) ✅ 100% COMPLETE, 🇿🇲 Zambia (111th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇿 Mozambique (112th GDP, $0.08T) ✅ 100% COMPLETE, 🇿🇼 Zimbabwe (113th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇷 Mauritania (114th GDP, $0.08T) ✅ 100% COMPLETE, 🇹🇩 Chade (116th GDP, $0.08T) ✅ 100% COMPLETE, 🇧🇫 Burkina Faso (117th GDP, $0.08T) ✅ 100% COMPLETE, 🇨🇫 República Centro-Africana, 🇨🇬 República do Congo
+- 🇨🇲 Camarões (Cameroon) (104th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇱 Mali (105th GDP, $0.08T) ✅ 100% COMPLETE, 🇳🇦 Namibia (109th GDP, $0.08T) ✅ 100% COMPLETE, 🇧🇼 Botswana (110th GDP, $0.08T) ✅ 100% COMPLETE, 🇿🇲 Zambia (111th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇿 Mozambique (112th GDP, $0.08T) ✅ 100% COMPLETE, 🇿🇼 Zimbabwe (113th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇷 Mauritania (114th GDP, $0.08T) ✅ 100% COMPLETE, 🇹🇩 Chade (116th GDP, $0.08T) ✅ 100% COMPLETE, 🇧🇫 Burkina Faso (117th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇼 Malaui (Malawi) (118th GDP, $0.08T) ✅ 100% COMPLETE, 🇨🇫 República Centro-Africana, 🇨🇬 República do Congo
 
 **Ásia (continuação):**
 - 🇦🇫 Afeganistão, 🇧🇩 Bangladesh, 🇱🇵 Laos, 🇳🇵 Nepal ✅ 100% COMPLETE (101st GDP, $0.09T), 🇸🇾 Síria, 🇱🇧 Líbano ✅ 100% COMPLETE, 🇵🇰 Quirguistão, 🇹🇯 Tajiquistão, 🇹🇲 Turcomenistão, 🇧🇳 Brunei, 🇹🇼 Timor-Leste, 🇵🇬 Papua Nova Guiné, 🇸🇧 Ilhas Salomão, 🇻🇺 Vanuatu, 🇫🇲 Fiji, 🇼🇸 Samoa, 🇹🇴 Tonga, 🇰🇮 Kiribati, 🇫🇼 Tuvalu, 🇫🇲 Fiji, 🇼🇸 Samoa, 🇹🇴 Tonga, 🇰🇮 Kiribati, 🇫🇼 Tuvalu, 🇲🇭 Micronésia, 🇵🇼 Palau, 🇲🇭 Ilhas Marshall, 🇳🇷 Nauru
@@ -170,8 +170,8 @@
 | 🌍 Europe | 44 | 6 | 38 | 13.6% |
 | 🌎 South America | 12 | 1 | 11 | 8.3% |
 | 🌏 Oceania | 14 | 1 | 13 | 7.1% |
-| 🌍 Africa | 54 | 7 | 47 | 13.0% |
-| **TOTAL** | **195** | **26** | **169** | **13.3%** |
+| 🌍 Africa | 54 | 8 | 46 | 14.8% |
+| **TOTAL** | **195** | **27** | **168** | **13.8%** |
 
 ---
 
