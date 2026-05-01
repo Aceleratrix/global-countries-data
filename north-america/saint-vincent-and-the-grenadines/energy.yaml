@@ -1,0 +1,8 @@
+electricity_access: 95%
+energy_sources:
+  - Diesel generators: 70%
+  - Solar: 20%
+  - Wind: 10%
+renewable_energy_target: 50% by 2030
+electricity_production: 120 GWh per year
+grid_type: Isolated island grids

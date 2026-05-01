@@ -1,0 +1,22 @@
+gdp:
+  total: 0.05
+  unit: trillion USD
+  global_rank: 166
+currency:
+  code: XCD
+  name: Eastern Caribbean Dollar
+  symbol: $
+major_industries:
+  - Tourism
+  - Agriculture (bananas, coconuts, root crops)
+  - Manufacturing (rum, textiles, electronics assembly)
+gdp_per_capita: 4500
+inflation_rate: 3.2%
+exports:
+  - Bananas
+  - Rum
+  - Edible oils
+imports:
+  - Food and beverages
+  - Machinery
+  - Fuel

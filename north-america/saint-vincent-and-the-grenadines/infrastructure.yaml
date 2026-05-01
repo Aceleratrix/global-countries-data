@@ -1,0 +1,11 @@
+transportation:
+  airports: 6 (1 international: Argyle International Airport)
+  paved_roads: 600
+  total_roads: 1000
+  unit: km
+  major_ports: Kingstown, Georgetown
+telecommunications:
+  mobile_penetration: 120%
+  internet_penetration: 62%
+  fixed_broadband_subscriptions: 15 per 100 inhabitants
+water_access: 95% of population with improved drinking water

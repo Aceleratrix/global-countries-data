@@ -1,0 +1,16 @@
+area:
+  total: 389
+  unit: km²
+terrain: Volcanic islands with mountainous interiors, lush tropical vegetation
+highest_point:
+  name: La Soufrière
+  elevation: 1234
+  unit: meters
+climate: Tropical, moderated by northeast trade winds; rainy season June-November
+coastline: 84
+unit: km
+islands: 32 (main island Saint Vincent + 31 Grenadine islands)
+natural_resources:
+  - Hydropower
+  - Timber
+  - Arable land

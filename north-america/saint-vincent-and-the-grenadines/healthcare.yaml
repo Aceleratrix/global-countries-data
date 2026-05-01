@@ -1,0 +1,9 @@
+life_expectancy: 73
+  unit: years
+infant_mortality: 12
+  unit: per 1000 live births
+healthcare_system: Public (tax-funded) and private providers
+health_expenditure: 6.2% of GDP
+hospitals: 3 major (Kingstown General Hospital, Georgetown Hospital, Union Island Hospital)
+physicians_per_1000: 0.8
+vaccination_coverage: 90% for routine childhood vaccines

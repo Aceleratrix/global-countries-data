@@ -1,0 +1,15 @@
+population:
+  total: 110940
+  year: 2023
+population_density: 285
+unit: per km²
+ethnic_groups:
+  - Afro-Vincentian: 66%
+  - Mixed: 19%
+  - Indo-Vincentian: 6%
+  - Other: 9%
+religions:
+  - Christianity: 90% (Protestant 75%, Roman Catholic 15%)
+  - Other: 10%
+median_age: 32
+urban_population: 52%
