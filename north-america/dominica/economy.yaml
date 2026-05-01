@@ -1,0 +1,5 @@
+economy:
+  gdp_nominal_trillion: 0.05
+  gdp_global_rank: 168
+  gdp_per_capita_usd: ~6900
+  main_industries: ["Tourism", "Agriculture", "Banana Production", "Offshore Financial Services"]

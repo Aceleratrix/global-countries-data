@@ -1,0 +1,6 @@
+environment:
+  climate: "Tropical rainforest climate"
+  forests_percent: 59
+  national_parks: 3
+  endangered_species: ["Imperial Amazon Parrot", "Red-necked Parrot"]
+  unesco_world_heritage: ["Morne Trois Pitons National Park"]

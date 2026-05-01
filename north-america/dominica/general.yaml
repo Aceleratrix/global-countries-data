@@ -1,0 +1,11 @@
+name:
+  common: Dominica
+  official: Commonwealth of Dominica
+codes:
+  cca2: DM
+  cca3: DMA
+  ccn3: "212"
+independent: true
+status: officially-assigned
+tld: [".dm"]
+flag: 🇩🇲

@@ -1,0 +1,5 @@
+currency:
+  code: "XCD"
+  name: "Eastern Caribbean Dollar"
+  symbol: "$"
+  alternative_symbols: ["EC$"]

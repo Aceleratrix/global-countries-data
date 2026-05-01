@@ -1,0 +1,6 @@
+language:
+  official: ["English"]
+  spoken: ["English", "Dominican Creole French"]
+  languages:
+    eng: "English"
+    fr: "Dominican Creole French"

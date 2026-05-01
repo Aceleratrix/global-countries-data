@@ -1,0 +1,6 @@
+infrastructure:
+  airports: 2
+  paved_roads_km: 320
+  total_roads_km: 1520
+  internet_tld: ".dm"
+  mobile_penetration_percent: 112.4

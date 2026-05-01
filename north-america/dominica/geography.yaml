@@ -1,0 +1,9 @@
+geography:
+  area_km2: 750
+  latlng: [15.41499955, -61.37000274]
+  timezone: "UTC-04:00"
+  borders: []
+  landlocked: false
+  island_nation: true
+  top_level_domain: [".dm"]
+  calling_codes: ["+1-767"]
