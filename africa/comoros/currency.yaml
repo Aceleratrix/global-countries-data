@@ -1,0 +1,8 @@
+country: Comoros
+currency_name: Comorian franc
+currency_code: KMF
+symbol: FC
+pegged_to: Euro (1 EUR = 491.96775 KMF, fixed since 1999)
+exchange_rate_usd: ~0.0022 USD per KMF (2024)
+coins: 1, 2, 5, 10, 25, 50, 100, 250, 500 KMF
+banknotes: 500, 1000, 2000, 5000, 10000 KMF

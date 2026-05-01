@@ -1,0 +1,13 @@
+country: Comoros
+area_km2: 1861
+islands:
+  - Grande Comore (Ngazidja)
+  - Mohéli (Mwali)
+  - Anjouan (Ndzuwani)
+  - Mayotte (claimed, administered by France)
+continent: Africa
+region: Eastern Africa
+borders: []
+terrain: Volcanic islands, coastal plains
+lowest_point: Indian Ocean (0m)
+highest_point: Mount Karthala (2361m, Grande Comore)

@@ -1,0 +1,8 @@
+country: Comoros
+timezone: UTC+03:00
+daylight_saving: No (year-round UTC+03:00)
+major_time_differences:
+  - London: -3 hours
+  - New York: -8 hours
+  - Paris: -2 hours
+  - Nairobi: Same time
