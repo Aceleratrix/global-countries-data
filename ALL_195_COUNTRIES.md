@@ -75,7 +75,7 @@
 | 53 | 🇭🇦 Vietnã | vietnam | Asia | ✅ 100% COMPLETE |
 | 54 | 🇲🇦 Morocco | morocco | ✅ 100% COMPLETE |
 | 55 | 🇸🇰 Eslováquia (ver linha 92) | slovakia | Europe | $0.24T | ✅ 100% COMPLETE |
-| 56 | 🇪🇨 Equador | ecuador | South America | $0.23T |
+| 140 | 🇪🇨 Ecuador | ecuador | South America | $0.06T | ✅ 100% COMPLETE |
 | 95 | 🇺🇾 Uruguai | uruguay | South America | $0.10T | ✅ 100% COMPLETE |
 | 85 | 🇭🇷 Croácia | croatia | Europe | $0.13T | ✅ 100% COMPLETE |
 | 129 | 🇱🇺 Luxemburgo | luxembourg | Europe | $0.07T | ✅ 100% COMPLETE |
@@ -169,7 +169,7 @@
 | 🌎 North America | 4 | 4 | 0 | **100%** ✅ |
 | 🌏 Asia | 50 | 7 | 43 | 14.0% |
 | 🌍 Europe | 44 | 8 | 36 | 18.2% |
-| 🌎 South America | 12 | 5 | 7 | 41.7% |
+| 🌎 South America | 12 | 6 | 6 | 50.0% |
 | 🌏 Oceania | 14 | 1 | 13 | 7.1% |
 | 🌍 Africa | 54 | 8 | 46 | 14.8% |
 | **TOTAL** | **195** | **100** | **95** | **51.3%** |
