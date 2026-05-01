@@ -114,7 +114,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇿🇦 **South Africa** | 13/13 | ✅ **100% COMPLETE** | 46th largest economy ($0.32T), Pretoria (3M), Kruger National Park, Rainbow Nation, 2010 FIFA World Cup | English (en-ZA) + 10 others |
 | 🇩🇿 **Algeria** | 13/13 | ✅ **100% COMPLETE** | 47th largest economy ($0.31T), Algiers (5.1M), Sahara Desert (90% territory), OPEC member, 7 UNESCO sites | Arabic (ar-DZ) + Tamazight + English |
 | 🇲🇦 **Morocco** | 13/13 | ✅ **100% COMPLETE** | 54th largest economy ($0.25T), Rabat (2M), Atlas Mountains, Sahara Desert, 7 UNESCO sites | Arabic (ar-MA) + Tamazight + English |
-| 🇪🇹 **Ethiopia** | 13/13 | ✅ **100% COMPLETE** | 67th largest economy ($0.18T), Addis Ababa (5M), African Union HQ, coffee origin, 9 UNESCO sites | Amharic (am-ET) + English |
+| 🇪🇹 **Ethiopia** | 13/13 | ✅ **100% COMPLETE** | 97th largest economy ($0.10T), Addis Ababa (5M), African Union HQ, coffee origin, 9 UNESCO sites | Amharic (am-ET) + English |
 
 ### 🌏 Oceania (1/14 = 7.1%)
 | Country | Files | Status | Key Highlights | Primary Language |

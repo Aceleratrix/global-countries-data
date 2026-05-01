@@ -94,7 +94,7 @@
 | 65 | 🇪🇪 Estônia | estonia | Europe | ✅ 100% COMPLETE | |
 | 66 | 🇸🇮 Eslovênia | slovenia | Europe | $0.19T | |
 | 92 | 🇸🇰 Eslováquia (Slovakia) | slovakia | Europe | $0.11T | ✅ 100% COMPLETE | |
-| 67 | 🇪🇹 Etiópia | ethiopia | Africa | $0.18T | ✅ 100% COMPLETE |
+| 97 | 🇪🇹 Etiópia | ethiopia | Africa | $0.10T | ✅ 100% COMPLETE |
 | 68 | 🇵🇷 Porto Rico | puerto-rico | North America | ✅ 100% COMPLETE |
 | 68 | 🇨🇷 Costa Rica | costa-rica | North America | ✅ 100% COMPLETE | |
 | 69 | 🇬🇹 Guatemala | guatemala | North America | ✅ 100% COMPLETE | |
@@ -135,7 +135,7 @@
 | 95 | 🇬🇳 Gabão | gabon | Africa | $0.12T |
 | 96 | 🇳🇵 Níger | niger | Africa | $0.12T |
 | 97 | 🇸🇳 Senegal | senegal | Africa | $0.12T |
-| 98 | 🇨🇻 Uganda | uganda | Africa | $0.12T |
+| 98 | 🇬🇭 Ghana | ghana | Africa | $0.10T | ✅ 100% COMPLETE |
 | 99 | 🇲🇼 Malaui | malawi | Africa | $0.12T |
 | 100 | 🇧🇳 Benin | benin | Africa | $0.11T |
 | 101 | 🇹🇿 Tanzânia | tanzania | Africa | $0.11T |
@@ -171,7 +171,7 @@
 | 🌎 South America | 12 | 1 | 11 | 8.3% |
 | 🌏 Oceania | 14 | 1 | 13 | 7.1% |
 | 🌍 Africa | 54 | 0 | 54 | 0% |
-| **TOTAL** | **195** | **17** | **178** | **8.7%** |
+| **TOTAL** | **195** | **18** | **177** | **9.2%** |
 
 ---
 
