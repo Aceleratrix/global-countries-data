@@ -1,0 +1,10 @@
+# Education data for Gabon
+country: Gabon
+literacy_rate_percent: ~83% (adult, 2018 est)
+primary_school_enrollment_percent: ~97%
+secondary_school_enrollment_percent: ~60%
+higher_education_institutions:
+  - Université des Sciences et Techniques de Masuku
+  - Université Omar Bongo
+education_expenditure_percent_gdp: ~3.5%
+language_of_instruction: French

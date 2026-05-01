@@ -1,0 +1,25 @@
+# Geography data for Gabon
+country: Gabon
+area_km2: 267668.0
+region: Africa
+subregion: Middle Africa
+continent: Africa
+landlocked: false
+borders:
+  - code: CMR
+    name: Cameroon
+  - code: COG
+    name: Congo
+  - code: GNQ
+    name: Equatorial Guinea
+lat_lng:
+  - -1.0
+  - 11.75
+capital_lat_lng:
+  - 0.38
+  - 9.45
+timezones:
+  - UTC+01:00
+maps:
+  google_maps: https://goo.gl/maps/vyRSkqw1H1fnq4ry6
+  openstreetmap: https://www.openstreetmap.org/relation/192793

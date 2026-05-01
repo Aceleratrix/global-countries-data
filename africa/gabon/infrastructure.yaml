@@ -1,0 +1,15 @@
+# Infrastructure data for Gabon
+country: Gabon
+internet_tld:
+  - .ga
+mobile_networks: 4G available in urban areas
+major_ports:
+  - Port of Libreville
+  - Port of Port-Gentil
+major_airports:
+  - Libreville International Airport (LBV)
+  - Port-Gentil Airport (POG)
+roads_total_km: ~14000
+paved_roads_percent: ~20%
+railways_km: ~810 (mainly for mining)
+energy_electricity_access_percent: ~89% (urban), ~34% (rural)

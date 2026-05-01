@@ -1,0 +1,9 @@
+# Healthcare data for Gabon
+country: Gabon
+life_expectancy_years: ~67 (2023 est)
+infant_mortality_per_1000: ~32
+healthcare_expenditure_percent_gdp: ~3.8%
+physicians_per_1000: ~0.9
+hospital_beds_per_1000: ~3.1
+main_diseases: Malaria, HIV/AIDS, respiratory infections
+vaccination_coverage_percent: ~80% (basic childhood vaccines)

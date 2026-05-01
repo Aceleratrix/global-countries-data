@@ -1,0 +1,22 @@
+# Culture data for Gabon
+country: Gabon
+flag:
+  emoji: 🇬🇦
+  description: Three equal horizontal bands of green, yellow and blue
+  png: https://flagcdn.com/w320/ga.png
+  svg: https://flagcdn.com/ga.svg
+coat_of_arms:
+  png: https://mainfacts.com/media/images/coats_of_arms/ga.png
+  svg: https://mainfacts.com/media/images/coats_of_arms/ga.svg
+translations:
+  ara: جمهورية الغابون / الغابون
+  bre: Republik Gabonat / Gabon
+  ces: Gabonská republika / Gabon
+  deu: Gabunische Republik / Gabun
+  fra: République gabonaise / Gabon
+  por: República do Gabão / Gabão
+  spa: República de Gabón / Gabón
+  zho: 加蓬共和国 / 加蓬
+official_language: French
+traditional_music: Bwiti, Makossa influences
+cuisine: Cassava, plantains, bushmeat, seafood

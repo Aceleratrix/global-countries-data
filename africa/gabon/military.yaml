@@ -1,0 +1,13 @@
+# Military data for Gabon
+country: Gabon
+armed_forces: Gabonese Armed Forces
+active_personnel: ~5000
+reserve_personnel: ~1500
+military_expenditure_percent_gdp: ~1.5%
+branches:
+  - Army
+  - Navy
+  - Air Force
+  - Gendarmerie
+peacekeeping_contributions: Contributes troops to UN peacekeeping missions
+defense_partners: France, United States, regional African nations

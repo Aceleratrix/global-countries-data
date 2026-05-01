@@ -1,0 +1,17 @@
+# Economy data for Gabon
+country: Gabon
+gdp_usd_trillion: 0.05
+global_gdp_rank: 153
+gdp_per_capita_usd: ~20000  # Estimated based on $0.05T / 2.47M population
+currency:
+  code: XAF
+  name: Central African CFA franc
+  symbol: Fr
+gini_index: 38.0
+gini_year: 2017
+main_industries:
+  - Oil and gas
+  - Mining (manganese, gold)
+  - Timber
+  - Agriculture
+exporters_rank: 153rd

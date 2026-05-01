@@ -1,0 +1,21 @@
+# Demographics data for Gabon
+country: Gabon
+population: 2469296
+population_year: 2023
+demonyms:
+  eng:
+    m: Gabonese
+    f: Gabonese
+  fra:
+    m: Gabonais
+    f: Gabonaise
+languages:
+  fra: French
+native_names:
+  fra:
+    official: République gabonaise
+    common: Gabon
+population_growth_rate: ~2.0%  # World Bank estimate
+urban_population_percent: ~90%
+capital: Libreville
+capital_population: ~830000  # Metro area estimate

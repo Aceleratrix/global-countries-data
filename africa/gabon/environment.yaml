@@ -1,0 +1,15 @@
+# Environment data for Gabon
+country: Gabon
+forest_cover_percent: ~85% (one of highest in Africa)
+protected_areas_percent: ~11%
+biodiversity: Over 7,000 plant species, 190 mammal species, 600 bird species
+national_parks:
+  - Loango National Park
+  - Lopé National Park
+  - Ivindo National Park
+climate: Tropical, hot and humid year-round
+rainfall_mm_annual: ~2000-3000
+environmental_issues:
+  - Deforestation for logging and mining
+  - Oil pollution in coastal areas
+  - Wildlife poaching
