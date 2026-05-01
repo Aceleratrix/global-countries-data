@@ -89,7 +89,7 @@
 |---|------|--------|-----------|-------------------|--------|
 | 61 | 🇧🇾 Belarus | belarus | Europe | $0.20T | ✅ 100% COMPLETE |
 | 120 | 🇲🇲 Myanmar | myanmar | Asia | $0.07T | ✅ 100% COMPLETE |
-| 63 | 🇦🇴 Angola | angola | Africa | $0.20T | |
+| 136 | 🇦🇴 Angola | angola | Africa | $0.06T | ✅ 100% COMPLETE |
 | 64 | 🇰🇭 Camboja | cambodia | Asia | $0.20T | ✅ 100% COMPLETE |
 | 65 | 🇪🇪 Estônia | estonia | Europe | ✅ 100% COMPLETE | |
 | 66 | 🇸🇮 Eslovênia | slovenia | Europe | $0.19T | |
