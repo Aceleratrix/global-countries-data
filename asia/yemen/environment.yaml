@@ -1,0 +1,9 @@
+# Environmental info
+area: 527968.0
+area_unit: "km²"
+region: "Western Asia"
+continents:
+  - "Asia"
+landlocked: false
+coastline: true
+note: "Located on the southern tip of the Arabian Peninsula, bordering the Arabian Sea, Gulf of Aden, and Red Sea"

@@ -1,0 +1,12 @@
+# Infrastructure data
+idd:
+  root: "+9"
+  suffixes: ["67"]
+car:
+  signs: ["YAR"]
+  side: "right"
+postal_code:
+  format: null
+  regex: null
+timezones:
+  - "UTC+03:00"

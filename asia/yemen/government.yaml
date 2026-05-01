@@ -1,0 +1,11 @@
+# Governance details
+independent: true
+un_member: true
+status: "officially-assigned"
+start_of_week: "sunday"
+car:
+  signs: ["YAR"]
+  side: "right"
+idd:
+  root: "+9"
+  suffixes: ["67"]

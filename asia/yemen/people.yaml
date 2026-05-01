@@ -1,0 +1,11 @@
+# Demographic information
+population: 32684503
+demonyms:
+  eng:
+    f: "Yemeni"
+    m: "Yemeni"
+  fra:
+    f: "Yéménite"
+    m: "Yéménite"
+languages:
+  ara: "Arabic"

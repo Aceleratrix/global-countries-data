@@ -1,0 +1,12 @@
+# Economic indicators
+gdp:
+  value: 0.07
+  unit: "T"
+  global_rank: 121
+currency:
+  code: "YER"
+  name: "Yemeni rial"
+  symbol: "﷼"
+gini_index:
+  year: 2014
+  value: 36.7

@@ -1,0 +1,18 @@
+# Geographic data
+area: 527968.0
+area_unit: "km²"
+borders:
+  - "OMN"
+  - "SAU"
+capital:
+  - "Sana'a"
+capital_info:
+  latlng: [15.37, 44.19]
+latlng: [15.0, 48.0]
+continents:
+  - "Asia"
+maps:
+  google_maps: "https://goo.gl/maps/WCmE76HKcLideQQw7"
+  open_street_maps: "https://www.openstreetmap.org/relation/305092"
+timezones:
+  - "UTC+03:00"

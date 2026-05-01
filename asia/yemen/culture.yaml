@@ -1,0 +1,22 @@
+# Cultural information
+languages:
+  ara: "Arabic"
+translations:
+  ara:
+    official: "الجمهورية اليمنية"
+    common: "اليمن"
+  deu:
+    official: "Republik Jemen"
+    common: "Jemen"
+  fra:
+    official: "République du Yémen"
+    common: "Yémen"
+  por:
+    official: "República do Iêmen"
+    common: "Iémen"
+  rus:
+    official: "Йеменская Республика"
+    common: "Йемен"
+  zho:
+    official: "也门共和国"
+    common: "也门"

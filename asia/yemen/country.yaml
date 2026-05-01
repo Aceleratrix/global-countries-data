@@ -1,0 +1,19 @@
+# Basic country metadata
+name:
+  common: "Yemen"
+  official: "Republic of Yemen"
+  native:
+    ara:
+      common: "اليَمَن"
+      official: "الجمهورية اليمنية"
+codes:
+  cca2: "YE"
+  cca3: "YEM"
+  ccn3: "887"
+  cioc: "YEM"
+status: "officially-assigned"
+independent: true
+un_member: true
+region: "Asia"
+subregion: "Western Asia"
+landlocked: false

@@ -1,0 +1,10 @@
+# National symbols
+flag:
+  png: "https://flagcdn.com/w320/ye.png"
+  svg: "https://flagcdn.com/ye.svg"
+  alt: "The flag of Yemen is composed of three equal horizontal bands of red, white and black."
+coat_of_arms:
+  png: "https://mainfacts.com/media/images/coats_of_arms/ye.png"
+  svg: "https://mainfacts.com/media/images/coats_of_arms/ye.svg"
+emoji_flag: "🇾🇪"
+currency_symbol: "﷼"

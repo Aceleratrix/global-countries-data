@@ -1,0 +1,6 @@
+# Military data
+note: "No direct military data from REST Countries API"
+fifa_code: "YEM"
+borders_for_defense:
+  - "OMN"
+  - "SAU"
