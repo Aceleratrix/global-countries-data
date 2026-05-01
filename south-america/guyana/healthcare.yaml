@@ -1,0 +1,8 @@
+country: Guyana
+healthcare_system: Mixed public-private
+hospitals: 30 (main: Georgetown Public Hospital)
+physicians_per_1000: 0.8
+infant_mortality: 24.5 per 1000 live births
+major_health_issues:
+  - HIV/AIDS
+  - Malaria (interior regions)

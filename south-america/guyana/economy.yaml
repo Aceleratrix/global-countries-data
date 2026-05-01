@@ -1,0 +1,13 @@
+country: Guyana
+gdp_trillion_usd: 0.05
+global_gdp_rank: 152
+currency:
+  code: GYD
+  name: Guyanese Dollar
+  symbol: $
+key_sectors:
+  - Offshore oil and gas
+  - Mining (gold, bauxite)
+  - Agriculture (sugar, rice)
+  - Forestry
+gdp_growth: "Rapid (driven by oil discoveries post-2015)"

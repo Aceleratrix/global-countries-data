@@ -1,0 +1,9 @@
+country: Guyana
+transportation:
+  roads_km: 7970
+  paved_roads_km: 590
+  international_airports: 1 (Cheddi Jagan)
+  main_port: Georgetown
+telecommunications:
+  mobile_penetration: 90%
+  internet_users: 45%
