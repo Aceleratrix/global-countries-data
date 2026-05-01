@@ -1,0 +1,7 @@
+military_expenditure_percent_gdp: 2.1
+active_personnel: 40000
+branches:
+  - Army
+  - Navy
+  - Air Force
+  - National Police

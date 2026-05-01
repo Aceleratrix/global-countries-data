@@ -1,0 +1,24 @@
+population: 18190487
+population_density_km2: 66
+ethnic_groups:
+  - name: Mestizo
+    percentage: 71.9
+  - name: Montubio
+    percentage: 7.4
+  - name: Afro-Ecuadorian
+    percentage: 7.2
+  - name: Indigenous
+    percentage: 7.0
+  - name: White
+    percentage: 6.1
+  - name: Other
+    percentage: 0.4
+religion:
+  - name: Roman Catholic
+    percentage: 74.0
+  - name: Protestant
+    percentage: 7.9
+  - name: Other/Non-religious
+    percentage: 18.1
+life_expectancy_years: 77.8
+literacy_rate: 94.5

@@ -1,0 +1,13 @@
+national_holidays:
+  - date: 1822-05-24
+    name: Independence Day
+  - date: 1534-08-10
+    name: Quito Independence Day
+traditional_foods:
+  - Ceviche
+  - Llapingachos
+  - Seco de chivo
+music_genres:
+  - Pasillo
+  - Sanjuanito
+  - Marimba music

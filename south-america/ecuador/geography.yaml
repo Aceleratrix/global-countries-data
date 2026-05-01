@@ -1,0 +1,20 @@
+borders:
+  - country_code: COL
+    name: Colombia
+    direction: north
+  - country_code: PER
+    name: Peru
+    direction: east,south
+coastline_length_km: 2237
+coastline_ocean: Pacific Ocean
+highest_point:
+  name: Chimborazo
+  elevation_m: 6310
+lowest_point:
+  name: Pacific Ocean
+  elevation_m: 0
+terrain:
+  - Andes mountains
+  - Amazon rainforest
+  - coastal plains
+climate: Tropical along coast, cooler in highlands, tropical in Amazon basin

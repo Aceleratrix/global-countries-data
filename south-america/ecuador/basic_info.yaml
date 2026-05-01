@@ -1,0 +1,21 @@
+country_code: EC
+iso_alpha3: ECU
+official_name: Republic of Ecuador
+common_name: Ecuador
+capital: Quito
+largest_city: Guayaquil
+population: 18190487
+population_year: 2023
+area_km2: 276841
+currency_code: USD
+currency_name: United States dollar
+currency_symbol: $
+languages:
+  - code: spa
+    name: Spanish
+    official: true
+region: South America
+subregion: South America
+borders:
+  - COL
+  - PER

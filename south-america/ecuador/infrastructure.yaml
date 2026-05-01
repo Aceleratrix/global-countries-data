@@ -1,0 +1,11 @@
+transportation:
+  - road_network_km: 45000
+  - rail_network_km: 965
+  - major_airports:
+      - Mariscal Sucre International Airport (Quito)
+      - José Joaquín de Olmedo International Airport (Guayaquil)
+energy_sources:
+  - hydroelectric
+  - fossil fuels
+  - renewables
+internet_penetration: 65%
