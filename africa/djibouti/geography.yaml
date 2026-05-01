@@ -1,0 +1,18 @@
+country: Djibouti
+cca2: DJ
+cca3: DJI
+area_km2: 23200
+region: Africa
+subregion: Eastern Africa
+capital: Djibouti City
+borders:
+  - Eritrea
+  - Ethiopia
+  - Somalia
+coordinates:
+  latitude: 11.5
+  longitude: 43.0
+terrain: Mostly desert plateau with scattered mountain ranges
+climate: Arid desert; hot and dry year-round
+landlocked: false
+timezone: UTC+03:00

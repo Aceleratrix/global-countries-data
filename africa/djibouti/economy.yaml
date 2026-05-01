@@ -1,0 +1,16 @@
+gdp_nominal_trillion: 0.05
+global_gdp_rank: 159
+gdp_per_capita_ppp: 4500
+currency_code: DJF
+currency_name: Djiboutian franc
+currency_symbol: Fr
+major_industries:
+  - Port services and logistics
+  - Salt mining
+  - Tourism
+  - Livestock herding
+unemployment_rate_percent: 10.2
+export_partners:
+  - Ethiopia
+  - Somalia
+  - China

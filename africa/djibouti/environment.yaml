@@ -1,0 +1,10 @@
+protected_areas_percent: 5
+major_ecosystems:
+  - Desert
+  - Coastal wetlands
+  - Semi-arid shrubland
+endangered_species:
+  - African wild dog
+  - Dama gazelle
+  - Socotra cormorant
+water_stress_level: High

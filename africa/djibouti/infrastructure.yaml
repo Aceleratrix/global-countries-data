@@ -1,0 +1,8 @@
+road_network_km: 2900
+railway_km: 100
+major_airports: 3
+major_seaports:
+  - Port of Djibouti
+internet_penetration_percent: 65
+mobile_subscriptions_per_100: 89
+electricity_access_percent: 55
