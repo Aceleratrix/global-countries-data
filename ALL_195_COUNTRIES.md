@@ -104,7 +104,7 @@
 | 75 | 🇩🇴 República Dominicana | dominican-republic | North America | $0.16T | |
 | 76 | 🇧🇹 Butão | bhutan | Asia | $0.16T | |
 | 77 | 🇹🇳 Tunísia | tunisia | Africa | $0.16T | |
-| 78 | 🇰🇿 Cazaquistão | kazakhstan | Asia | $0.15T | |
+| 78 | 🇰🇿 Cazaquistão | kazakhstan | Asia | $0.20T | ✅ 100% COMPLETE |
 | 79 | 🇦🇲 Armênia | armenia | Asia | $0.15T | |
 | 80 | 🇲🇳 Mongólia | mongolia | Asia | $0.15T | |
 | 80 | 🇦🇿 Azerbaijão | azerbaijan | Asia | $0.15T |
