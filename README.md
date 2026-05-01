@@ -77,7 +77,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇴🇲 **Oman** | 13/13 | ✅ **100% COMPLETE** | 73rd largest economy ($0.15T), Muscat (1.7M), oil/gas economy, Arabian Peninsula | English (en-US) |
 | 🇦🇿 **Azerbaijan** | 13/13 | ✅ **100% COMPLETE** | 81st largest economy ($0.15T), Baku (2.3M), Caspian Sea oil/gas, Caucasus region | English (en-US) |
 
-### 🌍 Europe (18/44 = 40.9%)
+### 🌍 Europe (19/44 = 43.2%)
 
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
@@ -103,6 +103,7 @@ A structured, machine-readable database of country-specific data designed for **
 || 🇧🇾 **Belarus** | 13/13 | ✅ **100% COMPLETE** | 61st largest economy ($0.20T), Minsk (2M), Białowieża Forest (UNESCO), eastern Europe | English (en-US) |
 | 🇪🇪 **Estonia** | 13/13 | ✅ **100% COMPLETE** | 64th largest economy ($0.20T), Tallinn (0.5M), e-residency program, NATO/EU/Eurozone member | English (en-US) |
 | 🇭🇷 **Croatia** | 13/13 | ✅ **100% COMPLETE** | 85th largest economy ($0.13T), Zagreb (0.8M), Adriatic coastline, 8 UNESCO sites, EU/NATO/Eurozone member | English (en-US) |
+| 🇱🇹 **Lithuania** | 13/13 | ✅ **100% COMPLETE** | 87th largest economy ($0.12T), Vilnius (0.6M), EU/NATO/Eurozone member, 3 UNESCO sites, Baltic state | English (en-US) |
 
 ### 🌍 Africa (7/54 = 13.0%)
 | Country | Files | Status | Key Highlights | Primary Language |

@@ -123,21 +123,22 @@
 | 83 | 🇧🇭 Honduras | honduras | North America | $0.14T |
 | 84 | 🇸🇻 Sudão | sudan | Africa | $0.14T |
 | 85 | 🇸🇪 Suécia | sweden | Europe | $0.58T (já listado) | 
-| 86 | 🇱🇹 Líbia | libya | Africa | $0.13T |
-| 87 | 🇪🇱 Jordânia | jordan | Asia | ✅ 100% COMPLETE |
-| 88 | 🇬🇹 Guiana | guyana | South America | $0.13T |
-| 89 | 🇧🇴 Bósnia e Herzegovina | bosnia-herzegovina | Europe | $0.13T |
-| 90 | 🇧🇦 Gana | ghana | Africa | $0.13T |
-| 91 | 🇮🇻 Macedônia do Norte | north-macedonia | Europe | $0.12T |
-| 92 | 🇲🇻 Moldávia | moldova | Europe | $0.12T |
-| 93 | 🇦🇱 Albânia | albania | Europe | $0.12T |
-| 94 | 🇬🇳 Gabão | gabon | Africa | $0.12T |
-| 95 | 🇳🇵 Níger | niger | Africa | $0.12T |
-| 96 | 🇸🇳 Senegal | senegal | Africa | $0.12T |
-| 97 | 🇨🇻 Uganda | uganda | Africa | $0.12T |
-| 98 | 🇲🇼 Malaui | malawi | Africa | $0.12T |
-| 99 | 🇧🇳 Benin | benin | Africa | $0.11T |
-| 100 | 🇹🇿 Tanzânia | tanzania | Africa | $0.11T |
+| 86 | 🇱🇾 Líbia | libya | Africa | $0.13T |
+| 87 | 🇱🇹 Lituânia | lithuania | Europe | $0.12T | ✅ 100% COMPLETE |
+| 88 | 🇪🇱 Jordânia | jordan | Asia | ✅ 100% COMPLETE |
+| 89 | 🇬🇹 Guiana | guyana | South America | $0.13T |
+| 90 | 🇧🇴 Bósnia e Herzegovina | bosnia-herzegovina | Europe | $0.13T |
+| 91 | 🇧🇦 Gana | ghana | Africa | $0.13T |
+| 92 | 🇮🇻 Macedônia do Norte | north-macedonia | Europe | $0.12T |
+| 93 | 🇲🇻 Moldávia | moldova | Europe | $0.12T |
+| 94 | 🇦🇱 Albânia | albania | Europe | $0.12T |
+| 95 | 🇬🇳 Gabão | gabon | Africa | $0.12T |
+| 96 | 🇳🇵 Níger | niger | Africa | $0.12T |
+| 97 | 🇸🇳 Senegal | senegal | Africa | $0.12T |
+| 98 | 🇨🇻 Uganda | uganda | Africa | $0.12T |
+| 99 | 🇲🇼 Malaui | malawi | Africa | $0.12T |
+| 100 | 🇧🇳 Benin | benin | Africa | $0.11T |
+| 101 | 🇹🇿 Tanzânia | tanzania | Africa | $0.11T |
 
 ---
 
