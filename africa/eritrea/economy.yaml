@@ -1,0 +1,10 @@
+gdp_trillion_usd: 0.05
+gdp_global_rank: 160
+currency_code: ERN
+currency_name: Eritrean nakfa
+currency_symbol: Nfk
+main_industries:
+  - Agriculture
+  - Mining
+  - Fisheries
+  - Manufacturing

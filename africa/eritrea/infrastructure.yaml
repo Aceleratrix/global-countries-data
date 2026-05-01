@@ -1,0 +1,6 @@
+road_network_km: 15000
+railway_km: 306
+airports: 3
+major_ports:
+  - Port of Massawa
+  - Port of Assab

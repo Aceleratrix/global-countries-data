@@ -1,0 +1,15 @@
+country: Eritrea
+official_name: State of Eritrea
+area_km2: 117600
+latlng:
+  - 15.1794
+  - 39.7823
+borders:
+  - DJI
+  - ETH
+  - SUD
+region: Africa
+subregion: Eastern Africa
+capital: Asmara
+terrain: Arid plateau, central highlands, coastal plains
+climate: Desert in east, temperate in highlands
