@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 76/195 (39.0%) Complete](https://img.shields.io/badge/Status-76/195 (39.0%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 80/195 (41.0%) Complete](https://img.shields.io/badge/Status-80/195 (41.0%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (56 / 195 = 28.7%)
+## 📊 Coverage Progress (79 / 195 = 40.5%)
 
 ### 🌎 South America (4/12 = 33.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -45,12 +45,14 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇨🇱 **Chile** | 13/13 | ✅ **100% COMPLETE** | 45th largest economy ($0.33T), Santiago (7M), Atacama Desert, Pacific coast | Spanish (es-CL) + English |
 | 🇺🇾 **Uruguay** | 13/13 | ✅ **100% COMPLETE** | 57th largest economy ($0.23T), Montevideo (2M), Beef/soy exports, 98% renewable energy | Spanish (es-UY) + English |
 
-### 🌎 North America (3/3 = 100% COMPLETE! 🎉)
+### 🌎 North America (4/4 = 100% COMPLETE! 🎉)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇺🇸 **USA** | 13/13 | ✅ **100% COMPLETE** | Silicon Valley, Section 230, 20+ cloud regions | English (en-US) |
-| 🇨🇦 **Canada** | 13/13 | ✅ **100% COMPLETE** | Pan-Canadian AI $2.4B, Cohere $5.5B, Interac, bilingual (EN/FR) | English (en-CA) + French |
+| 🇨🇦 **Canada** | 13/13 | ✅ **100% COMPLETE** | Pan-Canadian AI $2.4B, Coore $5.5B, Interac, bilingual (EN/FR) | English (en-CA) + French |
 | 🇲🇽 **Mexico** | 13/13 | ✅ **100% COMPLETE** | Nearshoring boom, Kavak $8.7B, OXXO 21K stores, 96% remittances from USA | Spanish (es-MX) |
+| 🇬🇹 **Guatemala** | 13/13 | ✅ **100% COMPLETE** | 70th largest economy ($0.17T), Guatemala City (3M), Tikal/Antigua UNESCO sites | Spanish (es-GT) |
+| 🇵🇷 **Puerto Rico** | 13/13 | ✅ **100% COMPLETE** | 68th largest economy ($0.18T), San Juan (2M), El Yunque National Forest, US territory | Spanish (es-PR) + English |
 
 ### 🌏 Asia (13/50 = 26.0%)
 | Country | Files | Status | Key Highlights | Primary Language |

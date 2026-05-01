@@ -96,7 +96,7 @@
 | 67 | 🇸🇰 Eslováquia | slovakia | Europe | $0.19T | |
 | 67 | 🇪🇹 Etiópia | ethiopia | Africa | $0.18T | ✅ 100% COMPLETE |
 | 68 | 🇨🇷 Costa Rica | costa-rica | North America | $0.19T | |
-| 69 | 🇬🇹 Guatemala | guatemala | North America | $0.18T | |
+| 69 | 🇬🇹 Guatemala | guatemala | North America | ✅ 100% COMPLETE | |
 | 70 | 🇴🇲 Omã | oman | Asia | $0.18T | |
 | 71 | 🇰🇼 Kuwait | kuwait | Asia | $0.18T | |
 | 72 | 🇺🇿 Uzbequistão | uzbekistan | Asia | $0.17T | |
