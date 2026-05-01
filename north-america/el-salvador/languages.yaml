@@ -1,0 +1,7 @@
+# Language information
+languages:
+  spa: "Spanish"
+native_name:
+  spa:
+    official: "República de El Salvador"
+    common: "El Salvador"

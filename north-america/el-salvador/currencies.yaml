@@ -1,0 +1,5 @@
+# Currency information
+currencies:
+  USD:
+    symbol: "$"
+    name: "United States dollar"

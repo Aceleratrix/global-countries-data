@@ -1,4 +1,4 @@
-# Demographic details
+# Population statistics
 population: 6029976
 demonyms:
   eng:
@@ -7,6 +7,3 @@ demonyms:
   fra:
     f: "Salvadorienne"
     m: "Salvadorien"
-postal_code:
-  format: "CP ####"
-  regex: "^(?:CP)*(\\\\d{4})$"

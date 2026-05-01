@@ -1,24 +1,24 @@
-# El Salvador Data Directory
+# El Salvador - Country Data
 
-This directory contains structured data for El Salvador as part of the Global Countries Data project.
+This directory contains 13 mandatory data files for El Salvador (🇸🇻), the 141st largest economy globally with a GDP of $0.06T.
 
-## Files
-- `COUNTRY.md`: Key country overview with basic facts
-- `README.md`: This file
-- 11 YAML data files with structured information:
-  1. `basic_info.yaml`
-  2. `geography.yaml`
-  3. `economy.yaml`
-  4. `demographics.yaml`
-  5. `government.yaml`
-  6. `culture.yaml`
-  7. `symbols.yaml`
-  8. `infrastructure.yaml`
-  9. `education.yaml`
-  10. `health.yaml`
-  11. `environment.yaml`
+## Files Included
+1. COUNTRY.md - Main country overview
+2. README.md - This file
+3. basic_info.yaml - Core country identifiers and status
+4. geography.yaml - Geographic data and borders
+5. population.yaml - Population statistics
+6. economy.yaml - Economic indicators (including provided GDP data)
+7. languages.yaml - Official and native languages
+8. currencies.yaml - Currency information
+9. borders.yaml - Neighboring countries
+10. flags.yaml - Flag details and links
+11. timezones.yaml - Timezone information
+12. demographics.yaml - Demographic details
+13. translations.yaml - Country name translations
 
-## Data Sources
-- REST Countries API v3.1 (https://restcountries.com)
-- World Bank (GDP ranking data)
-- Official government sources
+## Data Source
+Real data fetched from REST Countries API (https://restcountries.com/v3.1/alpha/SV) supplemented with provided GDP/economic rank data.
+
+## Status
+✅ 100% COMPLETE (13/13 files)

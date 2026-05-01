@@ -1,0 +1,6 @@
+# Bordering countries
+borders:
+  - country_code: "GTM"
+    name: "Guatemala"
+  - country_code: "HND"
+    name: "Honduras"

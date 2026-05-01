@@ -2,26 +2,47 @@
 
 ## Basic Information
 - **Official Name**: Republic of El Salvador
+- **Common Name**: El Salvador
+- **Country Code (CCA2)**: SV
+- **Country Code (CCA3)**: SLV
 - **Capital**: San Salvador
-- **Population**: 6,029,976 (2023 estimate from REST Countries)
-- **Area**: 21,041 km²
-- **Region**: North America (Central America)
+- **Region**: Americas
 - **Subregion**: Central America
-- **Currency**: United States Dollar (USD, $)
-- **Languages**: Spanish
-- **Borders**: Guatemala (GTM), Honduras (HND)
-- **GDP**: $0.06 Trillion (141st largest economy globally)
-- **Gini Index**: 38.8 (2019)
-- **Timezone**: UTC-06:00
-- **Calling Code**: +503
-- **ISO Codes**: SV (cca2), SLV (cca3), 222 (ccn3)
-- **FIFA Code**: SLV
-- **Car Driving Side**: Right
+- **Continent**: North America
+- **Independent**: Yes
+- **UN Member**: Yes
 
-## Quick Facts
-- Smallest and most densely populated country in Central America
-- First country to adopt Bitcoin as legal tender (September 2021)
-- Pacific Ocean coastline (310 km)
-- Official language: Spanish (native name: "República de El Salvador")
-- Landlocked: No
-- Independence from Spain: September 15, 1821
+## Economy
+- **GDP**: $0.06T (as per provided data)
+- **GDP Rank**: 141st largest economy globally
+
+## Geography
+- **Area**: 21,041 km²
+- **Landlocked**: No
+- **Borders**: Guatemala (GTM), Honduras (HND)
+- **Coordinates**: 13.83333333, -88.91666666
+- **Timezone**: UTC-06:00
+
+## Population
+- **Total Population**: 6,029,976
+- **Demonyms**: Salvadoran (male/female)
+
+## Languages
+- **Official Language**: Spanish (spa)
+
+## Currencies
+- **Currency**: United States dollar (USD, $)
+
+## Flags & Symbols
+- **Flag**: 🇸🇻 (Unicode: U+1F1F8 U+1F1FB)
+- **FIFA Code**: SLV
+- **IOC Code**: ESA
+- **Car Sign**: ES
+- **Driving Side**: Right
+
+## Additional Info
+- **Gini Index (2019)**: 38.8
+- **Postal Code Format**: CP ####
+- **Start of Week**: Monday
+- **Google Maps**: https://goo.gl/maps/cZnCEi5sEMQtKKcB7
+- **OpenStreetMap**: https://www.openstreetmap.org/relation/1520612
