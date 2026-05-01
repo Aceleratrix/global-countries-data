@@ -1,0 +1,8 @@
+name: Zambia
+road_network_km: 91288
+railway_network_km: 2175
+major_airports:
+  - Kenneth Kaunda International Airport (Lusaka)
+  - Harry Mwaanga Nkumbula International Airport (Livingstone)
+electricity_access_percent: 43.2%
+internet_penetration_percent: 28.5%

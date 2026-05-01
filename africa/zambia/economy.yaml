@@ -1,0 +1,18 @@
+name: Zambia
+gdp_usd: 0.08T
+gdp_global_rank: 111
+gdp_year: 2023
+currency: Zambian Kwacha
+currency_code: ZMK
+main_industries:
+  - Copper mining
+  - Agriculture
+  - Tourism
+  - Manufacturing
+key_exports:
+  - Copper
+  - Cobalt
+  - Electricity
+  - Tobacco
+  - Cotton
+export_dependence: Copper accounts for ~70% of total export earnings

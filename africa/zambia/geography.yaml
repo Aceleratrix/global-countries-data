@@ -1,0 +1,22 @@
+name: Zambia
+area_km2: 752612
+landlocked: true
+region: Africa
+subregion: Southern Africa
+major_rivers:
+  - Zambezi
+  - Kafue
+  - Luangwa
+borders:
+  - Angola
+  - Botswana
+  - Democratic Republic of the Congo
+  - Malawi
+  - Mozambique
+  - Namibia
+  - Tanzania
+  - Zimbabwe
+notable_landmarks:
+  - Victoria Falls
+  - Kafue National Park
+  - South Luangwa National Park

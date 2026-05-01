@@ -1,0 +1,9 @@
+name: Zambia
+life_expectancy_years: 65.2
+infant_mortality_rate_per_1000: 42.7
+physicians_per_1000_people: 0.01
+hospital_beds_per_1000_people: 2.1
+major_diseases:
+  - HIV/AIDS
+  - Malaria
+  - Tuberculosis
