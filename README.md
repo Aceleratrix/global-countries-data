@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 49 Countries 100% Complete](https://img.shields.io/badge/Status-49 Countries 100% Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 56/195 (28.7%) Complete](https://img.shields.io/badge/Status-56/195 (28.7%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -85,6 +85,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇵🇹 **Portugal** | 13/13 | ✅ **100% COMPLETE** | 34th largest economy ($0.38T), Lisbon (3M), cork capital, tourism 17% GDP | English (en-US) |
 | 🇷🇴 **Romania** | 13/13 | ✅ **100% COMPLETE** | 32nd largest economy ($0.40T), Bucharest (2M), EU/NATO member, Carpathian Mountains | English (en-US) |
 | 🇬🇷 **Greece** | 13/13 | ✅ **100% COMPLETE** | 42nd largest economy ($0.34T), Athens (4M), Parthenon, tourism 18% GDP, EU/Eurozone member | English (en-US) |
+| 🇺🇦 **Ukraine** | 13/13 | ✅ **100% COMPLETE** | 50th largest economy ($0.27T), Kyiv (3M), agricultural superpower, 37M population, IT sector growth | English (en-US) |
 
 ### 🌍 Africa (5/54 = 9.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
