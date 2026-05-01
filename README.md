@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 61/195 (31.3%) Complete](https://img.shields.io/badge/Status-61/195 (31.3%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 64/195 (32.8%) Complete](https://img.shields.io/badge/Status-64/195 (32.8%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,14 +35,15 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (50 / 195 = 25.6%)
+## 📊 Coverage Progress (64 / 195 = 32.8%)
 
-### 🌎 South America (3/12 = 25.0%)
+### 🌎 South America (4/12 = 33.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇧🇷 **Brazil** | 17/17 | ✅ **100% COMPLETE** | PIX (76% adoption), LGPD, 4 cloud regions | Portuguese (pt-BR) + English |
 | 🇨🇴 **Colombia** | 13/13 | ✅ **100% COMPLETE** | 44th largest economy ($0.33T), Bogotá (8M), Coffee Triangle, Caribbean/Pacific coasts | Spanish (es-CO) + English |
 | 🇨🇱 **Chile** | 13/13 | ✅ **100% COMPLETE** | 45th largest economy ($0.33T), Santiago (7M), Atacama Desert, Pacific coast | Spanish (es-CL) + English |
+| 🇺🇾 **Uruguay** | 13/13 | ✅ **100% COMPLETE** | 57th largest economy ($0.23T), Montevideo (2M), Beef/soy exports, 98% renewable energy | Spanish (es-UY) + English |
 
 ### 🌎 North America (3/3 = 100% COMPLETE! 🎉)
 | Country | Files | Status | Key Highlights | Primary Language |
