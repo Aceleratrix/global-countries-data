@@ -1,0 +1,21 @@
+gdp_nominal: 0.20T
+gdp_rank_global: 63
+gdp_per_capita: 1200
+main_sectors:
+  - Agriculture
+  - Tourism
+  - Textiles
+  - Manufacturing
+  - Construction
+top_exports:
+  - Clothing
+  - Footwear
+  - Rice
+  - Rubber
+  - Bicycles
+inflation_rate: 3.2%
+unemployment_rate: 1.8%
+currency:
+  code: KHR
+  name: Cambodian riel
+  usd_accepted: true

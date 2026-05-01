@@ -1,0 +1,12 @@
+roads: 60000 km (paved: 15%)
+railways: 650 km
+airports:
+  - Phnom Penh International Airport
+  - Siem Reap Angkor International Airport
+internet_penetration: 65%
+mobile_subscriptions: 125 per 100 people
+energy_sources:
+  - Hydropower: 45%
+  - Coal: 30%
+  - Solar: 15%
+  - Other: 10%
