@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 125/195 (64.1%) Complete](https://img.shields.io/badge/Status-125/195%20(64.1%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 128/195 (65.6%) Complete](https://img.shields.io/badge/Status-128/195%20(65.6%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (127 / 195 = 65.1%)
+## 📊 Coverage Progress (128 / 195 = 65.6%)
 
 ### 🌎 South America (6/12 = 50.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -88,7 +88,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇦🇫 **Afghanistan** | 13/13 | ✅ **100% COMPLETE** | 122nd largest economy ($0.07T), Kabul (4.1M), Landlocked, Hindu Kush mountains | English (en-US) |
 | 🇲🇲 **Myanmar** | 13/13 | ✅ **100% COMPLETE** | 120th largest economy ($0.07T), Naypyidaw (capital), South-Eastern Asia, 51.3M population | English (en-US) |
 
-### 🌍 Europe (23/44 = 52.3%)
+### 🌍 Europe (24/44 = 54.5%)
 
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
@@ -118,6 +118,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇲🇪 **Montenegro** | 13/13 | ✅ **100% COMPLETE** | 128th largest economy ($0.07T), Podgorica (capital), Adriatic coastline, 620K population, EU candidate | English (en-US) |
 | 🇱🇺 **Luxembourg** | 13/13 | ✅ **100% COMPLETE** | 129th largest economy ($0.07T), Luxembourg City (capital), landlocked Western Europe, EU/NATO/Eurozone member | English (en-US) |
 | 🇦🇱 **Albania** | 13/13 | ✅ **100% COMPLETE** | 108th largest economy ($0.08T), Tirana (capital), Southeast Europe, 2.3M population, Albania Alps | English (en-US) |
+| 🇦🇩 **Andorra** | 13/13 | ✅ **100% COMPLETE** | 177th largest economy ($0.05T), Andorra la Vella (capital), landlocked Pyrenees microstate, 79K population, Catalan official language | English (en-US) |
 
 ### 🌍 Africa (29/54 = 53.7%)
 | Country | Files | Status | Key Highlights | Primary Language |
