@@ -1,0 +1,12 @@
+country: Afghanistan
+languages:
+  - Pashto
+  - Dari
+ethnic_groups:
+  - Pashtun: 42%
+  - Tajik: 27%
+  - Hazara: 9%
+  - Uzbek: 9%
+  - Other: 13%
+religion: Sunni Islam (99.7%)
+source: REST Countries API, CIA World Factbook

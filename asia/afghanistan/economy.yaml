@@ -1,0 +1,12 @@
+country: Afghanistan
+gdp_rank: 122
+gdp_trillion_usd: 0.07
+gdp_per_capita_usd: ~1700
+currency_code: AFN
+currency_name: Afghan afghani
+main_industries:
+  - Agriculture
+  - Livestock
+  - Textiles
+unemployment_rate: 20.3%
+source: World Bank 2023

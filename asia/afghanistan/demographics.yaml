@@ -1,0 +1,10 @@
+country: Afghanistan
+population: 41128771
+area_km2: 652864
+population_density: 63.0
+age_structure:
+  0-14: 37.5%
+  15-64: 59.6%
+  65+: 2.9%
+urban_population: 25.3%
+source: REST Countries API 2023

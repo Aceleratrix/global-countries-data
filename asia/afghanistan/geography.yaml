@@ -1,0 +1,15 @@
+country: Afghanistan
+region: Asia
+subregion: Southern Asia
+area_km2: 652864
+capital: Kabul
+borders:
+  - PAK
+  - IRN
+  - TKM
+  - UZB
+  - TJK
+  - CHN
+terrain: Rugged mountains (Hindu Kush), northern/southwestern plains
+climate: Arid to semiarid; cold winters, hot summers
+source: REST Countries API
