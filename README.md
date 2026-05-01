@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (70 / 195 = 35.9%)
+## 📊 Coverage Progress (71 / 195 = 36.4%)
 
 ### 🌎 South America (4/12 = 33.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -334,6 +334,7 @@ global-countries-data/
 | 🇿🇿 South Africa | High | Africa's most developed economy |
 | 🇳🇬 Nigeria | High | 220M population, fintech leader |
 | 🇪🇪 Kenya | Medium | M-Pesa pioneer, tech hub of East Africa |
+| 🇹🇿 Tanzania | ✅ **100% COMPLETE** | 99th largest economy ($0.09T), Dodoma, Serengeti, Mount Kilimanjaro |
 
 ### 🌏 Oceania (Priority: Low)
 | Country | Priority | Reason |
