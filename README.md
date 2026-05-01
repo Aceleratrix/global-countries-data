@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 97/195 (49.7%) Complete](https://img.shields.io/badge/Status-97/195 (49.7%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 98/195 (50.3%) Complete](https://img.shields.io/badge/Status-98/195 (50.3%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (97 / 195 = 49.7%)
+## 📊 Coverage Progress (98 / 195 = 50.3%)
 
 ### 🌎 South America (5/12 = 41.7%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -130,12 +130,13 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇹🇩 **Chad** | 13/13 | ✅ **100% COMPLETE** | 116th largest economy ($0.08T), N'Djamena (capital), landlocked Central Africa, Sahara Desert, Lake Chad | French (fr-TD) + Arabic + English |
 | 🇲🇼 **Malawi** | 13/13 | ✅ **100% COMPLETE** | 118th largest economy ($0.08T), Lilongwe (capital), landlocked Eastern Africa, Lake Malawi (20% of territory), "Warm Heart of Africa" | English (en-MW) + Chichewa |
 
-### 🌏 Oceania (1/14 = 7.1%)
+### 🌏 Oceania (2/14 = 14.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇦🇺 **Australia** | 13/13 | ✅ **100% COMPLETE** | Big 4 banks, Canva $40B, AI Action Plan $124M, 92% digital banking, APEC | English (en-AU) |
+| 🇫🇯 **Fiji** | 13/13 | ✅ **100% COMPLETE** | 127th largest economy ($0.07T), Suva (185K), tourism 40% GDP, Pacific Islands Forum, Commonwealth | English (en-FJ) + Fijian + Hindi |
 
-**Total: 362 structured YAML files covering 28 countries across 5 continents!**
+**Total: 375 structured YAML files covering 29 countries across 5 continents!**
 
 ---
 
