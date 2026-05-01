@@ -1,0 +1,4 @@
+currencies:
+  SCR:
+    name: "Seychellois rupee"
+    symbol: "₨"

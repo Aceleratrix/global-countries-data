@@ -1,0 +1,14 @@
+languages:
+  crs: "Seychellois Creole"
+  eng: "English"
+  fra: "French"
+native_names:
+  crs:
+    official: "Repiblik Sesel"
+    common: "Sesel"
+  eng:
+    official: "Republic of Seychelles"
+    common: "Seychelles"
+  fra:
+    official: "République des Seychelles"
+    common: "Seychelles"

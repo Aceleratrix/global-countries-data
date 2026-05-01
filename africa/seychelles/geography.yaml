@@ -1,0 +1,9 @@
+region: "Africa"
+subregion: "Eastern Africa"
+landlocked: false
+area_km2: 452.0
+latlng: [-4.58333333, 55.66666666]
+maps:
+  google_maps: "https://goo.gl/maps/aqCcy2TKh5TV5MAX8"
+  open_street_maps: "https://www.openstreetmap.org/relation/536765"
+continents: ["Africa"]
