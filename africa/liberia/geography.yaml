@@ -1,0 +1,7 @@
+# Geography data
+coordinates: [6.5, -9.5]
+climate: "Tropical; hot, humid; dry winters, wet summers"
+terrain: "Mostly flat to rolling coastal plains; rolling hills inland; plateaus in northeast"
+lowest_point: "Atlantic Ocean (0m)"
+highest_point: "Mount Wuteve (1381m)"
+natural_resources: ["Iron ore", "Timber", "Diamonds", "Gold", "Hydropower"]

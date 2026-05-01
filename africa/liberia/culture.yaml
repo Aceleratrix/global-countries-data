@@ -1,0 +1,6 @@
+# Culture data
+official_language: "English"
+indigenous_languages: ["Kpelle", "Bassa", "Grebo", "Dan", "Kru", "Mano", "Gio", "Mandingo", "Vai"]
+national_holiday: "July 26 (Independence Day)"
+cuisine_staples: ["Rice", "Cassava", "Plantains", "Fish", "Palm oil"]
+music_styles: ["Gospel", "Hipco", "Traditional folk music"]

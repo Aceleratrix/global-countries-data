@@ -1,0 +1,6 @@
+# Environment data
+forest_coverage_percent: 44.3
+endangered_species: ["Western chimpanzee", "Pygmy hippopotamus", "Liberian mongoose"]
+protected_areas_percent: 14.0
+deforestation_rate: "1.7% annual"
+environmental_issues: ["Deforestation", "Soil erosion", "Loss of biodiversity"]

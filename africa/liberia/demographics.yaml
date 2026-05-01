@@ -1,0 +1,17 @@
+# Demographics data
+demonym_male: "Liberian"
+demonym_female: "Liberian"
+ethnic_groups:
+  kpelle: 20.3
+  bassa: 13.4
+  grebo: 10.0
+  gio: 8.0
+  mano: 7.9
+  kru: 6.0
+  mandingo: 5.1
+  other: 29.3
+religions:
+  christian: 85.6
+  muslim: 12.2
+  other: 2.2
+population_density: 47.1 # per km2

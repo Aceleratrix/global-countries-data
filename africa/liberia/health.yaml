@@ -1,0 +1,6 @@
+# Health data
+life_expectancy_years: 64.1
+infant_mortality_per_1000: 47.8
+health_expenditure_percent_gdp: 5.3
+major_diseases: ["Malaria", "Tuberculosis", "HIV/AIDS", "Diarrheal diseases"]
+physicians_per_1000: 0.1

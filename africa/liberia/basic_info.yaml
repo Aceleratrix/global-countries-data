@@ -1,0 +1,19 @@
+# Basic country information
+country_code_cca2: "LR"
+country_code_cca3: "LBR"
+country_code_ccn3: "430"
+official_name: "Republic of Liberia"
+common_name: "Liberia"
+capital: "Monrovia"
+region: "Africa"
+subregion: "Western Africa"
+population: 5248621
+area_km2: 111369.0
+landlocked: false
+borders: ["GIN", "CIV", "SLE"]
+timezones: ["UTC"]
+driving_side: "right"
+tld: ".lr"
+fifa_code: "LBR"
+un_member: true
+independent: true

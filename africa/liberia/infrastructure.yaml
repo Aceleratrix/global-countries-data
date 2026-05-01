@@ -1,0 +1,7 @@
+# Infrastructure data
+road_network_km: 11000
+paved_roads_percent: 8
+internet_penetration_percent: 34.2
+mobile_subscriptions_per_100: 89
+airports: 29
+main_port: "Port of Monrovia"

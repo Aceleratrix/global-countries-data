@@ -1,0 +1,9 @@
+# Economy data
+gdp_tril: 0.05
+gdp_global_rank: 144
+currency_code: "LRD"
+currency_name: "Liberian dollar"
+currency_symbol: "$"
+key_industries: ["Rubber processing", "Palm oil", "Timber", "Diamonds", "Gold"]
+main_exports: ["Rubber", "Timber", "Iron ore", "Diamonds"]
+economy_type: "Developing, resource-based"
