@@ -79,7 +79,7 @@
 | 57 | 🇷🇺 Uruguai | uruguay | South America | ✅ 100% COMPLETE |
 | 58 | 🇷🇴 Croácia | croatia | Europe | $0.22T |
 | 59 | 🇧🇬 Luxemburgo | luxembourg | Europe | $0.22T |
-| 60 | 🇷🇴 Bulgária | bulgaria | Europe | $0.21T |
+| 60 | 🇧🇬 Bulgária | bulgaria | Europe | ✅ 100% COMPLETE |
 
 ---
 

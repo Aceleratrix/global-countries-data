@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 64/195 (32.8%) Complete](https://img.shields.io/badge/Status-64/195 (32.8%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 67/195 (34.4%) Complete](https://img.shields.io/badge/Status-67/195 (34.4%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (53 / 195 = 27.2%)
+## 📊 Coverage Progress (69 / 195 = 35.4%)
 
 ### 🌎 South America (4/12 = 33.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -68,7 +68,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇶🇦 **Qatar** | 13/13 | ✅ **100% COMPLETE** | 51st largest economy ($0.27T), 2022 FIFA World Cup, world's largest LNG exporter, Doha (1M) | English (en-US) |
 | 🇻🇳 **Vietnam** | 13/13 | ✅ **100% COMPLETE** | 53rd largest economy ($0.26T), Hanoi (8M), Ha Long Bay, electronics manufacturing hub, 98M population | English (en-US) |
 
-### 🌍 Europe (15/44 = 34.1%)
+### 🌍 Europe (16/44 = 36.4%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇩🇪 **Germany** | 13/13 | ✅ **100% COMPLETE** | GDPR (gold standard), EU AI Act, SEPA, Industry 4.0, 4 cloud regions | English (en-US) |
@@ -82,13 +82,15 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇦🇹 **Austria** | 13/13 | ✅ **100% COMPLETE** | 23rd largest economy ($0.85T), Vienna (1.9M), Erste Group, EU member, Alpine tourism hub | German (de-AT) + English |
 | 🇳🇴 **Norway** | 13/13 | ✅ **100% COMPLETE** | 24th largest economy ($0.55T), Oslo (700K), Sovereign Wealth Fund $1.6T, oil/gas, EEA member | Norwegian (no-NO) + English |
 | 🇧🇪 **Belgium** | 13/13 | ✅ **100% COMPLETE** | 23rd largest economy ($0.58T), Brussels (EU/NATO HQ), Antwerp (Europe's 2nd port), federal monarchy | Dutch/French/German + English |
+| 🇧🇬 **Bulgaria** | 13/13 | ✅ **100% COMPLETE** | 60th largest economy ($0.21T), Sofia (1.3M), EU/NATO member, 6.9M population, 8 UNESCO sites | English (en-US) |
 | 🇸🇪 **Sweden** | 13/13 | ✅ **100% COMPLETE** | 22nd/24th largest economy ($0.58T), Spotify, Skype, Ericsson, Stockholm (1M), high welfare state | English (en-US) |
 | 🇨🇿 **Czech Republic** | 13/13 | ✅ **100% COMPLETE** | 31st largest economy ($0.43T), Skoda Auto, Pilsner beer, Prague (1.3M) | English (en-US) |
 | 🇵🇹 **Portugal** | 13/13 | ✅ **100% COMPLETE** | 34th largest economy ($0.38T), Lisbon (3M), cork capital, tourism 17% GDP | English (en-US) |
 | 🇷🇴 **Romania** | 13/13 | ✅ **100% COMPLETE** | 32nd largest economy ($0.40T), Bucharest (2M), EU/NATO member, Carpathian Mountains | English (en-US) |
 | 🇬🇷 **Greece** | 13/13 | ✅ **100% COMPLETE** | 42nd largest economy ($0.34T), Athens (4M), Parthenon, tourism 18% GDP, EU/Eurozone member | English (en-US) |
 | 🇺🇦 **Ukraine** | 13/13 | ✅ **100% COMPLETE** | 50th largest economy ($0.27T), Kyiv (3M), agricultural superpower, 37M population, IT sector growth | English (en-US) |
-| 🇭🇺 **Hungary** | 13/13 | ✅ **100% COMPLETE** | 52nd largest economy ($0.26T), Budapest (3M), thermal springs, EU/NATO member | English (en-US) |
+|| 🇭🇺 **Hungary** | 13/13 | ✅ **100% COMPLETE** | 52nd largest economy ($0.26T), Budapest (3M), thermal springs, EU/NATO member | English (en-US) |
+|| 🇧🇾 **Belarus** | 13/13 | ✅ **100% COMPLETE** | 61st largest economy ($0.20T), Minsk (2M), Białowieża Forest (UNESCO), eastern Europe | English (en-US) |
 
 ### 🌍 Africa (6/54 = 11.1%)
 | Country | Files | Status | Key Highlights | Primary Language |
