@@ -1,0 +1,12 @@
+country: Algeria
+transport:
+  - Roads: 180,000 km (paved: 120,000 km)
+  - Railways: 4,500 km
+  - Airports: 157 (international: Houari Boumediene Airport, Algiers)
+  - Ports: Algiers, Oran, Annaba, Skikda
+telecommunications:
+  - Mobile subscriptions: 120 per 100 people (2023)
+  - Internet penetration: 70% (2023)
+energy:
+  - Electricity access: 99% urban, 95% rural
+  - Installed capacity: 20 GW (natural gas: 80%, renewables: 5%)

@@ -1,0 +1,25 @@
+country: Algeria
+area: 2381741 # km²
+area_rank: 10th globally, 1st in Africa
+continent: Africa
+region: North Africa
+borders:
+  - Tunisia (965 km)
+  - Libya (989 km)
+  - Niger (951 km)
+  - Mali (1354 km)
+  - Mauritania (460 km)
+  - Western Sahara (41 km)
+  - Morocco (1559 km)
+coastline: 998 km (Mediterranean Sea)
+highest_point: Mount Tahat (3003 m)
+lowest_point: Chott Melrhir (-40 m)
+climate:
+  - Coastal: Mediterranean (mild, wet winters; hot, dry summers)
+  - Interior: Arid desert (Sahara)
+natural_resources:
+  - Natural gas
+  - Oil
+  - Iron ore
+  - Phosphates
+  - Uranium

@@ -1,0 +1,26 @@
+country: Algeria
+gdp_nominal: 310000000000 # $0.31T
+gdp_rank: 47
+gdp_per_capita: ~$6930 (2023)
+gdp_growth_rate: 3.1% (2023)
+inflation_rate: 9.3% (2023)
+unemployment_rate: 12.1% (2023)
+major_industries:
+  - Hydrocarbons (natural gas, oil)
+  - Agriculture
+  - Manufacturing (steel, cement, textiles)
+  - Construction
+exports: 55000000000 # $55B (2023)
+export_partners:
+  - Italy
+  - France
+  - Spain
+  - United States
+imports: 62000000000 # $62B (2023)
+import_partners:
+  - China
+  - France
+  - Italy
+  - Spain
+currency: Algerian Dinar (DZD)
+opec_member: true

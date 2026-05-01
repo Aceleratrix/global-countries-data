@@ -1,0 +1,16 @@
+country: Algeria
+population: 44700000
+population_year: 2023
+population_growth_rate: 1.85%
+density: 18.8 per km²
+urban_population: 74.2%
+median_age: 28.3 years
+life_expectancy: 77.1 years
+fertility_rate: 2.61 children per woman
+ethnic_groups:
+  - Arab-Berber: 99%
+  - European: <1%
+languages:
+  - Arabic (official)
+  - Tamazight (official, Berber)
+  - French (widely spoken)
