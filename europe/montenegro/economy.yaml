@@ -1,0 +1,12 @@
+# Economy data (GDP from task context, Gini from API)
+gdp:
+  value: 0.07
+  unit: T
+  rank: 128
+  description: 128th largest economy globally
+gini:
+  2016: 38.5
+currencies:
+  EUR:
+    symbol: "€"
+    name: euro

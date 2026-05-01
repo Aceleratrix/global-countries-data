@@ -1,0 +1,8 @@
+# Borders data from REST Countries API
+borders:
+  - ALB
+  - BIH
+  - HRV
+  - UNK
+  - SRB
+landlocked: false

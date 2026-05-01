@@ -1,0 +1,3 @@
+# Timezone data from REST Countries API
+timezones:
+  - UTC+01:00

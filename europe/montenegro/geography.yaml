@@ -1,0 +1,23 @@
+# Geography data from REST Countries API
+region: Europe
+subregion: Southeast Europe
+landlocked: false
+area: 13812.0
+latlng:
+  - 42.5
+  - 19.3
+borders:
+  - ALB
+  - BIH
+  - HRV
+  - UNK
+  - SRB
+maps:
+  googleMaps: https://goo.gl/maps/4THX1fM7WqANuPbB8
+  openStreetMaps: https://www.openstreetmap.org/relation/53296
+continents:
+  - Europe
+capitalInfo:
+  latlng:
+    - 42.43
+    - 19.27

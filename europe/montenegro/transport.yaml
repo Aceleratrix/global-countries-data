@@ -1,0 +1,10 @@
+# Transport data from REST Countries API
+car:
+  signs:
+    - SCG
+  side: right
+idd:
+  root: "+3"
+  suffixes:
+    - "82"
+fifa: MNE

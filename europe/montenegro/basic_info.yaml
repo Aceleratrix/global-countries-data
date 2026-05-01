@@ -1,0 +1,19 @@
+# Basic country information from REST Countries API
+name:
+  common: Montenegro
+  official: Montenegro
+  nativeName:
+    cnr:
+      official: Црна Гора
+      common: Црна Гора
+codes:
+  cca2: ME
+  cca3: MNE
+  ccn3: "499"
+  cioc: MNE
+independent: true
+unMember: true
+status: officially-assigned
+tld:
+  - ".me"
+startOfWeek: monday

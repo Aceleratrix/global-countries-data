@@ -1,0 +1,9 @@
+# Population data from REST Countries API
+population: 623327
+demonyms:
+  eng:
+    f: Montenegrin
+    m: Montenegrin
+  fra:
+    f: Monténégrine
+    m: Monténégrin

@@ -1,0 +1,4 @@
+# Coat of Arms data from REST Countries API
+coatOfArms:
+  png: https://mainfacts.com/media/images/coats_of_arms/me.png
+  svg: https://mainfacts.com/media/images/coats_of_arms/me.svg
