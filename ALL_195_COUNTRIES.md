@@ -62,7 +62,7 @@
 |---|------|--------|-----------|-------------------|
 | 41 | 🇰🇪 Quênia | kenya | Africa | ✅ 100% COMPLETE |
 | 42 | 🇬🇷 Grécia | greece | Europe | $0.34T |
-| 43 | 🇫🇰 Finlândia | finland | Europe | $0.33T |
+| 43 | 🇫🇮 Finlândia | finland | Europe | ✅ 100% COMPLETE |
 | 44 | 🇨🇴 Colômbia | colombia | South America | ✅ 100% COMPLETE |
 | 45 | 🇨🇱 Chile | chile | South America | $0.33T |
 | 46 | 🇿🇦 África do Sul | south-africa | Africa | $0.32T |
