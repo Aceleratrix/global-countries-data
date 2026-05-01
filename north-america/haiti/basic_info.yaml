@@ -1,0 +1,20 @@
+cca2: HT
+cca3: HTI
+ccn3: "332"
+cioc: HAI
+independent: true
+un_member: true
+status: officially-assigned
+tld:
+  - ".ht"
+idd:
+  root: "+5"
+  suffixes:
+    - "09"
+capital:
+  - Port-au-Prince
+alt_spellings:
+  - HT
+  - Republic of Haiti
+  - République d'Haïti
+  - Repiblik Ayiti

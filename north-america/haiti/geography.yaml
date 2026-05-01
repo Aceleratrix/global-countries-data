@@ -1,0 +1,11 @@
+region: Americas
+subregion: Caribbean
+continents:
+  - North America
+landlocked: false
+borders:
+  - DOM
+area: 27750.0
+latlng:
+  - 19.0
+  - -72.41666666

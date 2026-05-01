@@ -1,0 +1,13 @@
+population: 11867032
+demonyms:
+  eng:
+    m: Haitian
+    f: Haitian
+  fra:
+    m: Haïtien
+    f: Haïtienne
+car:
+  signs:
+    - RH
+  side: right
+fifa: HAI
