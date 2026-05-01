@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (66 / 195 = 33.8%)
+## 📊 Coverage Progress (67 / 195 = 34.4%)
 
 ### 🌎 South America (4/12 = 33.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -92,7 +92,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇦🇹 **Austria** | 13/13 | ✅ **100% COMPLETE** | 23rd largest economy ($0.85T), Vienna (1.9M), Erste Group, EU member, Alpine tourism hub | German (de-AT) + English |
 | 🇳🇴 **Norway** | 13/13 | ✅ **100% COMPLETE** | 24th largest economy ($0.55T), Oslo (700K), Sovereign Wealth Fund $1.6T, oil/gas, EEA member | Norwegian (no-NO) + English |
 | 🇧🇪 **Belgium** | 13/13 | ✅ **100% COMPLETE** | 23rd largest economy ($0.58T), Brussels (EU/NATO HQ), Antwerp (Europe's 2nd port), federal monarchy | Dutch/French/German + English |
-| 🇧🇬 **Bulgaria** | 13/13 | ✅ **100% COMPLETE** | 60th largest economy ($0.21T), Sofia (1.3M), EU/NATO member, 6.9M population, 8 UNESCO sites | English (en-US) |
+| 🇧🇬 **Bulgaria** | 13/13 | ✅ **100% COMPLETE** | 88th largest economy ($0.12T), Sofia (1.3M), EU/NATO member, 6.9M population, 8 UNESCO sites | English (en-US) |
 | 🇸🇪 **Sweden** | 13/13 | ✅ **100% COMPLETE** | 22nd/24th largest economy ($0.58T), Spotify, Skype, Ericsson, Stockholm (1M), high welfare state | English (en-US) |
 | 🇨🇿 **Czech Republic** | 13/13 | ✅ **100% COMPLETE** | 31st largest economy ($0.43T), Skoda Auto, Pilsner beer, Prague (1.3M) | English (en-US) |
 | 🇵🇹 **Portugal** | 13/13 | ✅ **100% COMPLETE** | 34th largest economy ($0.38T), Lisbon (3M), cork capital, tourism 17% GDP | English (en-US) |
