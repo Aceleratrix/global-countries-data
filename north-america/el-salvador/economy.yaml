@@ -1,0 +1,16 @@
+country: El Salvador
+gdp_trillion_usd: 0.06
+gdp_global_rank: 141
+currencies:
+  USD:
+    symbol: "$"
+    name: United States dollar
+gini_index: 38.8
+gini_year: 2019
+main_industries:
+  - Agriculture (coffee, sugar, corn)
+  - Manufacturing (textiles, food processing)
+  - Services (tourism, finance)
+gdp_per_capita_usd: ~1200 (2023 estimate)
+bitcoin_legal_tender: true
+bitcoin_adoption_date: 2021-09-07

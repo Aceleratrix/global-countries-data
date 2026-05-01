@@ -1,0 +1,22 @@
+country: "New Zealand"
+top_exports:
+  - "Dairy products"
+  - "Meat (beef, lamb)"
+  - "Wool"
+  - "Timber"
+  - "Wine"
+top_imports:
+  - "Machinery"
+  - "Motor vehicles"
+  - "Electronics"
+  - "Petroleum products"
+  - "Plastics"
+exports_usd_billions: 38.0
+imports_usd_billions: 42.0
+trade_balance_usd_billions: -4.0
+main_trading_partners:
+  - "China"
+  - "Australia"
+  - "United States"
+  - "Japan"
+source: "World Bank 2023"

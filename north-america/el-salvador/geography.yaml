@@ -1,0 +1,13 @@
+country: El Salvador
+region: Americas
+subregion: Central America
+area_km2: 21041.0
+capital: ["San Salvador"]
+borders: ["GTM", "HND"]
+latlng: [13.83333333, -88.91666666]
+capital_info_latlng: [13.7, -89.2]
+maps:
+  google_maps: "https://goo.gl/maps/cZnCEi5sEMQtKKcB7"
+  open_street_maps: "https://www.openstreetmap.org/relation/1520612"
+coastline: Pacific Ocean (310 km)
+terrain: Mountainous with coastal plains

@@ -1,0 +1,11 @@
+country: El Salvador
+major_airports:
+  - El Salvador International Airport (SAL)
+major_ports:
+  - Port of Acajutla
+  - Port of La Unión
+road_network_km: ~12000
+internet_penetration: ~55% (2023 estimate)
+telecommunications:
+  idd_root: "+5"
+  idd_suffixes: ["03"]

@@ -1,0 +1,10 @@
+country: "New Zealand"
+top_cloud_providers:
+  - "Amazon Web Services (AWS)"
+  - "Microsoft Azure"
+  - "Google Cloud Platform"
+  - "Datacom"
+ai_adoption_percent_businesses: 24.0
+tech_employment_percent_workforce: 7.2
+r_d_spending_percent_gdp: 1.4
+source: "Stats NZ 2024"

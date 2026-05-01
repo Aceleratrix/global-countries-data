@@ -1,0 +1,14 @@
+country: El Salvador
+population: 6029976
+population_year: 2023
+demonyms:
+  eng:
+    m: Salvadoran
+    f: Salvadoran
+  fra:
+    m: Salvadorien
+    f: Salvadorienne
+languages:
+  spa: Spanish
+native_language_name: Spanish (Español)
+population_density_per_km2: ~287 (calculated as population / area)

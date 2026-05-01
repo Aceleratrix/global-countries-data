@@ -1,0 +1,17 @@
+country: El Salvador
+national_holidays:
+  - name: Independence Day
+    date: 1821-09-15
+  - name: Labor Day
+    date: 05-01
+  - name: Peace Day
+    date: 01-16
+national_dish: Pupusas
+cuisine_highlights:
+  - Pupusas (stuffed corn tortillas)
+  - Tamales
+  - Yuca frita
+traditional_music:
+  - Cumbia
+  - Punta
+  - Salvadoran folk music

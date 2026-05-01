@@ -1,0 +1,9 @@
+country: "New Zealand"
+key_laws:
+  - "Privacy Act 2020"
+  - "Harmful Digital Communications Act 2015"
+  - "Copyright Act 1994"
+  - "Telecommunications Act 2001"
+data_localization_required: false
+isp_liability_safe_harbor: true
+source: "New Zealand Legislation 2024"

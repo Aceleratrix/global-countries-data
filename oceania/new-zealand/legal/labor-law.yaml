@@ -1,0 +1,8 @@
+country: "New Zealand"
+labor_act: "Employment Relations Act 2000"
+minimum_wage_nzd_hour: 23.15
+standard_work_week_hours: 40
+annual_leave_weeks: 4
+sick_leave_days_per_year: 10
+public_holidays_per_year: 11
+source: "Employment New Zealand 2024"

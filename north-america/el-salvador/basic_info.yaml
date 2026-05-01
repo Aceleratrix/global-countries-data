@@ -1,0 +1,22 @@
+country: El Salvador
+official_name: Republic of El Salvador
+native_name_spa: República de El Salvador
+cca2: SV
+cca3: SLV
+ccn3: "222"
+cioc: ESA
+independent: true
+un_member: true
+status: officially-assigned
+start_of_week: monday
+idd:
+  root: "+5"
+  suffixes: ["03"]
+tld: [".sv"]
+fifa: SLV
+car:
+  signs: ["ES"]
+  side: right
+timezones: ["UTC-06:00"]
+continents: ["North America"]
+landlocked: false

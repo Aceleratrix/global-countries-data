@@ -1,0 +1,11 @@
+country: "New Zealand"
+sme_definition: "Fewer than 50 employees"
+total_businesses: 580000
+sme_count: 563000  # 97% of total
+large_enterprises: 17000
+sector_distribution:
+  - "Professional, scientific and technical services"
+  - "Construction"
+  - "Health care and social assistance"
+  - "Retail trade"
+source: "Stats NZ Business Demographics 2024"

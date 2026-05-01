@@ -1,0 +1,8 @@
+country: "New Zealand"
+tax_authority: "Inland Revenue Department (IRD)"
+individual_tax_numbers: "IRD Number"
+corporate_tax_numbers: "IRD Number"
+gst_rate_percent: 15.0
+income_tax_top_rate_percent: 39.0  # For income over NZD 180k
+corporate_tax_rate_percent: 28.0
+source: "IRD New Zealand 2024"

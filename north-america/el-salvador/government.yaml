@@ -1,0 +1,6 @@
+country: El Salvador
+government_type: Presidential representative democratic republic
+independence_from: Spain
+independence_date: 1821-09-15
+postal_code_format: "CP ####"
+postal_code_regex: "^(?:CP)*(\d{4})$"

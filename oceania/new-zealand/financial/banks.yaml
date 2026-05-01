@@ -1,0 +1,13 @@
+country: "New Zealand"
+currency: "NZD"
+reserve_bank: "Reserve Bank of New Zealand"
+top_banks:
+  - "ANZ New Zealand"
+  - "ASB Bank"
+  - "Bank of New Zealand (BNZ)"
+  - "Westpac New Zealand"
+  - "Kiwibank"
+total_banks: 27
+internet_banking_penetration_percent: 89
+mobile_banking_penetration_percent: 72
+source: "Reserve Bank of New Zealand 2024"

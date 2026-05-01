@@ -1,0 +1,8 @@
+country: "New Zealand"
+currency: "NZD"
+median_house_price_nzd: 800000
+median_rent_weekly_nzd: 650
+rental_yield_percent: 3.5
+property_tax_rate_percent: 0.0  # No general property tax, council rates instead
+council_rates_annual_nzd: 3000
+source: "Stats NZ 2024"

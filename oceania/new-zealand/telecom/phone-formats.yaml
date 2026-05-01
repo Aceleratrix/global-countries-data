@@ -1,0 +1,9 @@
+country: "New Zealand"
+country_code: "+64"
+landline_prefixes: ["03", "04", "06", "07", "09"]
+mobile_prefixes: ["021", "022", "027"]
+number_format: "+64 X XXX XXXX"
+local_number_length: 7  # Excluding area code
+mobile_penetration_percent: 112.0
+broadband_penetration_percent: 98.0
+source: "NZ Telecommunications Forum 2024"
