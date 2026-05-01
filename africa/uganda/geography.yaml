@@ -1,0 +1,19 @@
+country: Uganda
+official_name: Republic of Uganda
+code: UG
+region: Africa
+subregion: East Africa
+capital: Kampala
+area_km2: 241550
+borders:
+  - Kenya
+  - South Sudan
+  - Democratic Republic of the Congo
+  - Rwanda
+  - Tanzania
+timezone: UTC+3
+landlocked: true
+major_lakes:
+  - Lake Victoria
+  - Lake Kyoga
+  - Lake Albert

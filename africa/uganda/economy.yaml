@@ -1,0 +1,20 @@
+country: Uganda
+gdp_trillion_usd: 0.09
+gdp_rank_global: 100
+currency:
+  code: UGX
+  name: Ugandan Shilling
+  symbol: USh
+main_industries:
+  - Agriculture
+  - Tourism
+  - Manufacturing
+  - Mining
+key_exports:
+  - Coffee
+  - Fish products
+  - Tobacco
+  - Gold
+  - Tea
+gdp_growth_rate_2023: 5.3%
+inflation_rate_2023: 4.8%

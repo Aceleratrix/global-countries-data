@@ -1,0 +1,12 @@
+country: Uganda
+healthcare_system: Mixed public-private
+life_expectancy: 64 years
+infant_mortality_rate: 34 per 1000 live births
+major_diseases:
+  - Malaria
+  - HIV/AIDS
+  - Respiratory infections
+public_health_spending_gdp_percent: 1.2%
+major_hospitals:
+  - Mulago National Referral Hospital
+  - Jinja Regional Referral Hospital

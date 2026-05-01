@@ -1,0 +1,15 @@
+country: Uganda
+transport:
+  major_airports:
+    - Entebbe International Airport
+  major_roads:
+    - Kampala-Entebbe Expressway
+  rail: Limited passenger rail, mainly freight
+telecommunications:
+  mobile_penetration: 65%
+  internet_penetration: 29%
+energy:
+  main_sources:
+    - Hydroelectric (80%)
+    - Biomass (15%)
+  access_to_electricity_percent: 45%

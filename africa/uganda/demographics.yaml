@@ -1,0 +1,19 @@
+country: Uganda
+population_2023: 47249225
+population_growth_rate: 3.0%
+life_expectancy_years: 64
+urban_population_percent: 28%
+major_ethnic_groups:
+  - Baganda
+  - Banyankore
+  - Basoga
+  - Bakiga
+  - Iteso
+languages:
+  official:
+    - English
+    - Swahili
+  indigenous:
+    - Luganda
+    - Runyankore
+    - Lusoga
