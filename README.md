@@ -35,15 +35,16 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (93 / 195 = 47.7%)
+## 📊 Coverage Progress (97 / 195 = 49.7%)
 
-### 🌎 South America (4/12 = 33.3%)
+### 🌎 South America (5/12 = 41.7%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇧🇷 **Brazil** | 17/17 | ✅ **100% COMPLETE** | PIX (76% adoption), LGPD, 4 cloud regions | Portuguese (pt-BR) + English |
 | 🇨🇴 **Colombia** | 13/13 | ✅ **100% COMPLETE** | 44th largest economy ($0.33T), Bogotá (8M), Coffee Triangle, Caribbean/Pacific coasts | Spanish (es-CO) + English |
 | 🇨🇱 **Chile** | 13/13 | ✅ **100% COMPLETE** | 45th largest economy ($0.33T), Santiago (7M), Atacama Desert, Pacific coast | Spanish (es-CL) + English |
 | 🇺🇾 **Uruguay** | 13/13 | ✅ **100% COMPLETE** | 95th largest economy ($0.10T), Montevideo (3.5M), Beef/soy exports, 98% renewable energy | Spanish (es-UY) + English |
+| 🇸🇷 **Suriname** | 13/13 | ✅ **100% COMPLETE** | 124th largest economy ($0.07T), Paramaribo (616K), Dutch-speaking, borders Brazil/French Guiana/Guyana | Dutch (nld) + English |
 
 ### 🌎 North America (8/23 = 34.8%)
 | Country | Files | Status | Key Highlights | Primary Language |
