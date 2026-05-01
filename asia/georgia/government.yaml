@@ -1,0 +1,12 @@
+independent: true
+un_member: true
+status: officially-assigned
+idd:
+  root: "+9"
+  suffixes:
+    - "95"
+car:
+  signs:
+    - GE
+  side: right
+fifa: GEO

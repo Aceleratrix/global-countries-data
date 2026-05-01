@@ -1,0 +1,8 @@
+gdp_rank: 107
+gdp_nominal_trillion: 0.08
+gini:
+  2019: 35.9
+currencies:
+  GEL:
+    symbol: "₾"
+    name: lari

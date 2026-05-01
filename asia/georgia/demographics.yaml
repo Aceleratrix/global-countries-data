@@ -1,0 +1,13 @@
+population: 4000921
+languages:
+  kat: Georgian
+demonyms:
+  eng:
+    f: Georgian
+    m: Georgian
+  fra:
+    f: Géorgienne
+    m: Géorgien
+postal_code:
+  format: "####"
+  regex: "^(\\d{4})$"

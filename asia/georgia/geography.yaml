@@ -1,0 +1,23 @@
+region: Asia
+subregion: Western Asia
+continent: Asia
+landlocked: false
+area: 69700.0
+borders:
+  - ARM
+  - AZE
+  - RUS
+  - TUR
+latlng:
+  - 42.0
+  - 43.5
+capital:
+  - Tbilisi
+capital_info_latlng:
+  - 41.68
+  - 44.83
+maps:
+  google_maps: https://goo.gl/maps/bvCaGBePR1ZEDK5cA
+  open_street_maps: https://www.openstreetmap.org/relation/28699
+timezones:
+  - UTC+04:00

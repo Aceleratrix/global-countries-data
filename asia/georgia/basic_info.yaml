@@ -1,0 +1,15 @@
+country_code: GE
+cca2: GE
+cca3: GEO
+ccn3: "268"
+cioc: GEO
+official_name: Georgia
+common_name: Georgia
+native_name:
+  kat:
+    official: საქართველო
+    common: საქართველო
+independent: true
+un_member: true
+status: officially-assigned
+start_of_week: monday

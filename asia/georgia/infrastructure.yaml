@@ -1,0 +1,13 @@
+postal_code:
+  format: "####"
+  regex: "^(\\d{4})$"
+car:
+  signs:
+    - GE
+  side: right
+idd:
+  root: "+9"
+  suffixes:
+    - "95"
+tld:
+  - ".ge"
