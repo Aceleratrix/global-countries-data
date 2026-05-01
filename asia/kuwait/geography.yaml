@@ -1,0 +1,10 @@
+country: Kuwait
+area: 17818  # km²
+region: Western Asia
+coordinates: "29.3117° N, 47.4818° E"
+borders:
+  - Iraq: 240 km
+  - Saudi Arabia: 222 km
+coastline: 499  # km (Persian Gulf)
+terrain: Mostly flat desert, low rolling hills
+climate: Arid, hot summers (up to 50°C), mild winters

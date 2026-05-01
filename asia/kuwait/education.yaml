@@ -1,0 +1,7 @@
+country: Kuwait
+literacy_rate: 96  # percent (2024)
+education_spending: 3.5  # percent of GDP
+compulsory_education_age: 6-14
+higher_education_institutions:
+  - Kuwait University
+  - Public Authority for Applied Education and Training

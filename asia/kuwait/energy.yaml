@@ -1,0 +1,4 @@
+country: Kuwait
+oil_production: 1700000  # barrels per day
+natural_gas_reserves: 1.8e12  # cubic meters
+renewable_energy_target: 15  # percent by 2030

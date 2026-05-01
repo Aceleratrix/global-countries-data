@@ -1,0 +1,9 @@
+country: Kuwait
+airports: 7
+major_airport: Kuwait International Airport
+major_ports:
+  - Shuwaikh Port
+  - Shuaiba Port
+road_network: 6500  # km paved
+internet_penetration: 99  # percent (2024)
+mobile_subscriptions: 150  # per 100 people

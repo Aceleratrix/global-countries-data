@@ -1,0 +1,14 @@
+country: Kuwait
+population: 4300000  # 2024 estimate
+population_growth_rate: 1.2  # percent annual
+capital: Kuwait City
+capital_population: 500000
+ethnic_groups:
+  - Kuwaiti Arabs: 30%
+  - Other Arabs: 20%
+  - South Asians: 30%
+  - Southeast Asians: 15%
+  - Others: 5%
+languages:
+  - Arabic (official)
+  - English (widely spoken)

@@ -1,0 +1,15 @@
+country: Kuwait
+gdp_nominal: 150e9  # $0.15 trillion
+gdp_rank: 74
+gdp_per_capita: 32000  # USD, 2024 estimate
+main_sectors:
+  - Petroleum
+  - Petrochemicals
+  - Finance
+  - Construction
+oil_reserves: 101.5e9  # barrels, 7th largest globally
+export_partners:
+  - China
+  - India
+  - Japan
+  - South Korea
