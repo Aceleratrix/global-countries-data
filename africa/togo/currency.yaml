@@ -1,0 +1,15 @@
+# Currency data for Togo
+currencies:
+  - code: XOF
+    name: West African CFA franc
+    symbol: Fr
+    used_in:
+      - Togo
+      - Benin
+      - Burkina Faso
+      - Guinea-Bissau
+      - Ivory Coast
+      - Mali
+      - Niger
+      - Senegal
+exchange_rate_usd: ~0.0017  # As of 2024

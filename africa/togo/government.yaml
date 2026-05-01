@@ -1,0 +1,13 @@
+# Government data for Togo
+independent: true
+un_member: true
+official_name: Togolese Republic
+government_type: Presidential Republic
+capital: Lomé
+country_codes:
+  cca2: TG
+  cca3: TGO
+  ccn3: "768"
+  fifa: TOG
+  ioc: TOG
+start_of_week: monday

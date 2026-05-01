@@ -1,0 +1,9 @@
+# Climate data for Togo
+climate_type: Tropical
+description: Tropical savanna in the north, tropical monsoon in the south with two rainy seasons (April-July, October-November)
+average_temperature_celsius:
+  - coastal: 27°C
+  - northern: 30°C
+rainfall_mm_per_year:
+  - southern: 1500-2000mm
+  - northern: 800-1200mm

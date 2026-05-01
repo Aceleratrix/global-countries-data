@@ -1,0 +1,12 @@
+# Border country data for Togo
+borders:
+  - country_code: BEN
+    country_name: Benin
+    border_length_km: 644
+  - country_code: BFA
+    country_name: Burkina Faso
+    border_length_km: 126
+  - country_code: GHA
+    country_name: Ghana
+    border_length_km: 877
+total_border_length_km: 1647

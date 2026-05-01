@@ -1,0 +1,12 @@
+# Economic data for Togo
+gdp_usd_trillion: 0.05
+global_gdp_rank: 148
+gini_index: 43.1  # 2015 estimate
+currencies:
+  - code: XOF
+    name: West African CFA franc
+    symbol: Fr
+main_economic_sectors:
+  - Agriculture
+  - Services
+  - Industry

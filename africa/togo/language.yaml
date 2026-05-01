@@ -1,0 +1,12 @@
+# Language data for Togo
+official_languages:
+  - code: fra
+    name: French
+native_language_names:
+  french:
+    official: République togolaise
+    common: Togo
+indigenous_languages:
+  - Ewe
+  - Kabye
+  - other local languages

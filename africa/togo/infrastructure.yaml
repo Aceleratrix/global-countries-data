@@ -1,0 +1,17 @@
+# Infrastructure data for Togo
+timezones:
+  - UTC
+driving_side: right
+car_signs:
+  - TG
+international_dialing:
+  root: "+2"
+  suffixes:
+    - "28"
+  full_code: "+228"
+top_level_domain: .tg
+postal_code:
+  format: null
+  regex: null
+airports: 1 (Lomé–Tokoin Airport)
+major_ports: Port of Lomé

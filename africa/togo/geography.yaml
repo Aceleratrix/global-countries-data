@@ -1,0 +1,20 @@
+# Geography data for Togo
+name: Togo
+official_name: Togolese Republic
+region: Africa
+subregion: Western Africa
+land_area_km2: 56785.0
+landlocked: false
+coordinates:
+  latitude: 8.0
+  longitude: 1.16666666
+capital_coordinates:
+  latitude: 6.14
+  longitude: 1.21
+maps:
+  google_maps: https://goo.gl/maps/jzAa9feXuXPrKVb89
+  open_street_maps: https://www.openstreetmap.org/relation/192782
+borders:
+  - BEN  # Benin
+  - BFA  # Burkina Faso
+  - GHA  # Ghana

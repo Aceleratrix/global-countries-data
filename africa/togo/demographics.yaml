@@ -1,0 +1,18 @@
+# Demographic data for Togo
+population: 8095498
+population_year: 2023
+demonyms:
+  english:
+    male: Togolese
+    female: Togolese
+  french:
+    male: Togolais
+    female: Togolaise
+native_names:
+  french:
+    official: République togolaise
+    common: Togo
+age_structure:
+  - 0-14 years: 40.5%
+  - 15-64 years: 56.3%
+  - 65+ years: 3.2%

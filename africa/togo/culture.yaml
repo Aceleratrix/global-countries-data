@@ -1,0 +1,23 @@
+# Cultural data for Togo
+languages:
+  official: French (fra)
+native_language_name: Togo (French common)
+alt_spellings:
+  - TG
+  - Togolese
+  - Togolese Republic
+  - République Togolaise
+translations:
+  english: Togo
+  french: Togo
+  spanish: Togo
+  german: Togo
+  portuguese: Togo
+  arabic: توغو
+  chinese: 多哥
+  japanese: トーゴ
+religions:
+  - Christianity (43.7%)
+  - Islam (36.7%)
+  - Traditional faiths (6.2%)
+  - Other (13.4%)
