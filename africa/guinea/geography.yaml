@@ -1,0 +1,15 @@
+area_km2: 245857
+latitude: 9.9456
+longitude: -9.6966
+topography: "Coastal plains, central highlands, northern savanna"
+highest_point: "Mount Nimba (1752m)"
+lowest_point: "Atlantic Ocean (0m)"
+climate: "Tropical, warm and humid"
+natural_resources:
+  - "Bauxite"
+  - "Iron ore"
+  - "Diamonds"
+  - "Gold"
+  - "Uranium"
+  - "Water resources"
+coastline_km: 320

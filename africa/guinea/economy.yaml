@@ -1,0 +1,18 @@
+gdp_ppp_usd: 50000000000  # $0.05T
+gdp_rank_global: 146
+gdp_per_capita_ppp: 3700
+currency_code: "GNF"
+currency_name: "Guinean franc"
+major_industries:
+  - "Mining (bauxite, gold, diamonds)"
+  - "Agriculture"
+  - "Fishing"
+  - "Manufacturing (light industrial)"
+unemployment_rate: 6.3  # percent
+inflation_rate: 12.5  # percent (2023)
+major_exports:
+  - "Bauxite"
+  - "Gold"
+  - "Alumina"
+  - "Coffee"
+  - "Fish"

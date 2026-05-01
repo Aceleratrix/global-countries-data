@@ -1,0 +1,9 @@
+literacy_rate: 41.3  # percent (15+ years)
+primary_education_enrollment: 82  # percent
+secondary_education_enrollment: 35  # percent
+tertiary_education_enrollment: 8  # percent
+education_expenditure_percent_gdp: 2.1
+major_universities:
+  - "University of Conakry"
+  - "Julius Nyerere University of Kankan"
+  - "University of Kindia"

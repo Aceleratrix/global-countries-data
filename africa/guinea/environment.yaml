@@ -1,0 +1,15 @@
+forest_cover_percent: 27.5
+protected_areas_percent: 8.2
+major_ecoregions:
+  - "Guinean Forests of West Africa"
+  - "Western Guinean lowland forests"
+  - "Guinean montane forests"
+endangered_species:
+  - "Western chimpanzee"
+  - "Mount Nimba viviparous toad"
+  - "West African lion"
+environmental_issues:
+  - "Deforestation"
+  - "Soil erosion"
+  - "Water pollution"
+  - "Mining impacts"

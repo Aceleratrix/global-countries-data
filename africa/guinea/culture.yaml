@@ -1,0 +1,14 @@
+official_language: "French"
+national_languages:
+  - "Fula (Pular)"
+  - "Mandinka"
+  - "Susu"
+national_holidays:
+  - "Independence Day: 2 October"
+  - "Labor Day: 1 May"
+cuisine: "Rice-based dishes, stews, grilled meats, fresh fish"
+music: "Traditional drumming, balafon music, modern Afro-pop"
+sports:
+  - "Football (most popular)"
+  - "Basketball"
+  - "Athletics"

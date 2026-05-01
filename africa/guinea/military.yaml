@@ -1,0 +1,9 @@
+military_expenditure_percent_gdp: 1.2
+active_personnel: 12000
+reserve_personnel: 5000
+branches:
+  - "Army"
+  - "Navy"
+  - "Air Force"
+  - "Gendarmerie"
+military_service: "Voluntary, 18 years old"

@@ -1,0 +1,15 @@
+population_2023: 13531906
+population_density: 55  # per km2
+life_expectancy: 62.1  # years (2023)
+birth_rate: 29.4  # per 1000
+death_rate: 8.1  # per 1000
+urban_population_percent: 38.2
+major_ethnic_groups:
+  - "Fula (40%)"
+  - "Mandinka (30%)"
+  - "Susu (20%)"
+  - "Other (10%)"
+religions:
+  - "Islam (85%)"
+  - "Christianity (8%)"
+  - "Traditional beliefs (7%)"

@@ -1,0 +1,9 @@
+road_network_km: 44000
+paved_roads_percent: 25
+railway_km: 662
+airports: 16
+major_airport: "Conakry International Airport (GUC)"
+seaports: 3
+internet_penetration: 35  # percent
+mobile_subscriptions_per_100: 95
+electricity_access_percent: 45
