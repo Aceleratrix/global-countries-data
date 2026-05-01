@@ -1,0 +1,10 @@
+country: Chile
+life_expectancy: 80 years
+health_spending: 7% of GDP
+physicians_per_1000: 2.5
+hospital_beds_per_1000: 2.1
+vaccination_rate: 95% (children)
+major_diseases:
+  - Cardiovascular diseases
+  - Cancer
+  - Diabetes

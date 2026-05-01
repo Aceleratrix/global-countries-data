@@ -1,0 +1,14 @@
+country: Chile
+population: 19500000
+population_growth_rate: 0.5% (2023)
+density: 26 per km²
+urban_population: 87%
+major_cities:
+  - name: Santiago
+    population: 7000000
+  - name: Valparaíso
+    population: 1000000
+  - name: Concepción
+    population: 800000
+life_expectancy: 80 years
+infant_mortality: 6.5 per 1000 live births

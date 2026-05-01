@@ -1,0 +1,9 @@
+country: Chile
+primary_energy_sources:
+  - Hydro (30%)
+  - Natural gas (25%)
+  - Coal (20%)
+  - Renewables (solar, wind: 25%)
+oil_production: 0 (net importer)
+renewable_target: 70% by 2030
+electricity_access: 99%

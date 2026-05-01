@@ -1,0 +1,19 @@
+country: Chile
+area: 756096
+area_unit: km²
+continent: South America
+region: Southern Cone
+highest_point: Ojos del Salado (6893 m)
+lowest_point: Pacific Ocean (0 m)
+climate:
+  - Mediterranean (central)
+  - Arid (north, Atacama Desert)
+  - Oceanic (south)
+borders:
+  - Peru
+  - Bolivia
+  - Argentina
+coastline: 6435 km
+time_zones:
+  - UTC-4 (mainland)
+  - UTC-6 (Easter Island)

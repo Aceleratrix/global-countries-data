@@ -1,0 +1,18 @@
+country: Chile
+gdp_nominal: 330000000000
+gdp_rank: 45
+gdp_per_capita: 17000
+currency: Chilean Peso (CLP)
+major_industries:
+  - Copper mining
+  - Agriculture (wine, fruits)
+  - Forestry
+  - Fishing
+  - Manufacturing
+exports:
+  - Copper
+  - Lithium
+  - Wine
+  - Fruits
+  - Fish products
+gdp_growth_rate: 2.1% (2023)

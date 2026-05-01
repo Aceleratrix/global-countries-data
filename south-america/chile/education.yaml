@@ -1,0 +1,9 @@
+country: Chile
+literacy_rate: 97%
+education_spending: 5% of GDP
+compulsory_education: 12 years
+higher_education:
+  - University of Chile
+  - Pontifical Catholic University of Chile
+  - Universidad de Santiago de Chile
+student_teacher_ratio: 20:1 (primary)

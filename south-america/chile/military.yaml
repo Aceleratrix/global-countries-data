@@ -1,0 +1,10 @@
+country: Chile
+active_personnel: 80000
+reserve_personnel: 40000
+defense_spending: 2% of GDP
+branches:
+  - Chilean Army
+  - Chilean Navy
+  - Chilean Air Force
+  - Carabineros (police, military status)
+peacekeeping_missions: 500 personnel deployed
