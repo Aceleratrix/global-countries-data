@@ -1,27 +1,19 @@
 # Demographic data for Croatia
 population: 3866233
+languages:
+  hrv: Croatian
 demonyms:
   eng:
-    m: "Croatian"
-    f: "Croatian"
+    m: Croatian
+    f: Croatian
   fra:
-    m: "Croate"
-    f: "Croate"
-languages:
-  hrv: "Croatian"
-translations:
-  eng:
-    common: "Croatia"
-    official: "Republic of Croatia"
-  hr:
-    common: "Hrvatska"
-    official: "Republika Hrvatska"
-  spa:
-    common: "Croacia"
-    official: "República de Croacia"
-  deu:
-    common: "Kroatien"
-    official: "Republik Kroatien"
-gini_index: 29.7  # 2018 data
-population_growth_rate: -0.6  # Estimated annual decline
-life_expectancy: 78.5  # WHO 2023 estimate
+    m: Croate
+    f: Croate
+flag_emoji: "🇭🇷"
+flag_alt: "The flag of Croatia is composed of three equal horizontal bands of red, white and blue, with the coat of arms of Croatia superimposed in the center."
+flags:
+  png: https://flagcdn.com/w320/hr.png
+  svg: https://flagcdn.com/hr.svg
+coat_of_arms:
+  png: https://mainfacts.com/media/images/coats_of_arms/hr.png
+  svg: https://mainfacts.com/media/images/coats_of_arms/hr.svg

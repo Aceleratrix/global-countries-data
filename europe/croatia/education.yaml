@@ -1,11 +1,8 @@
 # Education data for Croatia
-literacy_rate: 99.0  # Percentage
-education_system: "4+4+4 structure (Primary 4 years, lower secondary 4 years, upper secondary 4 years)"
-compulsory_education_age: 6 to 15
-higher_education_institutions: 130
-notable_universities:
-  - "University of Zagreb (1669)"
-  - "University of Split"
-  - "University of Rijeka"
-  - "University of Osijek"
-tertiary_education_attainment: 32.4  # Percentage of population aged 25-64
+education_system: Centralized public education system
+primary_language: Croatian
+higher_education:
+  - University of Zagreb (founded 1669)
+  - University of Split
+  - University of Rijeka
+literacy_rate: "~99% (estimated)"

@@ -1,8 +1,5 @@
 # Healthcare data for Croatia
-healthcare_system: "Universal public healthcare system (HZZO - Croatian Health Insurance Fund)"
-life_expectancy: 78.5  # Years (2023 WHO estimate)
-infant_mortality_rate: 3.8  # Per 1000 live births
-physicians_per_1000: 3.8
-hospital_beds_per_1000: 5.2
-health_expenditure_percent_gdp: 7.8  # 2022 data
-vaccination_coverage: 95  # DTP3, percentage of children
+healthcare_system: Universal public healthcare (HZZO)
+life_expectancy_2023: ~78 years (estimated)
+hospital_beds_per_1000: ~5.2 (WHO estimate)
+public_healthcare_coverage: ~99% of population

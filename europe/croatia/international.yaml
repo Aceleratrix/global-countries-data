@@ -1,0 +1,20 @@
+# International relations data for Croatia
+un_member: true
+eu_member: true
+nato_member: false
+joined_un: 1992
+joined_eu: 2013
+adopted_euro: 2023
+borders:
+  - country: Bosnia and Herzegovina
+    code: BIH
+  - country: Hungary
+    code: HUN
+  - country: Montenegro
+    code: MNE
+  - country: Serbia
+    code: SRB
+  - country: Slovenia
+    code: SVN
+fifa_code: CRO
+cioc_code: CRO

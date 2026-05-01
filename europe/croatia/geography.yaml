@@ -1,15 +1,24 @@
 # Geographic data for Croatia
-area_km2: 56594.0
-coordinates: [45.16666666, 15.5]
-borders:
-  - "BIH"  # Bosnia and Herzegovina
-  - "HUN"  # Hungary
-  - "MNE"  # Montenegro
-  - "SRB"  # Serbia
-  - "SVN"  # Slovenia
+region: Europe
+subregion: Southeast Europe
 landlocked: false
-timezones: ["UTC+01:00"]
+area_km2: 56594.0
+borders:
+  - BIH
+  - HUN
+  - MNE
+  - SRB
+  - SVN
+coordinates:
+  - 45.16666666
+  - 15.5
+timezones:
+  - UTC+01:00
+continents:
+  - Europe
 maps:
-  google_maps: "https://goo.gl/maps/qSG6xTKUmrYpwmGQ6"
-  open_street_maps: "https://www.openstreetmap.org/relation/214885"
-terrain: "Dinaric Alps in the south, Pannonian Plains in the east, coastline along Adriatic Sea"
+  google_maps: https://goo.gl/maps/qSG6xTKUmrYpwmGQ6
+  open_street_maps: https://www.openstreetmap.org/relation/214885
+postal_code:
+  format: HR-#####
+  regex: "^(?:HR)*(\\d{5})$"

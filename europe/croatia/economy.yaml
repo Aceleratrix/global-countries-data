@@ -1,12 +1,18 @@
 # Economic data for Croatia
-gdp_usd_trillion: 0.13
+gdp_trillion_usd: 0.13
 gdp_global_rank: 85
-currency:
-  code: "EUR"
-  name: "euro"
-  symbol: "€"
-economy_type: "Developed, service-oriented"
-key_industries: ["Tourism", "Shipbuilding", "Food processing", "Pharmaceuticals", "Information technology"]
-trade_partners: ["Germany", "Italy", "Slovenia", "Austria", "Bosnia and Herzegovina"]
-unemployment_rate: 6.1  # 2023 estimate
-inflation_rate: 8.3  # 2023 estimate
+currencies:
+  EUR:
+    symbol: €
+    name: euro
+gini_index_2018: 29.7
+fifa_code: CRO
+driving_side: right
+idd:
+  root: "+3"
+  suffixes:
+    - "85"
+car:
+  signs:
+    - HR
+  side: right

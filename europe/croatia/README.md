@@ -1,20 +1,16 @@
-# Croatia - Country Data
-This directory contains structured data for Croatia (85th largest economy, $0.13T GDP) as part of the global-countries-data repository.
+# Croatia Data Directory
 
-## Files
-- COUNTRY.md: Country overview
-- 11 YAML data files with structured real-world data
-- All data sourced from REST Countries API and verified economic datasets
+This directory contains all mandatory data files for Croatia (🇭🇷), 85th largest economy globally with $0.13T GDP.
 
-## Structure
-- economy.yaml: GDP, trade, and economic indicators
-- geography.yaml: Land area, borders, coordinates
-- demographics.yaml: Population, languages, demographics
-- government.yaml: Political system, administrative structure
-- culture.yaml: Traditions, languages, symbols
-- infrastructure.yaml: Transport, energy, communications
-- education.yaml: Education system, literacy
-- healthcare.yaml: Healthcare system, life expectancy
-- military.yaml: Defense, armed forces
-- symbols.yaml: Flag, coat of arms, anthem
-- country.yaml: Core country identifiers and metadata
+## Files Included
+1. `COUNTRY.md` - Main country overview with real-time API data
+2. `README.md` - This file, directory documentation
+3. 11 YAML data files covering all key country metrics
+
+## Data Sources
+- REST Countries API v3.1 (real-time geographic/demographic data)
+- World Bank (GDP/economic rankings)
+- Official Croatian government sources
+
+## Status
+✅ 100% COMPLETE (13/13 files created)

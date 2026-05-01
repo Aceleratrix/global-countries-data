@@ -1,25 +1,36 @@
 # Cultural data for Croatia
-official_language: "Croatian"
-writing_system: "Latin script"
-religions:
-  - "Christianity (Catholicism: ~86%)"
-  - "Orthodoxy: ~4%"
-  - "Islam: ~1%"
-  - "Other/Non-religious: ~9%"
-public_holidays:
-  - "New Year's Day (January 1)"
-  - "Epiphany (January 6)"
-  - "Easter Sunday and Monday"
-  - "Labor Day (May 1)"
-  - "Statehood Day (May 30)"
-  - "Victory and Homeland Thanksgiving Day (August 5)"
-  - "All Saints' Day (November 1)"
-  - "Christmas Day (December 25)"
-  - "St. Stephen's Day (December 26)"
-unESCO_heritage_sites:
-  - "Old City of Dubrovnik"
-  - "Historical Complex of Split with the Palace of Diocletian"
-  - "Plitvice Lakes National Park"
-  - "Episcopal Complex of the Euphrasian Basilica in the Historic Centre of Poreč"
-  - "Historic Town of Trogir"
-  - "Cathedral of St. James in Šibenik"
+languages:
+  hrv: Croatian
+translations:
+  ara:
+    official: جمهورية كرواتيا
+    common: كرواتيا
+  bre:
+    official: Republik Kroatia
+    common: Kroatia
+  ces:
+    official: Chorvatská republika
+    common: Chorvatsko
+  deu:
+    official: Republik Kroatien
+    common: Kroatien
+  fra:
+    official: République de Croatie
+    common: Croatie
+  hrv:
+    official: Republika Hrvatska
+    common: Hrvatska
+  ita:
+    official: Repubblica di Croazia
+    common: Croazia
+  spa:
+    official: República de Croacia
+    common: Croacia
+  zho:
+    official: 克罗地亚共和国
+    common: 克罗地亚
+alt_spellings:
+  - HR
+  - Hrvatska
+  - Republic of Croatia
+  - Republika Hrvatska
