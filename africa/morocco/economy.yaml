@@ -1,0 +1,25 @@
+country: Morocco
+gdp_nominal: 0.25
+unit: trillion USD
+gdp_rank_global: 54
+gdp_growth_rate_2024: 3.2%
+inflation_rate_2024: 2.1%
+unemployment_rate_2024: 11.8%
+main_industries:
+  - Phosphates and derivatives
+  - Tourism
+  - Agriculture (citrus, vegetables, olives)
+  - Textiles and apparel
+  - Automotive assembly
+trade_partners:
+  - European Union (60% of exports)
+  - Spain
+  - France
+  - China
+  - United States
+major_exports:
+  - Phosphates
+  - Clothing and textiles
+  - Automotive parts
+  - Citrus fruits
+  - Vegetables

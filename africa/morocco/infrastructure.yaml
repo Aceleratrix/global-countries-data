@@ -1,0 +1,14 @@
+country: Morocco
+total_roads_km: 58000
+paved_roads_percent: 80%
+railway_km: 2067
+major_airports:
+  - Mohammed V International Airport (Casablanca)
+  - Marrakech Menara Airport
+  - Rabat-Salé Airport
+major_ports:
+  - Port of Casablanca
+  - Port of Tangier Med (largest in Africa)
+internet_penetration: 85%
+mobile_penetration: 125%
+electricity_access: 99% of urban population, 92% total

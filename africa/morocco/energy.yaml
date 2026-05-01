@@ -1,0 +1,11 @@
+country: Morocco
+energy_mix_2024:
+  - Coal: 40%
+  - Natural gas: 30%
+  - Renewables: 30% (solar 15%, wind 10%, hydro 5%)
+renewable_energy_target_2030: 52%
+major_projects:
+  - Noor Ouarzazate Solar Complex (world's largest concentrated solar power plant)
+  - Tarfaya Wind Farm (Africa's largest wind farm)
+energy_imports: 15% of total consumption
+electricity_production_2024: 42 TWh

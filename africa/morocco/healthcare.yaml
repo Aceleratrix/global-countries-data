@@ -1,0 +1,12 @@
+country: Morocco
+health_expenditure: 6.0% of GDP
+life_expectancy: 77.2 years
+infant_mortality_rate: 18 per 1000 live births
+physicians_per_1000: 0.8
+hospital_beds_per_1000: 1.2
+public_healthcare_coverage: 65% of population
+private_healthcare: 35% of population
+major_diseases:
+  - Cardiovascular diseases
+  - Diabetes
+  - Respiratory infections

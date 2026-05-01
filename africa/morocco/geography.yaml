@@ -1,0 +1,20 @@
+country: Morocco
+area_km2: 710850
+borders:
+  - Algeria (east)
+  - Western Sahara (south)
+  - Spain (Ceuta, Melilla - north)
+terrain:
+  - Atlas Mountains (central/western)
+  - Sahara Desert (south/east)
+  - Coastal plains (Mediterranean and Atlantic)
+climate:
+  - Mediterranean (coastal)
+  - Semi-arid (interior)
+  - Arid (Sahara region)
+major_rivers:
+  - Moulouya
+  - Sebou
+  - Draa
+highest_point: Jbel Toubkal (4167 m)
+lowest_point: Sebkha Tah -55 m
