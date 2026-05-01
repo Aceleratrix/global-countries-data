@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (54 / 195 = 27.7%)
+## 📊 Coverage Progress (73 / 195 = 37.4%)
 
 ### 🌎 South America (4/12 = 33.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -70,7 +70,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇰🇿 **Kazakhstan** | 13/13 | ✅ **100% COMPLETE** | 62nd largest economy ($0.20T), Astana (1.3M), Baikonur Cosmodrome, uranium superpower, 19.3M population | English (en-US) |
 | 🇰🇭 **Cambodia** | 13/13 | ✅ **100% COMPLETE** | 63rd largest economy ($0.20T), Phnom Penh (2M), Angkor Wat, ASEAN member, 17M population | English (en-US) |
 |
-### 🌍 Europe (16/44 = 36.4%)
+### 🌍 Europe (17/44 = 38.6%)
 
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
@@ -94,6 +94,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇺🇦 **Ukraine** | 13/13 | ✅ **100% COMPLETE** | 50th largest economy ($0.27T), Kyiv (3M), agricultural superpower, 37M population, IT sector growth | English (en-US) |
 || 🇭🇺 **Hungary** | 13/13 | ✅ **100% COMPLETE** | 52nd largest economy ($0.26T), Budapest (3M), thermal springs, EU/NATO member | English (en-US) |
 || 🇧🇾 **Belarus** | 13/13 | ✅ **100% COMPLETE** | 61st largest economy ($0.20T), Minsk (2M), Białowieża Forest (UNESCO), eastern Europe | English (en-US) |
+| 🇪🇪 **Estonia** | 13/13 | ✅ **100% COMPLETE** | 64th largest economy ($0.20T), Tallinn (0.5M), e-residency program, NATO/EU/Eurozone member | English (en-US) |
 
 ### 🌍 Africa (6/54 = 11.1%)
 | Country | Files | Status | Key Highlights | Primary Language |

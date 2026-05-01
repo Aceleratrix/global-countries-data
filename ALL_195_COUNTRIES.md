@@ -91,7 +91,7 @@
 | 62 | 🇦🇲 Mianmar (Birmânia) | myanmar | Asia | $0.21T | |
 | 63 | 🇦🇴 Angola | angola | Africa | $0.20T | |
 | 64 | 🇰🇭 Camboja | cambodia | Asia | $0.20T | ✅ 100% COMPLETE |
-| 65 | 🇪🇪 Estônia | estonia | Europe | $0.20T | |
+| 65 | 🇪🇪 Estônia | estonia | Europe | ✅ 100% COMPLETE | |
 | 66 | 🇸🇮 Eslovênia | slovenia | Europe | $0.19T | |
 | 67 | 🇸🇰 Eslováquia | slovakia | Europe | $0.19T | |
 | 68 | 🇨🇷 Costa Rica | costa-rica | North America | $0.19T | |
