@@ -1,0 +1,19 @@
+gdp_nominal_trillion: 0.27
+gdp_global_rank: 51
+gdp_per_capita_usd: 94000
+currency_name: Qatari Riyal
+currency_code: QAR
+exchange_rate_usd: 3.64 (pegged)
+major_industries:
+  - Liquefied Natural Gas (LNG) export
+  - Petroleum and petrochemicals
+  - Financial services
+  - Tourism
+  - Construction
+top_trade_partners:
+  - China
+  - Japan
+  - South Korea
+  - India
+  - United Arab Emirates
+economic_growth_rate_2023: 2.1%

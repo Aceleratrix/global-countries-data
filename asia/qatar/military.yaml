@@ -1,0 +1,11 @@
+active_personnel: 12000
+reserve_personnel: 15000
+defense_spending_percentage_of_gdp: 4.5%
+major_branches:
+  - Qatari Emiri Land Force
+  - Qatari Emiri Navy
+  - Qatari Emiri Air Force
+alliances:
+  - Gulf Cooperation Council (GCC)
+  - United Nations
+  - Arab League

@@ -1,0 +1,9 @@
+life_expectancy_years: 81
+healthcare_spending_percentage_of_gdp: 2.5%
+physicians_per_1000_people: 7.7
+hospital_beds_per_1000_people: 1.4
+major_hospitals:
+  - Hamad General Hospital
+  - Sidra Medicine
+  - Al Wakra Hospital
+vaccination_coverage_percentage: 99%
