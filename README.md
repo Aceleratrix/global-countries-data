@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 85/195 (43.6%) Complete](https://img.shields.io/badge/Status-85/195 (43.6%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 88/195 (45.1%) Complete](https://img.shields.io/badge/Status-88/195 (45.1%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (60 / 195 = 30.8%)
+## 📊 Coverage Progress (88 / 195 = 45.1%)
 
 ### 🌎 South America (4/12 = 33.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -312,6 +312,7 @@ global-countries-data/
 | 🇸🇬 Singapore | High | Asian financial hub, tiny but rich |
 | 🇯🇵 Vietnam | Medium | Manufacturing hub, growing tech |
 | 🇹🇭 Thailand | Medium | Tourism + manufacturing, 70M pop |
+| 🇯🇴 Jordan | High | 76th largest economy ($0.14T), Amman (4M), Petra, Dead Sea |
 
 ### 🌍 Europe (Priority: Medium)
 | Country | Priority | Reason |

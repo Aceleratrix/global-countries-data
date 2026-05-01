@@ -123,7 +123,7 @@
 | 84 | 🇸🇻 Sudão | sudan | Africa | $0.14T |
 | 85 | 🇸🇪 Suécia | sweden | Europe | $0.58T (já listado) | 
 | 86 | 🇱🇹 Líbia | libya | Africa | $0.13T |
-| 87 | 🇪🇱 Jordânia | jordan | Asia | $0.13T |
+| 87 | 🇪🇱 Jordânia | jordan | Asia | ✅ 100% COMPLETE |
 | 88 | 🇬🇹 Guiana | guyana | South America | $0.13T |
 | 89 | 🇧🇴 Bósnia e Herzegovina | bosnia-herzegovina | Europe | $0.13T |
 | 90 | 🇧🇦 Gana | ghana | Africa | $0.13T |
