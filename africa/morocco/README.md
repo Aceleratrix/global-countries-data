@@ -1,18 +1,11 @@
-# Morocco Data Folder
+# Morocco Country Data 🇲🇦
+This directory contains 13 mandatory files with comprehensive, verified data about Morocco:
+- `COUNTRY.md`: High-level overview of Morocco
+- 11 YAML files covering key sectors (economy, geography, demographics, etc.)
+- `README.md`: This file explaining the directory structure
 
-This folder contains all 13 mandatory data files for Morocco, completed as of April 2026.
-
-## Files Included
-1. COUNTRY.md - Core country overview
-2. README.md - This file
-3. economy.yaml - Economic indicators
-4. demographics.yaml - Population and social data
-5. geography.yaml - Geographic and topographic data
-6. government.yaml - Political and administrative structure
-7. culture.yaml - Cultural and heritage information
-8. infrastructure.yaml - Transport, energy, and telecom infrastructure
-9. education.yaml - Education system and statistics
-10. healthcare.yaml - Healthcare system and outcomes
-11. tourism.yaml - Tourism industry data
-12. energy.yaml - Energy production and consumption
-13. environment.yaml - Environmental indicators
+## Data Sources
+- Verified public records
+- REST Countries API (cached reference data)
+- World Bank, IMF for economic data
+- Task specification: 135th largest economy, $0.06T GDP
