@@ -1,0 +1,17 @@
+area: 89342
+unit: km²
+land_area: 88802
+water_area: 540
+climate: Arid, Mediterranean in western regions
+highest_point: Jabal Umm ad Dami
+highest_elevation: 1854
+unit_elevation: m
+lowest_point: Dead Sea
+lowest_elevation: -431
+unit_elevation: m
+borders:
+  - Syria
+  - Iraq
+  - Saudi Arabia
+  - Israel
+  - Palestine

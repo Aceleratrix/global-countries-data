@@ -1,0 +1,8 @@
+life_expectancy: 75
+infant_mortality: 14
+unit: per 1,000 live births
+healthcare_spending: 5.2%
+of_gdp: true
+hospitals: 104
+doctors_per_1000_people: 2.5
+vaccination_coverage: 95%

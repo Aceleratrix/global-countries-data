@@ -1,0 +1,16 @@
+gdp: 0.14
+unit: trillion USD
+gdp_rank: 76
+sector_contribution:
+  services: 65%
+  industry: 30%
+  agriculture: 5%
+major_industries:
+  - tourism
+  - phosphates mining
+  - potash production
+  - agriculture
+  - manufacturing
+gdp_per_capita: 12500
+currency: Jordanian Dinar
+currency_code: JOD

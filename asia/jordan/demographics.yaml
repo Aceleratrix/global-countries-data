@@ -1,0 +1,16 @@
+population: 11.3
+unit: million
+population_rank: 87
+urban_population: 91%
+median_age: 24
+ethnic_groups:
+  Arab: 98%
+  Circassian: 1%
+  Armenian: 1%
+religions:
+  Muslim: 92%
+    Sunni: 90%
+    Shia: 2%
+  Christian: 6%
+  Other: 2%
+population_growth: 1.8%
