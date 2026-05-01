@@ -149,7 +149,7 @@
 - 🇲🇪 Montenegro (128th GDP, $0.07T) ✅ 100% COMPLETE, 🇲🇰 Kosovo, 🇷🇸 Sérvia, 🇦🇩 Chipre (130th GDP, $0.07T) ✅ 100% COMPLETE, 🇲🇹 Malta (125th GDP, $0.07T) ✅ 100% COMPLETE, 🇮🇸 Islândia (126th GDP, $0.07T) ✅ 100% COMPLETE, 🇦🇩 Andorra, 🇲🇨 Mônaco, 🇸🇲 San Marino, 🇻🇦 Cidade do Vaticano, 🇬🇮 Gibraltar, 🇮🇪 Jersey, 🇬🇬 Guernsey, 🇮🇫 Ilha de Man, 🇦🇽 Ilhas Faroe, 🇮🇩 Islândia
 
 **África (continuação):**
-- 🇨🇲 Camarões (Cameroon) (104th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇱 Mali (105th GDP, $0.08T) ✅ 100% COMPLETE, 🇳🇦 Namibia (109th GDP, $0.08T) ✅ 100% COMPLETE, 🇧🇼 Botswana (110th GDP, $0.08T) ✅ 100% COMPLETE, 🇿🇲 Zambia (111th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇿 Mozambique (112th GDP, $0.08T) ✅ 100% COMPLETE, 🇿🇼 Zimbabwe (113th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇷 Mauritania (114th GDP, $0.08T) ✅ 100% COMPLETE, 🇹🇩 Chade (116th GDP, $0.08T) ✅ 100% COMPLETE, 🇧🇫 Burkina Faso (117th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇼 Malaui (Malawi) (118th GDP, $0.08T) ✅ 100% COMPLETE, 🇨🇫 República Centro-Africana, 🇨🇬 República do Congo, 🇸🇴 Somalia (142nd GDP, $0.06T) ✅ 100% COMPLETE, 🇧🇯 Benin (143rd GDP, $0.06T) ✅ 100% COMPLETE
+- 🇨🇲 Camarões (Cameroon) (104th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇱 Mali (105th GDP, $0.08T) ✅ 100% COMPLETE, 🇳🇦 Namibia (109th GDP, $0.08T) ✅ 100% COMPLETE, 🇧🇼 Botswana (110th GDP, $0.08T) ✅ 100% COMPLETE, 🇿🇲 Zambia (111th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇿 Mozambique (112th GDP, $0.08T) ✅ 100% COMPLETE, 🇿🇼 Zimbabwe (113th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇷 Mauritania (114th GDP, $0.08T) ✅ 100% COMPLETE, 🇹🇩 Chade (116th GDP, $0.08T) ✅ 100% COMPLETE, 🇧🇫 Burkina Faso (117th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇼 Malaui (Malawi) (118th GDP, $0.08T) ✅ 100% COMPLETE, 🇨🇫 República Centro-Africana, 🇨🇬 República do Congo, 🇸🇴 Somalia (142nd GDP, $0.06T) ✅ 100% COMPLETE, 🇧🇯 Benin (143rd GDP, $0.06T) ✅ 100% COMPLETE, 🇬🇳 Guinea (146th GDP, $0.05T) ✅ 100% COMPLETE, 🇱🇷 Liberia (144th GDP, $0.05T) ✅ 100% COMPLETE
 
 **Ásia (continuação):**
 - 🇦🇫 Afeganistão, 🇧🇩 Bangladesh, 🇱🇦 Laos, 🇳🇵 Nepal ✅ 100% COMPLETE (101st GDP, $0.09T), 🇸🇾 Síria, 🇱🇧 Líbano ✅ 100% COMPLETE, 🇾🇪 Yemen ✅ 100% COMPLETE (121st GDP, $0.07T), 🇰🇬 Quirguistão, 🇹🇯 Tajiquistão, 🇹🇲 Turcomenistão, 🇧🇳 Brunei, 🇹🇱 Timor-Leste, 🇵🇬 Papua Nova Guiné, 🇸🇧 Ilhas Salomão, 🇻🇺 Vanuatu, 🇫🇯 Fiji (127th GDP, $0.07T) ✅ 100% COMPLETE, 🇼🇸 Samoa, 🇹🇴 Tonga, 🇰🇮 Kiribati, 🇹🇻 Tuvalu, 🇫🇲 Micronésia, 🇵🇼 Palau, 🇲🇭 Ilhas Marshall, 🇳🇷 Nauru
@@ -171,8 +171,8 @@
 | 🌍 Europe | 44 | 8 | 36 | 18.2% |
 | 🌎 South America | 12 | 6 | 6 | 50.0% |
 | 🌏 Oceania | 14 | 1 | 13 | 7.1% |
-| 🌍 Africa | 54 | 8 | 46 | 14.8% |
-| **TOTAL** | **195** | **100** | **95** | **51.3%** |
+| 🌍 Africa | 54 | 9 | 45 | 16.7% |
+| **TOTAL** | **195** | **101** | **94** | **51.8%** |
 
 ---
 
