@@ -77,7 +77,7 @@
 | 55 | 🇸🇰 Eslováquia | slovakia | Europe | $0.24T |
 | 56 | 🇪🇨 Equador | ecuador | South America | $0.23T |
 | 57 | 🇷🇺 Uruguai | uruguay | South America | ✅ 100% COMPLETE |
-| 58 | 🇷🇴 Croácia | croatia | Europe | $0.22T |
+| 85 | 🇭🇷 Croácia | croatia | Europe | $0.13T | ✅ 100% COMPLETE |
 | 59 | 🇧🇬 Luxemburgo | luxembourg | Europe | $0.22T |
 | 60 | 🇧🇬 Bulgária | bulgaria | Europe | ✅ 100% COMPLETE |
 
@@ -166,11 +166,11 @@
 |-----------|---------|-----------|-----------|------------|
 | 🌎 North America | 3 | 3 | 0 | **100%** ✅ |
 | 🌏 Asia | 50 | 5 | 45 | 10.0% |
-| 🌍 Europe | 44 | 5 | 39 | 11.4% |
+| 🌍 Europe | 44 | 6 | 38 | 13.6% |
 | 🌎 South America | 12 | 1 | 11 | 8.3% |
 | 🌏 Oceania | 14 | 1 | 13 | 7.1% |
 | 🌍 Africa | 54 | 0 | 54 | 0% |
-| **TOTAL** | **195** | **15** | **180** | **7.7%** |
+| **TOTAL** | **195** | **16** | **179** | **8.2%** |
 
 ---
 
