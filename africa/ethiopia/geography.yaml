@@ -1,0 +1,76 @@
+# Ethiopia - Geography
+
+area_total_km2: 1104300
+area_land_km2: 1000000
+area_water_km2: 104300
+area_percent_water: 9.4
+continent: "Africa"
+region: "Eastern Africa"
+subregion: "Horn of Africa"
+coordinates: "9°05'N 40°29'E"
+land_boundaries_km: 5824
+border_countries:
+  - country: "Eritrea"
+    length_km: 1033
+  - country: "Somalia"
+    length_km: 1640
+  - country: "Kenya"
+    length_km: 867
+  - country: "South Sudan"
+    length_km: 1299
+  - country: "Sudan"
+    length_km: 744
+  - country: "Djibouti"
+    length_km: 342
+coastline_km: 0
+climate: "Tropical monsoon with wide topographic-induced variation"
+terrain: "High plateau with central mountain range divided by Great Rift Valley"
+elevation_extremes:
+  lowest_point: "Danakil Depression"
+  lowest_elevation_m: -125
+  highest_point: "Ras Dashen"
+  highest_elevation_m: 4550
+natural_resources:
+  - "Gold"
+  - "Potash"
+  - "Natural gas"
+  - "Hydropower"
+  - "Limestone"
+  - "Marble"
+  - "Sulfur"
+  - "Salt"
+  - "Tantalum"
+  - "Gemstones"
+land_use:
+  agricultural: 36.0
+  arable: 15.0
+  permanent_crops: 1.0
+  permanent_pasture: 20.0
+  forest: 12.0
+  other: 52.0
+irrigated_land_km2: 3000
+major_rivers:
+  - "Blue Nile (Abbay)"
+  - "Awash"
+  - "Omo"
+  - "Tekeze"
+  - "Baro"
+major_lakes:
+  - "Lake Tana"
+  - "Lake Turkana (part)"
+  - "Lake Abaya"
+  - "Lake Chamo"
+  - "Lake Ziway"
+natural_hazards:
+  - "Drought"
+  - "Earthquakes"
+  - "Volcanic activity"
+  - "Floods"
+  - "Landslides"
+environmental_issues:
+  - "Deforestation"
+  - "Soil erosion"
+  - "Overgrazing"
+  - "Water scarcity"
+  - "Wildlife poaching"
+  - "Air pollution in urban areas"

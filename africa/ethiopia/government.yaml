@@ -1,0 +1,59 @@
+# Ethiopia - Government & Politics
+
+country_name: "Federal Democratic Republic of Ethiopia"
+government_type: "Federal parliamentary republic"
+head_of_state: "President"
+head_of_government: "Prime Minister"
+executive_branch:
+  president: "Taye Atske Selassie"
+  prime_minister: "Abiy Ahmed"
+  deputy_prime_minister: "Temesgen Tiruneh"
+  cabinet: "Council of Ministers"
+legislative_branch:
+  upper_house: "House of Federation (Yefedereshn Mekir Bet)"
+  lower_house: "House of Peoples' Representatives (Yehizbtewekayoch Mekir Bet)"
+  total_seats: 547
+  election_system: "Mixed system"
+judicial_branch:
+  highest_court: "Federal Supreme Court"
+  supreme_court_president: "Chief Justice"
+  lower_courts: "Federal High Court, Federal First Instance Courts, State courts"
+political_parties:
+  - "Prosperity Party (ruling)"
+  - "Ethiopian Citizens for Social Justice"
+  - "Oromo Liberation Front"
+  - "Other regional parties"
+administrative_divisions:
+  regions: 11
+  chartered_cities: 2
+  regions_list:
+    - "Tigray"
+    - "Afar"
+    - "Amhara"
+    - "Oromia"
+    - "Somali"
+    - "Benishangul-Gumuz"
+    - "Gambela"
+    - "Harari"
+    - "Southern Nations, Nationalities, and Peoples' Region (SNNPR)"
+    - "Sidama"
+    - "South West Ethiopia Peoples' Region"
+  chartered_cities:
+    - "Addis Ababa"
+    - "Dire Dawa"
+suffrage: "18 years of age; universal"
+constitution: "Adopted December 8, 1994; effective August 21, 1995"
+independence: "Ancient civilization; modern constitution 1995"
+national_symbols:
+  flag: "Three horizontal stripes of green, yellow, red with blue circle and yellow star"
+  anthem: "Wodefit Gesgeshi, Widd Innat Ityopp'ya (March Forward, Dear Mother Ethiopia)"
+  emblem: "Blue circle with yellow pentagram and rays"
+  motto: "Ethiopia First"
+foreign_relations:
+  - "African Union (hosts headquarters)"
+  - "United Nations"
+  - "World Bank"
+  - "International Monetary Fund"
+  - "Intergovernmental Authority on Development (IGAD)"
+  - "Common Market for Eastern and Southern Africa (COMESA)"
+  - "African Continental Free Trade Area (AfCFTA)"

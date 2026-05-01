@@ -1,0 +1,62 @@
+# Ethiopia - Infrastructure
+
+transportation:
+  railways_km: 659
+  roads_total_km: 110000
+  paved_roads_km: 15000
+  unpaved_roads_km: 95000
+  airports: 57
+  paved_airports: 17
+  unpaved_airports: 40
+  heliports: 1
+  major_airports:
+    - "Addis Ababa Bole International Airport"
+    - "Dire Dawa International Airport"
+    - "Mekelle Airport"
+    - "Bahir Dar Airport"
+    - "Gondar Airport"
+  major_railways:
+    - "Addis Ababa-Djibouti Railway (electrified)"
+    - "Awash-Weldia Railway (under construction)"
+  road_networks:
+    - "Addis Ababa-Adama Expressway"
+    - "Trans-African Highway network"
+energy:
+  electricity_production_kwh: 15000000000
+  electricity_consumption_kwh: 12000000000
+  electricity_exports_kwh: 0
+  electricity_imports_kwh: 0
+  electricity_generating_capacity_mw: 4500
+  energy_sources:
+    - source: "Hydroelectric"
+      percent: 85.0
+    - source: "Wind"
+      percent: 10.0
+    - source: "Thermal (diesel)"
+      percent: 5.0
+  major_dams:
+    - "Grand Ethiopian Renaissance Dam (GERD)"
+    - "Tekeze Dam"
+    - "Gilgel Gibe III Dam"
+    - "Gilgel Gibe II Dam"
+  electrification_rate_percent: 55.0
+  rural_electrification: 35.0
+  urban_electrification: 95.0
+telecommunications:
+  telephone_lines: 1000000
+  mobile_subscriptions: 75000000
+  mobile_penetration_percent: 60.0
+  internet_users: 25000000
+  internet_penetration_percent: 20.0
+  broadband_subscriptions: 500000
+  fixed_broadband_penetration: 0.4
+  mobile_broadband_penetration: 15.0
+  internet_backbone: "Fiber optic network expansion"
+  major_providers:
+    - "Ethio Telecom (state-owned)"
+    - "Safaricom Ethiopia (new entrant 2022)"
+water_sanitation:
+  improved_water_source_percent: 68.0
+  improved_sanitation_percent: 29.0
+  rural_water_access: 55.0
+  urban_water_access: 95.0

@@ -1,0 +1,56 @@
+# Ethiopia - Demographics
+
+population_2024: 126527060
+population_2023: 123827490
+population_2020: 114963583
+population_2010: 87100000
+population_2000: 65900000
+population_density: 114.6
+urban_population_percent: 22.0
+rural_population_percent: 78.0
+median_age: 19.5
+life_expectancy_total: 67.0
+life_expectancy_male: 65.0
+life_expectancy_female: 69.0
+birth_rate: 31.0
+death_rate: 6.0
+infant_mortality: 33.0
+fertility_rate: 3.8
+net_migration: -0.5
+ethnic_groups:
+  - group: "Oromo"
+    percent: 34.0
+  - group: "Amhara"
+    percent: 27.0
+  - group: "Tigray"
+    percent: 7.0
+  - group: "Somali"
+    percent: 6.0
+  - group: "Sidama"
+    percent: 4.0
+  - group: "Other"
+    percent: 22.0
+religions:
+  - religion: "Ethiopian Orthodox Christianity"
+    percent: 43.0
+  - religion: "Islam"
+    percent: 34.0
+  - religion: "Protestant/Evangelical"
+    percent: 18.0
+  - religion: "Traditional beliefs"
+    percent: 3.0
+  - religion: "Other"
+    percent: 2.0
+languages:
+  - language: "Amharic"
+    status: "official"
+  - language: "Oromo"
+    status: "regional"
+  - language: "Tigrinya"
+    status: "regional"
+  - language: "Somali"
+    status: "regional"
+  - language: "Afar"
+    status: "regional"
+  - language: "Other languages"
+    count: 80

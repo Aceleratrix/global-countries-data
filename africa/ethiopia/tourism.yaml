@@ -1,0 +1,70 @@
+# Ethiopia - Tourism
+
+tourism_statistics:
+  international_arrivals_2023: 1200000
+  tourism_receipts_usd_2023: 1500000000
+  contribution_to_gdp_percent: 4.5
+  employment_in_tourism_percent: 3.0
+world_heritage_sites: 9
+unesco_sites_list:
+  - "Rock-Hewn Churches of Lalibela"
+  - "Simien National Park"
+  - "Fasil Ghebbi (Gondar)"
+  - "Aksum"
+  - "Lower Valley of the Awash"
+  - "Lower Valley of the Omo"
+  - "Tiya"
+  - "Harar Jugol"
+  - "Konso Cultural Landscape"
+major_attractions:
+  cultural:
+    - "Lalibela churches"
+    - "Aksum obelisks"
+    - "Gondar castles (Fasil Ghebbi)"
+    - "Harar old town"
+    - "Tiya stelae"
+    - "Konso cultural landscape"
+  natural:
+    - "Simien Mountains National Park"
+    - "Bale Mountains National Park"
+    - "Danakil Depression"
+    - "Lake Tana and monasteries"
+    - "Blue Nile Falls"
+    - "Omo Valley tribal areas"
+    - "Erta Ale volcano"
+  historical:
+    - "Yeha Temple (ancient D'mt site)"
+    - "Melka Kunture archaeological site"
+    - "Adadi Mariam rock church"
+tourism_types:
+  - "Cultural tourism"
+  - "Adventure tourism"
+  - "Eco-tourism"
+  - "Historical tourism"
+  - "Religious tourism"
+  - "Community-based tourism"
+tourist_origin_countries:
+  - "United States"
+  - "United Kingdom"
+  - "Germany"
+  - "France"
+  - "Italy"
+  - "Israel"
+  - "China"
+  - "India"
+tourism_infrastructure:
+  hotels: 1500
+  star_hotels: 50
+  tour_operators: 200
+  national_parks: 12
+  protected_areas_percent: 15.0
+challenges:
+  - "Political instability in some regions"
+  - "Limited infrastructure in remote areas"
+  - "Seasonal variability"
+  - "Marketing and promotion"
+government_initiatives:
+  - "Tourism Master Plan 2024-2034"
+  - "Infrastructure development"
+  - "Community-based tourism promotion"
+  - "Heritage site conservation"

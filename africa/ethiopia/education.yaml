@@ -1,0 +1,59 @@
+# Ethiopia - Education
+
+education_system: "8-2-2-2 system (8 years primary, 2 years secondary, 2 years preparatory, 2+ years tertiary)"
+literacy:
+  total_percent: 52.0
+  male_percent: 60.0
+  female_percent: 44.0
+  youth_literacy_15_24: 65.0
+education_levels:
+  primary:
+    duration_years: 8
+    gross_enrollment_percent: 95.0
+    net_enrollment_percent: 85.0
+    completion_rate_percent: 70.0
+  secondary:
+    duration_years: 4 (2+2)
+    gross_enrollment_percent: 35.0
+    lower_secondary: 40.0
+    upper_secondary: 30.0
+  tertiary:
+    gross_enrollment_percent: 8.0
+    public_universities: 45
+    private_colleges: 200
+    total_students: 500000
+government_spending_percent_gdp: 4.5
+education_challenges:
+  - "Shortage of qualified teachers"
+  - "Overcrowded classrooms"
+  - "Limited resources in rural areas"
+  - "Gender gaps in secondary/tertiary education"
+  - "Language barriers (mother tongue vs Amharic/English)"
+major_universities:
+  - "Addis Ababa University (founded 1950)"
+  - "Bahir Dar University"
+  - "Jimma University"
+  - "Mekelle University"
+  - "Hawassa University"
+  - "Gondar University"
+  - "Arba Minch University"
+  - "Adama Science and Technology University"
+vocational_training:
+  technical_colleges: 100
+  enrollment: 150000
+  focus_areas:
+    - "Agriculture"
+    - "Construction"
+    - "Manufacturing"
+    - "Information technology"
+    - "Hospitality"
+adult_education:
+  programs: "Literacy campaigns, vocational training"
+  participants: 2000000
+  focus: "Rural areas, women"
+government_initiatives:
+  - "Education Sector Development Program"
+  - "School feeding programs"
+  - "Girls' education promotion"
+  - "Teacher training expansion"
+  - "Digital education integration"

@@ -1,0 +1,54 @@
+# Ethiopia - History
+
+ancient_history:
+  - period: "Kingdom of D'mt"
+    years: "980 BC - 400 BC"
+  - period: "Kingdom of Aksum"
+    years: "1st century AD - 10th century AD"
+    highlights:
+      - "Early adoption of Christianity (4th century)"
+      - "Minted own coins"
+      - "Controlled Red Sea trade"
+medieval_period:
+  - period: "Zagwe Dynasty"
+    years: "900 - 1270"
+    highlights:
+      - "Construction of Lalibela rock-hewn churches"
+  - period: "Solomonic Dynasty"
+    years: "1270 - 1974"
+    highlights:
+      - "Emperor Menelik II (1889-1913) - defeated Italy at Battle of Adwa (1896)"
+      - "Emperor Haile Selassie I (1930-1974)"
+      - "Modernization efforts"
+      - "Founding member of UN (1945)"
+modern_history:
+  - year: 1935
+    event: "Italian invasion, occupation until 1941"
+  - year: 1941
+    event: "Liberation by British and Ethiopian forces"
+  - year: 1952
+    event: "Eritrea federated with Ethiopia"
+  - year: 1963
+    event: "Hosted founding of Organization of African Unity (OAU, now AU)"
+  - year: 1974
+    event: "Revolution, overthrow of Haile Selassie, establishment of Derg military junta"
+  - year: 1987
+    event: "Establishment of People's Democratic Republic of Ethiopia"
+  - year: 1991
+    event: "Fall of Derg, Ethiopian People's Revolutionary Democratic Front (EPRDF) takes power"
+  - year: 1993
+    event: "Eritrea gains independence after referendum"
+  - year: 1995
+    event: "Current constitution adopted, Federal Democratic Republic established"
+  - year: 1998-2000
+    event: "Eritrean-Ethiopian War"
+  - year: 2018
+    event: "Abiy Ahmed becomes Prime Minister, initiates reforms"
+  - year: 2018
+    event: "Peace agreement with Eritrea, won Nobel Peace Prize 2019"
+  - year: 2020-2022
+    event: "Tigray conflict"
+  - year: 2022
+    event: "Pretoria Peace Agreement signed"
+  - year: 2024
+    event: "Continued implementation of peace agreement, economic reforms"

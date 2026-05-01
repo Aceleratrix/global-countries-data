@@ -1,0 +1,49 @@
+# Ethiopia - Climate
+
+climate_classification: "Tropical monsoon with highland variations"
+climatic_zones:
+  - zone: "Cool highlands"
+    elevation: "Above 2400m"
+    temperature_range: "10-20°C"
+    rainfall: "1200-2000mm annually"
+  - zone: "Warm highlands"
+    elevation: "1500-2400m"
+    temperature_range: "15-25°C"
+    rainfall: "800-1200mm annually"
+  - zone: "Lowlands"
+    elevation: "Below 1500m"
+    temperature_range: "25-35°C"
+    rainfall: "200-600mm annually"
+  - zone: "Danakil Depression"
+    elevation: "Below sea level"
+    temperature_range: "30-50°C"
+    rainfall: "<200mm annually"
+seasons:
+  - season: "Bega (Dry season)"
+    months: "October-February"
+    description: "Cool and dry, main harvest season"
+  - season: "Belg (Short rains)"
+    months: "March-May"
+    description: "Light rainfall, planting season"
+  - season: "Kiremt (Main rainy season)"
+    months: "June-September"
+    description: "Heavy rainfall, main growing season"
+temperature_extremes:
+  highest_recorded: "48.8°C (Dallol, 1960)"
+  lowest_recorded: "-15°C (Ras Dashen, 1998)"
+precipitation:
+  average_annual_rainfall: 850
+  wettest_region: "Southwest highlands (2000mm)"
+  driest_region: "Danakil Depression (<200mm)"
+climate_change_impacts:
+  - "Increased frequency of droughts"
+  - "Erratic rainfall patterns"
+  - "Rising temperatures"
+  - "Melting glaciers in Simien Mountains"
+  - "Increased risk of flooding"
+natural_disasters:
+  - "Droughts (recurring)"
+  - "Floods (seasonal)"
+  - "Landslides (highlands)"
+  - "Earthquakes (rift valley)"
+  - "Volcanic activity (Erta Ale)"

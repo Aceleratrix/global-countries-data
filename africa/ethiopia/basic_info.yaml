@@ -1,0 +1,24 @@
+# Ethiopia - Basic Info
+# Federal Democratic Republic of Ethiopia
+
+country_code: "ET"
+iso_alpha3: "ETH"
+iso_numeric: "231"
+fips_code: "ET"
+capital: "Addis Ababa"
+region: "Africa"
+subregion: "Eastern Africa"
+independent: true
+status: "UN member state"
+official_name: "Federal Democratic Republic of Ethiopia"
+local_name: "ኢትዮጵያ (Ityop'iya)"
+local_long_name: "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ"
+citizenship: "Ethiopian"
+currency_code: "ETB"
+currency_name: "Ethiopian Birr"
+phone_prefix: "+251"
+internet_tld: ".et"
+time_zone: "UTC+3"
+time_zone_name: "East Africa Time (EAT)"
+latitude: 9.145
+longitude: 40.4897

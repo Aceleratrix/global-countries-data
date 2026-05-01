@@ -1,0 +1,84 @@
+# Ethiopia - Culture & Society
+
+cultural_identity:
+  national_identity: "Ethiopian"
+  ethnic_diversity: "High (80+ ethnic groups)"
+  cultural_heritage: "Ancient Christian and Islamic traditions"
+  world_heritage_sites: 9
+unesco_world_heritage_sites:
+  - "Rock-Hewn Churches of Lalibela"
+  - "Simien National Park"
+  - "Fasil Ghebbi (Gondar)"
+  - "Aksum"
+  - "Lower Valley of the Awash"
+  - "Lower Valley of the Omo"
+  - "Tiya"
+  - "Harar Jugol"
+  - "Konso Cultural Landscape"
+traditional_cuisine:
+  staple_foods:
+    - "Injera (sourdough flatbread)"
+    - "Wot (stew)"
+    - "Shiro"
+    - "Kitfo"
+    - "Tibs"
+  beverages:
+    - "Coffee (origin country)"
+    - "Tej (honey wine)"
+    - "Tella (traditional beer)"
+  dining_customs: "Communal eating from shared plate, right hand only"
+religion_culture:
+  ethiopian_orthodox:
+    significance: "Ancient Christian tradition dating to 4th century"
+    major_holidays:
+      - "Meskel (Finding of the True Cross)"
+      - "Timkat (Epiphany)"
+      - "Genna (Christmas)"
+  islam:
+    significance: "Large Muslim population, historic mosques"
+    major_holidays:
+      - "Eid al-Fitr"
+      - "Eid al-Adha"
+      - "Mawlid"
+  traditional_beliefs: "Animism, spirit worship in some communities"
+arts_literature:
+  literature: "Ge'ez script, ancient manuscripts, Amharic literature"
+  music: "Ethiopian jazz, traditional instruments (krar, masenqo, washint)"
+  dance: "Regional dances (Eskista - shoulder dance)"
+  visual_arts: "Illuminated manuscripts, Orthodox iconography, contemporary art"
+  famous_musicians:
+    - "Mulatu Astatke (father of Ethio-jazz)"
+    - "Tilahun Gessesse"
+    - "Aster Aweke"
+sports:
+  national_sport: "Sport wrestling"
+  popular_sports:
+    - "Football (soccer)"
+    - "Athletics (long-distance running)"
+    - "Basketball"
+  olympic_achievements: "Strong tradition in long-distance running"
+  famous_athletes:
+    - "Haile Gebrselassie"
+    - "Kenenisa Bekele"
+    - "Tirunesh Dibaba"
+    - "Derartu Tulu"
+education:
+  literacy_rate_total: 52.0
+  literacy_rate_male: 60.0
+  literacy_rate_female: 44.0
+  education_system: "8-2-2-2 system (8 years primary, 2 years secondary, 2 years preparatory, 2+ years tertiary)"
+  universities:
+    - "Addis Ababa University"
+    - "Bahir Dar University"
+    - "Jimma University"
+    - "Mekelle University"
+    - "Hawassa University"
+  enrollment_primary_percent: 95.0
+  enrollment_secondary_percent: 35.0
+  enrollment_tertiary_percent: 8.0
+social_issues:
+  - "Gender equality"
+  - "Access to education in rural areas"
+  - "Healthcare infrastructure"
+  - "Youth unemployment"
+  - "Regional development disparities"
