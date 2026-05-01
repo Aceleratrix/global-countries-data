@@ -1,0 +1,13 @@
+name: Cyprus
+driving_side: left
+road_network_km: ~12000
+airports:
+  - Larnaca International Airport
+  - Paphos International Airport
+ports:
+  - Limassol Port
+  - Larnaca Port
+  - Famagusta Port
+telecom:
+  mobile_coverage: 99% population
+  internet_penetration: 85%

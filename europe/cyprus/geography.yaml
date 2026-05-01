@@ -1,0 +1,17 @@
+name: Cyprus
+region: Europe
+subregion: Southern Europe
+area_km2: 9251
+capital: Nicosia
+coordinates:
+  latitude: 35.0
+  longitude: 33.0
+landlocked: false
+borders: []
+coastline_km: 648
+terrain: Central plain with Troodos and Kyrenia mountain ranges
+climate: Mediterranean; hot, dry summers; cool, wet winters
+maps:
+  google_maps: https://goo.gl/maps/77hPBRdLid8yD5Bm7
+  openstreetmap: https://www.openstreetmap.org/relation/307787
+tld: .cy

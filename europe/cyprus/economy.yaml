@@ -1,0 +1,19 @@
+name: Cyprus
+gdp_usd_trillion: 0.07
+gdp_global_rank: 130
+currency:
+  code: EUR
+  name: Euro
+  symbol: €
+fifa_code: CYP
+idd:
+  root: +3
+  suffixes:
+    - "57"
+key_industries:
+  - Tourism
+  - Financial services
+  - Shipping
+  - Agriculture
+  - Manufacturing
+economy_type: Service-based, high-income

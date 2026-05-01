@@ -1,0 +1,10 @@
+name: Cyprus
+healthcare_system: Mixed public-private system
+public_healthcare: Free for residents, funded by taxes
+life_expectancy_years: 80.5
+infant_mortality_per_1000: 1.8
+major_hospitals:
+  - Nicosia General Hospital
+  - Limassol General Hospital
+  - Larnaca General Hospital
+health_insurance: Mandatory General Healthcare System (GESY) launched 2019

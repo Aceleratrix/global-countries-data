@@ -1,0 +1,20 @@
+name: Cyprus
+official_name: Republic of Cyprus
+government_type: Presidential representative democratic republic
+independence: true
+un_member: true
+cca2: CY
+cca3: CYP
+ccn3: "196"
+cioc: CYP
+alt_spellings:
+  - CY
+  - Kýpros
+  - Kıbrıs
+  - Republic of Cyprus
+  - Κυπριακή Δημοκρατία
+  - Kıbrıs Cumhuriyeti
+car:
+  signs:
+    - CY
+  side: left

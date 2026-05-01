@@ -1,0 +1,19 @@
+name: Cyprus
+population: 1442614
+population_rank_global: 157
+density_per_km2: 156
+demonyms:
+  male: Cypriot
+  female: Cypriot
+languages:
+  - Greek
+  - Turkish
+native_names:
+  greek: Κύπρος
+  turkish: Kıbrıs
+timezones:
+  - UTC+02:00
+continents:
+  - Europe
+independent: true
+un_member: true
