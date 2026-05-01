@@ -1,0 +1,8 @@
+road_network_km: 64500
+paved_roads_pct: 28
+railway_km: 2600
+major_airports:
+  - "Hosea Kutako International Airport (WDH)"
+  - "Eros Airport (ERS)"
+internet_penetration_pct: 57.1
+mobile_subscriptions_per_100: 112

@@ -1,0 +1,10 @@
+government_type: "Republic"
+head_of_state: "President"
+head_of_government: "Prime Minister"
+legislature: "Parliament (National Assembly, National Council)"
+political_parties:
+  - "SWAPO (South West Africa People's Organization)"
+  - "Popular Democratic Movement"
+  - "Landless People's Movement"
+independence_date: "1990-03-21"
+from_country: "South Africa"

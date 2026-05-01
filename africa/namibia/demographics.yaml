@@ -1,0 +1,27 @@
+population: 2540905
+population_year: 2023
+population_density: 3.1
+life_expectancy: 64.6
+median_age: 22.1
+urban_population_pct: 53.9
+major_ethnic_groups:
+  - "Ovambo"
+  - "Kavango"
+  - "Herero"
+  - "Damara"
+  - "Nama"
+  - "Afrikaner"
+  - "German"
+  - "Caprivian"
+  - "San"
+  - "Tswana"
+  - "Himba"
+languages:
+  - "English (official)"
+  - "Oshiwambo"
+  - "Nama"
+  - "Afrikaans"
+  - "German"
+religions:
+  - "Christian (90%)"
+  - "Indigenous beliefs (10%)"

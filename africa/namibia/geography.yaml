@@ -1,0 +1,12 @@
+area_km2: 825615
+area_mi2: 318772
+terrain: "Mostly high plateau; Namib Desert along coast; Kalahari Desert in east"
+climate: "Arid; hot days, cool nights in desert; subtropical in east"
+borders:
+  - "Angola"
+  - "Botswana"
+  - "South Africa"
+  - "Zambia"
+coordinates:
+  lat: -22.9576
+  lon: 18.4904

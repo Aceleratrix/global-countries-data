@@ -1,0 +1,13 @@
+biomes:
+  - "Desert"
+  - "Savanna"
+  - "Woodland"
+protected_areas_pct: 16.8
+major_rivers:
+  - "Orange River"
+  - "Okavango River"
+  - "Kunene River"
+endangered_species:
+  - "Black rhino"
+  - "Cheetah"
+  - "African wild dog"

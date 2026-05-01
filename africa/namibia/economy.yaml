@@ -1,0 +1,13 @@
+gdp_nominal_trl: 0.08
+gdp_rank_global: 109
+gdp_per_capita: 3150
+currency_code: "NAD, ZAR"
+currency_name: "Namibian dollar, South African rand"
+major_industries:
+  - "Mining (diamonds, uranium, gold, zinc)"
+  - "Fishing"
+  - "Agriculture"
+  - "Tourism"
+  - "Manufacturing"
+unemployment_rate: 20.3
+inflation_rate: 6.1
