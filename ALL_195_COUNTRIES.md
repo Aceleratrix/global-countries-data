@@ -78,7 +78,7 @@
 | 56 | 🇪🇨 Equador | ecuador | South America | $0.23T |
 | 95 | 🇺🇾 Uruguai | uruguay | South America | $0.10T | ✅ 100% COMPLETE |
 | 85 | 🇭🇷 Croácia | croatia | Europe | $0.13T | ✅ 100% COMPLETE |
-| 59 | 🇧🇬 Luxemburgo | luxembourg | Europe | $0.22T |
+| 129 | 🇱🇺 Luxemburgo | luxembourg | Europe | $0.07T | ✅ 100% COMPLETE |
 | 60 | 🇧🇬 Bulgária | bulgaria | Europe | ✅ 100% COMPLETE |
 
 ---
@@ -145,7 +145,7 @@
 ### 🌍 RESTANTES 101-195 (Menores Economias)
 
 **Europa (continuação):**
-- 🇲🇪 Montenegro, 🇲🇰 Kosovo, 🇷🇸 Sérvia, 🇦🇩 Chipre, 🇲🇹 Malta (125th GDP, $0.07T) ✅ 100% COMPLETE, 🇮🇸 Islândia (126th GDP, $0.07T) ✅ 100% COMPLETE, 🇦🇩 Andorra, 🇲🇨 Mônaco, 🇸🇲 San Marino, 🇻🇦 Cidade do Vaticano, 🇬🇮 Gibraltar, 🇮🇪 Jersey, 🇬🇬 Guernsey, 🇮🇫 Ilha de Man, 🇦🇽 Ilhas Faroe, 🇮🇩 Islândia
+- 🇲🇪 Montenegro (128th GDP, $0.07T) ✅ 100% COMPLETE, 🇲🇰 Kosovo, 🇷🇸 Sérvia, 🇦🇩 Chipre (130th GDP, $0.07T) ✅ 100% COMPLETE, 🇲🇹 Malta (125th GDP, $0.07T) ✅ 100% COMPLETE, 🇮🇸 Islândia (126th GDP, $0.07T) ✅ 100% COMPLETE, 🇦🇩 Andorra, 🇲🇨 Mônaco, 🇸🇲 San Marino, 🇻🇦 Cidade do Vaticano, 🇬🇮 Gibraltar, 🇮🇪 Jersey, 🇬🇬 Guernsey, 🇮🇫 Ilha de Man, 🇦🇽 Ilhas Faroe, 🇮🇩 Islândia
 
 **África (continuação):**
 - 🇨🇲 Camarões (Cameroon) (104th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇱 Mali (105th GDP, $0.08T) ✅ 100% COMPLETE, 🇳🇦 Namibia (109th GDP, $0.08T) ✅ 100% COMPLETE, 🇧🇼 Botswana (110th GDP, $0.08T) ✅ 100% COMPLETE, 🇿🇲 Zambia (111th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇿 Mozambique (112th GDP, $0.08T) ✅ 100% COMPLETE, 🇿🇼 Zimbabwe (113th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇷 Mauritania (114th GDP, $0.08T) ✅ 100% COMPLETE, 🇹🇩 Chade (116th GDP, $0.08T) ✅ 100% COMPLETE, 🇧🇫 Burkina Faso (117th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇼 Malaui (Malawi) (118th GDP, $0.08T) ✅ 100% COMPLETE, 🇨🇫 República Centro-Africana, 🇨🇬 República do Congo
@@ -167,11 +167,11 @@
 |-----------|---------|-----------|-----------|------------|
 | 🌎 North America | 3 | 3 | 0 | **100%** ✅ |
 | 🌏 Asia | 50 | 6 | 44 | 12.0% |
-| 🌍 Europe | 44 | 7 | 37 | 15.9% |
+| 🌍 Europe | 44 | 8 | 36 | 18.2% |
 | 🌎 South America | 12 | 5 | 7 | 41.7% |
 | 🌏 Oceania | 14 | 1 | 13 | 7.1% |
 | 🌍 Africa | 54 | 8 | 46 | 14.8% |
-| **TOTAL** | **195** | **97** | **98** | **49.7%** |
+| **TOTAL** | **195** | **98** | **97** | **50.3%** |
 
 ---
 

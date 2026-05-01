@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 98/195 (50.3%) Complete](https://img.shields.io/badge/Status-98/195 (50.3%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 99/195 (50.8%) Complete](https://img.shields.io/badge/Status-99/195 (50.8%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (98 / 195 = 50.3%)
+## 📊 Coverage Progress (99 / 195 = 50.8%)
 
 ### 🌎 South America (5/12 = 41.7%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -82,7 +82,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇦🇫 **Afghanistan** | 13/13 | ✅ **100% COMPLETE** | 122nd largest economy ($0.07T), Kabul (4.1M), Landlocked, Hindu Kush mountains | English (en-US) |
 | 🇲🇲 **Myanmar** | 13/13 | ✅ **100% COMPLETE** | 120th largest economy ($0.07T), Naypyidaw (capital), South-Eastern Asia, 51.3M population | English (en-US) |
 
-### 🌍 Europe (20/44 = 45.5%)
+### 🌍 Europe (21/44 = 47.7%)
 
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
