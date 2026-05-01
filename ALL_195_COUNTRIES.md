@@ -148,7 +148,7 @@
 - 🇲🇪 Montenegro, 🇲🇰 Kosovo, 🇷🇸 Sérvia, 🇦🇩 Chipre, 🇲🇹 Malta, 🇮🇩 Islândia, 🇦🇩 Andorra, 🇲🇨 Mônaco, 🇸🇲 San Marino, 🇻🇦 Cidade do Vaticano, 🇬🇮 Gibraltar, 🇮🇪 Jersey, 🇬🇬 Guernsey, 🇮🇫 Ilha de Man, 🇦🇽 Ilhas Faroe, 🇮🇩 Islândia
 
 **África (continuação):**
-- 🇨🇩 Chade, 🇨🇫 República Centro-Africana, 🇨🇬 República do Congo, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade
+- 🇨🇲 Camarões (Cameroon) (104th GDP, $0.09T) ✅ 100% COMPLETE, 🇲🇱 Mali (105th GDP, $0.08T) ✅ 100% COMPLETE, 🇨🇩 Chade, 🇨🇫 República Centro-Africana, 🇨🇬 República do Congo
 
 **Ásia (continuação):**
 - 🇦🇫 Afeganistão, 🇧🇩 Bangladesh, 🇱🇵 Laos, 🇳🇵 Nepal ✅ 100% COMPLETE (101st GDP, $0.09T), 🇸🇾 Síria, 🇱🇧 Líbano ✅ 100% COMPLETE, 🇵🇰 Quirguistão, 🇹🇯 Tajiquistão, 🇹🇲 Turcomenistão, 🇧🇳 Brunei, 🇹🇼 Timor-Leste, 🇵🇬 Papua Nova Guiné, 🇸🇧 Ilhas Salomão, 🇻🇺 Vanuatu, 🇫🇲 Fiji, 🇼🇸 Samoa, 🇹🇴 Tonga, 🇰🇮 Kiribati, 🇫🇼 Tuvalu, 🇫🇲 Fiji, 🇼🇸 Samoa, 🇹🇴 Tonga, 🇰🇮 Kiribati, 🇫🇼 Tuvalu, 🇲🇭 Micronésia, 🇵🇼 Palau, 🇲🇭 Ilhas Marshall, 🇳🇷 Nauru
