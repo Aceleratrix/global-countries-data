@@ -98,7 +98,7 @@
 | 68 | 🇵🇷 Porto Rico | puerto-rico | North America | ✅ 100% COMPLETE |
 | 68 | 🇨🇷 Costa Rica | costa-rica | North America | ✅ 100% COMPLETE | |
 | 69 | 🇬🇹 Guatemala | guatemala | North America | ✅ 100% COMPLETE | |
-| 70 | 🇴🇲 Omã | oman | Asia | $0.18T | |
+| 70 | 🇴🇲 Omã | oman | Asia | $0.15T | ✅ 100% COMPLETE |
 | 71 | 🇰🇼 Kuwait | kuwait | Asia | $0.18T | |
 | 72 | 🇺🇿 Uzbequistão | uzbekistan | Asia | $0.17T | |
 | 73 | 🇵🇦 Panamá | panama | North America | $0.17T | |
