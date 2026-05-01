@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (121 / 195 = 62.1%)
+## 📊 Coverage Progress (122 / 195 = 62.6%)
 
 ### 🌎 South America (6/12 = 50.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -115,7 +115,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇱🇺 **Luxembourg** | 13/13 | ✅ **100% COMPLETE** | 129th largest economy ($0.07T), Luxembourg City (capital), landlocked Western Europe, EU/NATO/Eurozone member | English (en-US) |
 | 🇦🇱 **Albania** | 13/13 | ✅ **100% COMPLETE** | 108th largest economy ($0.08T), Tirana (capital), Southeast Europe, 2.3M population, Albania Alps | English (en-US) |
 
-### 🌍 Africa (27/54 = 50.0%)
+### 🌍 Africa (28/54 = 51.9%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇳🇬 **Nigeria** | 13/13 | ✅ **100% COMPLETE** | 28th largest economy ($0.48T), Africa's most populous (223M), fintech leader (4 unicorns), Nollywood | English (en-NG) |
@@ -145,6 +145,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇨🇫 **Central African Republic** | 13/13 | ✅ **100% COMPLETE** | 149th largest economy ($0.05T), Bangui (capital), landlocked Central Africa, borders 6 countries, Central African CFA franc | French (fr-CF) + Sango + English |
 | 🇸🇿 **Eswatini** | 13/13 | ✅ **100% COMPLETE** | 150th largest economy ($0.05T), Mbabane (administrative)/Lobamba (legislative), absolute monarchy, Swazi lilangeni currency | English (en-SZ) + Swati |
 | 🇬🇦 **Gabon** | 13/13 | ✅ **100% COMPLETE** | 153rd largest economy ($0.05T), Libreville (capital), Middle Africa, 85% forest cover, Central African CFA franc | French (fr-GA) + English |
+| 🇪🇷 **Eritrea** | 13/13 | ✅ **100% COMPLETE** | 160th largest economy ($0.05T), Asmara (capital, UNESCO World Heritage Site), borders Djibouti/Ethiopia/Sudan, 3.5M population | English (en-ER) + Tigrinya/Arabic |
 
 ### 🌏 Oceania (2/14 = 14.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
