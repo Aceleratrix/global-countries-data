@@ -1,0 +1,77 @@
+# Translations of country names
+translations:
+  ara:
+    official: "جمهورية سورينام"
+    common: "سورينام"
+  bre:
+    official: "Republik Surinam"
+    common: "Surinam"
+  ces:
+    official: "Republika Surinam"
+    common: "Surinam"
+  deu:
+    official: "Republik Suriname"
+    common: "Suriname"
+  est:
+    official: "Suriname Vabariik"
+    common: "Suriname"
+  fin:
+    official: "Surinamen tasavalta"
+    common: "Suriname"
+  fra:
+    official: "République du Suriname"
+    common: "Surinam"
+  hrv:
+    official: "Republika Surinam"
+    common: "Surinam"
+  hun:
+    official: "Suriname Köztársaság"
+    common: "Suriname"
+  ind:
+    official: "Republik Suriname"
+    common: "Suriname"
+  ita:
+    official: "Repubblica del Suriname"
+    common: "Suriname"
+  jpn:
+    official: "スリナム共和国"
+    common: "スリナム"
+  kor:
+    official: "수리남 공화국"
+    common: "수리남"
+  nld:
+    official: "Republiek Suriname"
+    common: "Suriname"
+  per:
+    official: "جمهوری سورینام"
+    common: "سورینام"
+  pol:
+    official: "Republika Surinamu"
+    common: "Surinam"
+  por:
+    official: "República do Suriname"
+    common: "Suriname"
+  rus:
+    official: "Республика Суринам"
+    common: "Суринам"
+  slk:
+    official: "Surinamská republika"
+    common: "Surinam"
+  spa:
+    official: "República de Suriname"
+    common: "Surinam"
+  srp:
+    official: "Република Суринам"
+    common: "Суринам"
+  swe:
+    official: "Republiken Surinam"
+    common: "Surinam"
+  tur:
+    official: "Surinam Cumhuriyeti"
+    common: "Surinam"
+  urd:
+    official: "جمہوریہ سرینام"
+    common: "سرینام"
+  zho:
+    official: "苏里南共和国"
+    common: "苏里南"

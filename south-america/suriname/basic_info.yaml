@@ -1,0 +1,19 @@
+# Basic country information
+country:
+  official_name: "Republic of Suriname"
+  common_name: "Suriname"
+  native_name_nld: "Suriname"
+  native_name_official_nld: "Republiek Suriname"
+  cca2: "SR"
+  cca3: "SUR"
+  ccn3: "740"
+  cioc: "SUR"
+  fifa: "SUR"
+  independent: true
+  un_member: true
+  status: "officially-assigned"
+  region: "Americas"
+  subregion: "South America"
+  continent: "South America"
+  landlocked: false
+  start_of_week: "monday"

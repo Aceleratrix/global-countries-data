@@ -1,0 +1,12 @@
+# Demographics data
+demographics:
+  population: 616500
+  languages:
+    nld: "Dutch"
+  demonyms:
+    eng:
+      m: "Surinamer"
+      f: "Surinamer"
+    fra:
+      m: "Surinamais"
+      f: "Surinamaise"

@@ -1,0 +1,7 @@
+# Government data
+government:
+  independent: true
+  un_member: true
+  idd:
+    root: "+5"
+    suffixes: ["97"]

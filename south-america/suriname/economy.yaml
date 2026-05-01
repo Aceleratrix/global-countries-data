@@ -1,0 +1,10 @@
+# Economy data
+economy:
+  gdp_trilions_usd: 0.07
+  gdp_global_rank: 124
+  currencies:
+    SRD:
+      name: "Surinamese dollar"
+      symbol: "$"
+  gini:
+    1999: 57.9

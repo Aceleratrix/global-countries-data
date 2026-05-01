@@ -1,0 +1,8 @@
+# Diplomacy and international relations
+diplomacy:
+  un_member: true
+  borders: ["BRA", "GUF", "GUY"]
+  fifa: "SUR"
+  cioc: "SUR"
+  cca2: "SR"
+  cca3: "SUR"

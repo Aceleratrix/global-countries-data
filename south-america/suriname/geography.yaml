@@ -1,0 +1,11 @@
+# Geography data
+geography:
+  capital: "Paramaribo"
+  capital_latlng: [5.83, -55.17]
+  area_km2: 163820.0
+  latlng: [4.0, -56.0]
+  borders: ["BRA", "GUF", "GUY"]
+  maps:
+    google_maps: "https://goo.gl/maps/iy7TuQLSi4qgoBoG7"
+    open_street_maps: "https://www.openstreetmap.org/relation/287082"
+  timezones: ["UTC-03:00"]

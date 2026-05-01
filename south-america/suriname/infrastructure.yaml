@@ -1,0 +1,9 @@
+# Infrastructure data
+infrastructure:
+  tld: [".sr"]
+  idd:
+    root: "+5"
+    suffixes: ["97"]
+  postal_code:
+    format: null
+    regex: null

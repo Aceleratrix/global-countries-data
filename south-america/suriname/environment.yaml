@@ -1,0 +1,7 @@
+# Environment data
+environment:
+  area_km2: 163820.0
+  latlng: [4.0, -56.0]
+  borders: ["BRA", "GUF", "GUY"]
+  landlocked: false
+  continent: "South America"

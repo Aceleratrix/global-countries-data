@@ -1,0 +1,8 @@
+# Culture data
+culture:
+  languages:
+    nld: "Dutch"
+  car:
+    signs: ["SME"]
+    side: "left"
+  alt_spellings: ["SR", "Sarnam", "Sranangron", "Republic of Suriname", "Republiek Suriname"]
