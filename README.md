@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (43 / 195 = 22.1%)
+## 📊 Coverage Progress (57 / 195 = 29.2%)
 
 ### 🌎 South America (3/12 = 25.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -51,7 +51,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇨🇦 **Canada** | 13/13 | ✅ **100% COMPLETE** | Pan-Canadian AI $2.4B, Cohere $5.5B, Interac, bilingual (EN/FR) | English (en-CA) + French |
 | 🇲🇽 **Mexico** | 13/13 | ✅ **100% COMPLETE** | Nearshoring boom, Kavak $8.7B, OXXO 21K stores, 96% remittances from USA | Spanish (es-MX) |
 
-### 🌏 Asia (10/50 = 20.0%)
+### 🌏 Asia (11/50 = 22.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇮🇱 **Israel** | 13/13 | ✅ **100% COMPLETE** | 33rd largest economy ($0.39T), Startup Nation, 8K+ tech startups, 100+ unicorns | English (en-US) |
@@ -64,6 +64,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇮🇷 **Iran** | 13/13 | ✅ **100% COMPLETE** | 30th largest economy ($0.44T), Tehran (9M), oil/gas superpower, JCPOA nuclear deal | English (en-US) |
 | 🇮🇶 **Iraq** | 13/13 | ✅ **100% COMPLETE** | 35th largest economy ($0.37T), Baghdad (7M), oil exports 90% revenue, Mesopotamia cradle of civilization | English (en-US) |
 | 🇸🇬 **Singapore** | 13/13 | ✅ **100% COMPLETE** | 40th largest economy ($0.35T), Changi Airport, global financial hub, city-state | English (en-US) |
+| 🇶🇦 **Qatar** | 13/13 | ✅ **100% COMPLETE** | 51st largest economy ($0.27T), 2022 FIFA World Cup, world's largest LNG exporter, Doha (1M) | English (en-US) |
 
 ### 🌍 Europe (15/44 = 34.1%)
 | Country | Files | Status | Key Highlights | Primary Language |

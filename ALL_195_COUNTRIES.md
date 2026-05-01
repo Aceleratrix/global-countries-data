@@ -70,7 +70,7 @@
 | 48 | 🇳🇬 Nova Zelândia | new-zealand | Oceania | $0.29T |
 | 49 | 🇵🇪 Peru | peru | South America | $0.28T |
 | 50 | 🇮🇦 Ucrânia | ukraine | Europe | $0.27T |
-| 51 | 🇵🇹 Qatar | qatar | Asia | $0.27T |
+| 51 | 🇶🇦 Qatar | qatar | Asia | ✅ 100% COMPLETE |
 | 52 | 🇭🇦 Hungria | hungary | Europe | $0.26T |
 | 53 | 🇭🇦 Vietnã | vietnam | Asia | $0.26T |
 | 54 | 🇭🇷 Marrocos | morocco | Africa | $0.25T |
