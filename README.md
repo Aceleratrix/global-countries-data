@@ -64,7 +64,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇮🇶 **Iraq** | 13/13 | ✅ **100% COMPLETE** | 35th largest economy ($0.37T), Baghdad (7M), oil exports 90% revenue, Mesopotamia cradle of civilization | English (en-US) |
 | 🇸🇬 **Singapore** | 13/13 | ✅ **100% COMPLETE** | 40th largest economy ($0.35T), Changi Airport, global financial hub, city-state | English (en-US) |
 
-### 🌍 Europe (14/44 = 31.8%)
+### 🌍 Europe (15/44 = 34.1%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇩🇪 **Germany** | 13/13 | ✅ **100% COMPLETE** | GDPR (gold standard), EU AI Act, SEPA, Industry 4.0, 4 cloud regions | English (en-US) |
@@ -82,6 +82,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇨🇿 **Czech Republic** | 13/13 | ✅ **100% COMPLETE** | 31st largest economy ($0.43T), Skoda Auto, Pilsner beer, Prague (1.3M) | English (en-US) |
 | 🇵🇹 **Portugal** | 13/13 | ✅ **100% COMPLETE** | 34th largest economy ($0.38T), Lisbon (3M), cork capital, tourism 17% GDP | English (en-US) |
 | 🇷🇴 **Romania** | 13/13 | ✅ **100% COMPLETE** | 32nd largest economy ($0.40T), Bucharest (2M), EU/NATO member, Carpathian Mountains | English (en-US) |
+| 🇬🇷 **Greece** | 13/13 | ✅ **100% COMPLETE** | 42nd largest economy ($0.34T), Athens (4M), Parthenon, tourism 18% GDP, EU/Eurozone member | English (en-US) |
 
 ### 🌍 Africa (3/54 = 5.6%)
 | Country | Files | Status | Key Highlights | Primary Language |
