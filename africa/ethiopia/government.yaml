@@ -1,19 +1,5 @@
-# Government data for Ethiopia
-country: Ethiopia
-official_name: Federal Democratic Republic of Ethiopia
-independent: true
-un_member: true
-status: officially-assigned
-idd:
-  root: "+2"
-  suffixes:
-    - "51"
-car:
-  signs:
-    - ETH
-  side: right
-start_of_week: monday
-cca2: ET
-cca3: ETH
-ccn3: "231"
-cioc: ETH
+# Government and political data
+officialName: Federal Democratic Republic of Ethiopia
+commonName: Ethiopia
+altSpellings: ["ET", "ʾĪtyōṗṗyā", "Federal Democratic Republic of Ethiopia", "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ"]
+fifa: ETH

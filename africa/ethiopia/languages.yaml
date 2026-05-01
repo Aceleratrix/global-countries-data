@@ -1,0 +1,35 @@
+# Language data
+languages:
+  amh: Amharic
+nativeName:
+  amh:
+    official: "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ"
+    common: "ኢትዮጵያ"
+translations:
+  ara:
+    official: "جمهورية إثيوبيا الفدرالية الديموقراطية"
+    common: "إثيوبيا"
+  bre:
+    official: "Republik Demokratel Kevredadel Etiopia"
+    common: "Etiopia"
+  ces:
+    official: "Etiopská federativní demokratická republika"
+    common: "Etiopie"
+  deu:
+    official: "Demokratische Bundesrepublik Äthiopien"
+    common: "Äthiopien"
+  fra:
+    official: "République fédérale démocratique d'Éthiopie"
+    common: "Éthiopie"
+  por:
+    official: "República Federal Democrática da Etiópia"
+    common: "Etiópia"
+  rus:
+    official: "Федеративная Демократическая Республика Эфиопия"
+    common: "Эфиопия"
+  spa:
+    official: "República Democrática Federal de Etiopía"
+    common: "Etiopía"
+  zho:
+    official: "埃塞俄比亚联邦民主共和国"
+    common: "埃塞俄比亚"

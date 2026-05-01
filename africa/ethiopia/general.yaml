@@ -1,0 +1,18 @@
+# General country metadata
+cca2: ET
+cca3: ETH
+ccn3: "231"
+cioc: ETH
+independent: true
+status: officially-assigned
+unMember: true
+idd:
+  root: "+2"
+  suffixes: ["51"]
+car:
+  signs: ["ETH"]
+  side: right
+startOfWeek: monday
+postalCode:
+  format: "####"
+  regex: "^(\\d{4})$"

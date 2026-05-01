@@ -1,16 +1,9 @@
-# Economy data for Ethiopia
-country: Ethiopia
-gdp_usd_trillion: 0.10
-global_economy_rank: 97
-currency:
-  code: ETB
-  name: Ethiopian birr
-  symbol: Br
-gini_index: 35.0  # 2015
-fifa_code: ETH
-main_industries:
-  - Agriculture
-  - Mining
-  - Manufacturing
-  - Services
-note: GDP figure from World Bank 2023 estimates, ranked 97th globally
+# Economic data
+gdpUSD: 0.10
+gdpRank: 97
+gini:
+  2015: 35.0
+currencies:
+  ETB:
+    symbol: Br
+    name: Ethiopian birr

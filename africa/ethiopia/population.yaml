@@ -1,6 +1,5 @@
-# Demographic details
+# Population data
 population: 111652998
-populationDensity: 101.2 # Calculated: 111652998 / 1104300 km²
 demonyms:
   eng:
     f: Ethiopian
@@ -8,3 +7,4 @@ demonyms:
   fra:
     f: Éthiopienne
     m: Éthiopien
+capital: ["Addis Ababa"]

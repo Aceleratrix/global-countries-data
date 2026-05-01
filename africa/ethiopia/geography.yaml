@@ -1,24 +1,12 @@
-# Geography data for Ethiopia
-country: Ethiopia
-official_name: Federal Democratic Republic of Ethiopia
+# Geographic data
 region: Africa
 subregion: Eastern Africa
 landlocked: true
-area_km2: 1104300.0
-borders:
-  - DJI
-  - ERI
-  - KEN
-  - SOM
-  - SSD
-  - SDN
-latlng:
-  - 8.0
-  - 38.0
+area: 1104300.0
+latlng: [8.0, 38.0]
+capitalInfo:
+  latlng: [9.03, 38.7]
 maps:
-  google_maps: https://goo.gl/maps/2Q4hQWCbhuZLj3fG6
-  open_street_maps: https://www.openstreetmap.org/relation/192800
-timezones:
-  - UTC+03:00
-continents:
-  - Africa
+  googleMaps: "https://goo.gl/maps/2Q4hQWCbhuZLj3fG6"
+  openStreetMaps: "https://www.openstreetmap.org/relation/192800"
+continents: ["Africa"]
