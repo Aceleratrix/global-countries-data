@@ -1,0 +1,20 @@
+# Basic country identifiers for Niger
+country_name_common: "Niger"
+country_name_official: "Republic of Niger"
+cca2: "NE"
+cca3: "NER"
+ccn3: "562"
+cioc: "NIG"
+tld: [".ne"]
+independent: true
+un_member: true
+status: "officially-assigned"
+flag_emoji: "🇳🇪"
+start_of_week: "monday"
+postal_code_format: "####"
+postal_code_regex: "^(\\d{4})$"
+idd_root: "+2"
+idd_suffixes: ["27"]
+car_signs: ["RN"]
+car_side: "right"
+fifa: "NIG"

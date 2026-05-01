@@ -1,0 +1,10 @@
+# Economic data for Niger
+gdp_trilion_usd: 0.08
+gdp_global_rank: 115
+currencies:
+  XOF:
+    symbol: "Fr"
+    name: "West African CFA franc"
+economy_type: "Developing, agriculture and mining reliant"
+key_industries: ["Agriculture", "Uranium mining", "Livestock", "Gold mining"]
+economy_notes: "One of the world's poorest countries by GDP per capita; over 80% of population employed in agriculture"

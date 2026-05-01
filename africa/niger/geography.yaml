@@ -1,0 +1,14 @@
+# Geographic data for Niger
+region: "Africa"
+subregion: "Western Africa"
+landlocked: true
+area_km2: 1267000.0
+borders: ["DZA", "BEN", "BFA", "TCD", "LBY", "MLI", "NGA"]
+latlng: [16.0, 8.0]
+capital: ["Niamey"]
+capital_latlng: [13.52, 2.12]
+timezones: ["UTC+01:00"]
+continents: ["Africa"]
+maps:
+  google_maps: "https://goo.gl/maps/VKNU2TLsZcgxM49c8"
+  open_street_maps: "https://www.openstreetmap.org/relation/192786"

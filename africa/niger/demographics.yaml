@@ -1,0 +1,29 @@
+# Demographic data for Niger
+population: 26312034
+demonyms:
+  eng:
+    m: "Nigerien"
+    f: "Nigerien"
+  fra:
+    m: "Nigérien"
+    f: "Nigérienne"
+languages:
+  fra: "French"
+native_names:
+  fra:
+    official: "République du Niger"
+    common: "Niger"
+translations:
+  ara:
+    official: "جمهورية النيجر"
+    common: "النيجر"
+  por:
+    official: "República do Níger"
+    common: "Níger"
+  rus:
+    official: "Республика Нигер"
+    common: "Нигер"
+  zho:
+    official: "尼日尔共和国"
+    common: "尼日尔"
+gini_index_2014: 34.3

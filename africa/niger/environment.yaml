@@ -1,0 +1,9 @@
+# Environmental data for Niger
+climate: "Hot desert to semi-arid; mostly dry, hot, and dusty"
+terrain: "Predominantly desert plains and sand dunes; hills in north"
+protected_areas:
+  - "Aïr and Ténéré Natural Reserve (UNESCO World Heritage Site)"
+  - "W National Park (UNESCO Biosphere Reserve)"
+  - "Termit and Tin Toumma National Nature Reserve"
+environmental_challenges: ["Desertification", "Deforestation", "Soil erosion", "Water scarcity"]
+renewable_energy_potential: "High solar potential; small hydropower and wind potential"

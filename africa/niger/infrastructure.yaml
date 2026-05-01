@@ -1,0 +1,11 @@
+# Infrastructure data for Niger
+transport:
+  road_network_km: ~18000 (paved ~3000 km)
+  rail_network_km: ~600 km (connects Niamey to Benin border)
+  airports: 30+ (main: Diori Hamani International Airport, Niamey)
+energy:
+  electricity_access_percent: ~19% (2021 est.)
+  main_sources: "Fossil fuels, hydropower, solar (growing)"
+telecommunications:
+  mobile_penetration_percent: ~50% (2022 est.)
+  internet_penetration_percent: ~15% (2022 est.)
