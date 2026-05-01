@@ -1,6 +1,7 @@
-# Demographics data
+# Demographics data for Suriname
 demographics:
   population: 616500
+  population_year: 2023
   languages:
     nld: "Dutch"
   demonyms:
@@ -10,3 +11,5 @@ demographics:
     fra:
       m: "Surinamais"
       f: "Surinamaise"
+  timezones: ["UTC-03:00"]
+  start_of_week: "monday"

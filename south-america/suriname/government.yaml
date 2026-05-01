@@ -1,7 +1,15 @@
-# Government data
+# Government data for Suriname
 government:
+  official_name: "Republic of Suriname"
   independent: true
   un_member: true
+  capital: ["Paramaribo"]
+  car:
+    signs: ["SME"]
+    side: "left"
   idd:
     root: "+5"
     suffixes: ["97"]
+  postal_code:
+    format: null
+    regex: null

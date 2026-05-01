@@ -1,0 +1,6 @@
+# Healthcare data for Suriname
+healthcare:
+  population: 616500
+  population_year: 2023
+  life_expectancy: null
+  healthcare_note: "Data sourced from REST Countries API v3.1"

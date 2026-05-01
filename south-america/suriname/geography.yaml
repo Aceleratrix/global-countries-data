@@ -1,11 +1,15 @@
-# Geography data
+# Geography data for Suriname
 geography:
-  capital: "Paramaribo"
-  capital_latlng: [5.83, -55.17]
-  area_km2: 163820.0
-  latlng: [4.0, -56.0]
+  region: "Americas"
+  subregion: "South America"
+  continent: "South America"
+  landlocked: false
+  area: 163820.0
+  area_unit: "km²"
   borders: ["BRA", "GUF", "GUY"]
+  latlng: [4.0, -56.0]
+  capital_info:
+    latlng: [5.83, -55.17]
   maps:
     google_maps: "https://goo.gl/maps/iy7TuQLSi4qgoBoG7"
     open_street_maps: "https://www.openstreetmap.org/relation/287082"
-  timezones: ["UTC-03:00"]

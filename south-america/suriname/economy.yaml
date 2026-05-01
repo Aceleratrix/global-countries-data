@@ -1,10 +1,11 @@
-# Economy data
+# Economy data for Suriname
 economy:
-  gdp_trilions_usd: 0.07
+  gdp_nominal_trillion: 0.07
   gdp_global_rank: 124
-  currencies:
-    SRD:
-      name: "Surinamese dollar"
-      symbol: "$"
-  gini:
-    1999: 57.9
+  currency:
+    code: "SRD"
+    name: "Surinamese dollar"
+    symbol: "$"
+  gini_index: 57.9
+  gini_year: 1999
+  economy_type: "Developing"

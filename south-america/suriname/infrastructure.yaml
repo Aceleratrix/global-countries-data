@@ -1,9 +1,9 @@
-# Infrastructure data
+# Infrastructure data for Suriname
 infrastructure:
-  tld: [".sr"]
+  timezones: ["UTC-03:00"]
+  driving_side: "left"
+  car_signs: ["SME"]
   idd:
     root: "+5"
     suffixes: ["97"]
-  postal_code:
-    format: null
-    regex: null
+  internet_domains: [".sr"]

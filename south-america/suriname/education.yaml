@@ -1,0 +1,6 @@
+# Education data for Suriname
+education:
+  languages:
+    - "Dutch (official)"
+  literacy_rate: null
+  education_note: "Dutch is the official language used in education"

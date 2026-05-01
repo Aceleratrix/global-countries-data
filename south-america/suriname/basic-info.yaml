@@ -1,0 +1,17 @@
+# Basic country information for Suriname
+country:
+  official_name: "Republic of Suriname"
+  common_name: "Suriname"
+  native_name:
+    nld:
+      official: "Republiek Suriname"
+      common: "Suriname"
+  codes:
+    cca2: "SR"
+    cca3: "SUR"
+    ccn3: "740"
+    cioc: "SUR"
+    fifa: "SUR"
+  independent: true
+  un_member: true
+  status: "officially-assigned"

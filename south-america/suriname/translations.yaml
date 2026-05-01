@@ -1,4 +1,4 @@
-# Translations of country names
+# Translations of country names for Suriname
 translations:
   ara:
     official: "جمهورية سورينام"
@@ -9,6 +9,9 @@ translations:
   ces:
     official: "Republika Surinam"
     common: "Surinam"
+  cym:
+    official: "Republic of Suriname"
+    common: "Suriname"
   deu:
     official: "Republik Suriname"
     common: "Suriname"
