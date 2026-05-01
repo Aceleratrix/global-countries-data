@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (39 / 195 = 20.0%)
+## 📊 Coverage Progress (51 / 195 = 26.2%)
 
 ### 🌎 South America (2/12 = 16.7%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -84,12 +84,13 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇷🇴 **Romania** | 13/13 | ✅ **100% COMPLETE** | 32nd largest economy ($0.40T), Bucharest (2M), EU/NATO member, Carpathian Mountains | English (en-US) |
 | 🇬🇷 **Greece** | 13/13 | ✅ **100% COMPLETE** | 42nd largest economy ($0.34T), Athens (4M), Parthenon, tourism 18% GDP, EU/Eurozone member | English (en-US) |
 
-### 🌍 Africa (3/54 = 5.6%)
+### 🌍 Africa (4/54 = 7.4%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇳🇬 **Nigeria** | 13/13 | ✅ **100% COMPLETE** | 28th largest economy ($0.48T), Africa's most populous (223M), fintech leader (4 unicorns), Nollywood | English (en-NG) |
 | 🇪🇬 **Egypt** | 13/13 | ✅ **100% COMPLETE** | 29th largest economy ($0.47T), Suez Canal, Pyramids of Giza, Nile River | Arabic (ar-EG) + English |
 | 🇰🇪 **Kenya** | 13/13 | ✅ **100% COMPLETE** | 41st largest economy ($0.34T), Nairobi (5M), Maasai Mara, athletics powerhouse (Kipchoge) | English (en-KE) + Swahili |
+| 🇿🇦 **South Africa** | 13/13 | ✅ **100% COMPLETE** | 46th largest economy ($0.32T), Pretoria (3M), Kruger National Park, Rainbow Nation, 2010 FIFA World Cup | English (en-ZA) + 10 others |
 
 ### 🌏 Oceania (1/14 = 7.1%)
 | Country | Files | Status | Key Highlights | Primary Language |

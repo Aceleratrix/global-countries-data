@@ -1,0 +1,9 @@
+healthcare_system: "Mixed public-private system"
+public_healthcare: "Free for pregnant women, children under 6, and low-income households"
+private_healthcare: "Used by ~20% of population, high quality"
+major_challenges:
+  - "HIV/AIDS prevalence: ~13.7% (15-49 years, 2023)"
+  - "Tuberculosis (TB) high burden"
+  - "Staff shortages in public sector"
+life_expectancy: "61.5 years (2023, WHO)"
+maternal_mortality: "127 deaths per 100,000 live births (2023)"

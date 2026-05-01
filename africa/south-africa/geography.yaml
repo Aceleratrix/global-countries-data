@@ -1,0 +1,20 @@
+area:
+  total: "1,221,037 km²"
+  land: "1,214,470 km²"
+  water: "6,567 km²"
+location: "Southern Africa, bordering the South Atlantic Ocean and Indian Ocean"
+borders:
+  - "Namibia"
+  - "Botswana"
+  - "Zimbabwe"
+  - "Mozambique"
+  - "Eswatini"
+enclave: "Lesotho (entirely surrounded by South Africa)"
+major_landforms:
+  - "Drakensberg Mountains"
+  - "Great Escarpment"
+  - "Kalahari Desert (northwest)"
+  - "Cape Fold Belt"
+climate: "Mostly semi-arid; subtropical along east coast, Mediterranean in southwest"
+lowest_point: "Atlantic Ocean 0m"
+highest_point: "Mafadi 3,450m"

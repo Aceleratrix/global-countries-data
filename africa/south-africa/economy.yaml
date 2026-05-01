@@ -1,0 +1,17 @@
+gdp:
+  total: "$0.32T"
+  rank_global: 46
+  year: 2023
+  source: "World Bank"
+currency:
+  code: "ZAR"
+  name: "South African Rand"
+  symbol: "R"
+major_industries:
+  - "Mining (gold, platinum, diamonds)"
+  - "Automotive manufacturing"
+  - "Agriculture (citrus, wine, maize)"
+  - "Tourism"
+  - "Financial services"
+unemployment_rate: "32.9%" # 2023 Q4, Stats SA
+inflation_rate: "5.4%" # 2023 average, SARB

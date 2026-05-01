@@ -1,0 +1,21 @@
+population:
+  total: 60140000
+  year: 2023
+  density: "49.3 per km²"
+age_structure:
+  - "0-14 years: 27.6%"
+  - "15-64 years: 66.3%"
+  - "65+ years: 6.1%"
+life_expectancy: "61.5 years (2023, WHO)"
+urban_population: "67.4%"
+major_ethnic_groups:
+  - "Black African: 81.4%"
+  - "Coloured: 8.2%"
+  - "White: 7.3%"
+  - "Indian/Asian: 2.7%"
+religions:
+  - "Christianity: 85.3%"
+  - "Traditional African religions: 5.4%"
+  - "Islam: 1.7%"
+  - "Hinduism: 1.1%"
+  - "Other/None: 6.5%"

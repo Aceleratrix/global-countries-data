@@ -1,0 +1,11 @@
+transport:
+  - "Roads: 750,000 km total (2023)"
+  - "Rail: 22,000 km (mostly freight)"
+  - "Airports: 407 (including OR Tambo International Airport, Johannesburg)"
+energy:
+  - "Primary source: Coal (70% of electricity)"
+  - "Eskom: State-owned power utility, frequent load shedding"
+  - "Renewables: Growing wind and solar capacity"
+telecommunications:
+  - "Mobile penetration: ~90%"
+  - "Internet penetration: ~68% (2023)"
