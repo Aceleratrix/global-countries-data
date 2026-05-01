@@ -1,0 +1,22 @@
+country: Palau
+code_alpha2: PW
+code_alpha3: PLW
+region: Oceania
+subregion: Micronesia
+capital: Ngerulmud
+coordinates:
+  latitude: 7.5149
+  longitude: 134.5825
+area_km2: 459
+islands_count: ~340
+major_islands:
+  - Babeldaob
+  - Koror
+  - Peleliu
+  - Angaur
+borders: []
+coastline_km: 1519
+terrain: Volcanic and limestone islands, surrounded by coral reefs
+elevation:
+  highest_point: Mount Ngerchelchuus (242m)
+  lowest_point: Pacific Ocean (0m)

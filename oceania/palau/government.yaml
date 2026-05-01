@@ -1,0 +1,17 @@
+country: Palau
+government_type: Presidential representative democratic republic
+independence_date: 1994-10-01
+from: UN Trusteeship under US administration
+head_of_state: President
+head_of_government: President
+legislature:
+  name: Palau National Congress (Olbiil era Kelulau)
+  chambers:
+    - Senate (13 seats)
+    - House of Delegates (16 seats)
+judicial_branch: Supreme Court of Palau
+international_organizations:
+  - United Nations
+  - Pacific Islands Forum
+  - International Monetary Fund
+compact_with_us: "Compact of Free Association with the United States (valid through 2024, extended)"

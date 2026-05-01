@@ -1,0 +1,22 @@
+country: Palau
+population_2023: 18092
+population_growth_rate: 0.54%
+population_density: 39.4 per km2
+ethnic_groups:
+  - Palauan (73.5%)
+  - Filipino (16.3%)
+  - Chinese (4.9%)
+  - Other Asian (1.9%)
+  - White (1.2%)
+  - Other (2.2%)
+languages:
+  official:
+    - English
+    - Palauan
+  spoken:
+    - Japanese
+    - Tagalog
+    - Chinese
+median_age: 33.3 years
+urban_population: 81.1%
+life_expectancy: 73.9 years

@@ -1,0 +1,23 @@
+country: Palau
+gdp_nominal_usd: 0.05T
+gdp_global_rank: 173
+gdp_per_capita_usd: ~$18,000 (2023 estimate)
+currency:
+  code: USD
+  name: United States Dollar
+  symbol: $
+main_industries:
+  - Tourism
+  - Fishing
+  - Agriculture (taro, coconuts, bananas)
+  - Construction
+export_partners:
+  - United States
+  - Japan
+  - Taiwan
+import_partners:
+  - United States
+  - Japan
+  - Singapore
+unemployment_rate: 4.2%
+inflation_rate: 2.1%
