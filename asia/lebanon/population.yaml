@@ -1,0 +1,9 @@
+# Population data
+population: 5490000
+demonyms:
+  eng:
+    f: "Lebanese"
+    m: "Lebanese"
+  fra:
+    f: "Libanaise"
+    m: "Libanais"

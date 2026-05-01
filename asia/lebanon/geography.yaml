@@ -1,0 +1,17 @@
+# Geographic data
+region: "Asia"
+subregion: "Western Asia"
+landlocked: false
+area: 10452.0
+latlng:
+  - 33.83333333
+  - 35.83333333
+maps:
+  google_maps: "https://goo.gl/maps/Sz5VCU8UFBqMyTdc9"
+  open_street_maps: "https://www.openstreetmap.org/relation/184843"
+capital_info:
+  latlng:
+    - 33.87
+    - 35.5
+capital: "Beirut"
+continent: "Asia"

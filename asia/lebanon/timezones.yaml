@@ -1,0 +1,4 @@
+# Timezone and weekly schedule data
+timezones:
+  - "UTC+02:00"
+start_of_week: "monday"

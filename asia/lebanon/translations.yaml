@@ -1,0 +1,77 @@
+# Translations of country name
+translations:
+  ara:
+    official: "الجمهورية اللبنانية"
+    common: "لبنان"
+  bre:
+    official: "Republik Liban"
+    common: "Liban"
+  ces:
+    official: "Libanonská republika"
+    common: "Libanon"
+  deu:
+    official: "Libanesische Republik"
+    common: "Libanon"
+  est:
+    official: "Liibanoni Vabariik"
+    common: "Liibanon"
+  fin:
+    official: "Libanonin tasavalta"
+    common: "Libanon"
+  fra:
+    official: "République libanaise"
+    common: "Liban"
+  hrv:
+    official: "Libanonska Republika"
+    common: "Libanon"
+  hun:
+    official: "Libanoni Köztársaság"
+    common: "Libanon"
+  ind:
+    official: "Republik Libanon"
+    common: "Libanon"
+  ita:
+    official: "Repubblica libanese"
+    common: "Libano"
+  jpn:
+    official: "レバノン共和国"
+    common: "レバノン"
+  kor:
+    official: "레바논 공화국"
+    common: "레바논"
+  nld:
+    official: "Libanese Republiek"
+    common: "Libanon"
+  per:
+    official: "جمهوری لبنان"
+    common: "لبنان"
+  pol:
+    official: "Republika Libańska"
+    common: "Liban"
+  por:
+    official: "República Libanesa"
+    common: "Líbano"
+  rus:
+    official: "Ливанская Республика"
+    common: "Ливан"
+  slk:
+    official: "Libanonská republika"
+    common: "Libanon"
+  spa:
+    official: "República Libanesa"
+    common: "Líbano"
+  srp:
+    official: "Либанска Република"
+    common: "Либан"
+  swe:
+    official: "Republiken Libanon"
+    common: "Libanon"
+  tur:
+    official: "Lübnan Cumhuriyeti"
+    common: "Lübnan"
+  urd:
+    official: "جمہوریہ لبنان"
+    common: "لبنان"
+  zho:
+    official: "黎巴嫩共和国"
+    common: "黎巴嫩"

@@ -1,0 +1,4 @@
+# Bordering countries
+borders:
+  - "ISR"  # Israel
+  - "SYR"  # Syria

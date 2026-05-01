@@ -1,0 +1,21 @@
+# General country identifiers and names
+cca2: "LB"
+cca3: "LBN"
+ccn3: "422"
+cioc: "LBN"
+common_name: "Lebanon"
+official_name: "Lebanese Republic"
+native_names:
+  ara:
+    official: "الجمهورية اللبنانية"
+    common: "لبنان"
+  fra:
+    official: "République libanaise"
+    common: "Liban"
+alt_spellings:
+  - "LB"
+  - "Lebanese Republic"
+  - "Al-Jumhūrīyah Al-Libnānīyah"
+independent: true
+un_member: true
+status: "officially-assigned"

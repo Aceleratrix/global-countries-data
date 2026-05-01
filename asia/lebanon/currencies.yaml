@@ -1,0 +1,5 @@
+# Currencies
+currencies:
+  LBP:
+    name: "Lebanese pound"
+    symbol: "ل.ل"

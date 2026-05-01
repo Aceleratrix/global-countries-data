@@ -1,0 +1,16 @@
+# Demographics and additional details
+car:
+  signs:
+    - "RL"
+  side: "right"
+idd:
+  root: "+9"
+  suffixes:
+    - "61"
+fifa: "LBN"
+coat_of_arms:
+  png: "https://mainfacts.com/media/images/coats_of_arms/lb.png"
+  svg: "https://mainfacts.com/media/images/coats_of_arms/lb.svg"
+postal_code:
+  format: "#### ####|####"
+  regex: "^(\\d{4}(\\d{4})?)$"
