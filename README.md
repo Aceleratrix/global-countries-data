@@ -152,11 +152,12 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇪🇷 **Eritrea** | 13/13 | ✅ **100% COMPLETE** | 160th largest economy ($0.05T), Asmara (capital, UNESCO World Heritage Site), borders Djibouti/Ethiopia/Sudan, 3.5M population | English (en-ER) + Tigrinya/Arabic |
 | 🇸🇨 **Seychelles** | 13/13 | ✅ **100% COMPLETE** | 161st largest economy ($0.05T), Victoria (capital), Indian Ocean archipelago, no land borders, 122.7K population | English (en-SC) + Seychellois Creole + French |
 
-### 🌏 Oceania (2/14 = 14.3%)
+### 🌏 Oceania (3/14 = 21.4%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇦🇺 **Australia** | 13/13 | ✅ **100% COMPLETE** | Big 4 banks, Canva $40B, AI Action Plan $124M, 92% digital banking, APEC | English (en-AU) |
 | 🇫🇯 **Fiji** | 13/13 | ✅ **100% COMPLETE** | 127th largest economy ($0.07T), Suva (185K), tourism 40% GDP, Pacific Islands Forum, Commonwealth | English (en-FJ) + Fijian + Hindi |
+| 🇳🇷 **Nauru** | 13/13 | ✅ **100% COMPLETE** | 174th largest economy ($0.05T), Yaren (de facto capital), world's smallest island nation (21 km²), phosphate mining history | English (en-NR) + Nauru |
 
 **Total: 388 structured YAML files covering 30 countries across 5 continents!**
 
