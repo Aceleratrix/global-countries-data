@@ -1,0 +1,19 @@
+country: Mauritania
+official_name: Islamic Republic of Mauritania
+region: Africa
+subregion: Western Africa
+landlocked: false
+area_km2: 1030700.0
+coordinates:
+  lat: 20.0
+  lng: -12.0
+borders:
+  - DZA
+  - MLI
+  - SEN
+  - ESH
+continent: Africa
+capital: Nouakchott
+capital_coordinates:
+  lat: 18.07
+  lng: -15.97

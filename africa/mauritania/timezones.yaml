@@ -1,0 +1,8 @@
+country: Mauritania
+timezones:
+  - UTC
+idd:
+  root: "+2"
+  suffixes:
+    - "22"
+dialing_code: "+222"

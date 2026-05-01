@@ -1,0 +1,20 @@
+country: Mauritania
+languages:
+  ara: Arabic
+native_names:
+  ara:
+    official: الجمهورية الإسلامية الموريتانية
+    common: موريتانيا
+translations:
+  eng:
+    official: Islamic Republic of Mauritania
+    common: Mauritania
+  fra:
+    official: République islamique de Mauritanie
+    common: Mauritanie
+  por:
+    official: República Islâmica da Mauritânia
+    common: Mauritânia
+  spa:
+    official: República Islámica de Mauritania
+    common: Mauritania

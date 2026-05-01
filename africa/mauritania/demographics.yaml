@@ -1,0 +1,14 @@
+country: Mauritania
+population: 4927532
+gini_index: 32.6
+gini_year: 2014
+demonyms:
+  eng:
+    m: Mauritanian
+    f: Mauritanian
+  fra:
+    m: Mauritanien
+    f: Mauritanienne
+start_of_week: monday
+timezones:
+  - UTC

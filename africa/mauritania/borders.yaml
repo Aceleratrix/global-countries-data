@@ -1,0 +1,10 @@
+country: Mauritania
+border_countries:
+  - code: DZA
+    name: Algeria
+  - code: MLI
+    name: Mali
+  - code: SEN
+    name: Senegal
+  - code: ESH
+    name: Western Sahara

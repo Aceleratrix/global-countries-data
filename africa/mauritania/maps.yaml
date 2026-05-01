@@ -1,0 +1,7 @@
+country: Mauritania
+maps:
+  google_maps: https://goo.gl/maps/im2MmQ5jFjzxWBks5
+  openstreetmap: https://www.openstreetmap.org/relation/192763
+tld: .mr
+postal_code_format: null
+postal_code_regex: null
