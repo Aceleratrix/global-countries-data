@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (124 / 195 = 63.6%)
+## 📊 Coverage Progress (125 / 195 = 64.1%)
 
 ### 🌎 South America (6/12 = 50.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -47,7 +47,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇸🇷 **Suriname** | 13/13 | ✅ **100% COMPLETE** | 124th largest economy ($0.07T), Paramaribo (616K), Dutch-speaking, borders Brazil/French Guiana/Guyana | Dutch (nld) + English |
 | 🇵🇪 **Peru** | 13/13 | ✅ **100% COMPLETE** | 138th largest economy ($0.06T), Lima (10M), Machu Picchu, Andes/Amazon, 33M population | Spanish (es-PE) + English |
 
-### 🌎 North America (10/23 = 43.5%)
+### 🌎 North America (11/23 = 47.8%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇺🇸 **USA** | 13/13 | ✅ **100% COMPLETE** | Silicon Valley, Section 230, 20+ cloud regions | English (en-US) |
@@ -61,6 +61,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇧🇿 **Belize** | 13/13 | ✅ **100% COMPLETE** | 132nd largest economy ($0.06T), Belmopan (capital), Caribbean coast, Belize Barrier Reef | English (en-BZ) + Spanish |
 | 🇱🇨 **Saint Lucia** | 13/13 | ✅ **100% COMPLETE** | 164th largest economy ($0.05T), Castries (capital), Caribbean island, Pitons UNESCO site, tourism 40% GDP | English (en-LC) + Saint Lucian Creole French |
 | 🇬🇩 **Grenada** | 13/13 | ✅ **100% COMPLETE** | 165th largest economy ($0.05T), St. George's (capital), Caribbean island, nutmeg production, tourism | English (en-GD) + English |
+| 🇻🇨 **Saint Vincent and the Grenadines** | 13/13 | ✅ **100% COMPLETE** | 166th largest economy ($0.05T), Kingstown (capital), Caribbean archipelago of 32 islands, tourism 40% GDP | English (en-VC) + Vincentian Creole English |
 
 ### 🌏 Asia (20/50 = 40.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
