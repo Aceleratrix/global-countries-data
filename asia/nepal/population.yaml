@@ -1,0 +1,12 @@
+# Population data for Nepal
+country: Nepal
+population: 29911840
+demonyms:
+  eng:
+    m: Nepalese
+    f: Nepalese
+  fra:
+    m: Népalais
+    f: Népalaise
+gini_index:
+  2010: 32.8

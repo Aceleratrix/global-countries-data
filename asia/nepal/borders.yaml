@@ -1,0 +1,11 @@
+# Borders data for Nepal
+country: Nepal
+landlocked: true
+borders:
+  - country_code: CHN
+    name: China
+  - country_code: IND
+    name: India
+idd:
+  root: "+9"
+  suffixes: ["77"]

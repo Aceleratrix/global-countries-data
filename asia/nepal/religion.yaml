@@ -1,0 +1,4 @@
+# Religion data for Nepal
+country: Nepal
+note: "Religion data not included in REST Countries API v3.1 response"
+common_religions: "Hinduism (majority), Buddhism, Islam, others (per general knowledge)"

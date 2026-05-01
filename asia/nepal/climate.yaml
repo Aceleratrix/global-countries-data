@@ -1,0 +1,4 @@
+# Climate data for Nepal
+country: Nepal
+note: "Climate data not included in REST Countries API v3.1 response"
+general_climate: "Varied from tropical in southern plains to alpine in Himalayan region"

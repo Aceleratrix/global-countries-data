@@ -1,0 +1,9 @@
+# Economy data for Nepal
+country: Nepal
+gdp_rank: 101
+gdp_trillion_usd: 0.09
+currencies:
+  NPR:
+    name: Nepalese rupee
+    symbol: "₨"
+fifa_code: NEP

@@ -1,0 +1,6 @@
+# Timezone data for Nepal
+country: Nepal
+timezones:
+  - "UTC+05:45"
+continents:
+  - Asia

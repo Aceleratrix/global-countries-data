@@ -1,0 +1,17 @@
+# Geography data for Nepal
+country: Nepal
+official_name: Federal Democratic Republic of Nepal
+region: Asia
+subregion: Southern Asia
+landlocked: true
+area_km2: 147181.0
+coordinates:
+  lat: 28.0
+  lng: 84.0
+capital: Kathmandu
+capital_coordinates:
+  lat: 27.72
+  lng: 85.32
+maps:
+  google_maps: https://goo.gl/maps/UMj2zpbQp7B5c3yT7
+  openstreet_maps: https://www.openstreetmap.org/relation/184633

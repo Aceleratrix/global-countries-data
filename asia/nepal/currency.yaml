@@ -1,0 +1,9 @@
+# Currency data for Nepal
+country: Nepal
+currencies:
+  NPR:
+    name: Nepalese rupee
+    symbol: "₨"
+postal_code:
+  format: "#####"
+  regex: "^(\\d{5})$"

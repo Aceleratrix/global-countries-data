@@ -1,0 +1,9 @@
+# Government data for Nepal
+country: Nepal
+independent: true
+un_member: true
+status: officially-assigned
+start_of_week: sunday
+car:
+  signs: ["NEP"]
+  side: left

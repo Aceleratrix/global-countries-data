@@ -1,0 +1,7 @@
+# Culture data for Nepal
+country: Nepal
+flag_emoji: "🇳🇵"
+flag_description: "The flag of Nepal is the world's only non-quadrilateral flag of a sovereign country. It takes the shape of two adjoining right-angled triangles and has a crimson red field with deep blue edges. Within the smaller upper triangle is an emblem of the upper half of a white sun resting on an upward facing white crescent. The lower triangle bears a white sun with twelve rays."
+coat_of_arms:
+  png: https://mainfacts.com/media/images/coats_of_arms/np.png
+  svg: https://mainfacts.com/media/images/coats_of_arms/np.svg

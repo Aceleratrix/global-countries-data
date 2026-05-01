@@ -1,0 +1,15 @@
+# Language data for Nepal
+country: Nepal
+languages:
+  nep: Nepali
+native_name:
+  nep:
+    official: "नेपाल संघीय लोकतान्त्रिक गणतन्त्र"
+    common: "नेपाल"
+translations:
+  eng:
+    official: Federal Democratic Republic of Nepal
+    common: Nepal
+  spa:
+    official: República Democrática Federal de Nepal
+    common: Nepal
