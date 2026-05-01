@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-| ![Status: 118/195 (60.5%) Complete](https://img.shields.io/badge/Status-118/195 (60.5%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 120/195 (61.5%) Complete](https://img.shields.io/badge/Status-120/195%20(61.5%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (115 / 195 = 59.0%)
+## 📊 Coverage Progress (119 / 195 = 61.0%)
 
 ### 🌎 South America (6/12 = 50.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -144,6 +144,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇹🇬 **Togo** | 13/13 | ✅ **100% COMPLETE** | 148th largest economy ($0.05T), Lomé (capital), West Africa, borders Benin/Burkina Faso/Ghana, Togolese Republic | French (fr-TG) + English |
 | 🇨🇫 **Central African Republic** | 13/13 | ✅ **100% COMPLETE** | 149th largest economy ($0.05T), Bangui (capital), landlocked Central Africa, borders 6 countries, Central African CFA franc | French (fr-CF) + Sango + English |
 | 🇸🇿 **Eswatini** | 13/13 | ✅ **100% COMPLETE** | 150th largest economy ($0.05T), Mbabane (administrative)/Lobamba (legislative), absolute monarchy, Swazi lilangeni currency | English (en-SZ) + Swati |
+| 🇬🇦 **Gabon** | 13/13 | ✅ **100% COMPLETE** | 153rd largest economy ($0.05T), Libreville (capital), Middle Africa, 85% forest cover, Central African CFA franc | French (fr-GA) + English |
 
 ### 🌏 Oceania (2/14 = 14.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
