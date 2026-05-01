@@ -1,0 +1,27 @@
+# Equatorial Guinea Culture Data
+native_names:
+  fra:
+    official: République de Guinée équatoriale
+    common: Guinée équatoriale
+  por:
+    official: República da Guiné Equatorial
+    common: Guiné Equatorial
+  spa:
+    official: República de Guinea Ecuatorial
+    common: Guinea Ecuatorial
+translations:
+  ara:
+    official: جمهورية غينيا الاستوائية
+    common: غينيا الاستوائية
+  deu:
+    official: Republik Äquatorialguinea
+    common: Äquatorialguinea
+  jpn:
+    official: 赤道ギニア共和国
+    common: 赤道ギニア
+  rus:
+    official: Республика Экваториальная Гвинея
+    common: Экваториальная Гвинея
+  zho:
+    official: 赤道几内亚共和国
+    common: 赤道几内亚

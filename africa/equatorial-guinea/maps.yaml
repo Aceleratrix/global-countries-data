@@ -1,0 +1,8 @@
+# Equatorial Guinea Maps Data
+maps:
+  google_maps: https://goo.gl/maps/ucWfFd8aW1FbGMva9
+  open_street_maps: https://www.openstreetmap.org/relation/192791
+capital_info:
+  latlng:
+    - 1.35
+    - 10.49

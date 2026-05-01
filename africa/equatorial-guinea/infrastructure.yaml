@@ -1,0 +1,12 @@
+# Equatorial Guinea Infrastructure Data
+car:
+  signs:
+    - GQ
+  side: right
+idd:
+  root: "+2"
+  suffixes:
+    - "240"
+postal_code:
+  format: null
+  regex: null

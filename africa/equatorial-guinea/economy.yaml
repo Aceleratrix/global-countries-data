@@ -1,0 +1,7 @@
+# Equatorial Guinea Economic Data
+gdp_ranking: 154
+gdp_trilion_usd: 0.05
+currency:
+  code: XAF
+  name: Central African CFA franc
+  symbol: Fr
