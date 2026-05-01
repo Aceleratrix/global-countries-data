@@ -1,0 +1,24 @@
+# Somalia Economy Data
+gdp:
+  nominal_usd: 0.06 # Trillions
+  global_rank: 142
+  growth_rate: 2.5 # % annual est
+currency:
+  code: SOS
+  name: Somali shilling
+  symbol: S/-
+main_sectors:
+  - agriculture
+  - livestock
+  - remittances
+  - telecom
+trade_partners:
+  exports:
+    - Ethiopia
+    - Djibouti
+    - UAE
+  imports:
+    - China
+    - India
+    - Turkey
+    - UAE

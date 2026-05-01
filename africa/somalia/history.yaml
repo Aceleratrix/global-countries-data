@@ -1,0 +1,12 @@
+# Somalia History Data
+key_events:
+  - 1960-07-01: Independence from Italy and UK, unification of Somali territories
+  - 1969-10-21: Military coup led by Siad Barre
+  - 1991: Collapse of central government, start of civil war
+  - 2012-08-20: Establishment of Federal Government of Somalia
+  - 2017-02-08: First direct presidential election since 1967
+  - 2022-05-15: Hassan Sheikh Mohamud re-elected as president
+colonial_period:
+  - British Somaliland (north)
+  - Italian Somaliland (south)
+referendum_1961: Voted to join Somali Republic

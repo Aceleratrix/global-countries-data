@@ -1,0 +1,13 @@
+# Somalia Government Data
+official_name: Federal Republic of Somalia
+government_type: Federal parliamentary republic
+independence:
+  date: 1960-07-01
+  from:
+    - Italy (Trust Territory of Somalia)
+    - United Kingdom (State of Somaliland)
+capital: Mogadishu
+administrative_divisions: 6 federal member states + Banaadir region
+current_president: Hassan Sheikh Mohamud
+current_prime_minister: Hamza Abdi Barre
+iego_un_member: 1960-09-20

@@ -1,0 +1,20 @@
+# Somalia Language Data
+official_languages:
+  - Somali
+  - Arabic
+dialects:
+  somali:
+    - Northern Somali (Maxaa Tiri)
+    - Benaadir
+    - Maay
+    - Coastal Somali
+writing_systems:
+  somali: Latin script (official), Osmanya script (historical)
+  arabic: Arabic script
+second_languages:
+  - English
+  - Italian
+spoken_percentage:
+  somali: 95
+  arabic: 35
+  english: 15

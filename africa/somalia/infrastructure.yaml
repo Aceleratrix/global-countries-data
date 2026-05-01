@@ -1,0 +1,21 @@
+# Somalia Infrastructure Data
+transport:
+  roads_km: 22000
+  paved_roads_pct: 15
+  airports: 62
+  major_ports:
+    - Mogadishu
+    - Berbera
+    - Kismayo
+energy:
+  electricity_access_pct: 38
+  main_sources:
+    - diesel_generators
+    - solar
+telecom:
+  mobile_subscriptions_per_100: 64
+  internet_users_pct: 22
+  main_providers:
+    - Hormuud Telecom
+    - Somtel
+    - Golis Telecom

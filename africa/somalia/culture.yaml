@@ -1,0 +1,23 @@
+# Somalia Culture Data
+religion:
+  muslim_sunni: 99.9
+  other: 0.1
+traditional_clothing:
+  men: macawis (sarong), khamis (shirt)
+  women: dirac (long dress), garbasaar (headscarf)
+cuisine:
+  staple_foods:
+    - injera (flatbread)
+    - rice
+    - pasta
+    - meat (goat, camel)
+  national_dish: Bariis iskukaris (spiced rice)
+arts:
+  - poetry (highly valued, oral tradition)
+  - weaving
+  - wood carving
+holidays:
+  - Eid al-Fitr
+  - Eid al-Adha
+  - Independence Day (July 1)
+  - Mawlid (Prophet Muhammad's birthday)

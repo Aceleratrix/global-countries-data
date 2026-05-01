@@ -1,0 +1,18 @@
+# Somalia Demographics Data
+population:
+  total: 17600000
+  year: 2023
+  density: 27.6 # per km²
+  growth_rate: 2.8 # % annual
+age_structure:
+  under_15: 45.2
+ 15_to_64: 52.3
+  over_65: 2.5
+ethnic_groups:
+  somali: 85
+  arab: 2
+  bantu: 1
+  other: 12
+religion:
+  muslim: 99.9
+  other: 0.1

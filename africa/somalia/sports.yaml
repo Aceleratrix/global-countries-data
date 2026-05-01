@@ -1,0 +1,15 @@
+# Somalia Sports Data
+national_sport: Football
+popular_sports:
+  - football
+  - basketball
+  - athletics
+  - volleyball
+national_football_team: Somalia national football team
+olympic_participation: Debut 1972 Munich, 9 total participations
+notable_athletes:
+  - Mo Farah (born in Somalia, UK athlete, 4x Olympic gold)
+  - Abdi Bile (1990 World Championship 1500m gold)
+sports_infrastructure:
+  - Mogadishu Stadium (football)
+  - Hargeisa Stadium (football)

@@ -1,0 +1,15 @@
+# Somalia Geography Data
+area_km2: 637657
+region: Africa
+subregion: Eastern Africa
+capital: Mogadishu
+borders:
+  - Ethiopia
+  - Djibouti
+  - Kenya
+coastline_km: 3300
+terrain: Mostly plateau with mountains in north, semiarid in south
+elevation:
+  lowest_point: Indian Ocean (0m)
+  highest_point: Shimbiris (2416m)
+timezone: UTC+3

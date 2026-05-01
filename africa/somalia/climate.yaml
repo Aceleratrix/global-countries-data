@@ -1,0 +1,14 @@
+# Somalia Climate Data
+climate_type: Arid to semi-arid
+temperature:
+  average_annual_c: 27
+  hottest_month: June (34°C avg)
+  coolest_month: January (22°C avg)
+precipitation:
+  annual_mm: 280
+  wet_season: April-May, October-November
+  dry_season: December-March, June-September
+natural_hazards:
+  - droughts
+  - floods (during heavy rains)
+  - dust storms
