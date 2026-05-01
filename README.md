@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 122/195 (62.6%) Complete](https://img.shields.io/badge/Status-122/195%20(62.6%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 123/195 (63.1%) Complete](https://img.shields.io/badge/Status-123/195%20(63.1%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -47,7 +47,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇸🇷 **Suriname** | 13/13 | ✅ **100% COMPLETE** | 124th largest economy ($0.07T), Paramaribo (616K), Dutch-speaking, borders Brazil/French Guiana/Guyana | Dutch (nld) + English |
 | 🇵🇪 **Peru** | 13/13 | ✅ **100% COMPLETE** | 138th largest economy ($0.06T), Lima (10M), Machu Picchu, Andes/Amazon, 33M population | Spanish (es-PE) + English |
 
-### 🌎 North America (11/23 = 47.8%)
+### 🌎 North America (12/23 = 52.2%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇺🇸 **USA** | 13/13 | ✅ **100% COMPLETE** | Silicon Valley, Section 230, 20+ cloud regions | English (en-US) |
@@ -62,6 +62,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇱🇨 **Saint Lucia** | 13/13 | ✅ **100% COMPLETE** | 164th largest economy ($0.05T), Castries (capital), Caribbean island, Pitons UNESCO site, tourism 40% GDP | English (en-LC) + Saint Lucian Creole French |
 | 🇬🇩 **Grenada** | 13/13 | ✅ **100% COMPLETE** | 165th largest economy ($0.05T), St. George's (capital), Caribbean island, nutmeg production, tourism | English (en-GD) + English |
 | 🇻🇨 **Saint Vincent and the Grenadines** | 13/13 | ✅ **100% COMPLETE** | 166th largest economy ($0.05T), Kingstown (capital), Caribbean archipelago of 32 islands, tourism 40% GDP | English (en-VC) + Vincentian Creole English |
+| 🇩🇲 **Dominica** | 13/13 | ✅ **100% COMPLETE** | 168th largest economy ($0.05T), Roseau (capital), Caribbean island nation, Morne Trois Pitons UNESCO site, Eastern Caribbean Dollar | English (en-DM) + Dominican Creole French |
 
 ### 🌏 Asia (20/50 = 40.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
