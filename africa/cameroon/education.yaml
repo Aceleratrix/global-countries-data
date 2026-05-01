@@ -1,0 +1,9 @@
+# Education data for Cameroon
+literacy_rate: 77% (2022)
+education_system: 6-3-3-4 structure (primary, lower secondary, upper secondary, tertiary)
+compulsory_education: 6 years (ages 6-12)
+higher_education:
+  - University of Yaoundé I
+  - University of Douala
+  - University of Buea
+student_teacher_ratio: 30:1 (primary education)

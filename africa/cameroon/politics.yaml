@@ -1,0 +1,13 @@
+# Politics data for Cameroon
+government_type: Unitary semi-presidential republic
+head_of_state: President (Paul Biya as of 2024)
+head_of_government: Prime Minister
+administrative_divisions:
+  - 10 regions
+political_parties:
+  - Cameroon People's Democratic Movement (CPDM)
+  - Social Democratic Front (SDF)
+  - Other smaller parties
+independence:
+  date: 1960-01-01
+  from: France (part), UK (part via UN trusteeship)

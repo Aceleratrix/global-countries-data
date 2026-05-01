@@ -1,0 +1,14 @@
+# Health data for Cameroon
+life_expectancy: 59 years (2023)
+infant_mortality: 52 per 1000 live births (2023)
+health_expenditure: 5.2% of GDP (2022)
+major_diseases:
+  - Malaria
+  - HIV/AIDS
+  - Tuberculosis
+medical_facilities:
+  - 1200+ health centers
+  - 150+ hospitals
+vaccination_coverage:
+  - DPT: 85%
+  - Measles: 80%

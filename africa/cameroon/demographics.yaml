@@ -1,0 +1,24 @@
+# Demographics data for Cameroon
+population:
+  total: 27198628
+  year: 2023
+  density: 57
+  unit: people per km²
+ethnic_groups:
+  - Bamileke: 38%
+  - Fulani: 14%
+  - Tikar: 7%
+  - Other: 41%
+religions:
+  - Christianity: 70%
+  - Islam: 20%
+  - Traditional beliefs: 10%
+languages:
+  official:
+    - English
+    - French
+  indigenous:
+    - Bamileke languages
+    - Fulfulde
+    - Tikar
+urban_population: 58%

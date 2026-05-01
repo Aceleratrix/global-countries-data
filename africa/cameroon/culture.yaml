@@ -1,0 +1,18 @@
+# Culture data for Cameroon
+national_symbols:
+  flag: Three vertical stripes (green, red, yellow) with yellow star on red
+  anthem: "O Cameroon, Cradle of Our Fathers"
+  animal: Lion
+  flower: Red stinkwood
+traditional_music:
+  - Makossa
+  - Bikutsi
+  - Highlife
+cuisine:
+  - Ndolé (bitterleaf stew)
+  - Jollof rice
+  - Plantains
+  - Fufu
+festivals:
+  - National Day (May 20)
+  - Youth Day (February 11)

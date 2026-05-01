@@ -1,0 +1,17 @@
+# Infrastructure data for Cameroon
+transport:
+  roads: 120000 km total (2021)
+  railways: 1000 km (2021)
+  airports: 34 (2024)
+  major_ports:
+    - Douala
+    - Kribi
+energy:
+  electricity_access: 65% (2022)
+  main_sources:
+    - Hydropower
+    - Natural gas
+    - Oil
+telecommunications:
+  mobile_subscriptions: 89 per 100 people (2023)
+  internet_penetration: 42% (2023)

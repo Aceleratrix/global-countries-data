@@ -1,0 +1,10 @@
+# Military data for Cameroon
+defense_budget: 0.4% of GDP (2023)
+active_personnel: 25000
+branches:
+  - Army
+  - Navy
+  - Air Force
+  - Gendarmerie
+military_service: Voluntary (18+ years)
+peacekeeping: Contributes troops to UN missions (Central African Republic, Mali)

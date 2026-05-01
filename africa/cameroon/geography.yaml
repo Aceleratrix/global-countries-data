@@ -1,0 +1,25 @@
+# Geography data for Cameroon
+area:
+  value: 475442
+  unit: km²
+terrain:
+  - Coastal plain
+  - Central plateau
+  - Western mountains
+  - Northern semi-arid plains
+climate:
+  - Tropical in south
+  - Semi-arid in north
+major_rivers:
+  - Sanaga
+  - Benue
+  - Nyong
+  - Ntem
+highest_point:
+  name: Mount Cameroon
+  elevation: 4040
+  unit: meters
+lowest_point:
+  name: Atlantic Ocean coast
+  elevation: 0
+  unit: meters
