@@ -72,7 +72,7 @@
 | 50 | 🇺🇦 Ucrânia | ukraine | Europe | $0.27T | ✅ 100% COMPLETE |
 | 51 | 🇶🇦 Qatar | qatar | Asia | ✅ 100% COMPLETE |
 | 52 | 🇭🇦 Hungria | hungary | Europe | $0.26T |
-| 53 | 🇭🇦 Vietnã | vietnam | Asia | $0.26T |
+| 53 | 🇭🇦 Vietnã | vietnam | Asia | ✅ 100% COMPLETE |
 | 54 | 🇭🇷 Marrocos | morocco | Africa | $0.25T |
 | 55 | 🇸🇰 Eslováquia | slovakia | Europe | $0.24T |
 | 56 | 🇪🇨 Equador | ecuador | South America | $0.23T |
