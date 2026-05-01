@@ -1,0 +1,5 @@
+# Currency data for Zimbabwe
+currencies:
+  ZWL:
+    symbol: $
+    name: Zimbabwean dollar

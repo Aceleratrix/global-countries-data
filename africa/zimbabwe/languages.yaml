@@ -1,0 +1,18 @@
+# Languages data for Zimbabwe
+languages:
+  bwg: Chibarwe
+  eng: English
+  kck: Kalanga
+  khi: Khoisan
+  ndc: Ndau
+  nde: Northern Ndebele
+  nya: Chewa
+  sna: Shona
+  sot: Sotho
+  toi: Tonga
+  tsn: Tswana
+  tso: Tsonga
+  ven: Venda
+  xho: Xhosa
+  zib: Zimbabwean Sign Language
+official_language: English

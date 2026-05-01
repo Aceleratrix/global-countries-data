@@ -1,0 +1,12 @@
+# Demographic data for Zimbabwe
+population: 17073087
+population_year: 2023
+gini_index: 50.3
+gini_year: 2019
+timezones:
+  - UTC+02:00
+demonyms:
+  male: Zimbabwean
+  female: Zimbabwean
+  french_male: Zimbabwéen
+  french_female: Zimbabwéenne

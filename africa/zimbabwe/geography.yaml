@@ -1,0 +1,13 @@
+# Geographic data for Zimbabwe
+area_km2: 390757.0
+region: Africa
+subregion: Southern Africa
+landlocked: true
+continents:
+  - Africa
+latlng:
+  - -20.0
+  - 30.0
+capital_latlng:
+  - -17.82
+  - 31.03

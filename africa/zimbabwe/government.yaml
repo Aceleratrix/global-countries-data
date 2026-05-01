@@ -1,0 +1,12 @@
+# Government data for Zimbabwe
+official_name: Republic of Zimbabwe
+independent: true
+un_member: true
+status: officially-assigned
+capital:
+  - Harare
+start_of_week: monday
+car:
+  signs:
+    - ZW
+  side: left

@@ -1,0 +1,11 @@
+# Borders data for Zimbabwe
+borders:
+  - code: BWA
+    name: Botswana
+  - code: MOZ
+    name: Mozambique
+  - code: ZAF
+    name: South Africa
+  - code: ZMB
+    name: Zambia
+landlocked: true

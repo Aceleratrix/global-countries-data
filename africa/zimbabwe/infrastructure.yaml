@@ -1,0 +1,10 @@
+# Infrastructure data for Zimbabwe
+idd:
+  root: "+2"
+  suffixes:
+    - "63"
+tld:
+  - ".zw"
+postal_code:
+  format: null
+  regex: null
