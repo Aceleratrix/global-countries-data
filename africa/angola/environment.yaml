@@ -1,0 +1,14 @@
+# Angola Environment
+terrain: "Narrow coastal plain rises abruptly to vast interior plateau"
+natural_resources: ["Petroleum", "Diamonds", "Iron ore", "Phosphates", "Copper", "Feldspar", "Gold", "Bauxite"]
+environmental_issues:
+  - "Soil erosion"
+  - "Deforestation"
+  - "Overfishing"
+  - "Water pollution from oil spills"
+protected_areas_percent: 6.4
+major_rivers: ["Congo River", "Cuanza River", "Zambezi River"]
+endangered_species:
+  - "African elephant"
+  - "Black rhinoceros"
+  - "Giant sable antelope"

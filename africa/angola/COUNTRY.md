@@ -1,19 +1,29 @@
-# Angola (🇦🇴)
-## Basic Info
+# Angola 🇦🇴
+## Republic of Angola
 - **Capital**: Luanda
-- **Population**: 35,000,000 (2024 estimate)
-- **Area**: 1,246,620 km²
-- **GDP**: $0.20T (62nd largest economy globally)
-- **Currency**: Angolan Kwanza (AOA)
+- **Population**: 36,170,961 (44th globally)
+- **Area**: 1,246,700 km² (22nd largest in Africa)
+- **GDP**: $0.06 Trillion USD (136th largest economy globally)
+- **Currency**: Angolan kwanza (Kz, AOA)
 - **Official Language**: Portuguese
-- **Head of State**: João Lourenço (President)
+- **Government**: Presidential Republic
 - **Independence**: November 11, 1975 (from Portugal)
-- **Region**: Southern Africa
 
-## Key Facts
-- Largest city: Luanda (~9 million inhabitants)
-- Major exports: Crude oil, diamonds, refined petroleum, coffee, sisal
-- Member of: United Nations, African Union, OPEC, Southern African Development Community (SADC)
-- Major ethnic groups: Ovimbundu (37%), Ambundu (25%), Bakongo (13%)
-- Literacy rate: 71.1% (15+ years)
-- Life expectancy: 61.2 years
+## Quick Facts
+- Borders: Republic of the Congo, Democratic Republic of the Congo, Zambia, Namibia
+- Timezone: UTC+01:00
+- Gini Index: 51.3 (2018, high inequality)
+- Life Expectancy: 61.5 years
+- Literacy Rate: 71.1%
+
+## Key Sectors
+- **Main Industries**: Oil and gas, diamonds, agriculture, fishing
+- **Major Exports**: Crude oil, diamonds, refined petroleum, coffee, fish
+- **Major Imports**: Machinery, foodstuffs, textiles, chemicals, road vehicles
+
+## Historical Overview
+Angola was a Portuguese colony from the 15th century until 1975. After independence, the country descended into a 27-year civil war (1975-2002) between the ruling MPLA and opposition UNITA. The war ended in 2002, and Angola has since focused on reconstruction and economic diversification beyond oil.
+
+## References
+- REST Countries API: https://restcountries.com/v3.1/name/angola
+- World Bank: https://data.worldbank.org/country/angola

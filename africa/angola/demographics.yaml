@@ -1,0 +1,27 @@
+# Angola Demographics
+population: 36170961
+population_rank_world: 44
+population_density_per_km2: 29
+languages:
+  por: "Portuguese (official)"
+demonyms:
+  eng:
+    m: "Angolan"
+    f: "Angolan"
+  fra:
+    m: "Angolais"
+    f: "Angolaise"
+ethnic_groups:
+  - "Ovimbundu (37%)"
+  - "Ambundu (25%)"
+  - "Bakongo (13%)"
+  - "Mestizo (2%)"
+  - "European (1%)"
+  - "Other (22%)"
+religions:
+  - "Christianity (94%): Roman Catholic (41%), Protestant (38%), Other Christian (15%)"
+  - "Traditional faiths (4.5%)"
+  - "Other/None (1.5%)"
+life_expectancy_years: 61.5
+birth_rate_per_1000: 39.2
+death_rate_per_1000: 8.7

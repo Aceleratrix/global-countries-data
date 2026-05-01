@@ -1,13 +1,15 @@
-area_km2: 1246620
-area_rank_global: 23
-continent: Africa
-region: Southern Africa
-coordinates: 11.2027° S, 17.8739° E
-borders:
-  - Democratic Republic of the Congo
-  - Republic of the Congo
-  - Namibia
-  - Zambia
+# Angola Geography
+latlng: [-12.5, 18.5]
+capital_latlng: [-8.83, 13.22]
+borders: ["COG", "COD", "ZMB", "NAM"]
+area_km2: 1246700.0
+continent: "Africa"
+subregion: "Middle Africa"
+landlocked: false
+maps:
+  google_maps: "https://goo.gl/maps/q42Qbf1BmQL3fuZg9"
+  openstreet_maps: "https://www.openstreetmap.org/relation/195267"
 coastline_length_km: 1600
-highest_point: Morro de Môco (2620m)
-climate: Tropical, with rainy season (October-April) and dry season (May-September)
+highest_point: "Monte Moco (2,620 m)"
+lowest_point: "Atlantic Ocean (0 m)"
+climate: "Tropical, with rainy season (October to May) and dry season (June to September)"

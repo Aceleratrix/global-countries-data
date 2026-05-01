@@ -1,17 +1,18 @@
-official_language: Portuguese
-ethnic_groups:
-  - Ovimbundu (37%)
-  - Ambundu (25%)
-  - Bakongo (13%)
-  - mestiço (2%)
-  - other (23%)
-religions:
-  - Christian (95%)
-  - traditional beliefs (5%)
-cuisine_highlights:
-  - Muamba de Galinha
-  - Calulu
-  - Funge
-national_holidays:
-  - Independence Day (Nov 11)
-  - National Heroes Day (Sep 17)
+# Angola Culture
+official_language: "Portuguese"
+native_languages: ["Umbundu", "Kimbundu", "Kikongo"]
+music_genres: ["Kuduro", "Semba", "Kizomba", "Rebita"]
+traditional_dances: ["Kabetula", "Nsunga"]
+cuisine:
+  - "Funje (cassava flour porridge)"
+  - "Calulu (fish or meat stew)"
+  - "Moamba de galinha (chicken stew with palm oil)"
+  - "Mucua (marula fruit)"
+national_symbols:
+  flag_description: "Two equal horizontal bands of red (top) and black (bottom) with a yellow emblem centered: a five-pointed star inside a half cogwheel crossed by a machete"
+  coat_of_arms: "Features a machete, cogwheel, star, and wreath of maize, coffee, and cotton"
+public_holidays:
+  - "Independence Day: November 11"
+  - "Liberation Day: February 4"
+  - "Peace Day: April 4"
+  - "Christmas Day: December 25"

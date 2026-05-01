@@ -1,0 +1,12 @@
+# Angola Healthcare
+life_expectancy_years: 61.5
+infant_mortality_rate_per_1000_live_births: 41.2
+health_expenditure_percent_gdp: 2.9
+physicians_per_1000_population: 0.2
+hospital_beds_per_1000_population: 1.4
+major_diseases:
+  - "Malaria (endemic)"
+  - "HIV/AIDS (prevalence 1.7%)"
+  - "Tuberculosis"
+  - "Diarrheal diseases"
+public_health_system: "National Health Service (SNS)"

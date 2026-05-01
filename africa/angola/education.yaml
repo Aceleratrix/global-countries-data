@@ -1,5 +1,11 @@
-literacy_rate: 71.1
-primary_school_enrollment: 92
-secondary_school_enrollment: 48
-tertiary_education_enrollment: 9
-public_education_spending_percent_gdp: 3.2
+# Angola Education
+literacy_rate_percent: 71.1
+education_structure: "6 years primary, 3 years lower secondary, 3 years upper secondary"
+compulsory_education_age: "6 to 14 years"
+higher_education_institutions:
+  - "Agostinho Neto University (UAN)"
+  - "Catholic University of Angola (UCAN)"
+  - "Private University of Angola (UPRA)"
+public_expenditure_on_education_percent_gdp: 3.5
+primary_school_enrollment_rate_percent: 92
+secondary_school_enrollment_rate_percent: 45

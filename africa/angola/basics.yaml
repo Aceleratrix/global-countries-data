@@ -1,0 +1,27 @@
+# Angola Basic Info
+country_name: "Angola"
+official_name: "Republic of Angola"
+common_name: "Angola"
+native_name: "Angola (葡萄牙语: República de Angola)"
+cca2: "AO"
+cca3: "AGO"
+ccn3: "024"
+cioc: "ANG"
+independent: true
+un_member: true
+status: "officially-assigned"
+region: "Africa"
+subregion: "Middle Africa"
+landlocked: false
+capital: ["Luanda"]
+population: 36170961
+area_km2: 1246700.0
+timezones: ["UTC+01:00"]
+start_of_week: "monday"
+flag_emoji: "🇦🇴"
+tld: [".ao"]
+fifa: "ANG"
+car_signs: ["ANG"]
+car_side: "right"
+idd_root: "+2"
+idd_suffixes: ["44"]

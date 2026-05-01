@@ -1,23 +1,12 @@
-gdp_nominal: 200000000000
-gdp_rank_global: 62
-gdp_per_capita: 5500
-inflation_rate: 12.5
-unemployment_rate: 28.3
-major_industries:
-  - crude oil extraction
-  - diamond mining
-  - agriculture
-  - fishing
-  - manufacturing
-exports:
-  - crude oil
-  - diamonds
-  - refined petroleum
-  - coffee
-  - sisal
-imports:
-  - machinery
-  - vehicles
-  - foodstuffs
-  - electronics
-  - textiles
+# Angola Economy
+gdp_trillion_usd: 0.06
+gdp_world_rank: 136
+currency_code: "AOA"
+currency_name: "Angolan kwanza"
+currency_symbol: "Kz"
+main_industries: ["Oil and gas", "Diamonds", "Agriculture", "Fishing", "Manufacturing"]
+major_exports: ["Crude oil", "Diamonds", "Refined petroleum", "Coffee", "Fish"]
+major_imports: ["Machinery", "Foodstuffs", "Textiles", "Chemicals", "Road vehicles"]
+poverty_rate_percent: 32.3
+unemployment_rate_percent: 12.6
+inflation_rate_2023_percent: 11.8

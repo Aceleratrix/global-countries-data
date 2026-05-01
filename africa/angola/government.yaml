@@ -1,6 +1,14 @@
-system: Presidential republic
-head_of_state: João Lourenço
-head_of_government: Nuno Caldas da Silva
-legislature: National Assembly (220 seats)
-independence_date: 1975-11-11
-last_election: 2022
+# Angola Government
+government_type: "Presidential Republic"
+head_of_state: "President João Manuel Gonçalves Lourenço"
+head_of_government: "President (executive power)"
+legislature: "National Assembly (Assembleia Nacional)"
+administrative_divisions: "18 provinces"
+independence_date: "1975-11-11 (from Portugal)"
+constitution_adopted: "2010-02-05"
+suffrage: "18 years of age; universal"
+political_parties:
+  - "People's Movement for the Liberation of Angola (MPLA)"
+  - "National Union for the Total Independence of Angola (UNITA)"
+  - "National Front for the Liberation of Angola (FNLA)"
+  - "Social Renewal Party (PRS)"

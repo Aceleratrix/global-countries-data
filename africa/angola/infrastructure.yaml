@@ -1,10 +1,14 @@
-road_network_km: 51700
-railway_km: 2900
-major_ports:
-  - Luanda
-  - Lobito
-  - Namibe
-international_airports:
-  - Quatro de Fevereiro International Airport (Luanda)
-  - Lubango Airport
-internet_penetration: 32
+# Angola Infrastructure
+total_road_network_km: 51200
+paved_roads_percent: 21
+major_airports:
+  - "Quatro de Fevereiro International Airport (Luanda)"
+  - "Catumbela Airport (Benguela)"
+  - "Mbanza Congo Airport (Zaire)"
+major_seaports:
+  - "Port of Luanda"
+  - "Port of Lobito"
+  - "Port of Namibe"
+railway_network_km: 2950
+internet_penetration_percent: 33
+mobile_phone_subscriptions_per_100: 47
