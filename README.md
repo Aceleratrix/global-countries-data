@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 91/195 (46.7%) Complete](https://img.shields.io/badge/Status-91/195 (46.7%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 92/195 (47.2%) Complete](https://img.shields.io/badge/Status-92/195 (47.2%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (69 / 195 = 35.4%)
+## 📊 Coverage Progress (70 / 195 = 35.9%)
 
 ### 🌎 South America (4/12 = 33.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -105,12 +105,12 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇭🇷 **Croatia** | 13/13 | ✅ **100% COMPLETE** | 85th largest economy ($0.13T), Zagreb (0.8M), Adriatic coastline, 8 UNESCO sites, EU/NATO/Eurozone member | English (en-US) |
 | 🇱🇹 **Lithuania** | 13/13 | ✅ **100% COMPLETE** | 87th largest economy ($0.12T), Vilnius (0.6M), EU/NATO/Eurozone member, 3 UNESCO sites, Baltic state | English (en-US) |
 
-### 🌍 Africa (9/54 = 16.7%)
+### 🌍 Africa (10/54 = 18.5%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇳🇬 **Nigeria** | 13/13 | ✅ **100% COMPLETE** | 28th largest economy ($0.48T), Africa's most populous (223M), fintech leader (4 unicorns), Nollywood | English (en-NG) |
 | 🇪🇬 **Egypt** | 13/13 | ✅ **100% COMPLETE** | 29th largest economy ($0.47T), Suez Canal, Pyramids of Giza, Nile River | Arabic (ar-EG) + English |
-| 🇰🇪 **Kenya** | 13/13 | ✅ **100% COMPLETE** | 41st largest economy ($0.34T), Nairobi (5M), Maasai Mara, athletics powerhouse (Kipchoge) | English (en-KE) + Swahili |
+| 🇰🇪 **Kenya** | 13/13 | ✅ **100% COMPLETE** | 96th largest economy ($0.10T), Nairobi (5M), Maasai Mara, athletics powerhouse (Kipchoge) | English (en-KE) + Swahili |
 | 🇿🇦 **South Africa** | 13/13 | ✅ **100% COMPLETE** | 46th largest economy ($0.32T), Pretoria (3M), Kruger National Park, Rainbow Nation, 2010 FIFA World Cup | English (en-ZA) + 10 others |
 | 🇩🇿 **Algeria** | 13/13 | ✅ **100% COMPLETE** | 47th largest economy ($0.31T), Algiers (5.1M), Sahara Desert (90% territory), OPEC member, 7 UNESCO sites | Arabic (ar-DZ) + Tamazight + English |
 | 🇲🇦 **Morocco** | 13/13 | ✅ **100% COMPLETE** | 54th largest economy ($0.25T), Rabat (2M), Atlas Mountains, Sahara Desert, 7 UNESCO sites | Arabic (ar-MA) + Tamazight + English |

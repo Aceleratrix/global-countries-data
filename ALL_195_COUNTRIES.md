@@ -138,7 +138,7 @@
 | 98 | 🇬🇭 Ghana | ghana | Africa | $0.10T | ✅ 100% COMPLETE |
 | 99 | 🇲🇼 Malaui | malawi | Africa | $0.12T |
 | 100 | 🇺🇬 Uganda | uganda | Africa | $0.09T | ✅ 100% COMPLETE |
-| 101 | 🇹🇿 Tanzânia | tanzania | Africa | $0.11T |
+| 99 | 🇹🇿 Tanzânia (Tanzania) | tanzania | Africa | $0.09T | ✅ 100% COMPLETE |
 
 ---
 
@@ -170,7 +170,7 @@
 | 🌍 Europe | 44 | 6 | 38 | 13.6% |
 | 🌎 South America | 12 | 1 | 11 | 8.3% |
 | 🌏 Oceania | 14 | 1 | 13 | 7.1% |
-| 🌍 Africa | 54 | 1 | 53 | 1.9% |
+| 🌍 Africa | 54 | 2 | 52 | 3.7% |
 | **TOTAL** | **195** | **19** | **176** | **9.7%** |
 
 ---
