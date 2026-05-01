@@ -1,0 +1,13 @@
+# Libya Demographics Data
+population: 7459000
+demonyms:
+  eng:
+    m: "Libyan"
+    f: "Libyan"
+  fra:
+    m: "Libyen"
+    f: "Libyenne"
+languages:
+  ara: "Arabic"
+timezones:
+  - "UTC+01:00"

@@ -1,0 +1,18 @@
+# Libya Core Country Data
+name:
+  common: "Libya"
+  official: "State of Libya"
+  native:
+    ara:
+      common: "‏ليبيا"
+      official: "الدولة ليبيا"
+codes:
+  cca2: "LY"
+  ccn3: "434"
+  cca3: "LBY"
+  cioc: "LBA"
+  fifa: "LBY"
+independent: true
+un_member: true
+status: "officially-assigned"
+start_of_week: "sunday"

@@ -1,0 +1,4 @@
+# Libya Healthcare Data
+healthcare_system: "Public healthcare system, free for citizens"
+life_expectancy: 72.0  # World Bank 2021 est.
+physicians_per_1000: 2.1  # WHO 2019 est.

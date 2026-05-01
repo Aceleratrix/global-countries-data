@@ -1,0 +1,4 @@
+# Libya Military Data
+military_name: "Libyan Armed Forces"
+branches: ["Army", "Navy", "Air Force"]
+active_personnel: 35000  # IISS 2023 est.

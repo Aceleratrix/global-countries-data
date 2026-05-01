@@ -1,0 +1,5 @@
+# Libya Environment Data
+terrain: "Mostly desert; flat to undulating plains, plateaus, depressions"
+climate: "Mediterranean along coast; dry, extreme desert inland"
+natural_resources: ["petroleum", "natural gas", "gypsum"]
+environmental_issues: ["desertification", "soil erosion", "overgrazing"]

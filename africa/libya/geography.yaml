@@ -1,0 +1,23 @@
+# Libya Geography Data
+region: "Africa"
+subregion: "Northern Africa"
+continent: "Africa"
+landlocked: false
+area_km2: 1759540.0
+coordinates:
+  lat: 25.0
+  lng: 17.0
+borders:
+  - "DZA"  # Algeria
+  - "TCD"  # Chad
+  - "EGY"  # Egypt
+  - "NER"  # Niger
+  - "SDN"  # Sudan
+  - "TUN"  # Tunisia
+capital: "Tripoli"
+capital_coords:
+  lat: 32.88
+  lng: 13.17
+maps:
+  google: "https://goo.gl/maps/eLgGnaQWcJEdYRMy5"
+  openstreetmap: "openstreetmap.org/relation/192758"

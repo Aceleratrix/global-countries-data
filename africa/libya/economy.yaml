@@ -1,0 +1,7 @@
+# Libya Economy Data
+gdp_usd_trillion: 0.11
+gdp_global_rank: 90
+currency:
+  code: "LYD"
+  name: "Libyan dinar"
+  symbol: "ل.د"
