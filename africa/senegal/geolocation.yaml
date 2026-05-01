@@ -1,0 +1,30 @@
+# Geolocation data for Senegal
+country: Senegal
+cca2: SN
+cca3: SEN
+ccn3: "686"
+cioc: SEN
+region: Africa
+subregion: Western Africa
+landlocked: false
+borders:
+  - GMB
+  - GIN
+  - GNB
+  - MLI
+  - MRT
+capital:
+  - Dakar
+latlng:
+  - 14.0
+  - -14.0
+capital_info_latlng:
+  - 14.73
+  - -17.63
+area: 196722
+maps:
+  google_maps: https://goo.gl/maps/o5f1uD5nyihCL3HCA
+  open_street_maps: https://www.openstreetmap.org/relation/192775
+timezones:
+  - UTC
+start_of_week: monday

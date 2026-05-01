@@ -1,0 +1,11 @@
+# Economy data for Senegal
+country: Senegal
+global_gdp_rank: 106
+gdp_trillion_usd: 0.08
+currencies:
+  XOF:
+    name: West African CFA franc
+    symbol: Fr
+gini:
+  2011: 40.3
+fifa: SEN

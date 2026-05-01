@@ -1,0 +1,16 @@
+# Demographics data for Senegal
+country: Senegal
+population: 18593258
+languages:
+  fra: French
+demonyms:
+  eng:
+    m: Senegalese
+    f: Senegalese
+  fra:
+    m: Sénégalais
+    f: Sénégalaise
+native_name:
+  fra:
+    official: République du Sénégal
+    common: Sénégal

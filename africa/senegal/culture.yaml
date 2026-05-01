@@ -1,0 +1,23 @@
+# Culture data for Senegal
+country: Senegal
+flag: 🇸🇳
+flags:
+  png: https://flagcdn.com/w320/sn.png
+  svg: https://flagcdn.com/sn.svg
+  alt: The flag of Senegal is composed of three equal vertical bands of green, golden-yellow and red, with a five-pointed green star centered in the golden-yellow band.
+coat_of_arms:
+  png: https://mainfacts.com/media/images/coats_of_arms/sn.png
+  svg: https://mainfacts.com/media/images/coats_of_arms/sn.svg
+translations:
+  ara:
+    official: جمهورية السنغال
+    common: السنغال
+  fra:
+    official: République du Sénégal
+    common: Sénégal
+  por:
+    official: República do Senegal
+    common: Senegal
+  spa:
+    official: República de Senegal
+    common: Senegal

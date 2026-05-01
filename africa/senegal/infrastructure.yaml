@@ -1,0 +1,13 @@
+# Infrastructure data for Senegal
+country: Senegal
+tld:
+  - .sn
+postal_code:
+  format: "#####"
+  regex: "^(\\d{5})$"
+internet:
+  tld: .sn
+transport:
+  driving_side: right
+  car_signs:
+    - SN

@@ -1,0 +1,15 @@
+# Government data for Senegal
+country: Senegal
+official_name: Republic of Senegal
+independent: true
+un_member: true
+status: officially-assigned
+start_of_week: monday
+car:
+  signs:
+    - SN
+  side: right
+idd:
+  root: "+2"
+  suffixes:
+    - "21"
