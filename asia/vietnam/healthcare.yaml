@@ -1,0 +1,10 @@
+life_expectancy: 75.3
+infant_mortality_per_1000_live_births: 15.5
+healthcare_expenditure_percent_gdp: 5.7
+physicians_per_1000_population: 1.2
+hospital_beds_per_1000_population: 2.8
+public_healthcare_coverage_percent: 90
+major_diseases_prevalence:
+  - Malaria: Very low (controlled)
+  - Tuberculosis: 142 per 100,000
+  - HIV/AIDS: 0.3% adult prevalence

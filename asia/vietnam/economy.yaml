@@ -1,0 +1,25 @@
+gdp_usd: 260000000000
+gdp_rank_global: 53
+gdp_per_capita_usd: 2700
+gdp_growth_rate_percent: 5.05
+major_sectors:
+  - electronics_manufacturing
+  - textiles_garments
+  - agriculture
+  - tourism
+  - aquaculture
+fdi_inflow_2023_usd: 18000000000
+exports_2023_usd: 371000000000
+top_export_partners:
+  - United States: 28%
+  - China: 17%
+  - Japan: 7%
+  - South Korea: 6%
+  - Germany: 3%
+imports_2023_usd: 352000000000
+top_import_partners:
+  - China: 33%
+  - South Korea: 18%
+  - Japan: 7%
+  - United States: 6%
+  - Thailand: 4%

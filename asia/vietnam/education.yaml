@@ -1,0 +1,11 @@
+literacy_rate_percent: 95.4
+primary_education_completion_percent: 98
+secondary_education_completion_percent: 75
+tertiary_education_enrollment_percent: 28
+top_universities:
+  - Vietnam National University, Hanoi
+  - Vietnam National University, Ho Chi Minh City
+  - Hanoi University of Science and Technology
+education_expenditure_percent_gdp: 4.1
+student_teacher_ratio_primary: 18:1
+public_education_system: Universal free primary education

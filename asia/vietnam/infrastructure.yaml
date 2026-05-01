@@ -1,0 +1,16 @@
+road_network_km: 470000
+railway_km: 2600
+major_airports:
+  - Noi Bai International (Hanoi)
+  - Tan Son Nhat International (Ho Chi Minh City)
+  - Da Nang International
+internet_users_percent: 70.3
+mobile_subscriptions_per_100: 150
+electricity_access_percent: 99
+ports:
+  - Hai Phong Port
+  - Ho Chi Minh City Port
+  - Da Nang Port
+bridge_infrastructure:
+  - Golden Bridge (Ba Na Hills)
+  - Nhat Tan Bridge (Hanoi)

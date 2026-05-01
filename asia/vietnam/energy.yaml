@@ -1,0 +1,9 @@
+primary_energy_source: Coal
+renewable_energy_share_percent: 12
+oil_production_barrels_per_day: 320000
+natural_gas_production_cubic_m_per_day: 9000000
+electricity_generation_2023_gwh: 255000
+hydropower_percent: 35
+coal_percent: 48
+solar_wind_percent: 12
+nuclear_energy: None (planned)

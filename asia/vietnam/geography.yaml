@@ -1,0 +1,22 @@
+area_km2: 331210
+continent: Asia
+region: Southeast Asia
+capital: Hanoi
+largest_city: Ho Chi Minh City
+borders:
+  - country: China
+    length_km: 1281
+  - country: Laos
+    length_km: 2067
+  - country: Cambodia
+    length_km: 1130
+coastline_length_km: 3444
+highest_point: Fansipan
+highest_point_elevation_m: 3143
+major_rivers:
+  - Red River
+  - Mekong River
+  - Dong Nai River
+climate: Tropical monsoon
+time_zone: UTC+7
+geographic_coordinates: 16.1667° N, 107.8333° E

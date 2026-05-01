@@ -1,0 +1,15 @@
+active_personnel: 482000
+reserve_personnel: 5000000
+defense_budget_usd: 5200000000
+defense_budget_percent_gdp: 2.0
+military_rank_global: 22
+branches:
+  - Vietnam People's Army (Ground Forces)
+  - Vietnam People's Navy
+  - Vietnam People's Air Force
+  - Coast Guard
+military_age: 18-25 (conscription 2 years for men)
+.allies:
+  - Laos
+  - Cambodia
+  - Russia
