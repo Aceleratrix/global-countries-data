@@ -167,7 +167,7 @@
 | Continente | Países | Completos | Restantes | % Completo |
 |-----------|---------|-----------|-----------|------------|
 | 🌎 North America | 4 | 4 | 0 | **100%** ✅ |
-| 🌏 Asia | 50 | 6 | 44 | 12.0% |
+| 🌏 Asia | 50 | 7 | 43 | 14.0% |
 | 🌍 Europe | 44 | 8 | 36 | 18.2% |
 | 🌎 South America | 12 | 5 | 7 | 41.7% |
 | 🌏 Oceania | 14 | 1 | 13 | 7.1% |
