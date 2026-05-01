@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (111 / 195 = 56.9%)
+## 📊 Coverage Progress (112 / 195 = 57.4%)
 
 ### 🌎 South America (6/12 = 50.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -115,7 +115,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇱🇺 **Luxembourg** | 13/13 | ✅ **100% COMPLETE** | 129th largest economy ($0.07T), Luxembourg City (capital), landlocked Western Europe, EU/NATO/Eurozone member | English (en-US) |
 | 🇦🇱 **Albania** | 13/13 | ✅ **100% COMPLETE** | 108th largest economy ($0.08T), Tirana (capital), Southeast Europe, 2.3M population, Albania Alps | English (en-US) |
 
-### 🌍 Africa (20/54 = 37.0%)
+### 🌍 Africa (22/54 = 40.7%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇳🇬 **Nigeria** | 13/13 | ✅ **100% COMPLETE** | 28th largest economy ($0.48T), Africa's most populous (223M), fintech leader (4 unicorns), Nollywood | English (en-NG) |
@@ -135,6 +135,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇹🇩 **Chad** | 13/13 | ✅ **100% COMPLETE** | 116th largest economy ($0.08T), N'Djamena (capital), landlocked Central Africa, Sahara Desert, Lake Chad | French (fr-TD) + Arabic + English |
 | 🇩🇿 **Algeria** | 13/13 | ✅ **100% COMPLETE** | 134th largest economy ($0.06T), Algiers (capital), largest African country by area, hydrocarbons economy | Arabic (ar-DZ) + Tamazight + English |
 | 🇲🇼 **Malawi** | 13/13 | ✅ **100% COMPLETE** | 118th largest economy ($0.08T), Lilongwe (capital), landlocked Eastern Africa, Lake Malawi (20% of territory), "Warm Heart of Africa" | English (en-MW) + Chichewa |
+| 🇬🇳 **Guinea** | 13/13 | ✅ **100% COMPLETE** | 146th largest economy ($0.05T), Conakry (capital), Western Africa, bauxite reserves (25% global), Atlantic coastline | French (fr-GN) + English |
 | 🇸🇴 **Somalia** | 13/13 | ✅ **100% COMPLETE** | 142nd largest economy ($0.06T), Mogadishu (capital), longest mainland Africa coastline (3,300km), Horn of Africa, Somali shilling | Somali (so-SO) + Arabic + English |
 | 🇧🇯 **Benin** | 13/13 | ✅ **100% COMPLETE** | 143rd largest economy ($0.06T), Porto-Novo (capital), West Africa, borders 4 countries, Vodun culture, former Dahomey kingdom | French (fr-BJ) + English |
 
