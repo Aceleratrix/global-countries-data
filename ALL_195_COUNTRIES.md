@@ -154,7 +154,7 @@
 - 🇦🇫 Afeganistão, 🇧🇩 Bangladesh, 🇱🇦 Laos, 🇳🇵 Nepal ✅ 100% COMPLETE (101st GDP, $0.09T), 🇸🇾 Síria, 🇱🇧 Líbano ✅ 100% COMPLETE, 🇾🇪 Yemen ✅ 100% COMPLETE (121st GDP, $0.07T), 🇰🇬 Quirguistão, 🇹🇯 Tajiquistão, 🇹🇲 Turcomenistão, 🇧🇳 Brunei, 🇹🇱 Timor-Leste, 🇵🇬 Papua Nova Guiné, 🇸🇧 Ilhas Salomão, 🇻🇺 Vanuatu, 🇫🇯 Fiji (127th GDP, $0.07T) ✅ 100% COMPLETE, 🇼🇸 Samoa, 🇹🇴 Tonga, 🇰🇮 Kiribati, 🇹🇻 Tuvalu, 🇫🇲 Micronésia, 🇵🇼 Palau, 🇲🇭 Ilhas Marshall, 🇳🇷 Nauru
 
 **Américas (continuação):**
-- 🇸🇻 El Salvador, 🇳🇮 Nicarágua, 🇵🇦 Panamá (já listado), 🇺🇾 Uruguai (já listado), 🇧🇴 Bolívia, 🇻🇪 Venezuela, 🇬🇾 Guiana, 🇸🇷 Suriname (124th GDP, $0.07T) ✅ 100% COMPLETE, 🇬🇫 Guiana Francesa, 🇵🇷 Porto Rico, 🇩🇴 República Dominicana (já listado), 🇲🇶 Martinica, 🇬🇵 Guadalupe, 🇻🇬 Ilhas Virgens Americanas, 🇦🇼 Aruba, 🇸🇽 Sint Maarten, 🇨🇼 Curaçao, 🇻🇬 Ilhas Virgens Britânicas, 🇲🇸 Montserrat, 🇰🇳 São Cristóvão e Névis, 🇦🇬 Antígua e Barbuda, 🇩🇲 Dominica, 🇬🇩 Granada, 🇱🇨 Santa Lúcia, 🇻🇨 São Vicente e Granadinas, 🇧🇧 Barbados, 🇹🇹 Trinidad e Tobago, 🇯🇲 Jamaica, 🇧🇸 Bahamas, 🇨🇺 Cuba, 🇭🇹 Haiti (123rd GDP, $0.07T) ✅ 100% COMPLETE, 🇩🇴 República Dominicana (já listado)
+- 🇸🇻 El Salvador, 🇳🇮 Nicarágua, 🇵🇦 Panamá (já listado), 🇺🇾 Uruguai (já listado), 🇧🇴 Bolívia, 🇻🇪 Venezuela, 🇬🇾 Guiana, 🇸🇷 Suriname (124th GDP, $0.07T) ✅ 100% COMPLETE, 🇬🇫 Guiana Francesa, 🇵🇷 Porto Rico, 🇩🇴 República Dominicana (já listado), 🇲🇶 Martinica, 🇬🇵 Guadalupe, 🇻🇬 Ilhas Virgens Americanas, 🇦🇼 Aruba, 🇸🇽 Sint Maarten, 🇨🇼 Curaçao, 🇻🇬 Ilhas Virgens Britânicas, 🇲🇸 Montserrat, 🇰🇳 São Cristóvão e Névis, 🇦🇬 Antígua e Barbuda, 🇩🇲 Dominica, 🇬🇩 Granada, 🇱🇨 Santa Lúcia, 🇻🇨 São Vicente e Granadinas, 🇧🇧 Barbados, 🇹🇹 Trinidad e Tobago, 🇯🇲 Jamaica, 🇧🇸 Bahamas (131st GDP, $0.06T) ✅ 100% COMPLETE, 🇨🇺 Cuba, 🇭🇹 Haiti (123rd GDP, $0.07T) ✅ 100% COMPLETE, 🇧🇿 Belize (132nd GDP, $0.06T) ✅ 100% COMPLETE, 🇩🇴 República Dominicana (já listado)
 
 **Oceania (continuação):**
 - 🇫🇯 Fiji (127th GDP, $0.07T) ✅ 100% COMPLETE, 🇼🇸 Samoa, 🇹🇴 Tonga, 🇻🇺 Vanuatu, 🇸🇧 Ilhas Salomão, 🇵🇬 Papua Nova Guiné, 🇫🇲 Micronésia, 🇳🇷 Nauru, 🇲🇭 Ilhas Marshall, 🇰🇮 Kiribati, 🇹🇻 Tuvalu
@@ -165,13 +165,13 @@
 
 | Continente | Países | Completos | Restantes | % Completo |
 |-----------|---------|-----------|-----------|------------|
-| 🌎 North America | 3 | 3 | 0 | **100%** ✅ |
+| 🌎 North America | 4 | 4 | 0 | **100%** ✅ |
 | 🌏 Asia | 50 | 6 | 44 | 12.0% |
 | 🌍 Europe | 44 | 8 | 36 | 18.2% |
 | 🌎 South America | 12 | 5 | 7 | 41.7% |
 | 🌏 Oceania | 14 | 1 | 13 | 7.1% |
 | 🌍 Africa | 54 | 8 | 46 | 14.8% |
-| **TOTAL** | **195** | **98** | **97** | **50.3%** |
+| **TOTAL** | **195** | **99** | **96** | **50.8%** |
 
 ---
 
