@@ -1,0 +1,12 @@
+country: Puerto Rico
+main_airport: Luis Muñoz Marín International Airport (SJU)
+seaports:
+  - San Juan Port (largest)
+  - Ponce Port
+road_network: 17000
+road_unit: km
+internet_penetration: 70
+internet_year: 2023
+electricity_access: 99
+mobile_penetration: 85
+mobile_year: 2023

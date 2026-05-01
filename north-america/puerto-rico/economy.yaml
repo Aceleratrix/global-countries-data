@@ -1,0 +1,17 @@
+country: Puerto Rico
+gdp:
+  value: 0.18
+  unit: trillion USD
+  global_rank: 68
+  year: 2023
+key_sectors:
+  - pharmaceuticals
+  - manufacturing
+  - tourism
+  - services
+unemployment_rate: 8.2
+unemployment_year: 2023
+inflation_rate: 3.5
+inflation_year: 2023
+gdp_per_capita: 56250
+gdp_per_capita_year: 2023

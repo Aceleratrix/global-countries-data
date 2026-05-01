@@ -1,0 +1,9 @@
+country: Puerto Rico
+life_expectancy: 80.2
+infant_mortality: 6
+infant_mortality_unit: per 1,000 live births
+healthcare_system: Mixed public (Medicaid) and private
+doctors_per_1000: 2
+hospital_beds_per_1000: 3.5
+medicaid_enrollment: 40
+medicaid_unit: percent of population

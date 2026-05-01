@@ -1,0 +1,14 @@
+country: Puerto Rico
+annual_visitors: 4000000
+visitor_year: 2023
+main_source_markets:
+  - United States mainland
+  - Cruise ship passengers
+key_attractions:
+  - Old San Juan (UNESCO World Heritage Site)
+  - El Yunque National Forest
+  - Flamenco Beach (Culebra)
+hotel_rooms: 12000
+hotel_year: 2023
+tourism_contribution_to_gdp: 7
+contribution_unit: percent
