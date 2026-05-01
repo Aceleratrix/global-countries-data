@@ -106,7 +106,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇭🇷 **Croatia** | 13/13 | ✅ **100% COMPLETE** | 85th largest economy ($0.13T), Zagreb (0.8M), Adriatic coastline, 8 UNESCO sites, EU/NATO/Eurozone member | English (en-US) |
 | 🇱🇹 **Lithuania** | 13/13 | ✅ **100% COMPLETE** | 87th largest economy ($0.12T), Vilnius (0.6M), EU/NATO/Eurozone member, 3 UNESCO sites, Baltic state | English (en-US) |
 
-### 🌍 Africa (14/54 = 25.9%)
+### 🌍 Africa (15/54 = 27.8%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇳🇬 **Nigeria** | 13/13 | ✅ **100% COMPLETE** | 28th largest economy ($0.48T), Africa's most populous (223M), fintech leader (4 unicorns), Nollywood | English (en-NG) |
@@ -122,6 +122,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇲🇿 **Mozambique** | 13/13 | ✅ **100% COMPLETE** | 112th largest economy ($0.08T), Maputo (capital), Eastern Africa, borders 6 countries, Zambezi River, Gorongosa National Park | Portuguese (pt-MZ) + English |
 | 🇲🇷 **Mauritania** | 13/13 | ✅ **100% COMPLETE** | 114th largest economy ($0.08T), Nouakchott (capital), Western Africa, Sahara Desert, 5.3M population | Arabic (ar-MR) + French + English |
 | 🇿🇲 **Zambia** | 13/13 | ✅ **100% COMPLETE** | 111th largest economy ($0.08T), Lusaka (capital), landlocked Southern Africa, Victoria Falls, copper mining hub | English (en-ZM) + 7 national languages |
+| 🇿🇼 **Zimbabwe** | 13/13 | ✅ **100% COMPLETE** | 113th largest economy ($0.08T), Harare (capital), landlocked Southern Africa, Victoria Falls, Great Zimbabwe ruins | English (en-ZW) + 15 national languages |
 
 ### 🌏 Oceania (1/14 = 7.1%)
 | Country | Files | Status | Key Highlights | Primary Language |
