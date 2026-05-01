@@ -106,7 +106,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇭🇷 **Croatia** | 13/13 | ✅ **100% COMPLETE** | 85th largest economy ($0.13T), Zagreb (0.8M), Adriatic coastline, 8 UNESCO sites, EU/NATO/Eurozone member | English (en-US) |
 | 🇱🇹 **Lithuania** | 13/13 | ✅ **100% COMPLETE** | 87th largest economy ($0.12T), Vilnius (0.6M), EU/NATO/Eurozone member, 3 UNESCO sites, Baltic state | English (en-US) |
 
-### 🌍 Africa (12/54 = 22.2%)
+### 🌍 Africa (13/54 = 24.1%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇳🇬 **Nigeria** | 13/13 | ✅ **100% COMPLETE** | 28th largest economy ($0.48T), Africa's most populous (223M), fintech leader (4 unicorns), Nollywood | English (en-NG) |
@@ -120,13 +120,14 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇺🇬 **Uganda** | 13/13 | ✅ **100% COMPLETE** | 100th largest economy ($0.09T), Kampala (capital), Pearl of Africa, Lake Victoria, mountain gorillas | English (en-UG) + Swahili |
 | 🇲🇱 **Mali** | 13/13 | ✅ **100% COMPLETE** | 105th largest economy ($0.08T), Bamako (capital), landlocked Western Africa, Sahel region, Timbuktu historical site | French (fr-ML) + English |
 | 🇲🇿 **Mozambique** | 13/13 | ✅ **100% COMPLETE** | 112th largest economy ($0.08T), Maputo (capital), Eastern Africa, borders 6 countries, Zambezi River, Gorongosa National Park | Portuguese (pt-MZ) + English |
+| 🇿🇲 **Zambia** | 13/13 | ✅ **100% COMPLETE** | 111th largest economy ($0.08T), Lusaka (capital), landlocked Southern Africa, Victoria Falls, copper mining hub | English (en-ZM) + 7 national languages |
 
 ### 🌏 Oceania (1/14 = 7.1%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇦🇺 **Australia** | 13/13 | ✅ **100% COMPLETE** | Big 4 banks, Canva $40B, AI Action Plan $124M, 92% digital banking, APEC | English (en-AU) |
 
-**Total: 312 structured YAML files covering 24 countries across 5 continents!**
+**Total: 325 structured YAML files covering 25 countries across 5 continents!**
 
 ---
 
