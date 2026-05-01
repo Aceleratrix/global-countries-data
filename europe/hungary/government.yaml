@@ -1,0 +1,20 @@
+country: Hungary
+government_type: Unitary parliamentary republic
+president:
+  name: Tamás Sulyok
+  term_start: 2024-03-05
+  role: Head of state
+prime_minister:
+  name: Viktor Orbán
+  term_start: 2010-05-29
+  role: Head of government
+parliament:
+  name: National Assembly (Országgyűlés)
+  seats: 199
+  election_cycle: 4 years
+eu_member: true
+  accession_year: 2004
+nato_member: true
+  accession_year: 1999
+schengen_member: true
+  accession_year: 2007

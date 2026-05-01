@@ -1,0 +1,25 @@
+country: Hungary
+population:
+  total: 9600000
+  year: 2024
+  density: 103 per km²
+capital:
+  name: Budapest
+  population: 2970000 (city proper, 2024)
+  metro_population: 3300000
+ethnic_groups:
+  - Hungarian: 83.7%
+  - Romani: 3.2%
+  - German: 1.2%
+  - Slovak: 0.4%
+  - Romanian: 0.3%
+  - Other: 11.2%
+languages:
+  - Official: Hungarian (Magyar)
+  - Recognized minority: Romani, German, Romanian, Slovak, Croatian, Slovenian
+religions:
+  - Catholic: 37.2%
+  - Protestant (Reformed): 11.6%
+  - Protestant (Lutheran): 2.2%
+  - Non-religious: 18.5%
+  - Other: 30.5%

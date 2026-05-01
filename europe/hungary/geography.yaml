@@ -1,0 +1,25 @@
+country: Hungary
+area: 93030
+unit: km²
+continent: Europe
+subregion: Central Europe
+landlocked: true
+borders:
+  - Austria (west)
+  - Slovakia (north)
+  - Ukraine (northeast)
+  - Romania (east)
+  - Serbia (south)
+  - Croatia (southwest)
+  - Slovenia (west)
+highest_point:
+  name: Kékes
+  elevation: 1014 m
+lowest_point:
+  name: Tisza River floodplain
+  elevation: 78 m
+major_rivers:
+  - Danube (417 km within Hungary)
+  - Tisza (597 km)
+  - Dráva (112 km)
+climate: Temperate continental, with four distinct seasons

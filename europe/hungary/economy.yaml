@@ -1,0 +1,16 @@
+country: Hungary
+gdp:
+  total: 0.26
+  unit: trillion USD
+  global_rank: 52
+currency: Hungarian Forint (HUF)
+exchange_rate: 1 USD = 358 HUF (2024 average)
+major_industries:
+  - Automotive manufacturing
+  - Electronics
+  - Pharmaceuticals
+  - Food processing
+  - Tourism
+unemployment_rate: 3.7% (2024 Q2)
+inflation_rate: 3.9% (2024 average)
+gdp_per_capita: 27000 USD (2024)
