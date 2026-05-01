@@ -1,0 +1,30 @@
+geography:
+  total_area_km²: 2724900
+  global_area_rank: 9
+  landlocked: true
+  continent: Asia
+  subregion: Central Asia
+  borders:
+    - country: Russia
+      length_km: 6846
+    - country: China
+      length_km: 1460
+    - country: Kyrgyzstan
+      length_km: 980
+    - country: Uzbekistan
+      length_km: 2200
+    - country: Turkmenistan
+      length_km: 380
+  coastline_km: 0
+  highest_point: Khan Tengri (7010 m)
+  lowest_point: Karagiye Depression (-132 m)
+  major_rivers:
+    - Irtysh
+    - Syr Darya
+    - Ural
+    - Ishim
+  major_lakes:
+    - Caspian Sea (shared)
+    - Lake Balkhash
+    - Lake Zaysan
+  climate: continental (hot summers, cold winters, low precipitation)

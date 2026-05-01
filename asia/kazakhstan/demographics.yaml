@@ -1,0 +1,29 @@
+demographics:
+  population: 19300000
+  population_year: 2023
+  population_rank_global: 65
+  population_density: 7.1
+  density_unit: people per km²
+  life_expectancy_total: 73.5
+  life_expectancy_male: 70.2
+  life_expectancy_female: 76.9
+  ethnic_groups:
+    - group: Kazakh
+      percentage: 70
+    - group: Russian
+      percentage: 15
+    - group: Uzbek
+      percentage: 3
+    - group: Ukrainian
+      percentage: 2
+    - group: Other
+      percentage: 10
+  religions:
+    - religion: Islam (Sunni)
+      percentage: 70
+    - religion: Christianity (Eastern Orthodox)
+      percentage: 25
+    - religion: Other/Non-religious
+      percentage: 5
+  urban_population_percentage: 58
+  rural_population_percentage: 42

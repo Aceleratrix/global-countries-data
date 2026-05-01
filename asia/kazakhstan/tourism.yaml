@@ -1,0 +1,15 @@
+tourism:
+  international_tourist_arrivals_2023: 900000
+  tourism_receipts_usd_million_2023: 1200
+  top_tourist_attractions:
+    - Baikonur Cosmodrome (space launch tours)
+    - Charyn Canyon (Grand Canyon of Central Asia)
+    - Lake Kaindy (sunken forest)
+    - Mausoleum of Khoja Ahmed Yasawi (UNESCO site)
+    - Big Almaty Lake
+    - Altai Mountains
+  visa_policy:
+    - Visa-free for 65+ countries (including EU, US, Japan, South Korea) for up to 30 days
+    - E-visa available for many other countries
+  tourism_contribution_percent_of_gdp: 3.2
+  tourism_contribution_year: 2023

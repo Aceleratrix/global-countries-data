@@ -1,0 +1,16 @@
+education:
+  literacy_rate_percent: 99.8
+  literacy_year: 2023
+  education_system: 11-year compulsory general education + 4-year bachelor's degree
+  primary_school_enrollment_percent: 98
+  secondary_school_enrollment_percent: 95
+  tertiary_education_enrollment_percent: 48
+  major_universities:
+    - Al-Farabi Kazakh National University (Almaty)
+    - L.N. Gumilyov Eurasian National University (Astana)
+    - Satbayev University (Almaty)
+  education_expenditure_percent_of_gdp: 3.2
+  education_expenditure_year: 2023
+  languages_of_instruction:
+    - Kazakh (majority)
+    - Russian (significant minority)

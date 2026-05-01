@@ -1,0 +1,15 @@
+energy:
+  total_primary_energy_production_mtoe: 185
+  total_primary_energy_consumption_mtoe: 75
+  net_energy_exporter: true
+  oil_production_million_barrels_per_day: 1.8
+  oil_production_year: 2023
+  natural_gas_production_billion_cubic_meters: 28
+  natural_gas_production_year: 2023
+  coal_production_million_tonnes: 110
+  coal_production_year: 2023
+  uranium_production_tonnes: 21000
+  uranium_production_global_share_percent: 43
+  uranium_production_year: 2023
+  renewable_energy_share_percent: 5
+  renewable_energy_target_2030_percent: 15

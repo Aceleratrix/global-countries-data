@@ -1,0 +1,18 @@
+environment:
+  forest_cover_percent: 1.2
+  protected_areas_percent: 5.3
+  protected_areas_year: 2023
+  major_environmental_issues:
+    - radioactive contamination from former Soviet nuclear test sites (Semipalatinsk)
+    - soil erosion and desertification
+    - water pollution from industrial and agricultural runoff
+    - air pollution in major cities (Almaty, Astana)
+  carbon_dioxide_emissions_mt_2023: 320
+  renewable_energy_target_2030_percent: 15
+  national_parks:
+    - Altai Mountains National Park
+    - Charyn Canyon National Park
+    - Burabay National Park
+  biodiversity:
+    - endemic plant species: ~500
+    - protected animal species: snow leopard, saiga antelope, golden eagle

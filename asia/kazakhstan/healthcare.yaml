@@ -1,0 +1,16 @@
+healthcare:
+  healthcare_system: Mixed public-private system, publicly funded
+  physicians_per_1000_people: 3.8
+  hospital_beds_per_1000_people: 7.2
+  infant_mortality_rate_per_1000_live_births: 8.5
+  life_expectancy_at_birth_years: 73.5
+  major_diseases:
+    - cardiovascular diseases
+    - cancer
+    - respiratory diseases
+  healthcare_expenditure_percent_of_gdp: 4.1
+  healthcare_expenditure_year: 2023
+  immunisation_coverage_percent:
+    - measles: 98
+    - DTP3: 99
+    - hepatitis B: 97

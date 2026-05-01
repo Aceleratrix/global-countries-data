@@ -1,0 +1,30 @@
+economy:
+  gdp_nominal_trillion: 0.20
+  gdp_global_rank: 62
+  gdp_year: 2023
+  gdp_per_capita_usd: 10500
+  gdp_per_capita_year: 2023
+  currency_name: Kazakhstani Tenge
+  currency_code: KZT
+  inflation_rate_percent: 14.6
+  inflation_year: 2023
+  unemployment_rate_percent: 4.9
+  unemployment_year: 2023
+  major_exports:
+    - crude oil and petroleum products
+    - natural gas
+    - uranium
+    - wheat and wheat flour
+    - ferrous and non-ferrous metals
+  major_industries:
+    - oil and gas extraction
+    - mining (uranium, coal, metals)
+    - agriculture (wheat, livestock)
+    - manufacturing (machinery, food processing)
+    - construction
+  major_imports:
+    - machinery and equipment
+    - vehicles
+    - consumer goods
+    - pharmaceuticals
+    - food products
