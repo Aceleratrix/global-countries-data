@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (122 / 195 = 62.6%)
+## 📊 Coverage Progress (123 / 195 = 63.1%)
 
 ### 🌎 South America (6/12 = 50.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -47,7 +47,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇸🇷 **Suriname** | 13/13 | ✅ **100% COMPLETE** | 124th largest economy ($0.07T), Paramaribo (616K), Dutch-speaking, borders Brazil/French Guiana/Guyana | Dutch (nld) + English |
 | 🇵🇪 **Peru** | 13/13 | ✅ **100% COMPLETE** | 138th largest economy ($0.06T), Lima (10M), Machu Picchu, Andes/Amazon, 33M population | Spanish (es-PE) + English |
 
-### 🌎 North America (9/23 = 39.1%)
+### 🌎 North America (10/23 = 43.5%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇺🇸 **USA** | 13/13 | ✅ **100% COMPLETE** | Silicon Valley, Section 230, 20+ cloud regions | English (en-US) |
@@ -59,6 +59,8 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇵🇦 **Panama** | 13/13 | ✅ **100% COMPLETE** | 72nd largest economy ($0.16T), Panama City (2M), Panama Canal, dollarized economy, logistics hub | Spanish (es-PA) + English |
 | 🇭🇳 **Honduras** | 13/13 | ✅ **100% COMPLETE** | 84th largest economy ($0.14T), Tegucigalpa (1M), Mayan ruins, Caribbean/Pacific coasts | Spanish (es-HN) + English |
 | 🇧🇿 **Belize** | 13/13 | ✅ **100% COMPLETE** | 132nd largest economy ($0.06T), Belmopan (capital), Caribbean coast, Belize Barrier Reef | English (en-BZ) + Spanish |
+| 🇱🇨 **Saint Lucia** | 13/13 | ✅ **100% COMPLETE** | 164th largest economy ($0.05T), Castries (capital), Caribbean island, Pitons UNESCO site, tourism 40% GDP | English (en-LC) + Saint Lucian Creole French |
+| 🇬🇩 **Grenada** | 13/13 | ✅ **100% COMPLETE** | 165th largest economy ($0.05T), St. George's (capital), Caribbean island, nutmeg production, tourism | English (en-GD) + English |
 
 ### 🌏 Asia (20/50 = 40.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
