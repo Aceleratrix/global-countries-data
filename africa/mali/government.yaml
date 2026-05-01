@@ -1,0 +1,11 @@
+# Government Data for Mali
+officialName: "Republic of Mali"
+commonName: "Mali"
+nativeName:
+  fra:
+    official: "République du Mali"
+    common: "Mali"
+fifa: "MLI"
+car:
+  signs: ["RMM"]
+  side: "right"

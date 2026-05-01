@@ -1,0 +1,19 @@
+# Culture Data for Mali
+languages:
+  fra: "French"
+translations:
+  ara:
+    official: "جمهورية مالي"
+    common: "مالي"
+  fra:
+    official: "République du Mali"
+    common: "Mali"
+  por:
+    official: "República do Mali"
+    common: "Mali"
+  spa:
+    official: "República de Malí"
+    common: "Mali"
+  zho:
+    official: "马里共和国"
+    common: "马里"

@@ -1,0 +1,9 @@
+# Economy Data for Mali
+gdpTrillion: 0.08
+gdpRankGlobal: 105
+currencies:
+  XOF:
+    symbol: "Fr"
+    name: "West African CFA franc"
+gini:
+  2009: 33.0

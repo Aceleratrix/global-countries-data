@@ -1,0 +1,7 @@
+# Infrastructure Data for Mali
+car:
+  signs: ["RMM"]
+  side: "right"
+postalCode:
+  format: null
+  regex: null

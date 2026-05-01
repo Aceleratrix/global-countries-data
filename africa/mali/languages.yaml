@@ -1,0 +1,7 @@
+# Languages Data for Mali
+languages:
+  fra: "French"
+nativeName:
+  fra:
+    official: "République du Mali"
+    common: "Mali"

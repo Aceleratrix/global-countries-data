@@ -1,0 +1,9 @@
+# Demographics Data for Mali
+population: 22395489
+demonyms:
+  eng:
+    m: "Malian"
+    f: "Malian"
+  fra:
+    m: "Malien"
+    f: "Malienne"

@@ -1,0 +1,7 @@
+# International Memberships for Mali
+unMember: true
+fifa: "MLI"
+cioc: "MLI"
+idd:
+  root: "+2"
+  suffixes: ["23"]

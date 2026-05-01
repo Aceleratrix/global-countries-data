@@ -1,0 +1,14 @@
+# Geography Data for Mali
+region: "Africa"
+subregion: "Western Africa"
+landlocked: true
+area: 1240192.0
+borders: ["DZA", "BFA", "GIN", "CIV", "MRT", "NER", "SEN"]
+latlng: [17.0, -4.0]
+continents: ["Africa"]
+capital: ["Bamako"]
+capitalInfo:
+  latlng: [12.65, -8.0]
+maps:
+  googleMaps: "https://goo.gl/maps/u9mYJkCB19wyuzh27"
+  openStreetMaps: "https://www.openstreetmap.org/relation/192785"
