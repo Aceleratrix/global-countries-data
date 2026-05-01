@@ -1,0 +1,11 @@
+# Geographic information for Albania
+geography:
+  region: "Europe"
+  subregion: "Southeast Europe"
+  landlocked: false
+  area: 28748.0
+  latlng: [41.0, 20.0]
+  capital: "Tirana"
+  capital_latlng: [41.32, 19.82]
+  continents: ["Europe"]
+  borders: ["MNE", "GRC", "MKD", "UNK"]

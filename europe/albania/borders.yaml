@@ -1,0 +1,10 @@
+# Borders information for Albania
+borders:
+  - country_code: "MNE"
+    name: "Montenegro"
+  - country_code: "GRC"
+    name: "Greece"
+  - country_code: "MKD"
+    name: "North Macedonia"
+  - country_code: "UNK"
+    name: "United Kingdom"

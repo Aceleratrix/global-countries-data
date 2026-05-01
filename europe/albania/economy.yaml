@@ -1,0 +1,10 @@
+# Economy information for Albania
+economy:
+  gdp_rank: 108
+  gdp_trillion_usd: 0.08
+  gini_index:
+    2017: 33.2
+  currencies:
+    ALL:
+      symbol: "L"
+      name: "Albanian lek"

@@ -1,0 +1,18 @@
+# Basic country information for Albania
+country:
+  common_name: "Albania"
+  official_name: "Republic of Albania"
+  native_name:
+    sqi:
+      official: "Republika e Shqipërisë"
+      common: "Shqipëria"
+  codes:
+    cca2: "AL"
+    ccn3: "008"
+    cca3: "ALB"
+    cioc: "ALB"
+  independent: true
+  un_member: true
+  status: "officially-assigned"
+  alt_spellings: ["AL", "Shqipëri", "Shqipëria", "Shqipnia"]
+  start_of_week: "monday"

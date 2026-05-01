@@ -1,0 +1,10 @@
+# Population information for Albania
+population:
+  total: 2363314
+  demonyms:
+    eng:
+      f: "Albanian"
+      m: "Albanian"
+    fra:
+      f: "Albanaise"
+      m: "Albanais"

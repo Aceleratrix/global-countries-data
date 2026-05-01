@@ -1,0 +1,4 @@
+# Maps information for Albania
+maps:
+  google_maps: "https://goo.gl/maps/BzN9cTuj68ZA8SyZ8"
+  open_street_maps: "https://www.openstreetmap.org/relation/53292"
