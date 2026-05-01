@@ -126,7 +126,7 @@
 | 86 | 🇱🇾 Líbia | libya | Africa | $0.13T | ✅ 100% COMPLETE |
 | 87 | 🇱🇹 Lituânia | lithuania | Europe | $0.12T | ✅ 100% COMPLETE |
 | 88 | 🇪🇱 Jordânia | jordan | Asia | ✅ 100% COMPLETE |
-| 89 | 🇬🇹 Guiana | guyana | South America | $0.13T |
+| 152 | 🇬🇾 Guiana (Guyana) | guyana | South America | $0.05T | ✅ 100% COMPLETE
 | 90 | 🇧🇴 Bósnia e Herzegovina | bosnia-herzegovina | Europe | $0.13T |
 | 91 | 🇱🇧 Líbano | lebanon | Asia | $0.11T | ✅ 100% COMPLETE |
 | 92 | 🇮🇻 Macedônia do Norte | north-macedonia | Europe | $0.12T |
