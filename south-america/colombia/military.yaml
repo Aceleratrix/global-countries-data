@@ -1,0 +1,7 @@
+active_personnel: 350000
+reserve_personnel: 250000
+defense_budget_percent_gdp: 3.2
+military_branches:
+  - National Army
+  - Colombian Air Force
+  - Colombian Navy

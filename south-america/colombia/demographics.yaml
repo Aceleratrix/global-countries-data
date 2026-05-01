@@ -1,0 +1,14 @@
+population_2023: 52000000
+capital:
+  name: Bogotá
+  metro_population: 8000000
+ethnic_groups:
+  mestizo: 58
+  white: 20
+  afro_colombian: 10.6
+  indigenous: 3.4
+  other: 8
+religion:
+  christianity: 90
+  roman_catholic: 70
+  other: 10
