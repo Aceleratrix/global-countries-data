@@ -1,0 +1,93 @@
+# Technology infrastructure, cloud services, and AI adoption in Nauru
+# Source: Nauru ICT Department, Pacific Tech Readiness Report 2024
+
+country: nauru
+jurisdiction: Republic of Nauru
+last_updated: 2024-01-01
+
+technology_infrastructure:
+  internet_backbone: "Satellite connection (limited fiber)"
+  undersea_cable: "None (planned via Pacific Cable Network)"
+  internet_speed_avg: "5-10 Mbps (mobile), 10-20 Mbps (fixed)"
+  broadband_penetration: "20% of households"
+  fiber_deployment: "Limited to government buildings"
+
+telecommunications:
+  mobile_networks: ["Digicel Nauru"]
+  mobile_penetration: "120% (multiple SIMs per person)"
+  mobile_technology: "3G/4G (limited 4G coverage)"
+  fixed_lines: "~300 (declining)"
+  internet_service_providers: ["Digicel Nauru", "Government network"]
+
+data_centers:
+  local_data_centers: "None (all data hosted overseas)"
+  cloud_region: "Nearest: AWS Sydney, Azure Australia"
+  government_data: "Hosted in Australia (cloud)"
+  backup_systems: "Limited, mostly offline backups"
+
+cloud_adoption:
+  government_cloud: "Limited (some SaaS applications)"
+  business_cloud: "Very limited (email, basic productivity)"
+  cloud_providers:
+    aws: "Used by government for some services"
+    azure: "Limited use"
+    google_cloud: "Very limited"
+    local_providers: "None"
+
+  cloud_services_usage:
+    email_hosting: "60%"
+    productivity_suites: "40% (Microsoft 365, Google Workspace)"
+    storage: "30%"
+    compute: "10%"
+    databases: "5%"
+
+artificial_intelligence:
+  ai_adoption_level: "Very low (early stage)"
+  ai_use_cases:
+    government: "None to limited experimentation"
+    business: "None (no local AI implementation)"
+    education: "None"
+
+  ai_infrastructure: "No local AI infrastructure"
+  ai_skills: "Very limited (no AI specialists)"
+  ai_strategy: "No national AI strategy"
+
+digital_government:
+  e_services: "Limited (basic online forms)"
+  digital_identity: "None (physical ID only)"
+  online_payments: "Very limited (some bills online)"
+  digital_literacy: "Moderate (basic computer skills)"
+
+ict_workforce:
+  ict_professionals: "~20-30 (local)"
+  skills_gap: "Severe shortage of technical skills"
+  training_programs: "Limited (overseas scholarships)"
+  foreign_ict_workers: "~10 (contractors)"
+
+ict_challenges:
+  - "No undersea cable (satellite only)"
+  - "High internet costs (satellite bandwidth)"
+  - "Limited technical workforce"
+  - "Small market (no economies of scale)"
+  - "Limited cloud adoption"
+  - "No AI infrastructure or expertise"
+
+ict_investments:
+  government_ict_budget: "A$500,000 per year"
+  major_projects:
+    - "Government network upgrade (2023)"
+    - "School computer labs (ongoing)"
+    - "E-government platform (planning)"
+
+future_tech_developments:
+  - "Pacific Cable connection (planned 2025-2027)"
+  - "5G rollout (post-cable, 2027+)"
+  - "Government cloud migration"
+  - "Digital skills training programs"
+  - "Limited AI adoption (international tools only)"
+
+digital_divide:
+  urban_rural: "Not applicable (all urban)"
+  income_divide: "High (affordability issues)"
+  age_divide: "Youth more connected than elderly"
+  gender_divide: "Minimal gap"

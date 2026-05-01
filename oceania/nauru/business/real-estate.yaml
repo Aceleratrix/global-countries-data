@@ -1,0 +1,91 @@
+# Real estate market, land use, and construction in Nauru
+# Source: Nauru Lands Department, Pacific Real Estate Index 2024
+
+country: nauru
+jurisdiction: Republic of Nauru
+last_updated: 2024-01-01
+
+land_ownership:
+  system: "Customary and freehold mix"
+  land_tenure: "80% customary (clan-based), 20% government/leasehold"
+  foreign_ownership: "Restricted, requires presidential approval"
+  land_area_total: "21 km²"
+
+real_estate_market:
+  market_status: "Limited formal market, small scale"
+  property_types: ["Residential houses", "Small commercial buildings", "Government housing"]
+  average_house_price: "A$150,000 - A$300,000"
+  average_rent_3bed: "A$800 - A$1,500 per month"
+  price_trend: "Stable to rising (limited supply)"
+
+zoning_and_land_use:
+  residential: "60% (coastal ring)"
+  commercial: "10% (Yaren, Aiwo districts)"
+  industrial: "5% (former phosphate areas)"
+  government: "15% (administrative, infrastructure)"
+  conservation: "10% (interior plateau)"
+
+construction:
+  building_standards: "Nauru Building Code (based on Australian standards)"
+  common_materials: ["Concrete blocks", "Steel roofing", "Timber framing"]
+  construction_cost_index: "High (all materials imported)"
+  average_construction_cost: "A$2,500 - A$3,500 per m²"
+
+  major_projects_recent:
+    - project: "Government housing upgrades"
+      cost: "A$5 million"
+      status: "Ongoing"
+    - project: "Nauru Airport terminal renovation"
+      cost: "A$3 million"
+      status: "Completed 2023"
+
+residential_market:
+  housing_stock: "~2,500 dwellings"
+  housing_type:
+    detached_houses: "85%"
+    apartments: "10%"
+    traditional_housing: "5%"
+
+  affordability:
+    median_income: "A$25,000 per year"
+    price_to_income_ratio: "6-12x (high)"
+    housing_shortage: "Yes, waiting list for government housing"
+
+commercial_real_estate:
+  office_space: "Limited, mostly government-owned"
+  retail_space: "Small shops, no malls"
+  warehouse_space: "Limited, near port"
+  hotel_rooms: "~150 rooms total (2 main hotels)"
+
+infrastructure:
+  electricity: "Diesel generators, limited capacity"
+  water: "Rainwater tanks, desalination plants"
+  sanitation: "Septic tanks, limited sewerage"
+  telecommunications: "Mobile coverage island-wide, fiber in government areas"
+
+real_estate_transactions:
+  annual_sales_volume: "~30-50 properties"
+  transaction_costs:
+    stamp_duty: "2-5%"
+    legal_fees: "1-2%"
+    agent_fees: "3-5%"
+  foreign_buyer_restrictions: "Yes, requires government approval"
+
+challenges:
+  - "Limited land availability (21 km² total)"
+  - "All construction materials imported"
+  - "High construction costs"
+  - "Limited financing options"
+  - "Small market with low liquidity"
+  - "Climate change risk (sea level rise)"
+
+government_housing:
+  public_housing_stock: "~800 units"
+  housing_waitlist: "~200 families"
+  government_housing_policy: "Providing affordable housing for citizens"
+
+future_outlook:
+  - "Limited new development expected"
+  - "Focus on maintenance and upgrades"
+  - "Potential climate adaptation measures"
+  - "No major commercial developments planned"

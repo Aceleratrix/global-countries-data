@@ -1,0 +1,142 @@
+# Population demographics, ethnicity, and migration in Nauru
+# Source: Nauru Bureau of Statistics, UN Data, World Bank 2024
+
+country: nauru
+jurisdiction: Republic of Nauru
+last_updated: 2024-01-01
+
+population:
+  total_2024: 11680
+  population_2023: 11500
+  growth_rate: "1.6% per annum"
+  density: "556 persons per km²"
+  land_area: "21 km²"
+
+  historical:
+    2010: 9200
+    2015: 10000
+    2020: 10800
+    2023: 11500
+    2024: 11680
+
+age_structure:
+  median_age: 25.8
+  youth_dependency_ratio: "52%"
+  elderly_dependency_ratio: "6%"
+  total_dependency_ratio: "58%"
+
+  age_groups:
+    "0-14 years": "32%"
+    "15-24 years": "20%"
+    "25-54 years": "40%"
+    "55-64 years": "5%"
+    "65+ years": "3%"
+
+gender:
+  male: "51.2% (5,980)"
+  female: "48.8% (5,700)"
+  sex_ratio: "104.9 males per 100 females"
+
+ethnicity:
+  Nauruan (indigenous): "58% (6,774)"
+  Other Pacific Islander: "26% (3,037)"
+  Chinese: "8% (934)"
+  European: "8% (934)"
+
+  notes: "Small population with significant migrant worker community"
+
+religion:
+  Christian: "95%"
+    - "Protestant: 60%"
+    - "Roman Catholic: 33%"
+    - "Other Christian: 2%"
+  Other/None: "5%"
+
+language:
+  official_languages: ["English", "Nauru"]
+  english_proficiency: "Widely spoken (government, education)"
+  nauru_language: "Austronesian language, native to Nauru"
+  literacy_rate: "96% (age 15+)"
+
+urbanization:
+  urban_population: "100% (all residents live in coastal settlements)"
+  rural_population: "0% (no rural areas)"
+  urban_growth_rate: "1.6% per annum"
+
+  major_settlements:
+    - name: "Yaren District"
+      population: "2200"
+      description: "De facto capital, government center"
+    - name: "Baiti District"
+      population: "1500"
+      description: "Northern district"
+    - name: "Aiwo District"
+      population: "1300"
+      description: "Former phosphate mining center"
+    - name: "Denigomodu District"
+      population: "1200"
+      description: "Western district"
+    - name: "Nibok District"
+      population: "1100"
+      description: "Central district"
+
+migration:
+  net_migration_rate: "+5.2 migrants per 1,000 population"
+  diaspora: "~3,000 Nauruans living abroad"
+  main_destinations:
+    - "Australia: ~1,500"
+    - "New Zealand: ~800"
+    - "Fiji: ~400"
+    - "United States: ~200"
+    - "Other Pacific: ~100"
+
+  remittances_2023: "A$2 million (~US$1.3 million)"
+  remittance_share_gdp: "0.3%"
+  importance: "Limited but growing source of income"
+
+  immigration:
+    permanent_migrants_2023: "~50"
+    temporary_workers: "~500 (phosphate, fishing, services)"
+    refugee_population: "~100 (UNHCR resettlement cases)"
+
+education:
+  literacy_rate: "96% (age 15+)"
+  school_enrollment:
+    primary: "95%"
+    secondary: "80%"
+    tertiary: "15%"
+  higher_education:
+    - "University of the South Pacific (Nauru Campus)"
+    - "Nauru Secondary School"
+    - "Overseas scholarships (Australia, NZ, Fiji)"
+
+health:
+  life_expectancy: "67.0 years (2024)"
+    male: "64.5 years"
+    female: "69.5 years"
+  infant_mortality: "18 deaths per 1,000 live births"
+  maternal_mortality: "45 deaths per 100,000 live births"
+  healthcare_access: "Limited, referral to Australia for specialized care"
+
+employment:
+  labor_force: "4500 (2024)"
+  unemployment_rate: "23%"
+  youth_unemployment: "35%"
+  employment_by_sector:
+    public_administration: "40%"
+    services: "35%"
+    fishing: "15%"
+    construction: "10%"
+
+poverty:
+  national_poverty_rate: "N/A (no official poverty line)"
+  extreme_poverty: "Limited data"
+  economic_challenges: "High unemployment, limited economic diversification"
+
+demographic_challenges:
+  - "High unemployment (23%)"
+  - "Limited economic opportunities"
+  - "Non-communicable diseases (diabetes, obesity)"
+  - "Dependence on imported food and fuel"
+  - "Climate change vulnerability (sea level rise)"
+  - "Small population limits economies of scale"

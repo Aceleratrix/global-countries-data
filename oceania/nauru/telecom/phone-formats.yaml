@@ -1,0 +1,120 @@
+# Phone numbering, telecom providers, and connectivity in Nauru
+# Source: Nauru Telecommunications Department, ITU Database 2024
+
+country: nauru
+jurisdiction: Republic of Nauru
+last_updated: 2024-01-01
+
+country_calling_code: "+674"
+idd_prefix: "00"
+trunk_prefix: "None (no domestic long distance)"
+international_dialing: "00 + country code + number"
+
+numbering_plan:
+  format: "ITU-T E.164 compliant"
+  national_number_length: "5 digits"
+  mobile_number_length: "5 digits"
+  fixed_line_length: "5 digits"
+  emergency_numbers:
+    police: "110"
+    fire: "111"
+    ambulance: "112"
+    directory_inquiries: "123"
+
+number_ranges:
+  mobile:
+    prefix: "555" + 2 digits
+    example: "+674 555 12"
+    total_numbers: "100,000 (theoretical)"
+    assigned_numbers: "~7,000 (active)"
+
+  fixed_line:
+    prefix: "444" + 2 digits
+    example: "+674 444 56"
+    total_numbers: "100,000 (theoretical)"
+    assigned_numbers: "~300 (declining)"
+
+  government:
+    prefix: "333" + 2 digits
+    example: "+674 333 78"
+    description: "Government departments"
+
+  toll_free:
+    prefix: "0800" + 3 digits
+    example: "+674 0800 123"
+    availability: "Limited"
+
+telecom_operators:
+  mobile_operators:
+    - name: "Digicel Nauru"
+      type: "Mobile network operator"
+      technology: "GSM (3G), LTE (4G limited)"
+      market_share: "100% (sole operator)"
+      launched: "2009"
+      subscribers: "~7,000"
+
+  fixed_line_operators:
+    - name: "Nauru Telecommunications Department"
+      type: "Government-owned"
+      technology: "Copper, limited fiber"
+      subscribers: "~300"
+      status: "Declining (mobile substitution)"
+
+internet_service_providers:
+  - name: "Digicel Nauru"
+    services: ["Mobile internet", "Fixed wireless"]
+    technology: "3G/4G, satellite backhaul"
+    market_share: "95%"
+
+  - name: "Government Network"
+    services: ["Government-only access"]
+    technology: "Satellite, limited fiber"
+
+connectivity:
+  mobile_coverage: "95% island coverage"
+  population_covered: "100%"
+  4g_coverage: "Yaren and main districts"
+  3g_coverage: "Island-wide"
+  fixed_broadband: "Limited (government, businesses)"
+
+pricing:
+  mobile_prepaid:
+    starter_pack: "A$10 (includes A$5 credit)"
+    call_rates_domestic: "A$0.20 per minute"
+    call_rates_international: "A$1.50 - A$3.00 per minute"
+    sms: "A$0.10 per SMS"
+    data: "A$5 per 100MB (expensive)"
+
+  mobile_postpaid:
+    basic_plan: "A$30/month (unlimited calls, 1GB data)"
+    premium_plan: "A$80/month (unlimited calls, 5GB data)"
+
+  fixed_line:
+    monthly_rental: "A$25/month"
+    call_rates: "A$0.15 per minute domestic"
+
+roaming:
+  outbound_roaming: "Available with Digicel Pacific partners"
+  inbound_roaming: "Available for visitors"
+  roaming_partners: ["Fiji", "Australia", "New Zealand"]
+
+telecom_statistics:
+  mobile_penetration: "120% (multiple SIMs per person)"
+  fixed_line_penetration: "2.6 per 100 people"
+  internet_users: "~7,000 (60% penetration)"
+  broadband_subscribers: "~500"
+
+challenges:
+  - "Monopoly provider (no competition)"
+  - "High data costs (satellite backhaul)"
+  - "No undersea cable (limited bandwidth)"
+  - "Limited 4G coverage"
+  - "High prices for consumers"
+  - "Aging fixed-line infrastructure"
+
+future_developments:
+  - "Pacific Cable connection (2025-2027)"
+  - "4G/LTE expansion"
+  - "5G rollout (post-cable)"
+  - "Reduced data costs"
+  - "Potential second operator (after cable)"

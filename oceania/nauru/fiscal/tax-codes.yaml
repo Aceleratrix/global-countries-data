@@ -1,0 +1,83 @@
+# Tax system, rates, and compliance in Nauru
+# Source: Nauru Inland Revenue, Pacific Tax Initiative 2024
+
+country: nauru
+jurisdiction: Republic of Nauru
+last_updated: 2024-01-01
+
+tax_system_overview:
+  tax_year: "1 January - 31 December"
+  tax_authority: "Nauru Inland Revenue Department"
+  currency: "Australian dollar (AUD)"
+  gst_vat: "No GST or VAT system"
+  tax_treaties: "Limited (Australia, New Zealand)"
+
+personal_income_tax:
+  status: "No personal income tax"
+  notes: "Nauru does not levy personal income tax on residents"
+
+corporate_tax:
+  standard_rate: "20%"
+  small_business_threshold: "A$500,000 turnover"
+  small_business_rate: "15%"
+  mining_companies: "Special rates (historical phosphate)"
+  foreign_companies: "20% (same as domestic)"
+
+payroll_tax:
+  employer_payroll_tax: "5% on wages"
+  employee_contribution: "None"
+  threshold: "A$20,000 per employee per year"
+
+customs_and_import_duties:
+  essential_food: "0-5%"
+  fuel: "0%"
+  machinery_equipment: "5-10%"
+  luxury_goods: "15-20%"
+  alcohol_tobacco: "High excise (50-100%)"
+  motor_vehicles: "10-20% depending on type"
+
+other_taxes:
+  stamp_duty:
+    property_transfers: "2-5%"
+    share_transfers: "1%"
+    legal_documents: "A$50-A$500"
+
+  departure_tax: "A$50 (airport departure)"
+  fishing_license_fees: "Major government revenue source"
+  business_license_fees: "A$200-A$2,000 per year"
+
+tax_incentives:
+  foreign_investment: "Case-by-case tax holidays (5-10 years)"
+  export_oriented: "Reduced corporate tax (10-15%)"
+  tourism: "Tax incentives for hotel development"
+  infrastructure: "Tax holidays for major projects"
+
+tax_compliance:
+  corporate_filing: "Annual (within 6 months of year-end)"
+  payroll_filing: "Monthly"
+  customs_filing: "At point of entry"
+  tax_audits: "Limited resources, focused on large taxpayers"
+
+government_revenue_sources:
+  fishing_license_fees: "60%"
+  customs_duties: "20%"
+  payroll_tax: "10%"
+  business_licenses: "5%"
+  other: "5%"
+
+  notes: "Fishing licenses are the largest single revenue source"
+
+tax_challenges:
+  - "Small tax base (11,680 population)"
+  - "Limited tax administration resources"
+  - "High dependence on fishing license revenue"
+  - "No personal income tax (limits revenue)"
+  - "Tax evasion in informal sector"
+  - "Limited international tax cooperation"
+
+future_reforms:
+  - "Consider introducing GST/VAT for revenue diversification"
+  - "Strengthen tax administration capacity"
+  - "Expand tax treaty network"
+  - "Improve compliance in informal sector"
+  - "Reduce dependence on fishing license revenue"

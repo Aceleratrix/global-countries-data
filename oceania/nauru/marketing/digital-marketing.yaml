@@ -1,0 +1,124 @@
+# Digital marketing landscape and media consumption in Nauru
+# Source: Pacific Digital Marketing Report, Nauru ICT Survey 2024
+
+country: nauru
+jurisdiction: Republic of Nauru
+last_updated: 2024-01-01
+
+digital_overview:
+  internet_users: "~7,000 (60% penetration)"
+  social_media_users: "~4,500 (39% of population)"
+  mobile_internet: "95% of internet access"
+  broadband_households: "~20%"
+  average_internet_speed: "~5 Mbps (mobile), ~10 Mbps (fixed)"
+
+social_media_platforms:
+  facebook:
+    users: "~4,000"
+    penetration: "34% of population"
+    growth: "Stable"
+    business_presence: "Limited, mostly government and small businesses"
+
+  instagram:
+    users: "~1,500"
+    penetration: "13%"
+    growth: "Growing among youth"
+
+  whatsapp:
+    users: "~3,500"
+    penetration: "30%"
+    usage: "Primary messaging platform"
+
+  youtube:
+    users: "~2,000"
+    penetration: "17%"
+    content: "Mostly international, limited local content"
+
+  tiktok:
+    users: "~800"
+    penetration: "7%"
+    growth: "Rapid among under-25s"
+
+digital_advertising:
+  total_market_size: "A$50,000 - A$100,000 per year"
+  ad_formats:
+    social_media_ads: "40%"
+    search_ads: "20%"
+    display_ads: "15%"
+    video_ads: "15%"
+    other: "10%"
+
+  platforms:
+    facebook_ads: "Leading platform"
+    google_ads: "Limited use"
+    instagram_ads: "Growing"
+
+  cpm_rates: "A$5 - A$15 (low volume)"
+  cpc_rates: "A$0.50 - A$2.00"
+
+traditional_media:
+  television:
+    households_with_tv: "~80%"
+    main_providers: ["Fiji TV (satellite)", "Australian channels (satellite)"]
+    local_content: "Very limited"
+
+  radio:
+    stations: ["Radio Nauru (government-owned)"]
+    coverage: "Island-wide"
+    languages: "English, Nauru"
+
+  print:
+    newspapers: "None (online news only)"
+    magazines: "None"
+    newsletters: "Government publications"
+
+  outdoor_advertising:
+    billboards: "5-10 on island"
+    signage: "Limited to business premises"
+
+mobile_marketing:
+  mobile_penetration: "120% (many have multiple SIMs)"
+  smartphone_penetration: "~50%"
+  sms_marketing: "Used by government for alerts"
+  mobile_apps: "Very limited local apps"
+
+digital_behavior:
+  daily_internet_usage: "2-3 hours per day"
+  primary_activities:
+    social_media: "40%"
+    messaging: "30%"
+    video_streaming: "15%"
+    news: "10%"
+    other: "5%"
+
+  e_commerce: "Very limited (no local e-commerce platforms)"
+  online_banking: "Available through Bendigo Bank app"
+  food_delivery_apps: "None"
+
+business_digital_presence:
+  websites: "~30 businesses with websites"
+  social_media_pages: "~50 business pages"
+  e_commerce: "None (all retail is physical)"
+  digital_payments: "Limited (cash dominant)"
+
+marketing_challenges:
+  - "Very small market (11,680 people)"
+  - "Low digital advertising budgets"
+  - "Limited local content creation"
+  - "Low internet speeds"
+  - "High cost of data"
+  - "Limited digital skills"
+
+marketing_opportunities:
+  - "High social media engagement"
+  - "Mobile-first audience"
+  - "Government digital services expansion"
+  - "Youth demographic active online"
+  - "Growth in smartphone adoption"
+
+future_trends:
+  - "Increased social media adoption"
+  - "Growth in mobile video consumption"
+  - "Potential for government digital services"
+  - "Limited e-commerce growth (small market)"
+  - "Improved connectivity (future infrastructure)"

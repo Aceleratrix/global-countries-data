@@ -1,0 +1,79 @@
+# Banking system and financial institutions in Nauru
+# Source: Reserve Bank of Fiji (Nauru banking regulator), 2024
+
+country: nauru
+jurisdiction: Republic of Nauru
+last_updated: 2024-01-01
+
+banking_overview:
+  currency: "Australian dollar (AUD, $)"
+  central_bank: "Reserve Bank of Fiji (regulates Nauru banking)"
+  local_currency_issuer: "No (uses AUD)"
+  banking_sector_status: "Very limited, 1 active commercial bank"
+
+commercial_banks:
+  - name: "Bendigo Bank (Nauru Branch)"
+    type: "Commercial bank"
+    ownership: "Australian-owned"
+    services: ["Personal banking", "Business banking", "Remittances"]
+    branches: 1
+    description: "Only full-service bank in Nauru"
+
+  - name: "Bank of Hawaii (correspondent)"
+    type: "Correspondent banking"
+    status: "Limited services, no physical branch"
+
+  - name: "Westpac (correspondent)"
+    type: "Correspondent banking"
+    status: "Limited correspondent relationships"
+
+non_bank_financial_institutions:
+  - name: "Nauru Insurance Corporation"
+    type: "Insurance"
+    services: ["General insurance", "Motor vehicle insurance"]
+
+  - name: "Nauru Post Office Savings"
+    type: "Savings bank"
+    services: ["Basic savings accounts", "Money orders"]
+
+  - name: "Microfinance institutions"
+    type: "Microfinance"
+    status: "Very limited, informal sector"
+
+financial_services:
+  atms: 2
+  pos_terminals: "~30"
+  internet_banking: "Available through Bendigo Bank"
+  mobile_banking: "Limited"
+  remittance_services: ["Western Union", "MoneyGram"]
+
+banking_statistics:
+  bank_branches_per_100k_pop: "8.6 (1 branch for 11,680 people)"
+  adult_banked_population: "~60%"
+  loan_to_deposit_ratio: "N/A (limited lending)"
+  non_performing_loans: "N/A (limited portfolio)"
+
+regulatory_framework:
+  banking_act: "Banking Act 2014 (Nauru)"
+  regulator: "Reserve Bank of Fiji (delegated authority)"
+  deposit_guarantee: "Australian government guarantee (for AUD deposits)"
+  aml_cft: "Complies with Australian AML standards"
+
+challenges:
+  - "Only one commercial bank"
+  - "Limited access to credit"
+  - "High reliance on cash transactions"
+  - "Limited correspondent banking relationships"
+  - "Small market size"
+  - "Remoteness from financial centers"
+
+offshore_financial_services:
+  history: "Operated offshore financial center 1990s-2000s"
+  current_status: "Closed, no new licenses issued"
+  anti_money_laundering: "Complies with international standards"
+
+future_outlook:
+  - "No new banks expected (small market)"
+  - "Potential for digital banking expansion"
+  - "Continued reliance on Australian banking system"
+  - "Limited financial deepening expected"

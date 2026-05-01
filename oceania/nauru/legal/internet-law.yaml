@@ -1,0 +1,94 @@
+# Digital law, data protection, and cyber regulations in Nauru
+# Source: Nauru ICT Department, Pacific Cyber Law Database 2024
+
+country: nauru
+jurisdiction: Republic of Nauru
+last_updated: 2024-01-01
+
+digital_law_framework:
+  main_legislation: "Nauru Information and Communications Technology Act 2015"
+  regulator: "Department of Information and Communications Technology"
+  data_protection_law: "No dedicated data protection legislation"
+  cybercrime_law: "Computer Misuse Act 2015"
+
+internet_governance:
+  internet_penetration: "~60% (2024 est.)"
+  broadband_coverage: "Limited, mostly mobile internet"
+  domain_registry: ".nr (managed by government)"
+  internet_exchange: "None (traffic routed through Fiji/Australia)"
+
+data_protection:
+  status: "No comprehensive data protection law"
+  sectoral_laws: "Limited privacy protections in sectoral legislation"
+  cross_border_data: "No restrictions"
+  breach_notification: "Not required"
+  international_standards: "Not aligned with GDPR/APEC"
+
+cybersecurity:
+  national_strategy: "Nauru Cyber Security Strategy 2020-2025"
+  cirt: "No dedicated Computer Incident Response Team"
+  critical_infrastructure: "Limited protections"
+  threat_level: "Low to moderate (limited targets)"
+
+cybercrimes:
+  legislation: "Computer Misuse Act 2015"
+  offenses:
+    - "Unauthorized access to computer systems"
+    - "Data interference"
+    - "System interference"
+    - "Misuse of devices"
+    - "Computer-related forgery/fraud"
+
+  penalties: "Fines up to A$10,000, imprisonment up to 3 years"
+  enforcement: "Limited capacity, cases referred to police"
+
+electronic_transactions:
+  legislation: "Electronic Transactions Act 2015"
+  legal_recognition: "Electronic signatures recognized"
+  digital_contracts: "Valid and enforceable"
+  limitations: "Some documents require wet-ink signatures (deeds, wills)"
+
+telecommunications_law:
+  regulator: "Department of ICT"
+  licensing: "Required for telecom operators"
+  universal_service: "No formal universal service obligation"
+  number_portability: "Not available"
+
+content_regulation:
+  censorship: "Minimal, no blanket censorship"
+  hate_speech: "Prohibited under criminal law"
+  child_pornography: "Strictly prohibited, severe penalties"
+  defamation: "Civil and criminal liability"
+
+intellectual_property:
+  copyright: "Copyright Act 2015 (based on Australian model)"
+  trademarks: "Trademarks Act 2015"
+  patents: "Patents Act 2015"
+  enforcement: "Limited capacity, cases heard in Supreme Court"
+
+domain_names:
+  registry: "Government-managed (.nr domains)"
+  registration: "Available to residents and businesses"
+  cost: "A$100 per year"
+  disputes: "No formal dispute resolution process"
+
+digital_government:
+  e_government_services: "Limited (basic online services)"
+  digital_identity: "None (passport, ID cards only)"
+  online_tax_filing: "Not available"
+  digital_payments: "Limited acceptance"
+
+challenges:
+  - "No data protection law"
+  - "Limited cyber security capacity"
+  - "Small technical workforce"
+  - "Dependence on foreign infrastructure"
+  - "Limited digital services"
+  - "No dedicated cyber security agency"
+
+future_developments:
+  - "Draft data protection bill (pending)"
+  - "Establish Computer Emergency Response Team"
+  - "Improve cyber security awareness"
+  - "Expand e-government services"
+  - "Strengthen international cooperation"

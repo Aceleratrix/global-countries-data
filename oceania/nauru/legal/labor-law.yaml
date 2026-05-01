@@ -1,0 +1,97 @@
+# Employment law, worker rights, and labor regulations in Nauru
+# Source: Nauru Department of Labour, ILO Database 2024
+
+country: nauru
+jurisdiction: Republic of Nauru
+last_updated: 2024-01-01
+
+labor_law_framework:
+  main_legislation: "Employment Act 1975 (amended)"
+  ministry: "Department of Labour and Human Resources"
+  ilo_member: true
+  minimum_wage: "A$4.00 per hour (A$160 per week)"
+
+employment_contracts:
+  contract_types:
+    permanent: "Indefinite duration"
+    fixed_term: "Up to 3 years"
+    casual: "Hourly, no guaranteed hours"
+  written_contract_required: true
+  probation_period: "3-6 months"
+  notice_period: "1-4 weeks depending on tenure"
+
+working_hours:
+  standard_hours: "40 hours per week"
+  maximum_hours: "48 hours per week"
+  overtime_rate: "1.5x normal rate"
+  rest_periods: "24 consecutive hours per week"
+  public_holidays: "10 paid public holidays per year"
+
+leave_entitlements:
+  annual_leave: "20 working days per year"
+  sick_leave: "10 days per year (paid)"
+  maternity_leave: "12 weeks (6 weeks paid by employer)"
+  paternity_leave: "3 days (unpaid)"
+  compassionate_leave: "3-5 days (unpaid)"
+
+termination:
+  notice_period: "1-4 weeks"
+  severance_pay: "2 weeks per year of service (max 12 years)"
+  unfair_dismissal: "Protected, can appeal to Labour Tribunal"
+  redundancy: "Severance pay required"
+
+workplace_safety:
+  legislation: "Occupational Health and Safety Act"
+  regulator: "Department of Labour"
+  employer_duties: "Provide safe workplace, training"
+  employee_rights: "Refuse unsafe work"
+  accident_reporting: "Mandatory for serious injuries"
+
+trade_unions:
+  unionization_rate: "~15%"
+  main_unions:
+    - "Nauru Workers Union"
+    - "Nauru Public Service Association"
+  collective_bargaining: "Recognized but limited practice"
+  right_to_strike: "Yes, with restrictions"
+
+foreign_workers:
+  work_permit_required: true
+  processing_time: "2-4 weeks"
+  fees: "A$200-A$500 per year"
+  quota_system: "No formal quota, case-by-case approval"
+  temporary_workers: "~500 (fishing, construction, services)"
+
+employment_statistics:
+  labor_force: "4,500"
+  unemployment_rate: "23%"
+  youth_unemployment: "35%"
+  public_sector_employment: "40% of workforce"
+  minimum_wage_coverage: "All employees"
+
+discrimination:
+  protected_characteristics: ["Race", "Gender", "Religion", "Disability"]
+  equal_pay: "Legislated but gaps persist"
+  sexual_harassment: "Prohibited in workplace"
+  complaint_mechanism: "Labour Tribunal"
+
+child_labor:
+  minimum_working_age: "15 years"
+  hazardous_work: "Prohibited under 18 years"
+  light_work: "Allowed from 13 years (non-school hours)"
+  enforcement: "Limited resources for inspection"
+
+challenges:
+  - "High unemployment (23%)"
+  - "Limited skilled workforce"
+  - "Dependence on foreign workers for specialized roles"
+  - "Small labor inspectorate"
+  - "Weak enforcement capacity"
+  - "Youth underemployment"
+
+future_reforms:
+  - "Review minimum wage (currently A$4/hour)"
+  - "Strengthen labor inspection capacity"
+  - "Improve skills training programs"
+  - "Address youth unemployment"
+  - "Modernize employment legislation"

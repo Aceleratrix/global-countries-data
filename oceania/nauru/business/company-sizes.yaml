@@ -1,0 +1,93 @@
+# Business landscape and company size classifications in Nauru
+# Source: Nauru Chamber of Commerce, Pacific Business Index 2024
+
+country: nauru
+jurisdiction: Republic of Nauru
+last_updated: 2024-01-01
+
+business_environment:
+  economy_type: "Small island developing state"
+  main_sectors: ["Public administration", "Fishing", "Services", "Phosphate (historical)"]
+  business_registration: "Nauru Companies Registry"
+  company_law: "Companies Act 2014"
+
+company_size_classifications:
+  micro_enterprise:
+    employees: "1-5"
+    annual_revenue: "A$0 - A$100,000"
+    examples: ["Small retail shops", "Sole traders", "Family businesses"]
+    count_estimate: 150
+
+  small_enterprise:
+    employees: "6-20"
+    annual_revenue: "A$100,000 - A$500,000"
+    examples: ["Small hotels", "Construction firms", "Wholesale distributors"]
+    count_estimate: 40
+
+  medium_enterprise:
+    employees: "21-100"
+    annual_revenue: "A$500,000 - A$5 million"
+    examples: ["Larger retailers", "Fishing companies", "Government contractors"]
+    count_estimate: 10
+
+  large_enterprise:
+    employees: "100+"
+    annual_revenue: "A$5 million+"
+    examples: ["Nauru Phosphate Royalties Trust (historical)", "Government agencies", "Nauru Airlines"]
+    count_estimate: 5
+
+total_registered_businesses: "~205"
+
+key_industries:
+  fishing:
+    description: "Tuna fishing and licensing"
+    major_companies: ["Nauru Fisheries Corporation"]
+    employment: "~200"
+
+  retail_trade:
+    description: "Import retail, general stores"
+    major_companies: ["Capelle & Partner", "Eigigu Trading"]
+    employment: "~300"
+
+  construction:
+    description: "Infrastructure, building maintenance"
+    major_companies: ["Nauru Building Corporation", "Small contractors"]
+    employment: "~150"
+
+  tourism_hospitality:
+    description: "Limited tourism, small hotels"
+    major_companies: ["Menen Hotel", "Od-N-Aiwo Hotel"]
+    employment: "~100"
+
+  financial_services:
+    description: "Banking, offshore (limited)"
+    major_companies: ["Bendigo Bank (Nauru branch)"]
+    employment: "~30"
+
+  transport_logistics:
+    description: "Air transport, shipping"
+    major_companies: ["Nauru Airlines", "Shipping agents"]
+    employment: "~80"
+
+  public_administration:
+    description: "Government services"
+    employment: "~1800 (largest employer)"
+
+business_ownership:
+  local_ownership: "85%"
+  foreign_ownership: "15%"
+  state_owned_enterprises: ["Nauru Fisheries Corporation", "Nauru Airlines", "Nauru Utilities Corporation"]
+
+challenges:
+  - "Small domestic market (11,680 people)"
+  - "Limited access to finance"
+  - "High import costs (all goods imported)"
+  - "Limited skilled workforce"
+  - "Infrastructure constraints"
+  - "Remoteness from major markets"
+
+business_support:
+  chamber_of_commerce: "Nauru Chamber of Commerce"
+  business_incentives: "Limited tax incentives for foreign investment"
+  foreign_investment: "Encouraged in fishing, tourism, infrastructure"
+  pacific_islands_trade: "Member of Pacific Islands Forum Trade Agreement (PICTA)"

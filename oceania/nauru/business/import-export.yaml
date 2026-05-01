@@ -1,0 +1,130 @@
+# Import/export data, tariffs, and trade regulations for Nauru
+# Source: Pacific Islands Trade, UN Comtrade, Nauru Customs 2024
+
+country: nauru
+jurisdiction: Republic of Nauru
+last_updated: 2024-01-01
+
+trade_overview:
+  trade_balance: "Heavy deficit (imports far exceed exports)"
+  main_exports: ["Fishing licenses", "Re-exports", "Limited phosphate (historical)"]
+  main_imports: ["Foodstuffs", "Fuel", "Machinery", "Manufactured goods"]
+  trade_partners: ["Australia", "New Zealand", "Fiji", "Japan", "Singapore"]
+  wto_member: false
+  pacific_trade_agreements: ["PICTA (Pacific Islands Trade Agreement)"]
+
+exports:
+  total_2023: "US$15 million (est.)"
+  main_categories:
+    - product: "Fishing licenses"
+      value: "US$10 million"
+      share: "67%"
+      description: "Tuna fishing access fees paid by foreign fleets"
+
+    - product: "Re-exports"
+      value: "US$3 million"
+      share: "20%"
+      description: "Goods transshipped through Nauru"
+
+    - product: "Other (coconut products, handicrafts)"
+      value: "US$2 million"
+      share: "13%"
+      description: "Limited local production"
+
+  export_destinations:
+    - country: "Japan"
+      value: "US$5 million"
+      share: "33%"
+    - country: "South Korea"
+      value: "US$4 million"
+      share: "27%"
+    - country: "Taiwan"
+      value: "US$3 million"
+      share: "20%"
+    - country: "Other"
+      value: "US$3 million"
+      share: "20%"
+
+imports:
+  total_2023: "US$80 million (est.)"
+  main_categories:
+    - product: "Food and live animals"
+      value: "US$25 million"
+      share: "31%"
+      description: "Rice, flour, meat, dairy, vegetables"
+
+    - product: "Mineral fuels, lubricants"
+      value: "US$20 million"
+      share: "25%"
+      description: "Diesel, gasoline, aviation fuel"
+
+    - product: "Machinery and transport equipment"
+      value: "US$15 million"
+      share: "19%"
+      description: "Vehicles, generators, construction equipment"
+
+    - product: "Manufactured goods"
+      value: "US$12 million"
+      share: "15%"
+      description: "Building materials, furniture, appliances"
+
+    - product: "Other"
+      value: "US$8 million"
+      share: "10%"
+      description: "Chemicals, clothing, miscellaneous"
+
+  import_sources:
+    - country: "Australia"
+      value: "US$35 million"
+      share: "44%"
+    - country: "New Zealand"
+      value: "US$15 million"
+      share: "19%"
+    - country: "Fiji"
+      value: "US$12 million"
+      share: "15%"
+    - country: "Singapore"
+      value: "US$8 million"
+      share: "10%"
+    - country: "Other"
+      value: "US$10 million"
+      share: "12%"
+
+customs_and_tariffs:
+  customs_authority: "Nauru Customs and Excise"
+  currency: "Australian dollar (AUD)"
+  import_duty_rates:
+    essential_food: "0-5%"
+    fuel: "0%"
+    machinery: "5-10%"
+    luxury_goods: "15-20%"
+    alcohol_tobacco: "High excise taxes"
+
+  gst_vat: "No GST/VAT system"
+  free_trade_agreements: ["PICTA (duty-free for PICTA members)"]
+  customs_procedures: "Simplified for small island nation"
+
+trade_facilitation:
+  main_port: "Nauru Port (Aiwo)"
+  main_airport: "Nauru International Airport"
+  shipping_connections: ["Fiji (Suva)", "Australia (Brisbane)", "New Zealand (Auckland)"]
+  freight_forwarders: "Limited, mostly through Fiji-based agents"
+
+  challenges:
+    - "Small market size limits bulk purchasing"
+    - "High shipping costs (remote location)"
+    - "Limited port infrastructure"
+    - "Dependence on transshipment through Fiji"
+    - "No direct shipping to many markets"
+
+economic_zones:
+  offshore_financial_center: "Previously operated, now largely closed"
+  special_economic_zones: "None currently"
+  investment_incentives: "Case-by-case for major investors"
+
+future_trade_priorities:
+  - "Diversify export base beyond fishing licenses"
+  - "Develop tuna processing capacity"
+  - "Promote sustainable tourism"
+  - "Improve port infrastructure"
+  - "Strengthen regional trade links"
