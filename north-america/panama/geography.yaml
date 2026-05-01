@@ -1,0 +1,15 @@
+country: Panama
+region: North America
+subregion: Central America
+area_km2: 75417
+land_borders:
+  - Costa Rica (north, 348 km)
+  - Colombia (south, 225 km)
+coastline_km: 2490
+  - Caribbean Sea (north)
+  - Pacific Ocean (south)
+highest_point: Volcán Barú (3,475 m)
+lowest_point: Pacific Ocean (0 m)
+climate: Tropical maritime; hot, humid, cloudy; rainy season May-January
+protected_areas_percent: 30%
+biomes: Tropical rainforest, cloud forest, mangroves

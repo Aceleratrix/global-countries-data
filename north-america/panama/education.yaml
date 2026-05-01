@@ -1,0 +1,9 @@
+country: Panama
+literacy_rate_percent: 95%
+education_spending_gdp_percent: 3.5%
+compulsory_education_years: 6-15 (9 years)
+higher_education_institutions:
+  - University of Panama
+  - Technological University of Panama
+  - InterAmerican University of Panama
+tertiary_enrollment_rate_percent: 42%

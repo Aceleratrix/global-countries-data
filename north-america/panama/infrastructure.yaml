@@ -1,0 +1,11 @@
+country: Panama
+panama_canal:
+  length_km: 82
+  annual_ship_transits: ~14000
+  revenue_2024_usd: 4.6 billion
+airports:
+  - Tocumen International (PTY, main hub)
+  - Enrique Adolfo Jiménez (David)
+paved_roads_km: 15000
+internet_penetration_percent: 68%
+mobile_subscriptions_per_100: 185%

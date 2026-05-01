@@ -1,0 +1,20 @@
+country: Panama
+population_total: 4400000
+population_rank_global: 130
+population_density_per_km2: 58.3
+urban_population_percent: 70%
+ethnic_groups:
+  - Mestizo: 70%
+  - Afro-Panamanian: 14%
+  - White: 10%
+  - Indigenous: 6%
+indigenous_groups:
+  - Ngäbe-Buglé
+  - Guna
+  - Emberá
+  - Wounaan
+life_expectancy_years: 78.5
+birth_rate_per_1000: 18.2
+death_rate_per_1000: 4.9
+infant_mortality_per_1000: 14.2
+literacy_rate_percent: 95%

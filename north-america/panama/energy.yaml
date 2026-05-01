@@ -1,0 +1,9 @@
+country: Panama
+energy_sources:
+  - Hydroelectric: 55%
+  - Natural gas: 30%
+  - Oil: 10%
+  - Solar/wind: 5%
+electricity_access_percent: 97%
+renewable_target_2030: 70%
+oil_refineries: 1 (Panama Refining Company)

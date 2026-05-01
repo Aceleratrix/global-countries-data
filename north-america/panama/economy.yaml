@@ -1,0 +1,23 @@
+country: Panama
+gdp_nominal_trillion: 0.16
+gdp_rank_global: 72
+gdp_per_capita_usd: 36000
+gdp_growth_2024: 4.2%
+currency:
+  name: Panamanian Balboa
+  symbol: B/.
+  pegged_to: USD (1:1)
+  usd_legal_tender: true
+major_industries:
+  - Panama Canal operations
+  - Banking and finance
+  - Tourism
+  - Logistics and transshipment
+  - Agriculture (bananas, coffee, shrimp)
+  - Construction
+trade_partners:
+  - United States
+  - China
+  - Japan
+  - Colombia
+  - Costa Rica
