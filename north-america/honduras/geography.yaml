@@ -1,0 +1,11 @@
+coordinates:
+  latitude: 15.0
+  longitude: -86.5
+terrain: Mostly mountains in interior, narrow coastal plains along Caribbean Sea and Pacific Ocean
+climate: Tropical in lowlands, temperate in highlands
+borders:
+  - Guatemala
+  - El Salvador
+  - Nicaragua
+lowest_point: Caribbean Sea (0 m)
+highest_point: Cerro Las Minas (2870 m)

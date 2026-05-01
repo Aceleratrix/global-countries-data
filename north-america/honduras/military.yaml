@@ -1,0 +1,8 @@
+active_personnel: 24000
+reserve_personnel: 60000
+military_expenditure: 1.2% of GDP
+service_branches:
+  - Honduran Army
+  - Honduran Navy
+  - Honduran Air Force
+conscription: No (voluntary service)

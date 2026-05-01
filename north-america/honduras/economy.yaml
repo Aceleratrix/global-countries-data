@@ -1,0 +1,21 @@
+gdp_total: 0.14 trillion USD
+gdp_global_rank: 84
+gdp_per_capita: 1400 USD (approx)
+currency:
+  name: Honduran Lempira
+  code: HNL
+  symbol: L
+major_industries:
+  - Agriculture (bananas, coffee, palm oil)
+  - Manufacturing (textiles, apparel)
+  - Mining (gold, silver, zinc)
+major_exports:
+  - Coffee
+  - Bananas
+  - Apparel
+  - Palm oil
+major_imports:
+  - Machinery
+  - Electronics
+  - Fuel
+  - Food products
