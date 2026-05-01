@@ -1,0 +1,9 @@
+# Demographics Data
+population: 9077691
+demonyms:
+  eng:
+    m: "Sierra Leonean"
+    f: "Sierra Leonean"
+  fra:
+    m: "Sierra-leonais"
+    f: "Sierra-leonaise"

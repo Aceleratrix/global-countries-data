@@ -1,0 +1,5 @@
+# Military Data
+armed_forces: "Republic of Sierra Leone Armed Forces"
+branches: ["Army", "Navy", "Air Force"]
+service_obligation: "Voluntary"
+defense_budget: "Low percentage of GDP"

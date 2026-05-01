@@ -1,0 +1,12 @@
+# Government Data
+independent: true
+un_member: true
+political_system: "Presidential republic"
+capital: ["Freetown"]
+idd:
+  root: "+2"
+  suffixes: ["32"]
+car:
+  signs: ["WAL"]
+  side: "right"
+fifa: "SLE"

@@ -1,0 +1,10 @@
+# Infrastructure Data
+transportation:
+  driving_side: "right"
+  road_network: "Developing"
+  main_ports: ["Freetown Port"]
+energy:
+  main_sources: ["Hydropower", "Fossil fuels"]
+telecommunications:
+  mobile_coverage: "Urban areas primarily"
+  internet_penetration: "Low"

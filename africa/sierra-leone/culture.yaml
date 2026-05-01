@@ -1,0 +1,15 @@
+# Culture Data
+languages:
+  eng: "English"
+native_name:
+  eng:
+    official: "Republic of Sierra Leone"
+    common: "Sierra Leone"
+translations:
+  ara:
+    official: "جمهورية سيراليون"
+    common: "سيراليون"
+  fra:
+    official: "République de Sierra Leone"
+    common: "Sierra Leone"
+flag: "🇸🇱"

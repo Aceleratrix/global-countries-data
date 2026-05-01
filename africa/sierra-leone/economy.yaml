@@ -1,0 +1,9 @@
+# Economy Data
+gdp_trilions_usd: 0.05
+gdp_global_rank: 147
+currencies:
+  SLE:
+    name: "Leone"
+    symbol: "Le"
+economic_system: "Mixed economy"
+main_sectors: ["Mining", "Agriculture", "Fisheries"]

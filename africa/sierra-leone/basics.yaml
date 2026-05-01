@@ -1,0 +1,11 @@
+# Basic Country Data
+common_name: "Sierra Leone"
+official_name: "Republic of Sierra Leone"
+cca2: "SL"
+cca3: "SLE"
+ccn3: "694"
+cioc: "SLE"
+independent: true
+un_member: true
+status: "officially-assigned"
+tld: [".sl"]

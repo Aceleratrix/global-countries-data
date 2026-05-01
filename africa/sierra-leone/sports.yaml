@@ -1,0 +1,5 @@
+# Sports Data
+national_sport: "Football"
+fifa_code: "SLE"
+olympic_participation: "Yes (since 1968)"
+popular_sports: ["Football", "Basketball", "Athletics"]

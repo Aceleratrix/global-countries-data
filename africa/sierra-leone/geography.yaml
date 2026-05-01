@@ -1,0 +1,12 @@
+# Geography Data
+region: "Africa"
+subregion: "Western Africa"
+landlocked: false
+area: 71740.0
+borders: ["GIN", "LBR"]
+latlng: [8.5, -11.5]
+timezones: ["UTC"]
+continents: ["Africa"]
+maps:
+  google_maps: "https://goo.gl/maps/jhacar85oq9QaeKB7"
+  open_street_maps: "https://www.openstreetmap.org/relation/192777"
