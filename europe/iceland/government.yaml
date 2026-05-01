@@ -1,0 +1,11 @@
+capital:
+- Reykjavik
+car_side: right
+car_signs:
+- IS
+idd:
+  root: '+3'
+  suffixes:
+  - '54'
+tld:
+- .is
