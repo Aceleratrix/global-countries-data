@@ -1,0 +1,7 @@
+timezones:
+  - "UTC+1"
+start_of_week: "Monday"
+idd:
+  root: "+352"
+  suffixes:
+    - ""

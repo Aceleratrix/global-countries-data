@@ -1,0 +1,7 @@
+government_type: "Constitutional Grand Duchy"
+capital:
+  - "Luxembourg City"
+car:
+  signs:
+    - "L"
+  side: "right"

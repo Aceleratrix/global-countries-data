@@ -1,0 +1,14 @@
+region: "Europe"
+subregion: "Western Europe"
+landlocked: true
+area: 2586
+latlng: [49.815273, 6.129583]
+capital:
+  - "Luxembourg City"
+borders:
+  - "BEL"
+  - "FRA"
+  - "DEU"
+maps:
+  google_maps: "https://goo.gl/maps/xyz123"
+  openstreet_maps: "https://www.openstreetmap.org/relation/307787"
