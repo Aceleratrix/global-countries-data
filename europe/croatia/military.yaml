@@ -1,0 +1,12 @@
+# Military data for Croatia
+defense_spending_usd_billion: 1.1  # 2023 estimate
+nato_member: true
+armed_forces:
+  - "Croatian Army (HKoV)"
+  - "Croatian Navy (HRM)"
+  - "Croatian Air Force (HRZ)"
+  - "Croatian Training and Doctrine Command"
+active_personnel: 15000
+reserve_personnel: 20000
+military_age: 18 for voluntary service
+peacekeeping_missions: "Participates in UN, NATO, and EU peacekeeping operations"

@@ -1,0 +1,27 @@
+# Demographic data for Croatia
+population: 3866233
+demonyms:
+  eng:
+    m: "Croatian"
+    f: "Croatian"
+  fra:
+    m: "Croate"
+    f: "Croate"
+languages:
+  hrv: "Croatian"
+translations:
+  eng:
+    common: "Croatia"
+    official: "Republic of Croatia"
+  hr:
+    common: "Hrvatska"
+    official: "Republika Hrvatska"
+  spa:
+    common: "Croacia"
+    official: "República de Croacia"
+  deu:
+    common: "Kroatien"
+    official: "Republik Kroatien"
+gini_index: 29.7  # 2018 data
+population_growth_rate: -0.6  # Estimated annual decline
+life_expectancy: 78.5  # WHO 2023 estimate

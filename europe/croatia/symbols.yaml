@@ -1,0 +1,16 @@
+# National symbols of Croatia
+flag:
+  description: "Three equal horizontal bands of red (top), white, and blue with the coat of arms of Croatia centered"
+  png_url: "https://flagcdn.com/w320/hr.png"
+  svg_url: "https://flagcdn.com/hr.svg"
+coat_of_arms:
+  description: "Main shield with red-white checkered pattern, topped with five smaller shields representing historical regions"
+  png_url: "https://mainfacts.com/media/images/coats_of_arms/hr.png"
+  svg_url: "https://mainfacts.com/media/images/coats_of_arms/hr.svg"
+anthem:
+  name: "Lijepa naša domovino (Our Beautiful Homeland)"
+  adopted: 1972 (official since 1990)
+national_day: "May 30 (Statehood Day)"
+national_animal: "European pine marten (Kuna)"
+national_flower: "Iris croatica (Croatian iris)"
+tld: ".hr"

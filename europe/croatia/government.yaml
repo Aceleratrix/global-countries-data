@@ -1,0 +1,16 @@
+# Government and political system data for Croatia
+system: "Unitary parliamentary constitutional republic"
+head_of_state: "President"
+head_of_government: "Prime Minister"
+legislature: "Sabor (Croatian Parliament)"
+administrative_divisions: "20 counties (županije) + 1 city (Zagreb) with county status"
+independence: true
+un_member: true
+eu_member: true
+nato_member: true
+idd:
+  root: "+3"
+  suffixes: ["85"]
+car:
+  signs: ["HR"]
+  side: "right"

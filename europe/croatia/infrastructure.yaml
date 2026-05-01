@@ -1,0 +1,14 @@
+# Infrastructure data for Croatia
+transport:
+  highways_km: 29000
+  railways_km: 2722
+  airports: 68
+  major_ports: ["Rijeka", "Split", "Ploče", "Zadar"]
+  adriatic_sea_coastline_km: 5835  # Including islands
+energy:
+  electricity_access: 100
+  primary_sources: ["Natural gas", "Coal", "Hydroelectric", "Wind", "Solar"]
+telecommunications:
+  mobile_penetration: 112  # Per 100 people
+  internet_penetration: 83  # Percentage of population
+  fixed_broadband_subscriptions: 28  # Per 100 people

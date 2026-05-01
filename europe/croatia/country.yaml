@@ -1,0 +1,26 @@
+# Core country identifiers and metadata
+name:
+  common: "Croatia"
+  official: "Republic of Croatia"
+  native:
+    hrv:
+      common: "Hrvatska"
+      official: "Republika Hrvatska"
+codes:
+  cca2: "HR"
+  cca3: "HRV"
+  ccn3: "191"
+  cioc: "CRO"
+  fifa: "CRO"
+capital: "Zagreb"
+capital_coordinates: [45.8, 16.0]
+independent: true
+un_member: true
+region: "Europe"
+subregion: "Southeast Europe"
+landlocked: false
+continents: ["Europe"]
+start_of_week: "monday"
+postal_code:
+  format: "HR-#####"
+  regex: "^(?:HR)*(\\d{5})$"
