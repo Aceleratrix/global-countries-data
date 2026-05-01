@@ -1,0 +1,9 @@
+# Demographics data
+population: 51316556
+demonyms:
+  eng:
+    m: "Burmese"
+    f: "Burmese"
+  fra:
+    m: "Birman"
+    f: "Birmane"

@@ -1,0 +1,5 @@
+# Currency data
+currencies:
+  MMK:
+    name: "Burmese kyat"
+    symbol: "Ks"

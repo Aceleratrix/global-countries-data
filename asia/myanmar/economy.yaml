@@ -1,0 +1,9 @@
+# Economy data
+gdp: "$0.07T"
+global_gdp_rank: 120
+gini:
+  2017: 30.7
+currencies:
+  MMK:
+    name: "Burmese kyat"
+    symbol: "Ks"

@@ -1,0 +1,7 @@
+# Language data
+languages:
+  mya: "Burmese"
+native_names:
+  mya:
+    common: "မြန်မာ"
+    official: "ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်"

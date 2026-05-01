@@ -1,0 +1,17 @@
+# Culture data
+translations:
+  ara:
+    common: "ميانمار"
+    official: "جمهورية اتحاد ميانمار"
+  zho:
+    common: "缅甸"
+    official: "缅甸联邦共和国"
+  jpn:
+    common: "ミャンマー"
+    official: "ミャンマー連邦共和国"
+  rus:
+    common: "Мьянма"
+    official: "Республика Союза Мьянма"
+  spa:
+    common: "Myanmar"
+    official: "República de la Unión de Myanmar"

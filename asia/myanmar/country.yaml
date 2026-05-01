@@ -1,0 +1,17 @@
+# Country core data
+name:
+  common: "Myanmar"
+  official: "Republic of the Union of Myanmar"
+  native:
+    mya:
+      common: "မြန်မာ"
+      official: "ပြည်ထောင်စု သမ္မတ မြန်မာနိုင်ငံတော်"
+codes:
+  cca2: "MM"
+  cca3: "MMR"
+  ccn3: "104"
+  cioc: "MYA"
+independent: true
+un_member: true
+status: "officially-assigned"
+start_of_week: "monday"

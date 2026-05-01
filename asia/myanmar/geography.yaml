@@ -1,0 +1,14 @@
+# Geography data
+region: "Asia"
+subregion: "South-Eastern Asia"
+landlocked: false
+area: 676578.0
+latlng: [22.0, 98.0]
+borders: ["BGD", "CHN", "IND", "LAO", "THA"]
+continents: ["Asia"]
+capital: ["Naypyidaw"]
+capital_info:
+  latlng: [19.76, 96.07]
+maps:
+  google_maps: "https://goo.gl/maps/4jrZyJkDERUfHyp26"
+  open_street_maps: "https://www.openstreetmap.org/relation/50371"
