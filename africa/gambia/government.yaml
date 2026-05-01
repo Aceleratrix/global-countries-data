@@ -1,0 +1,9 @@
+official_name: Republic of the Gambia
+common_name: Gambia
+independent: true
+un_member: true
+capital:
+  - Banjul
+government_type: Presidential republic
+fifa_code: GAM
+ioc_code: GAM

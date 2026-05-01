@@ -1,0 +1,16 @@
+area: 10689.0
+landlocked: false
+borders:
+  - SEN
+continents:
+  - Africa
+latlng:
+  - 13.46666666
+  - -16.56666666
+capital_info:
+  latlng:
+    - 13.45
+    - -16.57
+maps:
+  google_maps: https://goo.gl/maps/bbGBCxxtfD2A9Z4m6
+  open_street_maps: https://www.openstreetmap.org/relation/192774
