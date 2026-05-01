@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 86/195 (44.1%) Complete](https://img.shields.io/badge/Status-86/195 (44.1%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 85/195 (43.6%) Complete](https://img.shields.io/badge/Status-85/195 (43.6%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (86 / 195 = 44.1%)
+## 📊 Coverage Progress (85 / 195 = 43.6%)
 
 ### 🌎 South America (4/12 = 33.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -54,6 +54,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇬🇹 **Guatemala** | 13/13 | ✅ **100% COMPLETE** | 70th largest economy ($0.17T), Guatemala City (3M), Tikal/Antigua UNESCO sites | Spanish (es-GT) |
 | 🇵🇷 **Puerto Rico** | 13/13 | ✅ **100% COMPLETE** | 68th largest economy ($0.18T), San Juan (2M), El Yunque National Forest, US territory | Spanish (es-PR) + English |
 | 🇨🇷 **Costa Rica** | 13/13 | ✅ **100% COMPLETE** | 71st largest economy ($0.16T), San José (1.5M metro), abolished army 1949, 5% global biodiversity | Spanish (es-CR) + English |
+| 🇵🇦 **Panama** | 13/13 | ✅ **100% COMPLETE** | 72nd largest economy ($0.16T), Panama City (2M), Panama Canal, dollarized economy, logistics hub | Spanish (es-PA) + English |
 
 ### 🌏 Asia (14/50 = 28.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
