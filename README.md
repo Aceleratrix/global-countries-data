@@ -105,7 +105,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇭🇷 **Croatia** | 13/13 | ✅ **100% COMPLETE** | 85th largest economy ($0.13T), Zagreb (0.8M), Adriatic coastline, 8 UNESCO sites, EU/NATO/Eurozone member | English (en-US) |
 | 🇱🇹 **Lithuania** | 13/13 | ✅ **100% COMPLETE** | 87th largest economy ($0.12T), Vilnius (0.6M), EU/NATO/Eurozone member, 3 UNESCO sites, Baltic state | English (en-US) |
 
-### 🌍 Africa (7/54 = 13.0%)
+### 🌍 Africa (8/54 = 14.8%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇳🇬 **Nigeria** | 13/13 | ✅ **100% COMPLETE** | 28th largest economy ($0.48T), Africa's most populous (223M), fintech leader (4 unicorns), Nollywood | English (en-NG) |
@@ -115,6 +115,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇩🇿 **Algeria** | 13/13 | ✅ **100% COMPLETE** | 47th largest economy ($0.31T), Algiers (5.1M), Sahara Desert (90% territory), OPEC member, 7 UNESCO sites | Arabic (ar-DZ) + Tamazight + English |
 | 🇲🇦 **Morocco** | 13/13 | ✅ **100% COMPLETE** | 54th largest economy ($0.25T), Rabat (2M), Atlas Mountains, Sahara Desert, 7 UNESCO sites | Arabic (ar-MA) + Tamazight + English |
 | 🇪🇹 **Ethiopia** | 13/13 | ✅ **100% COMPLETE** | 97th largest economy ($0.10T), Addis Ababa (5M), African Union HQ, coffee origin, 9 UNESCO sites | Amharic (am-ET) + English |
+| 🇬🇭 **Ghana** | 13/13 | ✅ **100% COMPLETE** | 98th largest economy ($0.10T), Accra (capital), Gold Coast history, cocoa exports, Lake Volta (world's largest reservoir) | English (en-GH) + Akan/Ewe/Ga |
 
 ### 🌏 Oceania (1/14 = 7.1%)
 | Country | Files | Status | Key Highlights | Primary Language |
