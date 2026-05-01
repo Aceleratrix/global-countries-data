@@ -138,6 +138,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇬🇳 **Guinea** | 13/13 | ✅ **100% COMPLETE** | 146th largest economy ($0.05T), Conakry (capital), Western Africa, bauxite reserves (25% global), Atlantic coastline | French (fr-GN) + English |
 | 🇸🇴 **Somalia** | 13/13 | ✅ **100% COMPLETE** | 142nd largest economy ($0.06T), Mogadishu (capital), longest mainland Africa coastline (3,300km), Horn of Africa, Somali shilling | Somali (so-SO) + Arabic + English |
 | 🇧🇯 **Benin** | 13/13 | ✅ **100% COMPLETE** | 143rd largest economy ($0.06T), Porto-Novo (capital), West Africa, borders 4 countries, Vodun culture, former Dahomey kingdom | French (fr-BJ) + English |
+| 🇬🇲 **Gambia** | 13/13 | ✅ **100% COMPLETE** | 145th largest economy ($0.05T), Banjul (capital), West Africa, smallest country on mainland Africa, borders only Senegal, Gambia River flows through country | English (en-GM) + English |
 
 ### 🌏 Oceania (2/14 = 14.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
