@@ -1,0 +1,8 @@
+country: Belarus
+primary_energy_sources:
+  - Natural gas (imported from Russia)
+  - Nuclear (Astravets Nuclear Power Plant, operational 2021)
+renewable_energy_share: 4%
+oil_refining_capacity: 2 million tons/year
+electricity_production_kwh: 34 billion
+energy_import_dependency: ~85% (mainly natural gas from Russia)

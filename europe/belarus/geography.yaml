@@ -1,0 +1,20 @@
+country: Belarus
+area_km2: 207600
+continent: Europe
+borders:
+  - Russia
+  - Ukraine
+  - Poland
+  - Lithuania
+  - Latvia
+highest_point: Dzyarzhynskaya Hara
+highest_point_elevation_m: 345
+major_rivers:
+  - Dnieper
+  - Neman
+  - Pripyat
+unesco_world_heritage_sites:
+  - Białowieża Forest (shared with Poland)
+  - Nesvizh Castle
+  - Mir Castle Complex
+climate: Temperate continental

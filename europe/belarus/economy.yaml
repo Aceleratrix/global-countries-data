@@ -1,0 +1,22 @@
+country: Belarus
+gdp_usd_trillion: 0.20
+gdp_global_rank: 61
+gdp_per_capita_usd: 22000
+major_industries:
+  - Machinery
+  - Chemicals
+  - Agriculture
+  - Textiles
+  - Oil refining
+inflation_rate_2023: 5.2%
+unemployment_rate_2023: 4.1%
+major_exports:
+  - Machinery
+  - Chemicals
+  - Agricultural products
+  - Refined oil
+trade_partners:
+  - Russia
+  - China
+  - Ukraine
+  - European Union

@@ -1,0 +1,14 @@
+country: Belarus
+population_2023: 9100000
+population_growth_rate: -0.3%
+age_structure:
+  0-14: 16%
+  15-64: 69%
+  65_plus: 15%
+urban_population_percent: 78%
+capital_population: 2000000
+life_expectancy_total: 74
+life_expectancy_male: 69
+life_expectancy_female: 79
+literacy_rate: 99.7%
+fertility_rate: 1.7

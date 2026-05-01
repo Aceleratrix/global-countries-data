@@ -1,0 +1,10 @@
+country: Belarus
+active_personnel: 45000
+reserve_personnel: 290000
+military_budget_usd: 1200000000
+key_branches:
+  - Army
+  - Air Force
+  - Air Defense Force
+  - Special Operations Forces
+military_service: Voluntary (contract-based) + 12-month conscription

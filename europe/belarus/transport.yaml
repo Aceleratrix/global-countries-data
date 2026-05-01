@@ -1,0 +1,12 @@
+country: Belarus
+total_road_length_km: 51000
+paved_roads_percent: 87%
+railway_length_km: 5500
+major_airports:
+  - Minsk National Airport
+  - Gomel Airport
+public_transport_minsk: Bus, tram, metro (1 line)
+international_rail_connections:
+  - Moscow
+  - Warsaw
+  - Berlin
