@@ -134,7 +134,7 @@
 | 94 | 🇦🇱 Albânia | albania | Europe | $0.12T |
 | 95 | 🇬🇳 Gabão | gabon | Africa | $0.12T |
 | 96 | 🇳🇵 Níger | niger | Africa | $0.12T |
-| 97 | 🇸🇳 Senegal | senegal | Africa | $0.12T |
+| 106 | 🇸🇳 Senegal | senegal | Africa | $0.08T | ✅ 100% COMPLETE |
 | 98 | 🇬🇭 Ghana | ghana | Africa | $0.10T | ✅ 100% COMPLETE |
 | 99 | 🇲🇼 Malaui | malawi | Africa | $0.12T |
 | 100 | 🇺🇬 Uganda | uganda | Africa | $0.09T | ✅ 100% COMPLETE |
