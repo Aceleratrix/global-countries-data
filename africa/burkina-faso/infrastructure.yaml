@@ -1,0 +1,9 @@
+country: Burkina Faso
+tld: [".bf"]
+postal_code:
+  format: null
+  regex: null
+idd: "+226"
+transport:
+  car_side: right
+  car_signs: ["BF"]

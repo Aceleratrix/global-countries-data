@@ -1,0 +1,19 @@
+country: Burkina Faso
+area_km2: 272967.0
+region: Africa
+subregion: Western Africa
+landlocked: true
+borders:
+  - BEN
+  - CIV
+  - GHA
+  - MLI
+  - NER
+  - TGO
+capital: Ouagadougou
+capital_latlng: [12.37, -1.52]
+latlng: [13.0, -2.0]
+timezones: ["UTC"]
+maps:
+  google_maps: "https://goo.gl/maps/rKRmpcMbFher2ozb7"
+  openstreetmap: "https://www.openstreetmap.org/relation/192783"

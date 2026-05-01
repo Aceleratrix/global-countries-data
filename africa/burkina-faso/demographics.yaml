@@ -1,0 +1,15 @@
+country: Burkina Faso
+population: 24070553
+demonyms:
+  eng:
+    m: Burkinabe
+    f: Burkinabe
+  fra:
+    m: Burkinabé
+    f: Burkinabée
+languages:
+  fra: French
+native_names:
+  fra:
+    official: République du Burkina
+    common: Burkina Faso
