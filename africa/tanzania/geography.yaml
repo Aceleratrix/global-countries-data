@@ -1,0 +1,16 @@
+borders:
+  - BDI
+  - COD
+  - KEN
+  - MWI
+  - MOZ
+  - RWA
+  - ZMB
+  - ZWE
+terrain: Coastal plains, central plateau, northern/southern highlands
+highest_point: Mount Kilimanjaro
+highest_point_m: 5895
+lowest_point: Indian Ocean (0 m)
+coordinates:
+  latitude: -6.369028
+  longitude: 34.888822

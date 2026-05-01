@@ -1,0 +1,16 @@
+country: Tanzania
+official_name: United Republic of Tanzania
+cca2: TZ
+cca3: TZA
+capital: Dodoma
+region: Africa
+subregion: Eastern Africa
+population: 61741070
+area_km2: 945087
+currency_code: TZS
+currency_name: Tanzanian Shilling
+languages:
+  - Swahili
+  - English
+timezone: UTC+03:00
+flag: 🇹🇿

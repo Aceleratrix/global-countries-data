@@ -1,0 +1,9 @@
+forest_cover: 37%
+ghg_emissions_mtco2: 45
+protected_areas:
+  - Serengeti National Park
+  - Ngorongoro Conservation Area
+  - Kilimanjaro National Park
+major_rivers:
+  - Rufiji
+  - Pangani

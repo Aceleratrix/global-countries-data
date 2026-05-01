@@ -1,0 +1,11 @@
+gdp_nominal_usd: 89200000000
+gdp_trillion_usd: 0.09
+global_gdp_rank: 99
+major_industries:
+  - Agriculture
+  - Mining
+  - Tourism
+  - Manufacturing
+agriculture_share_gdp: 24%
+industry_share_gdp: 28%
+services_share_gdp: 48%
