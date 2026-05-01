@@ -64,7 +64,7 @@
 | 42 | 🇬🇷 Grécia | greece | Europe | ✅ 100% COMPLETE |
 | 43 | 🇫🇮 Finlândia | finland | Europe | ✅ 100% COMPLETE |
 | 44 | 🇨🇴 Colômbia | colombia | South America | ✅ 100% COMPLETE |
-| 45 | 🇨🇱 Chile | chile | South America | $0.33T |
+| 45 | 🇨🇱 Chile | chile | South America | ✅ 100% COMPLETE |
 | 46 | 🇿🇦 África do Sul | south-africa | Africa | ✅ 100% COMPLETE |
 | 47 | 🇦🇷 Argélia | algeria | Africa | $0.31T |
 | 48 | 🇳🇬 Nova Zelândia | new-zealand | Oceania | $0.29T |
