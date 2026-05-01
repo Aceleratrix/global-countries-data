@@ -1,0 +1,10 @@
+population: 5200000
+population_growth_rate: 0.8%
+urban_population: 82%
+life_expectancy: 80 years
+ethnic_groups:
+  - White/Castizo: 83%
+  - Mestizo: 7%
+  - Afro-Costa Rican: 4%
+  - Indigenous: 2%
+  - Other: 4%
