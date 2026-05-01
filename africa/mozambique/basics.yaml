@@ -1,0 +1,19 @@
+cca2: MZ
+cca3: MOZ
+ccn3: "508"
+cioc: MOZ
+tld:
+  - ".mz"
+independent: true
+un_member: true
+status: officially-assigned
+name:
+  common: Mozambique
+  official: Republic of Mozambique
+  native:
+    por:
+      common: Moçambique
+      official: República de Moçambique
+capital:
+  - Maputo
+flag: "🇲🇿"

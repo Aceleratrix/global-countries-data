@@ -1,0 +1,14 @@
+transport:
+  driving_side: left
+  major_ports:
+    - Port of Maputo
+    - Port of Beira
+    - Port of Nacala
+  major_airports:
+    - Maputo International Airport
+    - Beira Airport
+telecommunications:
+  internet_tld: ".mz"
+  idd_root: "+2"
+  idd_suffixes:
+    - "58"

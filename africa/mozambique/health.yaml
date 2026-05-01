@@ -1,0 +1,9 @@
+life_expectancy: 60.0
+infant_mortality_rate: 50.0
+health_expenditure_percent_gdp: 5.0
+major_diseases:
+  - Malaria
+  - HIV/AIDS
+  - Tuberculosis
+healthcare_system: Public-private mixed
+who_region: AFRO

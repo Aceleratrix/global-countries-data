@@ -1,0 +1,11 @@
+independent: true
+un_member: true
+political_system: Semi-presidential republic
+car:
+  signs:
+    - MOC
+  side: left
+idd:
+  root: "+2"
+  suffixes:
+    - "58"

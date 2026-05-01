@@ -1,0 +1,19 @@
+region: Africa
+subregion: Eastern Africa
+landlocked: false
+area: 801590.0
+latlng:
+  - -18.25
+  - 35.0
+borders:
+  - MWI
+  - ZAF
+  - SWZ
+  - TZA
+  - ZMB
+  - ZWE
+continents:
+  - Africa
+maps:
+  google_maps: "https://goo.gl/maps/xCLcY9fzU6x4Pueu5"
+  open_street_maps: "https://www.openstreetmap.org/relation/195273"

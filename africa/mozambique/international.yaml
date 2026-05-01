@@ -1,0 +1,15 @@
+un_member: true
+un_region: Africa
+borders:
+  - MWI
+  - ZAF
+  - SWZ
+  - TZA
+  - ZMB
+  - ZWE
+regional_groups:
+  - African Union
+  - Southern African Development Community (SADC)
+  - Commonwealth of Nations (observer)
+fifa: MOZ
+ioc: MOZ

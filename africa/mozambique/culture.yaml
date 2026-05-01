@@ -1,0 +1,21 @@
+languages:
+  por: Portuguese
+translations:
+  ara:
+    common: موزمبيق
+    official: جمهورية موزمبيق
+  deu:
+    common: Mosambik
+    official: Republik Mosambik
+  fra:
+    common: Mozambique
+    official: République du Mozambique
+  jpn:
+    common: モザンビーク
+    official: モザンビーク共和国
+  kor:
+    common: 모잠비크
+    official: 모잠비크 공화국
+  por:
+    common: Moçambique
+    official: República de Moçambique

@@ -1,0 +1,13 @@
+gdp_value: 0.08
+gdp_unit: T
+gdp_global_rank: 112
+key_industries:
+  - Agriculture
+  - Coal mining
+  - Natural gas extraction
+  - Manufacturing
+  - Tourism
+currencies:
+  MZN:
+    name: Mozambican metical
+    symbol: MT
