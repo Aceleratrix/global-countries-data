@@ -1,0 +1,4 @@
+# Education data
+literacy_rate: null  # No recent verified data from REST Countries API
+education_system: "French-style system, Sango used in early primary education"
+note: "Data sourced from public domain reports, not available in REST Countries API"

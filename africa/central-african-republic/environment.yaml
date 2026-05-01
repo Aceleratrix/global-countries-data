@@ -1,0 +1,5 @@
+# Environment data
+forest_coverage_percent: null  # No recent verified data from REST Countries API
+protected_areas_percent: null
+climate: "Tropical, hot and humid in south, semi-arid in north"
+note: "Data sourced from public domain reports, not available in REST Countries API"

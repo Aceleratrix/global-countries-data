@@ -1,0 +1,17 @@
+# Geography data
+region: "Africa"
+subregion: "Middle Africa"
+continent: "Africa"
+landlocked: true
+area_sq_km: 622984.0
+coordinates: [7.0, 21.0]
+borders:
+  - "CMR"  # Cameroon
+  - "TCD"  # Chad
+  - "COD"  # Democratic Republic of the Congo
+  - "COG"  # Republic of the Congo
+  - "SSD"  # South Sudan
+  - "SDN"  # Sudan
+maps:
+  google_maps: "https://goo.gl/maps/51V8dsi2rGYC9n3c9"
+  openstreetmap: "https://www.openstreetmap.org/relation/192790"

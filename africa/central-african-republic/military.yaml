@@ -1,0 +1,4 @@
+# Military data
+military_expenditure_percent_gdp: null  # No recent verified data
+armed_forces_size: null  # No recent verified data
+note: "Data sourced from public domain reports, not available in REST Countries API"

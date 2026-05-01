@@ -1,0 +1,10 @@
+# Economy data
+gdp_trillion: 0.05
+gdp_global_rank: 149
+currency:
+  code: "XAF"
+  name: "Central African CFA franc"
+  symbol: "Fr"
+gini_index:
+  year: 2008
+  value: 56.2

@@ -1,0 +1,4 @@
+# Health data
+life_expectancy: null  # No recent verified data from REST Countries API
+healthcare_system: "Public healthcare system, limited infrastructure"
+note: "Data sourced from public domain reports, not available in REST Countries API"

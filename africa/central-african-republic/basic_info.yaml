@@ -1,0 +1,14 @@
+# Basic country information
+country_code:
+  iso2: "CF"
+  iso3: "CAF"
+  numeric: "140"
+  cioc: "CAF"
+independent: true
+un_member: true
+status: "officially-assigned"
+start_of_week: "monday"
+capital: "Bangui"
+capital_coordinates: [4.37, 18.58]
+alt_spellings: ["CF", "Central African Republic", "République centrafricaine"]
+flag_emoji: "🇨🇫"

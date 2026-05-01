@@ -1,0 +1,19 @@
+# Demographics data
+population: 6470307
+languages:
+  fra: "French"
+  sag: "Sango"
+native_names:
+  fra:
+    official: "République centrafricaine"
+    common: "République centrafricaine"
+  sag:
+    official: "Ködörösêse tî Bêafrîka"
+    common: "Bêafrîka"
+demonyms:
+  eng:
+    m: "Central African"
+    f: "Central African"
+  fra:
+    m: "Centrafricain"
+    f: "Centrafricaine"

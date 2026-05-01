@@ -1,0 +1,11 @@
+# Infrastructure data
+idd:
+  root: "+2"
+  suffixes: ["36"]
+full_idd: "+236"
+driving_side: "right"
+timezones: ["UTC+01:00"]
+postal_code:
+  format: null
+  regex: null
+car_signs: ["RCA"]

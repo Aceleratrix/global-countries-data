@@ -1,0 +1,19 @@
+# Culture data
+official_languages:
+  - "French"
+  - "Sango"
+translations:
+  ara: "جمهورية أفريقيا الوسطى"
+  deu: "Zentralafrikanische Republik"
+  fra: "République centrafricaine"
+  por: "República Centro-Africana"
+  rus: "Центрально-Африканская Республика"
+  spa: "República Centroafricana"
+  zho: "中非共和国"
+flag_description: "Four equal horizontal bands of blue, white, green and yellow intersected at the center by a vertical red band; a yellow five-pointed star is situated on the hoist side of the blue band."
+flag_urls:
+  png: "https://flagcdn.com/w320/cf.png"
+  svg: "https://flagcdn.com/cf.svg"
+coat_of_arms_urls:
+  png: "https://mainfacts.com/media/images/coats_of_arms/cf.png"
+  svg: "https://mainfacts.com/media/images/coats_of_arms/cf.svg"
