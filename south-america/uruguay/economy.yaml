@@ -1,11 +1,8 @@
-gdp_usd_trillion: 0.23
-gdp_rank_global: 57
-gdp_per_capita_usd: 67000
-gdp_growth_rate_2023: 1.2
-inflation_rate_2023: 5.8
-unemployment_rate_2023: 8.3
-key_sectors:
-  - Agriculture
-  - Manufacturing (cellulose, food processing)
-  - Services (tourism, finance)
-  - Mining (small scale)
+gdp_nominal_trillion_usd: 0.10
+gdp_global_ranking: 95
+gini_index: 39.7
+gini_year: 2019
+currencies:
+  UYU:
+    name: "Uruguayan peso"
+    symbol: "$"

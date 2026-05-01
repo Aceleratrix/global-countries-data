@@ -1,15 +1,11 @@
-country_code: UY
-official_name: Oriental Republic of Uruguay
-common_name: Uruguay
-capital: Montevideo
-demonym: Uruguayan
-region: South America
-subregion: Southern South America
-population: 3400000
-area_km2: 176215
-currency_code: UYU
-currency_name: Uruguayan peso
-language: Spanish
-timezone: UTC-3
-calling_code: "+598"
-tld: .uy
+country_code_alpha2: "UY"
+country_code_alpha3: "URY"
+un_m49_code: "858"
+official_name: "Oriental Republic of Uruguay"
+common_name: "Uruguay"
+native_name_spa_official: "República Oriental del Uruguay"
+native_name_spa_common: "Uruguay"
+independent: true
+un_member: true
+status: "officially-assigned"
+start_of_week: "monday"

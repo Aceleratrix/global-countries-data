@@ -1,0 +1,6 @@
+borders:
+  - country_code: "ARG"
+    country_name: "Argentina"
+  - country_code: "BRA"
+    country_name: "Brazil"
+landlocked: false

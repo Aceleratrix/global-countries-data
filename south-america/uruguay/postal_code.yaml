@@ -1,0 +1,3 @@
+postal_code:
+  format: "#####"
+  regex: "^(\\d{5})$"

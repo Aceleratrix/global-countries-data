@@ -1,0 +1,11 @@
+languages:
+  spa: "Spanish"
+currencies:
+  UYU:
+    name: "Uruguayan peso"
+    symbol: "$"
+idd:
+  root: "+5"
+  suffixes:
+    - "98"
+calling_code: "+598"
