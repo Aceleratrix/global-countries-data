@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 72/195 (36.9%) Complete](https://img.shields.io/badge/Status-72/195 (36.9%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 76/195 (39.0%) Complete](https://img.shields.io/badge/Status-76/195 (39.0%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (55 / 195 = 28.2%)
+## 📊 Coverage Progress (76 / 195 = 39.0%)
 
 ### 🌎 South America (4/12 = 33.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -96,7 +96,7 @@ A structured, machine-readable database of country-specific data designed for **
 || 🇧🇾 **Belarus** | 13/13 | ✅ **100% COMPLETE** | 61st largest economy ($0.20T), Minsk (2M), Białowieża Forest (UNESCO), eastern Europe | English (en-US) |
 | 🇪🇪 **Estonia** | 13/13 | ✅ **100% COMPLETE** | 64th largest economy ($0.20T), Tallinn (0.5M), e-residency program, NATO/EU/Eurozone member | English (en-US) |
 
-### 🌍 Africa (6/54 = 11.1%)
+### 🌍 Africa (7/54 = 13.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇳🇬 **Nigeria** | 13/13 | ✅ **100% COMPLETE** | 28th largest economy ($0.48T), Africa's most populous (223M), fintech leader (4 unicorns), Nollywood | English (en-NG) |
@@ -105,6 +105,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇿🇦 **South Africa** | 13/13 | ✅ **100% COMPLETE** | 46th largest economy ($0.32T), Pretoria (3M), Kruger National Park, Rainbow Nation, 2010 FIFA World Cup | English (en-ZA) + 10 others |
 | 🇩🇿 **Algeria** | 13/13 | ✅ **100% COMPLETE** | 47th largest economy ($0.31T), Algiers (5.1M), Sahara Desert (90% territory), OPEC member, 7 UNESCO sites | Arabic (ar-DZ) + Tamazight + English |
 | 🇲🇦 **Morocco** | 13/13 | ✅ **100% COMPLETE** | 54th largest economy ($0.25T), Rabat (2M), Atlas Mountains, Sahara Desert, 7 UNESCO sites | Arabic (ar-MA) + Tamazight + English |
+| 🇪🇹 **Ethiopia** | 13/13 | ✅ **100% COMPLETE** | 67th largest economy ($0.18T), Addis Ababa (5M), African Union HQ, coffee origin, 9 UNESCO sites | Amharic (am-ET) + English |
 
 ### 🌏 Oceania (1/14 = 7.1%)
 | Country | Files | Status | Key Highlights | Primary Language |

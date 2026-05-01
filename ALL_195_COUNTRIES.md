@@ -94,6 +94,7 @@
 | 65 | 🇪🇪 Estônia | estonia | Europe | ✅ 100% COMPLETE | |
 | 66 | 🇸🇮 Eslovênia | slovenia | Europe | $0.19T | |
 | 67 | 🇸🇰 Eslováquia | slovakia | Europe | $0.19T | |
+| 67 | 🇪🇹 Etiópia | ethiopia | Africa | $0.18T | ✅ 100% COMPLETE |
 | 68 | 🇨🇷 Costa Rica | costa-rica | North America | $0.19T | |
 | 69 | 🇬🇹 Guatemala | guatemala | North America | $0.18T | |
 | 70 | 🇴🇲 Omã | oman | Asia | $0.18T | |
