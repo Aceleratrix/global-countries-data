@@ -1,16 +1,10 @@
-national_anthem: "Mulungu dalitsa Malawi (O God Bless Our Land of Malawi)"
-national_language: "Chichewa"
-official_language: "English"
-traditional_music: "Gule Wamkulu (UNESCO-recognized masked dance of Chewa people)"
-cuisine_staples:
-  - "Nsima (maize porridge)"
-  - "Fish from Lake Malawi"
-  - "Rice, beans, vegetables"
-sports:
-  - "Football (most popular)"
-  - "Netball"
-  - "Cricket"
-public_holidays:
-  - "Independence Day (July 6)"
-  - "New Year (Jan 1)"
-  - "Christmas (Dec 25)"
+languages:
+  eng: "English"
+  nya: "Chewa"
+native_names:
+  eng:
+    official: "Republic of Malawi"
+    common: "Malawi"
+  nya:
+    official: "Chalo cha Malawi, Dziko la Malaŵi"
+    common: "Malaŵi"

@@ -1,23 +1,38 @@
 # Malawi 🇲🇼
-
-## Basic Information
+## Core Facts
 - **Official Name**: Republic of Malawi
 - **Common Name**: Malawi
 - **Capital**: Lilongwe
-- **Largest City**: Lilongwe
-- **Population**: ~20,405,317 (2023 estimate)
+- **Population**: 20,734,262 (2023 REST Countries estimate)
 - **Area**: 118,484 km²
-- **Currency**: Malawian Kwacha (MWK)
-- **Languages**: English (official), Chichewa (national)
-- **Region**: Africa
+- **GDP**: $0.07T (118th largest economy globally)
+- **Currency**: Malawian kwacha (MWK, symbol MK)
+- **Languages**: English (official), Chewa (national)
+- **Region**: Eastern Africa
 - **Subregion**: Eastern Africa
-- **Borders**: Tanzania, Zambia, Mozambique
-- **GDP**: $0.08T (118th largest economy globally)
-- **Flag**: https://flagcdn.com/w320/mw.png
+- **Landlocked**: Yes
+- **Borders**: Mozambique (MOZ), Tanzania (TZA), Zambia (ZMB)
 
-## Key Facts
-- Landlocked country in southeastern Africa
-- Known as the "Warm Heart of Africa" for its friendly people
-- Lake Malawi (third-largest lake in Africa) covers ~20% of the country's area
-- Formerly known as Nyasaland under British rule, gained independence in 1964
-- Agriculture employs ~80% of the workforce (tobacco, tea, sugar are major exports)
+## Country Codes
+- CCA2: MW
+- CCA3: MWI
+- CCN3: 454
+- IOC: MAW
+- FIFA: MWI
+
+## Infrastructure
+- **Phone Code**: +265
+- **Internet TLD**: .mw
+- **Driving Side**: Left
+- **Timezone**: UTC+02:00
+- **Coordinates**: -13.5, 34.0 (capital: -13.97, 33.78)
+
+## Symbols
+- **Flag**: Three equal horizontal bands of black, red, green with a half red sun (31 rays) centered in the black band
+- **Flag URLs**: [PNG](https://flagcdn.com/w320/mw.png) | [SVG](https://flagcdn.com/mw.svg)
+- **Coat of Arms**: [PNG](https://mainfacts.com/media/images/coats_of_arms/mw.png) | [SVG](https://mainfacts.com/media/images/coats_of_arms/mw.svg)
+
+## Status
+- Independent: Yes
+- UN Member: Yes
+- Start of Week: Monday

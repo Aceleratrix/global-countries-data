@@ -1,19 +1,8 @@
-gdp_nominal_usd: 80000000000  # $0.08T
+gdp_trilion_usd: 0.07
 gdp_global_rank: 118
-gdp_per_capita_usd: 392
-currency: "Malawian Kwacha (MWK)"
-inflation_rate: 8.7  # percent (2023 est)
-unemployment_rate: 5.4  # percent (2023 est)
-major_exports:
-  - "Tobacco"
-  - "Tea"
-  - "Sugar"
-  - "Coffee"
-major_export_partners:
-  - "Belgium"
-  - "South Africa"
-  - "Zimbabwe"
-  - "China"
-agriculture_percent_gdp: 28
-industry_percent_gdp: 15
-services_percent_gdp: 57
+currencies:
+  MWK:
+    name: "Malawian kwacha"
+    symbol: "MK"
+gini_index:
+  2016: 44.7

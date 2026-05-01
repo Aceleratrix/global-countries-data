@@ -1,10 +1,13 @@
-road_network_km: 15000
-paved_roads_percent: 22
-railway_km: 765
-major_airports:
-  - "Lilongwe International Airport (LLW)"
-  - "Chileka International Airport (BLZ, Blantyre)"
-internet_penetration_percent: 13.2
-mobile_subscriptions_per_100: 42
-electricity_access_percent: 12  # mostly urban areas
-major_ports: "None (landlocked, uses ports in Mozambique/Tanzania)"
+idd:
+  root: "+2"
+  suffixes:
+    - "65"
+car:
+  signs:
+    - "MW"
+  side: "left"
+postal_code:
+  format: null
+  regex: null
+tld:
+  - ".mw"
