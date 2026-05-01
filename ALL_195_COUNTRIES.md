@@ -66,7 +66,7 @@
 | 44 | 🇨🇴 Colômbia | colombia | South America | ✅ 100% COMPLETE |
 | 45 | 🇨🇱 Chile | chile | South America | ✅ 100% COMPLETE |
 | 46 | 🇿🇦 África do Sul | south-africa | Africa | ✅ 100% COMPLETE |
-| 47 | 🇦🇷 Argélia | algeria | Africa | $0.31T |
+| 47 | 🇩🇿 Argélia | algeria | Africa | ✅ 100% COMPLETE |
 | 48 | 🇳🇬 Nova Zelândia | new-zealand | Oceania | $0.29T |
 | 49 | 🇵🇪 Peru | peru | South America | $0.28T |
 | 50 | 🇮🇦 Ucrânia | ukraine | Europe | $0.27T |
