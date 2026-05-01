@@ -1,0 +1,10 @@
+# Security data for Belize
+country: Belize
+borders:
+  - country: Guatemala
+    code: GTM
+  - country: Mexico
+    code: MEX
+military_expenditure: null  # No data from REST Countries API
+police_force: null  # No data from REST Countries API
+notes: "Borders two countries in Central America"

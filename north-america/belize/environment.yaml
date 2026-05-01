@@ -1,0 +1,9 @@
+# Environment data for Belize
+country: Belize
+area_km2: 22966.0
+coordinates:
+  latitude: 17.25
+  longitude: -88.75
+biome: Tropical rainforest, coastal mangroves, coral reefs
+protected_areas: null  # No data from REST Countries API
+notes: "Located on the Caribbean coast of Central America"

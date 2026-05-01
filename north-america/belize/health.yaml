@@ -1,0 +1,6 @@
+# Health data for Belize
+country: Belize
+population: 417634
+life_expectancy: null  # No data from REST Countries API
+healthcare_system: Mixed public-private
+notes: "Data sourced from REST Countries API (population only)"

@@ -1,0 +1,18 @@
+# Government data for Belize
+country: Belize
+independent: true
+un_member: true
+status: officially-assigned
+codes:
+  cca2: BZ
+  cca3: BLZ
+  ccn3: "084"
+  cioc: BIZ
+fifa_code: BLZ
+car:
+  signs:
+    - BH
+  driving_side: right
+postal_code:
+  format: null
+  regex: null

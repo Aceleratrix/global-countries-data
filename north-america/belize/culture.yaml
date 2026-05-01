@@ -1,0 +1,29 @@
+# Culture data for Belize
+country: Belize
+flag:
+  emoji: 🇧🇿
+  png: "https://flagcdn.com/w320/bz.png"
+  svg: "https://flagcdn.com/bz.svg"
+  alt: "The flag of Belize has a royal blue field with a thin red horizontal band at the top and bottom of the field and the national coat of arms in the center."
+coat_of_arms:
+  png: "https://mainfacts.com/media/images/coats_of_arms/bz.png"
+  svg: "https://mainfacts.com/media/images/coats_of_arms/bz.svg"
+translations:
+  arabic:
+    official: بليز
+    common: بليز
+  chinese:
+    official: 伯利兹
+    common: 伯利兹
+  spanish:
+    official: Belice
+    common: Belice
+  french:
+    official: Belize
+    common: Belize
+  portuguese:
+    official: Belize
+    common: Belize
+  russian:
+    official: Белиз
+    common: Белиз

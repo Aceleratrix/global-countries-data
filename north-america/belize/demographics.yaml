@@ -1,0 +1,28 @@
+# Demographics data for Belize
+country: Belize
+population: 417634
+languages:
+  - name: English
+    code: eng
+    official: true
+  - name: Belizean Creole
+    code: bjz
+  - name: Spanish
+    code: spa
+demonyms:
+  english:
+    male: Belizean
+    female: Belizean
+  french:
+    male: Bélizien
+    female: Bélizienne
+native_names:
+  - language: bjz
+    official: Belize
+    common: Belize
+  - language: eng
+    official: Belize
+    common: Belize
+  - language: spa
+    official: Belice
+    common: Belice

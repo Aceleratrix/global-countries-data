@@ -1,0 +1,11 @@
+# Economy data for Belize
+country: Belize
+gdp_trillion_usd: 0.06
+global_gdp_rank: 132
+currency:
+  code: BZD
+  name: Belize dollar
+  symbol: "$"
+gini_index:
+  year: 1999
+  value: 53.3

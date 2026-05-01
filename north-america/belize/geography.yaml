@@ -1,0 +1,23 @@
+# Geography data for Belize
+country: Belize
+capital: Belmopan
+region: Americas
+subregion: Central America
+continent: North America
+landlocked: false
+area_km2: 22966.0
+coordinates:
+  latitude: 17.25
+  longitude: -88.75
+capital_coordinates:
+  latitude: 17.25
+  longitude: -88.77
+borders:
+  - GTM
+  - MEX
+maps:
+  google_maps: "https://goo.gl/maps/jdCccpdLodm1uTmo9"
+  open_street_maps: "https://www.openstreetmap.org/relation/287827"
+timezones:
+  - "UTC-06:00"
+start_of_week: monday

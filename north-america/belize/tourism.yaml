@@ -1,0 +1,11 @@
+# Tourism data for Belize
+country: Belize
+flag_emoji: 🇧🇿
+maps:
+  google_maps: "https://goo.gl/maps/jdCccpdLodm1uTmo9"
+  open_street_maps: "https://www.openstreetmap.org/relation/287827"
+attractions:
+  - Belize Barrier Reef
+  - Great Blue Hole
+  - Cockscomb Basin Wildlife Sanctuary
+notes: "Popular destination for ecotourism and diving"

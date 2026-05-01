@@ -1,0 +1,13 @@
+# Infrastructure data for Belize
+country: Belize
+internet_tld:
+  - ".bz"
+phone_code:
+  root: "+5"
+  suffixes:
+    - "01"
+idd_full: "+501"
+transport:
+  driving_side: right
+  car_signs:
+    - BH

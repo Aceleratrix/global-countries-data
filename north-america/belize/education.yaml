@@ -1,0 +1,9 @@
+# Education data for Belize
+country: Belize
+official_language: English
+literacy_rate: null  # No data from REST Countries API
+education_levels:
+  - primary
+  - secondary
+  - tertiary
+notes: "English is the official language used in education"
