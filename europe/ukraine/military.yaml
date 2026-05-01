@@ -1,0 +1,9 @@
+country: Ukraine
+active_duty_personnel: 250000
+reserve_personnel: 900000
+defense_budget_usd_billion: 44
+branches:
+  - Ukrainian Ground Forces
+  - Ukrainian Air Force
+  - Ukrainian Navy
+  - Special Operations Forces

@@ -1,0 +1,11 @@
+country: Ukraine
+transportation:
+  rail_network_km: 21600
+  road_network_km: 169000
+  major_airports:
+    - Boryspil International Airport (Kyiv)
+    - Lviv Danylo Halytskyi International Airport
+energy_production:
+  natural_gas_billion_cubic_meters: 18.5
+  coal_million_tons: 25
+internet_penetration_percent: 83

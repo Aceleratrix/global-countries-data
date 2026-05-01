@@ -1,0 +1,13 @@
+country: Ukraine
+gdp_usd_trillion: 0.27
+gdp_global_rank: 50
+gdp_per_capita_usd: 7300
+main_industries:
+  - Agriculture (wheat, corn, sunflower oil)
+  - Metallurgy
+  - Energy (natural gas, coal)
+  - Information technology
+currency: Ukrainian hryvnia
+currency_code: UAH
+inflation_rate_percent: 12.9
+unemployment_rate_percent: 24.5

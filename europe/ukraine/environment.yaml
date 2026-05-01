@@ -1,0 +1,11 @@
+country: Ukraine
+forest_coverage_percent: 16.8
+protected_areas_percent: 6.8
+major_rivers:
+  - Dnieper
+  - Dniester
+  - Southern Bug
+environmental_issues:
+  - Soil erosion
+  - Water pollution
+  - Radioactive contamination (Chernobyl exclusion zone)
