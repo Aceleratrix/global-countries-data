@@ -1,0 +1,8 @@
+country: Lithuania
+healthcare_system: Universal healthcare
+life_expectancy: 75.5 years
+infant_mortality_rate: 3.1 per 1000 live births
+healthcare_expenditure_percent_gdp: 6.8%
+major_hospitals:
+  - Vilnius University Hospital
+  - Kaunas Clinical Hospital

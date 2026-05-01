@@ -1,0 +1,13 @@
+country: Lithuania
+official_name: Republic of Lithuania
+cca2: LT
+cca3: LTU
+region: Europe
+subregion: Northern Europe
+capital: Vilnius
+area_km2: 65300
+coordinates:
+  latitude: 55.1694
+  longitude: 23.8813
+borders: [BLR, LVA, POL, RUS]
+timezones: [UTC+02:00]

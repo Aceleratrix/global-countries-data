@@ -1,0 +1,15 @@
+country: Lithuania
+biomes:
+  - Temperate forest
+  - Wetlands
+protected_areas_percent: 18%
+major_rivers:
+  - Nemunas
+  - Neris
+major_lakes:
+  - Drūkšiai
+  - Dysnai
+environmental_issues:
+  - Air pollution
+  - Waste management
+greenhouse_gas_emissions_percent_eu: 0.3%

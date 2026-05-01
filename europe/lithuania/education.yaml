@@ -1,0 +1,8 @@
+country: Lithuania
+literacy_rate: 99.8%
+education_system: 4+5+2 structure
+compulsory_education_age: 6-16
+higher_education_institutions:
+  - Vilnius University
+  - Kaunas University of Technology
+education_expenditure_percent_gdp: 4.5%

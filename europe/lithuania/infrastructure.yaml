@@ -1,0 +1,12 @@
+country: Lithuania
+road_network_km: 84000
+railway_km: 1900
+airports: 5
+major_ports:
+  - Klaipėda (Baltic Sea)
+internet_penetration_percent: 85%
+energy_sources:
+  - Nuclear: 70%
+  - Hydro: 15%
+  - Wind: 10%
+  - Other: 5%

@@ -1,0 +1,10 @@
+country: Lithuania
+military_expenditure_percent_gdp: 2.1%
+active_personnel: 15000
+reserve_personnel: 25000
+nato_member: true
+nato_joined: 2004-03-29
+major_branches:
+  - Lithuanian Land Force
+  - Lithuanian Naval Force
+  - Lithuanian Air Force
