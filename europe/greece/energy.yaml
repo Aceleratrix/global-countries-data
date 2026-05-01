@@ -1,0 +1,7 @@
+energy_production: 120 TWh
+energy_consumption: 110 TWh
+renewables_share: 22%
+main_energy_sources:
+  - Oil
+  - Natural gas
+  - Renewables (wind, solar, hydro)

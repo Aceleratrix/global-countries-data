@@ -1,0 +1,17 @@
+gdp_nominal: 340000000000
+gdp_rank: 42
+gdp_year: 2023
+currency: Euro
+currency_code: EUR
+inflation_rate: 3.5%
+unemployment_rate: 11%
+major_industries:
+  - Tourism
+  - Shipping
+  - Agriculture
+  - Manufacturing
+main_exports:
+  - Food and beverages
+  - Petroleum products
+  - Pharmaceuticals
+  - Machinery
