@@ -110,7 +110,7 @@
 | 79 | 🇦🇲 Armênia | armenia | Asia | $0.15T | |
 | 80 | 🇸🇾 Síria | syria | Asia | $0.13T | ✅ 100% COMPLETE |
 | 80 | 🇲🇳 Mongólia | mongolia | Asia | $0.15T | |
-| 80 | 🇦🇿 Azerbaijão | azerbaijan | Asia | $0.15T |
+| 80 | 🇦🇿 Azerbaijão | azerbaijan | Asia | $0.15T | ✅ 100% COMPLETE |
 
 ---
 
