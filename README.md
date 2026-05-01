@@ -83,7 +83,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇦🇫 **Afghanistan** | 13/13 | ✅ **100% COMPLETE** | 122nd largest economy ($0.07T), Kabul (4.1M), Landlocked, Hindu Kush mountains | English (en-US) |
 | 🇲🇲 **Myanmar** | 13/13 | ✅ **100% COMPLETE** | 120th largest economy ($0.07T), Naypyidaw (capital), South-Eastern Asia, 51.3M population | English (en-US) |
 
-### 🌍 Europe (22/44 = 50.0%)
+### 🌍 Europe (23/44 = 52.3%)
 
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
@@ -105,13 +105,14 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇷🇴 **Romania** | 13/13 | ✅ **100% COMPLETE** | 32nd largest economy ($0.40T), Bucharest (2M), EU/NATO member, Carpathian Mountains | English (en-US) |
 | 🇬🇷 **Greece** | 13/13 | ✅ **100% COMPLETE** | 42nd largest economy ($0.34T), Athens (4M), Parthenon, tourism 18% GDP, EU/Eurozone member | English (en-US) |
 | 🇺🇦 **Ukraine** | 13/13 | ✅ **100% COMPLETE** | 50th largest economy ($0.27T), Kyiv (3M), agricultural superpower, 37M population, IT sector growth | English (en-US) |
-|| 🇭🇺 **Hungary** | 13/13 | ✅ **100% COMPLETE** | 52nd largest economy ($0.26T), Budapest (3M), thermal springs, EU/NATO member | English (en-US) |
-|| 🇧🇾 **Belarus** | 13/13 | ✅ **100% COMPLETE** | 61st largest economy ($0.20T), Minsk (2M), Białowieża Forest (UNESCO), eastern Europe | English (en-US) |
+| 🇭🇺 **Hungary** | 13/13 | ✅ **100% COMPLETE** | 52nd largest economy ($0.26T), Budapest (3M), thermal springs, EU/NATO member | English (en-US) |
+| 🇧🇾 **Belarus** | 13/13 | ✅ **100% COMPLETE** | 61st largest economy ($0.20T), Minsk (2M), Białowieża Forest (UNESCO), eastern Europe | English (en-US) |
 | 🇪🇪 **Estonia** | 13/13 | ✅ **100% COMPLETE** | 93rd largest economy ($0.10T), Tallinn (capital), NATO/EU/Eurozone member, e-residency program | English (en-US) |
 | 🇭🇷 **Croatia** | 13/13 | ✅ **100% COMPLETE** | 85th largest economy ($0.13T), Zagreb (0.8M), Adriatic coastline, 8 UNESCO sites, EU/NATO/Eurozone member | English (en-US) |
 | 🇱🇹 **Lithuania** | 13/13 | ✅ **100% COMPLETE** | 87th largest economy ($0.12T), Vilnius (0.6M), EU/NATO/Eurozone member, 3 UNESCO sites, Baltic state |
-| 🇲🇪 **Montenegro** | 13/13 | ✅ **100% COMPLETE** | 128th largest economy ($0.07T), Podgorica (capital), Adriatic coastline, 620K population, EU candidate | English (en-US) | English (en-US) |
+| 🇲🇪 **Montenegro** | 13/13 | ✅ **100% COMPLETE** | 128th largest economy ($0.07T), Podgorica (capital), Adriatic coastline, 620K population, EU candidate | English (en-US) |
 | 🇱🇺 **Luxembourg** | 13/13 | ✅ **100% COMPLETE** | 129th largest economy ($0.07T), Luxembourg City (capital), landlocked Western Europe, EU/NATO/Eurozone member | English (en-US) |
+| 🇦🇱 **Albania** | 13/13 | ✅ **100% COMPLETE** | 108th largest economy ($0.08T), Tirana (capital), Southeast Europe, 2.3M population, Albania Alps | English (en-US) |
 
 ### 🌍 Africa (17/54 = 31.5%)
 | Country | Files | Status | Key Highlights | Primary Language |
