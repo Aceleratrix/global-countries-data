@@ -1,0 +1,125 @@
+# AI strategy, cloud services, and tech infrastructure in Fiji
+# Source: Digital Fiji Strategy, ICT Ministry, university research
+
+country: fiji
+jurisdiction: Fiji
+last_updated: 2024-01-01
+
+digital_strategy:
+  name: "Digital Fiji 2021-2024"
+  lead_agency: "Ministry of Communications (MoC)"
+  budget: "F$50 million (approx. US$22 million)"
+  pillars:
+    - "Digital Government"
+    - "Digital Infrastructure"
+    - "Digital Skills"
+    - "Digital Economy"
+  status: "Ongoing implementation"
+
+ai_readiness:
+  global_rank: "Not ranked in major AI indices"
+  maturity_level: "Early stage"
+  government_ai_use: "Limited pilot projects"
+  private_sector_ai: "Minimal adoption outside tourism"
+  ai_talent: "Very limited local talent pool"
+
+cloud_services:
+  adoption_level: "Low to moderate"
+  local_data_centers: "Limited, mostly hosted in Australia/NZ"
+  government_cloud: "Exploring cloud-first policy"
+  major_providers:
+    - "Microsoft Azure (via partners)"
+    - "Amazon AWS (via partners)"
+    - "Google Cloud (via partners)"
+  latency: "150-200ms to Australia data centers"
+
+ai_initiatives:
+  government:
+    - project: "Chatbot for government services (pilot)"
+      status: "Under development"
+      agency: "Ministry of Communications"
+    - project: "AI-assisted border control"
+      status: "Feasibility study"
+      agency: "Fiji Immigration"
+    - project: "Tourism AI recommendation engine"
+      status: "Concept stage"
+      agency: "Tourism Fiji"
+
+  academic:
+    - institution: "University of the South Pacific (USP)"
+      projects:
+        - "Natural Language Processing for Fijian/Hindi"
+        - "Agricultural AI for crop monitoring"
+        - "Climate change modeling with AI"
+      funding: "Regional development grants"
+    - institution: "Fiji National University (FNU)"
+      projects:
+        - "AI curriculum development"
+        - "Healthcare AI applications"
+      partnerships: "Australian universities"
+
+  private_sector:
+    - sector: "Tourism"
+      use_cases:
+        - "Personalized guest recommendations"
+        - "Dynamic pricing algorithms"
+        - "Chatbots for booking"
+    - sector: "BPO (Business Process Outsourcing)"
+      use_cases:
+        - "AI-augmented customer service"
+        - "Automated transcription services"
+    - sector: "Agriculture"
+      use_cases:
+        - "Precision farming (pilot projects)"
+        - "Supply chain optimization"
+
+tech_infrastructure:
+  internet_backbone:
+    submarine_cables: ["Fiji-Japan Cable", "Southern Cross Cable"]
+    international_bandwidth: "Limited by cable capacity"
+    redundancy: "Single main cable, satellite backup"
+
+  data_centers:
+    local: "Minimal commercial data center infrastructure"
+    colocation: "TFL and Vodafone offer limited colocation"
+    government: "Government Data Centre (GDC) for public services"
+
+  power_reliability:
+    urban: "Relatively stable"
+    rural: "Frequent outages, diesel generators common"
+    renewable: "60% of electricity from hydro (target 100% by 2030)"
+
+startup_ecosystem:
+  maturity: "Nascent"
+  incubators:
+    - "Fiji National University Innovation Hub"
+    - "USP Innovation Hub"
+  funding: "Limited venture capital, government grants available"
+  success_stories: "Few tech startups, mostly web/mobile development"
+  challenges: "Small market, limited talent, funding gaps"
+
+digital_skills:
+  population_literacy: "~60% basic digital skills"
+  stem_graduates: "Low numbers, many migrate to Australia/NZ"
+  training_programs:
+    - "Government digital literacy programs"
+    - "Cisco Networking Academy (USP)"
+    - "Microsoft skills training"
+  ai_skills: "Near zero locally, rely on overseas expertise"
+
+regulatory_environment:
+  ai_ethics: "No framework yet"
+  data_localization: "No requirements currently"
+  ai_procurement: "Government exploring AI vendor frameworks"
+  innovation_policy: "Fiji Innovation Policy 2020-2025"
+
+future_outlook:
+  opportunities:
+    - "BPO sector growth with AI augmentation"
+    - "Tourism tech innovations"
+    - "Regional tech hub for Pacific Islands"
+  challenges:
+    - "Brain drain to Australia/New Zealand"
+    - "Limited R&D funding"
+    - "Infrastructure constraints in outer islands"
+    - "Small domestic market"

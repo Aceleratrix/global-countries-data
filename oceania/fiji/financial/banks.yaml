@@ -1,0 +1,123 @@
+# Banking, financial institutions, and payment methods in Fiji
+# Source: Reserve Bank of Fiji, commercial bank websites
+
+country: fiji
+jurisdiction: Fiji
+last_updated: 2024-01-01
+
+banking_system:
+  central_bank: "Reserve Bank of Fiji (RBF)"
+  currency: "Fijian Dollar (FJD, F$)"
+  exchange_rate_regime: "Managed float"
+  usd_peg_history: "Pegged to USD basket until 2011"
+
+commercial_banks:
+  - name: "Bank of South Pacific (BSP)"
+    type: "Commercial"
+    headquarters: "Port Moresby (PNG), major Fiji operations"
+    market_share: "Largest bank in Fiji"
+    services: ["Retail", "Business", "Corporate", "Trade Finance"]
+    website: "https://www.bsp.com.fj"
+
+  - name: "ANZ Fiji"
+    type: "Commercial"
+    headquarters: "Suva, Fiji (subsidiary of ANZ Group)"
+    market_share: "Major player"
+    services: ["Retail", "Business", "Wealth Management"]
+    website: "https://www.anz.com.fj"
+
+  - name: "Westpac Fiji"
+    type: "Commercial"
+    headquarters: "Suva, Fiji (subsidiary of Westpac Group)"
+    market_share: "Established presence"
+    services: ["Retail", "Business", "Agribusiness"]
+    website: "https://www.westpac.com.fj"
+
+  - name: "Bank of Baroda (Fiji)"
+    type: "Commercial"
+    headquarters: "Suva (subsidiary of Bank of Baroda, India)"
+    market_share: "Serving Indo-Fijian community"
+    services: ["Retail", "Business", "Remittances"]
+    website: "https://www.bankofbaroda.com"
+
+  - name: "HFC Bank"
+    type: "Development Bank"
+    headquarters: "Suva, Fiji"
+    market_share: "Government-owned, SME focus"
+    services: ["Housing Finance", "SME Loans", "Rural Banking"]
+    website: "https://www.hfc.com.fj"
+
+  - name: "Bred Bank (Fiji)"
+    type: "Commercial"
+    headquarters: "Suva (subsidiary of Bred Banque Populaire, France)"
+    market_share: "Niche player"
+    services: ["Retail", "Business"]
+    website: "https://www.bred.com.fj"
+
+payment_methods:
+  cash:
+    usage: "Still dominant for small transactions"
+    currency_notes: ["F$2", "F$5", "F$10", "F$20", "F$50", "F$100"]
+    coins: ["5c", "10c", "20c", "50c", "F$1", "F$2"]
+
+  cards:
+    credit_cards:
+      major_brands: ["Visa", "Mastercard"]
+      local_issuance: "Available from all major banks"
+      acceptance: "Urban areas, hotels, tourism sector"
+    debit_cards:
+      usage: "Widely used in urban areas"
+      atm_network: "Interbank ATM network available"
+
+  digital_payments:
+    mobile_money:
+      - name: "M-PAiSA"
+        provider: "Vodafone Fiji"
+        usage: "Growing, especially in rural areas"
+        features: ["P2P transfers", "Bill payments", "Airtime top-up"]
+    online_banking:
+      availability: "All major banks offer internet banking"
+      features: ["Transfers", "Bill payments", "International transfers"]
+    e_wallets:
+      status: "Emerging market"
+      players: ["M-PAiSA", "MyCash (Digicel)"]
+
+  bank_transfers:
+    domestic:
+      system: "Real-time interbank transfers available"
+      cost: "F$0.50 - F$5.00 depending on bank"
+    international:
+      swift: "Available through all commercial banks"
+      remittance_cost: "5-8% for small amounts"
+      major_corridors: ["Australia", "New Zealand", "USA", "Canada"]
+
+remittances:
+  importance: "Significant source of foreign exchange"
+  inflow_2023: "~F$500 million annually"
+  major_sources:
+    - "Australia"
+    - "New Zealand"
+    - "United States"
+    - "Canada"
+  cost_reduction: "Government initiatives to lower remittance costs"
+
+microfinance:
+  institutions:
+    - "Fiji Development Bank (FDB)"
+    - " various credit unions"
+  target: "SMEs, rural communities, women entrepreneurs"
+  products: "Small business loans, agricultural finance"
+
+fintech:
+  regulation: "Reserve Bank of Fiji oversight"
+  innovation:
+    - "Digital banking licenses under consideration"
+    - "Sandbox framework for fintech startups"
+    - "Open banking policy under development"
+  challenges: "Limited local tech talent, infrastructure"
+
+foreign_exchange:
+  controls: "Minimal restrictions"
+  repatriation: "Free repatriation of profits and capital"
+  reporting: "Transactions > F$10,000 must be reported"
+  usd_availability: "Widely available in banking system"

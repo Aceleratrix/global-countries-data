@@ -1,0 +1,77 @@
+# Legal framework for internet, data protection, and digital transactions in Fiji
+# Source: Fiji government legislation, Commonwealth cyber laws
+
+country: fiji
+jurisdiction: Fiji
+last_updated: 2024-01-01
+
+internet_law:
+  data_protection:
+    status: "Limited framework"
+    primary_law: "Data Protection Act 2005 (being reviewed)"
+    enforcement: "Office of the Privacy Commissioner"
+    key_provisions:
+      - "Personal data collection requires consent"
+      - "Data subject access rights"
+      - "Cross-border data transfer restrictions"
+    gdpr_alignment: "Partial"
+    notes: "New data protection bill under development (2024)"
+
+  cybercrime:
+    primary_law: "Cybercrime Act 2021"
+    penalties:
+      - "Unauthorized access: up to 10 years imprisonment"
+      - "Data interference: up to 7 years"
+      - "System interference: up to 5 years"
+    key_offenses:
+      - "Hacking and unauthorized access"
+      - "Online fraud and identity theft"
+      - "Cyberbullying and harassment"
+      - "Child exploitation material"
+
+  e_transactions:
+    primary_law: "Electronic Transactions Act 2008"
+    legal_recognition: "Electronic signatures legally valid"
+    requirements:
+      - "Reliable method to identify signatory"
+      - "Reliable indication of approval"
+    digital_signatures: "Recognized under law"
+
+  intellectual_property:
+    copyright:
+      law: "Copyright Act 1999"
+      protection_period: "Life + 50 years"
+      digital_rights: "Anti-circumvention provisions"
+    trademarks:
+      law: "Trade Marks Act 2001"
+      registration: "Fiji Intellectual Property Office (FIPO)"
+    patents:
+      law: "Patents Act 1970"
+      duration: "20 years"
+
+  content_regulation:
+    censorship: "Minimal"
+    prohibited_content:
+      - "Pornography involving minors"
+      - "Hate speech"
+      - "Terrorist content"
+    internet_shutdown: "No reported cases"
+    social_media: "Generally unrestricted"
+
+  ai_regulations:
+    status: "No specific AI legislation"
+    approach: "Under review as part of digital strategy"
+    ethics_guidelines: "None formalized"
+    government_ai_use: "Limited pilot projects"
+
+  online_business:
+    e_commerce_law: "E-Commerce Act framework"
+    consumer_protection: "Consumer Council of Fiji oversight"
+    dispute_resolution: "Fiji Commerce Commission"
+    taxation: "Digital services tax under consideration"
+
+  telecom_regulation:
+    regulator: "Telecommunications Authority of Fiji (TAF)"
+    licensing: "Required for ISPs and telecom operators"
+    universal_service: "Universal Access Policy 2018"
+    net_neutrality: "Not explicitly mandated"

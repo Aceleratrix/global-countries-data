@@ -1,0 +1,131 @@
+# Real estate market, property laws, and tourism real estate in Fiji
+# Source: Fiji Bureau of Statistics, Land Bank, real estate agencies
+
+country: fiji
+jurisdiction: Fiji
+last_updated: 2024-01-01
+
+land_ownership:
+  system: "Mix of native land ( iTaukei ) and freehold"
+  native_land_share: "87% of total land area"
+  freehold_share: "8% of total land area"
+  crown_land_share: "5% of total land area"
+
+  foreign_ownership:
+    status: "Restricted"
+    native_land: "Leasehold only (up to 99 years)"
+    freehold: "Prohibited for foreigners (since 2017)"
+    requirements: "Reserve Bank approval required for any purchase"
+    notes: "Foreigners cannot own beachfront land, only lease"
+
+leasehold_system:
+  native_land_leases:
+    duration: "99 years (standard)"
+    lessor: "iTaukei Land Trust Board (TLTB)"
+    lessee_rights: "Can sublease, mortgage, transfer"
+    rent_reviews: "Every 10-20 years"
+    consent_required: "TLTB consent for transfer/sublease"
+
+property_taxes:
+  rates: "0.5-1.5% of unimproved land value (local council)"
+  land_sales_tax: "None (stamp duty applies)"
+  capital_gains_tax: "Not applicable (taxed as income)"
+  stamp_duty:
+    residential: "3% of market value"
+    commercial: "3% of market value"
+    foreign_buyers: "Additional 10% (if allowed, mostly not)"
+
+real_estate_market:
+  overview: "Small market, driven by tourism and diaspora demand"
+  total_market_value: "~F$5 billion (2023 estimate)"
+  annual_transactions: "~2,000-3,000 properties"
+  price_trends: "Stable to growing in tourism zones"
+
+residential_property:
+  suva:
+    apartment_1br: "F$150,000 - F$250,000"
+    house_3br: "F$300,000 - F$600,000"
+    luxury_home: "F$800,000 - F$2,000,000"
+  nadi_denarau:
+    apartment_1br: "F$200,000 - F$350,000"
+    villa_3br: "F$500,000 - F$1,500,000"
+    resort_villa: "F$2,000,000 - F$5,000,000+"
+  labasa_savusavu:
+    house_3br: "F$150,000 - F$350,000"
+    notes: "Lower prices in outer islands"
+
+commercial_property:
+  office_suva_cbd:
+    grade_a: "F$50 - F$80 per sqm/month"
+    grade_b: "F$30 - F$50 per sqm/month"
+  retail:
+    prime_location: "F$80 - F$150 per sqm/month"
+    secondary: "F$40 - F$80 per sqm/month"
+  industrial:
+    warehouse: "F$15 - F$30 per sqm/month"
+    manufacturing: "F$10 - F$25 per sqm/month"
+
+tourism_real_estate:
+  denarau_island:
+    description: "Premium tourism hub near Nadi"
+    property_types: ["Luxury villas", "Resort apartments", "Hotels"]
+    price_range: "F$500,000 - F$10,000,000+"
+    foreign_interest: "High (leasehold only)"
+
+  malolo_lailai:
+    description: "Island resort developments"
+    property_types: ["Resort shares", "Villas"]
+    price_range: "F$300,000 - F$3,000,000"
+    notes: "Popular for fractional ownership"
+
+  pacific_harbour:
+    description: "Golf resort community"
+    property_types: ["Apartments", "Houses", "Land"]
+    price_range: "F$200,000 - F$1,500,000"
+
+rental_market:
+  residential:
+    suva_1br: "F$800 - F$1,500/month"
+    suva_3br: "F$1,500 - F$3,500/month"
+    nadi_1br: "F$600 - F$1,200/month"
+    yields: "4-7% gross rental yields"
+  commercial:
+    office: "6-9% yields"
+    retail: "7-10% yields"
+    industrial: "8-12% yields"
+
+property_development:
+  major_developers:
+    - "Fiji National Provident Fund (FNPF)"
+    - "HFC Bank (development arm)"
+    - "Private developers (small scale)"
+  residential_projects: "Mostly small-scale, 10-50 units"
+  tourism_projects: "Large integrated resorts (foreign investment)"
+
+financing:
+  mortgage_ltv: "70-80% for residents"
+  mortgage_rates: "7-10% per annum"
+  loan_term: "Up to 25 years"
+  foreign_buyers: "Cannot get local financing (leases only)"
+  minimum_deposit: "20-30%"
+
+real_estate_agents:
+  regulation: "Estate Agents Act 1971 (being updated)"
+  major_agencies:
+    - "Baleshwar & Associates"
+    - "Harcourts Fiji"
+    - "RE/MAX Fiji"
+  fees: "5% commission (standard)"
+
+challenges:
+  - "Complex native land leasing process"
+  - "Limited foreign ownership rights"
+  - "Slow land title registration"
+  - "Limited mortgage financing options"
+  - "Infrastructure gaps in outer islands"
+
+opportunities:
+  - "Tourism recovery driving demand"
+  - "Diaspora investment (Australia, NZ, USA)"
+  - "BPO sector creating office demand"
+  - "Retirement market (foreign retirees)"

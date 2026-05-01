@@ -1,0 +1,151 @@
+# Population demographics, ethnicity, and migration in Fiji
+# Source: Fiji Bureau of Statistics, 2023 Census estimates
+
+country: fiji
+jurisdiction: Fiji
+last_updated: 2024-01-01
+
+population:
+  total_2024: 924610
+  population_2023: 920000
+  growth_rate: "0.5% per annum"
+  density: "50.6 persons per km²"
+  land_area: "18,272 km²"
+
+  historical:
+    2010: 849000
+    2015: 880000
+    2020: 902000
+    2023: 920000
+    2024: 924610
+
+age_structure:
+  median_age: 27.9
+  youth_dependency_ratio: "45%"
+  elderly_dependency_ratio: "8%"
+  total_dependency_ratio: "53%"
+
+  age_groups:
+    "0-14 years": "28%"
+    "15-24 years": "18%"
+    "25-54 years": "42%"
+    "55-64 years": "7%"
+    "65+ years": "5%"
+
+gender:
+  male: "50.1% (463,000)"
+  female: "49.9% (461,610)"
+  sex_ratio: "100.3 males per 100 females"
+
+ethnicity:
+  iTaukei (Indigenous Fijians): "56.8% (525,000)"
+  Indo-Fijians: "35.9% (332,000)"
+  Others (Chinese, Europeans, Pacific Islanders): "7.3% (67,610)"
+
+  notes: "Ethnic composition has shifted due to migration patterns"
+
+religion:
+  Christian: "64.4%"
+    - "Methodist Church of Fiji: 34.6%"
+    - "Roman Catholic: 9.1%"
+    - "Seventh-day Adventist: 5.3%"
+    - "Assemblies of God: 3.6%"
+    - "Other Christian: 11.8%"
+  Hindu: "27.9%"
+  Muslim: "6.3%"
+  Sikh: "0.3%"
+  Other/None: "1.1%"
+
+language:
+  official_languages: ["English", "Fijian", "Hindi"]
+  english_proficiency: "Widely spoken (business, government)"
+  fijian_dialects: ["Bauan (standard)", "Western Fijian", "Northern Fijian"]
+  hindi: "Spoken by Indo-Fijian community"
+  literacy_rate: "94.2% (age 15+)"
+
+urbanization:
+  urban_population: "56.8% (525,000)"
+  rural_population: "43.2% (399,610)"
+  urban_growth_rate: "1.2% per annum"
+  rural_growth_rate: "-0.2% per annum"
+
+  major_urban_areas:
+    - city: "Suva (Greater Suva)"
+      population: "185,000"
+      description: "Capital and largest city"
+    - city: "Lautoka"
+      population: "71,000"
+      description: "Sugar city, second largest"
+    - city: "Nadi"
+      population: "52,000"
+      description: "Tourism hub, airport city"
+    - city: "Labasa"
+      population: "35,000"
+      description: "Northern division center"
+    - city: "Nausori"
+      population: "30,000"
+      description: "Suva satellite town"
+    - city: "Savusavu"
+      population: "12,000"
+      description: "Tourism town, Copra center"
+
+migration:
+  net_migration_rate: "-3.2 migrants per 1,000 population"
+  diaspora: "~350,000 Fijians living abroad"
+  main_destinations:
+    - "Australia: ~200,000"
+    - "New Zealand: ~70,000"
+    - "United States: ~40,000"
+    - "Canada: ~20,000"
+    - "United Kingdom: ~15,000"
+
+  remittances_2023: "F$500 million (~US$225 million)"
+  remittance_share_gdp: "4.5%"
+  importance: "Major source of foreign exchange"
+
+  immigration:
+    permanent_migrants_2023: "~2,500"
+    temporary_workers: "~5,000 (seasonal, tourism)"
+    refugee_population: "~1,200 (mostly UNHCR resettlement)"
+
+education:
+  literacy_rate: "94.2% (age 15+)"
+  school_enrollment:
+    primary: "98%"
+    secondary: "85%"
+    tertiary: "25%"
+  higher_education:
+    - "University of the South Pacific (USP)"
+    - "Fiji National University (FNU)"
+    - "Fiji School of Medicine"
+    - "Pacific Theological College"
+
+health:
+  life_expectancy: "67.2 years (2024)"
+    male: "64.8 years"
+    female: "69.6 years"
+  infant_mortality: "22 deaths per 1,000 live births"
+  maternal_mortality: "59 deaths per 100,000 live births"
+  healthcare_access: "95% within 5km of health facility"
+
+employment:
+  labor_force: "350,000 (2024)"
+  unemployment_rate: "4.5%"
+  youth_unemployment: "12.3%"
+  employment_by_sector:
+    agriculture: "44%"
+    services: "47%"
+    industry: "9%"
+
+poverty:
+  national_poverty_rate: "24.1% (below national poverty line)"
+  extreme_poverty: "4.2% (below F$1.90/day PPP)"
+  rural_poverty: "32%"
+  urban_poverty: "18%"
+
+demographic_challenges:
+  - "Brain drain (skilled migration to Australia/NZ)"
+  - "Aging population (gradual increase)"
+  - "Urbanization pressure on infrastructure"
+  - "Climate change displacement risk (low-lying areas)"
+  - "Non-communicable diseases (diabetes, heart disease)"

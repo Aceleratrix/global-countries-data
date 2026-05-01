@@ -1,0 +1,116 @@
+# Tax codes, rates, and fiscal regulations in Fiji
+# Source: Fiji Revenue and Customs Service (FRCS)
+
+country: fiji
+jurisdiction: Fiji
+last_updated: 2024-01-01
+
+tax_system:
+  authority: "Fiji Revenue and Customs Service (FRCS)"
+  tax_year: "January 1 to December 31"
+  currency: "FJD (Fijian Dollar)"
+
+corporate_tax:
+  standard_rate: 20.0
+  small_business_rate: 20.0
+  mining_companies: 20.0
+  insurance_companies: 20.0
+  notes: "Flat rate for all corporations since 2012 reform"
+
+personal_income_tax:
+  brackets:
+    - threshold: 0
+      rate: 0.0
+      description: "First F$16,000 - Tax Free"
+    - threshold: 16000
+      rate: 7.0
+      description: "F$16,001 to F$30,000"
+    - threshold: 30000
+      rate: 18.0
+      description: "F$30,001 to F$50,000"
+    - threshold: 50000
+      rate: 20.0
+      description: "Above F$50,000"
+  notes: "Progressive tax system with tax-free threshold"
+
+vat_gst:
+  name: "Value Added Tax (VAT)"
+  standard_rate: 15.0
+  registration_threshold: "F$100,000 annual turnover"
+  exempt_supplies:
+    - "Basic food items"
+    - "Medical services"
+    - "Educational services"
+    - "Financial services"
+    - "Residential rent"
+  zero_rated:
+    - "Exports"
+    - "International transport"
+
+withholding_tax:
+  dividends:
+    resident: 0.0
+    non_resident: 15.0
+  interest:
+    resident: 0.0
+    non_resident: 15.0
+  royalties:
+    resident: 10.0
+    non_resident: 15.0
+  services:
+    non_resident: 15.0
+  notes: "Reduced rates may apply under double tax treaties"
+
+payroll_tax:
+  fnpf_contribution:
+    employee_rate: 8.0
+    employer_rate: 8.0
+    ceiling: "F$158,000 annual salary"
+    description: "Fiji National Provident Fund (pension)"
+
+other_taxes:
+  capital_gains_tax: "Not applicable (taxed as income)"
+  stamp_duty:
+    property_transfer: "3% of market value"
+    shares_transfer: "F$2 per F$1,000 (F$200 max)"
+  customs_duty:
+    general_rate: "0-32% depending on goods"
+    excise_duty: "On alcohol, tobacco, fuel"
+  environmental_levy: "F$0.10 per plastic bag"
+
+tax_incentives:
+  tourism_development:
+    - "Tax holidays up to 10 years"
+    - "Accelerated depreciation"
+  export_manufacturing:
+    - "Tax exemptions for export income"
+  bpo_sector:
+    - "Tax incentives for Business Process Outsourcing"
+  agriculture:
+    - "Tax exemptions for agricultural businesses"
+
+double_tax_treaties:
+  active_treaties:
+    - "Australia"
+    - "New Zealand"
+    - "Singapore"
+    - "United Kingdom"
+    - "Japan"
+  withholding_reduction: "Treaty rates may reduce withholding tax"
+
+filing_requirements:
+  corporate:
+    annual_return: "Within 6 months of financial year end"
+    provisional_tax: "Quarterly payments required"
+    audit_threshold: "Companies must be audited annually"
+  individual:
+    annual_return: "By October 31 for previous tax year"
+    paye: "Employers deduct monthly"
+  penalties:
+    late_filing: "10% of tax due"
+    late_payment: "5% per month (max 25%)"
+
+digital_services_tax:
+  status: "Under consideration"
+  rationale: "Officials studying OECD framework"
+  implementation: "Expected 2025-2026"

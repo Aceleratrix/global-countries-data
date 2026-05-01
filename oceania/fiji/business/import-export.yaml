@@ -1,0 +1,181 @@
+# Import/export data, trade agreements, and customs in Fiji
+# Source: Fiji Bureau of Statistics, FRCS, Ministry of Commerce
+
+country: fiji
+jurisdiction: Fiji
+last_updated: 2024-01-01
+
+trade_overview:
+  total_exports_2023: "F$2.1 billion (~US$950 million)"
+  total_imports_2023: "F$4.8 billion (~US$2.2 billion)"
+  trade_deficit: "F$2.7 billion (US$1.2 billion)"
+  main_trading_partners: ["Australia", "New Zealand", "China", "USA", "Singapore"]
+
+exports:
+  top_products_2023:
+    - product: "Water (bottled natural water)"
+      value: "F$650 million"
+      share: "31%"
+      markets: ["USA", "Australia", "New Zealand"]
+    - product: "Sugar"
+      value: "F$280 million"
+      share: "13%"
+      markets: ["European Union", "USA", "Pacific Islands"]
+    - product: "Garments and textiles"
+      value: "F$220 million"
+      share: "10%"
+      markets: ["Australia", "New Zealand", "USA"]
+    - product: "Fish and seafood (tuna)"
+      value: "F$180 million"
+      share: "9%"
+      markets: ["USA", "European Union", "Australia"]
+    - product: "Gold"
+      value: "F$150 million"
+      share: "7%"
+      markets: ["Australia", "Switzerland", "Singapore"]
+    - product: "Molasses"
+      value: "F$80 million"
+      share: "4%"
+      markets: ["New Zealand", "Australia"]
+    - product: "Ginger, taro, other agricultural"
+      value: "F$120 million"
+      share: "6%"
+      markets: ["Australia", "New Zealand", "Pacific Islands"]
+    - product: "Mineral water and beverages"
+      value: "F$100 million"
+      share: "5%"
+      markets: ["Australia", "New Zealand", "USA"]
+
+  export_destinations:
+    - country: "Australia"
+      value: "F$520 million"
+      share: "25%"
+    - country: "United States"
+      value: "F$420 million"
+      share: "20%"
+    - country: "New Zealand"
+      value: "F$315 million"
+      share: "15%"
+    - country: "European Union"
+      value: "F$210 million"
+      share: "10%"
+    - country: "Singapore"
+      value: "F$168 million"
+      share: "8%"
+
+imports:
+  top_products_2023:
+    - product: "Machinery and mechanical appliances"
+      value: "F$720 million"
+      share: "15%"
+      sources: ["China", "Australia", "Singapore"]
+    - product: "Petroleum and fuels"
+      value: "F$600 million"
+      share: "12.5%"
+      sources: ["Singapore", "Australia", "Korea"]
+    - product: "Food and live animals"
+      value: "F$576 million"
+      share: "12%"
+      sources: ["Australia", "New Zealand", "China"]
+    - product: "Manufactured goods"
+      value: "F$480 million"
+      share: "10%"
+      sources: ["China", "Australia", "New Zealand"]
+    - product: "Vehicles and transport equipment"
+      value: "F$384 million"
+      share: "8%"
+      sources: ["Japan", "Thailand", "Australia"]
+    - product: "Chemicals and pharmaceuticals"
+      value: "F$288 million"
+      share: "6%"
+      sources: ["Australia", "China", "India"]
+    - product: "Textiles and clothing"
+      value: "F$240 million"
+      share: "5%"
+      sources: ["China", "Bangladesh", "Australia"]
+
+  import_sources:
+    - country: "China"
+      value: "F$1.44 billion"
+      share: "30%"
+    - country: "Australia"
+      value: "F$960 million"
+      share: "20%"
+    - country: "New Zealand"
+      value: "F$480 million"
+      share: "10%"
+    - country: "Singapore"
+      value: "F$384 million"
+      share: "8%"
+    - country: "USA"
+      value: "F$288 million"
+      share: "6%"
+
+trade_agreements:
+  world_trade_organization:
+    member_since: "1996"
+    status: "Full member"
+
+  pacific_agreements:
+    - name: "Pacific Agreement on Closer Economic Relations (PACER Plus)"
+      status: "Signed 2017, ratified 2020"
+      benefits: "Tariff-free access to Australia and New Zealand"
+    - name: "Melanesian Spearhead Group (MSG)"
+      status: "Member"
+      benefits: "Preferential trade among Melanesian countries"
+
+  bilateral_agreements:
+    - name: "Australia-Fiji Bilateral Agreement"
+      benefits: "Duty-free access for most goods to Australia"
+    - name: "New Zealand-Fiji Bilateral Agreement"
+      benefits: "Duty-free access for most goods to New Zealand"
+
+  eu_access:
+    everything_but_arms: "Duty-free quota-free access to EU"
+    sugar_protocol: "Historical preferences, now under EBA"
+
+customs_and_duties:
+  authority: "Fiji Revenue and Customs Service (FRCS)"
+  average_tariff: "15% (simple average)"
+  duty_rates:
+    agricultural_products: "0-32%"
+    industrial_products: "0-15%"
+    luxury_goods: "32%"
+    essential_goods: "0-5%"
+
+  gst_on_imports: "15% VAT applied to CIF value + duty"
+  excise_duty: "On alcohol, tobacco, fuel"
+  import_licensing: "Required for some restricted items"
+
+  prohibited_imports:
+    - "Drugs and narcotics"
+    - "Pornographic material"
+    - "Counterfeit currency"
+    - "Certain hazardous waste"
+
+export_promotion:
+  agency: "Investment Fiji (Export Division)"
+  programs:
+    - "Export Market Development Grant (EMDG)"
+    - "Trade fair participation support"
+    - "Export readiness training"
+    - "Market research assistance"
+
+  special_economic_zones:
+    status: "Under development"
+    locations: ["Nadi", "Suva", "Labasa"]
+    incentives: "Tax holidays, duty exemptions"
+
+trade_challenges:
+  - "High transport costs (island nation)"
+  - "Limited economies of scale"
+  - "Competition from larger economies"
+  - "Climate change impacts on agriculture"
+  - "Infrastructure constraints"
+
+trade_opportunities:
+  - "Value-added water products"
+  - "Organic and niche agricultural exports"
+  - "BPO and digital services exports"
+  - "Sustainable tourism packages"
+  - "Pacific Island regional hub"

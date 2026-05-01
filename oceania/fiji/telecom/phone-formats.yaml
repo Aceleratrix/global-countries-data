@@ -1,0 +1,122 @@
+# Telecom, phone formats, and mobile operators in Fiji
+# Source: Telecommunications Authority of Fiji (TAF), operator websites
+
+country: fiji
+jurisdiction: Fiji
+last_updated: 2024-01-01
+
+telecom_regulator:
+  name: "Telecommunications Authority of Fiji (TAF)"
+  website: "https://www.taf.com.fj"
+  role: "Licensing, spectrum management, consumer protection"
+
+country_calling_code: "+679"
+international_dialing: "00 + country code + number"
+emergency_numbers:
+  police: "911"
+  fire: "911"
+  ambulance: "911"
+  notes: "Single emergency number 911"
+
+phone_number_formats:
+  landline:
+    format: "+679 XXX XXXX"
+    area_codes:
+      - "3"  # Central/Eastern Division (Suva, Nausori)
+      - "6"  # Western Division (Lautoka, Nadi, Ba)
+      - "5"  # Northern Division (Labasa, Savusavu)
+    example: "+679 330 1234"
+    total_digits: 7  # After country code
+    notes: "No separate area code dialing within Fiji"
+
+  mobile:
+    format: "+679 XXXX XXXX"
+    prefixes:
+      - "7"  # Vodafone Fiji
+      - "8"  # Digicel Fiji
+      - "9"  # Inifi (TFL)
+    example: "+679 7012 3456"
+    total_digits: 8  # After country code
+    notes: "Mobile numbers portable between operators since 2014"
+
+  toll_free:
+    format: "+679 0800 XXX XXX"
+    usage: "Customer service, business hotlines"
+    notes: "Not accessible from outside Fiji"
+
+  premium_rate:
+    format: "+679 1900 XXX XXX"
+    usage: "Entertainment, voting, information services"
+    regulation: "TAF oversight, price caps apply"
+
+mobile_operators:
+  - name: "Vodafone Fiji"
+    type: "Mobile Network Operator"
+    market_share: "~60%"
+    technology:
+      - "GSM 900/1800 MHz"
+      - "UMTS 900/2100 MHz (3G)"
+      - "LTE 1800 MHz (4G)"
+      - "5G (trials ongoing)"
+    services: ["Voice", "SMS", "Mobile Data", "M-PAiSA (Mobile Money)"]
+    website: "https://www.vodafone.com.fj"
+
+  - name: "Digicel Fiji"
+    type: "Mobile Network Operator"
+    market_share: "~35%"
+    technology:
+      - "GSM 900 MHz"
+      - "UMTS 2100 MHz (3G)"
+      - "LTE 700/1800 MHz (4G)"
+    services: ["Voice", "SMS", "Mobile Data", "MyCash (Mobile Money)"]
+    website: "https://www.digicelgroup.com/fj"
+
+  - name: "Inifi (TFL)"
+    type: "Mobile Virtual Network Operator (MVNO)"
+    parent: "Telecom Fiji Limited"
+    market_share: "~5%"
+    network: "Uses Vodafone network"
+    services: ["Voice", "SMS", "Mobile Data"]
+    website: "https://www.inifi.com.fj"
+
+fixed_line_operators:
+  - name: "Telecom Fiji Limited (TFL)"
+    type: "Incumbent fixed operator"
+    services: ["Landline", "ADSL", "Fiber", "Business Solutions"]
+    market_share: "Dominant fixed line provider"
+    website: "https://www.tfl.com.fj"
+
+  - name: "Amalgamated Telecom Holdings (ATH)"
+    type: "Parent company of TFL and other telecom assets"
+    ownership: "Government of Fiji majority stake"
+
+internet_service_providers:
+  - name: "Vodafone Fiji"
+    technology: ["4G", "Fiber (FTTH)"]
+    business_focus: ["Residential", "Business"]
+  - name: "Digicel Fiji"
+    technology: ["4G", "Fixed Wireless"]
+    business_focus: ["Residential", "Business"]
+  - name: "Telecom Fiji (TFL)"
+    technology: ["ADSL", "Fiber", "Fixed Wireless"]
+    business_focus: ["Residential", "Government", "Business"]
+
+internet_penetration:
+  population_coverage: "95%+ (mobile broadband)"
+  household_penetration: "~65%"
+  speed_average: "15-25 Mbps (urban), 5-10 Mbps (rural)"
+  mobile_data_pricing: "F$10-50 for 5-50GB packages"
+
+number_portability:
+  status: "Available since 2014"
+  type: "Mobile number portability only"
+  process: "1-3 business days"
+  cost: "Free"
+
+telecom_infrastructure:
+  submarine_cables:
+    - "Fiji-Japan Cable (FJC)"
+    - "Southern Cross Cable (landing station)"
+  satellite: "Backup connectivity via satellite"
+  mobile_towers: "Coverage across main islands"
+  challenges: "Outer island connectivity limited"

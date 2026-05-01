@@ -1,0 +1,93 @@
+# Labor laws and employment regulations in Fiji
+# Source: Fiji Employment Act, Ministry of Employment
+
+country: fiji
+jurisdiction: Fiji
+last_updated: 2024-01-01
+
+employment_law:
+  primary_legislation:
+    main_act: "Employment Act 2007"
+    regulations: "Employment Regulations 2008"
+    ministry: "Ministry of Employment, Productivity and Industrial Relations"
+
+  contracts:
+    types:
+      - "Permanent employment"
+      - "Fixed-term contract (max 3 years)"
+      - "Casual employment"
+      - "Apprenticeship"
+    written_requirement: "Required for contracts > 3 months"
+    probation_period: "Up to 6 months (3 months for most)"
+
+  working_hours:
+    standard: "48 hours per week"
+    daily_max: "9 hours per day"
+    rest_period: "24 consecutive hours per week"
+    overtime:
+      rate: "1.5x normal rate"
+      max_overtime: "12 hours per week"
+      sunday_work: "2x rate"
+
+  minimum_wage:
+    rate: "F$4.68 per hour (2024)"
+    monthly_equivalent: "F$748 (based on 160 hours)"
+    usd_equivalent: "~US$2.10 per hour"
+    review_frequency: "Annual"
+    sector_variations: "Some sectors have specific rates"
+
+  leave_entitlements:
+    annual_leave: "10 working days per year (after 12 months)"
+    sick_leave: "7 working days per year (after 3 months)"
+    maternity_leave: "84 days paid leave"
+    paternity_leave: "7 days paid leave"
+    public_holidays: "11 paid public holidays per year"
+
+  termination:
+    notice_period:
+      - "1 week (employed 1-5 years)"
+      - "2 weeks (employed 5-10 years)"
+      - "4 weeks (employed 10+ years)"
+    severance:
+      - "2 weeks per year of service (first 10 years)"
+      - "3 weeks per year (after 10 years)"
+    unfair_dismissal: "Protected under Employment Relations Act"
+    redundancy: "Consultation required, severance payable"
+
+  social_security:
+    system: "Fiji National Provident Fund (FNPF)"
+    employee_contribution: "8% of wages"
+    employer_contribution: "8% of wages"
+    coverage: "Retirement, housing, medical"
+    work_injury: "Workers Compensation Act 1985"
+
+  non_discrimination:
+    protected_characteristics:
+      - "Race, ethnicity"
+      - "Gender, pregnancy"
+      - "Religion"
+      - "Disability"
+      - "Age"
+      - "Marital status"
+    enforcement: "Employment Relations Tribunal"
+
+  trade_unions:
+    recognition: "Legal right to organize"
+    main_unions:
+      - "Fiji Trades Union Congress (FTUC)"
+      - "Fiji Nurses Association"
+      - "Fiji Teachers Union"
+    collective_bargaining: "Protected under law"
+    strike_rights: "Legal with proper notice"
+
+  foreign_workers:
+    work_permits: "Required for non-citizens"
+    processing: "Department of Immigration"
+    quotas: "Sector-specific quotas apply"
+    sponsorship: "Employer-sponsored visas available"
+
+  remote_work:
+    status: "Not specifically regulated"
+    tax_implications: "Standard income tax applies"
+    cross_border: "Work permit required for foreign remote workers"
+    covid_impact: "Increased acceptance post-pandemic"

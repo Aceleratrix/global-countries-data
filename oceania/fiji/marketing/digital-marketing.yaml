@@ -1,0 +1,158 @@
+# Digital marketing landscape, platforms, and advertising in Fiji
+# Source: Meta, Google, local agencies, Fiji Tourism Board
+
+country: fiji
+jurisdiction: Fiji
+last_updated: 2024-01-01
+
+digital_marketing_overview:
+  market_size: "~F$25-30 million annually (2023)"
+  growth_rate: "12-15% per annum"
+  digital_adoption: "65% internet penetration"
+  mobile_first: "90% of digital access via mobile"
+
+internet_usage:
+  total_users: "~600,000 (65% of population)"
+  social_media_users: "~500,000"
+  mobile_internet_users: "~550,000"
+  daily_time_online: "4.5 hours average"
+  device_split:
+    mobile: "90%"
+    desktop: "8%"
+    tablet: "2%"
+
+social_media:
+  platforms:
+    - platform: "Facebook"
+      users: "~450,000"
+      penetration: "49% of population"
+      business_usage: "High (80% of businesses)"
+      ad_formats: ["Feed ads", "Stories", "Video", "Carousel"]
+
+    - platform: "Instagram"
+      users: "~180,000"
+      penetration: "19% of population"
+      business_usage: "Moderate (tourism, retail)"
+      ad_formats: ["Stories", "Reels", "Feed ads"]
+
+    - platform: "WhatsApp"
+      users: "~400,000"
+      penetration: "43% of population"
+      business_usage: "High (customer service)"
+      notes: "Most popular messaging app"
+
+    - platform: "TikTok"
+      users: "~120,000"
+      penetration: "13% of population"
+      growth: "Fastest growing platform (+40% in 2023)"
+      business_usage: "Growing (youth targeting)"
+
+    - platform: "YouTube"
+      users: "~300,000"
+      penetration: "32% of population"
+      business_usage: "Moderate (video marketing)"
+
+    - platform: "LinkedIn"
+      users: "~50,000"
+      penetration: "5% of population"
+      business_usage: "B2B, professional services"
+
+    - platform: "Twitter/X"
+      users: "~30,000"
+      penetration: "3% of population"
+      business_usage: "Low (news, media)"
+
+search_engines:
+  google:
+    market_share: "95%"
+    local_seo: "Important for tourism businesses"
+  bing:
+    market_share: "3%"
+  yahoo:
+    market_share: "2%"
+
+digital_advertising:
+  total_spend_2023: "F$15-20 million"
+  formats:
+    social_media_ads: "45%"
+    search_ads: "30%"
+    display_ads: "15%"
+    video_ads: "10%"
+
+  pricing:
+    facebook_cpm: "F$5-15 per 1,000 impressions"
+    google_cpc: "F$0.50-3.00 per click"
+    instagram_cpm: "F$8-20 per 1,000 impressions"
+    youtube_cpv: "F$0.10-0.50 per view"
+
+  targeting_options:
+    - "Location (Fiji-wide, city-specific)"
+    - "Age, gender, interests"
+    - "Lookalike audiences"
+    - "Retargeting website visitors"
+
+email_marketing:
+  adoption: "Low (20% of businesses)"
+  popular_platforms: ["Mailchimp", "Constant Contact"]
+  open_rates: "18-25% (industry average)"
+  challenges: "Low email list quality, spam filters"
+
+content_marketing:
+  blog_adoption: "30% of businesses"
+  video_content: "Growing (TikTok, Instagram Reels)"
+  local_influencers: "~50 micro-influencers (5K-50K followers)"
+  influencer_rates: "F$200-2,000 per post (varies by reach)"
+
+tourism_marketing:
+  digital_spend: "F$10-12 million annually"
+  focus: "Australia, New Zealand, USA, China markets"
+  platforms: ["Instagram", "Facebook", "Google Ads", "TripAdvisor"]
+  content_types: ["Beach photos", "Resort videos", "Cultural experiences"]
+  conversion: "High ROI for tourism businesses"
+
+ecommerce:
+  market_size: "~F$100 million annually"
+  growth_rate: "20% per annum"
+  platforms:
+    - "Shopify (international brands)"
+    - "WooCommerce (local businesses)"
+    - "Facebook Marketplace (peer-to-peer)"
+  payment_methods: ["Credit cards", "M-PAiSA", "Bank transfer", "Cash on delivery"]
+  challenges: "Low trust, limited payment options"
+
+marketing_agencies:
+  total_agencies: "~30-40"
+  full_service: "~10 agencies"
+  digital_specialists: "~20 agencies"
+  top_agencies:
+    - "Fiji Digital Marketing"
+    - "Blue Sky Marketing"
+    - "Island Creative"
+    - "Vou Marketing"
+  average_monthly_retainer: "F$2,000-10,000"
+
+regulations:
+  advertising_standards: "Fiji Consumer Council oversight"
+  data_privacy: "Emerging regulations (Data Protection Act review)"
+  spam_laws: "Anti-Spam Act (limited enforcement)"
+  influencer_disclosure: "No specific requirements yet"
+
+mobile_marketing:
+  sms_marketing: "Popular (80% open rates)"
+  sms_cost: "F$0.10-0.20 per message"
+  app_advertising: "Limited (few local apps)"
+  mobile_wallet_ads: "M-PAiSA exploring ad platform"
+
+marketing_challenges:
+  - "Small market size (limited scale)"
+  - "Low digital literacy in rural areas"
+  - "Limited local payment gateways"
+  - "High data costs (relative to income)"
+  - "Brain drain (talent shortage in digital skills)"
+
+marketing_opportunities:
+  - "Growing tourism digital spend"
+  - "Youth demographic (mobile-first)"
+  - "Regional hub potential (Pacific Islands)"
+  - "BPO sector growth (business services marketing)"
+  - "WhatsApp Business adoption"

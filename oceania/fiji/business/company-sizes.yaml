@@ -1,0 +1,128 @@
+# Company size definitions and business classifications in Fiji
+# Source: Fiji Bureau of Statistics, Companies Act 2015, Investment Fiji
+
+country: fiji
+jurisdiction: Fiji
+last_updated: 2024-01-01
+
+business_registry:
+  authority: "Registrar of Companies, Attorney-General's Chambers"
+  website: "https://www.ag.gov.fj"
+  company_law: "Companies Act 2015"
+
+company_types:
+  - type: "Sole Proprietorship"
+    description: "Single owner, unlimited liability"
+    registration: "Business License from local council"
+    tax: "Personal income tax rates apply"
+
+  - type: "Partnership"
+    description: "2-20 partners, unlimited liability"
+    registration: "Partnership deed, business license"
+    tax: "Partners taxed individually"
+
+  - type: "Private Company Limited (Pte Ltd)"
+    description: "Limited liability, 1-50 shareholders"
+    registration: "Companies Office"
+    minimum_capital: "F$1 (no minimum for most businesses)"
+    tax: "Corporate tax 20%"
+
+  - type: "Public Company Limited"
+    description: "Limited liability, >50 shareholders, can list on SPX"
+    registration: "Companies Office, South Pacific Stock Exchange"
+    minimum_capital: "F$500,000 (for listing)"
+    tax: "Corporate tax 20%"
+
+  - type: "Foreign Company Branch"
+    description: "Branch of overseas company"
+    registration: "Companies Office, Reserve Bank approval"
+    restrictions: "Some sectors restricted for foreign ownership"
+
+  - type: "Non-Profit Organization"
+    description: "Charitable, religious, educational organizations"
+    registration: "Charitable Trusts Act, Companies Office"
+    tax_exempt: "May apply for tax exemption"
+
+company_size_definitions:
+  micro_enterprise:
+    employees: "1-5"
+    annual_turnover: "F$0 - F$100,000"
+    assets: "F$0 - F$50,000"
+    notes: "Most common business type in Fiji"
+
+  small_enterprise:
+    employees: "6-20"
+    annual_turnover: "F$100,001 - F$1,000,000"
+    assets: "F$50,001 - F$500,000"
+    notes: "Growing SME sector, government support programs"
+
+  medium_enterprise:
+    employees: "21-100"
+    annual_turnover: "F$1,000,001 - F$10,000,000"
+    assets: "F$500,001 - F$5,000,000"
+    notes: "Limited number, mostly in tourism, manufacturing"
+
+  large_enterprise:
+    employees: "101+"
+    annual_turnover: "F$10,000,001+"
+    assets: "F$5,000,000+"
+    notes: "Multinationals, large local conglomerates"
+
+business_statistics:
+  total_registered_companies: "~35,000 (2023)"
+  active_companies: "~25,000"
+  sme_share_gdp: "~30%"
+  formal_sector_jobs: "~150,000"
+  growth_rate: "2-3% annually"
+
+sector_distribution:
+  tourism_hospitality: "35%"
+  agriculture_fishing: "20%"
+  retail_trade: "15%"
+  manufacturing: "10%"
+  financial_services: "8%"
+  other_services: "12%"
+
+stock_exchange:
+  name: "South Pacific Stock Exchange (SPX)"
+  location: "Suva, Fiji"
+  listed_companies: "20+ (local and regional)"
+  market_cap: "~F$2 billion"
+  regulations: "Capital Markets Development Authority"
+  trading: "Electronic trading platform"
+
+foreign_investment:
+  authority: "Investment Fiji"
+  website: "https://www.investmentfiji.org.fj"
+  restricted_sectors:
+    - "Beachfront land ownership (lease only)"
+    - "Some retail sectors (cabotage)"
+    - "Certain professional services"
+  incentives:
+    - "Tax holidays (3-10 years)"
+    - "Duty-free import of machinery"
+    - "Accelerated depreciation"
+
+business_licenses:
+  local_council: "Required for all businesses"
+  sector_specific:
+    - "Tourism: Ministry of Tourism license"
+    - "Financial: Reserve Bank license"
+    - "Import/Export: FRCS registration"
+    - "Food: Ministry of Health permit"
+  processing_time: "2-4 weeks (standard), faster for investments"
+
+ease_of_doing_business:
+  world_bank_rank: "Not currently ranked (reports paused)"
+  starting_business: "3 procedures, 7 days"
+  getting_electricity: "5 procedures, 80 days"
+  registering_property: "4 procedures, 23 days"
+  paying_taxes: "33 payments per year"
+
+support_programs:
+  - provider: "Fiji Development Bank (FDB)"
+    programs: ["SME loans", "Startup financing", "Agricultural credit"]
+  - provider: "Ministry of Commerce"
+    programs: ["Export market development", "Business training"]
+  - provider: "University of the South Pacific"
+    programs: ["Business incubator", "Entrepreneurship training"]
