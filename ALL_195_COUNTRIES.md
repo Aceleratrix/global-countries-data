@@ -88,7 +88,7 @@
 | # | País | Código | Continente | PIB (USD Trilhões) | Status |
 |---|------|--------|-----------|-------------------|--------|
 | 61 | 🇧🇾 Belarus | belarus | Europe | $0.20T | ✅ 100% COMPLETE |
-| 62 | 🇦🇲 Mianmar (Birmânia) | myanmar | Asia | $0.21T | |
+| 120 | 🇲🇲 Myanmar | myanmar | Asia | $0.07T | ✅ 100% COMPLETE |
 | 63 | 🇦🇴 Angola | angola | Africa | $0.20T | |
 | 64 | 🇰🇭 Camboja | cambodia | Asia | $0.20T | ✅ 100% COMPLETE |
 | 65 | 🇪🇪 Estônia | estonia | Europe | ✅ 100% COMPLETE | |
