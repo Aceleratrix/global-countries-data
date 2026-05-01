@@ -1,0 +1,11 @@
+# Healthcare Data for Paraguay
+physicians_per_1000: 1.2  # 2020 estimate
+hospital_beds_per_1000: 1.4  # 2019 estimate
+healthcare_expenditure_percent_gdp: 7.1  # 2020 estimate
+life_expectancy_years: 74.0
+infant_mortality_per_1000: 14.2  # 2022 estimate
+major_hospitals:
+  - Hospital de Clínicas (Asunción)
+  - Hospital Nacional de Itauguá
+  - Hospital Regional de Ciudad del Este
+vaccination_coverage_percent: 85.0  # DPT3 2022

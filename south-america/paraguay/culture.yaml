@@ -1,0 +1,35 @@
+# Culture Data for Paraguay
+languages:
+  - code: grn
+    name: Guaraní
+    official: true
+  - code: spa
+    name: Spanish
+    official: true
+native_names:
+  guaraní:
+    official: Tetã Paraguái
+    common: Paraguái
+  spanish:
+    official: República de Paraguay
+    common: Paraguay
+flag:
+  description: Three equal horizontal bands of red, white and blue, with national coat of arms centered in the white band
+  png: https://flagcdn.com/w320/py.png
+  svg: https://flagcdn.com/py.svg
+coat_of_arms:
+  png: https://mainfacts.com/media/images/coats_of_arms/py.png
+  svg: https://mainfacts.com/media/images/coats_of_arms/py.svg
+translations:
+  - language: English
+    official: Republic of Paraguay
+    common: Paraguay
+  - language: Spanish
+    official: República de Paraguay
+    common: Paraguay
+  - language: Portuguese
+    official: República do Paraguai
+    common: Paraguai
+  - language: French
+    official: République du Paraguay
+    common: Paraguay

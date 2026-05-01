@@ -1,0 +1,11 @@
+# Education Data for Paraguay
+literacy_rate_percent: 94.0  # 2022 estimate
+school_life_expectancy_years: 13.0  # Primary to tertiary
+primary_education_completion_percent: 92.0
+secondary_education_completion_percent: 75.0
+tertiary_education_enrollment_percent: 42.0
+major_universities:
+  - National University of Asunción (UNA)
+  - Catholic University of Asunción (UC)
+  - Autonomous University of Asunción (UAA)
+education_expenditure_percent_gdp: 3.8  # 2021 estimate

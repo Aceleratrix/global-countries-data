@@ -1,0 +1,17 @@
+# Environment Data for Paraguay
+forest_cover_percent: 44.0  # 2020 estimate
+protected_areas_percent: 12.5  # 2023 estimate
+major_ecoregions:
+  - Atlantic Forest
+  - Chaco
+  - Pantanal (small portion)
+biodiversity:
+  mammal_species: 142
+  bird_species: 680
+  plant_species: 8500
+environmental_issues:
+  - Deforestation
+  - Water pollution
+  - Soil degradation
+renewable_energy_percent: 75.0  # Mainly hydroelectric
+co2_emissions_per_capita_tons: 1.2  # 2021 estimate

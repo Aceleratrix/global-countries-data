@@ -1,0 +1,19 @@
+# Government Data for Paraguay
+official_name: Republic of Paraguay
+government_type: Presidential Republic
+independent: true
+un_member: true
+country_codes:
+  cca2: PY
+  ccn3: "600"
+  cca3: PRY
+  cioc: PAR
+  fifa: PAR
+  idd:
+    root: "+5"
+    suffixes: ["95"]
+  tld: [".py"]
+start_of_week: monday
+capital: Asunción
+driving_side: right
+car_signs: ["PY"]

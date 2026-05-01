@@ -1,0 +1,11 @@
+# Security Data for Paraguay
+military_expenditure_percent_gdp: 0.9  # 2022 estimate
+active_military_personnel: 15000  # Estimate
+reserve_personnel: 164000
+police_personnel_per_1000: 2.1  # 2021 estimate
+major_security_forces:
+  - Paraguayan Army
+  - Paraguayan Navy
+  - Paraguayan Air Force
+  - National Police of Paraguay
+homicide_rate_per_100k: 6.5  # 2022 estimate
