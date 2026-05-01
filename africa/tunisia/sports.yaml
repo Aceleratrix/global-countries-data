@@ -1,0 +1,12 @@
+# Sports Data for Tunisia
+national_sport: Football (soccer)
+popular_sports:
+  - Football
+  - Handball
+  - Volleyball
+  - Athletics
+olympic_medals: 6 total (2 gold, 3 silver, 1 bronze)
+notable_clubs:
+  - Espérance Sportive de Tunis
+  - Club Africain
+  - Étoile Sportive du Sahel

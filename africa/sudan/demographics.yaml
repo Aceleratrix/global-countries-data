@@ -1,0 +1,18 @@
+population_2024: 48109600
+population_rank_africa: 10
+population_density: 25.8_per_km2
+capital: Khartoum
+capital_population: 6000000
+official_languages:
+  - Arabic
+  - English
+religion:
+  - Sunni Islam: 97%
+  - Christianity: 2%
+  - Other: 1%
+ethnic_groups:
+  - Arab: 70%
+  - Nubian: 15%
+  - Beja: 8%
+  - Other: 7%
+urban_population_percent: 35%

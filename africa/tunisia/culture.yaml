@@ -1,0 +1,19 @@
+# Culture Data for Tunisia
+official_languages:
+  - Arabic
+widely_spoken:
+  - French
+  - Berber (Tamazight)
+religion:
+  - Sunni Islam: 99%
+  - Other: 1%
+public_holidays:
+  - Independence Day (March 20)
+  - Revolution Day (January 14)
+  - Eid al-Fitr
+  - Eid al-Adha
+cuisine_highlights:
+  - Couscous
+  - Brik
+  - Harissa
+  - Olive oil (major export)

@@ -1,0 +1,11 @@
+forest_cover_percent: 16%
+protected_areas_percent: 5%
+environmental_issues:
+  - Desertification
+  - Soil erosion
+  - Water scarcity
+  - Conflict-driven ecosystem damage
+major_ecosystems:
+  - Nubian Desert
+  - Red Sea coastal reefs
+  - Nile floodplains

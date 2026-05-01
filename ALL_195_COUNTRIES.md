@@ -102,12 +102,13 @@
 | 71 | 🇰🇼 Kuwait | kuwait | Asia | $0.18T | |
 | 72 | 🇺🇿 Uzbequistão | uzbekistan | Asia | $0.17T | |
 | 73 | 🇵🇦 Panamá | panama | North America | ✅ 100% COMPLETE |
-| 74 | 🇱🇰 Sri Lanka | sri-lanka | Asia | $0.16T | |
+| 74 | 🇱🇰 Sri Lanka | sri-lanka | Asia | $0.16T | ✅ 100% COMPLETE |
 | 75 | 🇩🇴 República Dominicana | dominican-republic | North America | $0.16T | |
 | 76 | 🇧🇹 Butão | bhutan | Asia | $0.16T | |
-| 77 | 🇹🇳 Tunísia | tunisia | Africa | $0.16T | |
+| 77 | 🇹🇳 Tunísia | tunisia | Africa | $0.16T | ✅ 100% COMPLETE |
 | 78 | 🇰🇿 Cazaquistão | kazakhstan | Asia | $0.20T | ✅ 100% COMPLETE |
 | 79 | 🇦🇲 Armênia | armenia | Asia | $0.15T | |
+| 80 | 🇸🇾 Síria | syria | Asia | $0.13T | ✅ 100% COMPLETE |
 | 80 | 🇲🇳 Mongólia | mongolia | Asia | $0.15T | |
 | 80 | 🇦🇿 Azerbaijão | azerbaijan | Asia | $0.15T |
 

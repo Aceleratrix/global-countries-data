@@ -1,0 +1,11 @@
+# Geography Data for Tunisia
+area_km2: 163610
+borders:
+  - Algeria (east/west)
+  - Libya (southeast)
+  - Mediterranean Sea (north/east)
+climate: Mediterranean (warm, dry summers; mild, rainy winters)
+terrain: Mountains in north, hot, dry central plain, semiarid south, desert in south
+coordinates:
+  latitude: 33.8869
+  longitude: 9.5375

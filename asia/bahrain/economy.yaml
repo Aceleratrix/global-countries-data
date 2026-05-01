@@ -1,0 +1,20 @@
+gdp_usd_trillion: 0.15
+gdp_global_rank: 75
+gdp_growth_rate_2024: 2.3%
+main_industries:
+  - Oil and gas extraction
+  - Aluminum smelting
+  - Financial services
+  - Tourism
+  - Logistics
+exports:
+  - Petroleum products
+  - Aluminum
+  - Textiles
+  - Chemicals
+imports:
+  - Crude oil
+  - Machinery
+  - Foodstuffs
+inflation_rate_2024: 1.8%
+unemployment_rate_2024: 3.1%

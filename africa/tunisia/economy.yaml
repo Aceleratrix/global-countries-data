@@ -1,0 +1,17 @@
+# Economy Data for Tunisia
+gdp_nominal_usd: 1.3e11  # $0.13 trillion
+gdp_per_capita_usd: 11000
+global_gdp_rank: 79
+major_industries:
+  - Olive oil production
+  - Dates
+  - Textiles
+  - Automotive parts
+  - Phosphate mining
+  - Tourism
+unemployment_rate: 16.0
+inflation_rate: 7.5
+currency:
+  code: TND
+  name: Tunisian dinar
+  symbol: د.ت

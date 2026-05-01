@@ -1,0 +1,22 @@
+name: Sri Lanka
+region: Asia
+subregion: South Asia
+coordinates:
+  latitude: 7.8731
+  longitude: 80.7718
+area_km2: 65610
+highest_point: Pidurutalagala (2524m)
+lowest_point: Indian Ocean (0m)
+borders: []
+neighbors: []
+major_cities:
+  - name: Colombo
+    population: 800000
+  - name: Kandy
+    population: 125000
+  - name: Galle
+    population: 100000
+  - name: Jaffna
+    population: 95000
+  - name: Negombo
+    population: 140000

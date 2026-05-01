@@ -1,0 +1,10 @@
+total_airports: 4
+main_airport: Bahrain International Airport (BAH)
+seaports:
+  - Khalifa bin Salman Port (main container port)
+  - Mina Salman Port
+road_network_km: 4500
+paved_roads_percent: 85%
+rail_network_km: 0 (no active rail lines)
+internet_penetration_percent: 99%
+mobile_subscriptions_per_100_people: 130

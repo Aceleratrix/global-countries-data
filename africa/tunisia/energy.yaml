@@ -1,0 +1,8 @@
+# Energy Data for Tunisia
+total_energy_production: 0.05 quadrillion BTU (2023)
+total_energy_consumption: 0.12 quadrillion BTU (2023)
+sources:
+  - Natural gas: 60%
+  - Oil: 25%
+  - Renewables: 15% (solar, wind)
+renewable_target_2030: 30%

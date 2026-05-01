@@ -1,0 +1,15 @@
+# Demographics Data for Tunisia
+population: 11972169
+population_year: 2023
+capital: Tunis
+capital_population: 2800000
+area_km2: 163610.0
+population_density: 73.18
+age_structure:
+  - 0-14: 23.5%
+  - 15-64: 69.2%
+  - 65+: 7.3%
+ethnic_groups:
+  - Arab: 98%
+  - European: 1%
+  - Other: 1%

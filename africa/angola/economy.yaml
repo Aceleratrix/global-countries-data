@@ -1,0 +1,23 @@
+gdp_nominal: 200000000000
+gdp_rank_global: 62
+gdp_per_capita: 5500
+inflation_rate: 12.5
+unemployment_rate: 28.3
+major_industries:
+  - crude oil extraction
+  - diamond mining
+  - agriculture
+  - fishing
+  - manufacturing
+exports:
+  - crude oil
+  - diamonds
+  - refined petroleum
+  - coffee
+  - sisal
+imports:
+  - machinery
+  - vehicles
+  - foodstuffs
+  - electronics
+  - textiles

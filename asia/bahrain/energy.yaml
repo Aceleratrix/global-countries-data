@@ -1,0 +1,7 @@
+primary_energy_source: Natural gas
+oil_reserves_barrels: 124000000
+natural_gas_reserves_cubic_meters: 200000000000
+oil_production_barrels_per_day: 190000
+natural_gas_production_cubic_meters_per_day: 180000000
+renewable_energy_percent_total: 1%
+energy_consumption_per_capita_kwh: 12000

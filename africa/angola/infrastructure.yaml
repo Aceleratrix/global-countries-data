@@ -1,0 +1,10 @@
+road_network_km: 51700
+railway_km: 2900
+major_ports:
+  - Luanda
+  - Lobito
+  - Namibe
+international_airports:
+  - Quatro de Fevereiro International Airport (Luanda)
+  - Lubango Airport
+internet_penetration: 32
