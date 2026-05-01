@@ -1,0 +1,12 @@
+# Economy data for Tuvalu
+gdp_trilion_usd: 0.05
+gdp_global_rank: 175
+currencies:
+  - code: AUD
+    name: Australian dollar
+    symbol: $
+  - code: TVD
+    name: Tuvaluan dollar
+    symbol: $
+gini_index: 39.1
+gini_year: 2010

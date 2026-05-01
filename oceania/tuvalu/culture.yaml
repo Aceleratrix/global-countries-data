@@ -1,0 +1,18 @@
+# Culture data for Tuvalu
+translations:
+  ara:
+    official: توالو
+    common: توالو
+  jpn:
+    official: ツバル
+    common: ツバル
+  zho:
+    official: 图瓦卢
+    common: 图瓦卢
+  rus:
+    official: Тувалу
+    common: Тувалу
+demonyms:
+  eng:
+    m: Tuvaluan
+    f: Tuvaluan

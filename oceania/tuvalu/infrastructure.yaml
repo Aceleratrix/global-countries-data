@@ -1,0 +1,13 @@
+# Infrastructure data for Tuvalu
+car:
+  signs:
+    - TUV
+  side: left
+idd:
+  root: "+6"
+  suffixes:
+    - "88"
+postal_code:
+  format: null
+  regex: null
+start_of_week: monday

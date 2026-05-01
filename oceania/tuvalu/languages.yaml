@@ -1,0 +1,11 @@
+# Languages data for Tuvalu
+languages:
+  eng: English
+  tvl: Tuvaluan
+native_names:
+  eng:
+    official: Tuvalu
+    common: Tuvalu
+  tvl:
+    official: Tuvalu
+    common: Tuvalu

@@ -1,0 +1,13 @@
+# Geography data for Tuvalu
+area_km2: 26.0
+region: Oceania
+subregion: Polynesia
+landlocked: false
+continents:
+  - Oceania
+coordinates:
+  lat: -8.0
+  lng: 178.0
+capital_coordinates:
+  lat: -8.52
+  lng: 179.22

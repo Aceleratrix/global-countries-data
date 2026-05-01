@@ -1,0 +1,8 @@
+# Currencies data for Tuvalu
+currencies:
+  AUD:
+    name: Australian dollar
+    symbol: $
+  TVD:
+    name: Tuvaluan dollar
+    symbol: $
