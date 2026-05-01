@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (112 / 195 = 57.4%)
+## 📊 Coverage Progress (113 / 195 = 57.9%)
 
 ### 🌎 South America (6/12 = 50.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -115,7 +115,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇱🇺 **Luxembourg** | 13/13 | ✅ **100% COMPLETE** | 129th largest economy ($0.07T), Luxembourg City (capital), landlocked Western Europe, EU/NATO/Eurozone member | English (en-US) |
 | 🇦🇱 **Albania** | 13/13 | ✅ **100% COMPLETE** | 108th largest economy ($0.08T), Tirana (capital), Southeast Europe, 2.3M population, Albania Alps | English (en-US) |
 
-### 🌍 Africa (22/54 = 40.7%)
+### 🌍 Africa (23/54 = 42.6%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇳🇬 **Nigeria** | 13/13 | ✅ **100% COMPLETE** | 28th largest economy ($0.48T), Africa's most populous (223M), fintech leader (4 unicorns), Nollywood | English (en-NG) |
@@ -139,6 +139,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇸🇴 **Somalia** | 13/13 | ✅ **100% COMPLETE** | 142nd largest economy ($0.06T), Mogadishu (capital), longest mainland Africa coastline (3,300km), Horn of Africa, Somali shilling | Somali (so-SO) + Arabic + English |
 | 🇧🇯 **Benin** | 13/13 | ✅ **100% COMPLETE** | 143rd largest economy ($0.06T), Porto-Novo (capital), West Africa, borders 4 countries, Vodun culture, former Dahomey kingdom | French (fr-BJ) + English |
 | 🇬🇲 **Gambia** | 13/13 | ✅ **100% COMPLETE** | 145th largest economy ($0.05T), Banjul (capital), West Africa, smallest country on mainland Africa, borders only Senegal, Gambia River flows through country | English (en-GM) + English |
+| 🇹🇬 **Togo** | 13/13 | ✅ **100% COMPLETE** | 148th largest economy ($0.05T), Lomé (capital), West Africa, borders Benin/Burkina Faso/Ghana, Togolese Republic | French (fr-TG) + English |
 
 ### 🌏 Oceania (2/14 = 14.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
