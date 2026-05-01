@@ -1,0 +1,16 @@
+# Environment Data for Peru
+biomes:
+  - "Pacific Coastal Desert"
+  - "Andean Highlands"
+  - "Amazon Rainforest (eastern lowlands)"
+protected_areas: 18.2  # % of total land area (2023)
+deforestation_rate: 0.2  # % annual loss of forest cover (2023)
+major_rivers:
+  - "Amazon River (originates in Peru)"
+  - "Ucayali River"
+  - "Marañón River"
+endangered_species:
+  - "Andean Cat"
+  - "Peruvian Spider Monkey"
+  - "Giant Otter"
+climate: "Tropical in east, arid in west, temperate in Andes"

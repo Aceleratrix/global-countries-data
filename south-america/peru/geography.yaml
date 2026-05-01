@@ -1,0 +1,17 @@
+# Geography Data for Peru
+region: "South America"
+subregion: "South America"
+area: 1285216  # km²
+latlng:
+  - -9.19
+  - -75.0152
+borders:
+  - "ECU"  # Ecuador
+  - "COL"  # Colombia
+  - "BRA"  # Brazil
+  - "BOL"  # Bolivia
+  - "CHL"  # Chile
+landlocked: false
+highest_point: "Huascarán (6,768 m)"
+lowest_point: "Pacific Ocean (0 m)"
+terrain: "coastal plains, high Andes mountains, eastern lowland jungle"

@@ -1,0 +1,15 @@
+# Infrastructure Data for Peru
+transport:
+  airports: 191  # paved: 27, unpaved: 164
+  railways: 1906  # km
+  roadways: 140672  # km (paved: 18% as of 2020)
+energy:
+  electricity_access: 97.5  # % of population (2023)
+  primary_sources:
+    - "Natural gas (52%)"
+    - "Hydroelectric (36%)"
+    - "Oil (10%)"
+    - "Renewables (2%)"
+telecom:
+  mobile_subscriptions: 112  # per 100 people (2023)
+  internet_penetration: 71  # % of population (2023)

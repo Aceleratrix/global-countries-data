@@ -1,0 +1,11 @@
+# Healthcare Data for Peru
+healthcare_system: "Mixed public-private system"
+life_expectancy: 77.8  # years (2023)
+infant_mortality: 12.3  # deaths per 1000 live births (2023)
+physicians_per_1000: 1.2  # (2023)
+hospital_beds_per_1000: 1.5  # (2023)
+major_health_issues:
+  - "Respiratory diseases"
+  - "Cardiovascular diseases"
+  - "Diabetes"
+public_health_coverage: 78  # % of population (2023)

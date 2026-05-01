@@ -1,0 +1,11 @@
+# Education Data for Peru
+education_system: "3 levels: primary (6 years), secondary (5 years), tertiary"
+literacy_rate: 94.5  # % (2023, age 15+)
+enrollment:
+  primary: 94  # % net enrollment (2023)
+  secondary: 88  # % net enrollment (2023)
+  tertiary: 42  # % gross enrollment (2023)
+top_universities:
+  - "National University of San Marcos (oldest in Americas, founded 1551)"
+  - "Pontifical Catholic University of Peru"
+  - "University of Lima"

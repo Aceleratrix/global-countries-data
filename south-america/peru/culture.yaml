@@ -1,0 +1,20 @@
+# Culture Data for Peru
+languages:
+  official:
+    - "Spanish"
+    - "Quechua"
+    - "Aymara"
+  indigenous_languages:
+    - "Asháninka"
+    - "Shipibo"
+    - "Aguaruna"
+cultural_landmarks:
+  - "Machu Picchu (UNESCO World Heritage Site)"
+  - "Cusco (Historic Capital of the Inca Empire)"
+  - "Nazca Lines (UNESCO World Heritage Site)"
+  - "Chan Chan Archaeological Zone (UNESCO)"
+traditional_foods:
+  - "Ceviche"
+  - "Lomo Saltado"
+  - "Ají de Gallina"
+  - "Anticuchos"

@@ -1,0 +1,23 @@
+# Economy Data for Peru
+gdp_nominal: 0.06  # Trillions USD (138th largest globally)
+gdp_per_capita: 1800  # USD (2023 estimate)
+major_industries:
+  - "Mining (copper, gold, zinc)"
+  - "Agriculture (coffee, asparagus, avocados)"
+  - "Textiles"
+  - "Tourism"
+major_exports:
+  - "Copper"
+  - "Gold"
+  - "Zinc"
+  - "Textiles"
+  - "Coffee"
+export_partners:
+  - "China (28%)"
+  - "United States (15%)"
+  - "Switzerland (8%)"
+  - "Canada (7%)"
+currency:
+  code: "PEN"
+  name: "Peruvian Sol"
+  symbol: "S/."

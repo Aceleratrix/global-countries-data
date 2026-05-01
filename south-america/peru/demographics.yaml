@@ -1,0 +1,16 @@
+# Demographics Data for Peru
+population: 33396583  # 2023 estimate
+population_growth: 0.9  # annual % (2023)
+life_expectancy: 77.8  # years (2023)
+literacy_rate: 94.5  # % (2023)
+urban_population: 79.2  # % of total population
+ethnic_groups:
+  - "Mestizo (60.2%)"
+  - "Amerindian (25.8%)"
+  - "White (5.9%)"
+  - "Afro-Peruvian (3.6%)"
+  - "Other (4.5%)"
+religions:
+  - "Roman Catholic (76%)"
+  - "Evangelical (14%)"
+  - "Other/Non-religious (10%)"

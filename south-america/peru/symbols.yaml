@@ -1,0 +1,13 @@
+# National Symbols of Peru
+flag:
+  description: "Three vertical stripes: red (left), white (center), red (right) with coat of arms in center"
+  adopted: 1825
+coat_of_arms:
+  elements: "Vicuña (left), cinchona tree (right), cornucopia with coins (bottom), national flag (top)"
+  adopted: 1825
+national_anthem: "Marcha Nacional del Perú"
+national_animal: "Vicuña"
+national_bird: "Andean Cock-of-the-rock"
+national_flower: "Cantuta"
+national_tree: "Cinchona tree"
+motto: "Firm and Happy for the Union" (Spanish: "Firme y feliz por la unión")

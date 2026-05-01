@@ -1,0 +1,10 @@
+# Government Data for Peru
+government_type: "Presidential representative democratic republic"
+capital: "Lima"
+administrative_divisions: 25 regions + 1 province (Lima Province)
+independence:
+  from: "Spain"
+  date: "1821-07-28"
+current_president: "Dina Boluarte"  # As of 2024
+legislature: "Congress of the Republic"
+judicial_branch: "Supreme Court of Justice"

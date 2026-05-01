@@ -1,0 +1,20 @@
+# Basic Country Information for Peru
+cca2: "PE"
+cca3: "PER"
+ccn3: "604"
+name:
+  common: "Peru"
+  official: "Republic of Peru"
+native_name:
+  spa:
+    official: "República del Perú"
+    common: "Perú"
+  que:
+    official: "Piruw Republika"
+    common: "Piruw"
+  aym:
+    official: "Piruw Suyu"
+    common: "Piruw"
+flag: "🇵🇪"
+status: "officially-assigned"
+independent: true
