@@ -1,0 +1,6 @@
+physicians_per_1000: 0.9
+hospital_beds_per_1000: 1.1
+infant_mortality_rate_per_1000: 18
+life_expectancy_at_birth: 74
+public_healthcare_provider: Ministry of Public Health and Social Assistance
+private_healthcare_share_percent: 35

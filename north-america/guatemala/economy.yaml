@@ -1,0 +1,15 @@
+gdp_nominal_usd: 170000000000
+gdp_global_rank: 70
+gdp_per_capita_nominal_usd: 9000
+currency_code: GTQ
+currency_name: Guatemalan Quetzal
+inflation_rate_2023: 4.2
+unemployment_rate_2023: 2.8
+major_industries:
+  - Agriculture
+  - Textiles
+  - Tourism
+  - Mining
+  - Light Manufacturing
+exports_2023_usd: 14000000000
+imports_2023_usd: 22000000000
