@@ -1,0 +1,21 @@
+cca2: "CR"
+cca3: "CRI"
+ccn3: "188"
+cioc: "CRC"
+independent: true
+un_member: true
+status: "officially-assigned"
+common_name: "Costa Rica"
+official_name: "Republic of Costa Rica"
+native_name:
+  spa:
+    official: "República de Costa Rica"
+    common: "Costa Rica"
+alt_spellings:
+  - "CR"
+  - "Republic of Costa Rica"
+  - "República de Costa Rica"
+start_of_week: "monday"
+postal_code:
+  format: "####"
+  regex: "^(\\d{4})$"

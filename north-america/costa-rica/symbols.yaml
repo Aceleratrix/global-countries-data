@@ -1,0 +1,8 @@
+flag: "🇨🇷"
+flags:
+  png: "https://flagcdn.com/w320/cr.png"
+  svg: "https://flagcdn.com/cr.svg"
+  alt: "The flag of Costa Rica is composed of five horizontal bands of blue, white, red, white and blue. The central red band is twice the height of the other four bands. The national coat of arms is placed in a white elliptical disk toward the hoist side of the red band."
+coat_of_arms:
+  png: "https://mainfacts.com/media/images/coats_of_arms/cr.png"
+  svg: "https://mainfacts.com/media/images/coats_of_arms/cr.svg"

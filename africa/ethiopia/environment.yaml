@@ -1,0 +1,17 @@
+# Environment data for Ethiopia
+country: Ethiopia
+ecoregions:
+  - Ethiopian Highlands
+  - Somali Acacia-Commiphora bushlands
+  - Ethiopian montane forests
+endangered_species:
+  - Ethiopian wolf
+  - Walia ibex
+  - Mountain nyala
+deforestation_rate_percent_annual: 1.2  # FAO 2020
+protected_area_percent: 15.0  # World Bank 2021
+major_rivers:
+  - Nile (Blue Nile)
+  - Awash
+  - Omo
+climate: Tropical monsoon with highland variations

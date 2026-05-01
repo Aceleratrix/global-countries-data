@@ -1,8 +1,22 @@
-area_km2: 51100
-capital: San José
-terrain: Coastal plains separated by mountains (Cordillera Central, Cordillera de Talamanca)
-climate: Tropical and subtropical
+region: "Americas"
+subregion: "Central America"
+continent: "North America"
+landlocked: false
 borders:
-  - Nicaragua (north)
-  - Panama (south)
-coastline: 1290 km (Pacific Ocean and Caribbean Sea)
+  - "NIC"
+  - "PAN"
+area: 51100.0
+latlng:
+  - 10.0
+  - -84.0
+capital:
+  - "San José"
+capital_info:
+  latlng:
+    - 9.93
+    - -84.09
+maps:
+  google_maps: "https://goo.gl/maps/RFiwytjvNrpfKN7k6"
+  open_street_maps: "https://www.openstreetmap.org/relation/287667"
+timezones:
+  - "UTC-06:00"

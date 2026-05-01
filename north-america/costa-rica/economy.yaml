@@ -1,14 +1,4 @@
-gdp_usd: 160000000000
-gdp_rank: 71
-gdp_per_capita_usd: 30800
-major_sectors:
-  - Services
-  - Agriculture
-  - Manufacturing
-major_exports:
-  - Bananas
-  - Coffee
-  - Medical devices
-  - Pineapples
-  - Sugar
-exchange_rate: 1 USD = ~520 CRC (2024)
+gdp_value: "$0.10T"
+gdp_rank: 94
+gini_index: 48.2
+gini_year: 2019

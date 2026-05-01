@@ -1,5 +1,19 @@
-airports: 161 (2 international: Juan Santamaría, Daniel Oduber)
-roads: ~40,000 km (paved: 60%)
-internet_penetration: 78%
-electricity_access: 99.5%
-renewable_energy: 98% of electricity from renewables (2023)
+car:
+  signs:
+    - "CR"
+  side: "right"
+idd:
+  root: "+5"
+  suffixes:
+    - "06"
+tld:
+  - ".cr"
+postal_code:
+  format: "####"
+  regex: "^(\\d{4})$"
+capital:
+  - "San José"
+capital_info:
+  latlng:
+    - 9.93
+    - -84.09

@@ -1,0 +1,30 @@
+languages:
+  spa: "Spanish"
+translations:
+  ara:
+    official: "جمهورية كوستاريكا"
+    common: "كوستاريكا"
+  bre:
+    official: "Republik Costa Rica"
+    common: "Costa Rica"
+  ces:
+    official: "Kostarická republika"
+    common: "Kostarika"
+  deu:
+    official: "Republik Costa Rica"
+    common: "Costa Rica"
+  spa:
+    official: "República de Costa Rica"
+    common: "Costa Rica"
+  fra:
+    official: "République du Costa Rica"
+    common: "Costa Rica"
+  por:
+    official: "República da Costa Rica"
+    common: "Costa Rica"
+  rus:
+    official: "Республика Коста-Рика"
+    common: "Коста-Рика"
+  zho:
+    official: "哥斯达黎加共和国"
+    common: "哥斯达黎加"

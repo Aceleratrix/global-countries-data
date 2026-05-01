@@ -1,0 +1,8 @@
+currencies:
+  CRC:
+    symbol: "₡"
+    name: "Costa Rican colón"
+idd:
+  root: "+5"
+  suffixes:
+    - "06"

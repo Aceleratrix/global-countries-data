@@ -1,39 +1,28 @@
-# Ethiopia 🇪🇹 Data Directory
-
-This directory contains all 13 mandatory data files for Ethiopia (Federal Democratic Republic of Ethiopia), the 67th largest economy with $0.18T GDP.
-
-## Files List (13 total)
-1. **COUNTRY.md** - Main country overview and key facts
-2. **README.md** - This file (directory documentation)
-3. **basic_info.yaml** - Basic country identifiers and codes
-4. **demographics.yaml** - Population, ethnicity, religion, languages
-5. **economy.yaml** - GDP, trade, major industries
-6. **geography.yaml** - Area, borders, climate, natural resources
-7. **government.yaml** - Political system, administrative divisions
-8. **infrastructure.yaml** - Transport, energy, telecommunications
-9. **culture.yaml** - Heritage sites, cuisine, arts, sports
-10. **history.yaml** - Ancient to modern historical timeline
-11. **climate.yaml** - Climatic zones, seasons, weather patterns
-12. **tourism.yaml** - Attractions, tourism statistics, UNESCO sites
-13. **education.yaml** - Education system, literacy, universities
-
-## Data Sources
-- World Bank (2023-2024 data)
-- United Nations Population Division
-- International Monetary Fund (IMF)
-- Ethiopian Central Statistical Agency
-- UNESCO World Heritage Centre
-- Ethiopian Government Publications
-
-## Country Quick Facts
-- **Capital:** Addis Ababa
-- **Population:** 126.5 million (2024)
-- **Area:** 1,104,300 km²
-- **GDP:** $0.18 trillion USD (67th global rank)
-- **Currency:** Ethiopian Birr (ETB)
-- **Government:** Federal parliamentary republic
+# Ethiopia Country Data
+This directory contains complete structured data for Ethiopia, including 11 YAML datasets and country overview.
 
 ## Status
-✅ 100% COMPLETE (13/13 files created)
+✅ 100% COMPLETE (13 files total)
+- 1 Country overview (COUNTRY.md)
+- 1 Directory README (this file)
+- 11 Structured YAML datasets
 
-*Last updated: April 2026*
+## Key Facts
+- **Global Economy Rank**: 97th largest economy
+- **GDP**: $0.10T
+- **Population**: 111,652,998
+- **Capital**: Addis Ababa
+- **Region**: Eastern Africa
+
+## Datasets Included
+1. geography.yaml
+2. demographics.yaml
+3. economy.yaml
+4. government.yaml
+5. culture.yaml
+6. infrastructure.yaml
+7. education.yaml
+8. healthcare.yaml
+9. military.yaml
+10. environment.yaml
+11. history.yaml

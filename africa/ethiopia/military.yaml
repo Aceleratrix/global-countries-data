@@ -1,0 +1,11 @@
+# Military data for Ethiopia
+country: Ethiopia
+military_name: Ethiopian National Defense Force (ENDF)
+active_personnel: 160000  # 2023 estimate
+military_budget_usd_billion: 0.5  # 2022 estimate
+branches:
+  - Ethiopian Army
+  - Ethiopian Air Force
+  - Ethiopian Navy (limited, landlocked)
+service_obligation: Voluntary, with conscription provisions
+note: Landlocked since 1993 (Eritrea independence)

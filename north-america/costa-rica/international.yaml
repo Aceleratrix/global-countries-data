@@ -1,0 +1,15 @@
+cca2: "CR"
+cca3: "CRI"
+ccn3: "188"
+cioc: "CRC"
+fifa: "CRC"
+un_member: true
+idd:
+  root: "+5"
+  suffixes:
+    - "06"
+tld:
+  - ".cr"
+maps:
+  google_maps: "https://goo.gl/maps/RFiwytjvNrpfKN7k6"
+  open_street_maps: "https://www.openstreetmap.org/relation/287667"
