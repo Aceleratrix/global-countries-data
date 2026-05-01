@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (27 / 195 = 13.8%)
+## 📊 Coverage Progress (93 / 195 = 47.7%)
 
 ### 🌎 South America (4/12 = 33.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -57,7 +57,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇵🇦 **Panama** | 13/13 | ✅ **100% COMPLETE** | 72nd largest economy ($0.16T), Panama City (2M), Panama Canal, dollarized economy, logistics hub | Spanish (es-PA) + English |
 | 🇭🇳 **Honduras** | 13/13 | ✅ **100% COMPLETE** | 84th largest economy ($0.14T), Tegucigalpa (1M), Mayan ruins, Caribbean/Pacific coasts | Spanish (es-HN) + English |
 
-### 🌏 Asia (16/50 = 32.0%)
+### 🌏 Asia (17/50 = 34.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇮🇱 **Israel** | 13/13 | ✅ **100% COMPLETE** | 33rd largest economy ($0.39T), Startup Nation, 8K+ tech startups, 100+ unicorns | English (en-US) |
@@ -77,6 +77,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇴🇲 **Oman** | 13/13 | ✅ **100% COMPLETE** | 73rd largest economy ($0.15T), Muscat (1.7M), oil/gas economy, Arabian Peninsula | English (en-US) |
 | 🇦🇿 **Azerbaijan** | 13/13 | ✅ **100% COMPLETE** | 81st largest economy ($0.15T), Baku (2.3M), Caspian Sea oil/gas, Caucasus region | English (en-US) |
 | 🇳🇵 **Nepal** | 13/13 | ✅ **100% COMPLETE** | 101st largest economy ($0.09T), Kathmandu (3M), Mount Everest, Himalayan nation, 29.9M population | English (en-US) |
+| 🇾🇪 **Yemen** | 13/13 | ✅ **100% COMPLETE** | 121st largest economy ($0.07T), Sana'a (capital), Arabian Peninsula, borders Oman/Saudi Arabia | English (en-US) |
 
 ### 🌍 Europe (19/44 = 43.2%)
 
