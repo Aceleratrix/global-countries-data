@@ -1,0 +1,18 @@
+# Geography Data
+terrain: "Mountainous (Alps) with Rhine Valley in the west"
+climate: "Continental, cold winters, mild summers"
+highest_point: "Grauspitz (2,599 m)"
+lowest_point: "Ruggeller Riet (430 m)"
+coordinates:
+  latitude: 47.166
+  longitude: 9.555
+landlocked: true
+bordering_countries:
+  - "Switzerland"
+  - "Austria"
+natural_resources:
+  - "Hydroelectric potential"
+  - "Arable land (limited)"
+environmental_issues:
+  - "Limited agricultural land"
+  - "Air pollution from neighboring countries"

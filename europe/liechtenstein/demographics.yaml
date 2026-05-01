@@ -1,0 +1,20 @@
+# Demographics Data
+population: 39327
+population_growth_rate: 0.7  # Annual % (2023)
+population_density: 245.8  # per km²
+ethnic_groups:
+  Liechtensteiner: 65
+  Swiss: 15
+  Austrian: 10
+  German: 5
+  Italian: 3
+  Other: 2
+religion:
+  Roman Catholic: 73.4
+  Protestant: 6.3
+  Muslim: 5.9
+  Other: 14.4
+life_expectancy: 82.3
+literacy_rate: 100  # Near universal
+median_age: 43.2
+urban_population: 14.3  # % of total (most live in small villages)

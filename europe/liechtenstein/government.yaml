@@ -1,0 +1,19 @@
+# Government Data
+form_of_government: "Constitutional monarchy (Principality)"
+head_of_state: "Prince Hans-Adam II"
+head_of_government: "Prime Minister Daniel Risch"
+legislative_body: "Landtag (25-seat unicameral parliament)"
+judicial_branch: "Supreme Court, Constitutional Court"
+voting_age: 18
+last_election: "2023 (parliamentary)"
+political_parties:
+  - "Patriotic Union (VU)"
+  - "Progressive Citizens' Party (FBP)"
+  - "Free List (FL)"
+  - "The Independents (DU)"
+sovereignty: "Fully independent, neutral state"
+international_organizations:
+  - "United Nations"
+  - "European Free Trade Association (EFTA)"
+  - "Council of Europe"
+  - "Organization for Security and Co-operation in Europe (OSCE)"

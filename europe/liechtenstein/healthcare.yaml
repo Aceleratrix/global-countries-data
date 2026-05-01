@@ -1,0 +1,11 @@
+# Healthcare Data
+life_expectancy: 82.3
+infant_mortality_rate: 2.1 per 1,000 live births
+healthcare_system: "Universal public healthcare (financed by social security contributions)"
+hospitals: 1 (National Hospital in Vaduz)
+doctors_per_1000: 3.8
+healthcare_spending: 11.2  # % of GDP (2023)
+immunization_rates:
+  DPT: 99
+  Measles: 98
+common_diseases: "Non-communicable diseases (cardiovascular, cancer) account for 90% of deaths"

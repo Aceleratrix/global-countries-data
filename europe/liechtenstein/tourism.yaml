@@ -1,0 +1,12 @@
+# Tourism Data
+annual_visitors: 90000 (pre-pandemic estimate)
+top_attractions:
+  - "Vaduz Castle (residence of the Prince)"
+  - "Liechtenstein National Museum"
+  - "Art Museum Liechtenstein"
+  - "Malbun Ski Resort (Alpine skiing)"
+  - "Rhine Valley hiking trails"
+accommodation: "Small hotels, guesthouses, and vacation rentals"
+tourism_contribution_gdp: 8.5  # % of GDP (2023)
+visa_policy: "Part of Schengen Area (no border controls with Switzerland/Austria)"
+best_time_to_visit: "December-March (skiing), June-September (hiking)"

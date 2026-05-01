@@ -1,0 +1,19 @@
+# Culture Data
+official_language: "German"
+dialects:
+  - "Alemannic German (local dialect)"
+national_holidays:
+  - "National Day: August 15 (Feast of the Assumption)"
+  - "New Year's Day: January 1"
+  - "Christmas: December 25"
+traditional_food:
+  - "Käsknöpfle (cheese noodles)"
+  - "Rösti (potato dish)"
+  - "Sweets and pastries"
+music:
+  - "Traditional Alpine folk music"
+  - "Classical music (Liechtenstein Symphony Orchestra)"
+sports:
+  - "Skiing (Alpine)"
+  - "Football (national team competes internationally)"
+  - "Ice hockey"

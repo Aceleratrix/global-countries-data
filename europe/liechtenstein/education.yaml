@@ -1,0 +1,12 @@
+# Education Data
+literacy_rate: 100
+education_system: "Compulsory education for 9 years (ages 6-15)"
+school_types:
+  - "Primary schools (6 years)"
+  - "Secondary schools (3 years, general or vocational)"
+  - "Vocational training programs"
+higher_education:
+  - "Liechtenstein University of Applied Sciences (technical and business programs)"
+  - "Most students study abroad (Switzerland, Austria, Germany)"
+student_teacher_ratio: 10:1 (primary)
+public_education_spending: 5.2  # % of GDP (2023)

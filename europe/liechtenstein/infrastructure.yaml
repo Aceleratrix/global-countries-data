@@ -1,0 +1,16 @@
+# Infrastructure Data
+transport:
+  roads: "Extensive paved road network (no motorways)"
+  rail: "9.5 km of railway (connects to Swiss network)"
+  airports: "None (nearest: Zurich Airport, Switzerland)"
+  public_transport: "Bus network connecting to Swiss and Austrian systems"
+energy:
+  electricity_access: 100
+  primary_sources:
+    - "Hydroelectric (60%)"
+    - "Imported from Switzerland (40%)"
+telecommunications:
+  internet_penetration: 98
+  mobile_coverage: 99
+  fixed_broadband_subscriptions: 45 per 100 inhabitants
+water_access: 100  # Safe drinking water for all population

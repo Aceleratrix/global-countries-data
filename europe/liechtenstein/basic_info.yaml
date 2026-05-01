@@ -1,0 +1,21 @@
+# Basic Country Information
+country_name: "Liechtenstein"
+official_name: "Principality of Liechtenstein"
+common_name: "Liechtenstein"
+capital: "Vaduz"
+population: 39327
+area_km2: 160
+currency_code: "CHF"
+currency_name: "Swiss Franc"
+languages:
+  - "German"
+iso_code: "LI"
+top_level_domain: ".li"
+calling_code: "+423"
+region: "Europe"
+subregion: "Western Europe"
+borders:
+  - "Switzerland"
+  - "Austria"
+independent: true
+recognized_states: 160

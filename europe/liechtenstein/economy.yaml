@@ -1,0 +1,24 @@
+# Economy Data
+gdp_nominal_trilion_usd: 0.05
+global_gdp_rank: 178
+gdp_per_capita: 127000  # Approximate (2023)
+key_industries:
+  - "Precision instruments manufacturing"
+  - "Dental products"
+  - "Financial services"
+  - "Tourism"
+  - "Electronics components"
+unemployment_rate: 1.9  # Extremely low (2023)
+inflation_rate: 2.1  # 2023 estimate
+major_export_partners:
+  - "Switzerland"
+  - "Germany"
+  - "United States"
+  - "Austria"
+major_import_partners:
+  - "Switzerland"
+  - "Germany"
+  - "Italy"
+  - "Austria"
+currency: "Swiss Franc (CHF)"
+exchange_rate_usd: 0.91  # Approximate (2024)
