@@ -85,27 +85,28 @@
 
 ### 🥊 TOP 61-80
 
-| # | País | Código | Continente | PIB (USD Trilhões) |
-|---|------|--------|-----------|-------------------|
-| 61 | 🇦🇲 Mianmar (Birmânia) | myanmar | Asia | $0.21T |
-| 62 | 🇦🇴 Angola | angola | Africa | $0.20T |
-| 63 | 🇱🇰 Camboja | cambodia | Asia | $0.20T |
-| 64 | 🇪🇪 Estônia | estonia | Europe | $0.20T |
-| 65 | 🇸🇻 Eslovênia | slovenia | Europe | $0.19T |
-| 66 | 🇸🇴 Eslováquia | slovakia | Europe | $0.19T |
-| 67 | 🇨🇴 Costa Rica | costa-rica | North America | $0.19T |
-| 68 | 🇬🇹 Guatemala | guatemala | North America | $0.18T |
-| 69 | 🇮🇼 Omã | oman | Asia | $0.18T |
-| 70 | 🇰🇼 Kuwait | kuwait | Asia | $0.18T |
-| 71 | 🇺🇦 Uzbequistão | uzbekistan | Asia | $0.17T |
-| 72 | 🇵🇦 Panamá | panama | North America | $0.17T |
-| 73 | 🇸🇷 Sri Lanka | sri-lanka | Asia | $0.16T |
-| 74 | 🇩🇴 República Dominicana | dominican-republic | North America | $0.16T |
-| 75 | 🇧🇹 Butão | bhutan | Asia | $0.16T |
-| 76 | 🇹🇳 Tunísia | tunisia | Africa | $0.16T |
-| 77 | 🇺🇾 Cazaquistão | kazakhstan | Asia | $0.15T |
-| 78 | 🇦🇲 Armênia | armenia | Asia | $0.15T |
-| 79 | 🇲🇻 Mongólia | mongolia | Asia | $0.15T |
+| # | País | Código | Continente | PIB (USD Trilhões) | Status |
+|---|------|--------|-----------|-------------------|--------|
+| 61 | 🇧🇾 Belarus | belarus | Europe | $0.20T | ✅ 100% COMPLETE |
+| 62 | 🇦🇲 Mianmar (Birmânia) | myanmar | Asia | $0.21T | |
+| 63 | 🇦🇴 Angola | angola | Africa | $0.20T | |
+| 64 | 🇱🇰 Camboja | cambodia | Asia | $0.20T | |
+| 65 | 🇪🇪 Estônia | estonia | Europe | $0.20T | |
+| 66 | 🇸🇮 Eslovênia | slovenia | Europe | $0.19T | |
+| 67 | 🇸🇰 Eslováquia | slovakia | Europe | $0.19T | |
+| 68 | 🇨🇷 Costa Rica | costa-rica | North America | $0.19T | |
+| 69 | 🇬🇹 Guatemala | guatemala | North America | $0.18T | |
+| 70 | 🇴🇲 Omã | oman | Asia | $0.18T | |
+| 71 | 🇰🇼 Kuwait | kuwait | Asia | $0.18T | |
+| 72 | 🇺🇿 Uzbequistão | uzbekistan | Asia | $0.17T | |
+| 73 | 🇵🇦 Panamá | panama | North America | $0.17T | |
+| 74 | 🇱🇰 Sri Lanka | sri-lanka | Asia | $0.16T | |
+| 75 | 🇩🇴 República Dominicana | dominican-republic | North America | $0.16T | |
+| 76 | 🇧🇹 Butão | bhutan | Asia | $0.16T | |
+| 77 | 🇹🇳 Tunísia | tunisia | Africa | $0.16T | |
+| 78 | 🇰🇿 Cazaquistão | kazakhstan | Asia | $0.15T | |
+| 79 | 🇦🇲 Armênia | armenia | Asia | $0.15T | |
+| 80 | 🇲🇳 Mongólia | mongolia | Asia | $0.15T | |
 | 80 | 🇦🇿 Azerbaijão | azerbaijan | Asia | $0.15T |
 
 ---

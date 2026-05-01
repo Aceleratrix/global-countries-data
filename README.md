@@ -52,7 +52,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇨🇦 **Canada** | 13/13 | ✅ **100% COMPLETE** | Pan-Canadian AI $2.4B, Cohere $5.5B, Interac, bilingual (EN/FR) | English (en-CA) + French |
 | 🇲🇽 **Mexico** | 13/13 | ✅ **100% COMPLETE** | Nearshoring boom, Kavak $8.7B, OXXO 21K stores, 96% remittances from USA | Spanish (es-MX) |
 
-### 🌏 Asia (12/50 = 24.0%)
+### 🌏 Asia (13/50 = 26.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇮🇱 **Israel** | 13/13 | ✅ **100% COMPLETE** | 33rd largest economy ($0.39T), Startup Nation, 8K+ tech startups, 100+ unicorns | English (en-US) |
@@ -66,9 +66,11 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇮🇶 **Iraq** | 13/13 | ✅ **100% COMPLETE** | 35th largest economy ($0.37T), Baghdad (7M), oil exports 90% revenue, Mesopotamia cradle of civilization | English (en-US) |
 | 🇸🇬 **Singapore** | 13/13 | ✅ **100% COMPLETE** | 40th largest economy ($0.35T), Changi Airport, global financial hub, city-state | English (en-US) |
 | 🇶🇦 **Qatar** | 13/13 | ✅ **100% COMPLETE** | 51st largest economy ($0.27T), 2022 FIFA World Cup, world's largest LNG exporter, Doha (1M) | English (en-US) |
-| 🇻🇳 **Vietnam** | 13/13 | ✅ **100% COMPLETE** | 53rd largest economy ($0.26T), Hanoi (8M), Ha Long Bay, electronics manufacturing hub, 98M population | English (en-US) |
-
+|| 🇻🇳 **Vietnam** | 13/13 | ✅ **100% COMPLETE** | 53rd largest economy ($0.26T), Hanoi (8M), Ha Long Bay, electronics manufacturing hub, 98M population | English (en-US) |
+| 🇰🇿 **Kazakhstan** | 13/13 | ✅ **100% COMPLETE** | 62nd largest economy ($0.20T), Astana (1.3M), Baikonur Cosmodrome, uranium superpower, 19.3M population | English (en-US) |
+|
 ### 🌍 Europe (16/44 = 36.4%)
+
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇩🇪 **Germany** | 13/13 | ✅ **100% COMPLETE** | GDPR (gold standard), EU AI Act, SEPA, Industry 4.0, 4 cloud regions | English (en-US) |
