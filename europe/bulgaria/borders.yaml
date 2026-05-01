@@ -1,0 +1,11 @@
+neighboring_countries:
+  - code: ROU
+    name: Romania
+  - code: SRB
+    name: Serbia
+  - code: MKD
+    name: North Macedonia
+  - code: GRC
+    name: Greece
+  - code: TUR
+    name: Turkey

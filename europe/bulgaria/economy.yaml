@@ -1,19 +1,7 @@
-country: Bulgaria
-gdp_usd: 210000000000  # $0.21T
-gdp_global_rank: 60
-gdp_per_capita_nominal: 12500
-gdp_per_capita_ppp: 30000
-gdp_growth_rate_2024: 1.8%
-major_industries:
-  - Mining
-  - Metallurgy
-  - Agriculture
-  - Tourism
-  - Information Technology
-  - Textiles
-currency:
-  name: Bulgarian Lev
-  code: BGN
-  symbol: лв
-  fixed_rate_to_eur: 1.95583 BGN/EUR
-inflation_rate_2024: 3.2%
+gdp_trl: 0.12
+gdp_rank: 88
+gdp_per_capita: ~$17,500
+currency_code: BGN
+currency_name: Bulgarian lev
+currency_symbol: лв
+economy_type: Upper-middle-income economy

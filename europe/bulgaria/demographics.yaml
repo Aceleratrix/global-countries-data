@@ -1,18 +1,9 @@
-country: Bulgaria
-population_2024: 6900000
-population_europe_rank: 14
-population_density: 62  # per km²
-capital: Sofia
-capital_population: 1300000
-life_expectancy: 74.5  # years
-age_structure:
-  0-14: 14%
-  15-64: 64%
-  65+: 22%
-urban_population: 75%
+population: 6902381
+population_density: 62.17 per km²
+languages:
+  bul: Bulgarian
 ethnic_groups:
-  - Bulgarian: 76.9%
-  - Turkish: 8.4%
-  - Roma: 4.4%
-  - Other: 10.3%
-fertility_rate: 1.58  # births per woman
+  - Bulgarian: 84.8%
+  - Turkish: 8.8%
+  - Roma: 4.9%
+  - Other: 1.5%
