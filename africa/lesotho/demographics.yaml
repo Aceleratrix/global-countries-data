@@ -1,0 +1,12 @@
+# Demographic data
+population: 2116427
+demonyms:
+  eng:
+    m: "Mosotho"
+    f: "Mosotho"
+  fra:
+    m: "Lésothien"
+    f: "Lésothienne"
+languages:
+  eng: "English"
+  sot: "Sotho"

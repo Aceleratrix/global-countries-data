@@ -1,0 +1,16 @@
+# Geographic data
+region: "Africa"
+subregion: "Southern Africa"
+continent: "Africa"
+area_km2: 30355.0
+landlocked: true
+borders:
+  - "ZAF"  # South Africa
+capital:
+  name: "Maseru"
+  latlng: [-29.32, 27.48]
+latlng: [-29.5, 28.5]
+maps:
+  google_maps: "https://goo.gl/maps/H8gJi5mL4Cmd1SF28"
+  open_street_maps: "https://www.openstreetmap.org/relation/2093234"
+timezone: "UTC+02:00"

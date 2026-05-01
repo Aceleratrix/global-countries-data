@@ -1,0 +1,12 @@
+# Economic data
+gdp_usd_trillion: 0.05
+global_gdp_rank: 151
+currencies:
+  - code: "LSL"
+    name: "Lesotho loti"
+    symbol: "L"
+  - code: "ZAR"
+    name: "South African rand"
+    symbol: "R"
+gini_index: 44.9
+gini_year: 2017

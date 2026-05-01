@@ -1,0 +1,19 @@
+# Basic country information
+country_code:
+  cca2: "LS"
+  cca3: "LSO"
+  ccn3: "426"
+  cioc: "LES"
+official_name: "Kingdom of Lesotho"
+common_name: "Lesotho"
+native_names:
+  eng:
+    official: "Kingdom of Lesotho"
+    common: "Lesotho"
+  sot:
+    official: "Kingdom of Lesotho"
+    common: "Lesotho"
+independent: true
+un_member: true
+landlocked: true
+start_of_week: "monday"

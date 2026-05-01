@@ -1,0 +1,15 @@
+# Government data
+government_type: "Unitary parliamentary constitutional monarchy"
+head_of_state: "King"
+head_of_government: "Prime Minister"
+independence: true
+un_member: true
+postal_code:
+  format: "###"
+  regex: "^(\\d{3})$"
+car:
+  signs: ["LS"]
+  side: "left"
+idd:
+  root: "+2"
+  suffixes: ["66"]

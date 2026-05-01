@@ -1,0 +1,20 @@
+# Cultural data
+languages:
+  official: ["English"]
+  national: ["Sotho (Sesotho)"]
+native_names:
+  eng:
+    official: "Kingdom of Lesotho"
+    common: "Lesotho"
+  sot:
+    official: "Kingdom of Lesotho"
+    common: "Lesotho"
+translations:
+  ara: "ليسوتو"
+  bre: "Lesotho"
+  ces: "Lesotho"
+  deu: "Lesotho"
+  fra: "Lesotho"
+  jpn: "レソト"
+  rus: "Лесото"
+  zho: "莱索托"

@@ -1,0 +1,10 @@
+# Infrastructure data
+transport:
+  driving_side: "left"
+  car_signs: ["LS"]
+  idd:
+    root: "+2"
+    suffixes: ["66"]
+postal_code:
+  format: "###"
+  regex: "^(\\d{3})$"

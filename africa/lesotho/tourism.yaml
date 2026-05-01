@@ -1,0 +1,8 @@
+# Tourism data
+top_attractions:
+  - "Maloti Mountains"
+  - "Sehlabathebe National Park"
+  - "Thaba-Bosiu National Monument"
+  - "Katse Dam"
+flag_description: "Three horizontal bands of blue, white and green (3:4:3) with black mokorotlo hat in white band"
+tourism_focus: ["Ecotourism", "Mountain hiking", "Cultural heritage"]

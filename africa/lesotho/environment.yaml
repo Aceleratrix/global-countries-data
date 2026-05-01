@@ -1,0 +1,6 @@
+# Environmental data
+area_km2: 30355.0
+landlocked: true
+biomes: ["Grassland", "Montane shrubland"]
+climate: "Temperate; cool to cold winters, warm summers"
+natural_resources: ["Water", "Agricultural land", "Minerals (diamonds, clay)"]
