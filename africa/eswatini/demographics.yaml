@@ -1,0 +1,19 @@
+demographics:
+  population: 1160164
+  population_density_km2: 66.8
+  languages:
+    official:
+      - "English"
+      - "Swati"
+    native:
+      ssw: "Swati"
+      eng: "English"
+  ethnic_groups:
+    - "Swazi (84%)"
+    - "Zulu (10%)"
+    - "Other (6%)"
+  religion:
+    - "Christian (90%)"
+    - "Traditional beliefs (10%)"
+  median_age: 21.3
+  urbanization_rate: 24.2

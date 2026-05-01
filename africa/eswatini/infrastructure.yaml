@@ -1,0 +1,14 @@
+infrastructure:
+  transport:
+    roads_km: 4000
+    paved_roads_percent: 30
+    airports: 1
+    main_airport: "Matsapha Airport (near Mbabane)"
+  telecommunications:
+    mobile_penetration_percent: 85
+    internet_penetration_percent: 30
+  energy:
+    electricity_access_percent: 70
+    main_sources:
+      - "Coal"
+      - "Hydroelectric"

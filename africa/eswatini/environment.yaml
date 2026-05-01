@@ -1,0 +1,14 @@
+environment:
+  protected_areas_percent: 12
+  major_ecosystems:
+    - "Grasslands"
+    - "Forests"
+    - "Wetlands"
+  environmental_issues:
+    - "Deforestation"
+    - "Soil erosion"
+    - "Water pollution"
+  wildlife:
+    - "Elephants (in reserves)"
+    - "Lions (rare)"
+    - "Over 500 bird species"

@@ -1,0 +1,10 @@
+education:
+  literacy_rate_percent: 88
+  education_system: "7-3-2-2 (7y primary, 3y junior secondary, 2y senior secondary, 2y tertiary)"
+  compulsory_education_age: 13
+  tertiary_institutions:
+    - "University of Eswatini"
+    - "Southern African Nazarene University"
+  enrollment_rate_percent:
+    primary: 92
+    secondary: 65

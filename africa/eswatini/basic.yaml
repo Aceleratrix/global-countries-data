@@ -1,0 +1,26 @@
+country:
+  official_name: "Kingdom of Eswatini"
+  common_name: "Eswatini"
+  cca2: "SZ"
+  cca3: "SWZ"
+  ccn3: "748"
+  cioc: "SWZ"
+  region: "Africa"
+  subregion: "Southern Africa"
+  capital:
+    - "Mbabane"
+    - "Lobamba"
+  population: 1160164
+  area_km2: 17364
+  languages:
+    eng: "English"
+    ssw: "Swati"
+  currencies:
+    SZL:
+      name: "Swazi lilangeni"
+      symbol: "L"
+  borders:
+    - "MOZ"
+    - "ZAF"
+  flag_emoji: "🇸🇿"
+  independence_date: "1968-09-06"

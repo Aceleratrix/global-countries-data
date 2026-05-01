@@ -1,0 +1,11 @@
+military:
+  name: "Umbutfo Eswatini Defence Force (UEDF)"
+  active_personnel: 3000
+  service_branches:
+    - "Army"
+    - "Air Wing"
+  budget_percent_gdp: 1.2
+  defense_partners:
+    - "South Africa"
+    - "United Kingdom"
+  conscription: false

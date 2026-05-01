@@ -1,0 +1,14 @@
+geography:
+  area_km2: 17364
+  landlocked: true
+  borders:
+    - country: "Mozambique"
+      code: "MOZ"
+    - country: "South Africa"
+      code: "ZAF"
+  climate: "Subtropical, rainy season October–April"
+  terrain: "Mountainous and hilly, lowland plains in east"
+  elevation:
+    highest_point: "Emlembe (1,862m)"
+    lowest_point: "Great Usutu River (21m)"
+  time_zone: "UTC+2"

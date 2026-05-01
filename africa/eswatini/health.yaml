@@ -1,0 +1,9 @@
+health:
+  life_expectancy_years: 61
+  infant_mortality_per_1000: 42
+  health_expenditure_percent_gdp: 4.5
+  major_diseases:
+    - "HIV/AIDS (prevalence 27%)"
+    - "Tuberculosis"
+    - "Malaria (low risk)"
+  hospital_beds_per_1000: 2.1

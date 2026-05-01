@@ -1,0 +1,17 @@
+economy:
+  gdp_nominal_trillion: 0.05
+  global_gdp_rank: 150
+  gdp_per_capita_usd: 4300
+  currency:
+    code: "SZL"
+    name: "Swazi lilangeni"
+    peg: "1:1 to South African rand"
+  major_industries:
+    - "Mining (coal, diamonds)"
+    - "Agriculture (sugarcane, cotton, citrus)"
+    - "Manufacturing (textiles, apparel)"
+  trade_partners:
+    - "South Africa"
+    - "United States"
+    - "United Kingdom"
+  inflation_rate: 6.2  # 2024 estimate

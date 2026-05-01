@@ -1,0 +1,10 @@
+government:
+  system: "Absolute monarchy"
+  head_of_state: "King Mswati III"
+  reign_start: 1986
+  capital_roles:
+    administrative: "Mbabane"
+    legislative_royal: "Lobamba"
+  legislature: "Bicameral Parliament (Senate + House of Assembly)"
+  constitution_enacted: 2005
+  judicial_system: "Based on Roman-Dutch law and customary law"
