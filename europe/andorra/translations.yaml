@@ -1,0 +1,74 @@
+# Translations of country name for Andorra
+translations:
+  ara:
+    official: "إمارة أندورا"
+    common: "أندورا"
+  bre:
+    official: "Principat d'Andorra"
+    common: "Andorra"
+  ces:
+    official: "Andorrské knížectví"
+    common: "Andorra"
+  cym:
+    official: "Tywysogaeth Andorra"
+    common: "Andorra"
+  deu:
+    official: "Fürstentum Andorra"
+    common: "Andorra"
+  est:
+    official: "Andorra vürstiriik"
+    common: "Andorra"
+  fin:
+    official: "Andorran ruhtinaskunta"
+    common: "Andorra"
+  fra:
+    official: "Principauté d'Andorre"
+    common: "Andorre"
+  hrv:
+    official: "Kneževina Andora"
+    common: "Andora"
+  hun:
+    official: "Andorrai Hercegség"
+    common: "Andorra"
+  ita:
+    official: "Principato di Andorra"
+    common: "Andorra"
+  jpn:
+    official: "アンドラ公国"
+    common: "アンドラ"
+  kor:
+    official: "안도라 공국"
+    common: "안도라"
+  nld:
+    official: "Prinsdom Andorra"
+    common: "Andorra"
+  per:
+    official: "شاهزاده‌نشین آندورا"
+    common: "آندورا"
+  pol:
+    official: "Księstwo Andory"
+    common: "Andora"
+  por:
+    official: "Principado de Andorra"
+    common: "Andorra"
+  rus:
+    official: "Княжество Андорра"
+    common: "Андорра"
+  slk:
+    official: "Andorrské kniežatstvo"
+    common: "Andorra"
+  spa:
+    official: "Principado de Andorra"
+    common: "Andorra"
+  swe:
+    official: "Furstendömet Andorra"
+    common: "Andorra"
+  tur:
+    official: "Andorra Prensliği"
+    common: "Andorra"
+  urd:
+    official: "آندورا"
+    common: "آندورا"
+  zho:
+    official: "安道尔公国"
+    common: "安道尔"

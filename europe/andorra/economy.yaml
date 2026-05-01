@@ -1,0 +1,10 @@
+# Economic indicators for Andorra
+economy:
+  gdp_rank: 177
+  gdp_value: 0.05
+  gdp_unit: "Trillion"
+  gini_index: null
+  currency:
+    code: "EUR"
+    name: "Euro"
+    symbol: "€"

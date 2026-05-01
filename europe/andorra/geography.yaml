@@ -1,0 +1,9 @@
+# Geographic information for Andorra
+geography:
+  region: "Europe"
+  subregion: "Southern Europe"
+  landlocked: true
+  area: 468
+  area_unit: "km²"
+  latlng: [42.5, 1.5]
+  capital_latlng: [42.51, 1.52]

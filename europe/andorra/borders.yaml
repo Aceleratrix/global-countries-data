@@ -1,0 +1,6 @@
+# Land borders for Andorra
+borders:
+  - country: "France"
+    cca3: "FRA"
+  - country: "Spain"
+    cca3: "ESP"
