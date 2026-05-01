@@ -1,0 +1,11 @@
+country: Bulgaria
+healthcare_system: Universal public healthcare (mandatory insurance)
+life_expectancy: 74.5 years (2024)
+infant_mortality_rate: 5.8 per 1000 live births (2024)
+physicians_per_1000_population: 4.2 (2023)
+hospital_beds_per_1000: 6.8 (2023)
+public_expenditure_on_healthcare: 5.8% of GDP (2023)
+leading_causes_of_death:
+  - Ischemic heart disease
+  - Stroke
+  - Lung cancer

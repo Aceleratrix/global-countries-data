@@ -1,0 +1,12 @@
+country: Bulgaria
+transport:
+  railways: 4,400 km (66% electrified)
+  paved_roads: 19,500 km
+  international_airports: 4 (Sofia, Plovdiv, Varna, Burgas)
+energy_mix:
+  coal: 45%
+  nuclear: 35% (Kozloduy NPP)
+  renewable: 20% (wind, solar, hydro)
+internet_penetration: 82% (2024)
+mobile_penetration: 125% (2024)
+electricity_access: 100%

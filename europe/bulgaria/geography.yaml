@@ -1,0 +1,22 @@
+country: Bulgaria
+area_km2: 110994
+region: Southeast Europe
+borders:
+  - Romania (north, 608 km)
+  - Serbia (west, 318 km)
+  - North Macedonia (southwest, 162 km)
+  - Greece (south, 494 km)
+  - Turkey (southeast, 240 km)
+highest_peak:
+  name: Musala
+  elevation_m: 2925
+longest_river: Danube (470 km within Bulgaria)
+climate: Temperate continental, Mediterranean in southern regions
+natural_resources:
+  - Coal
+  - Copper
+  - Lead
+  - Zinc
+  - Timber
+  - Rose oil (world's largest producer)
+protected_areas: 5 national parks, 87 nature reserves
