@@ -1,0 +1,23 @@
+# basics.yml - Core country identifiers
+cca2: DZ
+ccn3: "012"
+cca3: DZA
+cioc: ALG
+independent: true
+unMember: true
+status: officially-assigned
+tld:
+  - ".dz"
+  - "الجزائر."
+altSpellings:
+  - DZ
+  - Dzayer
+  - Algérie
+name:
+  common: Algeria
+  official: People's Democratic Republic of Algeria
+  nativeName:
+    ara:
+      official: الجمهورية الديمقراطية الشعبية الجزائرية
+      common: الجزائر
+startOfWeek: sunday

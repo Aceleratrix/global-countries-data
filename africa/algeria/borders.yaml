@@ -1,0 +1,16 @@
+borders:
+  - TUN
+  - LBY
+  - NER
+  - ESH
+  - MRT
+  - MLI
+  - MAR
+border_countries:
+  TUN: Tunisia
+  LBY: Libya
+  NER: Niger
+  ESH: Western Sahara
+  MRT: Mauritania
+  MLI: Mali
+  MAR: Morocco

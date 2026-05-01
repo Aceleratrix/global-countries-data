@@ -1,22 +1,42 @@
-# Algeria (🇩🇿)
-**People's Democratic Republic of Algeria**
+# Algeria
 
-## Key Facts
-- **GDP**: $0.31T (47th largest economy globally)
-- **Population**: ~44.7 million (2023 estimate)
-- **Capital**: Algiers (~5.1 million metro population)
-- **Area**: 2,381,741 km² (largest country in Africa)
-- **Currency**: Algerian Dinar (DZD)
-- **Official Languages**: Arabic, Tamazight (Berber, official since 2016)
-- **Government**: Unitary semi-presidential republic
-- **HDI**: 0.745 (High, 2021)
-- **OPEC Member**: Yes (joined 1969)
-
-## Economy
-Algeria's economy is dominated by hydrocarbons, accounting for ~30% of GDP, 60% of budget revenue, and 95% of export earnings. Major exports include natural gas, crude oil, and petroleum products. Agriculture employs ~14% of the workforce, with key crops being wheat, barley, dates, and citrus fruits.
+## Overview
+- **Common Name**: Algeria
+- **Official Name**: People's Democratic Republic of Algeria
+- **Capital**: Algiers
+- **Region**: Africa
+- **Subregion**: Northern Africa
+- **Population**: 44,700,000 (2023 estimate)
+- **Area**: 2,381,741 km²
+- **GDP Rank**: 134th largest economy globally
+- **GDP**: $0.06 Trillion (T)
+- **Currency**: Algerian Dinar (DZD, د.ج)
+- **Languages**: Arabic, Tamazight
+- **Timezone**: UTC+01:00
+- **Flag**: 🇩🇿
+- **Borders**: Tunisia (TUN), Libya (LBY), Niger (NER), Western Sahara (ESH), Mauritania (MRT), Mali (MLI), Morocco (MAR)
+- **ISO Codes**: DZ (cca2), DZA (cca3), 012 (ccn3)
+- **IOC Code**: ALG
+- **UN Member**: Yes
+- **Independent**: Yes
+- **Landlocked**: No
 
 ## Geography
-Located in North Africa, bordered by Tunisia, Libya, Niger, Mali, Mauritania, Western Sahara, Morocco, and the Mediterranean Sea. The Sahara Desert covers ~90% of the country's territory.
+Algeria is the largest country in Africa and the Arab world, located in Northern Africa. It has a Mediterranean coastline to the north and borders several countries to the east, south, and west.
 
-## Culture
-A blend of Arab, Berber, and French influences. Traditional music includes Rai (originating in Oran) and Chaabi. The country has 7 UNESCO World Heritage Sites, including the Roman ruins of Timgad and Djémila.
+## Economy
+As the 134th largest economy globally, Algeria has a GDP of approximately $0.06 Trillion. The economy is heavily reliant on hydrocarbons, with oil and gas exports accounting for a significant portion of government revenue.
+
+## Related Files
+- [README.md](README.md)
+- [identifiers.yaml](identifiers.yaml)
+- [geography.yaml](geography.yaml)
+- [demographics.yaml](demographics.yaml)
+- [economy.yaml](economy.yaml)
+- [languages.yaml](languages.yaml)
+- [currencies.yaml](currencies.yaml)
+- [flags.yaml](flags.yaml)
+- [borders.yaml](borders.yaml)
+- [timezones.yaml](timezones.yaml)
+- [government.yaml](government.yaml)
+- [culture.yaml](culture.yaml)

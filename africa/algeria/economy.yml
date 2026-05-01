@@ -1,0 +1,9 @@
+# economy.yml - Economic indicators
+gdpRank: 134
+gdpNominalTrillion: 0.06
+currencies:
+  DZD:
+    symbol: د.ج
+    name: Algerian dinar
+gini:
+  2011: 27.6

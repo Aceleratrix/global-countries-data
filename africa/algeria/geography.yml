@@ -1,0 +1,22 @@
+# geography.yml - Geographic data
+region: Africa
+subregion: Northern Africa
+continents:
+  - Africa
+landlocked: false
+area: 2381741.0
+latlng:
+  - 28.0
+  - 3.0
+maps:
+  googleMaps: https://goo.gl/maps/RsAyAfyaiNVb8DpW8
+  openStreetMaps: https://www.openstreetmap.org/relation/192756
+capital:
+  - Algiers
+capitalInfo:
+  latlng:
+    - 36.75
+    - 3.05
+postalCode:
+  format: "#####"
+  regex: "^(\\d{5})$"

@@ -1,14 +1,3 @@
-country: Algeria
-official_name: People's Democratic Republic of Algeria
-government_type: Unitary semi-presidential republic
-capital: Algiers
-head_of_state: President (Abdelmadjid Tebboune, elected 2019)
-head_of_government: Prime Minister (Aymen Benabderrahmane, appointed 2023)
-legislature:
-  - Upper house: Council of the Nation (144 seats)
-  - Lower house: People's National Assembly (407 seats)
-independence: July 5, 1962 (from France)
-constitution_adopted: 1963 (amended 2016)
-political_parties:
-  - National Liberation Front (FLN)
-  - Democratic National Rally (RND)
+independent: true
+un_member: true
+government_type: Presidential republic

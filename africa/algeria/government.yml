@@ -1,0 +1,10 @@
+# government.yml - Administrative and transport data
+fifa: ALG
+car:
+  signs:
+    - DZ
+  side: right
+idd:
+  root: "+2"
+  suffixes:
+    - "13"

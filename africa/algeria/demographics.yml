@@ -1,0 +1,11 @@
+# demographics.yml - Population and social data
+population: 47400000
+demonyms:
+  eng:
+    f: Algerian
+    m: Algerian
+  fra:
+    f: Algérienne
+    m: Algérien
+languages:
+  ara: Arabic
