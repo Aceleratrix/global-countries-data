@@ -1,0 +1,37 @@
+# culture.yaml - Language, translations, cultural data
+languages:
+  hye: "Armenian"
+translations:
+  ara:
+    official: "جمهورية أرمينيا"
+    common: "أرمينيا"
+  bre:
+    official: "Republik Armenia"
+    common: "Armenia"
+  ces:
+    official: "Arménská republika"
+    common: "Arménie"
+  deu:
+    official: "Republik Armenien"
+    common: "Armenien"
+  eng:
+    official: "Republic of Armenia"
+    common: "Armenia"
+  fra:
+    official: "République d'Arménie"
+    common: "Arménie"
+  hye:
+    official: "Հայաստանի Հանրապետություն"
+    common: "Հայաստան"
+  rus:
+    official: "Республика Армения"
+    common: "Армения"
+  spa:
+    official: "República de Armenia"
+    common: "Armenia"
+  tur:
+    official: "Ermenistan Cumhuriyeti"
+    common: "Ermenistan"
+  zho:
+    official: "亚美尼亚共和国"
+    common: "亚美尼亚"

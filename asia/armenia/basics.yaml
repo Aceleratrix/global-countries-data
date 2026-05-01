@@ -1,0 +1,15 @@
+# basics.yaml - Core country identifiers and basic facts
+cca2: "AM"
+cca3: "ARM"
+ccn3: "051"
+cioc: "ARM"
+official_name: "Republic of Armenia"
+common_name: "Armenia"
+native_name:
+  hye:
+    official: "Հայաստանի Հանրապետություն"
+    common: "Հայաստան"
+independent: true
+un_member: true
+status: "officially-assigned"
+start_of_week: "monday"

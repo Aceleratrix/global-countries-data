@@ -1,0 +1,13 @@
+# infrastructure.yaml - Transport and infrastructure data
+tld:
+  - ".am"
+driving_side: "right"
+idd:
+  root: "+3"
+  suffixes:
+    - "374"
+postal_code:
+  format: "######"
+  regex: "^(\\d{6})$"
+car_signs:
+  - "AM"

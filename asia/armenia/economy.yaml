@@ -1,0 +1,8 @@
+# economy.yaml - Economic indicators
+gdp_nominal_trillion_usd: 0.15
+global_gdp_rank: 79
+currency:
+  code: "AMD"
+  name: "Armenian dram"
+  symbol: "֏"
+gini_index_2019: 29.9

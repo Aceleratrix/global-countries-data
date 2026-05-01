@@ -1,0 +1,13 @@
+# demographics.yaml - Population and demographic data
+population: 3076200
+languages:
+  hye: "Armenian"
+demonyms:
+  eng:
+    m: "Armenian"
+    f: "Armenian"
+  fra:
+    m: "Arménien"
+    f: "Arménienne"
+timezones:
+  - "UTC+04:00"

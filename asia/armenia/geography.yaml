@@ -1,0 +1,21 @@
+# geography.yaml - Geographic data
+region: "Asia"
+subregion: "Western Asia"
+continent: "Asia"
+landlocked: true
+area_km2: 29743.0
+coordinates:
+  lat: 40.0
+  lng: 45.0
+capital: "Yerevan"
+capital_coordinates:
+  lat: 40.17
+  lng: 44.5
+borders:
+  - "AZE"
+  - "GEO"
+  - "IRN"
+  - "TUR"
+maps:
+  google_maps: "https://goo.gl/maps/azWUtK9bUQYEyccbA"
+  open_street_maps: "https://www.openstreetmap.org/relation/364066"

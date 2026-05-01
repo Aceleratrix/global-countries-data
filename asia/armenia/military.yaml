@@ -1,0 +1,5 @@
+# military.yaml - Military data (placeholder, real data pending)
+active_personnel: null
+reserve_personnel: null
+military_expenditure_percent_gdp: null
+nuclear_weapons: false

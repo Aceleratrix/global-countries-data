@@ -1,0 +1,11 @@
+# symbols.yaml - National symbols
+flag:
+  emoji: "🇦🇲"
+  png: "https://flagcdn.com/w320/am.png"
+  svg: "https://flagcdn.com/am.svg"
+  description: "Three equal horizontal bands of red, blue and orange"
+coat_of_arms:
+  png: "https://mainfacts.com/media/images/coats_of_arms/am.png"
+  svg: "https://mainfacts.com/media/images/coats_of_arms/am.svg"
+national_anthem: "Mer Hayrenik"
+capital: "Yerevan"

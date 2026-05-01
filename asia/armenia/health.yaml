@@ -1,0 +1,6 @@
+# health.yaml - Health indicators (placeholder, real data pending)
+life_expectancy: null
+infant_mortality_rate: null
+health_expenditure_percent_gdp: null
+physicians_per_1000: null
+hospital_beds_per_1000: null
