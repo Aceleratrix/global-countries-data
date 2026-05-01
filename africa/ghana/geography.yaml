@@ -1,0 +1,21 @@
+# Geography data for Ghana
+country: Ghana
+official_name: Republic of Ghana
+region: Africa
+subregion: Western Africa
+landlocked: false
+area_km2: 238533.0
+borders:
+  - BFA
+  - CIV
+  - TGO
+coordinates:
+  lat: 8.0
+  lon: -2.0
+capital_coordinates:
+  lat: 5.55
+  lon: -0.22
+maps:
+  google_maps: https://goo.gl/maps/Avy5RSmdsXFBaiXq8
+  openstreet_maps: https://www.openstreetmap.org/relation/192781
+flag_description: "Three equal horizontal bands of red, gold and green, with a five-pointed black star centered in the gold band."

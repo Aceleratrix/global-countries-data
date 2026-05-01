@@ -1,0 +1,22 @@
+# Government data for Ghana
+country: Ghana
+official_name: Republic of Ghana
+independent: true
+un_member: true
+capital: Accra
+country_codes:
+  cca2: GH
+  cca3: GHA
+  ccn3: "288"
+  cioc: GHA
+timezones:
+  - UTC
+start_of_week: monday
+car:
+  signs:
+    - GH
+  side: right
+idd:
+  root: "+2"
+  suffixes:
+    - "33"

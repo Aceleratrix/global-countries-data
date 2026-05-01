@@ -1,0 +1,8 @@
+# Military data for Ghana
+country: Ghana
+military_name: Ghana Armed Forces
+branches:
+  - Army
+  - Navy
+  - Air Force
+defense_budget: null

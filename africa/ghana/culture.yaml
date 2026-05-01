@@ -1,0 +1,14 @@
+# Culture data for Ghana
+country: Ghana
+flag_emoji: "🇬🇭"
+native_names:
+  eng:
+    official: Republic of Ghana
+    common: Ghana
+translations:
+  ara: "جمهورية غانا (غانا)"
+  fra: "République du Ghana (Ghana)"
+  por: "República do Gana (Gana)"
+  spa: "República de Ghana (Ghana)"
+  zho: "加纳共和国 (加纳)"
+tld: ".gh"

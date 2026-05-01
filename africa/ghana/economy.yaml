@@ -1,0 +1,11 @@
+# Economy data for Ghana
+country: Ghana
+gdp_trillion_usd: 0.10
+gdp_global_rank: 98
+currency:
+  code: GHS
+  name: Ghanaian cedi
+  symbol: "₵"
+gini_index: 43.5
+gini_year: 2016
+fifa_code: GHA

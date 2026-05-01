@@ -1,0 +1,9 @@
+# Environment data for Ghana
+country: Ghana
+continent: Africa
+climate: "Tropical; warm and comparatively dry along southeast coast; hot and humid in southwest; cooler in north"
+natural_resources:
+  - Gold
+  - Oil
+  - Timber
+  - Bauxite

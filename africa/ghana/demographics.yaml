@@ -1,0 +1,14 @@
+# Demographics data for Ghana
+country: Ghana
+population: 33742380
+population_year: 2023
+demonyms:
+  male: Ghanaian
+  female: Ghanaian
+languages:
+  official:
+    - English
+  native:
+    - Akan
+    - Ewe
+    - Ga
