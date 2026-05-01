@@ -1,0 +1,16 @@
+# Georgia Culture Data
+country: Georgia
+native_name:
+  georgian:
+    official: საქართველო
+    common: საქართველო
+translations:
+  arabic: جورجيا
+  french: Géorgie
+  german: Georgien
+  russian: Грузия
+  spanish: Georgia
+  chinese: 格鲁吉亚
+demonyms:
+  english: Georgian
+  french: Géorgien/Géorgienne

@@ -1,0 +1,5 @@
+# Georgia Timezone Data
+country: Georgia
+timezones:
+  - UTC+04:00
+start_of_week: monday

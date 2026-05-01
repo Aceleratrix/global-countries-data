@@ -1,0 +1,13 @@
+# Georgia Demographics Data
+country: Georgia
+population: 4000921
+demonyms:
+  english:
+    male: Georgian
+    female: Georgian
+  french:
+    male: Géorgien
+    female: Géorgienne
+gini_index: 35.9
+gini_year: 2019
+start_of_week: monday

@@ -1,0 +1,10 @@
+# Georgia Economy Data
+country: Georgia
+gdp_trillion_usd: 0.08
+gdp_global_rank: 107
+gini_index: 35.9
+gini_year: 2019
+currency:
+  code: GEL
+  name: lari
+  symbol: ₾

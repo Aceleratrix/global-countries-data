@@ -1,0 +1,10 @@
+# Georgia Transport Data
+country: Georgia
+driving_side: right
+car_signs:
+  - GE
+idd:
+  root: "+9"
+  suffixes:
+    - "95"
+calling_code: +995

@@ -1,0 +1,23 @@
+# Georgia Geography Data
+country: Georgia
+region: Asia
+subregion: Western Asia
+area_km2: 69700.0
+landlocked: false
+capital: Tbilisi
+capital_coordinates:
+  lat: 41.68
+  lng: 44.83
+country_coordinates:
+  lat: 42.0
+  lng: 43.5
+borders:
+  - ARM
+  - AZE
+  - RUS
+  - TUR
+continents:
+  - Asia
+postal_code:
+  format: "####"
+  regex: "^(\\d{4})$"
