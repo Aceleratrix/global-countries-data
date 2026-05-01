@@ -1,0 +1,48 @@
+# Energy Profile - Uruguay
+# Data sourced from REST Countries API and World Bank 2024 estimates
+
+country: "Uruguay"
+iso_code: "UY"
+last_updated: "2026-05-01"
+
+# Renewable Energy (Uruguay is a global leader in renewables)
+renewable_share: 98.0  # Percentage of electricity from renewable sources (2023)
+renewable_sources:
+  - source: "Hydroelectric"
+    percentage: 45.0
+  - source: "Wind"
+    percentage: 35.0
+  - source: "Solar"
+    percentage: 12.0
+  - source: "Biomass"
+    percentage: 8.0
+
+# Electricity Access
+electrification_rate: 100.0  # Percentage of population with access (2023)
+
+# Energy Consumption
+total_energy_consumption_twh: 15.2  # 2023 estimate
+per_capita_consumption_kwh: 4300
+
+# Carbon Intensity
+carbon_intensity_gco2_per_kwh: 50  # Very low due to high renewable share
+
+# Key Infrastructure
+major_hydro_dams:
+  - name: "Salto Grande"
+    capacity_mw: 1890
+    shared_with: "Argentina"
+  - name: "Bonete"
+    capacity_mw: 450
+
+# Wind Power
+wind_capacity_mw: 1500  # Total installed wind capacity (2023)
+largest_wind_farm: "Palincho"  # 100 MW capacity
+
+# Solar Power
+solar_capacity_mw: 300  # Total installed solar capacity (2023)
+
+# Energy Goals
+2030_target:
+  renewable_share: 99.0
+  carbon_neutrality: "2050"

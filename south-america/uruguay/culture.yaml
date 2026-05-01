@@ -1,10 +1,10 @@
-national_holiday: Independence Day (August 25)
-religion:
-  - Roman Catholic: 47%
-  - Protestant: 11%
-  - Non-religious: 37%
-  - Other: 5%
-traditional_food: Asado, chivito, mate
-national_sport: Football (soccer)
-unesco_world_heritage_sites:
-  - Historic Quarter of the City of Colonia del Sacramento
+# Culture data for Uruguay
+country: Uruguay
+flag_emoji: 🇺🇾
+flag_description: "The flag of Uruguay is composed of nine equal horizontal bands of white alternating with blue, with a white square superimposed in the canton. In the white square is a yellow sun bearing a human face — the Sun of May — from which sixteen rays extend. The sun's rays alternate between triangular and wavy."
+coat_of_arms:
+  png: "https://mainfacts.com/media/images/coats_of_arms/uy.png"
+  svg: "https://mainfacts.com/media/images/coats_of_arms/uy.svg"
+tld:
+  - .uy
+start_of_week: monday

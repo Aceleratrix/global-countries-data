@@ -1,8 +1,13 @@
-gdp_nominal_trillion_usd: 0.10
-gdp_global_ranking: 95
-gini_index: 39.7
-gini_year: 2019
+# Economy data for Uruguay
+country: Uruguay
+gdp_rank: 95
+gdp_nominal_trillion: 0.07
 currencies:
   UYU:
-    name: "Uruguayan peso"
+    name: Uruguayan peso
     symbol: "$"
+gini_index: 39.7
+gini_year: 2019
+independent: true
+un_member: true
+status: officially-assigned

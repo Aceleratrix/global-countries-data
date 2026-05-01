@@ -1,5 +1,15 @@
-road_network_km: 78000
-railway_km: 1900
-airports: 3 major (Carrasco International Airport, Montevideo)
-internet_penetration_percent: 86%
-mobile_subscriptions_per_100: 152
+# Infrastructure data for Uruguay
+country: Uruguay
+capital: Montevideo
+capital_info:
+  latlng:
+    - -34.85
+    - -56.17
+timezones:
+  - UTC-03:00
+driving_side: right
+phone_prefix: "+598"
+postal_code:
+  format: "#####"
+  regex: "^(\\d{5})$"
+internet_tld: .uy

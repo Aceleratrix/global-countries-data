@@ -1,6 +1,14 @@
-government_type: Presidential republic
-president: Luis Lacalle Pou
-vice_president: Beatriz Argimón
-legislature: General Assembly (Chamber of Deputies, Senate)
-independence_day: August 25, 1825 (from Brazil)
-constitution_adopted: 1997 (current)
+# Government data for Uruguay
+country: Uruguay
+official_name: Oriental Republic of Uruguay
+independent: true
+un_member: true
+status: officially-assigned
+cioc: URU
+cca2: UY
+cca3: URY
+ccn3: "858"
+alt_spellings:
+  - UY
+  - Oriental Republic of Uruguay
+  - República Oriental del Uruguay

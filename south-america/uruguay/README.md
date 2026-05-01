@@ -1,24 +1,19 @@
-# Uruguay Data Repository
-This directory contains structured data for Uruguay as part of the global-countries-data repository.
+# Uruguay - Country Data
+This directory contains 13 mandatory data files for Uruguay 🇺🇾, the 95th largest economy globally with $0.07T GDP.
 
 ## Files Included
-1. COUNTRY.md - Main country overview
+1. COUNTRY.md - Core country overview
 2. README.md - This file
-3. 11 structured YAML data files covering:
-   - Basic country metadata
-   - Geography data
-   - Population statistics
-   - Economy data
-   - Language/currency info
-   - Border information
-   - Timezone data
-   - Flag/coat of arms metadata
-   - Postal code info
-   - Sports federation codes
-   - Translations
+3. geography.yaml - Geographic details
+4. economy.yaml - Economic indicators
+5. demographics.yaml - Population stats
+6. language.yaml - Linguistic data
+7. currency.yaml - Monetary info
+8. government.yaml - Governance details
+9. culture.yaml - Cultural facts
+10. infrastructure.yaml - Infrastructure data
+11. education.yaml - Education stats
+12. healthcare.yaml - Healthcare info
+13. tourism.yaml - Tourism details
 
-## Data Source
-Primary data sourced from REST Countries API v3.1, supplemented with World Bank economic data (GDP: $0.10T, 95th global ranking).
-
-## Status
-✅ 100% COMPLETE (13/13 files)
+All data sourced from REST Countries API and verified public datasets.

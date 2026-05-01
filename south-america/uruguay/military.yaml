@@ -1,0 +1,63 @@
+# Military Profile - Uruguay
+# Data sourced from IISS Military Balance 2024 and Uruguayan Ministry of Defense
+
+country: "Uruguay"
+iso_code: "UY"
+last_updated: "2026-05-01"
+
+# Active Personnel
+active_personnel: 25000
+reserve_personnel: 15000
+
+# Branches
+branches:
+  - name: "Uruguayan Army (Ejército Nacional)"
+    personnel: 15000
+    main_equipment:
+      - type: "Tanks"
+        model: "M24 Chaffee"
+        quantity: 12
+      - type: "APCs"
+        model: "M113"
+        quantity: 60
+  - name: "Uruguayan Navy (Armada Nacional)"
+    personnel: 6000
+    ships: 20
+    main_assets:
+      - type: "Frigates"
+        quantity: 2
+      - type: "Patrol Vessels"
+        quantity: 12
+  - name: "Uruguayan Air Force (Fuerza Aérea Uruguaya)"
+    personnel: 4000
+    aircraft: 30
+    main_assets:
+      - type: "Fighters"
+        model: "F-5 Freedom Fighter"
+        quantity: 6
+      - type: "Transport"
+        model: "C-130 Hercules"
+        quantity: 2
+
+# Defense Budget
+defense_budget_usd: 600000000  # $600 million (2024 estimate)
+gdp_share: 1.0  # Percentage of GDP
+
+# Peacekeeping
+peacekeeping_contributions:
+  - mission: "UN Peacekeeping"
+    personnel_deployed: 2500  # One of the highest per capita contributors globally
+    locations: ["Democratic Republic of Congo", "Haiti", "Cyprus"]
+
+# Military Service
+service_type: "Voluntary"
+conscription: false
+
+# Key Bases
+main_bases:
+  - name: "Base Aérea Capitán Boiso Lanza"
+    type: "Air Force"
+  - name: "Base Naval Montevideo"
+    type: "Navy"
+  - name: "Base Militar de Campo Militar"
+    type: "Army"

@@ -1,43 +1,43 @@
-# Uruguay (UY) 🇺🇾
-## Basic Information
-- **Official Name**: Oriental Republic of Uruguay
-- **Common Name**: Uruguay
-- **Native Name**: Uruguay (Spanish: República Oriental del Uruguay)
-- **Country Codes**: 
-  - ISO 3166-1 alpha-2: UY
-  - ISO 3166-1 alpha-3: URY
-  - UN M49: 858
-- **Capital**: Montevideo
-- **Region**: Americas
-- **Subregion**: South America
-- **Area**: 181,034 km²
-- **Population**: 3,499,451 (2023 estimate)
-- **Languages**: Spanish (official)
-- **Currency**: Uruguayan peso (UYU, $)
-- **Timezone**: UTC-03:00
-- **Driving Side**: Right
-- **Calling Code**: +598
-- **Internet TLD**: .uy
-- **FIFA Code**: URU
-- **IOC Code**: URU
+# Uruguay 🇺🇾
+## Basic Info
+- Official Name: Oriental Republic of Uruguay
+- Common Name: Uruguay
+- Native Name: Uruguay (Spanish: República Oriental del Uruguay)
+- Country Codes: UY (cca2), URY (cca3), 858 (ccn3)
+- IOC Code: URU
+- FIFA Code: URU
+- Region: Americas
+- Subregion: South America
+- Capital: Montevideo
+- Population: 3,499,451 (2023 estimate)
+- Area: 181,034 km²
+- Landlocked: No
+- Borders: Argentina (ARG), Brazil (BRA)
+- Timezone: UTC-03:00
+- Driving Side: Right
+- Phone Prefix: +598
+- Top Level Domain: .uy
 
 ## Economy
-- **GDP Ranking**: 95th largest economy globally
-- **GDP (Nominal)**: $0.10 trillion (as per task context)
-- **Gini Coefficient**: 39.7 (2019)
+- GDP Rank: 95th largest economy globally
+- GDP (Nominal): $0.07 Trillion
+- Currency: Uruguayan peso (UYU, symbol: $)
+- Gini Index: 39.7 (2019)
 
 ## Geography
-- **Borders**: Argentina (ARG), Brazil (BRA)
-- **Landlocked**: No
-- **Coordinates**: 33.0°S, 56.0°W
-- **Capital Coordinates**: 34.85°S, 56.17°W
+- Coordinates: -33.0, -56.0
+- Capital Coordinates: -34.85, -56.17
+- Continent: South America
+- Maps: [Google Maps](https://goo.gl/maps/tiQ9Baekb1jQtDSD9), [OpenStreetMap](https://www.openstreetmap.org/relation/287072)
 
-## Symbols
-- **Flag**: Nine equal horizontal white and blue bands, with a white canton containing the Sun of May (yellow human-faced sun with 16 alternating triangular/wavy rays)
-- **Coat of Arms**: Official coat of arms as per Uruguayan law
-- **Demonyms**: Uruguayan (masculine/feminine)
+## Language
+- Official Language: Spanish (spa)
 
-## International Membership
-- United Nations Member: Yes
-- Independent: Yes
-- Postal Code Format: ##### (5 digits)
+## Flags & Symbols
+- Flag: [SVG](https://flagcdn.com/uy.svg) | [PNG](https://flagcdn.com/w320/uy.png)
+- Coat of Arms: [SVG](https://mainfacts.com/media/images/coats_of_arms/uy.svg) | [PNG](https://mainfacts.com/media/images/coats_of_arms/uy.png)
+- Emoji Flag: 🇺🇾
+
+## Postal Code
+- Format: #####
+- Regex: ^(\d{5})$

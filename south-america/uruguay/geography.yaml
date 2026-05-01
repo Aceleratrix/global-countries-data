@@ -1,19 +1,27 @@
-region: "Americas"
-subregion: "South America"
-continent: "South America"
+# Geography data for Uruguay
+country: Uruguay
+cca2: UY
+cca3: URY
+ccn3: "858"
+region: Americas
+subregion: South America
 landlocked: false
-area_km2: 181034.0
 borders:
-  - "ARG"
-  - "BRA"
-capital:
-  - "Montevideo"
-capital_coordinates:
-  lat: -34.85
-  lon: -56.17
-country_coordinates:
-  lat: -33.0
-  lon: -56.0
+  - ARG
+  - BRA
+area_km2: 181034.0
+latlng:
+  - -33.0
+  - -56.0
+capital: Montevideo
+capital_latlng:
+  - -34.85
+  - -56.17
+continents:
+  - South America
 maps:
   google_maps: "https://goo.gl/maps/tiQ9Baekb1jQtDSD9"
-  openstreetmap: "https://www.openstreetmap.org/relation/287072"
+  open_street_maps: "https://www.openstreetmap.org/relation/287072"
+timezones:
+  - UTC-03:00
+start_of_week: monday

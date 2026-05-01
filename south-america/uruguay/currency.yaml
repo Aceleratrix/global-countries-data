@@ -1,0 +1,9 @@
+# Currency data for Uruguay
+country: Uruguay
+currencies:
+  UYU:
+    name: Uruguayan peso
+    symbol: "$"
+iso_codes:
+  currency: UYU
+exchange_rate_note: "Exchange rates fluctuate; refer to central bank data for current rates"
