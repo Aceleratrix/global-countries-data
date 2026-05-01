@@ -1,0 +1,9 @@
+# Health of Azerbaijan
+country: Azerbaijan
+population: 10241722
+population_year: 2023
+life_expectancy: null  # Not provided in REST Countries API
+healthcare_system:
+  - Public healthcare system funded by the state
+  - Private healthcare options available in urban areas
+data_source: REST Countries API v3.1 (core country data)

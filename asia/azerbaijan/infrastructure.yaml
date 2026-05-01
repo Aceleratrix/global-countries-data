@@ -1,0 +1,15 @@
+# Infrastructure of Azerbaijan
+country: Azerbaijan
+idd:
+  root: "+9"
+  suffixes: ["94"]
+car:
+  signs: ["AZ"]
+  side: right
+timezones:
+  - UTC+04:00
+postal_code:
+  format: AZ ####
+  regex: ^(?:AZ)*(\\d{4})$
+internet_tld: [".az"]
+capital: Baku

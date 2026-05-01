@@ -1,0 +1,8 @@
+# Energy of Azerbaijan
+country: Azerbaijan
+key_energy_sectors:
+  - Oil production (Caspian Sea reserves)
+  - Natural gas exports
+  - Renewable energy initiatives (solar, wind)
+oil_gas_rank: Major regional producer
+data_source: REST Countries API v3.1 (economic context)

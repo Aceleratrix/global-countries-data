@@ -1,0 +1,9 @@
+# Education of Azerbaijan
+country: Azerbaijan
+official_language: Azerbaijani
+language_code: aze
+literacy_rate: null  # Not provided in REST Countries API
+education_system:
+  - Compulsory education up to grade 9
+  - Higher education institutions in Baku and other regions
+data_source: REST Countries API v3.1 (core country data)

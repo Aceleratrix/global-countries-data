@@ -1,0 +1,10 @@
+# Sports of Azerbaijan
+country: Azerbaijan
+fifa_code: AZE
+popular_sports:
+  - Football (soccer)
+  - Wrestling
+  - Chess
+  - Gymnastics
+olympic_participation: Yes (since 1996 as independent nation)
+data_source: REST Countries API v3.1 (FIFA code reference)

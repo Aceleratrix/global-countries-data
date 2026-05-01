@@ -1,0 +1,26 @@
+# Culture of Azerbaijan
+country: Azerbaijan
+native_name:
+  aze:
+    common: Azərbaycan
+    official: Azərbaycan Respublikası
+languages:
+  aze: Azerbaijani
+demonyms:
+  eng:
+    m: Azerbaijani
+    f: Azerbaijani
+  fra:
+    m: Azerbaïdjanais
+    f: Azerbaïdjanaise
+translations:
+  por:
+    common: Azerbeijão
+    official: República do Azerbaijão
+  rus:
+    common: Азербайджан
+    official: Азербайджанская Республика
+  tur:
+    common: Azerbaycan
+    official: Azerbaycan Cumhuriyeti
+flag_description: Three equal horizontal bands of blue, red and green, with a white fly-side facing crescent and eight-pointed star centered in the red band.

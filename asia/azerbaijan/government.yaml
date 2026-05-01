@@ -1,0 +1,15 @@
+# Government of Azerbaijan
+country: Azerbaijan
+official_name: Republic of Azerbaijan
+independent: true
+un_member: true
+country_codes:
+  cca2: AZ
+  cca3: AZE
+  ccn3: "031"
+  cioc: AZE
+capital: Baku
+driving_side: right
+postal_code:
+  format: AZ ####
+  regex: ^(?:AZ)*(\\d{4})$

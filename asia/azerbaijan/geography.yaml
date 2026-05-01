@@ -1,0 +1,24 @@
+# Geography of Azerbaijan
+country: Azerbaijan
+region: Asia
+subregion: Western Asia
+landlocked: true
+area_km2: 86600
+coordinates:
+  latitude: 40.5
+  longitude: 47.5
+capital_coordinates:
+  latitude: 40.38
+  longitude: 49.87
+borders:
+  - ARM (Armenia)
+  - GEO (Georgia)
+  - IRN (Iran)
+  - RUS (Russia)
+  - TUR (Turkey)
+maps:
+  google_maps: https://goo.gl/maps/az3Zz7ar2aoB9AUc6
+  openstreetmap: https://www.openstreetmap.org/relation/364110
+continents:
+  - Europe
+  - Asia

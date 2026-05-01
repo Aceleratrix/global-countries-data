@@ -1,0 +1,16 @@
+# Demographics of Azerbaijan
+country: Azerbaijan
+population: 10241722
+population_year: 2023
+area_km2: 86600
+population_density_per_km2: 118
+demonyms:
+  male: Azerbaijani
+  female: Azerbaijani
+languages:
+  - code: aze
+    name: Azerbaijani
+    official: true
+timezones:
+  - UTC+04:00
+start_of_week: monday

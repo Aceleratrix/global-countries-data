@@ -1,0 +1,10 @@
+# Tourism of Azerbaijan
+country: Azerbaijan
+capital: Baku
+key_attractions:
+  - Baku Old City (UNESCO World Heritage Site)
+  - Flame Towers (Baku skyline landmark)
+  - Caspian Sea coastline
+  - Gobustan National Park (mud volcanoes)
+tourism_growth: Steady growth in recent years
+data_source: REST Countries API v3.1 (geographic context)

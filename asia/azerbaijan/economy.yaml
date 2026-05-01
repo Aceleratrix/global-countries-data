@@ -1,0 +1,19 @@
+# Economy of Azerbaijan
+country: Azerbaijan
+gdp:
+  total: 0.15
+  unit: trillion USD
+  global_rank: 81
+currency:
+  code: AZN
+  name: Azerbaijani manat
+  symbol: ₼
+gini_index: 26.6
+gini_year: 2005
+key_sectors:
+  - Oil and gas
+  - Agriculture
+  - Tourism
+  - Manufacturing
+idd_code: +994
+fifa_code: AZE
