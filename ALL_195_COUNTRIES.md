@@ -145,7 +145,7 @@
 ### 🌍 RESTANTES 101-195 (Menores Economias)
 
 **Europa (continuação):**
-- 🇲🇪 Montenegro, 🇲🇰 Kosovo, 🇷🇸 Sérvia, 🇦🇩 Chipre, 🇲🇹 Malta, 🇮🇩 Islândia, 🇦🇩 Andorra, 🇲🇨 Mônaco, 🇸🇲 San Marino, 🇻🇦 Cidade do Vaticano, 🇬🇮 Gibraltar, 🇮🇪 Jersey, 🇬🇬 Guernsey, 🇮🇫 Ilha de Man, 🇦🇽 Ilhas Faroe, 🇮🇩 Islândia
+- 🇲🇪 Montenegro, 🇲🇰 Kosovo, 🇷🇸 Sérvia, 🇦🇩 Chipre, 🇲🇹 Malta (125th GDP, $0.07T) ✅ 100% COMPLETE, 🇮🇩 Islândia, 🇦🇩 Andorra, 🇲🇨 Mônaco, 🇸🇲 San Marino, 🇻🇦 Cidade do Vaticano, 🇬🇮 Gibraltar, 🇮🇪 Jersey, 🇬🇬 Guernsey, 🇮🇫 Ilha de Man, 🇦🇽 Ilhas Faroe, 🇮🇩 Islândia
 
 **África (continuação):**
 - 🇨🇲 Camarões (Cameroon) (104th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇱 Mali (105th GDP, $0.08T) ✅ 100% COMPLETE, 🇳🇦 Namibia (109th GDP, $0.08T) ✅ 100% COMPLETE, 🇧🇼 Botswana (110th GDP, $0.08T) ✅ 100% COMPLETE, 🇿🇲 Zambia (111th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇿 Mozambique (112th GDP, $0.08T) ✅ 100% COMPLETE, 🇿🇼 Zimbabwe (113th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇷 Mauritania (114th GDP, $0.08T) ✅ 100% COMPLETE, 🇹🇩 Chade (116th GDP, $0.08T) ✅ 100% COMPLETE, 🇧🇫 Burkina Faso (117th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇼 Malaui (Malawi) (118th GDP, $0.08T) ✅ 100% COMPLETE, 🇨🇫 República Centro-Africana, 🇨🇬 República do Congo
