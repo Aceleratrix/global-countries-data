@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 96/195 (49.2%) Complete](https://img.shields.io/badge/Status-96/195 (49.2%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 97/195 (49.7%) Complete](https://img.shields.io/badge/Status-97/195 (49.7%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -81,7 +81,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇦🇫 **Afghanistan** | 13/13 | ✅ **100% COMPLETE** | 122nd largest economy ($0.07T), Kabul (4.1M), Landlocked, Hindu Kush mountains | English (en-US) |
 | 🇲🇲 **Myanmar** | 13/13 | ✅ **100% COMPLETE** | 120th largest economy ($0.07T), Naypyidaw (capital), South-Eastern Asia, 51.3M population | English (en-US) |
 
-### 🌍 Europe (19/44 = 43.2%)
+### 🌍 Europe (20/44 = 45.5%)
 
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|

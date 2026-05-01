@@ -145,7 +145,7 @@
 ### 🌍 RESTANTES 101-195 (Menores Economias)
 
 **Europa (continuação):**
-- 🇲🇪 Montenegro, 🇲🇰 Kosovo, 🇷🇸 Sérvia, 🇦🇩 Chipre, 🇲🇹 Malta (125th GDP, $0.07T) ✅ 100% COMPLETE, 🇮🇩 Islândia, 🇦🇩 Andorra, 🇲🇨 Mônaco, 🇸🇲 San Marino, 🇻🇦 Cidade do Vaticano, 🇬🇮 Gibraltar, 🇮🇪 Jersey, 🇬🇬 Guernsey, 🇮🇫 Ilha de Man, 🇦🇽 Ilhas Faroe, 🇮🇩 Islândia
+- 🇲🇪 Montenegro, 🇲🇰 Kosovo, 🇷🇸 Sérvia, 🇦🇩 Chipre, 🇲🇹 Malta (125th GDP, $0.07T) ✅ 100% COMPLETE, 🇮🇸 Islândia (126th GDP, $0.07T) ✅ 100% COMPLETE, 🇦🇩 Andorra, 🇲🇨 Mônaco, 🇸🇲 San Marino, 🇻🇦 Cidade do Vaticano, 🇬🇮 Gibraltar, 🇮🇪 Jersey, 🇬🇬 Guernsey, 🇮🇫 Ilha de Man, 🇦🇽 Ilhas Faroe, 🇮🇩 Islândia
 
 **África (continuação):**
 - 🇨🇲 Camarões (Cameroon) (104th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇱 Mali (105th GDP, $0.08T) ✅ 100% COMPLETE, 🇳🇦 Namibia (109th GDP, $0.08T) ✅ 100% COMPLETE, 🇧🇼 Botswana (110th GDP, $0.08T) ✅ 100% COMPLETE, 🇿🇲 Zambia (111th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇿 Mozambique (112th GDP, $0.08T) ✅ 100% COMPLETE, 🇿🇼 Zimbabwe (113th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇷 Mauritania (114th GDP, $0.08T) ✅ 100% COMPLETE, 🇹🇩 Chade (116th GDP, $0.08T) ✅ 100% COMPLETE, 🇧🇫 Burkina Faso (117th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇼 Malaui (Malawi) (118th GDP, $0.08T) ✅ 100% COMPLETE, 🇨🇫 República Centro-Africana, 🇨🇬 República do Congo
@@ -154,7 +154,7 @@
 - 🇦🇫 Afeganistão, 🇧🇩 Bangladesh, 🇱🇵 Laos, 🇳🇵 Nepal ✅ 100% COMPLETE (101st GDP, $0.09T), 🇸🇾 Síria, 🇱🇧 Líbano ✅ 100% COMPLETE, 🇾🇪 Yemen ✅ 100% COMPLETE (121st GDP, $0.07T), 🇵🇰 Quirguistão, 🇹🇯 Tajiquistão, 🇹🇲 Turcomenistão, 🇧🇳 Brunei, 🇹🇼 Timor-Leste, 🇵🇬 Papua Nova Guiné, 🇸🇧 Ilhas Salomão, 🇻🇺 Vanuatu, 🇫🇲 Fiji, 🇼🇸 Samoa, 🇹🇴 Tonga, 🇰🇮 Kiribati, 🇫🇼 Tuvalu, 🇫🇲 Fiji, 🇼🇸 Samoa, 🇹🇴 Tonga, 🇰🇮 Kiribati, 🇫🇼 Tuvalu, 🇲🇭 Micronésia, 🇵🇼 Palau, 🇲🇭 Ilhas Marshall, 🇳🇷 Nauru
 
 **Américas (continuação):**
-- 🇸🇻 El Salvador, 🇳🇮 Nicarágua, 🇵🇦 Panamá (já listado), 🇨🇺 Uruguai (já listado), 🇧🇴 Bolívia, 🇻🇪 Venezuela, 🇬🇾 Guiana, 🇸🇷 Suriname, 🇫🇶 Guiana Francesa, 🇵🇷 Porto Rico, 🇩🇴 República Dominicana (já listado), 🇭🇶 Martinica, 🇬🇵 Guadalupe, 🇧🇶 Ilhas Virgens Americanas, 🇦🇬 Aruba, 🇸🇽 Sint Maarten, 🇨🇼 Curaçao, 🇧🇶 Ilhas Virgens Britânicas, 🇲🇸 Montserrat, 🇰🇳 São Cristóvão e Névis, 🇦🇬 Antígua e Barbuda, 🇩🇲 Dominica, 🇬🇩 Granada, 🇱🇨 Santa Lúcia, 🇻🇨 São Vicente e Granadinas, 🇧🇧 Barbados, 🇹🇹 Trinidad e Tobago, 🇯🇲 Jamaica, 🇭🇸 Bahamas, 🇹🇨 Cuba, 🇭🇶 Haiti (123rd GDP, $0.07T) ✅ 100% COMPLETE, 🇩🇴 República Dominicana (já listado)
+- 🇸🇻 El Salvador, 🇳🇮 Nicarágua, 🇵🇦 Panamá (já listado), 🇨🇺 Uruguai (já listado), 🇧🇴 Bolívia, 🇻🇪 Venezuela, 🇬🇾 Guiana, 🇸🇷 Suriname (124th GDP, $0.07T) ✅ 100% COMPLETE, 🇫🇶 Guiana Francesa, 🇵🇷 Porto Rico, 🇩🇴 República Dominicana (já listado), 🇭🇶 Martinica, 🇬🇵 Guadalupe, 🇧🇶 Ilhas Virgens Americanas, 🇦🇬 Aruba, 🇸🇽 Sint Maarten, 🇨🇼 Curaçao, 🇧🇶 Ilhas Virgens Britânicas, 🇲🇸 Montserrat, 🇰🇳 São Cristóvão e Névis, 🇦🇬 Antígua e Barbuda, 🇩🇲 Dominica, 🇬🇩 Granada, 🇱🇨 Santa Lúcia, 🇻🇨 São Vicente e Granadinas, 🇧🇧 Barbados, 🇹🇹 Trinidad e Tobago, 🇯🇲 Jamaica, 🇭🇸 Bahamas, 🇹🇨 Cuba, 🇭🇶 Haiti (123rd GDP, $0.07T) ✅ 100% COMPLETE, 🇩🇴 República Dominicana (já listado)
 
 **Oceania (continuação):**
 - 🇫🇼 Tuvalu, 🇵🇼 Palau, 🇲🇭 Micronésia, 🇳🇷 Nauru, 🇼🇸 Samoa (já listado), 🇹🇴 Tonga (já listado), 🇻🇺 Vanuatu (já listado), 🇸🇧 Ilhas Salomão (já listado), 🇵🇬 Papua Nova Guiné (já listado), 🇫🇲 Fiji (já listado), 🇲🇭 Ilhas Marshall, 🇰🇮 Kiribati (já listado), 🇼🇸 Samoa (já listado), 🇹🇴 Tonga (já listado), 🇻🇺 Vanuatu (já listado), 🇸🇧 Ilhas Salomão (já listado), 🇵🇬 Papua Nova Guiné (já listado), 🇫🇲 Fiji (já listado), 🇲🇭 Ilhas Marshall, 🇰🇮 Kiribati (já listado)
@@ -167,7 +167,7 @@
 |-----------|---------|-----------|-----------|------------|
 | 🌎 North America | 3 | 3 | 0 | **100%** ✅ |
 | 🌏 Asia | 50 | 6 | 44 | 12.0% |
-| 🌍 Europe | 44 | 6 | 38 | 13.6% |
+| 🌍 Europe | 44 | 7 | 37 | 15.9% |
 | 🌎 South America | 12 | 1 | 11 | 8.3% |
 | 🌏 Oceania | 14 | 1 | 13 | 7.1% |
 | 🌍 Africa | 54 | 8 | 46 | 14.8% |
