@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 67/195 (34.4%) Complete](https://img.shields.io/badge/Status-67/195 (34.4%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 72/195 (36.9%) Complete](https://img.shields.io/badge/Status-72/195 (36.9%) Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (56 / 195 = 28.7%)
+## 📊 Coverage Progress (72 / 195 = 36.9%)
 
 ### 🌎 South America (4/12 = 33.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -68,6 +68,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇶🇦 **Qatar** | 13/13 | ✅ **100% COMPLETE** | 51st largest economy ($0.27T), 2022 FIFA World Cup, world's largest LNG exporter, Doha (1M) | English (en-US) |
 || 🇻🇳 **Vietnam** | 13/13 | ✅ **100% COMPLETE** | 53rd largest economy ($0.26T), Hanoi (8M), Ha Long Bay, electronics manufacturing hub, 98M population | English (en-US) |
 | 🇰🇿 **Kazakhstan** | 13/13 | ✅ **100% COMPLETE** | 62nd largest economy ($0.20T), Astana (1.3M), Baikonur Cosmodrome, uranium superpower, 19.3M population | English (en-US) |
+| 🇰🇭 **Cambodia** | 13/13 | ✅ **100% COMPLETE** | 63rd largest economy ($0.20T), Phnom Penh (2M), Angkor Wat, ASEAN member, 17M population | English (en-US) |
 |
 ### 🌍 Europe (16/44 = 36.4%)
 
