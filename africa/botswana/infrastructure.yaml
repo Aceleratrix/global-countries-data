@@ -1,0 +1,8 @@
+driving_side: left
+calling_code_root: "+2"
+calling_code_suffixes:
+  - "67"
+full_calling_code: "+267"
+internet_tld: .bw
+postal_code_format: null
+postal_code_regex: null

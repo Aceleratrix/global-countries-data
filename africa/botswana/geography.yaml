@@ -1,0 +1,17 @@
+region: Africa
+subregion: Southern Africa
+landlocked: true
+borders:
+  - NAM
+  - ZAF
+  - ZMB
+  - ZWE
+area_km2: 582000.0
+latlng:
+  - -22.0
+  - 24.0
+maps:
+  google: https://goo.gl/maps/E364KeLy6N4JwxwQ8
+  openstreetmap: https://www.openstreetmap.org/relation/1889339
+continents:
+  - Africa
