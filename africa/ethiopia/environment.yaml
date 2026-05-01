@@ -1,17 +1,20 @@
-# Environment data for Ethiopia
-country: Ethiopia
-ecoregions:
-  - Ethiopian Highlands
-  - Somali Acacia-Commiphora bushlands
-  - Ethiopian montane forests
+biome: Afro-Alpine, tropical savanna, desert
+protected_areas_percent: ~16%
+notable_national_parks:
+  - Simien Mountains National Park (UNESCO)
+  - Bale Mountains National Park
+  - Omo National Park
+  - Awash National Park
 endangered_species:
   - Ethiopian wolf
   - Walia ibex
   - Mountain nyala
-deforestation_rate_percent_annual: 1.2  # FAO 2020
-protected_area_percent: 15.0  # World Bank 2021
+climate_change_impacts:
+  - increased drought frequency
+  - reduced agricultural yields
+  - glacial melt in Afro-Alpine regions
 major_rivers:
-  - Nile (Blue Nile)
+  - Blue Nile
   - Awash
   - Omo
-climate: Tropical monsoon with highland variations
+  - Tekeze

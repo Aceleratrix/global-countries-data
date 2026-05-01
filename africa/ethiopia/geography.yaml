@@ -1,12 +1,12 @@
-# Geographic data
-region: Africa
-subregion: Eastern Africa
-landlocked: true
-area: 1104300.0
-latlng: [8.0, 38.0]
-capitalInfo:
-  latlng: [9.03, 38.7]
-maps:
-  googleMaps: "https://goo.gl/maps/2Q4hQWCbhuZLj3fG6"
-  openStreetMaps: "https://www.openstreetmap.org/relation/192800"
+latitude: 8.0
+longitude: 38.0
+capital_latlng: [9.03, 38.7]
+borders: ["DJI", "ERI", "KEN", "SOM", "SSD", "SDN"]
 continents: ["Africa"]
+maps:
+  google_maps: "https://goo.gl/maps/2Q4hQWCbhuZLj3fG6"
+  open_street_maps: "https://www.openstreetmap.org/relation/192800"
+timezones: ["UTC+03:00"]
+land_terrain: "high plateau surrounded by mountains, lowland deserts in east and west"
+highest_point: "Ras Dashen (4,550 m)"
+lowest_point: "Danakil Depression (-125 m)"

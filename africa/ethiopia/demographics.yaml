@@ -1,10 +1,28 @@
-# Demographic details
-population: 111652998
-populationDensity: 101.2 # Calculated: 111652998 / 1104300 km²
+total_population: 111652998
+pop_2023_estimate: 111652998
 demonyms:
   eng:
-    f: Ethiopian
     m: Ethiopian
+    f: Ethiopian
   fra:
-    f: Éthiopienne
     m: Éthiopien
+    f: Éthiopienne
+languages:
+  amh: Amharic
+native_language_name: "ኢትዮጵያ (Amharic)"
+ethnic_groups:
+  - Oromo (34.4%)
+  - Amhara (27.0%)
+  - Somali (6.2%)
+  - Tigray (6.1%)
+  - Sidama (4.0%)
+  - Gurage (2.5%)
+  - Wolayta (2.3%)
+  - Afar (1.7%)
+  - other (15.8%)
+religions:
+  - Ethiopian Orthodox (43.5%)
+  - Muslim (31.3%)
+  - Protestant (22.8%)
+  - traditional (0.6%)
+  - other (1.8%)

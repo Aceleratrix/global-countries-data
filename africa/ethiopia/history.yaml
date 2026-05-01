@@ -1,18 +1,14 @@
-# History data for Ethiopia
-country: Ethiopia
-key_dates:
-  - year: 1974
-    event: Overthrow of Emperor Haile Selassie, end of monarchy
-  - year: 1987
-    event: Establishment of People's Republic of Ethiopia
-  - year: 1991
-    event: EPRDF takes power, transitional government formed
-  - year: 1995
-    event: Current Federal Democratic Republic constitution adopted
-  - year: 2018
-    event: Abiy Ahmed becomes Prime Minister, reforms launched
-  - year: 2020
-    event: Tigray War begins
-  - year: 2022
-    event: Tigray peace agreement signed
-notable_fact: One of the only two African countries never fully colonized (alongside Liberia)
+key_events:
+  - 1st century AD: Kingdom of Aksum established
+  - 4th century: Aksum adopts Christianity
+  - 1137-1270: Zagwe dynasty
+  - 1270-1974: Solomonic dynasty
+  - 1896: Victory at Battle of Adwa against Italy
+  - 1935-1941: Italian occupation
+  - 1941: Liberation, Emperor Haile Selassie returns
+  - 1974: Monarchy overthrown, Derg military junta takes power
+  - 1987: People's Democratic Republic of Ethiopia established
+  - 1991: Derg overthrown by EPRDF coalition
+  - 1995: Federal Democratic Republic of Ethiopia established under new constitution
+  - 2018: Abiy Ahmed becomes Prime Minister, reforms launched
+  - 2020-2022: Tigray War

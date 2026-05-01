@@ -1,9 +1,27 @@
-# Economic data
-gdpUSD: 0.10
-gdpRank: 97
-gini:
-  2015: 35.0
-currencies:
-  ETB:
-    symbol: Br
-    name: Ethiopian birr
+gdp_nominal_trillion_usd: 0.07
+gdp_global_rank: 118
+gdp_per_capita_usd: ~650
+currency:
+  code: ETB
+  name: Ethiopian birr
+  symbol: Br
+main_industries:
+  - agriculture (coffee, cereals, pulses)
+  - textiles
+  - leather goods
+  - cement
+  - food processing
+  - electricity export
+gini_index_2015: 35.0
+inflation_rate_2023: ~7.5%
+unemployment_rate_2023: ~19.1%
+export_partners:
+  - China
+  - United States
+  - Germany
+  - Saudi Arabia
+import_partners:
+  - China
+  - United States
+  - India
+  - Turkey

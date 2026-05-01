@@ -1,11 +1,12 @@
-# Healthcare data for Ethiopia
-country: Ethiopia
-life_expectancy_years: 66.0  # World Bank 2023
-infant_mortality_per_1000_live_births: 35.0  # UNICEF 2021
-physicians_per_1000_population: 0.1  # WHO 2020
-health_expenditure_percent_gdp: 3.8  # World Bank 2020
+life_expectancy_years: ~66.5
+infant_mortality_per_1000: ~33
+health_expenditure_percent_gdp: ~3.8%
+physicians_per_1000: ~0.1
+hospital_beds_per_1000: ~0.3
 main_health_challenges:
-  - Malaria
-  - Tuberculosis
-  - Maternal mortality
-healthcare_system: Public-private mix, with public system serving majority
+  - malaria
+  - tuberculosis
+  - HIV/AIDS
+  - malnutrition
+  - maternal mortality
+healthcare_system: mix of public and private, public system under Ministry of Health

@@ -1,0 +1,19 @@
+country_name: Ethiopia
+official_name: Federal Democratic Republic of Ethiopia
+common_name: Ethiopia
+cca2: ET
+cca3: ETH
+ccn3: "231"
+cioc: ETH
+tld: [".et"]
+capital: ["Addis Ababa"]
+region: Africa
+subregion: Eastern Africa
+landlocked: true
+area_sq_km: 1104300.0
+population: 111652998
+independent: true
+un_member: true
+start_of_week: monday
+postal_code_format: "####"
+flag_emoji: "🇪🇹"

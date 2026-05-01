@@ -1,26 +1,17 @@
-# Culture data for Ethiopia
-country: Ethiopia
-languages:
-  amh: Amharic
-native_name_amharic: ኢትዮጵያ
-translations:
-  ara:
-    common: إثيوبيا
-    official: جمهورية إثيوبيا الفدرالية الديموقراطية
-  deu:
-    common: Äthiopien
-    official: Demokratische Bundesrepublik Äthiopien
-  fra:
-    common: Éthiopie
-    official: République fédérale démocratique d'Éthiopie
-  por:
-    common: Etiópia
-    official: República Federal Democrática da Etiópia
-  spa:
-    common: Etiopía
-    official: República Democrática Federal de Etiopía
-  zho:
-    common: 埃塞俄比亚
-    official: 埃塞俄比亚联邦民主共和国
-flag_emoji: 🇪🇹
-flag_description: Three equal horizontal bands of green, yellow and red, with a light blue circle bearing a golden-yellow pentagram at the center.
+official_language: Amharic
+spoken_languages: ["Amharic", "Oromo", "Tigrinya", "Somali", "Afar"]
+major_religions:
+  - Ethiopian Orthodox Tewahedo Church
+  - Islam
+  - Protestantism
+traditional_holidays:
+  - Enkutatash (New Year, Sept 11/12)
+  - Meskel (Finding of the True Cross)
+  - Eid al-Fitr
+  - Eid al-Adha
+cuisine_staples: ["injera", "wat", "kitfo", "shiro"]
+national_symbols:
+  - Lion of Judah
+  - Ethiopian flag (green, yellow, red with blue pentagram)
+  - Coffee (origin country)
+music_traditional: ["azmari", "eskista (dance)"]

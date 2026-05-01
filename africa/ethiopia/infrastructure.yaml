@@ -1,19 +1,8 @@
-# Infrastructure data for Ethiopia
-country: Ethiopia
-capital: Addis Ababa
-capital_coordinates:
-  lat: 9.03
-  lng: 38.7
-postal_code:
-  format: "####"
-  regex: "^(\\d{4})$"
-tld:
-  - ".et"
-timezones:
-  - UTC+03:00
-maps:
-  google_maps: https://goo.gl/maps/2Q4hQWCbhuZLj3fG6
-  open_street_maps: https://www.openstreetmap.org/relation/192800
-coat_of_arms:
-  png: https://mainfacts.com/media/images/coats_of_arms/et.png
-  svg: https://mainfacts.com/media/images/coats_of_arms/et.svg
+road_network_km: ~110000
+paved_roads_percent: ~15%
+railway_km: ~659 (Addis Ababa-Djibouti Railway)
+main_airport: Bole International Airport (Addis Ababa)
+electricity_access_percent: ~55%
+renewable_energy_share: ~96% (mostly hydropower)
+internet_penetration: ~25%
+mobile_subscriptions_per_100: ~45

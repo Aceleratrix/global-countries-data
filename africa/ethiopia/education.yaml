@@ -1,11 +1,11 @@
-# Education data for Ethiopia
-country: Ethiopia
-literacy_rate_percent: 51.8  # UNESCO 2017
-primary_school_enrollment_percent: 85.0  # World Bank 2020
-secondary_school_enrollment_percent: 35.0  # World Bank 2020
-higher_education_institutions:
+literacy_rate_adult: ~51.8%
+primary_education_completion: ~60%
+secondary_education_completion: ~30%
+tertiary_education_enrollment: ~10%
+notable_universities:
   - Addis Ababa University
-  - Jimma University
   - University of Gondar
-education_system: Federal system with public and private institutions
-official_language_education: Amharic, English (secondary/tertiary)
+  - Jimma University
+  - Bahir Dar University
+education_system: 8+2+2 (primary 8 years, secondary 2+2, tertiary 4+ years)
+medium_of_instruction: Amharic, English (tertiary)
