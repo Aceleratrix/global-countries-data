@@ -1,0 +1,7 @@
+# Currency data for Grenada
+currencies:
+  XCD:
+    name: "Eastern Caribbean dollar"
+    symbol: "$"
+official_currency: "Eastern Caribbean dollar (XCD)"
+exchange_rate_note: "Pegged to USD at 2.70 XCD = 1 USD"

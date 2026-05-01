@@ -1,0 +1,10 @@
+# Flag data for Grenada
+flag_emoji: "🇬🇩"
+flag_emoji_unicode: "U+1F1EC U+1F1E9"
+flags:
+  png: "https://flagcdn.com/w320/gd.png"
+  svg: "https://flagcdn.com/gd.svg"
+  alt: "The flag of Grenada features a large central rectangular area surrounded by a red border, with three five-pointed yellow stars centered on the top and bottom borders. The central rectangle is divided diagonally into four alternating triangular areas of yellow at the top and bottom and green on the hoist and fly sides, and a five-pointed yellow star on a red circle is superimposed at its center. A symbolic nutmeg pod is situated on the green hoist-side triangle."
+coat_of_arms:
+  png: "https://mainfacts.com/media/images/coats_of_arms/gd.png"
+  svg: "https://mainfacts.com/media/images/coats_of_arms/gd.svg"

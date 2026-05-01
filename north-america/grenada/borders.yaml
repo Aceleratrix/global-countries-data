@@ -1,0 +1,5 @@
+# Border data for Grenada
+borders: []
+land_border_countries: 0
+maritime_borders: ["Trinidad and Tobago (south)", "Venezuela (southwest)"]
+note: "Island nation with no land borders"

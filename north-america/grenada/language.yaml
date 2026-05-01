@@ -1,0 +1,8 @@
+# Language data for Grenada
+languages:
+  eng: "English"
+official_language: "English"
+native_names:
+  eng:
+    official: "Grenada"
+    common: "Grenada"

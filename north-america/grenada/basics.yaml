@@ -1,0 +1,18 @@
+# Basic country identifiers for Grenada
+cca2: "GD"
+cca3: "GRD"
+ccn3: "308"
+cioc: "GRN"
+tld: [".gd"]
+independent: true
+status: "officially-assigned"
+un_member: true
+alt_spellings: ["GD"]
+name:
+  common: "Grenada"
+  official: "Grenada"
+  native_name:
+    eng:
+      official: "Grenada"
+      common: "Grenada"
+start_of_week: "monday"

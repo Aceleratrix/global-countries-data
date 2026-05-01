@@ -1,0 +1,9 @@
+# Demographic data for Grenada
+population: 109021
+demonyms:
+  eng:
+    m: "Grenadian"
+    f: "Grenadian"
+  fra:
+    m: "Grenadien"
+    f: "Grenadienne"

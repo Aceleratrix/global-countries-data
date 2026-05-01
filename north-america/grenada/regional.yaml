@@ -1,0 +1,6 @@
+# Regional classification data for Grenada
+region: "Americas"
+subregion: "Caribbean"
+continent: "North America"
+regional_blocs: ["CARICOM (Caribbean Community)"]
+nearby_countries: ["Trinidad and Tobago", "St. Vincent and the Grenadines", "Barbados"]

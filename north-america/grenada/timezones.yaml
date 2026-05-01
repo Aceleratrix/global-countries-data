@@ -1,0 +1,9 @@
+# Timezone data for Grenada
+timezones: ["UTC-04:00"]
+idd:
+  root: "+1"
+  suffixes: ["473"]
+calling_code: "+1-473"
+car:
+  signs: ["WG"]
+  side: "left"

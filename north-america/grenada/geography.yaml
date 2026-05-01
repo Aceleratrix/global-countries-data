@@ -1,0 +1,13 @@
+# Geographic data for Grenada
+region: "Americas"
+subregion: "Caribbean"
+continent: "North America"
+landlocked: false
+area: 344.0
+latlng: [12.11666666, -61.66666666]
+maps:
+  google_maps: "https://goo.gl/maps/rqWyfUAt4xhvk1Zy9"
+  open_street_maps: "https://www.openstreetmap.org/relation/550727"
+capital: ["St. George's"]
+capital_info:
+  latlng: [32.38, -64.68]
