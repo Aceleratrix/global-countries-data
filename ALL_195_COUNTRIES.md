@@ -73,7 +73,7 @@
 | 51 | 🇶🇦 Qatar | qatar | Asia | ✅ 100% COMPLETE |
 | 52 | 🇭🇺 Hungria | hungary | Europe | ✅ 100% COMPLETE |
 | 53 | 🇭🇦 Vietnã | vietnam | Asia | ✅ 100% COMPLETE |
-| 54 | 🇭🇷 Marrocos | morocco | Africa | ✅ 100% COMPLETE |
+| 54 | 🇲🇦 Morocco | morocco | ✅ 100% COMPLETE |
 | 55 | 🇸🇰 Eslováquia (ver linha 92) | slovakia | Europe | $0.24T | ✅ 100% COMPLETE |
 | 56 | 🇪🇨 Equador | ecuador | South America | $0.23T |
 | 95 | 🇺🇾 Uruguai | uruguay | South America | $0.10T | ✅ 100% COMPLETE |

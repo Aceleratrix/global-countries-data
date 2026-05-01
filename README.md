@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (102 / 195 = 52.3%)
+## 📊 Coverage Progress (73 / 195 = 37.4%)
 
 ### 🌎 South America (5/12 = 41.7%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -122,7 +122,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇰🇪 **Kenya** | 13/13 | ✅ **100% COMPLETE** | 96th largest economy ($0.10T), Nairobi (5M), Maasai Mara, athletics powerhouse (Kipchoge) | English (en-KE) + Swahili |
 | 🇿🇦 **South Africa** | 13/13 | ✅ **100% COMPLETE** | 46th largest economy ($0.32T), Pretoria (3M), Kruger National Park, Rainbow Nation, 2010 FIFA World Cup | English (en-ZA) + 10 others |
 | 🇩🇿 **Algeria** | 13/13 | ✅ **100% COMPLETE** | 47th largest economy ($0.31T), Algiers (5.1M), Sahara Desert (90% territory), OPEC member, 7 UNESCO sites | Arabic (ar-DZ) + Tamazight + English |
-| 🇲🇦 **Morocco** | 13/13 | ✅ **100% COMPLETE** | 54th largest economy ($0.25T), Rabat (2M), Atlas Mountains, Sahara Desert, 7 UNESCO sites | Arabic (ar-MA) + Tamazight + English |
+| 🇲🇦 **Morocco** | 13/13 | ✅ **100% COMPLETE** | 135th largest economy ($0.06T), Rabat (capital), Atlas Mountains, Sahara Desert, 7 UNESCO sites, Casablanca (largest city) | Arabic (ar-MA) + Tamazight + English |
 | 🇪🇹 **Ethiopia** | 13/13 | ✅ **100% COMPLETE** | 97th largest economy ($0.10T), Addis Ababa (5M), African Union HQ, coffee origin, 9 UNESCO sites | Amharic (am-ET) + English |
 | 🇬🇭 **Ghana** | 13/13 | ✅ **100% COMPLETE** | 98th largest economy ($0.10T), Accra (capital), Gold Coast history, cocoa exports, Lake Volta (world's largest reservoir) | English (en-GH) + Akan/Ewe/Ga |
 | 🇺🇬 **Uganda** | 13/13 | ✅ **100% COMPLETE** | 100th largest economy ($0.09T), Kampala (capital), Pearl of Africa, Lake Victoria, mountain gorillas | English (en-UG) + Swahili |
