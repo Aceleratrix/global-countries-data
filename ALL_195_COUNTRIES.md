@@ -68,7 +68,7 @@
 | 46 | 🇿🇦 África do Sul | south-africa | Africa | ✅ 100% COMPLETE |
 | 47 | 🇩🇿 Argélia | algeria | Africa | ✅ 100% COMPLETE |
 | 48 | 🇳🇬 Nova Zelândia | new-zealand | Oceania | $0.29T |
-| 49 | 🇵🇪 Peru | peru | South America | $0.28T |
+| 138 | 🇵🇪 Peru | peru | South America | $0.06T | ✅ 100% COMPLETE |
 | 50 | 🇺🇦 Ucrânia | ukraine | Europe | $0.27T | ✅ 100% COMPLETE |
 | 51 | 🇶🇦 Qatar | qatar | Asia | ✅ 100% COMPLETE |
 | 52 | 🇭🇺 Hungria | hungary | Europe | ✅ 100% COMPLETE |
@@ -106,7 +106,7 @@
 | 75 | 🇩🇴 República Dominicana | dominican-republic | North America | $0.16T | |
 | 76 | 🇧🇹 Butão | bhutan | Asia | $0.16T | |
 | 77 | 🇹🇳 Tunísia | tunisia | Africa | $0.16T | ✅ 100% COMPLETE |
-| 78 | 🇰🇿 Cazaquistão | kazakhstan | Asia | $0.20T | ✅ 100% COMPLETE |
+| 137 | 🇰🇿 Cazaquistão (Kazakhstan) | kazakhstan | Asia | $0.06T | ✅ 100% COMPLETE |
 | 79 | 🇦🇲 Armênia | armenia | Asia | $0.15T | ✅ 100% COMPLETE |
 | 80 | 🇸🇾 Síria | syria | Asia | $0.13T | ✅ 100% COMPLETE |
 | 80 | 🇲🇳 Mongólia | mongolia | Asia | $0.15T | |

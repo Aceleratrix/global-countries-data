@@ -37,7 +37,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ## 📊 Coverage Progress (73 / 195 = 37.4%)
 
-### 🌎 South America (5/12 = 41.7%)
+### 🌎 South America (6/12 = 50.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇧🇷 **Brazil** | 17/17 | ✅ **100% COMPLETE** | PIX (76% adoption), LGPD, 4 cloud regions | Portuguese (pt-BR) + English |
@@ -45,6 +45,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇨🇱 **Chile** | 13/13 | ✅ **100% COMPLETE** | 45th largest economy ($0.33T), Santiago (7M), Atacama Desert, Pacific coast | Spanish (es-CL) + English |
 | 🇺🇾 **Uruguay** | 13/13 | ✅ **100% COMPLETE** | 95th largest economy ($0.10T), Montevideo (3.5M), Beef/soy exports, 98% renewable energy | Spanish (es-UY) + English |
 | 🇸🇷 **Suriname** | 13/13 | ✅ **100% COMPLETE** | 124th largest economy ($0.07T), Paramaribo (616K), Dutch-speaking, borders Brazil/French Guiana/Guyana | Dutch (nld) + English |
+| 🇵🇪 **Peru** | 13/13 | ✅ **100% COMPLETE** | 138th largest economy ($0.06T), Lima (10M), Machu Picchu, Andes/Amazon, 33M population | Spanish (es-PE) + English |
 
 ### 🌎 North America (9/23 = 39.1%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -74,7 +75,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇸🇬 **Singapore** | 13/13 | ✅ **100% COMPLETE** | 40th largest economy ($0.35T), Changi Airport, global financial hub, city-state | English (en-US) |
 | 🇶🇦 **Qatar** | 13/13 | ✅ **100% COMPLETE** | 51st largest economy ($0.27T), 2022 FIFA World Cup, world's largest LNG exporter, Doha (1M) | English (en-US) |
 || 🇻🇳 **Vietnam** | 13/13 | ✅ **100% COMPLETE** | 53rd largest economy ($0.26T), Hanoi (8M), Ha Long Bay, electronics manufacturing hub, 98M population | English (en-US) |
-| 🇰🇿 **Kazakhstan** | 13/13 | ✅ **100% COMPLETE** | 62nd largest economy ($0.20T), Astana (1.3M), Baikonur Cosmodrome, uranium superpower, 19.3M population | English (en-US) |
+| 🇰🇿 **Kazakhstan** | 13/13 | ✅ **100% COMPLETE** | 137th largest economy ($0.06T), Astana (1.3M), Baikonur Cosmodrome, uranium superpower, 19.3M population | English (en-US) |
 | 🇰🇭 **Cambodia** | 13/13 | ✅ **100% COMPLETE** | 63rd largest economy ($0.20T), Phnom Penh (2M), Angkor Wat, ASEAN member, 17M population | English (en-US) |
 | 🇴🇲 **Oman** | 13/13 | ✅ **100% COMPLETE** | 73rd largest economy ($0.15T), Muscat (1.7M), oil/gas economy, Arabian Peninsula | English (en-US) |
 | 🇦🇿 **Azerbaijan** | 13/13 | ✅ **100% COMPLETE** | 81st largest economy ($0.15T), Baku (2.3M), Caspian Sea oil/gas, Caucasus region | English (en-US) |
