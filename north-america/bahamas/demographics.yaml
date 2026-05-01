@@ -1,0 +1,11 @@
+population: 398165
+language: English
+demonyms:
+  male: Bahamian
+  female: Bahamian
+ethnic_groups:
+  - African: 90.6%
+  - White: 4.7%
+  - Mixed: 2.1%
+  - Other: 2.6%
+source: REST Countries API v3.1 + World Bank

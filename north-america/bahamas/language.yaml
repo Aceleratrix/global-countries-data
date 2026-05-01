@@ -1,0 +1,6 @@
+languages:
+  - code: eng
+    name: English
+    native_name: English
+official_language: English
+source: REST Countries API v3.1

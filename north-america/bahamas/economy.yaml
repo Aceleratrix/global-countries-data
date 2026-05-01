@@ -1,0 +1,9 @@
+gdp_trillion: 0.06
+gdp_rank: 131
+gdp_per_capita_usd: ~15000
+currency_code: BSD
+main_industries:
+  - Tourism
+  - Financial services
+  - Fishing
+source: Provided GDP data + REST Countries API

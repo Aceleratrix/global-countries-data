@@ -1,0 +1,5 @@
+timezones:
+  - UTC-05:00
+timezone_offset: -5
+start_of_week: monday
+source: REST Countries API v3.1

@@ -1,0 +1,9 @@
+currencies:
+  - code: BSD
+    name: Bahamian dollar
+    symbol: $
+  - code: USD
+    name: United States dollar
+    symbol: $
+official_currency: BSD
+source: REST Countries API v3.1

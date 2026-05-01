@@ -1,0 +1,11 @@
+government_type: Parliamentary constitutional monarchy
+independent: true
+un_member: true
+status: officially-assigned
+idd:
+  root: "+1"
+  suffixes: ["242"]
+car:
+  signs: ["BS"]
+  side: left
+source: REST Countries API v3.1

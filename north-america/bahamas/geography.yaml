@@ -1,0 +1,11 @@
+region: Americas
+subregion: Caribbean
+continent: North America
+coordinates: [25.0343, -77.3963]
+landlocked: false
+terrain: Flat coral islands
+area_km2: 13943
+maps:
+  google_maps: https://goo.gl/maps/1YzRs1BZrG8p8pmVA
+  open_street_maps: https://www.openstreetmap.org/relation/547469
+source: REST Countries API v3.1
