@@ -1,0 +1,8 @@
+# Health data for Benin
+country: Benin
+life_expectancy_years: 61.2  # World Bank 2021 estimate
+infant_mortality_per_1000: 56.0  # World Bank 2021 estimate
+health_expenditure_percent_gdp: 4.1  # World Bank 2020 estimate
+major_diseases:
+  - Malaria
+  - Lower respiratory infections

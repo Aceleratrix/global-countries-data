@@ -1,0 +1,17 @@
+# Culture data for Benin
+country: Benin
+languages:
+  official: French
+  native: French (Bénin)
+translations:
+  english: Benin
+  french: Bénin
+  spanish: Benin
+  arabic: بنين
+  chinese: 贝宁
+  russian: Бенин
+flag_emoji: 🇧🇯
+alt_spellings:
+  - BJ
+  - Republic of Benin
+  - République du Bénin

@@ -1,0 +1,13 @@
+# Economy data for Benin
+country: Benin
+gdp_trillion_usd: 0.06
+gdp_global_rank: 143
+currency:
+  code: XOF
+  name: West African CFA franc
+  symbol: Fr
+economy_type: Developing
+notable_sectors:
+  - Agriculture
+  - Services
+  - Textiles

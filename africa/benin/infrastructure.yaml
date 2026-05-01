@@ -1,0 +1,13 @@
+# Infrastructure data for Benin
+country: Benin
+driving_side: right
+calling_code:
+  root: "+2"
+  suffix: "29"
+idd: +229
+car_signs:
+  - DY
+top_level_domain:
+  - .bj
+notable_ports:
+  - Cotonou Port (largest port)

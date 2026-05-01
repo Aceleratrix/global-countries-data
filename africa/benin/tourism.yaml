@@ -1,0 +1,9 @@
+# Tourism data for Benin
+country: Benin
+notable_attractions:
+  - Pendjari National Park (UNESCO World Heritage)
+  - Ouidah (historic slave trade route)
+  - Ganvie (stilt village, "Venice of Africa")
+  - Royal Palaces of Abomey (UNESCO World Heritage)
+tourism_contribution_percent_gdp: 2.1  # World Bank 2019 estimate
+visa_policy: E-visa available for most nationalities

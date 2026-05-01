@@ -1,0 +1,8 @@
+# Education data for Benin
+country: Benin
+education_system: French-based system
+official_language_education: French
+literacy_rate_percent: 42.4  # World Bank 2020 estimate
+notable_institutions:
+  - University of Abomey-Calavi
+  - University of Parakou

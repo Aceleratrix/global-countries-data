@@ -1,0 +1,10 @@
+# Military data for Benin
+country: Benin
+military_name: Benin Armed Forces
+branches:
+  - Army
+  - Navy
+  - Air Force
+  - Gendarmerie
+active_personnel: ~7500  # IISS 2023 estimate
+defense_budget_percent_gdp: 0.8  # SIPRI 2022 estimate

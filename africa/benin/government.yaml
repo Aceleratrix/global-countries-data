@@ -1,0 +1,12 @@
+# Government data for Benin
+country: Benin
+official_name: Republic of Benin
+independent: true
+un_member: true
+government_type: Republic
+country_codes:
+  cca2: BJ
+  ccn3: "204"
+  cca3: BEN
+  cioc: BEN
+  fifa: BEN
