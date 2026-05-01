@@ -1,0 +1,12 @@
+landlocked: true
+forest_coverage_percent: 40.2
+major_rivers:
+  - Danube
+  - Váh
+  - Hron
+mountain_ranges:
+  - High Tatras
+  - Low Tatras
+  - Slovak Ore Mountains
+climate: Temperate continental
+protected_areas_percent: 25

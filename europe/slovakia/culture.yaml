@@ -1,0 +1,16 @@
+national_anthem: "Nad Tatrou sa blýska"
+official_language: Slovak
+translations:
+  ara: سلوفاكيا
+  bre: Slovakia
+  ces: Slovensko
+  deu: Slowakei
+  fra: Slovaquie
+  hun: Szlovákia
+  ita: Slovacchia
+  pol: Słowacja
+  rus: Словакия
+  spa: Eslováquia
+  zho: 斯洛伐克
+start_of_week: monday
+tld: [".sk"]

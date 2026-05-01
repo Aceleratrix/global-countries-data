@@ -1,0 +1,25 @@
+population: 5413813
+population_year: 2023
+population_density_km2: 110.4
+languages:
+  - code: slk
+    name: Slovak
+    official: true
+native_language_name: Slovensko
+currencies:
+  - code: EUR
+    name: Euro
+    symbol: €
+demonyms:
+  eng:
+    m: Slovak
+    f: Slovak
+  fra:
+    m: Slovaque
+    f: Slovaque
+gini_index: 25.0
+gini_year: 2018
+postal_code_format: "###  ##"
+idd:
+  root: +4
+  suffixes: ["21"]

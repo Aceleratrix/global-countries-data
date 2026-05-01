@@ -1,0 +1,9 @@
+armed_forces: Armed Forces of the Slovak Republic
+nato_member: true
+active_personnel: 12500
+reserve_personnel: 20000
+defense_spending_percent_gdp: 1.8
+branches:
+  - Ground Forces
+  - Air Force
+  - Special Operations Forces

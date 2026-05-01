@@ -1,0 +1,21 @@
+gdp_ppp_tril: 0.11
+gdp_global_rank: 92
+gdp_year: 2023
+gdp_per_capita_ppp: 20300
+euro_adopted: 2009
+currency_code: EUR
+major_industries:
+  - Automotive manufacturing
+  - Electronics
+  - Machinery
+  - Metallurgy
+  - Tourism
+exports:
+  - Vehicles and parts
+  - Electronics
+  - Machinery
+  - Steel products
+fifa_code: SVK
+car:
+  signs: ["SK"]
+  side: right

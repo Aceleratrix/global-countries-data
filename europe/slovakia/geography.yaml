@@ -1,0 +1,23 @@
+country: Slovakia
+official_name: Slovak Republic
+native_name: Slovenská republika
+cca2: SK
+cca3: SVK
+region: Europe
+subregion: Central Europe
+area_km2: 49037
+landlocked: true
+borders:
+  - Austria (AUT)
+  - Czech Republic (CZE)
+  - Hungary (HUN)
+  - Poland (POL)
+  - Ukraine (UKR)
+capital: Bratislava
+capital_coords: [48.15, 17.12]
+timezone: UTC+01:00
+latlng: [48.66666666, 19.5]
+continents: [Europe]
+maps:
+  google: https://goo.gl/maps/uNSH2wW4bLoZVYJj7
+  osm: https://www.openstreetmap.org/relation/14296

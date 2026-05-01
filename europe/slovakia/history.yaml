@@ -1,0 +1,16 @@
+key_events:
+  - year: 1918
+    event: Formation of Czechoslovakia
+  - year: 1939
+    event: WWII-era Slovak Republic established
+  - year: 1945
+    event: Reunited with Czechoslovakia
+  - year: 1993-01-01
+    event: Velvet Divorce - independent Slovakia
+  - year: 2004
+    event: Joined EU and NATO
+  - year: 2009
+    event: Adopted the Euro
+former_states:
+  - Czechoslovakia
+  - Slovak Republic (1939-1945)

@@ -1,0 +1,8 @@
+education_system: 4 levels (pre-primary, primary, secondary, tertiary)
+literacy_rate_percent: 99.6
+compulsory_education_age: 6-16
+top_universities:
+  - Comenius University (Bratislava)
+  - Slovak University of Technology (Bratislava)
+  - Pavol Jozef Šafárik University (Košice)
+tertiary_enrollment_rate: 58%

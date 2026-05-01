@@ -1,0 +1,11 @@
+internet_tld: .sk
+telephone_root: +4
+telephone_suffix: "21"
+postal_code_regex: "^(\\d{5})$"
+road_side: right
+major_airport: Bratislava Airport (BTS)
+transportation:
+  - Road network
+  - Railway network
+  - Air transport
+  - Public transit in urban areas
