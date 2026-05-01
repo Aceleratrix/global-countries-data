@@ -74,7 +74,7 @@
 | 52 | 🇭🇺 Hungria | hungary | Europe | ✅ 100% COMPLETE |
 | 53 | 🇭🇦 Vietnã | vietnam | Asia | ✅ 100% COMPLETE |
 | 54 | 🇭🇷 Marrocos | morocco | Africa | ✅ 100% COMPLETE |
-| 55 | 🇸🇰 Eslováquia | slovakia | Europe | $0.24T |
+| 55 | 🇸🇰 Eslováquia (ver linha 92) | slovakia | Europe | $0.24T | ✅ 100% COMPLETE |
 | 56 | 🇪🇨 Equador | ecuador | South America | $0.23T |
 | 57 | 🇷🇺 Uruguai | uruguay | South America | ✅ 100% COMPLETE |
 | 85 | 🇭🇷 Croácia | croatia | Europe | $0.13T | ✅ 100% COMPLETE |
@@ -93,7 +93,7 @@
 | 64 | 🇰🇭 Camboja | cambodia | Asia | $0.20T | ✅ 100% COMPLETE |
 | 65 | 🇪🇪 Estônia | estonia | Europe | ✅ 100% COMPLETE | |
 | 66 | 🇸🇮 Eslovênia | slovenia | Europe | $0.19T | |
-| 67 | 🇸🇰 Eslováquia | slovakia | Europe | $0.19T | |
+| 92 | 🇸🇰 Eslováquia (Slovakia) | slovakia | Europe | $0.11T | ✅ 100% COMPLETE | |
 | 67 | 🇪🇹 Etiópia | ethiopia | Africa | $0.18T | ✅ 100% COMPLETE |
 | 68 | 🇵🇷 Porto Rico | puerto-rico | North America | ✅ 100% COMPLETE |
 | 68 | 🇨🇷 Costa Rica | costa-rica | North America | ✅ 100% COMPLETE | |
@@ -128,7 +128,7 @@
 | 88 | 🇪🇱 Jordânia | jordan | Asia | ✅ 100% COMPLETE |
 | 89 | 🇬🇹 Guiana | guyana | South America | $0.13T |
 | 90 | 🇧🇴 Bósnia e Herzegovina | bosnia-herzegovina | Europe | $0.13T |
-| 91 | 🇧🇦 Gana | ghana | Africa | $0.13T |
+| 91 | 🇱🇧 Líbano | lebanon | Asia | $0.11T | ✅ 100% COMPLETE |
 | 92 | 🇮🇻 Macedônia do Norte | north-macedonia | Europe | $0.12T |
 | 93 | 🇲🇻 Moldávia | moldova | Europe | $0.12T |
 | 94 | 🇦🇱 Albânia | albania | Europe | $0.12T |
@@ -151,7 +151,7 @@
 - 🇨🇩 Chade, 🇨🇫 República Centro-Africana, 🇨🇬 República do Congo, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade, 🇨🇩 Chade
 
 **Ásia (continuação):**
-- 🇦🇫 Afeganistão, 🇧🇩 Bangladesh, 🇱🇵 Laos, 🇳🇵 Iêmen, 🇸🇾 Síria, 🇱🇧 Líbano, 🇵🇰 Quirguistão, 🇹🇯 Tajiquistão, 🇹🇲 Turcomenistão, 🇧🇳 Brunei, 🇹🇼 Timor-Leste, 🇵🇬 Papua Nova Guiné, 🇸🇧 Ilhas Salomão, 🇻🇺 Vanuatu, 🇫🇲 Fiji, 🇼🇸 Samoa, 🇹🇴 Tonga, 🇰🇮 Kiribati, 🇫🇼 Tuvalu, 🇫🇲 Fiji, 🇼🇸 Samoa, 🇹🇴 Tonga, 🇰🇮 Kiribati, 🇫🇼 Tuvalu, 🇲🇭 Micronésia, 🇵🇼 Palau, 🇲🇭 Ilhas Marshall, 🇳🇷 Nauru
+- 🇦🇫 Afeganistão, 🇧🇩 Bangladesh, 🇱🇵 Laos, 🇳🇵 Iêmen, 🇸🇾 Síria, 🇱🇧 Líbano ✅ 100% COMPLETE, 🇵🇰 Quirguistão, 🇹🇯 Tajiquistão, 🇹🇲 Turcomenistão, 🇧🇳 Brunei, 🇹🇼 Timor-Leste, 🇵🇬 Papua Nova Guiné, 🇸🇧 Ilhas Salomão, 🇻🇺 Vanuatu, 🇫🇲 Fiji, 🇼🇸 Samoa, 🇹🇴 Tonga, 🇰🇮 Kiribati, 🇫🇼 Tuvalu, 🇫🇲 Fiji, 🇼🇸 Samoa, 🇹🇴 Tonga, 🇰🇮 Kiribati, 🇫🇼 Tuvalu, 🇲🇭 Micronésia, 🇵🇼 Palau, 🇲🇭 Ilhas Marshall, 🇳🇷 Nauru
 
 **Américas (continuação):**
 - 🇸🇻 El Salvador, 🇳🇮 Nicarágua, 🇵🇦 Panamá (já listado), 🇨🇺 Uruguai (já listado), 🇧🇴 Bolívia, 🇻🇪 Venezuela, 🇬🇾 Guiana, 🇸🇷 Suriname, 🇫🇶 Guiana Francesa, 🇵🇷 Porto Rico, 🇩🇴 República Dominicana (já listado), 🇭🇶 Martinica, 🇬🇵 Guadalupe, 🇧🇶 Ilhas Virgens Americanas, 🇦🇬 Aruba, 🇸🇽 Sint Maarten, 🇨🇼 Curaçao, 🇧🇶 Ilhas Virgens Britânicas, 🇲🇸 Montserrat, 🇰🇳 São Cristóvão e Névis, 🇦🇬 Antígua e Barbuda, 🇩🇲 Dominica, 🇬🇩 Granada, 🇱🇨 Santa Lúcia, 🇻🇨 São Vicente e Granadinas, 🇧🇧 Barbados, 🇹🇹 Trinidad e Tobago, 🇯🇲 Jamaica, 🇭🇸 Bahamas, 🇹🇨 Cuba, 🇭🇶 Haiti, 🇩🇴 República Dominicana (já listado)
@@ -166,12 +166,12 @@
 | Continente | Países | Completos | Restantes | % Completo |
 |-----------|---------|-----------|-----------|------------|
 | 🌎 North America | 3 | 3 | 0 | **100%** ✅ |
-| 🌏 Asia | 50 | 5 | 45 | 10.0% |
+| 🌏 Asia | 50 | 6 | 44 | 12.0% |
 | 🌍 Europe | 44 | 6 | 38 | 13.6% |
 | 🌎 South America | 12 | 1 | 11 | 8.3% |
 | 🌏 Oceania | 14 | 1 | 13 | 7.1% |
 | 🌍 Africa | 54 | 0 | 54 | 0% |
-| **TOTAL** | **195** | **16** | **179** | **8.2%** |
+| **TOTAL** | **195** | **17** | **178** | **8.7%** |
 
 ---
 
