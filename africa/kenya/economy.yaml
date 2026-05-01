@@ -1,11 +1,9 @@
-gdp: $0.34 trillion
-gdp_rank: 41st
-major_exports:
-  - Tea
-  - Coffee
-  - Horticultural products
-  - Textiles
-currency: Kenyan Shilling
-currency_code: KES
-inflation_rate: ~7.5% (2023 estimate)
-gdp_per_capita: ~$6,300 (2023 estimate)
+country: Kenya
+gdp_tril: 0.10
+gdp_global_rank: 96
+currencies:
+  KES:
+    name: Kenyan shilling
+    symbol: Sh
+gini_index:
+  2015: 40.8

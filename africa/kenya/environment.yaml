@@ -1,11 +1,8 @@
-national_parks:
-  - Maasai Mara National Reserve
-  - Amboseli National Park
-  - Tsavo East National Park
-  - Tsavo West National Park
-endangered_species:
-  - African elephant
-  - Black rhinoceros
-  - Grevy's zebra
-deforestation_rate: ~0.5% per year
-forest_cover: ~7% of total land area
+country: Kenya
+area_km2: 580367.0
+ecosystems:
+  - Savanna
+  - Mountain ranges (Mount Kenya)
+  - Lakes (Lake Victoria, Lake Turkana)
+  - Coastal forests
+environment_notes: Home to diverse wildlife and key national parks including Maasai Mara and Amboseli.

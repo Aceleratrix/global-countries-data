@@ -1,7 +1,30 @@
-national_language: Swahili
-heritage_sites:
-  - Fort Jesus (Mombasa)
-  - Kenya Lake System (Lake Bogoria, Lake Nakuru, Lake Elementaita)
-traditional_music: Benga, Taarab
-cuisine: Ugali, Sukuma Wiki, Nyama Choma
-national_anthem: "Ee Mungu Nguvu Yetu"
+country: Kenya
+languages:
+  eng: English
+  swa: Swahili
+native_names:
+  eng:
+    official: Republic of Kenya
+    common: Kenya
+  swa:
+    official: Republic of Kenya
+    common: Kenya
+translations:
+  ara:
+    official: جمهورية كينيا
+    common: كينيا
+  bre:
+    official: Republik Kenya
+    common: Kenya
+  ces:
+    official: Keňská republika
+    common: Keňa
+  deu:
+    official: Republik Kenia
+    common: Kenia
+  fra:
+    official: République du Kenya
+    common: Kenya
+  spa:
+    official: República de Kenya
+    common: Kenia

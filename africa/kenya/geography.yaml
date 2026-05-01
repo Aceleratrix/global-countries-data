@@ -1,12 +1,17 @@
-area: 580,367 km²
-region: East Africa
-time_zone: East Africa Time (UTC+3)
-highest_point: Mount Kenya (5,199 m)
-lowest_point: Indian Ocean (0 m)
-climate: Tropical along coast, arid in interior, temperate in highlands
+country: Kenya
+official_name: Republic of Kenya
+region: Africa
+subregion: Eastern Africa
+landlocked: false
+area_km2: 580367.0
 borders:
-  - Ethiopia
-  - Somalia
-  - South Sudan
-  - Tanzania
-  - Uganda
+  - ETH
+  - SOM
+  - SSD
+  - TZA
+  - UGA
+latlng: [1.0, 38.0]
+capital_latlng: [-1.28, 36.82]
+maps:
+  google_maps: https://goo.gl/maps/Ni9M7wcCxf8bJHLX8
+  open_street_maps: https://www.openstreetmap.org/relation/192798

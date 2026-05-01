@@ -1,0 +1,7 @@
+# Bordering countries
+borders:
+  - "ETH"  # Ethiopia
+  - "SOM"  # Somalia
+  - "SSD"  # South Sudan
+  - "TZA"  # Tanzania
+  - "UGA"  # Uganda

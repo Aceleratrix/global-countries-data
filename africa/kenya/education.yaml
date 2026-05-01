@@ -1,7 +1,6 @@
-literacy_rate: ~82% (2023 estimate)
-education_system: 8-4-4 system (primary 8 years, secondary 4, tertiary 4)
-top_universities:
-  - University of Nairobi
-  - Kenyatta University
-  - Strathmore University
-primary_school_enrollment: ~95% (2023 estimate)
+country: Kenya
+languages:
+  - English
+  - Swahili
+literacy_rate: null
+education_notes: Data sourced from REST Countries API; additional education metrics available from UNESCO.

@@ -1,0 +1,15 @@
+country: Kenya
+independent: true
+status: officially-assigned
+un_member: true
+cca2: KE
+cca3: KEN
+ccn3: 404
+cioc: KEN
+idd:
+  root: "+2"
+  suffixes: ["54"]
+fifa: KEN
+car:
+  signs: ["EAK"]
+  side: left

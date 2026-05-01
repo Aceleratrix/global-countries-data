@@ -1,0 +1,22 @@
+# Basic country information
+country_code_cca2: "KE"
+country_code_cca3: "KEN"
+country_code_ccn3: "404"
+country_code_cioc: "KEN"
+independent: true
+un_member: true
+status: "officially-assigned"
+tld:
+  - ".ke"
+idd:
+  root: "+2"
+  suffixes:
+    - "54"
+car:
+  signs:
+    - "EAK"
+  side: "left"
+start_of_week: "monday"
+postal_code:
+  format: "#####"
+  regex: "^(\\d{5})$"

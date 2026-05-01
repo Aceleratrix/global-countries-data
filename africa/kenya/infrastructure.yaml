@@ -1,7 +1,13 @@
-major_airports:
-  - Jomo Kenyatta International Airport (Nairobi)
-  - Moi International Airport (Mombasa)
-railways: Standard Gauge Railway (SGR) connecting Mombasa to Nairobi
-major_roads: Nairobi-Mombasa Highway
-internet_penetration: ~45% (2023 estimate)
-electricity_access: ~75% of population (2023 estimate)
+country: Kenya
+capital: Nairobi
+postal_code:
+  format: "#####"
+  regex: "^(\\d{5})$"
+tld: [".ke"]
+flags:
+  png: https://flagcdn.com/w320/ke.png
+  svg: https://flagcdn.com/ke.svg
+  alt: The flag of Kenya is composed of three equal horizontal bands of black, red with white top and bottom edges, and green. An emblem comprising a red, black and white Maasai shield covering two crossed white spears is superimposed at the center of the field.
+coat_of_arms:
+  png: https://mainfacts.com/media/images/coats_of_arms/ke.png
+  svg: https://mainfacts.com/media/images/coats_of_arms/ke.svg
