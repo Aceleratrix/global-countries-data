@@ -1,22 +1,14 @@
-# Lebanon (🇱🇧)
-## Overview
-- **Common Name**: Lebanon
-- **Official Name**: Lebanese Republic
-- **Country Codes**: LB (cca2), LBN (cca3), 422 (ccn3)
-- **Region**: Asia
-- **Subregion**: Western Asia
-- **Capital**: Beirut
-- **Population**: 5,490,000
-- **Area**: 10,452 km²
-- **GDP**: $0.11 Trillion (91st largest economy globally)
-- **Currency**: Lebanese pound (LBP, symbol: ل.ل)
-- **Official Languages**: Arabic, French
-- **Timezone**: UTC+02:00
-- **Borders**: Israel (ISR), Syria (SYR)
-- **Flag Description**: Three horizontal bands of red, white and red; the white band is twice the height of the red bands and bears a green Lebanese Cedar tree at its center.
-- **Gini Index (2011)**: 31.8
-- **FIFA Code**: LBN
-- **Driving Side**: Right
-- **Start of Week**: Monday
-- **UN Member**: Yes
-- **Independent**: Yes
+Lebanon 🇱🇧
+Basic Information
+Official Name: Lebanese Republic
+Capital: Beirut
+Largest City: Beirut
+Population: ~5.49 million (2023 UN estimate)
+Area: 10,452 km²
+Currency: Lebanese Pound (LBP, £)
+Languages: Arabic (official), French, English
+Dialing Code: +961
+Time Zone: UTC+2 (EET), UTC+3 (EEST, summer)
+Driving Side: Right
+Internet TLD: .lb
+ISO Codes: LB (alpha-2), LBN (alpha-3), 422 (numeric)

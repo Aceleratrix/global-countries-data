@@ -1,65 +1,14 @@
-# Energy Data for Iraq
-
+country: Iraq
 energy_overview:
-  total_primary_energy_production: 3500  # TWh (2022 estimate)
-  total_primary_energy_consumption: 1200  # TWh (2022 estimate)
-  energy_intensity: 0.15  # TOE per $1000 GDP
-
-oil_sector:
-  proven_reserves: 145000000000  # barrels (5th largest globally)
-  reserve_rank: 5
-  production: 4200000  # barrels per day (2023)
-  production_rank: 7  # globally
-  exports: 3400000  # barrels per day (2023)
-  export_revenue: 105000000000  # USD (2023, ~95% of total exports)
-  major_oil_fields:
-    - Rumaila (largest, ~1.5 million bpd)
-    - West Qurna
-    - Majnoon
-    - Kirkuk
-    - Zubair
-  refineries: 8
-  refining_capacity: 900000  # barrels per day
-
-natural_gas_sector:
-  proven_reserves: 3500000000000  # cubic meters (12th globally)
-  production: 9000  # million cubic meters (2022)
-  consumption: 8500  # million cubic meters (2022)
-  flaring: Significant (waste of associated gas from oil production)
-  major_fields:
-    - Akkas Field
-    - Mansouriya Field
-
-electricity_sector:
-  installed_capacity: 24000  # MW (2023)
-  generation: 95000  # GWh (2022)
-  sources:
-    - Natural gas: 70.0  # percent
-    - Oil: 25.0  # percent
-    - Hydro: 4.0  # percent
-    - Renewables: 1.0  # percent (solar pilot projects)
-  access_to_electricity: 93.0  # percent population (urban: 98%, rural: 80%)
-  power_outages: Chronic (estimated 6-8 hours daily in some areas)
-
-renewable_energy:
-  potential: High solar potential (300+ sunny days/year)
-  current_share: 1.0  # percent
-  target: 10.0  # percent by 2030
-  projects:
-    - Solar power plants (several under development)
-    - Wind potential (limited)
-
-energy_exports:
-  electricity: Exports to Turkey, Jordan, Kuwait (limited)
-  oil: Major exports to Asia (China, India, South Korea), Europe, US
-
-energy_imports:
-  natural_gas: From Iran (for power generation, ~1.0 bcm/year)
-  refined_products: Limited imports
-
-challenges:
-  - Aging infrastructure (damaged by conflicts)
-  - Gas flaring waste
-  - Electricity shortages
-  - Dependence on oil (95% of revenue)
-  - Need for diversification
+  proven_oil_reserves: 145 billion barrels (5th largest globally, OPEC 2024)
+  proven_natural_gas_reserves: 132 trillion cubic feet (11th largest globally, 2024)
+  oil_exports: 3.5 million barrels per day (2023)
+  main_export_destinations: China (35%), India (18%), US (12%), South Korea (8%)
+energy_production:
+  crude_oil: 4.2 million bpd (2023)
+  natural_gas: 3.2 bcf/day (2023)
+  renewable_energy: <1% of total production (2023)
+energy_consumption:
+  oil: 65% of total energy use
+  natural_gas: 30%
+  electricity_imports: 5% (from Iran, Turkey)

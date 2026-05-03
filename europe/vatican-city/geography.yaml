@@ -1,0 +1,14 @@
+name: Vatican City
+area_km2: 0.44
+area_sq_mi: 0.17
+coordinates:
+  latitude: 41.9029
+  longitude: 12.4534
+climate: Mediterranean
+terrain: Urban, flat
+borders:
+  - country: Italy
+    length_km: 3.2
+landlocked: true
+lowest_point: Saint Peter's Square (0m)
+highest_point: Vatican Hill (75m)

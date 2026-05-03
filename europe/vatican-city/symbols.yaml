@@ -1,0 +1,9 @@
+flag:
+  colors: Yellow (right), White (left)
+  symbols: Papal keys (gold and silver) crossed beneath a papal tiara
+coat_of_arms: Same as flag design
+national_anthem: "Inno e Marcia Pontificale"
+national_day: June 29 (Feast of St. Peter and Paul)
+patron_saints:
+  - St. Peter
+  - St. Paul

@@ -1,58 +1,14 @@
-# Education Data for Iraq
-
-education_system:
-  structure:
-    - Kindergarten: 3-5 years (optional)
-    - Primary: 6 years (ages 6-11, compulsory)
-    - Intermediate: 3 years (ages 12-14, compulsory)
-    - Secondary: 3 years (ages 15-17, general/vocational)
-    - Higher education: 4+ years (universities, colleges)
-
-literacy_rate:
-  total: 85.6  # percent (age 15+)
-  male: 90.2  # percent
-  female: 81.0  # percent
-
-enrollment_rates:
-  primary: 95.0  # percent (gross)
-  secondary: 55.0  # percent (gross)
-  tertiary: 22.0  # percent (gross)
-
-education_expenditure: 4.5  # percent of GDP (2022)
-
-school_system:
-  public_schools: 80.0  # percent of all schools
-  private_schools: 20.0  # percent
-  students_total: 12000000  # (2023 estimate)
-  teachers_total: 600000
-  student_teacher_ratio: 20:1  # average
-
-higher_education:
-  universities: 30+ public, 15+ private
-  major_universities:
-    - University of Baghdad (1942, largest)
-    - University of Mosul
-    - University of Basra
-    - Salahaddin University-Erbil
-    - University of Technology (Baghdad)
-  total_students: 800000  # (2023)
-  faculty_members: 25000
-  fields_of_study:
-    - Engineering and technology
-    - Medicine and health
-    - Law and political science
-    - Business and economics
-    - Arts and humanities
-
-challenges:
-  - Infrastructure damage from conflicts
-  - Displacement of students/teachers
-  - Gender disparity in some regions
-  - Quality of education gaps
-  - Brain drain (skilled professionals emigrating)
-
-reforms:
-  - National Strategy for Education (2018-2030)
-  - Vocational training expansion
-  - Digital learning initiatives (limited)
-  - Teacher training programs
+country: Iraq
+literacy_rate: 79.8 # % (2023, 15+ years)
+education_structure:
+  - Primary: 6 years (compulsory)
+  - Secondary: 6 years (3 middle + 3 high)
+  - Higher education: Universities (public and private)
+key_universities:
+  - University of Baghdad (founded 1957)
+  - University of Mosul
+  - University of Sulaymaniyah
+enrollment:
+  primary: 92.3 # % (2023)
+  secondary: 68.7 # % (2023)
+  tertiary: 22.1 # % (2023)

@@ -1,16 +1,19 @@
-# Demographics and additional details
-car:
-  signs:
-    - "RL"
-  side: "right"
-idd:
-  root: "+9"
-  suffixes:
-    - "61"
-fifa: "LBN"
-coat_of_arms:
-  png: "https://mainfacts.com/media/images/coats_of_arms/lb.png"
-  svg: "https://mainfacts.com/media/images/coats_of_arms/lb.svg"
-postal_code:
-  format: "#### ####|####"
-  regex: "^(\\d{4}(\\d{4})?)$"
+population: 5490000
+population_year: 2023
+population_density_km2: 525
+urban_population_percent: 89.2
+urban_population_year: 2023
+life_expectancy_years: 79.2
+life_expectancy_year: 2021
+birth_rate_per_1000: 13.4
+birth_rate_year: 2023
+death_rate_per_1000: 6.1
+death_rate_year: 2023
+ethnic_groups:
+  - Arab (95%)
+  - Armenian (4%)
+  - Other (1%)
+religions:
+  - Muslim (60-65%: Shia, Sunni)
+  - Christian (30-35%: Maronite, Greek Orthodox, etc.)
+  - Druze (5%)

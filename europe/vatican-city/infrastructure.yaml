@@ -1,0 +1,10 @@
+transport:
+  airports: 0
+  railways: 0
+  major_roads: 3.2 km total
+telecommunications:
+  calling_code: +379
+  internet_tld: .va
+  internet_users_percent: 100
+postal_service: Operated by the Vatican City Post
+energy: Imported from Italy (electricity, natural gas)

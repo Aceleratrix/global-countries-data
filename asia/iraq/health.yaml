@@ -1,0 +1,13 @@
+country: Iraq
+life_expectancy: 73.2 # years (2023)
+infant_mortality: 19.5 # per 1000 live births (2023)
+health_expenditure: 4.8 # % of GDP (2023)
+physicians_per_1000: 0.9 # (2023)
+hospital_beds_per_1000: 1.4 # (2023)
+common_diseases:
+  - Cardiovascular disease
+  - Diabetes
+  - Respiratory infections
+immunization_rates:
+  DPT: 85 # % (2022)
+  Measles: 82 # % (2022)

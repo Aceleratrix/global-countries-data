@@ -1,0 +1,16 @@
+# Basic country identifiers and codes
+cca2: "VE"
+ccn3: "862"
+cca3: "VEN"
+cioc: "VEN"
+tld:
+  - ".ve"
+independent: true
+unMember: true
+status: "officially-assigned"
+altSpellings:
+  - "VE"
+  - "Bolivarian Republic of Venezuela"
+  - "Venezuela, Bolivarian Republic of"
+  - "República Bolivariana de Venezuela"
+startOfWeek: "monday"

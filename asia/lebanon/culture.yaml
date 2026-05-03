@@ -1,0 +1,18 @@
+languages:
+  official: Arabic
+  widely_spoken: French, English, Armenian
+cuisine:
+  - Hummus
+  - Tabbouleh
+  - Fattoush
+  - Kibbeh
+  - Manakish
+national_symbols:
+  flag: Red, white, green with a green cedar tree in the center
+  national_animal: Striped hyena (unofficial)
+  national_tree: Cedar of Lebanon
+  national_anthem: "Kulluna lil-watan" (All of us for the country)
+holidays:
+  - Independence Day (November 22)
+  - Labor Day (May 1)
+  - Religious holidays (Eid al-Fitr, Christmas, etc.)

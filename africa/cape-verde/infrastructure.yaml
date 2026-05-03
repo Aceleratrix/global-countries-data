@@ -1,0 +1,18 @@
+country: Cabo Verde
+transport:
+  airports: 7 (2 international: Amílcar Cabral, Nelson Mandela)
+  seaports: 4 major (Praia, Mindelo, Sal, Boa Vista)
+  roads_total_km: 1350
+  paved_roads_pct: 70
+  rail: None
+energy:
+  electricity_access_pct: 94
+  primary_sources:
+    - Imported fossil fuels 85%
+    - Renewable (wind, solar) 15%
+  renewable_target_pct: 50 by 2030
+telecommunications:
+  mobile_subscriptions_per_100: 115
+  internet_penetration_pct: 62
+  broadband_subscribers_per_100: 8
+water_access_pct: 92

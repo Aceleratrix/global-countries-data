@@ -1,0 +1,9 @@
+# Bordering countries data
+borders:
+  - "BRA"  # Brazil
+  - "COL"  # Colombia
+  - "GUY"  # Guyana
+capital: "Caracas"
+capitalCoordinates:
+  lat: 10.48
+  lon: -66.87

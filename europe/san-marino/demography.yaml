@@ -1,0 +1,16 @@
+# Demography of San Marino
+country: "San Marino"
+population: 34132
+demonyms:
+  male: "Sammarinese"
+  female: "Sammarinese"
+languages:
+  - code: "ita"
+    name: "Italian"
+native_names:
+  - language: "Italian"
+    official: "Repubblica di San Marino"
+    common: "San Marino"
+population_growth_rate: ~
+age_structure: {}
+life_expectancy: ~

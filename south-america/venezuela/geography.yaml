@@ -1,0 +1,16 @@
+# Geographic data
+region: "Americas"
+subregion: "South America"
+continent: "South America"
+landlocked: false
+area: 916445.0  # km²
+latlng:
+  - 8.0
+  - -66.0
+maps:
+  googleMaps: "https://goo.gl/maps/KLCwDN8sec7z2kse9"
+  openStreetMaps: "https://www.openstreetmap.org/relation/272644"
+capitalInfo:
+  latlng:
+    - 10.48
+    - -66.87

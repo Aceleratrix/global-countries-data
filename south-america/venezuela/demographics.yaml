@@ -1,0 +1,10 @@
+# Demographic data
+population: 28517000
+demonyms:
+  eng:
+    m: "Venezuelan"
+    f: "Venezuelan"
+  fra:
+    m: "Vénézuélien"
+    f: "Vénézuélienne"
+populationDensity: 31.13  # Calculated: 28517000 / 916445 ≈ 31.13 per km²

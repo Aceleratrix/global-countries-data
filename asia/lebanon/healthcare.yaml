@@ -1,0 +1,11 @@
+health_expenditure_percent_gdp: 6.8
+health_expenditure_year: 2020
+physicians_per_1000: 3.2
+physicians_year: 2022
+hospital_beds_per_1000: 3.5
+hospital_beds_year: 2022
+life_expectancy_years: 79.2
+major_health_issues:
+  - Non-communicable diseases (cardiovascular, cancer)
+  - Mental health (post-civil war, economic crisis)
+  - Communicable diseases (low incidence)

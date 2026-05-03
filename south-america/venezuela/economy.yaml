@@ -1,0 +1,8 @@
+# Economy data
+gdpRank: 119  # 119th largest economy
+gdpSize: "$0.07T"
+gini:
+  2006: 44.8
+currencyCode: "VES"
+currencyName: "Venezuelan bolívar soberano"
+currencySymbol: "Bs.S."

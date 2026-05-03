@@ -1,0 +1,16 @@
+population: 825
+population_year: 2023
+population_density_km2: 1875
+life_expectancy_years: 82
+ethnic_groups:
+  - Italian
+  - Swiss
+  - other European
+languages:
+  - Italian
+  - Latin
+  - French
+  - German
+religion:
+  - Catholic: 100%
+urban_population_percent: 100

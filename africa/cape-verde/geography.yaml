@@ -1,0 +1,20 @@
+country: Cabo Verde
+cca2: CV
+cca3: CPV
+ccn3: "132"
+region: Africa
+subregion: Western Africa
+capital: Praia
+area_km2: 4033
+area_mi2: 1557
+landlocked: false
+borders: []
+timezones:
+  - Atlantic/Cape_Verde
+latlng:
+  - 16.0
+  - -24.0
+island_group: 10 volcanic islands (Sotavento and Barlavento chains)
+coastline_km: 965
+terrain: Steep, rugged, volcanic mountains, flat desert plains
+climate: Temperate tropical, warm and dry with little seasonal variation

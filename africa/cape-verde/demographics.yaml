@@ -1,0 +1,27 @@
+country: Cabo Verde
+population_total: 593149
+population_year: 2023
+population_density_km2: 147
+population_density_mi2: 381
+urban_population_pct: 67.4
+rural_population_pct: 32.6
+median_age: 24.1
+life_expectancy_total: 73.8
+life_expectancy_male: 71.2
+life_expectancy_female: 76.5
+birth_rate: 18.9
+death_rate: 5.8
+net_migration_rate: -0.8
+ethnic_groups:
+  - Creole (mulatto) 70%
+  - African 28%
+  - European 2%
+religions:
+  - Roman Catholic 77.3%
+  - Protestant 4.6%
+  - Other Christian 3.4%
+  - Muslim 1.8%
+  - None 12.9%
+languages:
+  - Portuguese (official)
+  - Kabuverdianu (Creole, national)

@@ -1,0 +1,8 @@
+standing_army: false
+volunteer_corps: true (Civil Police and Guard of the Rock)
+defense_treaty: Relies on Italy for defense under 1862 treaty
+military_spending_gdp_percent: 0.1%
+security_forces:
+  - Civil Police
+  - Guard of the Rock
+  - Fortress Guard

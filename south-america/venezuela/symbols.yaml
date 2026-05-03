@@ -1,0 +1,9 @@
+# National symbols
+flag:
+  png: "https://flagcdn.com/w320/ve.png"
+  svg: "https://flagcdn.com/ve.svg"
+  alt: "The flag of Venezuela is composed of three equal horizontal bands of yellow, blue and red. At the center of the blue band are eight five-pointed white stars arranged in a horizontal arc."
+  emoji: "🇻🇪"
+coatOfArms:
+  png: "https://mainfacts.com/media/images/coats_of_arms/ve.png"
+  svg: "https://mainfacts.com/media/images/coats_of_arms/ve.svg"

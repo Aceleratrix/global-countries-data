@@ -1,0 +1,13 @@
+# Government and political data
+officialName: "Bolivarian Republic of Venezuela"
+independent: true
+unMember: true
+fifa: "VEN"
+car:
+  signs:
+    - "YV"
+  side: "right"
+idd:
+  root: "+5"
+  suffixes:
+    - "8"

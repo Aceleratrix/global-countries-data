@@ -1,0 +1,26 @@
+# Cultural data
+languages:
+  spa: "Spanish"
+nativeName:
+  spa:
+    official: "República Bolivariana de Venezuela"
+    common: "Venezuela"
+translations:
+  ara:
+    official: "جمهورية فنزويلا البوليفارية"
+    common: "فنزويلا"
+  deu:
+    official: "Bolivarische Republik Venezuela"
+    common: "Venezuela"
+  fra:
+    official: "République bolivarienne du Venezuela"
+    common: "Venezuela"
+  por:
+    official: "República Bolivariana da Venezuela"
+    common: "Venezuela"
+  rus:
+    official: "Боливарианская Республика Венесуэла"
+    common: "Венесуэла"
+  zho:
+    official: "委内瑞拉玻利瓦尔共和国"
+    common: "委内瑞拉"

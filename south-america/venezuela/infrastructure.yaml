@@ -1,0 +1,14 @@
+# Infrastructure and utilities data
+timezones:
+  - "UTC-04:00"
+postalCode:
+  format: "####"
+  regex: "^(\\d{4})$"
+maps:
+  googleMaps: "https://goo.gl/maps/KLCwDN8sec7z2kse9"
+  openStreetMaps: "https://www.openstreetmap.org/relation/272644"
+capital: "Caracas"
+capitalInfo:
+  latlng:
+    - 10.48
+    - -66.87
