@@ -1,0 +1,23 @@
+region: Oceania
+subregion: Melanesia
+location: South Pacific Ocean, east of Australia, northeast of New Caledonia
+coordinates: -17.7333, 168.3167
+total_islands: ~80
+major_islands:
+  - Espiritu Santo
+  - Malakula
+  - Efate
+  - Tanna
+  - Ambae
+terrain: Volcanic islands with narrow coastal plains
+climate: Tropical, moderated by southeast trade winds; wet season (November to April), dry season (May to October)
+highest_point:
+  name: Mount Tabwemasana
+  elevation_m: 1877
+  location: Espiritu Santo island
+lowest_point: Pacific Ocean (0 m)
+neighboring_countries:
+  - Australia (southwest)
+  - New Caledonia (south)
+  - Fiji (east)
+  - Solomon Islands (north)

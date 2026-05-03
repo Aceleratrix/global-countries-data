@@ -1,0 +1,9 @@
+literacy_rate_percent: 85.2
+education_system: 6 years primary, 6 years secondary (split into 3+3)
+primary_school_enrollment_percent: 92
+secondary_school_enrollment_percent: 45
+higher_education_institutions:
+  - University of the South Pacific (Vanuatu Campus)
+  - Vanuatu Institute of Technology
+  - Maritime College of Vanuatu
+government_education_spending_percent_gdp: 4.1

@@ -1,0 +1,13 @@
+forest_cover_percent_total_area: 36
+deforestation_rate_annual_percent: 0.8
+protected_terrestrial_areas_percent: 10
+protected_marine_areas_percent: 5
+marine_ecozones: Coral reefs, lagoons, open ocean
+climate_change_vulnerabilities:
+  - Rising sea levels
+  - Increased cyclone frequency and intensity
+  - Coral bleaching
+  - Droughts
+national_parks:
+  - Mount Yasur National Park (Tanna island, active volcano)
+  - Lénakel National Park (Tanna)

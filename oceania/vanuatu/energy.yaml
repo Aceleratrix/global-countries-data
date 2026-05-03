@@ -1,0 +1,10 @@
+electricity_access_percent_population: 65
+electrification_rural_percent: 45
+electrification_urban_percent: 90
+power_production_2023_gwh: 120
+power_sources:
+  - Diesel: 50
+  - Hydro: 30
+  - Solar: 15
+  - Biomass: 5
+renewable_energy_target_percent_2030: 60

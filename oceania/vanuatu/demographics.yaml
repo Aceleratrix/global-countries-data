@@ -1,0 +1,18 @@
+population_2023: 324176
+population_density_km2: 26.6
+life_expectancy_2023:
+  total: 70.1
+  male: 68.3
+  female: 72.0
+ethnic_groups:
+  - Ni-Vanuatu: 99%
+  - Others: 1%
+religions:
+  - Christianity: 90%+
+    - Protestant: 70%
+    - Catholic: 20%
+  - Traditional beliefs: 5%
+  - Others: 5%
+urban_population_percent: 26.5
+urban_population_2023: 86000
+literacy_rate_percent: 85.2

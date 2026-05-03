@@ -1,0 +1,13 @@
+life_expectancy_total_2023: 70.1
+infant_mortality_rate_per_1000_live_births: 24.5
+healthcare_system: Mixed public and private, limited infrastructure in rural areas
+physicians_per_1000_people: 0.3
+hospital_beds_per_1000_people: 1.2
+major_diseases:
+  - Malaria
+  - Dengue fever
+  - Tuberculosis
+  - Diarrheal diseases
+vaccination_coverage_percent:
+  - DPT3: 92
+  - Measles: 88

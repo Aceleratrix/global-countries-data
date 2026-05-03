@@ -1,0 +1,21 @@
+name: Republic of Vanuatu
+common_name: Vanuatu
+iso_alpha2: VU
+iso_alpha3: VUT
+un_code: 548
+capital: Port Vila
+largest_city: Port Vila
+area_km2: 12189
+population_2023: 324176
+languages:
+  - Bislama
+  - English
+  - French
+currency_code: VUV
+currency_name: Vanuatu Vatu
+driving_side: right
+calling_code: "+678"
+internet_tld: .vu
+flag_emoji: "🇻🇺"
+independence_date: "1980-07-30"
+government_type: Parliamentary republic

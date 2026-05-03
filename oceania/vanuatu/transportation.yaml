@@ -1,0 +1,12 @@
+main_airport: Bauerfield International Airport (VLI, Port Vila)
+secondary_airports:
+  - Santo-Pekoa International Airport (SON, Luganville)
+  - Tanna Airport (TAH)
+ports:
+  - Port Vila (Efate)
+  - Luganville (Espiritu Santo)
+  - Sola (Banks Islands)
+road_network_km: 2200
+paved_roads_percent: 30
+public_transport: Buses, taxis, minivans (known as "taxis collectifs")
+shipping: Inter-island ferries and cargo ships

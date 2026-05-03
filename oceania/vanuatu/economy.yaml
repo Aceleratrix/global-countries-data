@@ -1,0 +1,24 @@
+gdp_nominal_2023_usd: 1100000000
+gdp_per_capita_2023_usd: 3400
+main_industries:
+  - Tourism
+  - Agriculture (copra, cocoa, coffee, taro, yam)
+  - Fishing
+  - Offshore financial services
+  - Forestry
+currency: Vanuatu Vatu (VUV)
+inflation_rate_2023: 4.2
+unemployment_rate_2023: 5.1
+exports_2023_usd: 180000000
+main_exports:
+  - Copra
+  - Cocoa
+  - Coffee
+  - Beef
+  - Timber
+imports_2023_usd: 420000000
+main_imports:
+  - Machinery
+  - Foodstuffs
+  - Fuel
+  - Manufactured goods
