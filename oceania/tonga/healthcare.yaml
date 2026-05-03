@@ -1,0 +1,10 @@
+healthcare_system: Publicly funded with private providers
+hospitals: 3 (main one: Vaiola Hospital in Nuku'alofa)
+physicians_per_1000_people: 0.8
+nurses_per_1000_people: 3.2
+infant_mortality_rate_per_1000_live_births: 12.5
+major_health_issues:
+  - Non-communicable diseases (diabetes, hypertension)
+  - Obesity (adult obesity rate 48%)
+  - Infectious diseases (dengue fever outbreaks)
+government_health_spending_percent_gdp: 5.1

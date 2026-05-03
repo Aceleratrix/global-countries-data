@@ -1,0 +1,9 @@
+literacy_rate_percent: 99
+education_system:
+  - Primary: 6 years (ages 6-12)
+  - Secondary: 6 years (ages 12-18)
+  - Tertiary: University of the South Pacific (Tonga campus), other vocational institutions
+school_enrollment_rate_percent:
+  primary: 95
+  secondary: 85
+government_education_spending_percent_gdp: 4.2

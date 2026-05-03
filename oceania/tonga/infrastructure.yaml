@@ -1,0 +1,12 @@
+transport:
+  airports: 6 (1 international: Fua'amotu International Airport)
+  paved_roads_km: 180
+  unpaved_roads_km: 420
+  ports: Nuku'alofa, Neiafu
+telecommunications:
+  mobile_penetration_percent: 85
+  internet_penetration_percent: 45
+  fixed_broadband_subscriptions_per_100_people: 2
+energy:
+  electricity_access_percent: 92
+  renewable_energy_share_percent: 35 (mostly hydro and solar)

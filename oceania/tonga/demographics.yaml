@@ -1,0 +1,16 @@
+population: 107122
+population_year: 2023
+population_density_km2: 143
+ethnic_groups:
+  - Tongan: 96%
+  - European: 2%
+  - Other: 2%
+religions:
+  - Christian: 97% (Methodist 35%, Mormon 18%, Catholic 15%, other 29%)
+  - Other: 3%
+median_age: 26.4
+life_expectancy_years:
+  total: 70.2
+  male: 68.5
+  female: 72.0
+urban_population_percent: 23%
