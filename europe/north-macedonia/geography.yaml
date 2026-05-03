@@ -1,0 +1,24 @@
+# Geography and natural features
+area_km2: 25713
+region: "Southeast Europe"
+terrain: "mostly mountainous with deep basins and valleys; three large lakes, major rivers"
+highest_point:
+  name: "Mount Korab"
+  elevation_m: 2764
+lowest_point:
+  name: "Vardar River valley"
+  elevation_m: 50
+lakes:
+  - name: "Lake Ohrid"
+    area_km2: 358
+    unesco: true
+  - name: "Lake Prespa"
+    area_km2: 274
+  - name: "Lake Dojran"
+    area_km2: 43
+rivers:
+  - name: "Vardar"
+    length_km: 388
+  - name: "Bregalnica"
+    length_km: 225
+climate: "transitional between continental and Mediterranean"

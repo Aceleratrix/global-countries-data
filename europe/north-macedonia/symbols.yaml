@@ -1,0 +1,15 @@
+# National symbols
+flag:
+  description: "Red field with a yellow sun with eight broad rays extending to the edges"
+  adopted: "1995-10-05"
+  previous_flag: "Red with Vergina Sun (1992-1995)"
+coat_of_arms:
+  description: "Double-peaked mountain (Mount Korab), river (Vardar), lake (Lake Ohrid), rising sun with eight rays"
+  adopted: "2009-11-16"
+anthem:
+  title: "Denes nad Makedonija (Today Over Macedonia)"
+  adopted: "1992"
+national_animal: "Balkan lynx (critically endangered)"
+national_bird: "Macedonian scops owl"
+national_flower: "Macedonian tulip (Tulipa scardica)"
+national_tree: "Macedonian oak"

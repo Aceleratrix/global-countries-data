@@ -1,0 +1,27 @@
+# Economic indicators (2023 data)
+gdp_nominal_usd: 13300000000
+gdp_per_capita_usd: 7200
+gdp_growth_rate: 2.1
+inflation_rate: 8.5
+unemployment_rate: 15.2
+sectors:
+  services: 60.2
+  industry: 24.8
+  agriculture: 15.0
+currency_exchange_rate: 55.5 # MKD per 1 USD (average 2023)
+major_exports:
+  - "textiles and apparel"
+  - "iron and steel"
+  - "food products"
+  - "machinery parts"
+major_imports:
+  - "machinery and equipment"
+  - "crude oil and fuels"
+  - "manufactured goods"
+  - "chemicals"
+trade_partners:
+  - "Germany"
+  - "Bulgaria"
+  - "Greece"
+  - "Serbia"
+  - "Italy"

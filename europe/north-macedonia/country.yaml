@@ -1,0 +1,22 @@
+# Core country identifiers and metadata
+name: "Republic of North Macedonia"
+local_names:
+  macedonian: "Република Северна Македонија"
+  albanian: "Republika e Maqedonisë së Veriut"
+iso:
+  alpha2: "MK"
+  alpha3: "MKD"
+  numeric: 807
+currency:
+  code: "MKD"
+  name: "Macedonian denar"
+  symbol: "den"
+tld: ".mk"
+calling_code: "+389"
+independence:
+  date: "1991-09-08"
+  from: "Yugoslavia"
+eu_status: "candidate"
+eu_candidate_date: "2005-12-17"
+nato_membership_date: "2020-03-27"
+borders: ["Greece", "Bulgaria", "Serbia", "Kosovo", "Albania"]

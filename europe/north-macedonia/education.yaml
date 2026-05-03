@@ -1,0 +1,18 @@
+# Education system and statistics
+literacy_rate_percent: 98.4
+education_structure:
+  primary: "9 years (compulsory, ages 6-15)"
+  secondary: "4 years (general/vocational, ages 15-19)"
+  tertiary: "3-5 years (bachelor/master/PhD)"
+universities:
+  - name: "Ss. Cyril and Methodius University of Skopje"
+    founded: 1943
+    students: 50000
+  - name: "State University of Tetovo"
+    founded: 1994
+    students: 15000
+gross_enrollment_ratio:
+  primary: 98
+  secondary: 92
+  tertiary: 45
+government_education_spending_percent_gdp: 3.8

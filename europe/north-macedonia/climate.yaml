@@ -1,0 +1,14 @@
+# Climate and weather patterns
+climate_type: "Transitional between continental and Mediterranean"
+average_temperatures:
+  january_c: 0.5
+  july_c: 22.4
+precipitation_mm_annual: 650
+snow_days_annual_avg: 30
+extreme_temperatures:
+  highest_c: 44.0 # recorded in Demir Kapija
+  lowest_c: -31.5 # recorded in Skopje
+regional_variations:
+  - "Southern regions (Ohrid area) have milder Mediterranean influence"
+  - "Mountainous areas have shorter summers and longer winters"
+  - "Vardar valley has hot, dry summers and cold winters"

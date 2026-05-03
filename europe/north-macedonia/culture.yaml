@@ -1,0 +1,20 @@
+# Cultural traditions and heritage
+traditional_music:
+  - "Čalgija (urban folk music)"
+  - "Folk songs with gajda (bagpipe) and kaval (flute)"
+cuisine:
+  national_dish: "Tavče gravče (baked beans)"
+  popular_foods: ["Ajvar (roasted pepper spread)", "Kebapi (grilled meat sausages)", "Burek (phyllo pastry pie)"]
+  drinks: ["Rakija (fruit brandy)", "Macedonian wine"]
+festivals:
+  - name: "Ohrid Summer Festival"
+    type: "music and theater"
+    month: "July-August"
+  - name: "Skopje Jazz Festival"
+    month: "October"
+famous_figures:
+  - "Mother Teresa (born in Skopje, 1910)"
+  - "Milčo Mančevski (film director, Golden Lion winner)"
+sports:
+  popular: ["Football", "Handball", "Basketball"]
+  olympic_medals: 2 (wrestling, 2000 Sydney)

@@ -1,0 +1,19 @@
+# Political system and leadership
+system: "Parliamentary republic"
+head_of_state:
+  title: "President"
+  name: "Gordana Siljanovska-Davkova"
+  term_start: "2024-05-12"
+head_of_government:
+  title: "Prime Minister"
+  name: "Hristijan Mickoski"
+  term_start: "2024-06-28"
+legislature:
+  name: "Sobranie"
+  type: "unicameral"
+  seats: 120
+  last_election: "2024-05-08"
+judiciary:
+  highest_court: "Supreme Court of North Macedonia"
+  constitutional_court: "Constitutional Court of North Macedonia"
+administrative_divisions: 80 municipalities + 1 city (Skopje)

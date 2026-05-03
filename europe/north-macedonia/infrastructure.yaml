@@ -1,0 +1,20 @@
+# Infrastructure and utilities
+transport:
+  airports:
+    - "Skopje International Airport"
+    - "Ohrid St. Paul the Apostle Airport"
+  railways_km: 699
+  highways_km: 14400
+  major_highways:
+    - "M1 (part of E75 corridor)"
+    - "M2 (part of E65 corridor)"
+energy:
+  electricity_sources:
+    thermal_coal: 60
+    hydro: 35
+    renewables: 5
+  oil_imports: 100 # no domestic production
+telecommunications:
+  internet_penetration_percent: 85.2
+  mobile_subscriptions_per_100: 110.5
+  broadband_speed_mbps_avg: 45
