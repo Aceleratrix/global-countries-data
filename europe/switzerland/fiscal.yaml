@@ -1,0 +1,19 @@
+# Switzerland Fiscal System Data (source: Swiss Federal Finance Administration 2024)
+country_code: "CH"
+country_name: "Switzerland"
+fiscal_year: "Calendar year (January 1 - December 31)"
+tax_system: "Federal, cantonal, and municipal taxes (three levels)"
+main_taxes:
+  - "Federal direct tax (progressive, up to 11.5%)"
+  - "Cantonal and municipal income tax (varies by canton, up to 25%)"
+  - "Value-added tax (VAT): 7.7% standard rate, 2.5% reduced rate (food, books), 3.7% special rate (hotel stays)"
+  - "Corporate income tax: 12-24% effective rate (varies by canton)"
+  - "Wealth tax (cantonal, 0.2-1.0% of net wealth)"
+government_revenue_2024_usd: 285000000000
+government_debt_percent_gdp: 41.2% (2024)
+main_revenue_sources:
+  - "Social security contributions (35%)"
+  - "Income and profit taxes (32%)"
+  - "VAT and consumption taxes (18%)"
+  - "Other (15%)"
+tax_treaties: "Over 100 double taxation treaties with foreign countries"

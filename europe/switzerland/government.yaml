@@ -1,0 +1,26 @@
+# Switzerland Government Data (source: Swiss Federal Chancellery 2026)
+country_code: "CH"
+country_name: "Switzerland"
+official_name: "Swiss Confederation"
+government_type: "Federal directorial republic with direct democracy"
+federal_structure:
+  - 26 cantons (20 full cantons, 6 half-cantons)
+  - 2,148 municipalities (2024)
+head_of_state:
+  title: "President of the Swiss Confederation"
+  name: "Guy Parmelin"
+  term: "2026 (1-year rotating presidency)"
+legislature:
+  name: "Federal Assembly"
+  chambers:
+    - name: "National Council (Nationalrat)"
+      seats: 200
+      election_cycle: 4 years
+    - name: "Council of States (Ständerat)"
+      seats: 46
+      representation: "2 per canton, 1 per half-canton"
+executive:
+  name: "Federal Council (Bundesrat)"
+  members: 7
+  election: "Elected by Federal Assembly for 4-year terms"
+political_system_notes: "Consensus-based government, no single party holds majority; direct democracy allows citizens to propose constitutional amendments via popular initiative"

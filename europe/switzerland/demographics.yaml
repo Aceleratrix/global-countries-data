@@ -1,0 +1,40 @@
+# Switzerland Demographics Data (source: Swiss Federal Statistical Office 2024)
+country_code: "CH"
+country_name: "Switzerland"
+population:
+  total_2024: 8795166
+  density_per_km2: 213
+  growth_rate_2023: 0.8%
+age_structure:
+  under_15: 15.2%
+  15_to_64: 64.1%
+  65_and_over: 20.7%
+urbanization:
+  urban_population: 74.2%
+  rural_population: 25.8%
+largest_cities:
+  - name: "Zürich"
+    population: 434008
+  - name: "Geneva"
+    population: 203856
+  - name: "Basel"
+    population: 175817
+  - name: "Lausanne"
+    population: 140636
+  - name: "Bern"
+    population: 134794
+life_expectancy:
+  total: 83.9 years
+  male: 81.9 years
+  female: 85.8 years
+languages:
+  german: 62.3%
+  french: 22.6%
+  italian: 8.0%
+  romansh: 0.5%
+  other: 6.6%
+religion:
+  christian: 64.0%
+  muslim: 5.4%
+  other: 6.4%
+  no_religion: 24.2%

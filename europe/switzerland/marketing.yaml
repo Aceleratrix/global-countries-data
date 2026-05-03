@@ -1,0 +1,33 @@
+# Switzerland Marketing & Consumer Data (source: Swiss Media Research Institute 2024)
+country_code: "CH"
+country_name: "Switzerland"
+consumer_market:
+  total_consumer_spending_2024_usd: 520000000000
+  disposable_income_per_capita_usd: 48500
+  inflation_rate_2024: 1.4%
+media_landscape:
+  tv_penetration: 95%
+  radio_penetration: 89%
+  internet_penetration: 98.2%
+  social_media_users_percent_population: 78%
+top_social_platforms:
+  - "WhatsApp (92% of internet users)"
+  - "Facebook (65%)"
+  - "Instagram (58%)"
+  - "LinkedIn (42%)"
+  - "TikTok (35%)"
+advertising_spend_2024_usd: 5.8 billion
+  tv: 32%
+  digital: 41%
+  print: 15%
+  outdoor: 8%
+  radio: 4%
+key_consumer_traits:
+  - "High purchasing power, premium brand preference"
+  - "Multilingual market (German, French, Italian, Romansh segments)"
+  - "Strong environmental awareness (sustainable products preferred)"
+  - "High trust in Swiss-made brands"
+main_retail_channels:
+  - "Supermarkets (Migros, Coop: 70% market share)"
+  - "E-commerce (28% of retail sales 2024)"
+  - "Specialty stores"

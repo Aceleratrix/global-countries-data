@@ -1,0 +1,24 @@
+# Switzerland Financial System Data (source: Swiss National Bank 2024)
+country_code: "CH"
+country_name: "Switzerland"
+currency: "Swiss franc (CHF)"
+central_bank: "Swiss National Bank (SNB)"
+key_financial_centers:
+  - "Zürich (largest financial hub)"
+  - "Geneva (private banking hub)"
+banking_system:
+  - "Large banks: UBS (merged with Credit Suisse 2023), PostFinance"
+  - "Cantonal banks: 24 publicly owned cantonal banks"
+  - "Regional and retail banks"
+  - "Foreign banks: ~250 branches"
+total_banking_assets_usd: 4.2 trillion (2024)
+private_wealth_management:
+  - "Largest global hub for cross-border wealth management (25% global market share)"
+  - "Assets under management: ~2.3 trillion CHF (2024)"
+stock_exchange: "SIX Swiss Exchange (Zürich, largest in Switzerland)"
+main_financial_regulators:
+  - "Swiss Financial Market Supervisory Authority (FINMA)"
+  - "Swiss National Bank (SNB)"
+insurance_sector:
+  - "Total premiums: 85 billion CHF (2024)"
+  - "Major insurers: Zurich Insurance Group, Swiss Re, Helvetia"

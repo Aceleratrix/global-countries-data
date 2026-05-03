@@ -1,0 +1,23 @@
+# Switzerland Legal System Data (source: Swiss Federal Office of Justice 2024)
+country_code: "CH"
+country_name: "Switzerland"
+legal_system: "Civil law system based on German, French, and Italian models; federal system with cantonal variations"
+constitution:
+  current: "Federal Constitution of 1999 (last amended 2023)"
+  key_principles: "Federalism, direct democracy, separation of powers, human rights protection"
+court_structure:
+  - "Federal Supreme Court (Tribunal Fédéral, Lausanne)"
+  - "Federal Criminal Court (Bellinzona)"
+  - "Federal Administrative Court (St. Gallen)"
+  - "Federal Patent Court (St. Gallen)"
+  - "Cantonal courts (26 cantons)"
+  - "Municipal courts"
+key_federal_laws:
+  - "Swiss Civil Code (ZGB)"
+  - "Swiss Code of Obligations (OR)"
+  - "Swiss Penal Code (StGB)"
+  - "Federal Act on Data Protection (FADP, revised 2023)"
+  - "Federal Act on Cartels and Unfair Competition"
+  - "Swiss Criminal Procedure Code"
+legal_aid: "Available to low-income residents, provided by cantons"
+international_court_membership: "International Court of Justice, European Court of Human Rights (member since 1974)"

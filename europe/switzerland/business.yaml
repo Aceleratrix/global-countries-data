@@ -1,0 +1,33 @@
+# Switzerland Business Environment Data (source: Swiss State Secretariat for Economic Affairs 2024)
+country_code: "CH"
+country_name: "Switzerland"
+business_environment:
+  ranking_ease_of_doing_business: 36 (World Bank 2020, latest full assessment)
+  starting_a_business_days: 5
+  dealing_with_construction_permits_days: 105
+  getting_electricity_days: 28
+  registering_property_days: 2
+  getting_credit_strength: 8 (out of 12)
+  protecting_minority_investors_strength: 6 (out of 10)
+  paying_taxes_hours_per_year: 63
+  trading_across_borders_hours_export: 5
+  enforcing_contracts_days: 390
+  resolving_insolvency_years: 1.5
+key_business_regulations:
+  - "Federal Act on Cartels and Unfair Competition"
+  - "Swiss Code of Obligations"
+  - "Federal Act on Financial Market Infrastructures"
+  - "Swiss VAT Act"
+main_business_hubs:
+  - "Zürich"
+  - "Geneva"
+  - "Basel"
+  - "Lausanne"
+  - "Bern"
+foreign_direct_investment_2024_usd: 185000000000
+largest_companies_hq:
+  - "Nestlé (Vevey)"
+  - "Novartis (Basel)"
+  - "Roche (Basel)"
+  - "UBS (Zürich)"
+  - "Credit Suisse (Zürich, merged into UBS 2023)"

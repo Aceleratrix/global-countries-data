@@ -1,0 +1,27 @@
+# Switzerland Technology Data (source: Swiss Federal Statistical Office 2024)
+country_code: "CH"
+country_name: "Switzerland"
+tech_infrastructure:
+  internet_penetration: 98.2%
+  broadband_subscription_per_100: 45.3
+  5g_coverage_population: 98%
+  fixed_broadband_speed_avg_mbps: 152.4
+  mobile_broadband_speed_avg_mbps: 68.7
+rd_spending_percent_gdp: 3.4% (2023, highest in Europe)
+top_tech_sectors:
+  - "Pharmaceuticals & biotechnology"
+  - "Precision manufacturing"
+  - "Financial technology (FinTech)"
+  - "Clean energy technology"
+  - "Artificial intelligence research"
+key_tech_hubs:
+  - "Zürich (ETH Zürich, Google Research)"
+  - "Lausanne (EPFL, Swiss Tech Convention Center)"
+  - "Basel (Biotech cluster)"
+  - "Geneva (CERN, international tech orgs)"
+notable_tech_companies:
+  - "ABB (Zürich, robotics & automation)"
+  - "Logitech (Lausanne, computer peripherals)"
+  - "Sophia Genetics (Saint-Sulpice, health tech)"
+  - "MindMaze (Lausanne, neurotech)"
+patents_per_million_population: 945 (2023, world top 5)

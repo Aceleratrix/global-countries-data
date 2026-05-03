@@ -1,0 +1,24 @@
+# Switzerland Telecommunications Data (source: Swiss Federal Office of Communications 2024)
+country_code: "CH"
+country_name: "Switzerland"
+telecom_infrastructure:
+  mobile_subscriptions_per_100: 128
+  internet_users_percent_population: 98.2%
+  fixed_broadband_subscriptions_per_100: 45.3
+  fiber_coverage_population: 67%
+  5g_network_coverage: 98% (population)
+  average_mobile_data_price_1gb_usd: 0.65
+main_telecom_providers:
+  - "Swisscom (51% state-owned)"
+  - "Sunrise (private)"
+  - "Salt (private)"
+telecom_regulator: "Federal Office of Communications (OFCOM)"
+internet_domains:
+  - ".ch (official, Confederation)"
+  - ".swiss (official, Swiss-specific)"
+calling_code: "+41"
+mobile_network_standards: "GSM 900/1800, UMTS, LTE, 5G"
+broadcasting:
+  tv_households_cable: 62%
+  tv_households_iptv: 28%
+  tv_households_satellite: 10%

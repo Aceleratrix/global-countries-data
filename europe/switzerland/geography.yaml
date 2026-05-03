@@ -1,0 +1,40 @@
+# Switzerland Geography Data (source: Swiss Federal Office of Topography 2024)
+country_code: "CH"
+country_name: "Switzerland"
+area_total_km2: 41285
+land_km2: 39516
+water_km2: 1769
+continent: "Europe"
+region: "Central Europe"
+borders:
+  - country: "Germany"
+    length_km: 348
+  - country: "France"
+    length_km: 573
+  - country: "Italy"
+    length_km: 740
+  - country: "Austria"
+    length_km: 158
+  - country: "Liechtenstein"
+    length_km: 41
+highest_point:
+  name: "Monte Rosa (Dufourspitze)"
+  elevation_m: 4634
+lowest_point:
+  name: "Lake Maggiore (shore)"
+  elevation_m: 193
+climate: "Temperate, alpine in mountainous regions, continental in lowlands"
+major_rivers:
+  - "Rhine"
+  - "Rhône"
+  - "Inn"
+  - "Ticino"
+major_lakes:
+  - "Lake Geneva (Lac Léman)"
+  - "Lake Constance (Bodensee)"
+  - "Lake Neuchâtel"
+  - "Lake Lucerne"
+topographic_regions:
+  - "Swiss Plateau (Mittelland)"
+  - "Alps"
+  - "Jura Mountains"
