@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (159 / 195 = 81.5%)
+## 📊 Coverage Progress (160 / 195 = 82.1%)
 
 ### 🌎 South America (8/12 = 66.7%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -251,7 +251,7 @@ global-countries-data/
 │   └── usa/                # 🇺🇸 100% COMPLETE (13 files)
 │       └── ... (same structure as brazil)
 │
-├── asia/                  # 🌏 21/50 countries (42.0%)
+├── asia/                  # 🌏 23/50 countries (46.0%)
 │   ├── japan/            # 🇯🇵 100% COMPLETE (14 files)
 │   ├── china/            # 🇨🇳 100% COMPLETE (13 files)
 │   ├── india/            # 🇮🇳 100% COMPLETE (13 files)
