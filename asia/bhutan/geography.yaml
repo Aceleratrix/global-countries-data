@@ -1,0 +1,11 @@
+region: "Eastern Himalayas"
+borders:
+  - "China (Tibet Autonomous Region)"
+  - "India"
+highest_peak: "Gangkhar Puensum (7,570 m)"
+lowest_point: "Drangme Chhu (97 m)"
+climate_zones:
+  - "Subtropical (south)"
+  - "Temperate (central)"
+  - "Alpine (north)"
+forest_cover_percent: 71

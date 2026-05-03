@@ -1,0 +1,17 @@
+health_expenditure_percent_gdp: 3.5
+health_expenditure_year: 2023
+life_expectancy_years: 72.7
+infant_mortality_per_1000_live_births: 18
+healthcare_system: "Universal healthcare funded by government"
+healthcare_infrastructure:
+  - "Central hospitals in Thimphu, Gelephu, Mongar"
+  - "District hospitals in all 20 dzongkhags"
+  - "Basic health units in rural areas"
+key_challenges:
+  - "Limited specialists in rural areas"
+  - "Rising non-communicable diseases (diabetes, hypertension)"
+  - "Tropical diseases in southern regions (malaria, dengue)"
+immunization_coverage_percent: 95
+major_diseases_prevalence:
+  - "Diabetes: 8% of adult population"
+  - "Hypertension: 25% of adult population"

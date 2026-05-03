@@ -1,0 +1,10 @@
+gdp_nominal_usd_2023: 2800000000
+gdp_per_capita_usd_2023: 3600
+main_industries:
+  - "Agriculture"
+  - "Forestry"
+  - "Hydropower"
+  - "Tourism"
+unemployment_rate_percent_2023: 3.7
+gni_per_capita_usd_2023: 3200
+primary_development_metric: "Gross National Happiness (GNH)"

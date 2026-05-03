@@ -1,0 +1,9 @@
+system: "Constitutional Monarchy"
+constitution_adopted: 2008
+monarch_title: "Druk Gyalpo (Dragon King)"
+current_monarch: "Jigme Khesar Namgyel Wangchuck"
+current_prime_minister: "Lotay Tshering"
+parliament_type: "Bicameral"
+  - "National Assembly (lower house)"
+  - "National Council (upper house)"
+voting_age: 18
