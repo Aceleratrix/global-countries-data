@@ -1,0 +1,11 @@
+gdp_nominal_usd_2023: 15000000000
+gdp_per_capita_usd_2023: 2200
+main_industries:
+  - "Agriculture (coffee, sugar, bananas, rice)"
+  - "Textiles"
+  - "Tourism"
+  - "Mining (gold, silver)"
+gdp_growth_rate_2023: 3.5
+unemployment_rate_2023: 4.8
+currency: "Córdoba (NIO)"
+exchange_rate_usd_to_nio_2024: 36.5

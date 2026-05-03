@@ -1,0 +1,13 @@
+area_km2: 130375
+borders:
+  - "Honduras"
+  - "Costa Rica"
+coastline_km: 910
+coastline_bodies:
+  - "Pacific Ocean"
+  - "Caribbean Sea"
+highest_point: "Mogotón Peak"
+highest_point_elevation_m: 2107
+lowest_point: "Pacific Ocean (0 m)"
+climate: "Tropical in lowlands, temperate in highlands"
+terrain: "Coastal plains, central highlands, volcanic ranges"

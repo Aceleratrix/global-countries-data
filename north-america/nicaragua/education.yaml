@@ -1,0 +1,8 @@
+literacy_rate_percent: 83.2
+primary_education_free: true
+secondary_education_free: true
+tertiary_institutions:
+  - "National Autonomous University of Nicaragua (UNAN-Managua)"
+  - "Central American University (UCA)"
+school_enrollment_primary_percent: 92
+school_enrollment_secondary_percent: 65

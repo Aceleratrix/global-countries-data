@@ -1,0 +1,11 @@
+total_roads_km: 25000
+paved_roads_percent: 30
+major_highways:
+  - "Pan-American Highway"
+international_airports:
+  - "Augusto C. Sandino International Airport (Managua)"
+major_ports:
+  - "Corinto (Pacific)"
+  - "Bluefields (Caribbean)"
+internet_penetration_percent: 45
+electricity_access_percent: 85

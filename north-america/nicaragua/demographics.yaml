@@ -1,0 +1,17 @@
+population_2023: 6850000
+population_density_km2: 52.5
+ethnic_groups:
+  mestizo: 69
+  white: 17
+  black: 9
+  indigenous: 5
+languages:
+  spanish: 95
+  miskito: 3
+  other_indigenous: 2
+religions:
+  catholic: 50
+  protestant: 33
+  other: 17
+life_expectancy_years: 74.2
+infant_mortality_per_1000: 18.1

@@ -1,0 +1,14 @@
+national_symbols:
+  flag: "Three horizontal stripes (blue, white, blue) with coat of arms"
+  anthem: "Salve a ti, Nicaragua"
+  flower: "Cyclamen"
+  tree: "Madroño"
+major_festivals:
+  - "La Purísima (December)"
+  - "Palo de Mayo (May)"
+  - "San Jerónimo Festival (September)"
+traditional_cuisine:
+  - "Gallo pinto (rice and beans)"
+  - "Nacatamal (corn dough stuffed with meat)"
+  - "Vigorón (yuca, pork, cabbage)"
+traditional_music: "Marimba, Palo de Mayo, Garifuna drumming"

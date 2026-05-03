@@ -1,0 +1,12 @@
+government_type: "Unitary presidential republic"
+current_president: "Daniel Ortega"
+current_vice_president: "Rosario Murillo"
+legislature: "National Assembly"
+legislature_seats: 92
+main_political_parties:
+  - "Sandinista National Liberation Front (FSLN)"
+  - "Independent Liberal Party (PLI)"
+  - "Constitutionalist Liberal Party (PLC)"
+last_election_year: 2021
+independence_year: 1821
+independence_from: "Spain"

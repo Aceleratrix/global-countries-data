@@ -1,0 +1,10 @@
+healthcare_system: "Public and private mix"
+public_healthcare_provider: "Ministry of Health (MINSA)"
+life_expectancy_years: 74.2
+infant_mortality_per_1000: 18.1
+physicians_per_1000_people: 1.1
+hospital_beds_per_1000_people: 1.3
+major_diseases:
+  - "Dengue fever"
+  - "Malaria (in Caribbean lowlands)"
+  - "COVID-19"

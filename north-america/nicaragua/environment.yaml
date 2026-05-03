@@ -1,0 +1,11 @@
+forest_cover_percent: 25
+protected_areas_percent: 18
+major_protected_areas:
+  - "Bosawás Biosphere Reserve (UNESCO)"
+  - "Indio Maíz Biological Reserve"
+biodiversity: "High (tropical rainforests, cloud forests)"
+environmental_issues:
+  - "Deforestation"
+  - "Water pollution"
+  - "Soil erosion"
+climate_change_impact: "Increased hurricane intensity, coastal flooding"
