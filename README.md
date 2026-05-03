@@ -174,7 +174,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇨🇻 **Cabo Verde** | 13/13 | ✅ **100% COMPLETE** | 158th largest economy ($0.0022T), Praia (capital), Atlantic island nation, SIDS status, tourism 25% GDP, Creole culture | Portuguese (pt-CV) + Cape Verdean Creole |
 | 🇳🇪 **Niger** | 13/13 | ✅ **100% COMPLETE** | 96th largest economy ($0.12T), Niamey (capital), Sahel region, uranium superpower (4th largest reserves), 26.3M population, 80% Sahara Desert | French (fr-NE) + English |
 
-### 🌏 Oceania (6/14 = 42.9%)
+### 🌏 Oceania (7/14 = 50.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇦🇺 **Australia** | 13/13 | ✅ **100% COMPLETE** | Big 4 banks, Canva $40B, AI Action Plan $124M, 92% digital banking, APEC | English (en-AU) |
@@ -184,8 +184,9 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇻🇺 **Vanuatu** | 13/13 | ✅ **100% COMPLETE** | 127th largest economy ($0.07T), Port Vila (capital), 80+ islands, Melanesia, 324K population | English (en-VU) + Bislama/French |
 | 🇹🇴 **Tonga** | 13/13 | ✅ **100% COMPLETE** | 171 islands (45 inhabited), only sovereign monarchy in Oceania, Nuku'alofa (capital), 107K population | English (en-TO) + Tongan |
 | 🇼🇸 **Samoa** | 13/13 | ✅ **100% COMPLETE** | 170th largest economy ($0.002T), Apia (capital), Upolu/Savai'i islands, 202k population, UTC+13 | English (en-WS) + Samoan |
+| 🇲🇭 **Marshall Islands** | 13/13 | ✅ **100% COMPLETE** | 29 atolls + 5 islands, Majuro (capital), US Compact of Free Association, nuclear test site history, 42K population | English (en-MH) + Marshallese |
 
-**Total: 401 structured YAML files covering 31 countries across 5 continents!**
+**Total: 32 countries across 6 continents!**
 
 ---
 
@@ -276,7 +277,7 @@ global-countries-data/
 │   └── italy/            # 🇮🇹 100% COMPLETE (13 files)
 │
 ├── africa/                # 🌍 2/54 countries (3.7%) - South Sudan ✅ 100% COMPLETE!
-├── oceania/              # 🌏 5/14 countries (35.7%) - Tonga ✅ 100% COMPLETE!
+├── oceania/              # 🌏 7/14 countries (50.0%) - Marshall Islands ✅ 100% COMPLETE!
 │
 ├── schemas/              # JSON Schema validation
 ├── scripts/              # Python validation scripts (not in git - local only)
