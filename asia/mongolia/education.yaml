@@ -1,0 +1,9 @@
+literacy_rate_percent: 99.2
+education_system: "4 years primary, 4 years lower secondary, 2 years upper secondary, 4 years tertiary"
+compulsory_education_ages: "6-17"
+number_of_universities: 68
+top_universities:
+  - "National University of Mongolia"
+  - "Mongolian University of Science and Technology"
+  - "Mongolian State University of Education"
+public_education_spending_percent_gdp: 4.8

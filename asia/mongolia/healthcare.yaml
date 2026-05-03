@@ -1,0 +1,10 @@
+healthcare_system: "Universal public healthcare system, with private providers available"
+life_expectancy_years: 70.3
+infant_mortality_rate_per_1000_live_births: 14.2
+physicians_per_1000_people: 2.8
+hospital_beds_per_1000_people: 4.5
+public_healthcare_spending_percent_gdp: 3.2
+major_health_challenges:
+  - "Infectious diseases (tuberculosis, hepatitis)"
+  - "Non-communicable diseases (cardiovascular disease, cancer)"
+  - "Maternal and child health in rural areas"

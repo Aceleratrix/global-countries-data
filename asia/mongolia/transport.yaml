@@ -1,0 +1,10 @@
+total_road_length_km: 49200
+paved_road_length_km: 8120
+railway_length_km: 1815
+major_railway_lines: "Trans-Mongolian Railway (connects Russia and China)"
+airports: 44
+major_airports:
+  - "Chinggis Khaan International Airport (Ulaanbaatar)"
+  - "Khovd Airport"
+  - "Dalanzadgad Airport"
+public_transport: "Buses, minibuses, taxis in urban areas; horses and camels in rural areas"

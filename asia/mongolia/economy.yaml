@@ -1,0 +1,20 @@
+gdp_nominal_2024_usd: 17600000000
+gdp_per_capita_2024_usd: 5120
+gdp_growth_rate_2024: 5.2
+inflation_rate_2024: 8.1
+unemployment_rate_2024: 6.8
+major_industries:
+  - "Mining (coal, copper, gold)"
+  - "Agriculture (livestock, wheat, barley)"
+  - "Tourism"
+  - "Manufacturing (textiles, food processing)"
+main_exports:
+  - "Coal"
+  - "Copper ore"
+  - "Gold"
+  - "Livestock products"
+main_imports:
+  - "Machinery"
+  - "Fuel"
+  - "Food products"
+  - "Consumer goods"

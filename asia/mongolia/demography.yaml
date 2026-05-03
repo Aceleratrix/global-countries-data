@@ -1,0 +1,16 @@
+population_2024: 3440000
+population_growth_rate_2024: 1.4
+birth_rate_2024: 18.6
+death_rate_2024: 6.2
+life_expectancy_years: 70.3
+urban_population_percent: 68.5
+major_ethnic_groups:
+  - "Khalkha Mongol (82%)"
+  - "Kazakh (4%)"
+  - "Other Mongolian ethnic groups (14%)"
+religions:
+  - "Buddhism (53%)"
+  - "Non-religious (38%)"
+  - "Islam (3%)"
+  - "Shamanism (2%)"
+  - "Christianity (2%)"

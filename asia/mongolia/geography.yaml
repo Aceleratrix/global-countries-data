@@ -1,0 +1,17 @@
+continent: "Asia"
+region: "East Asia"
+borders:
+  - "Russia"
+  - "China"
+terrain: "Vast semi-desert and desert plains, mountains in the west and north, Gobi Desert in the south"
+highest_point: "Khüiten Peak (4,374 m)"
+lowest_point: "Hoh Nuur (560 m)"
+climate: "Extreme continental; long, cold winters and short, cool to hot summers"
+natural_resources:
+  - "Coal"
+  - "Copper"
+  - "Gold"
+  - "Oil"
+  - "Uranium"
+  - "Tin"
+  - "Tungsten"
