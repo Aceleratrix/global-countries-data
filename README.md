@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (131 / 195 = 67.2%)
+## 📊 Coverage Progress (132 / 195 = 67.7%)
 
 ### 🌎 South America (7/12 = 58.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -122,7 +122,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇦🇩 **Andorra** | 13/13 | ✅ **100% COMPLETE** | 177th largest economy ($0.05T), Andorra la Vella (capital), landlocked Pyrenees microstate, 79K population, Catalan official language | English (en-US) |
 | 🇲🇨 **Monaco** | 13/13 | ✅ **100% COMPLETE** | 179th largest economy ($0.05T), Monaco (capital), city-state on French Riviera, 36K population, highest population density globally | English (en-US) |
 
-### 🌍 Africa (29/54 = 53.7%)
+### 🌍 Africa (30/54 = 55.6%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇳🇬 **Nigeria** | 13/13 | ✅ **100% COMPLETE** | 28th largest economy ($0.48T), Africa's most populous (223M), fintech leader (4 unicorns), Nollywood | English (en-NG) |
@@ -154,6 +154,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇬🇦 **Gabon** | 13/13 | ✅ **100% COMPLETE** | 153rd largest economy ($0.05T), Libreville (capital), Middle Africa, 85% forest cover, Central African CFA franc | French (fr-GA) + English |
 | 🇪🇷 **Eritrea** | 13/13 | ✅ **100% COMPLETE** | 160th largest economy ($0.05T), Asmara (capital, UNESCO World Heritage Site), borders Djibouti/Ethiopia/Sudan, 3.5M population | English (en-ER) + Tigrinya/Arabic |
 | 🇸🇨 **Seychelles** | 13/13 | ✅ **100% COMPLETE** | 161st largest economy ($0.05T), Victoria (capital), Indian Ocean archipelago, no land borders, 122.7K population | English (en-SC) + Seychellois Creole + French |
+| 🇸🇸 **South Sudan** | 13/13 | ✅ **100% COMPLETE** | 162nd largest economy ($0.05T), Juba (capital), youngest African country (2011 independence), oil exports 90% revenue, 11M population, Sudd wetland (Ramsar site) | English (en-SS) + 60+ indigenous languages |
 
 ### 🌏 Oceania (5/14 = 35.7%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -254,7 +255,7 @@ global-countries-data/
 │   ├── france/           # 🇫🇷 100% COMPLETE (13 files)
 │   └── italy/            # 🇮🇹 100% COMPLETE (13 files)
 │
-├── africa/                # 🌍 1/54 countries (1.9%) - Comoros ✅ 100% COMPLETE!
+├── africa/                # 🌍 2/54 countries (3.7%) - South Sudan ✅ 100% COMPLETE!
 ├── oceania/              # 🌏 4/14 countries (28.6%) - Solomon Islands ✅ 100% COMPLETE!
 │
 ├── schemas/              # JSON Schema validation
