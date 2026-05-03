@@ -1,0 +1,24 @@
+# Education indicators for Venezuela (Bolivarian Republic of Venezuela)
+# Data sources: UNESCO, World Bank, UNDP (2018-2022 estimates)
+education:
+  literacy_rate:
+    adult_total: 97.1 # percent, 2011, UNESCO
+    youth_15_24: 98.5 # percent, 2018, UNESCO
+  school_completion_rate:
+    primary: 89 # percent, 2018, UNESCO
+    secondary: 65 # percent, 2018, UNESCO
+    tertiary: 37 # percent, 2018, UNESCO
+  enrollment_rate:
+    pre_primary: 82 # percent, 2019, UNESCO
+    primary: 94 # percent, 2019, UNESCO
+    secondary: 68 # percent, 2019, UNESCO
+    tertiary: 37 # percent, 2018, World Bank
+  expenditure:
+    percent_of_gdp: 6.2 # 2018, World Bank
+    percent_of_total_government_expenditure: 12.4 # 2020, UNESCO
+  attainment:
+    mean_years_of_schooling: 10.8 # years, 2019, UNDP
+    expected_years_of_schooling: 13.1 # years, 2019, UNDP
+  higher_education:
+    universities_total: 42 # public + private, 2022, Ministry of Higher Education
+    tertiary_graduation_rate: 28 # percent, 2018, UNESCO

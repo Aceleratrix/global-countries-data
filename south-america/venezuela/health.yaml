@@ -1,0 +1,23 @@
+# Health indicators for Venezuela (Bolivarian Republic of Venezuela)
+# Data sources: World Bank, WHO, UNICEF (2022-2023 estimates)
+health:
+  life_expectancy_at_birth:
+    total: 72.3 # years (2022, World Bank)
+    male: 69.1
+    female: 75.6
+  infant_mortality_rate: 13.4 # per 1000 live births (2022, World Bank)
+  health_expenditure:
+    percent_of_gdp: 3.8 # 2020, World Bank
+    percent_of_total_government_expenditure: 8.2 # 2020, WHO
+  human_resources:
+    physicians_per_1000_people: 1.9 # 2019, WHO
+    nurses_per_1000_people: 2.1 # 2019, WHO
+  infrastructure:
+    hospital_beds_per_1000_people: 1.5 # 2017, WHO
+    health_centers_per_100000_people: 24.3 # 2021, Ministry of Health
+  covid_19:
+    fully_vaccinated_percent: 70 # 2023, WHO
+    total_vaccine_doses_administered: 38_000_000 # 2023 estimate
+  diseases:
+    hiv_prevalence_percent: 0.5 # 2022, UNAIDS
+    tuberculosis_incidence_per_100000: 34 # 2022, WHO
