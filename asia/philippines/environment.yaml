@@ -1,0 +1,11 @@
+forest_cover_2023_percent: 23
+deforestation_rate_percent_per_year: 0.3
+protected_areas_percent_total_land: 12
+biodiversity: "One of the 17 megadiverse countries; home to 5% of global flora and fauna, 700+ bird species, 200+ mammal species"
+major_environmental_issues:
+  - "Deforestation"
+  - "Air pollution in urban areas"
+  - "Water pollution"
+  - "Climate change (typhoons, sea level rise)"
+  - "Mining impacts"
+ghg_emissions_2023_million_tons_co2e: 180

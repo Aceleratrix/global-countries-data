@@ -1,0 +1,25 @@
+population_2023: 114163719
+population_2024_estimate: 115000000
+growth_rate_2023: 1.63
+birth_rate_per_1000: 18.6
+death_rate_per_1000: 6.7
+life_expectancy:
+  total: 72.5
+  male: 69.8
+  female: 75.3
+urban_population_percent: 47.3
+rural_population_percent: 52.7
+ethnic_groups:
+  - "Tagalog (28%)"
+  - "Cebuano (13%)"
+  - "Ilocano (9%)"
+  - "Visayan (7.5%)"
+  - "Hiligaynon (7.5%)"
+  - "Bikol (5%)"
+  - "Other (30%)"
+religion:
+  - "Roman Catholic (78.8%)"
+  - "Protestant (10.8%)"
+  - "Islam (6.4%)"
+  - "Other (3.1%)"
+  - "None (0.9%)"

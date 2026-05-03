@@ -1,0 +1,45 @@
+country_name: "Republic of the Philippines"
+common_name: "Philippines"
+iso_alpha2: "PH"
+iso_alpha3: "PHL"
+iso_numeric: "608"
+un_member: true
+independence_date: "1946-07-04"
+from_country: "United States"
+capital:
+  official: "Manila"
+  administrative: "Metro Manila (National Capital Region)"
+area_sq_km: 300000
+area_sq_mi: 115831
+population_2023: 114163719
+currency_code: "PHP"
+currency_name: "Philippine Peso"
+currency_symbol: "₱"
+languages:
+  official:
+    - "Filipino"
+    - "English"
+  regional:
+    - "Cebuano"
+    - "Ilocano"
+    - "Hiligaynon"
+    - "Waray"
+    - "Kapampangan"
+    - "Pangasinan"
+    - "Bikol"
+    - "Ilonggo"
+    - "Surigaonon"
+    - "Tausug"
+    - "Maguindanao"
+    - "Maranao"
+    - "Ibanag"
+    - "Itbayat"
+    - "Ivatan"
+    - "Kalinga"
+    - "Ifugao"
+    - "Kankanaey"
+    - "Bontok"
+time_zone: "UTC+8"
+calling_code: "+63"
+tld: ".ph"
+driving_side: "right"

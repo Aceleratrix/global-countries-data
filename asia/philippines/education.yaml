@@ -1,0 +1,11 @@
+literacy_rate_percent: 98.3
+education_system: "K-12 (Kindergarten, 6 years elementary, 4 years junior high, 2 years senior high)"
+enrollment_rate_primary_percent: 95
+enrollment_rate_secondary_percent: 88
+enrollment_rate_tertiary_percent: 36
+top_universities:
+  - "University of the Philippines Diliman"
+  - "Ateneo de Manila University"
+  - "De La Salle University"
+  - "University of Santo Tomas"
+government_education_spending_2023_percent_gdp: 4.2

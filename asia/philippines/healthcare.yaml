@@ -1,0 +1,12 @@
+healthcare_system: "Mixed public-private system; universal healthcare under the Universal Health Care Act (2019)"
+life_expectancy_total: 72.5
+infant_mortality_per_1000_live_births: 19.1
+physicians_per_1000_people: 1.2
+hospital_beds_per_1000_people: 4.3
+major_diseases:
+  - "Respiratory infections"
+  - "Diarrhea"
+  - "Tuberculosis"
+  - "Dengue fever"
+covid_19_total_cases_2024: 4100000
+covid_19_total_deaths_2024: 66000

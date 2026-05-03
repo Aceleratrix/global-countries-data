@@ -1,0 +1,22 @@
+transport:
+  airports: 249
+  major_airports:
+    - "Ninoy Aquino International Airport (Manila)"
+    - "Mactan-Cebu International Airport"
+    - "Clark International Airport"
+  railways_km: 77
+  roads_total_km: 216000
+  roads_paved_km: 140000
+energy:
+  electricity_access_percent: 94
+  renewable_energy_share_2023_percent: 29
+  main_sources:
+    - "Coal (50%)"
+    - "Geothermal (15%)"
+    - "Hydro (10%)"
+    - "Natural gas (10%)"
+    - "Solar/Wind (4%)"
+telecommunications:
+  internet_penetration_2023_percent: 68
+  mobile_subscriptions_per_100_people: 112
+  broadband_subscriptions_per_100_people: 18

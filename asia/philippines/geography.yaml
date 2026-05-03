@@ -1,0 +1,22 @@
+region: "Southeast Asia"
+subregion: "Maritime Southeast Asia"
+coordinates: "13.0000° N, 122.0000° E"
+terrain: "Archipelago of 7,641 islands, mostly mountainous with narrow coastal plains"
+highest_point:
+  name: "Mount Apo"
+  elevation_m: 2954
+  elevation_ft: 9692
+lowest_point:
+  name: "Philippine Sea"
+  elevation_m: 0
+  elevation_ft: 0
+climate: "Tropical rainforest (Köppen: Af), tropical monsoon (Am), and tropical savanna (Aw)"
+natural_resources:
+  - "Minerals (gold, copper, nickel, chromite)"
+  - "Timber"
+  - "Petroleum"
+  - "Natural gas"
+  - "Hydroelectric potential"
+borders: []
+coastline_km: 36289
+coastline_mi: 22549

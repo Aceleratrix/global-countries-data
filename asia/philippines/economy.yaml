@@ -1,0 +1,27 @@
+gdp_nominal_2023_usd: 437000000000
+gdp_per_capita_2023_usd: 3840
+gdp_growth_2023_percent: 5.6
+inflation_rate_2023_percent: 6.1
+unemployment_rate_2023_percent: 4.3
+labor_force_2023: 46500000
+main_industries:
+  - "Electronics assembly"
+  - "Business process outsourcing (BPO)"
+  - "Agriculture (rice, corn, coconut, sugarcane)"
+  - "Mining"
+  - "Tourism"
+exports_2023_usd: 74000000000
+exports_top:
+  - "Electronics"
+  - "Semiconductors"
+  - "Machinery"
+  - "Textiles"
+  - "Coconut oil"
+imports_2023_usd: 125000000000
+imports_top:
+  - "Electronics"
+  - "Mineral fuels"
+  - "Machinery"
+  - "Iron and steel"
+  - "Textiles"
+currency_exchange_2024: "1 USD = 56 PHP"

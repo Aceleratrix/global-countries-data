@@ -1,0 +1,19 @@
+national_symbols:
+  flag: "Three horizontal stripes (blue, red) with white equilateral triangle on hoist side, three gold stars (representing Luzon, Visayas, Mindanao) and sun with eight rays"
+  anthem: "Lupang Hinirang"
+  bird: "Philippine Eagle"
+  flower: "Sampaguita (Jasminum sambac)"
+  tree: "Narra (Pterocarpus indicus)"
+  sport: "Arnis (national martial art)"
+cuisine: "Mix of Malay, Chinese, Spanish, American influences; staples include rice, adobo, sinigang, lechon"
+festivals:
+  - "Sinulog (Cebu)"
+  - "Ati-Atihan (Kalibo)"
+  - "Panagbenga (Baguio)"
+  - "MassKara (Bacolod)"
+world_heritage_sites:
+  - "Rice Terraces of the Philippine Cordilleras"
+  - "Historic City of Vigan"
+  - "Puerto-Princesa Subterranean River National Park"
+  - "Tubbataha Reefs Natural Park"
+  - "Mount Hamiguitan Range Wildlife Sanctuary"
