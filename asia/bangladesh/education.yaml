@@ -1,0 +1,9 @@
+literacy_rate_percent: 74.4
+primary_education_enrollment_percent: 98.0
+secondary_education_enrollment_percent: 62.0
+tertiary_education_enrollment_percent: 18.0
+education_system: 5+3+2+2 (primary, junior secondary, secondary, higher secondary, tertiary)
+top_universities:
+  - University of Dhaka
+  - Bangladesh University of Engineering and Technology (BUET)
+  - Rajshahi University

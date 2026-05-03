@@ -1,0 +1,10 @@
+transport:
+  - Railway: 2,800 km (broad gauge, meter gauge)
+  - Road: 365,000 km (paved: 120,000 km)
+  - Airports: 3 international (Hazrat Shahjalal, Chittagong, Sylhet)
+  - Seaports: Chittagong (largest), Mongla
+energy:
+  - Electricity access: 98% (2023)
+  - Main sources: Natural gas (60%), coal (20%), renewables (10%)
+internet_penetration_percent: 65.0
+mobile_subscriptions_per_100: 110

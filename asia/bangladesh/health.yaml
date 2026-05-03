@@ -1,0 +1,12 @@
+life_expectancy_years: 73.5
+infant_mortality_per_1000_live_births: 28.0
+maternal_mortality_per_100000_live_births: 173.0
+healthcare_spending_percent_gdp: 2.4
+common_diseases:
+  - Diarrheal diseases
+  - Lower respiratory infections
+  - Tuberculosis
+  - Diabetes
+vaccination_coverage_percent:
+  - DPT3: 92%
+  - Measles: 89%

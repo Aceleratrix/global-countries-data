@@ -1,0 +1,26 @@
+country: Bangladesh
+region: South Asia
+subregion: null
+area_sq_km: 148460
+area_sq_mi: 57320
+borders:
+  - India
+  - Myanmar
+coastline_length_km: 580
+terrain:
+  - floodplain
+  - delta
+  - low-lying hills (southeast)
+highest_point: Saka Haphong (1,052 m)
+lowest_point: Sea level (Bay of Bengal coast)
+climate: Tropical monsoon, hot humid summer, cool dry winter
+major_rivers:
+  - Ganges (Padma)
+  - Brahmaputra (Jamuna)
+  - Meghna
+  - Surma
+natural_resources:
+  - Natural gas
+  - Arable land
+  - Timber
+  - Coal
