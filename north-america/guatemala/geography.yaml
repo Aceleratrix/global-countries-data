@@ -1,12 +1,14 @@
-area_sq_km: 108889
-capital: Guatemala City
-capital_metro_population: 3000000
-terrain: Mountainous (Sierra Madre range), coastal plains, tropical rainforests
-climate: Tropical; cooler temperatures in highland regions
+continent: North America
+region: Central America
 borders:
   - Mexico
   - Belize
   - Honduras
   - El Salvador
-coastline_length_km: 400
-highest_point: Volcán Tajumulco (4,220 m)
+coastline_pacific_km: 400
+coastline_caribbean_km: 81
+highest_point: Volcán Tajumulco (4220 m)
+lowest_point: Pacific Ocean (0 m)
+climate: Tropical; hot/humid lowlands, temperate highlands
+terrain: Mountains, valleys, coastal plains
+biomes: Tropical rainforest, mangrove, cloud forest

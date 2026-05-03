@@ -1,6 +1,9 @@
-physicians_per_1000: 0.9
+health_expenditure_percent_gdp: 5.1
+physicians_per_1000: 1.2
 hospital_beds_per_1000: 1.1
-infant_mortality_rate_per_1000: 18
-life_expectancy_at_birth: 74
-public_healthcare_provider: Ministry of Public Health and Social Assistance
-private_healthcare_share_percent: 35
+covid_vaccination_rate_percent: 42
+leading_causes_of_death:
+  - Ischemic heart disease
+  - Stroke
+  - Diabetes
+  - Lower respiratory infections

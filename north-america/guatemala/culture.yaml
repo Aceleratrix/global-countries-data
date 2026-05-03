@@ -1,12 +1,18 @@
 official_language: Spanish
-indigenous_cultures: 22 Mayan groups
+indigenous_languages:
+  - 22 Maya languages
+  - Xinca
+  - Garifuna
 unesco_world_heritage_sites:
-  - Tikal National Park (1979)
-  - Antigua Guatemala (1979)
-  - Quiriguá (1981)
-national_independence_day: September 15
-traditional_dishes:
+  - Tikal National Park
+  - Antigua Guatemala
+  - Quiriguá Archaeological Park
+traditional_food:
   - Pepián
   - Kak'ik
   - Tamales
-national_sport: Football (soccer)
+  - Fiambre
+national_instrument: Marimba
+cultural_events:
+  - Independence Day: September 15
+  - Sumpango Giant Kite Festival: November 1

@@ -1,13 +1,16 @@
 population_2023: 18100000
-population_growth_rate_2023: 1.7
-urban_population_percent: 52
-median_age: 23
-life_expectancy_at_birth: 74
-literacy_rate_percent: 81
-official_language: Spanish
-indigenous_language_groups: 22
-main_indigenous_languages:
-  - K'iche'
-  - Kaqchikel
-  - Mam
-  - Q'eqchi'
+population_density_per_km2: 166
+urban_population_percent: 52.2
+rural_population_percent: 47.8
+life_expectancy_years: 73.4
+infant_mortality_per_1000: 22.1
+literacy_rate_percent: 81.5
+ethnic_groups:
+  - Mestizo (Ladino): 56%
+  - Maya: 41%
+  - Xinca: 2%
+  - Garifuna: 1%
+religions:
+  - Roman Catholic: 45%
+  - Protestant: 42%
+  - Other: 13%

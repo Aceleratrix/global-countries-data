@@ -1,6 +1,9 @@
-literacy_rate_percent: 81
-primary_enrollment_percent: 94
+literacy_rate_percent: 81.5
+primary_enrollment_percent: 93
 secondary_enrollment_percent: 65
-tertiary_enrollment_percent: 22
-public_university: University of San Carlos of Guatemala (founded 1676)
-average_years_of_schooling: 6.5
+tertiary_enrollment_percent: 28
+education_expenditure_percent_gdp: 2.8
+top_universities:
+  - University of San Carlos of Guatemala
+  - Rafael Landívar University
+  - Mariano Gálvez University

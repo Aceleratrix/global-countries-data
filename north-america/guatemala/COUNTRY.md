@@ -1,23 +1,14 @@
-# Guatemala 🇬🇹
-## Country Overview
-- **Formal Name**: Republic of Guatemala
-- **Capital**: Guatemala City (Metro population: ~3 million)
-- **Largest City**: Guatemala City
-- **Population**: 18.1 million (2023 estimate)
-- **Area**: 108,889 km²
-- **GDP (Nominal)**: $0.17 trillion (70th largest economy globally, 2023)
-- **GDP per Capita**: ~$9,000 (2023)
-- **Currency**: Guatemalan Quetzal (GTQ, 1 USD ≈ 7.5 GTQ)
-- **Official Language**: Spanish
-- **Indigenous Languages**: K'iche', Kaqchikel, Mam, Q'eqchi' (22 Mayan language groups total)
-- **Head of State**: President Bernardo Arévalo (2024–2028 term)
-- **Government Type**: Presidential republic
-- **Neighbors**: Mexico, Belize, Honduras, El Salvador
+# Guatemala
+## Overview
+Guatemala, officially the Republic of Guatemala, is a Central American country bordered by Mexico (north/west), Belize and Caribbean Sea (northeast), Honduras (east), El Salvador (southeast), and Pacific Ocean (south). It is the most populous Central American nation with ~18.1 million people (2023 estimate). The capital and largest city is Guatemala City.
 
-## Key Economic Sectors
-Agriculture (coffee, bananas, sugar, cardamom), textiles, tourism, mining, light manufacturing.
-
-## UNESCO World Heritage Sites
-- Tikal National Park (1979)
-- Antigua Guatemala (1979)
-- Quiriguá (1981)
+## Key Facts
+- Capital: Guatemala City
+- Official Language: Spanish
+- Currency: Guatemalan Quetzal (GTQ)
+- Area: 108,889 km²
+- Population: ~18.1 million (2023)
+- President: Bernardo Arévalo (inaugurated January 2024)
+- Independence: September 15, 1821 (from Spain)
+- ISO Codes: GT (alpha-2), GTM (alpha-3), 320 (numeric)
+- Government Type: Presidential representative democratic republic
