@@ -1,0 +1,10 @@
+health_expenditure_percent_gdp: 5.2
+life_expectancy_male: 70.8
+life_expectancy_female: 75.6
+infant_mortality_rate: 15.2
+main_hospitals:
+  - "Tupua Tamasese Meaole Hospital (Apia)"
+  - "Savai'i Hospital (Tuasivi)"
+communicable_diseases:
+  - "Low incidence of malaria, high incidence of dengue fever (seasonal)"
+  - "COVID-19: First case in 2020, 85% fully vaccinated as of 2023"

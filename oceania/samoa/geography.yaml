@@ -1,0 +1,17 @@
+region: "Oceania"
+subregion: "Polynesia"
+coordinates: [-13.759, -172.1046]
+islands:
+  - name: "Upolu"
+    area_km2: 1118
+    population_2023: 145000
+  - name: "Savai'i"
+    area_km2: 1708
+    population_2023: 53000
+  - name: "Manono"
+    area_km2: 4.5
+  - name: "Apolima"
+    area_km2: 1.1
+highest_point: "Mount Silisili (1858 m)"
+lowest_point: "Pacific Ocean (0 m)"
+climate: "Tropical, with a wet season from November to April and a dry season from May to October"

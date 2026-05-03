@@ -1,0 +1,8 @@
+literacy_rate: 99.1
+education_system: "Compulsory education for 6-14 years old"
+levels:
+  - "Primary: 6 years (ages 6-12)"
+  - "Secondary: 6 years (ages 12-18)"
+  - "Tertiary: National University of Samoa, University of South Pacific (Samoa campus)"
+enrollment_rate_primary: 97.8
+enrollment_rate_secondary: 89.2

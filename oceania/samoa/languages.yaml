@@ -1,0 +1,8 @@
+official_languages:
+  - "Samoan"
+  - "English"
+samoan_language:
+  type: "Polynesian language"
+  speakers: "98% of population (first language)"
+  writing_system: "Latin alphabet with additional characters (ā, ē, ī, ō, ū)"
+english_usage: "Widely used in government, business, and education"

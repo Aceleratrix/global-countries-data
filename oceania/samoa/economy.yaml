@@ -1,0 +1,19 @@
+gdp_nominal_2023: 840000000
+gdp_per_capita_2023: 4150
+main_industries:
+  - "Tourism"
+  - "Agriculture (coconut, taro, bananas)"
+  - "Fishing"
+  - "Manufacturing (food processing, timber)"
+unemployment_rate_2023: 8.2
+inflation_rate_2023: 4.1
+main_exports:
+  - "Fish"
+  - "Coconut oil"
+  - "Taro"
+  - "Bananas"
+main_export_partners:
+  - "New Zealand"
+  - "Australia"
+  - "United States"
+  - "American Samoa"
