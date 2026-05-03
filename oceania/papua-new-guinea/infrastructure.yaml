@@ -1,0 +1,27 @@
+transport:
+  total_roads_km: 20000
+  paved_roads_percent: 10%
+  unpaved_roads_percent: 90%
+  airports_total: 560
+  airports_paved_runways: 21
+  major_ports:
+    - Port Moresby
+    - Lae
+    - Rabaul
+    - Madang
+    - Kimbe
+energy:
+  electricity_access_2021: 18.3%
+  electricity_access_urban_2021: 60%
+  electricity_access_rural_2021: 10%
+  power_sources:
+    - Hydroelectric: 50%
+    - Fossil fuels (diesel, gas): 50%
+  renewable_energy_target_2030: 70%
+telecommunications:
+  mobile_subscriptions_per_100_2023: 45
+  internet_users_percent_2023: 12%
+  fixed_broadband_per_100_2023: 0.1
+  major_providers:
+    - Digicel
+    - Telikom PNG

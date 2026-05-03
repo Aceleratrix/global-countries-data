@@ -1,0 +1,38 @@
+gdp_nominal_2023: 26800000000
+gdp_per_capita_nominal_2023: 2697
+gdp_growth_2023: 2.7%
+gdp_ppp_2023: 44000000000
+gdp_per_capita_ppp_2023: 4430
+major_industries:
+  - Mining (gold, copper, silver)
+  - Oil and gas extraction
+  - Agriculture (coffee, cocoa, palm oil, rubber)
+  - Forestry
+  - Fishing
+exports_2023: 10200000000
+exports_main_commodities:
+  - Gold
+  - Copper ore
+  - Crude petroleum
+  - Coffee
+  - Cocoa beans
+exports_partners_2023:
+  - Australia: 28%
+  - Japan: 18%
+  - China: 15%
+  - Singapore: 12%
+  - South Korea: 10%
+imports_2023: 6800000000
+imports_main_commodities:
+  - Machinery and transport equipment
+  - Fuels
+  - Food and live animals
+  - Manufactured goods
+imports_partners_2023:
+  - Australia: 32%
+  - China: 22%
+  - Singapore: 15%
+  - Japan: 10%
+  - United States: 8%
+unemployment_rate_2023: 2.1%
+inflation_rate_2023: 4.8%

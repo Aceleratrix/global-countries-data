@@ -1,0 +1,16 @@
+region: Oceania
+subregion: Melanesia
+continent: Australia and Oceania
+terrain: Mostly mountainous with coastal lowlands and tropical rainforests; fertile river valleys
+highest_point: Mount Wilhelm (4,509 m)
+lowest_point: Pacific Ocean (0 m)
+climate: Tropical; northwest monsoon (December-March), southeast monsoon (May-October); average temperature 26-28°C
+provinces: 20 provinces, 1 autonomous region (Bougainville), 1 capital district (National Capital District)
+borders:
+  - country: Indonesia
+    border_length_km: 824
+coastline_km: 5152
+maritime_claims:
+  territorial_sea: 12 nm
+  exclusive_economic_zone: 200 nm
+major_rivers: Sepik, Fly, Purari

@@ -1,0 +1,19 @@
+iso_alpha2: PG
+iso_alpha3: PNG
+iso_numeric: 598
+name_common: Papua New Guinea
+name_official: Independent State of Papua New Guinea
+capital: Port Moresby
+area_km2: 462840
+population_2023: 9919738
+currency_code: PGK
+currency_name: Papua New Guinean kina
+currency_symbol: K
+calling_code: "+675"
+tld: .pg
+time_zone: UTC+10
+time_zone_name: Papua New Guinea Time (PGT)
+independence_date: 1975-09-16
+independence_from: Australia
+united_nations_member: true
+un_member_since: 1975-10-10

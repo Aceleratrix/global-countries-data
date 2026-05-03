@@ -1,0 +1,17 @@
+life_expectancy_2023: 64.2
+infant_mortality_rate_2023: 35.2 per 1000 live births
+maternal_mortality_rate_2020: 195 per 100000 live births
+healthcare_expenditure_2020: 4.3% of GDP
+physicians_per_1000_2021: 0.5
+nurses_per_1000_2021: 5.1
+hospital_beds_per_1000_2021: 1.2
+major_diseases:
+  - Malaria (endemic in most regions)
+  - Tuberculosis (high burden country)
+  - HIV/AIDS (prevalence 0.9% adults 15-49)
+  - Diarrheal diseases
+  - Lower respiratory infections
+vaccination_coverage_2023:
+  - DTP3: 78%
+  - Measles: 72%
+healthcare_access_2021: 42% of population (urban 85%, rural 35%)

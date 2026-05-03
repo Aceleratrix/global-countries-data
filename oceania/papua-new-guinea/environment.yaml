@@ -1,0 +1,27 @@
+biodiversity:
+  plant_species: 20000+
+  bird_species: 700+
+  mammal_species: 200+
+  reptile_species: 300+
+  amphibian_species: 200+
+  endemic_species_percent: 50%+
+protected_areas_2023: 15% of total land area
+protected_area_types:
+  - National parks
+  - Wildlife management areas
+  - Community conservation areas
+major_ecosystems:
+  - Tropical rainforests (lowland and montane)
+  - Mangrove forests
+  - Coral reefs (Coral Triangle region)
+  - Alpine grasslands (higher elevations)
+environmental_issues:
+  - Deforestation (logging, agriculture expansion)
+  - Mining pollution (tailings, heavy metals)
+  - Climate change (sea level rise, coral bleaching)
+  - Invasive species (cane toads, rats)
+  - Plastic pollution in coastal areas
+climate_commitments:
+  - Paris Agreement signatory (2016)
+  - Target: 20% emissions reduction by 2030
+  - REDD+ participant (forest conservation)
