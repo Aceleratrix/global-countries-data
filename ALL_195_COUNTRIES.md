@@ -129,7 +129,7 @@
 | 152 | 🇬🇾 Guiana (Guyana) | guyana | South America | $0.05T | ✅ 100% COMPLETE
 | 90 | 🇧🇴 Bósnia e Herzegovina | bosnia-herzegovina | Europe | $0.13T |
 | 91 | 🇱🇧 Líbano | lebanon | Asia | $0.11T | ✅ 100% COMPLETE |
-| 92 | 🇮🇻 Macedônia do Norte | north-macedonia | Europe | $0.12T |
+| 92 | 🇮🇻 Macedônia do Norte | north-macedonia | Europe | $0.12T | ✅ 100% COMPLETE |
 | 93 | 🇲🇻 Moldávia | moldova | Europe | $0.12T |
 | 108 | 🇦🇱 Albânia | albania | Europe | $0.08T | ✅ 100% COMPLETE |
 | 153 | 🇬🇦 Gabão | gabon | Africa | $0.05T | ✅ 100% COMPLETE |
