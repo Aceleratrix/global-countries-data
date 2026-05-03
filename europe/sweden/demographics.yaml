@@ -1,0 +1,15 @@
+population_2024: 10500000
+population_growth_rate_percent: 0.73
+birth_rate_per_1000: 11.8
+death_rate_per_1000: 9.2
+life_expectancy_years: 83.2
+ethnic_groups:
+  - "Swedes (80%)"
+  - "Finns (5%)"
+  - "Other (15%)"
+religions:
+  - "Church of Sweden (55%)"
+  - "Other Christian (8%)"
+  - "Islam (8%)"
+  - "Unaffiliated (29%)"
+urban_population_percent: 88

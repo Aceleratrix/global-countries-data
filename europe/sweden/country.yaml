@@ -1,0 +1,17 @@
+name: "Sweden"
+official_name: "Kingdom of Sweden"
+capital: "Stockholm"
+largest_city: "Stockholm"
+area_km2: 450295
+population_2024: 10500000
+population_density_per_km2: 23.3
+currency: "Swedish krona"
+currency_code: "SEK"
+official_language: "Swedish"
+government_type: "Unitary parliamentary constitutional monarchy"
+monarch: "Carl XVI Gustaf"
+prime_minister_2024: "Ulf Kristersson"
+eu_member: true
+eu_join_year: 1995
+nato_member: true
+nato_join_year: 2024

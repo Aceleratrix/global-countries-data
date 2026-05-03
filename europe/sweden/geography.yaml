@@ -1,0 +1,10 @@
+continent: "Europe"
+region: "Northern Europe"
+terrain: "Mostly flat or gently rolling plains; mountains in west along Norwegian border"
+highest_point: "Kebnekaise (2,111 m)"
+lowest_point: "Kristianstad (-2.4 m below sea level)"
+borders: ["Norway", "Finland"]
+maritime_borders: ["Denmark", "Germany", "Poland", "Russia (Baltic Sea)"]
+climate: "Temperate in south, subarctic in north; mild winters in south due to Gulf Stream"
+forest_coverage_percent: 70
+protected_land_percent: 14

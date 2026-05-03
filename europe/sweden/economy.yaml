@@ -1,0 +1,17 @@
+gdp_nominal_usd_2023: 580000000000
+gdp_per_capita_usd_2023: 55000
+gdp_growth_rate_percent_2023: 1.2
+main_industries:
+  - "Automotive"
+  - "Pharmaceuticals"
+  - "Telecommunications"
+  - "Forestry"
+  - "Mining"
+unemployment_rate_percent_2024: 6.8
+exports:
+  - "Machinery"
+  - "Motor vehicles"
+  - "Pharmaceuticals"
+  - "Paper products"
+  - "Iron ore"
+inflation_rate_percent_2024: 2.1

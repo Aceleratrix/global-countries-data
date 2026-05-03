@@ -1,0 +1,9 @@
+literacy_rate_percent: 99
+compulsory_education_age: "6 to 16"
+top_universities:
+  - "Uppsala University"
+  - "Lund University"
+  - "Stockholm University"
+  - "Chalmers University of Technology"
+education_spending_percent_gdp: 6.5
+higher_education_enrollment_percent: 65

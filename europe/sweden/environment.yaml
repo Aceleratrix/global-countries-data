@@ -1,0 +1,9 @@
+protected_land_percent: 14
+protected_marine_area_percent: 12
+kyoto_protocol_target: "40% greenhouse gas reduction by 2020 (met)"
+renewable_electricity_target: "100% by 2040"
+forest_coverage_percent: 70
+carbon_neutrality_target_year: 2045
+main_environmental_challenges:
+  - "Climate change impact on Arctic regions"
+  - "Baltic Sea pollution"
