@@ -1,0 +1,13 @@
+country: Kyrgyzstan
+area_km2: 199951
+landlocked: true
+continent: Asia
+region: Central Asia
+borders:
+  - Kazakhstan
+  - Uzbekistan
+  - Tajikistan
+  - China
+highest_point: Jengish Chokusu (7,439 m)
+lowest_point: Kara-Daryya (132 m)
+terrain: Mountainous (Tian Shan range covers 80%), valleys, and alpine lakes (including Issyk-Kul)
