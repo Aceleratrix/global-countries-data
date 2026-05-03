@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (147 / 195 = 75.4%)
+## 📊 Coverage Progress (148 / 195 = 75.9%)
 
 ### 🌎 South America (8/12 = 66.7%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -66,7 +66,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇻🇨 **Saint Vincent and the Grenadines** | 13/13 | ✅ **100% COMPLETE** | 166th largest economy ($0.05T), Kingstown (capital), Caribbean archipelago of 32 islands, tourism 40% GDP | English (en-VC) + Vincentian Creole English |
 | 🇩🇲 **Dominica** | 13/13 | ✅ **100% COMPLETE** | 168th largest economy ($0.05T), Roseau (capital), Caribbean island nation, Morne Trois Pitons UNESCO site, Eastern Caribbean Dollar | English (en-DM) + Dominican Creole French |
 
-### 🌏 Asia (20/50 = 40.0%)
+### 🌏 Asia (21/50 = 42.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇮🇱 **Israel** | 13/13 | ✅ **100% COMPLETE** | 33rd largest economy ($0.39T), Startup Nation, 8K+ tech startups, 100+ unicorns | English (en-US) |
@@ -80,7 +80,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇮🇶 **Iraq** | 13/13 | ✅ **100% COMPLETE** | 35th largest economy ($0.37T), Baghdad (7M), oil exports 90% revenue, Mesopotamia cradle of civilization | English (en-US) |
 | 🇸🇬 **Singapore** | 13/13 | ✅ **100% COMPLETE** | 40th largest economy ($0.35T), Changi Airport, global financial hub, city-state | English (en-US) |
 | 🇶🇦 **Qatar** | 13/13 | ✅ **100% COMPLETE** | 51st largest economy ($0.27T), 2022 FIFA World Cup, world's largest LNG exporter, Doha (1M) | English (en-US) |
-|| 🇻🇳 **Vietnam** | 13/13 | ✅ **100% COMPLETE** | 53rd largest economy ($0.26T), Hanoi (8M), Ha Long Bay, electronics manufacturing hub, 98M population | English (en-US) |
+| 🇻🇳 **Vietnam** | 13/13 | ✅ **100% COMPLETE** | 53rd largest economy ($0.26T), Hanoi (8M), Ha Long Bay, electronics manufacturing hub, 98M population | English (en-US) |
 | 🇰🇿 **Kazakhstan** | 13/13 | ✅ **100% COMPLETE** | 137th largest economy ($0.06T), Astana (1.3M), Baikonur Cosmodrome, uranium superpower, 19.3M population | English (en-US) |
 | 🇰🇭 **Cambodia** | 13/13 | ✅ **100% COMPLETE** | 63rd largest economy ($0.20T), Phnom Penh (2M), Angkor Wat, ASEAN member, 17M population | English (en-US) |
 | 🇴🇲 **Oman** | 13/13 | ✅ **100% COMPLETE** | 73rd largest economy ($0.15T), Muscat (1.7M), oil/gas economy, Arabian Peninsula | English (en-US) |
@@ -89,6 +89,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇾🇪 **Yemen** | 13/13 | ✅ **100% COMPLETE** | 121st largest economy ($0.07T), Sana'a (capital), Arabian Peninsula, borders Oman/Saudi Arabia | English (en-US) |
 | 🇦🇫 **Afghanistan** | 13/13 | ✅ **100% COMPLETE** | 122nd largest economy ($0.07T), Kabul (4.1M), Landlocked, Hindu Kush mountains | English (en-US) |
 | 🇲🇲 **Myanmar** | 13/13 | ✅ **100% COMPLETE** | 120th largest economy ($0.07T), Naypyidaw (capital), South-Eastern Asia, 51.3M population | English (en-US) |
+| 🇱🇰 **Sri Lanka** | 13/13 | ✅ **100% COMPLETE** | 77th largest economy ($0.14T), Colombo (commercial)/Sri Jayawardenepura Kotte (administrative), Ceylon tea, ancient Buddhist temples, 22.2M population | English (en-US) |
 
 ### 🌍 Europe (25/44 = 56.8%)
 
@@ -123,7 +124,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇦🇩 **Andorra** | 13/13 | ✅ **100% COMPLETE** | 177th largest economy ($0.05T), Andorra la Vella (capital), landlocked Pyrenees microstate, 79K population, Catalan official language | English (en-US) |
 | 🇲🇨 **Monaco** | 13/13 | ✅ **100% COMPLETE** | 179th largest economy ($0.05T), Monaco (capital), city-state on French Riviera, 36K population, highest population density globally | English (en-US) |
 
-### 🌍 Africa (30/54 = 55.6%)
+### 🌍 Africa (31/54 = 57.4%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇳🇬 **Nigeria** | 13/13 | ✅ **100% COMPLETE** | 28th largest economy ($0.48T), Africa's most populous (223M), fintech leader (4 unicorns), Nollywood | English (en-NG) |
@@ -156,6 +157,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇪🇷 **Eritrea** | 13/13 | ✅ **100% COMPLETE** | 160th largest economy ($0.05T), Asmara (capital, UNESCO World Heritage Site), borders Djibouti/Ethiopia/Sudan, 3.5M population | English (en-ER) + Tigrinya/Arabic |
 | 🇸🇨 **Seychelles** | 13/13 | ✅ **100% COMPLETE** | 161st largest economy ($0.05T), Victoria (capital), Indian Ocean archipelago, no land borders, 122.7K population | English (en-SC) + Seychellois Creole + French |
 | 🇸🇸 **South Sudan** | 13/13 | ✅ **100% COMPLETE** | 162nd largest economy ($0.05T), Juba (capital), youngest African country (2011 independence), oil exports 90% revenue, 11M population, Sudd wetland (Ramsar site) | English (en-SS) + 60+ indigenous languages |
+| 🇨🇻 **Cabo Verde** | 13/13 | ✅ **100% COMPLETE** | 158th largest economy ($0.0022T), Praia (capital), Atlantic island nation, SIDS status, tourism 25% GDP, Creole culture | Portuguese (pt-CV) + Cape Verdean Creole |
 
 ### 🌏 Oceania (5/14 = 35.7%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -243,7 +245,7 @@ global-countries-data/
 │   └── usa/                # 🇺🇸 100% COMPLETE (13 files)
 │       └── ... (same structure as brazil)
 │
-├── asia/                  # 🌏 5/50 countries (10.0%)
+├── asia/                  # 🌏 21/50 countries (42.0%)
 │   ├── japan/            # 🇯🇵 100% COMPLETE (14 files)
 │   ├── china/            # 🇨🇳 100% COMPLETE (13 files)
 │   ├── india/            # 🇮🇳 100% COMPLETE (13 files)
