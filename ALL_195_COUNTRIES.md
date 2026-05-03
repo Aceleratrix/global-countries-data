@@ -92,7 +92,7 @@
 | 136 | 🇦🇴 Angola | angola | Africa | $0.06T | ✅ 100% COMPLETE |
 | 64 | 🇰🇭 Camboja | cambodia | Asia | $0.20T | ✅ 100% COMPLETE |
 | 65 | 🇪🇪 Estônia | estonia | Europe | ✅ 100% COMPLETE | |
-| 66 | 🇸🇮 Eslovênia | slovenia | Europe | $0.19T | |
+| 66 | 🇸🇮 Eslovênia | slovenia | Europe | $0.19T | ✅ 100% COMPLETE |
 | 92 | 🇸🇰 Eslováquia (Slovakia) | slovakia | Europe | $0.11T | ✅ 100% COMPLETE | |
 | 118 | 🇪🇹 Etiópia | ethiopia | Africa | $0.07T | ✅ 100% COMPLETE |
 | 68 | 🇵🇷 Porto Rico | puerto-rico | North America | ✅ 100% COMPLETE |
@@ -168,11 +168,11 @@
 |-----------|---------|-----------|-----------|------------|
 | 🌎 North America | 4 | 4 | 0 | **100%** ✅ |
 | 🌏 Asia | 50 | 7 | 43 | 14.0% |
-| 🌍 Europe | 44 | 9 | 35 | 20.5% |
+| 🌍 Europe | 44 | 10 | 34 | 22.7% |
 | 🌎 South America | 12 | 7 | 5 | 58.3% |
 | 🌏 Oceania | 14 | 4 | 10 | 28.6% |
 | 🌍 Africa | 54 | 13 | 41 | 24.1% |
-| **TOTAL** | **195** | **112** | **83** | **57.4%** |
+| **TOTAL** | **195** | **113** | **82** | **57.9%** |
 
 ---
 

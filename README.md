@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 134/195 (68.7%) Complete](https://img.shields.io/badge/Status-134/195%20(68.7%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+|[![Status: 157/195 (80.5%) Complete](https://img.shields.io/badge/Status-157/195%20(80.5%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (154 / 195 = 79.0%)
+## 📊 Coverage Progress (157 / 195 = 80.5%)
 
 ### 🌎 South America (8/12 = 66.7%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -93,7 +93,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 | 🇵🇭 **Philippines** | 13/13 | ✅ **100% COMPLETE** | 38th largest economy ($0.36T), Manila (14M metro), 7,641 islands, BPO industry $30B, 114M population | English (en-US) |
 ### 🌍 Europe (25/44 = 56.8%)
-### 🌍 Europe (27/44 = 61.4%)
+### 🌍 Europe (28/44 = 63.6%)
 
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
@@ -127,6 +127,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇦🇩 **Andorra** | 13/13 | ✅ **100% COMPLETE** | 177th largest economy ($0.05T), Andorra la Vella (capital), landlocked Pyrenees microstate, 79K population, Catalan official language | English (en-US) |
 | 🇲🇨 **Monaco** | 13/13 | ✅ **100% COMPLETE** | 179th largest economy ($0.05T), Monaco (capital), city-state on French Riviera, 36K population, highest population density globally | English (en-US) |
 | 🇨🇭 **Switzerland** | 13/13 | ✅ **100% COMPLETE** | 20th largest economy ($0.91T), Zürich (434K), direct democracy, Swiss franc, 98% internet penetration, global wealth management hub | English (en-US) |
+| 🇸🇮 **Slovenia** | 13/13 | ✅ **100% COMPLETE** | 66th largest economy ($0.19T), Ljubljana (capital), Alpine country, EU/Schengen/NATO member, Lake Bled | English (en-US) |
 
 ### 🌍 Africa (31/54 = 57.4%)
 | Country | Files | Status | Key Highlights | Primary Language |
