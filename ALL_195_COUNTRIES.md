@@ -104,7 +104,7 @@
 | 73 | 🇵🇦 Panamá | panama | North America | ✅ 100% COMPLETE |
 | 74 | 🇱🇰 Sri Lanka | sri-lanka | Asia | $0.16T | ✅ 100% COMPLETE |
 | 75 | 🇩🇴 República Dominicana | dominican-republic | North America | $0.16T | ✅ 100% COMPLETE |
-| 76 | 🇧🇹 Butão | bhutan | Asia | $0.16T | |
+| 76 | 🇧🇹 Butão | bhutan | Asia | $0.16T | ✅ 100% COMPLETE |
 | 77 | 🇹🇳 Tunísia | tunisia | Africa | $0.16T | ✅ 100% COMPLETE |
 | 137 | 🇰🇿 Cazaquistão (Kazakhstan) | kazakhstan | Asia | $0.06T | ✅ 100% COMPLETE |
 | 79 | 🇦🇲 Armênia | armenia | Asia | $0.15T | ✅ 100% COMPLETE |

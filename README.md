@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-|[![Status: 160/195 (82.1%) Complete](https://img.shields.io/badge/Status-160/195%20(82.1%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+|[![Status: 161/195 (82.6%) Complete](https://img.shields.io/badge/Status-161/195%20(82.6%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -66,7 +66,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇻🇨 **Saint Vincent and the Grenadines** | 13/13 | ✅ **100% COMPLETE** | 166th largest economy ($0.05T), Kingstown (capital), Caribbean archipelago of 32 islands, tourism 40% GDP | English (en-VC) + Vincentian Creole English |
 | 🇩🇲 **Dominica** | 13/13 | ✅ **100% COMPLETE** | 168th largest economy ($0.05T), Roseau (capital), Caribbean island nation, Morne Trois Pitons UNESCO site, Eastern Caribbean Dollar | English (en-DM) + Dominican Creole French |
 
-### 🌏 Asia (23/50 = 46.0%)
+### 🌏 Asia (24/50 = 48.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇮🇱 **Israel** | 13/13 | ✅ **100% COMPLETE** | 33rd largest economy ($0.39T), Startup Nation, 8K+ tech startups, 100+ unicorns | English (en-US) |
@@ -91,6 +91,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇲🇲 **Myanmar** | 13/13 | ✅ **100% COMPLETE** | 120th largest economy ($0.07T), Naypyidaw (capital), South-Eastern Asia, 51.3M population | English (en-US) |
 | 🇱🇰 **Sri Lanka** | 13/13 | ✅ **100% COMPLETE** | 77th largest economy ($0.14T), Colombo (commercial)/Sri Jayawardenepura Kotte (administrative), Ceylon tea, ancient Buddhist temples, 22.2M population | English (en-US) |
 | 🇲🇳 **Mongolia** | 13/13 | ✅ **100% COMPLETE** | 80th largest economy ($0.15T), Ulaanbaatar (capital), landlocked East Asia, Gobi Desert, 3.4M population | English (en-US) |
+| 🇧🇹 **Bhutan** | 13/13 | ✅ **100% COMPLETE** | 76th largest economy ($0.16T), Thimphu (capital), Himalayan nation, Gross National Happiness, 770K population | English (en-US) |
 
 ### 🌍 Europe (25/44 = 56.8%)
 ### 🌍 Europe (25/44 = 56.8%)
