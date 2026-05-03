@@ -25,7 +25,7 @@
 | 17 | 🇳🇱 Holanda (Países Baixos) | netherlands | Europe | $1.09T | ✅ 100% COMPLETE |
 | 18 | 🇹🇷 Turquia | turkey | Asia/Europe | $1.03T | ✅ 100% COMPLETE |
 | 19 | 🇸🇦 Arábia Saudita | saudi-arabia | Asia | $1.01T | ✅ 100% COMPLETE |
-| 20 | 🇨🇭 Suíça | switzerland | Europe | $0.91T | ⏳ Pending |
+| 20 | 🇨🇭 Suíça | switzerland | Europe | $0.91T | ✅ 100% COMPLETE |
 
 ---
 
@@ -51,7 +51,7 @@
 | 36 | 🇲🇾 Malásia | malaysia | Asia | ✅ 100% COMPLETE |
 | 37 | 🇩🇰 Dinamarca | denmark | Europe | $0.37T | ✅ 100% COMPLETE |
 | 38 | 🇵🇭 Filipinas | philippines | Asia | $0.36T | ✅ 100% COMPLETE |
-| 39 | 🇵🇰 Paquistão | pakistan | Asia | $0.35T |
+| 39 | 🇵🇰 Paquistão | pakistan | Asia | $0.35T | ✅ 100% COMPLETE |
 | 40 | 🇸🇬 Cingapura | singapore | Asia | ✅ 100% COMPLETE |
 
 ---
