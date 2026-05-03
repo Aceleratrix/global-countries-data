@@ -49,8 +49,8 @@
 | 34 | 🇵🇹 Portugal | portugal | Europe | ✅ 100% COMPLETE |
 | 35 | 🇮🇾 Iraque | iraq | Asia | ✅ 100% COMPLETE |
 | 36 | 🇲🇾 Malásia | malaysia | Asia | ✅ 100% COMPLETE |
-| 37 | 🇩🇰 Dinamarca | denmark | Europe | $0.37T |
-| 38 | 🇵🇭 Filipinas | philippines | Asia | $0.36T |
+| 37 | 🇩🇰 Dinamarca | denmark | Europe | $0.37T | ✅ 100% COMPLETE |
+| 38 | 🇵🇭 Filipinas | philippines | Asia | $0.36T | ✅ 100% COMPLETE |
 | 39 | 🇵🇰 Paquistão | pakistan | Asia | $0.35T |
 | 40 | 🇸🇬 Cingapura | singapore | Asia | ✅ 100% COMPLETE |
 

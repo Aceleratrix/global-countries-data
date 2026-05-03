@@ -66,7 +66,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇻🇨 **Saint Vincent and the Grenadines** | 13/13 | ✅ **100% COMPLETE** | 166th largest economy ($0.05T), Kingstown (capital), Caribbean archipelago of 32 islands, tourism 40% GDP | English (en-VC) + Vincentian Creole English |
 | 🇩🇲 **Dominica** | 13/13 | ✅ **100% COMPLETE** | 168th largest economy ($0.05T), Roseau (capital), Caribbean island nation, Morne Trois Pitons UNESCO site, Eastern Caribbean Dollar | English (en-DM) + Dominican Creole French |
 
-### 🌏 Asia (21/50 = 42.0%)
+### 🌏 Asia (22/50 = 44.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇮🇱 **Israel** | 13/13 | ✅ **100% COMPLETE** | 33rd largest economy ($0.39T), Startup Nation, 8K+ tech startups, 100+ unicorns | English (en-US) |
@@ -91,7 +91,9 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇲🇲 **Myanmar** | 13/13 | ✅ **100% COMPLETE** | 120th largest economy ($0.07T), Naypyidaw (capital), South-Eastern Asia, 51.3M population | English (en-US) |
 | 🇱🇰 **Sri Lanka** | 13/13 | ✅ **100% COMPLETE** | 77th largest economy ($0.14T), Colombo (commercial)/Sri Jayawardenepura Kotte (administrative), Ceylon tea, ancient Buddhist temples, 22.2M population | English (en-US) |
 
+| 🇵🇭 **Philippines** | 13/13 | ✅ **100% COMPLETE** | 38th largest economy ($0.36T), Manila (14M metro), 7,641 islands, BPO industry $30B, 114M population | English (en-US) |
 ### 🌍 Europe (25/44 = 56.8%)
+### 🌍 Europe (26/44 = 59.1%)
 
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
@@ -121,6 +123,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇲🇪 **Montenegro** | 13/13 | ✅ **100% COMPLETE** | 128th largest economy ($0.07T), Podgorica (capital), Adriatic coastline, 620K population, EU candidate | English (en-US) |
 | 🇱🇺 **Luxembourg** | 13/13 | ✅ **100% COMPLETE** | 129th largest economy ($0.07T), Luxembourg City (capital), landlocked Western Europe, EU/NATO/Eurozone member | English (en-US) |
 | 🇦🇱 **Albania** | 13/13 | ✅ **100% COMPLETE** | 108th largest economy ($0.08T), Tirana (capital), Southeast Europe, 2.3M population, Albania Alps | English (en-US) |
+| 🇩🇰 **Denmark** | 13/13 | ✅ **100% COMPLETE** | 37th largest economy ($0.37T), Copenhagen (2.1M), wind energy leader (47% of power), LEGO, EU/NATO founding member, high welfare state | English (en-US) |
 | 🇦🇩 **Andorra** | 13/13 | ✅ **100% COMPLETE** | 177th largest economy ($0.05T), Andorra la Vella (capital), landlocked Pyrenees microstate, 79K population, Catalan official language | English (en-US) |
 | 🇲🇨 **Monaco** | 13/13 | ✅ **100% COMPLETE** | 179th largest economy ($0.05T), Monaco (capital), city-state on French Riviera, 36K population, highest population density globally | English (en-US) |
 
