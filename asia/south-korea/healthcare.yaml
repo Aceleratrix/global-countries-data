@@ -1,0 +1,6 @@
+healthcare_system: "Universal healthcare (National Health Insurance Service)"
+life_expectancy: 83.5  # years
+infant_mortality_rate: 2.9  # per 1000 live births
+physicians_per_1000: 2.4
+hospital_beds_per_1000: 12.4
+major_health_issues: ["Cardiovascular diseases", "Cancer", "Diabetes"]

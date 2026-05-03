@@ -1,0 +1,9 @@
+major_attractions:
+  - "Gyeongbokgung Palace (Seoul)"
+  - "Jeju Island (UNESCO World Heritage Site)"
+  - "Bukchon Hanok Village (Seoul)"
+  - "DMZ (Demilitarized Zone)"
+  - "Haeundae Beach (Busan)"
+  - "N Seoul Tower (Seoul)"
+UNESCO_world_heritage_sites: 15  # as of 2024
+annual_tourists: 17.5e6  # pre-pandemic (2019)

@@ -1,0 +1,8 @@
+population_2023: 51784059
+population_density: 516.6  # per km2
+life_expectancy: 83.5  # years (2023)
+birth_rate: 5.0  # per 1000 people
+death_rate: 7.0  # per 1000 people
+urban_population: 81.5  # percentage
+major_ethnic_groups: ["Korean (99%)", "Other (1%)"]
+religions: ["Christianity (27.6%)", "Buddhism (15.5%)", "Unaffiliated (56.9%)"]

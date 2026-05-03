@@ -1,0 +1,15 @@
+country_code: "KR"
+official_name: "Republic of Korea"
+common_name: "South Korea"
+capital: "Seoul"
+area_km2: 100363
+population_2023: 51784059
+currency_code: "KRW"
+currency_name: "South Korean won"
+language: "Korean"
+timezone: "UTC+9"
+calling_code: "+82"
+driving_side: "right"
+un_member: true
+g20_member: true
+oecd_member: true

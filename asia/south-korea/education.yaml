@@ -1,0 +1,5 @@
+literacy_rate: 100  # percentage
+education_system: "6-3-3-4 system (6 years primary, 3 years middle, 3 years high, 4 years university)"
+compulsory_education: "9 years (primary + middle school)"
+top_universities: ["Seoul National University", "Korea Advanced Institute of Science and Technology (KAIST)", "Yonsei University", "Korea University"]
+spending_gdp_education: 4.5  # percentage

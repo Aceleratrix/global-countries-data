@@ -1,0 +1,9 @@
+continent: "Asia"
+region: "East Asia"
+coordinates: "37.5665° N, 126.9780° E (Seoul)"
+neighbors: ["North Korea"]
+borders: ["38th parallel (DMZ)"]
+terrain: "Mountainous interior, coastal plains in west and south"
+highest_point: "Hallasan (1,947 m)"
+lowest_point: "Sea level (coastline)"
+climate: "Temperate, with four distinct seasons"

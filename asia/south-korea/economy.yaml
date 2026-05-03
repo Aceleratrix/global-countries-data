@@ -1,0 +1,7 @@
+gdp_nominal_2023: 1.71e12  # USD
+gdp_per_capita_2023: 33000  # USD
+major_industries: ["Electronics", "Automotive", "Shipbuilding", "Steel", "Petrochemicals", "Semiconductors"]
+major_exports: ["Semiconductors", "Automobiles", "Petroleum products", "Wireless communication devices"]
+major_imports: ["Crude oil", "Semiconductors", "Natural gas", "Coal"]
+currency: "South Korean won (KRW)"
+exchange_rate_usd: 1320  # approx 2023
