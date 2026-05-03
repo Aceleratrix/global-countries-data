@@ -1,0 +1,15 @@
+country: "Timor-Leste"
+region: "Southeast Asia"
+subregion: "Maritime Southeast Asia"
+coordinates:
+  latitude: -8.8333
+  longitude: 125.9167
+area_sq_km: 14919
+borders:
+  - country: "Indonesia"
+    border_length_km: 228
+coastline_km: 706
+terrain: "Mountainous, rugged, with coastal plains and river valleys"
+highest_point: "Tatamailau (2,963 m)"
+lowest_point: "Timor Sea (0 m)"
+climate: "Tropical; hot, humid; distinct wet (December-March) and dry (April-November) seasons"

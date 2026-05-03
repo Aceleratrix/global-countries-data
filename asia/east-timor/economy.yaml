@@ -1,0 +1,15 @@
+country: "Timor-Leste"
+gdp_2023_usd: 2100000000
+gdp_per_capita_usd: 1600
+currency: "US Dollar (USD); Centavo coins for smaller denominations"
+major_industries:
+  - "Oil and gas (offshore)"
+  - "Agriculture (coffee, rice, corn, cassava)"
+  - "Fishing"
+  - "Tourism (developing)"
+unemployment_rate: 4.6
+inflation_rate_2023: 5.2
+major_exports:
+  - "Crude oil"
+  - "Coffee"
+  - "Natural gas"
