@@ -1,0 +1,11 @@
+road_network_km: 28000
+paved_roads_km: 18000
+railway_km: 680
+main_airports:
+  - Dushanbe International Airport
+  - Khujand Airport
+  - Kulob Airport
+internet_penetration_percent_2023: 35
+mobile_penetration_percent_2023: 98
+electricity_access_percent_2023: 100
+internet_speed_mbps_avg_2023: 12

@@ -1,0 +1,18 @@
+gdp_nominal_2023_usd: 8600000000
+gdp_ppp_2023_usd: 42100000000
+gdp_per_capita_nominal_2023_usd: 850
+gdp_per_capita_ppp_2023_usd: 4160
+key_sectors:
+  - Agriculture
+  - Mining
+  - Remittances
+poverty_rate_2022: 26.3
+unemployment_rate_2023: 11.2
+remittances_percent_gdp: 30
+main_exports:
+  - Aluminum
+  - Gold
+  - Cotton
+  - Fruits
+inflation_rate_2023: 5.2
+foreign_debt_usd: 3200000000

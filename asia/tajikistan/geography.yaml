@@ -1,0 +1,20 @@
+is_landlocked: true
+borders:
+  - Afghanistan
+  - China
+  - Kyrgyzstan
+  - Uzbekistan
+mountain_coverage_percent: 93
+mountain_range: Pamir-Alay
+highest_peak: Ismoil Somoni Peak
+highest_peak_elevation_m: 7495
+major_rivers:
+  - Amu Darya (Pyanj)
+  - Syr Darya
+  - Zeravshan
+notable_lakes:
+  - Iskanderkul
+  - Karakul
+climate: Continental, semi-arid in lowlands, polar in high mountains
+lowest_point: Syr Darya river valley (300 m)
+forest_coverage_percent: 3.1
