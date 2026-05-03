@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-|[![Status: 169/195 (86.7%) Complete](https://img.shields.io/badge/Status-169/195%20(86.7%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+|[![Status: 170/195 (87.2%) Complete](https://img.shields.io/badge/Status-170/195%20(87.2%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (168 / 195 = 86.2%)
+## 📊 Coverage Progress (170 / 195 = 87.2%)
 
 ### 🌎 South America (10/12 = 83.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -140,7 +140,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇲🇩 **Moldova** | 13/13 | ✅ **100% COMPLETE** | 93rd largest economy ($0.12T), Chișinău (capital), landlocked Eastern Europe, EU candidate since 2022, world-renowned wine cellars, 2.6M population | English (en-US) |
 | 🇵🇱 **Poland** | 13/13 | ✅ **100% COMPLETE** | 20th largest economy ($0.81T), Warsaw (1.8M), BLIK (60% transactions), 2.1M SMEs, EU member 2004 | Polish (pl-PL) + English |
 
-### 🌍 Africa (32/54 = 59.3%)
+### 🌍 Africa (33/54 = 61.1%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇳🇬 **Nigeria** | 13/13 | ✅ **100% COMPLETE** | 28th largest economy ($0.48T), Africa's most populous (223M), fintech leader (4 unicorns), Nollywood | English (en-NG) |
@@ -173,6 +173,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇪🇷 **Eritrea** | 13/13 | ✅ **100% COMPLETE** | 160th largest economy ($0.05T), Asmara (capital, UNESCO World Heritage Site), borders Djibouti/Ethiopia/Sudan, 3.5M population | English (en-ER) + Tigrinya/Arabic |
 | 🇸🇨 **Seychelles** | 13/13 | ✅ **100% COMPLETE** | 161st largest economy ($0.05T), Victoria (capital), Indian Ocean archipelago, no land borders, 122.7K population | English (en-SC) + Seychellois Creole + French |
 | 🇸🇸 **South Sudan** | 13/13 | ✅ **100% COMPLETE** | 162nd largest economy ($0.05T), Juba (capital), youngest African country (2011 independence), oil exports 90% revenue, 11M population, Sudd wetland (Ramsar site) | English (en-SS) + 60+ indigenous languages |
+| 🇸🇩 **Sudan** | 13/13 | ✅ **100% COMPLETE** | 84th largest economy ($0.14T), Khartoum (capital), Nile River, Pyramids of Meroë, 46M population, Sahel region | Arabic (ar-SD) + English |
 | 🇨🇻 **Cabo Verde** | 13/13 | ✅ **100% COMPLETE** | 158th largest economy ($0.0022T), Praia (capital), Atlantic island nation, SIDS status, tourism 25% GDP, Creole culture | Portuguese (pt-CV) + Cape Verdean Creole |
 | 🇳🇪 **Niger** | 13/13 | ✅ **100% COMPLETE** | 96th largest economy ($0.12T), Niamey (capital), Sahel region, uranium superpower (4th largest reserves), 26.3M population, 80% Sahara Desert | French (fr-NE) + English |
 
