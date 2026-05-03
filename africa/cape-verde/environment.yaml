@@ -1,0 +1,14 @@
+biome: "Tropical savanna, arid coastal zones"
+protected_areas_percent: 15.2
+endemic_species_count: 12
+major_env_issues:
+  - "Deforestation"
+  - "Soil erosion"
+  - "Water scarcity"
+  - "Marine pollution"
+renewable_energy_percent: 28
+waste_management_coverage: 65
+national_parks:
+  - "Cova-Rodela Natural Park"
+  - "Serra Malagueta Natural Park"
+  - "Monte Gordo Natural Park"

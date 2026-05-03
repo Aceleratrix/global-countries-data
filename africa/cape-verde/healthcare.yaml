@@ -1,0 +1,12 @@
+healthcare_system: "Mixed public-private system"
+public_health_expenditure_percent_gdp: 5.3
+life_expectancy: 73.2
+infant_mortality_rate: 15.8
+physicians_per_1000: 0.8
+hospital_beds_per_1000: 2.1
+major_diseases:
+  - "Malaria (low incidence)"
+  - "Dengue fever"
+  - "Hypertension"
+vaccination_coverage: 92
+health_challenges: "Limited specialist care, uneven rural access"

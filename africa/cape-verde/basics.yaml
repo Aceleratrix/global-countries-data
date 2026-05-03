@@ -1,0 +1,25 @@
+country_name: "Cabo Verde"
+official_name: "Republic of Cabo Verde"
+former_name: "Cape Verde"
+iso_alpha2: "CV"
+iso_alpha3: "CPV"
+iso_numeric: "132"
+capital: "Praia"
+population: 593149
+area_km2: 4033
+currency_code: "CVE"
+currency_name: "Cape Verdean escudo"
+languages:
+  - "Portuguese (official)"
+  - "Cape Verdean Creole (Kriolu, national)"
+president: "José Maria Neves"
+prime_minister: "Ulisses Correia e Silva"
+independence_date: "1975-07-05"
+independence_from: "Portugal"
+region: "Africa"
+subregion: "Western Africa"
+time_zone: "UTC-1"
+calling_code: "+238"
+internet_tld: ".cv"
+island_nation: true
+sids_status: "Small Island Developing State (SIDS)"

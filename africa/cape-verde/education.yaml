@@ -1,0 +1,12 @@
+literacy_rate: 88.5
+education_system: "Portuguese-model education system"
+compulsory_education_age: "6 to 12 years"
+primary_school_enrollment: 94
+secondary_school_enrollment: 72
+higher_education_institutions:
+  - "University of Cabo Verde (Uni-CV)"
+  - "Jean Piaget University of Cabo Verde"
+  - "University of Santiago"
+education_expenditure_percent_gdp: 4.1
+adult_education_programs: true
+challenges: "Limited resources in rural areas, teacher shortages"
