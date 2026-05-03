@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (172 / 195 = 88.2%)
+## 📊 Coverage Progress (173 / 195 = 88.7%)
 
 ### 🌎 South America (10/12 = 83.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
