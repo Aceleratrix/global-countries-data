@@ -1,0 +1,10 @@
+infrastructure:
+  transport:
+    - Airport: Gibraltar International Airport (adjacent to Spanish border)
+    - Ports: Gibraltar Harbour (major port for cruise ships and cargo)
+    - Roads: 29 km of paved roads
+  energy:
+    - Electricity: 100% from natural gas and solar (goal to be carbon neutral by 2030)
+  telecommunications:
+    - Mobile coverage: 4G/5G available
+    - Internet: High-speed fiber optic network

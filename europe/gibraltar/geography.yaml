@@ -1,0 +1,13 @@
+geography:
+  location: Southern tip of the Iberian Peninsula, overlooking the Strait of Gibraltar
+  coordinates: 36.1408° N, 5.3536° W
+  terrain: Rocky peninsula, dominated by the Rock of Gibraltar (426m high)
+  climate: Mediterranean, mild winters, warm summers
+  natural_resources: Limestone, fisheries
+  land_boundaries:
+    - country: Spain
+      length_km: 1.2
+  coastline_km: 12
+  maritime_claims:
+    territorial_sea: 3 nm
+    exclusive_fishing_zone: 12 nm

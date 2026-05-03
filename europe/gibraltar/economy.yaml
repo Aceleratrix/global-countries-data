@@ -1,0 +1,19 @@
+economy:
+  gdp_nominal: $3.1 billion (2023 estimate)
+  gdp_per_capita: $91,000
+  main_industries:
+    - Financial services
+    - Tourism
+    - Shipping
+    - Online gaming
+    - Tobacco manufacturing
+  unemployment_rate: 1.2% (2023)
+  inflation_rate: 4.5% (2023)
+  exports:
+    - Petroleum products
+    - Tobacco
+    - Beverages
+  imports:
+    - Fuels
+    - Foodstuffs
+    - Manufactured goods

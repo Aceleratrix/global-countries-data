@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-|[![Status: 171/195 (87.7%) Complete](https://img.shields.io/badge/Status-171/195%20(87.7%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+|[![Status: 172/195 (88.2%) Complete](https://img.shields.io/badge/Status-172/195%20(88.2%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (170 / 195 = 87.2%)
+## 📊 Coverage Progress (172 / 195 = 88.2%)
 
 ### 🌎 South America (10/12 = 83.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -100,14 +100,15 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇹🇲 **Turkmenistan** | 13/13 | ✅ **100% COMPLETE** | 93rd largest economy ($0.08T), Ashgabat (capital), Karakum Desert 80% territory, 4th largest natural gas reserves, Darvaza Gas Crater, permanent UN neutrality | English (en-US) |
 | 🇹🇱 **Timor-Leste (East Timor)** | 13/13 | ✅ **100% COMPLETE** | Asia's youngest nation (2002), ASEAN member (2023), oil/gas economy, Dili (capital), 1.3M population | English (en-US) |
 
-### 🌍 Europe (31/44 = 70.5%)
-### 🌍 Europe (31/44 = 70.5%)
-### 🌍 Europe (31/44 = 70.5%)
+### 🌍 Europe (32/44 = 72.7%)
+### 🌍 Europe (32/44 = 72.7%)
+### 🌍 Europe (32/44 = 72.7%)
 
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇩🇪 **Germany** | 13/13 | ✅ **100% COMPLETE** | GDPR (gold standard), EU AI Act, SEPA, Industry 4.0, 4 cloud regions | English (en-US) |
 | 🇬🇬 **United Kingdom** | 13/13 | ✅ **100% COMPLETE** | Faster Payments (3.2B txns/year), Open Banking (600+ fintechs), AI Safety Summit, London Tech Hub | English (en-GB) |
+| 🇬🇮 **Gibraltar** | 13/13 | ✅ **100% COMPLETE** | British Overseas Territory, Rock of Gibraltar, Barbary macaques, 34K population | English (en-GI) + Spanish + Llanito |
 | 🇫🇷 **France** | 13/13 | ✅ **100% COMPLETE** | Cartes Bancaires (95%), Mistral AI, EU AI Act, GDPR gold standard, 600+ AI startups | French (fr-FR) + English |
 | 🇮🇹 **Italy** | 13/13 | ✅ **100% COMPLETE** | Bancomat (95%), Satispay (10M+), i-gen (Italian LLM), no min wage in EU, 400+ AI startups | Italian (it-IT) + English |
 | 🇳🇱 **Netherlands** | 13/13 | ✅ **100% COMPLETE** | ASML $300B, Booking.com, 30% ruling, cycling nation, Port of Rotterdam, AI Delta Plan | Dutch (nl-NL) + English |

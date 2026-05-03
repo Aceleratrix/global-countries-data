@@ -1,0 +1,24 @@
+country: Gibraltar
+official_name: Gibraltar
+type: British Overseas Territory
+sovereign_state: United Kingdom
+region: Europe
+subregion: Southern Europe
+iso_code: GI
+capital: Gibraltar
+area_km2: 6.7
+population: 34000
+population_year: 2023
+currency:
+  - code: GIP
+    name: Gibraltar pound
+  - code: GBP
+    name: British pound sterling
+    notes: Widely accepted
+languages:
+  - English
+  - Spanish
+  - Llanito
+time_zone:
+  standard: UTC+1
+  daylight_saving: UTC+2

@@ -1,0 +1,15 @@
+demographics:
+  population: 34000
+  population_density: 5075 per km²
+  ethnic_groups:
+    - Gibraltarians: 79%
+    - Other British: 13%
+    - Moroccans: 3%
+    - Other: 5%
+  religions:
+    - Christianity: 78% (Roman Catholic majority)
+    - Islam: 4%
+    - Judaism: 2%
+    - Other/None: 16%
+  median_age: 38 years
+  life_expectancy: 80 years
