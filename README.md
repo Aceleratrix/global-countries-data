@@ -67,7 +67,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇻🇨 **Saint Vincent and the Grenadines** | 13/13 | ✅ **100% COMPLETE** | 166th largest economy ($0.05T), Kingstown (capital), Caribbean archipelago of 32 islands, tourism 40% GDP | English (en-VC) + Vincentian Creole English |
 | 🇩🇲 **Dominica** | 13/13 | ✅ **100% COMPLETE** | 168th largest economy ($0.05T), Roseau (capital), Caribbean island nation, Morne Trois Pitons UNESCO site, Eastern Caribbean Dollar | English (en-DM) + Dominican Creole French |
 
-### 🌏 Asia (24/50 = 48.0%)
+### 🌏 Asia (25/50 = 50.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇮🇱 **Israel** | 13/13 | ✅ **100% COMPLETE** | 33rd largest economy ($0.39T), Startup Nation, 8K+ tech startups, 100+ unicorns | English (en-US) |
@@ -89,6 +89,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇳🇵 **Nepal** | 13/13 | ✅ **100% COMPLETE** | 101st largest economy ($0.09T), Kathmandu (3M), Mount Everest, Himalayan nation, 29.9M population | English (en-US) |
 | 🇾🇪 **Yemen** | 13/13 | ✅ **100% COMPLETE** | 121st largest economy ($0.07T), Sana'a (capital), Arabian Peninsula, borders Oman/Saudi Arabia | English (en-US) |
 | 🇦🇫 **Afghanistan** | 13/13 | ✅ **100% COMPLETE** | 122nd largest economy ($0.07T), Kabul (4.1M), Landlocked, Hindu Kush mountains | English (en-US) |
+| 🇧🇩 **Bangladesh** | 13/13 | ✅ **100% COMPLETE** | 41st largest economy ($0.46T), Dhaka (22M), Ganges/Brahmaputra delta, 170M population, textile manufacturing hub | English (en-US) |
 | 🇲🇲 **Myanmar** | 13/13 | ✅ **100% COMPLETE** | 120th largest economy ($0.07T), Naypyidaw (capital), South-Eastern Asia, 51.3M population | English (en-US) |
 | 🇱🇰 **Sri Lanka** | 13/13 | ✅ **100% COMPLETE** | 77th largest economy ($0.14T), Colombo (commercial)/Sri Jayawardenepura Kotte (administrative), Ceylon tea, ancient Buddhist temples, 22.2M population | English (en-US) |
 | 🇲🇳 **Mongolia** | 13/13 | ✅ **100% COMPLETE** | 80th largest economy ($0.15T), Ulaanbaatar (capital), landlocked East Asia, Gobi Desert, 3.4M population | English (en-US) |
@@ -255,7 +256,7 @@ global-countries-data/
 │   └── usa/                # 🇺🇸 100% COMPLETE (13 files)
 │       └── ... (same structure as brazil)
 │
-├── asia/                  # 🌏 23/50 countries (46.0%)
+├── asia/                  # 🌏 25/50 countries (50.0%)
 │   ├── japan/            # 🇯🇵 100% COMPLETE (14 files)
 │   ├── china/            # 🇨🇳 100% COMPLETE (13 files)
 │   ├── india/            # 🇮🇳 100% COMPLETE (13 files)
