@@ -1,12 +1,12 @@
-country: Kuwait
-national_holidays:
-  - National Day: 2024-02-25
-  - Liberation Day: 2024-02-26
-religion: Islam (official, ~85% Muslim)
+national_language: "Arabic"
+official_religion: "Islam"
+national_anthem: "Al-Nasheed Al-Watani (National Anthem of Kuwait)"
+national_day: "February 25 (National Day)"
+liberation_day: "February 26 (Liberation Day)"
 cuisine:
-  - Machboos
-  - Mandi
-  - Seafood dishes
-traditional_clothing:
-  - Men: Dishdasha
-  - Women: Abaya
+  - "Machboos (spiced rice with meat)"
+  - "Gabout (stuffed pastry)"
+  - "Harees (wheat and meat porridge)"
+traditional_dress:
+  - "Men: Dishdasha, Ghutra, Agal"
+  - "Women: Abaya, Hijab"

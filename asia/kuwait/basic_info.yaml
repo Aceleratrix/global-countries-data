@@ -1,0 +1,17 @@
+country_name: "Kuwait"
+official_name: "State of Kuwait"
+iso_alpha2: "KW"
+iso_alpha3: "KWT"
+iso_numeric: "414"
+capital: "Kuwait City"
+population: 4300000  # 2024 estimate
+area_km2: 17818
+currency_code: "KWD"
+currency_name: "Kuwaiti Dinar"
+languages:
+  - "Arabic"
+  - "English"
+calling_code: "+965"
+time_zone: "UTC+3"
+continent: "Asia"
+region: "Western Asia"

@@ -1,7 +1,9 @@
-country: Kuwait
-literacy_rate: 96  # percent (2024)
-education_spending: 3.5  # percent of GDP
-compulsory_education_age: 6-14
-higher_education_institutions:
-  - Kuwait University
-  - Public Authority for Applied Education and Training
+literacy_rate: 96.1  # percent (2024)
+compulsory_education_age: "6-14 years"
+public_universities:
+  - "Kuwait University"
+  - "Public Authority for Applied Education and Training (PAAET)"
+private_universities:
+  - "Gulf University for Science and Technology (GUST)"
+  - "American University of Kuwait (AUK)"
+education_expenditure_percent_gdp: 3.5  # 2024

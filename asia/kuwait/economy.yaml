@@ -1,15 +1,17 @@
-country: Kuwait
-gdp_nominal: 150e9  # $0.15 trillion
-gdp_rank: 74
-gdp_per_capita: 32000  # USD, 2024 estimate
-main_sectors:
-  - Petroleum
-  - Petrochemicals
-  - Finance
-  - Construction
-oil_reserves: 101.5e9  # barrels, 7th largest globally
-export_partners:
-  - China
-  - India
-  - Japan
-  - South Korea
+gdp_nominal_2024: 180000000000  # USD
+gdp_per_capita_2024: 38000  # USD
+currency: "Kuwaiti Dinar (KWD)"
+exchange_rate: "1 KWD = ~3.25 USD (2024)"
+main_industries:
+  - "Petroleum and petroleum products"
+  - "Natural gas"
+  - "Fertilizers"
+  - "Petrochemicals"
+  - "Construction"
+  - "Financial services"
+unemployment_rate: 2.2  # 2024 estimate
+major_exports:
+  - "Crude oil"
+  - "Refined petroleum products"
+  - "Natural gas"
+  - "Fertilizers"

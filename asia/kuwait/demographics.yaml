@@ -1,14 +1,13 @@
-country: Kuwait
-population: 4300000  # 2024 estimate
-population_growth_rate: 1.2  # percent annual
-capital: Kuwait City
-capital_population: 500000
+population_2024: 4300000
+population_density: 241  # per km²
+urban_population_percent: 100  # Kuwait is fully urbanized
+median_age: 30.5  # 2024 estimate
+life_expectancy: 79.2  # years
+religions:
+  - "Islam (Sunni ~70%, Shia ~30%)"
+  - "Christianity (small minority)"
+  - "Hinduism (expatriate community)"
 ethnic_groups:
-  - Kuwaiti Arabs: 30%
-  - Other Arabs: 20%
-  - South Asians: 30%
-  - Southeast Asians: 15%
-  - Others: 5%
-languages:
-  - Arabic (official)
-  - English (widely spoken)
+  - "Arab (Kuwaiti ~30%, other Arab ~20%)"
+  - "South Asian (expatriate ~40%)"
+  - "Other (expatriate ~10%)"

@@ -1,10 +1,12 @@
-country: Kuwait
-area: 17818  # km²
-region: Western Asia
-coordinates: "29.3117° N, 47.4818° E"
-borders:
-  - Iraq: 240 km
-  - Saudi Arabia: 222 km
-coastline: 499  # km (Persian Gulf)
-terrain: Mostly flat desert, low rolling hills
-climate: Arid, hot summers (up to 50°C), mild winters
+total_area_km2: 17818
+land_area_km2: 17818
+water_area_km2: 0
+highest_point: "Unnamed elevation in Al Jahra Governorate (306 m)"
+lowest_point: "Persian Gulf (0 m)"
+climate: "Desert; hot and dry summers, mild winters"
+terrain: "Flat to slightly undulating desert plains"
+natural_resources:
+  - "Petroleum"
+  - "Natural gas"
+  - "Fish"
+  - "Shrimp"

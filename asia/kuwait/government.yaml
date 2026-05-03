@@ -1,7 +1,13 @@
-country: Kuwait
-government_type: Constitutional emirate
-head_of_state: Emir Mishal Al-Ahmad Al-Jaber Al-Sabah
-head_of_government: Prime Minister Ahmad Al-Abdullah Al-Sabah
-legislature: National Assembly (50 elected members)
-independence_date: 1961-06-19
-independence_from: United Kingdom
+government_type: "Unitary parliamentary semi-constitutional monarchy"
+head_of_state: "Emir Mishal Al-Ahmad Al-Jaber Al-Sabah"
+head_of_government: "Prime Minister Ahmad Al-Sabah"
+legislature: "National Assembly (Majlis al-Umma)"
+administrative_divisions:
+  - "Al Asimah (Capital)"
+  - "Hawalli"
+  - "Al Farwaniyah"
+  - "Al Jahra"
+  - "Mubarak Al-Kabeer"
+  - "Al Ahmadi"
+independence_date: "1961-06-19 (from UK)"
+constitution_date: "1962-11-11"

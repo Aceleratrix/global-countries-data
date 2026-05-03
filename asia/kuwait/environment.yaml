@@ -1,0 +1,8 @@
+forest_cover_percent: 0.4  # 2024
+protected_areas_percent: 15  # of total land area
+major_environmental_issues:
+  - "Air pollution from oil refineries and vehicles"
+  - "Water scarcity"
+  - "Desertification"
+  - "Marine pollution from oil spills"
+renewable_energy_target: "15% by 2030"

@@ -1,5 +1,6 @@
-country: Kuwait
-healthcare_spending: 4.2  # percent of GDP
-life_expectancy: 79  # years (2024)
-infant_mortality_rate: 7  # per 1,000 live births
-healthcare_system: Universal public healthcare
+life_expectancy_years: 79.2
+infant_mortality_per_1000_live_births: 7.1  # 2024
+doctors_per_1000_people: 2.8  # 2024
+healthcare_expenditure_percent_gdp: 4.2  # 2024
+hospitals: 25  # public and private
+public_healthcare: "Free for Kuwaiti citizens, subsidized for expatriates"
