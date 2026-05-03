@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (161 / 195 = 82.6%)
+## 📊 Coverage Progress (162 / 195 = 83.1%)
 
 ### 🌎 South America (9/12 = 75.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -94,9 +94,9 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇲🇳 **Mongolia** | 13/13 | ✅ **100% COMPLETE** | 80th largest economy ($0.15T), Ulaanbaatar (capital), landlocked East Asia, Gobi Desert, 3.4M population | English (en-US) |
 | 🇧🇹 **Bhutan** | 13/13 | ✅ **100% COMPLETE** | 76th largest economy ($0.16T), Thimphu (capital), Himalayan nation, Gross National Happiness, 770K population | English (en-US) |
 
-### 🌍 Europe (25/44 = 56.8%)
-### 🌍 Europe (25/44 = 56.8%)
-### 🌍 Europe (28/44 = 63.6%)
+### 🌍 Europe (29/44 = 65.9%)
+### 🌍 Europe (29/44 = 65.9%)
+### 🌍 Europe (29/44 = 65.9%)
 
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
@@ -131,6 +131,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇲🇨 **Monaco** | 13/13 | ✅ **100% COMPLETE** | 179th largest economy ($0.05T), Monaco (capital), city-state on French Riviera, 36K population, highest population density globally | English (en-US) |
 | 🇨🇭 **Switzerland** | 13/13 | ✅ **100% COMPLETE** | 20th largest economy ($0.91T), Zürich (434K), direct democracy, Swiss franc, 98% internet penetration, global wealth management hub | English (en-US) |
 | 🇸🇮 **Slovenia** | 13/13 | ✅ **100% COMPLETE** | 66th largest economy ($0.19T), Ljubljana (capital), Alpine country, EU/Schengen/NATO member, Lake Bled | English (en-US) |
+| 🇲🇩 **Moldova** | 13/13 | ✅ **100% COMPLETE** | 93rd largest economy ($0.12T), Chișinău (capital), landlocked Eastern Europe, EU candidate since 2022, world-renowned wine cellars, 2.6M population | English (en-US) |
 
 ### 🌍 Africa (31/54 = 57.4%)
 | Country | Files | Status | Key Highlights | Primary Language |

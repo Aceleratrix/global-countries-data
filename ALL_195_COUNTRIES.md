@@ -130,7 +130,7 @@
 | 90 | 🇧🇴 Bósnia e Herzegovina | bosnia-herzegovina | Europe | $0.13T |
 | 91 | 🇱🇧 Líbano | lebanon | Asia | $0.11T | ✅ 100% COMPLETE |
 | 92 | 🇮🇻 Macedônia do Norte | north-macedonia | Europe | $0.12T | ✅ 100% COMPLETE |
-| 93 | 🇲🇻 Moldávia | moldova | Europe | $0.12T |
+| 93 | 🇲🇻 Moldávia | moldova | Europe | $0.12T | ✅ 100% COMPLETE |
 | 108 | 🇦🇱 Albânia | albania | Europe | $0.08T | ✅ 100% COMPLETE |
 | 153 | 🇬🇦 Gabão | gabon | Africa | $0.05T | ✅ 100% COMPLETE |
 | 96 | 🇳🇵 Níger | niger | Africa | $0.12T |
@@ -168,11 +168,11 @@
 |-----------|---------|-----------|-----------|------------|
 | 🌎 North America | 4 | 4 | 0 | **100%** ✅ |
 | 🌏 Asia | 50 | 7 | 43 | 14.0% |
-| 🌍 Europe | 44 | 10 | 34 | 22.7% |
+| 🌍 Europe | 44 | 11 | 33 | 25.0% |
 | 🌎 South America | 12 | 7 | 5 | 58.3% |
 | 🌏 Oceania | 14 | 4 | 10 | 28.6% |
 | 🌍 Africa | 54 | 13 | 41 | 24.1% |
-| **TOTAL** | **195** | **114** | **81** | **58.5%** |
+| **TOTAL** | **195** | **115** | **80** | **59.0%** |
 
 ---
 
