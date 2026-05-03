@@ -1,0 +1,14 @@
+region: North America
+subregion: Caribbean
+coordinates:
+  latitude: 21.5218
+  longitude: -77.7812
+borders:
+  - country: United States (Guantanamo Bay)
+  - country: The Bahamas (maritime)
+  - country: Jamaica (maritime)
+  - country: Haiti (maritime)
+terrain: Mostly flat or rolling plains, with rugged hills and mountains in the southeast
+highest_point: Pico Turquino (1,974 m)
+lowest_point: Caribbean Sea (0 m)
+climate: Tropical, moderated by trade winds; dry season (November to April), rainy season (May to October)

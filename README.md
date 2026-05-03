@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-|[![Status: 174/195 (89.2%) Complete](https://img.shields.io/badge/Status-174/195%20(89.2%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+|[![Status: 175/195 (89.7%) Complete](https://img.shields.io/badge/Status-175/195%20(89.7%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (174 / 195 = 89.2%)
+## 📊 Coverage Progress (175 / 195 = 89.7%)
 
 ### 🌎 South America (10/12 = 83.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -51,7 +51,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇵🇾 **Paraguay** | 13/13 | ✅ **100% COMPLETE** | 82nd largest economy ($0.14T), Asunción (capital), landlocked, Itaipu Dam (shared with Brazil), Guaraní official language alongside Spanish, 7.45M population | Spanish (es-PY) + Guaraní + English |
 | 🇬🇾 **Guyana** | 13/13 | ✅ **100% COMPLETE** | 152nd largest economy ($0.05T), Georgetown (capital), only English-speaking South American country, offshore oil boom, Kaieteur Falls, 790K population | English (en-GY) + Guyanese Creole |
 
-### 🌎 North America (13/23 = 56.5%)
+### 🌎 North America (14/23 = 60.9%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇺🇸 **USA** | 13/13 | ✅ **100% COMPLETE** | Silicon Valley, Section 230, 20+ cloud regions | English (en-US) |
@@ -68,6 +68,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇬🇩 **Grenada** | 13/13 | ✅ **100% COMPLETE** | 165th largest economy ($0.05T), St. George's (capital), Caribbean island, nutmeg production, tourism | English (en-GD) + English |
 | 🇻🇨 **Saint Vincent and the Grenadines** | 13/13 | ✅ **100% COMPLETE** | 166th largest economy ($0.05T), Kingstown (capital), Caribbean archipelago of 32 islands, tourism 40% GDP | English (en-VC) + Vincentian Creole English |
 | 🇩🇲 **Dominica** | 13/13 | ✅ **100% COMPLETE** | 168th largest economy ($0.05T), Roseau (capital), Caribbean island nation, Morne Trois Pitons UNESCO site, Eastern Caribbean Dollar | English (en-DM) + Dominican Creole French |
+| 🇨🇺 **Cuba** | 13/13 | ✅ **100% COMPLETE** | 107th largest economy ($0.11T), Havana (2.1M), Caribbean island, socialist republic, high literacy (99.8%), medical tourism | Spanish (es-CU) + English |
 
 ### 🌏 Asia (29/50 = 58.0%)
 | Country | Files | Status | Key Highlights | Primary Language |

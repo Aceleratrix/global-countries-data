@@ -1,0 +1,25 @@
+gdp_nominal: $107.38 billion (2023)
+gdp_per_capita: $9,648 (2023)
+gdp_growth_rate: 1.8% (2023)
+inflation_rate: 45% (2023)
+unemployment_rate: 1.2% (2023)
+main_industries:
+  - Tourism
+  - Sugar
+  - Tobacco
+  - Nickel mining
+  - Pharmaceuticals
+  - Biotechnology
+main_exports:
+  - Sugar
+  - Tobacco products
+  - Nickel
+  - Pharmaceuticals
+  - Medical services
+main_imports:
+  - Food
+  - Fuel
+  - Machinery
+  - Chemicals
+currency: Cuban Peso (CUP)
+exchange_rate: 1 USD = 24 CUP (official rate, 2024)
