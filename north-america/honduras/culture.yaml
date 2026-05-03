@@ -1,23 +1,15 @@
-country: Honduras
-traditional_music:
-  - Punta (Garifuna rhythmic music/dance)
-  - Marimba (percussion instrument)
-  - Garifuna drumming
-traditional_dance:
-  - Punta
-  - Xica (folk dance)
+national_symbols:
+  - Flag: Three horizontal stripes (blue, white, blue) with five blue stars
+  - Anthem: "Himno Nacional de Honduras"
+  - Bird: Scarlet macaw
+  - Flower: Orchid (Rhyncholaelia digbyana)
+  - Tree: Pinus oocarpa
+traditional_music: Punta (Garifuna), marimba, folkloric dances
 cuisine:
-  - Baleadas (flour tortillas with refried beans, cheese, sour cream)
-  - Tamales (corn dough stuffed with meat, wrapped in banana leaves)
-  - Sopa de caracol (conch soup, Garifuna specialty)
-  - Plato típico (rice, beans, plantains, meat)
-public_holidays:
+  - Baleadas (flour tortillas with beans, cheese, cream)
+  - Plato típico (rice, beans, plantains, meat, salad)
+  - Sopa de caracol (conch soup)
+notable_holidays:
   - Independence Day: September 15
-  - Semana Santa (Holy Week, movable date)
   - Labor Day: May 1
   - Christmas: December 25
-  - New Year's Day: January 1
-  - Morazán Day: October 3 (honors Francisco Morazán)
-unesco_cultural_heritage:
-  - Río Plátano Biosphere Reserve (mixed natural/cultural site)
-  - Garifuna language, dance and music (intangible heritage)

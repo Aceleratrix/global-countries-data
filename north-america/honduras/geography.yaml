@@ -1,23 +1,20 @@
-country: Honduras
-region: North America (Central America)
-coordinates:
-  latitude: 15.1999
-  longitude: -86.2419
+region: Central America
+subregion: North America (geopolitical)
 borders:
-  - Guatemala
-  - El Salvador
-  - Nicaragua
-coastline:
-  - Caribbean Sea (north, ~700 km)
-  - Gulf of Fonseca (Pacific Ocean, south, ~153 km)
-terrain:
-  - Mountainous interior (Sierra Madre range)
-  - Narrow coastal plains
-  - Tropical rainforests
-  - Cloud forests in highlands
-climate:
-  - Tropical in lowlands (hot, humid year-round, avg 27°C)
-  - Temperate in highlands (cooler, 18-22°C, distinct wet/dry seasons)
-highest_point: Cerro Las Minas (2,870 m)
+  - country: Guatemala
+    length_km: 256
+  - country: El Salvador
+    length_km: 342
+  - country: Nicaragua
+    length_km: 922
+coastline_km:
+  - caribbean: 820
+  - pacific: 153
+highest_point: Cerro Las Minas (2870 m)
 lowest_point: Caribbean Sea (0 m)
-departments: 18 administrative departments
+climate: Tropical in lowlands, temperate in highlands
+terrain: Mountainous interior, narrow coastal plains, Caribbean coral reefs
+notable_features:
+  - Bay Islands (Utila, Roatán, Guanaja)
+  - Copán Mayan Ruins (UNESCO World Heritage Site)
+  - Río Plátano Biosphere Reserve (UNESCO)

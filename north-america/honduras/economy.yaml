@@ -1,33 +1,23 @@
-country: Honduras
-gdp_nominal_usd: 31200000000
-gdp_year: 2023
-gdp_per_capita_usd: 3029
-gdp_growth_rate: 3.5% (2023)
-currency: Honduran lempira (HNL, subdivision: centavo)
+gdp_nominal_2024_usd: 31.6 billion
+gdp_per_capita_2024_usd: 3070
+gdp_growth_rate_2024: 3.5%
+inflation_rate_2024: 4.8%
+unemployment_rate_2024: 6.2%
 main_industries:
-  - Textiles and apparel (maquiladora sector)
-  - Agriculture (coffee, bananas, palm oil, sugarcane)
-  - Mining (gold, silver, zinc, lead)
+  - Agriculture (coffee, bananas, palm oil, shrimp)
+  - Manufacturing (textiles, apparel)
+  - Mining (gold, silver, zinc)
   - Tourism
-exports:
-  - Coffee (top agricultural export)
+main_exports:
+  - Coffee
   - Bananas
-  - Apparel and textiles
-  - Palm oil
+  - Apparel
+  - Crustaceans
   - Gold
-export_partners:
-  - United States (35%)
-  - Guatemala
-  - El Salvador
-  - Germany
-imports:
-  - Machinery and transport equipment
+main_imports:
+  - Machinery
+  - Electronics
   - Fuels
   - Food products
-  - Chemicals
-import_partners:
-  - United States (28%)
-  - China
-  - Guatemala
-  - Mexico
-unemployment_rate: 8.2% (2023)
+currency: Honduran lempira (HNL)
+exchange_rate_2024: ~24.7 HNL per USD

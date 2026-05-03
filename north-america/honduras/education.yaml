@@ -1,16 +1,8 @@
-country: Honduras
-literacy_rate: 88%
-literacy_year: 2023
-education_system:
-  - Primary (grades 1-6, mandatory, ages 6-12)
-  - Secondary (grades 7-12, ages 13-18)
-  - Tertiary (universities, technical institutes)
-school_enrollment:
-  primary: 92%
-  secondary: 65%
-  tertiary: 28%
-major_universities:
-  - National Autonomous University of Honduras (UNAH, public, founded 1847)
-  - Catholic University of Honduras (private)
-  - Technological University of Honduras (private)
-education_budget_percent_gdp: 4.2% (2023)
+literacy_rate_2024: 88.5%
+compulsory_education_age: 6-15 years
+education_spending_percent_gdp: 4.1%
+higher_education_institutions:
+  - National Autonomous University of Honduras (UNAH)
+  - Universidad Tecnológica Centroamericana (UNITEC)
+primary_school_enrollment_percent: 94%
+secondary_school_enrollment_percent: 65%

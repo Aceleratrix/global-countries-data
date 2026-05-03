@@ -1,13 +1,10 @@
-country: Honduras
-key_historical_events:
-  - 1502: Christopher Columbus arrives on Caribbean coast during fourth voyage
+key_events:
+  - 1502: Christopher Columbus arrives on Honduran coast
   - 1524: Spanish colonization begins under Hernán Cortés
-  - 1821: Independence from Spain (joins First Mexican Empire)
+  - 1821: Independence from Spain
   - 1823: Joins United Provinces of Central America
-  - 1838: Separates from Central American Federation, becomes independent republic
-  - 1969: Football War (brief war with El Salvador over migration disputes)
-  - 1998: Hurricane Mitch devastates country (kills ~5,600 people, destroys infrastructure)
-  - 2009: Military coup ousts President Manuel Zelaya
+  - 1838: Becomes fully independent republic
+  - 1969: Football War with El Salvador
+  - 2009: Constitutional crisis and coup d'état
   - 2021: Xiomara Castro elected first female president
-  - 2022: Xiomara Castro sworn into office
-colonial_name: Honduras (Spanish for "depths", named by Columbus for coastal waters)
+notable_ancient_civilizations: Maya (Copán ruins)

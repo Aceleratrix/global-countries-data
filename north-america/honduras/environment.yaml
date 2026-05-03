@@ -1,18 +1,12 @@
-country: Honduras
-ecosystems:
-  - Tropical rainforests (Mosquitia region)
-  - Mangroves (coastal areas)
-  - Coral reefs (Bay Islands, part of Mesoamerican Barrier Reef)
-  - Cloud forests (highlands)
-protected_areas_percent: 25% of total land area
-protected_sites:
-  - Pico Bonito National Park (cloud forest, wildlife)
-  - Río Plátano Biosphere Reserve (UNESCO, 1982)
-  - Celaque National Park (home to Cerro Las Minas)
-  - Copán Ruins National Park
+forest_cover_percent: 41%
+protected_areas_percent: 23%
+biodiversity:
+  - Over 7000 plant species
+  - 700 bird species
+  - 200 mammal species
+  - Coral reefs in Caribbean (second largest in world after Australia)
 environmental_issues:
-  - Deforestation (2% annual loss, illegal logging)
-  - Water pollution (agricultural runoff, untreated sewage)
-  - Soil erosion
-  - Climate change (increased hurricane frequency, drought)
-carbon_emissions_million_tons: 12 (2023)
+  - Deforestation (logging, agriculture)
+  - Water pollution
+  - Vulnerability to hurricanes (Eta, Iota in 2020)
+  - Climate change impacts (droughts, floods)

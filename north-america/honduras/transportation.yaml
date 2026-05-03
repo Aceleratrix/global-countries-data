@@ -1,0 +1,10 @@
+road_network_km: 14000 (paved: 3000)
+railway_km: 699 (mostly freight)
+major_airports:
+  - Toncontín International Airport (Tegucigalpa)
+  - Ramón Villeda Morales International Airport (San Pedro Sula)
+seaports:
+  - Puerto Cortés (Caribbean, largest port)
+  - Puerto Castilla
+  - San Lorenzo (Pacific)
+public_transport: Buses (local and intercity), taxis, ferries to Bay Islands

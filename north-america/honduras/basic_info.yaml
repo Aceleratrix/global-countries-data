@@ -1,0 +1,24 @@
+country_name: Honduras
+official_name: Republic of Honduras
+local_name: República de Honduras
+capital: Tegucigalpa
+largest_city: Tegucigalpa
+area_km2: 112492
+area_sqmi: 43278
+population_2024: 10278345
+population_density_km2: 91
+currency_code: HNL
+currency_name: Honduran lempira
+languages:
+  - Spanish
+  - Garifuna
+  - Miskito
+  - Pech
+  - Tawahka
+  - Ch'orti'
+time_zone: UTC-6
+calling_code: "+504"
+iso_alpha2: HN
+iso_alpha3: HND
+iso_numeric: 340
+tld: .hn

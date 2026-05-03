@@ -1,23 +1,15 @@
-country: Honduras
-population: 10300000
-population_year: 2023
+population_2024: 10278345
+population_growth_rate_2024: 1.6%
+urban_population_percent: 58%
+rural_population_percent: 42%
 ethnic_groups:
-  Mestizo: 90%
-  Indigenous: 7%
-  Afro-Honduran (Garifuna, Creole): 2%
-  Other: 1%
-indigenous_groups:
-  - Lenca (largest group)
-  - Miskito
-  - Garifuna
-  - Pech
-  - Tawahka
-religion:
-  Roman Catholic: 46%
-  Protestant (Evangelical): 41%
-  Other/None: 13%
-life_expectancy: 75
-life_expectancy_year: 2023
-median_age: 24
-urban_population: 57%
-population_growth_rate: 1.6%
+  - Mestizo: 90%
+  - Indigenous: 7% (Lenca, Miskito, Ch'orti', etc.)
+  - Afro-Honduran: 2%
+  - Other: 1%
+religions:
+  - Roman Catholic: 46%
+  - Protestant: 41%
+  - Other/None: 13%
+median_age: 24 years
+life_expectancy_years: 75.4
