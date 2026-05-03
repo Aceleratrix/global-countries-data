@@ -1,0 +1,17 @@
+geography:
+  region: "East Africa (UN M49 classification)"
+  subregion: "Middle Africa"
+  landlocked: true
+  borders:
+    - "Sudan (north, 2,159 km)"
+    - "Ethiopia (east, 1,299 km)"
+    - "Kenya (southeast, 232 km)"
+    - "Uganda (south, 435 km)"
+    - "Democratic Republic of the Congo (southwest, 714 km)"
+    - "Central African Republic (west, 682 km)"
+  terrain: "Savanna, swamplands (Sudd wetland), plateaus, southern Imatong Mountains"
+  highest_point: "Mount Kinyeti (3,187 m)"
+  lowest_point: "White Nile (380 m)"
+  major_rivers: ["White Nile", "Sobat River", "Bahr el Ghazal"]
+  climate: "Tropical, rainy season May-October (800-1200mm rainfall), dry season November-April"
+  protected_areas: ["Boma National Park", "Bandingilo National Park", "Sudd Wetland (Ramsar site)"]

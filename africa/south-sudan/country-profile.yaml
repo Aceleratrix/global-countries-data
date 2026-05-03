@@ -1,0 +1,20 @@
+country_profile:
+  official_name: "Republic of South Sudan"
+  common_name: "South Sudan"
+  iso_code_2: "SS"
+  iso_code_3: "SSD"
+  numeric_code: "728"
+  capital: "Juba"
+  independence_date: "2011-07-09"
+  area_km2: 619745
+  population_2023: 11088796
+  currency:
+    code: "SSP"
+    name: "South Sudanese Pound"
+    symbol: "£"
+  languages:
+    - "English (official)"
+    - "60+ indigenous languages (Dinka, Nuer, Bari, Zande, etc.)"
+  calling_code: "+211"
+  tld: ".ss"
+  government_type: "Federal presidential republic"

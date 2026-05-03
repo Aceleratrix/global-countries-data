@@ -1,0 +1,14 @@
+economy:
+  gdp_2023_usd_billion: 11.2
+  gdp_per_capita_usd: 1010
+  gdp_growth_rate_2023: -2.5  # %
+  main_industries:
+    - "Crude oil production (90% of government revenue)"
+    - "Subsistence agriculture (livestock, sorghum, millet)"
+    - "Timber"
+    - "Small-scale mining (gold, copper)"
+  unemployment_rate_2023: 12.1  # %
+  inflation_rate_2023: 38.5  # %
+  major_exports: ["Crude oil", "Livestock", "Timber"]
+  major_imports: ["Foodstuffs", "Machinery", "Fuel", "Manufactured goods"]
+  external_debt_2023_usd_billion: 4.1

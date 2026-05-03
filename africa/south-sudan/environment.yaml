@@ -1,0 +1,6 @@
+environment:
+  biodiversity: "Elephants, giraffes, lions, antelopes, 400+ bird species"
+  environmental_issues: ["Deforestation for fuelwood", "Oil spills contaminating water", "Wildlife poaching", "Climate change (droughts, floods)"]
+  climate_commitments: "Paris Agreement signatory, limited national climate policies due to conflict"
+  forest_coverage_pct_2023: 29
+  protected_area_coverage_pct_2023: 12

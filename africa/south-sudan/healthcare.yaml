@@ -1,0 +1,8 @@
+healthcare:
+  healthcare_spending_per_capita_usd_2023: 42
+  physicians_per_1000_people_2023: 0.05
+  infant_mortality_rate_2023: 62.4 per 1000 live births
+  life_expectancy_2023: 57.2  # years
+  major_diseases: ["Malaria", "Cholera", "Malnutrition", "COVID-19"]
+  challenges: ["Limited medical facilities", "Shortage of trained staff", "Humanitarian crises disrupting services"]
+  vaccination_coverage_2023: 45  # % (measles)

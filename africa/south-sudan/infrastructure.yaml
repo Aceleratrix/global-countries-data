@@ -1,0 +1,8 @@
+infrastructure:
+  paved_roads_km_2023: <500
+  total_roads_km_2023: ~12000
+  airports: ["Juba International Airport (main hub)", "3 other paved airports"]
+  electricity_access_pct_2023: 2.5
+  mobile_penetration_pct_2023: 35
+  internet_penetration_pct_2023: 12
+  improved_water_access_pct_2023: 45  # national average

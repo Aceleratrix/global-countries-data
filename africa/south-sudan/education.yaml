@@ -1,0 +1,7 @@
+education:
+  literacy_rate_2023: 34.5  # % ages 15+
+  primary_enrollment_pct_2023: 51.2
+  secondary_enrollment_pct_2023: 22.8
+  tertiary_institutions: ["University of Juba", "Catholic University of South Sudan", "Upper Nile University"]
+  challenges: ["Lack of infrastructure", "Teacher shortages", "Displacement from conflict disrupting schooling"]
+  public_education_spending_pct_gdp_2023: 1.8

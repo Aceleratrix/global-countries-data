@@ -1,0 +1,11 @@
+politics:
+  government_type: "Federal presidential republic"
+  head_of_state: "President Salva Kiir Mayardit"
+  legislative_branch: "Bicameral National Legislative Assembly (Council of States, National Assembly)"
+  political_parties:
+    - "Sudan People's Liberation Movement (SPLM) (dominant)"
+    - "SPLM-In Opposition (SPLM-IO)"
+    - "Other smaller parties"
+  recent_conflicts: "2013-2020 Civil War, Revitalized Peace Agreement 2018"
+  foreign_relations: ["UN member", "African Union member", "IGAD member"]
+  military_expenditure_2023_usd_million: 210

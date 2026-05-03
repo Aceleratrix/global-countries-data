@@ -1,0 +1,18 @@
+demographics:
+  population_2023: 11088796
+  population_growth_rate: 2.57  # %
+  birth_rate: 37.5 per 1000
+  death_rate: 12.4 per 1000
+  life_expectancy: 57.2  # years (2023)
+  urban_population_pct: 18.5
+  ethnic_groups:
+    - "Dinka (35-40%)"
+    - "Nuer (15-20%)"
+    - "Bari (5-10%)"
+    - "Zande (5-10%)"
+    - "Other smaller groups (Mondari, Murle, etc.)"
+  religions:
+    - "Christianity (60-70%)"
+    - "Traditional African religions (20-30%)"
+    - "Islam (5-10%)"
+  literacy_rate: 34.5  # % ages 15+ (2023)
