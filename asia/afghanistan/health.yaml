@@ -1,6 +1,9 @@
 country: Afghanistan
-life_expectancy: 64.5 years
-infant_mortality_rate: 47.9 per 1000
+life_expectancy_male: 63
+life_expectancy_female: 66
+infant_mortality_per_1000: 60
+health_expenditure_percent_gdp: 5%
 physicians_per_1000: 0.3
-healthcare_access: 64.0%
-source: WHO 2023
+hospital_beds_per_1000: 0.5
+major_diseases: Malaria, tuberculosis, cholera
+challenges: Rural healthcare access, shortage of female healthcare workers

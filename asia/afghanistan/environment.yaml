@@ -1,11 +1,10 @@
 country: Afghanistan
-natural_resources:
-  - Natural gas
-  - Copper
-  - Lithium
-forest_cover: 2.1%
-protected_areas: 1.3%
-major_rivers:
-  - Amu Darya
-  - Helmand
-source: UNEP 2023
+forest_cover_percent: 2%
+protected_areas_percent: 5%
+major_issues:
+  - Deforestation
+  - Soil erosion
+  - Water scarcity
+  - Air pollution (Kabul)
+biodiversity: 120 mammal species, 300 bird species
+endangered_species: Snow leopard, Marco Polo sheep, Siberian crane

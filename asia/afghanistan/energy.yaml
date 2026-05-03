@@ -1,0 +1,10 @@
+country: Afghanistan
+electricity_production_kwh: 1500000000
+electricity_consumption_kwh: 1400000000
+renewable_energy_percent: 30%
+sources:
+  - Hydropower: 60%
+  - Fossil fuels: 40%
+  - Solar/wind: Small scale
+energy_access_percent: 60%
+challenges: Limited grid coverage, reliance on electricity imports from Uzbekistan/Tajikistan

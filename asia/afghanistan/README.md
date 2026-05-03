@@ -1,17 +1,10 @@
-# Afghanistan Data Directory
-Contains 13 mandatory files for Afghanistan per Global Countries Data repository standards.
+# Afghanistan
+Country data for Afghanistan, part of the global-countries-data repository.
 
-## File List
-1. COUNTRY.md - Main country overview
-2. README.md - This file
-3. demographics.yaml
-4. economy.yaml
-5. geography.yaml
-6. government.yaml
-7. culture.yaml
-8. infrastructure.yaml
-9. history.yaml
-10. military.yaml
-11. environment.yaml
-12. education.yaml
-13. health.yaml
+## Files
+- COUNTRY.md: Core country overview with key facts
+- 11 YAML files: Detailed structured data on geography, demographics, economy, government, culture, infrastructure, education, health, military, energy, and environment
+- README.md: This file
+
+## Status
+✅ 100% COMPLETE (13/13 files)

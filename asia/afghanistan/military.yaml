@@ -1,5 +1,7 @@
 country: Afghanistan
-active_personnel: ~200000
-reserve_personnel: ~500000
-defense_budget_usd: ~500000000
-source: IISS Military Balance 2023
+de_facto_military: Taliban Armed Forces
+personnel: ~150000
+equipment: Small arms, light vehicles, captured former Afghan National Army aircraft
+defense_expenditure_percent_gdp: 1.2%
+former_military: Afghan National Army (disbanded August 2021)
+security_forces: Ministry of Interior (Taliban), Ministry of Defense (Taliban)

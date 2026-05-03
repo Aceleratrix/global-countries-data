@@ -1,12 +1,14 @@
 country: Afghanistan
-languages:
-  - Pashto
-  - Dari
-ethnic_groups:
-  - Pashtun: 42%
-  - Tajik: 27%
-  - Hazara: 9%
-  - Uzbek: 9%
-  - Other: 13%
-religion: Sunni Islam (99.7%)
-source: REST Countries API, CIA World Factbook
+national_symbols:
+  - Emblem: Arabic script "There is no god but Allah", wheat wreath, mosque
+  - Flag (pre-2021): Three vertical stripes (black, red, green) with white national emblem
+  - Flag (Taliban de facto): White field with black Shahada text
+  - Anthem (pre-2021): "Millī Surūd" (National Anthem)
+cuisine: Kabuli palaw, mantu, ashak, qorma, bolani
+traditional_clothing: Perahan tunban (men), burqa/chador (women)
+holidays:
+  - Eid al-Fitr
+  - Eid al-Adha
+  - Mawlid (Prophet Muhammad's birthday)
+  - Nowruz (Persian New Year, observed unofficially)
+literature: Classic Persian poetry (Rumi, Hafez), Pashto poetry (Khushal Khan Khattak)

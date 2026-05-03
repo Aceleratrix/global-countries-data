@@ -1,10 +1,17 @@
 country: Afghanistan
-population: 41128771
-area_km2: 652864
-population_density: 63.0
-age_structure:
-  0-14: 37.5%
-  15-64: 59.6%
-  65+: 2.9%
-urban_population: 25.3%
-source: REST Countries API 2023
+population_2023: 41125737
+population_density_km2: 63
+urban_population_percent: 26
+life_expectancy_years: 64.5
+fertility_rate: 4.5
+ethnic_groups:
+  - Pashtun: 42%
+  - Tajik: 27%
+  - Hazara: 9%
+  - Uzbek: 9%
+  - Other (Aimak, Turkmen, Baloch, etc.): 13%
+languages:
+  - Pashto: Official
+  - Dari (Persian): Official
+  - Turkic languages (Uzbek, Turkmen): Minority
+  - Other: Balochi, Pashayi, Nuristani

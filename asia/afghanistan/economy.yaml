@@ -1,12 +1,22 @@
 country: Afghanistan
-gdp_rank: 122
-gdp_trillion_usd: 0.07
-gdp_per_capita_usd: ~1700
-currency_code: AFN
-currency_name: Afghan afghani
-main_industries:
-  - Agriculture
-  - Livestock
+gdp_nominal_2023_usd: 14400000000
+gdp_per_capita_usd: 350
+currency: Afghan afghani (AFN)
+inflation_rate_2023: 12%
+unemployment_rate_2023: 14%
+major_industries:
+  - Agriculture (saffron, fruits, nuts)
+  - Opium poppy cultivation (illegal)
+  - Mining (copper, lithium, iron ore)
   - Textiles
-unemployment_rate: 20.3%
-source: World Bank 2023
+  - Handicrafts
+exports:
+  - Fruits (pomegranates, grapes, apricots)
+  - Nuts (almonds, pistachios)
+  - Carpets
+  - Opium (illegal)
+imports:
+  - Foodstuffs
+  - Machinery
+  - Petroleum products
+  - Textiles

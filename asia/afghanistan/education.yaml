@@ -1,7 +1,12 @@
 country: Afghanistan
-literacy_rate: 43.0%
-primary_enrollment: 92.0%
-secondary_enrollment: 45.0%
-major_universities:
+literacy_rate_total: 37%
+literacy_rate_male: 52%
+literacy_rate_female: 22%
+primary_school_enrollment: 85%
+secondary_school_enrollment: 40%
+universities:
   - Kabul University
-source: UNESCO 2023
+  - Balkh University
+  - Nangarhar University
+education_expenditure_percent_gdp: 3.5%
+challenges: Gender restrictions on education (since 2021), rural infrastructure gaps

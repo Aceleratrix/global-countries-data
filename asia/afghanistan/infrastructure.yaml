@@ -1,7 +1,12 @@
 country: Afghanistan
-roads_total_km: 42700
-railways_km: 75
-airports: 46
-electricity_access: 98.7%
-internet_penetration: 18.3%
-source: World Bank 2023
+roads_km: 42000
+paved_roads_km: 12000
+railways_km: 25
+airports:
+  - Kabul International Airport (Hamid Karzai International)
+  - Mazar-i-Sharif Airport
+  - Kandahar International Airport
+telecommunications:
+  - Mobile penetration: 65%
+  - Internet users: 18%
+  - Major providers: Afghan Wireless, MTN Afghanistan, Roshan
