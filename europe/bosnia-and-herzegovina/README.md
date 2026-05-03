@@ -1,0 +1,2 @@
+# Bosnia and Herzegovina
+Country data files for Bosnia and Herzegovina (🇧🇦🇧🇿). Contains 13 mandatory files: COUNTRY.md, README.md, and 11 structured YAML datasets covering basics, geography, demographics, economy, politics, culture, history, symbols, cities, languages, and religion.

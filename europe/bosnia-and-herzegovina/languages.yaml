@@ -1,0 +1,13 @@
+official_languages:
+  - name: "Bosnian"
+    family: "South Slavic"
+    script: "Latin"
+  - name: "Serbian"
+    family: "South Slavic"
+    scripts: ["Latin", "Cyrillic"]
+  - name: "Croatian"
+    family: "South Slavic"
+    script: "Latin"
+minority_languages:
+  - "Romani"
+  - "Albanian"

@@ -1,0 +1,14 @@
+dominant_religions:
+  - name: "Islam (Sunni)"
+    adherents_percent: 51
+    associated_ethnic_group: "Bosniaks"
+  - name: "Eastern Orthodoxy"
+    adherents_percent: 31
+    associated_ethnic_group: "Serbs"
+  - name: "Roman Catholicism"
+    adherents_percent: 15
+    associated_ethnic_group: "Croats"
+minority_religions:
+  - "Judaism"
+  - "Protestantism"
+  - "Atheism/Agnosticism"

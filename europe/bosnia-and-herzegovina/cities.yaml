@@ -1,0 +1,16 @@
+major_cities:
+  - name: "Sarajevo"
+    population: 275000
+    entity: "Federation of Bosnia and Herzegovina"
+  - name: "Banja Luka"
+    population: 185000
+    entity: "Republika Srpska"
+  - name: "Tuzla"
+    population: 110000
+    entity: "Federation of Bosnia and Herzegovina"
+  - name: "Zenica"
+    population: 110000
+    entity: "Federation of Bosnia and Herzegovina"
+  - name: "Mostar"
+    population: 105000
+    entity: "Federation of Bosnia and Herzegovina"

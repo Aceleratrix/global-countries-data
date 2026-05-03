@@ -1,0 +1,11 @@
+region: "Southeast Europe"
+subregion: "Balkans"
+borders:
+  - "Croatia"
+  - "Serbia"
+  - "Montenegro"
+coastline_km: 20
+highest_point: "Maglić (2386 m)"
+lowest_point: "Adriatic Sea (0 m)"
+terrain: "Mountains, valleys, plateaus; small Adriatic coastline"
+climate: "Continental (warm summers, cold winters) in interior; Mediterranean along coast"

@@ -1,0 +1,11 @@
+government_type: "Parliamentary republic"
+head_of_state: "Collective Presidency (3 members: 1 Bosniak, 1 Serb, 1 Croat)"
+head_of_government: "Chairman of the Council of Ministers"
+legislature: "Parliamentary Assembly (House of Peoples, House of Representatives)"
+entities:
+  - "Federation of Bosnia and Herzegovina (FBiH)"
+  - "Republika Srpska (RS)"
+  - "Brčko District (self-governing administrative unit)"
+eu_candidate: true
+eu_candidate_since: 2022
+nato_status: "Partnership for Peace"

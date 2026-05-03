@@ -1,0 +1,10 @@
+population: 3500000
+population_density: 68.5
+life_expectancy: 77.2
+urban_population_percent: 49.4
+ethnic_groups:
+  - "Bosniaks: ~50%"
+  - "Serbs: ~31%"
+  - "Croats: ~15%"
+  - "Others: ~4%"
+median_age: 43.5

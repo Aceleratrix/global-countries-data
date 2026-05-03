@@ -1,0 +1,15 @@
+gdp_nominal_usd: 23000000000
+gdp_per_capita_usd: 6600
+unemployment_rate_percent: 15.7
+main_industries:
+  - "Steel production"
+  - "Mining"
+  - "Automotive parts"
+  - "Textiles"
+  - "Agriculture"
+main_exports:
+  - "Metals"
+  - "Footwear"
+  - "Furniture"
+  - "Electricity"
+currency: "BAM (pegged to EUR at 1.95583 BAM/EUR)"
