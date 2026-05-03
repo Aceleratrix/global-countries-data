@@ -1,11 +1,16 @@
-forest_cover_percent: 16%
-protected_areas_percent: 5%
+ecoregions:
+  - "Sahara Desert (northern Sudan)"
+  - "Sahel (central Sudan)"
+  - "East Sudanian Savanna (southern Sudan)"
+  - "Red Sea coastal mangroves"
+protected_areas:
+  - "Dinder National Park (UNESCO Biosphere Reserve, 7,182 km²)"
+  - "Radom National Park (12,570 km²)"
+  - "Sanganeb Marine National Park (Red Sea, UNESCO World Heritage Site)"
 environmental_issues:
-  - Desertification
-  - Soil erosion
-  - Water scarcity
-  - Conflict-driven ecosystem damage
-major_ecosystems:
-  - Nubian Desert
-  - Red Sea coastal reefs
-  - Nile floodplains
+  - "Desertification (expanding Sahara)"
+  - "Deforestation (fuelwood collection)"
+  - "Water scarcity (Nile dependent)"
+  - "Historical oil extraction pollution"
+forest_cover_percent_2022: 13.2
+renewable_water_resources_per_capita_2022: 1130  # m³

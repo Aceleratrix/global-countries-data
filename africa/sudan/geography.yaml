@@ -1,19 +1,23 @@
-area_km2: 1861484
-area_rank_global: 15
-region: Northeast Africa
+continent: "Africa"
+subregion: "Northern Africa / Northeast Africa"
 borders:
-  - Egypt
-  - Red Sea
-  - Eritrea
-  - Ethiopia
-  - South Sudan
-  - Central African Republic
-  - Chad
-  - Libya
-highest_point: Deriba Caldera (3042m)
-lowest_point: Red Sea (0m)
-climate: Arid to semi-arid, tropical in southern regions
+  - "Egypt (north, 1273 km)"
+  - "Red Sea (northeast, 853 km coastline)"
+  - "Eritrea (east, 682 km)"
+  - "Ethiopia (east, 744 km)"
+  - "South Sudan (south, 2158 km)"
+  - "Central African Republic (southwest, 175 km)"
+  - "Chad (west, 1403 km)"
+  - "Libya (northwest, 382 km)"
+terrain: "Mostly flat plains, Red Sea Hills (east), Marrah Mountains (west)"
+climate: "Desert (north), semi-arid (central), tropical (south)"
+highest_point: "Deriba Caldera (3042 m)"
+lowest_point: "Red Sea coast (0 m)"
 major_rivers:
-  - Nile River
-  - Blue Nile
-  - White Nile
+  - "Nile River (White Nile + Blue Nile merge at Khartoum)"
+  - "Atbara River"
+ecoregions:
+  - "Sahara Desert"
+  - "Sahel"
+  - "East Sudanian Savanna"
+  - "Red Sea coastal mangroves"

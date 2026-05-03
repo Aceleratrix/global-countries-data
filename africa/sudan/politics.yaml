@@ -1,9 +1,12 @@
-official_name: Republic of the Sudan
-government_type: Provisional transitional government
-independence_date: 1956-01-01
-former_rulers:
-  - United Kingdom
-  - Egypt
-current_conflict: 2023-present civil war (Sudanese Armed Forces vs Rapid Support Forces)
-head_of_state: Abdel Fattah al-Burhan (Chairman of Transitional Sovereignty Council)
-constitution_status: Suspended since 2019 revolution
+current_head_of_state: "Abdel Fattah al-Burhan (Chairman of the Transitional Sovereignty Council)"
+government_structure: "Interim provisional government with Transitional Sovereignty Council as collective head of state"
+legislature: "Transitional Legislative Council (suspended since 2023 conflict)"
+political_parties: "Banned under interim military rule"
+recent_elections: "None since 2019; planned elections repeatedly delayed due to conflict"
+administrative_divisions:
+  - "18 states (wilayat)"
+  - "Khartoum State (capital region)"
+key_institutions:
+  - "Sudanese Armed Forces (SAF)"
+  - "Rapid Support Forces (RSF, paramilitary)"
+  - "Judiciary (mixed civil and Islamic law)"

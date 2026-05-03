@@ -1,9 +1,10 @@
-literacy_rate: 60.8%
-education_spending_gdp_percent: 2.1%
-primary_school_enrollment: 68%
-secondary_school_enrollment: 30%
-universities:
-  - University of Khartoum
-  - Sudan University of Science and Technology
-  - Ahfad University for Women
-out_of_school_children: 19%
+literacy_rate_adult_percent_2021: 60.7
+primary_school_enrollment_percent_2022: 78
+secondary_school_enrollment_percent_2022: 42
+higher_education_institutions:
+  - "University of Khartoum (founded 1902, oldest in Sudan)"
+  - "Sudan University of Science and Technology"
+  - "Ahfad University for Women (private, leading women's university)"
+  - "Omdurman Islamic University"
+education_spending_percent_gdp_2022: 2.8
+out_of_school_children_2022: 3200000

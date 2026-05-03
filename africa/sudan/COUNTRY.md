@@ -1,19 +1,25 @@
-# Sudan (🇸🇩)
+# Republic of the Sudan
+
+## Basic Information
+- **Official Name**: Republic of the Sudan
+- **Capital**: Khartoum
+- **Largest City**: Khartoum
+- **Area**: 1,861,484 km² (15th largest country globally)
+- **Population**: ~48.1 million (2023 UN estimate)
+- **Currency**: Sudanese pound (SDG)
+- **Official Languages**: Arabic, English
+- **Dominant Religion**: Islam (Sunni majority, ~97%)
+- **Government Type**: Provisional interim government
+- **Independence**: January 1, 1956 (from Egypt and the United Kingdom)
+- **ISO 3166-1 Codes**: SD (alpha-2), SDN (alpha-3), 729 (numeric)
+- **Calling Code**: +249
 
 ## Overview
-Sudan, officially the Republic of the Sudan, is a country in Northeast Africa. It is the 15th largest country in the world by area, bordered by Egypt to the north, the Red Sea to the northeast, Eritrea and Ethiopia to the east, South Sudan to the south, the Central African Republic to the southwest, Chad to the west, and Libya to the northwest.
+Sudan is located in Northeast Africa, bordered by Egypt (north), Red Sea (northeast), Eritrea/Ethiopia (east), South Sudan (south), Central African Republic (southwest), Chad (west), Libya (northwest). The Nile River flows north through the country, with the White Nile and Blue Nile merging at Khartoum to form the main Nile.
 
-## Key Statistics
-| Metric | Value |
-|--------|-------|
-| GDP (Nominal, 2023) | $0.19 trillion (66th globally) |
-| Population (2024 est) | 48,109,600 |
-| Capital City | Khartoum (pop: ~6,000,000) |
-| Area | 1,861,484 km² |
-| Currency | Sudanese Pound (SDG) |
-| Official Languages | Arabic, English |
-| Independence | January 1, 1956 |
-| Government | Provisional transitional government |
-
-## Recent Context
-Experiencing ongoing civil war since April 2023 between Sudanese Armed Forces and Rapid Support Forces, causing widespread displacement and economic disruption.
+## Key Facts
+- Home to the ancient Kingdom of Kush (UNESCO World Heritage Site)
+- Sudan lost ~25% of its territory when South Sudan gained independence in 2011
+- Experiencing ongoing conflict between Sudanese Armed Forces and Rapid Support Forces since April 2023
+- Major agricultural products: cotton, sorghum, wheat, livestock
+- Primary export: Gold (post-oil era after South Sudan independence)

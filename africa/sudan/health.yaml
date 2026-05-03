@@ -1,6 +1,13 @@
-life_expectancy: 64.5_years
-infant_mortality: 42_per_1000_live_births
-health_spending_gdp_percent: 3.2%
-doctors_per_1000: 0.28
-hiv_prevalence: 0.2%
-malaria_cases_2023: 1.2_million
+life_expectancy_years_2023: 65.2
+infant_mortality_per_1000_live_births_2023: 41.2
+healthcare_spending_percent_gdp_2022: 3.1
+physicians_per_1000_population_2022: 0.4
+hospital_beds_per_1000_population_2022: 0.8
+main_health_issues:
+  - "Malaria (endemic in south)"
+  - "Diarrheal diseases"
+  - "Malnutrition (27% children under 5 stunted)"
+  - "Conflict-related injuries and trauma"
+vaccination_coverage_percent_2022:
+  - "DPT3: 78%"
+  - "Measles: 82%"

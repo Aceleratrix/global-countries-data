@@ -1,0 +1,18 @@
+country_name: "Republic of the Sudan"
+common_name: "Sudan"
+capital: "Khartoum"
+area_km2: 1861484
+population_2023: 48109006
+currency_code: "SDG"
+currency_name: "Sudanese pound"
+languages:
+  - "Arabic"
+  - "English"
+iso_alpha2: "SD"
+iso_alpha3: "SDN"
+iso_numeric: 729
+calling_code: "+249"
+independence_date: "1956-01-01"
+government_type: "Provisional interim government"
+time_zones:
+  - "UTC+2 (Central Africa Time)"

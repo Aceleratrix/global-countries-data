@@ -1,14 +1,21 @@
-national_symbols:
-  - Flag: Horizontal red, white, black stripes with green triangle at hoist
-  - Anthem: "Nahnu Jund Allah Jund Al-watan"
-  - Animal: Nubian giraffe
+traditional_music:
+  - "Oud (string instrument)"
+  - "Tambour (drum)"
+  - "Folk songs: Al-Hakama, Al-Banat"
 cuisine:
-  - Kisra (flatbread)
-  - Ful medames
-  - Asida
-  - Grilled meats
-national_holidays:
-  - Independence Day (January 1)
-  - Eid al-Fitr
-  - Eid al-Adha
-  - Revolution Day (December 19)
+  - "Kisra (fermented flatbread, staple)"
+  - "Ful medames (stewed fava beans)"
+  - "Asida (cornmeal porridge)"
+  - "Mahshi (stuffed vegetables)"
+festivals:
+  - "Eid al-Fitr"
+  - "Eid al-Adha"
+  - "Independence Day (January 1)"
+  - "Revolution Day (December 19, commemorates 2018-2019 protests)"
+sports:
+  - "Football (most popular, Sudan Premier League)"
+  - "Athletics"
+  - "Boxing"
+traditional_clothing:
+  - "Men: Jalabiya (long white robe), turban"
+  - "Women: Thobe (long dress), hijab"

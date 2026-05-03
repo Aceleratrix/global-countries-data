@@ -1,8 +1,16 @@
-roads_total_km: 11200
-paved_roads_percent: 8%
-railways_km: 5978
-airports: 76
-major_ports:
-  - Port Sudan (Red Sea)
-internet_penetration: 28%
-electricity_access_percent: 62%
+transport:
+  paved_roads_km_2022: 12000
+  railways_km_2022: 5978
+  major_airports:
+    - "Khartoum International Airport (main hub)"
+    - "Port Sudan New International Airport"
+energy:
+  electricity_access_percent_2022: 55
+  main_sources:
+    - "Hydroelectric (Roseires Dam, Merowe Dam)"
+    - "Thermal (oil-fired plants)"
+  oil_refineries: 2 (Khartoum, Port Sudan)
+telecommunications:
+  mobile_penetration_percent_2023: 70
+  internet_penetration_percent_2023: 34
+  fixed_broadband_subs_per_100_2023: 0.2

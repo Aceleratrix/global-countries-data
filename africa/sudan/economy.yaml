@@ -1,15 +1,20 @@
-name: Sudan
-gdp_nominal_2023: 0.19
-gdp_rank_global: 66
-gdp_per_capita_2023: 3950
-currency: Sudanese Pound
-currency_code: SDG
-major_industries:
-  - Agriculture
-  - Livestock
-  - Gold mining
-  - Textiles
-  - Gum arabic production
-gdp_growth_2023: -2.5%
-inflation_2023: 340%
-external_debt_2023: 56.2
+gdp_nominal_usd_2023: 34000000000
+gdp_per_capita_usd_2023: 706
+main_industries:
+  - "Agriculture (cotton, sorghum, wheat, livestock)"
+  - "Gold mining"
+  - "Chromite mining"
+  - "Light manufacturing"
+unemployment_rate_percent_2023: 18.4
+inflation_rate_percent_2023: 240
+main_exports:
+  - "Gold"
+  - "Livestock (sheep, camels)"
+  - "Cotton"
+  - "Gum arabic"
+main_imports:
+  - "Foodstuffs"
+  - "Fuel"
+  - "Machinery"
+  - "Pharmaceuticals"
+external_debt_usd_2023: 62000000000
