@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 130/195 (66.7%) Complete](https://img.shields.io/badge/Status-130/195%20(66.7%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 131/195 (67.2%) Complete](https://img.shields.io/badge/Status-131/195%20(67.2%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -155,14 +155,15 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇪🇷 **Eritrea** | 13/13 | ✅ **100% COMPLETE** | 160th largest economy ($0.05T), Asmara (capital, UNESCO World Heritage Site), borders Djibouti/Ethiopia/Sudan, 3.5M population | English (en-ER) + Tigrinya/Arabic |
 | 🇸🇨 **Seychelles** | 13/13 | ✅ **100% COMPLETE** | 161st largest economy ($0.05T), Victoria (capital), Indian Ocean archipelago, no land borders, 122.7K population | English (en-SC) + Seychellois Creole + French |
 
-### 🌏 Oceania (3/14 = 21.4%)
+### 🌏 Oceania (4/14 = 28.6%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇦🇺 **Australia** | 13/13 | ✅ **100% COMPLETE** | Big 4 banks, Canva $40B, AI Action Plan $124M, 92% digital banking, APEC | English (en-AU) |
 | 🇫🇯 **Fiji** | 13/13 | ✅ **100% COMPLETE** | 127th largest economy ($0.07T), Suva (185K), tourism 40% GDP, Pacific Islands Forum, Commonwealth | English (en-FJ) + Fijian + Hindi |
 | 🇳🇷 **Nauru** | 13/13 | ✅ **100% COMPLETE** | 174th largest economy ($0.05T), Yaren (de facto capital), world's smallest island nation (21 km²), phosphate mining history | English (en-NR) + Nauru |
+| 🇸🇧 **Solomon Islands** | 13/13 | ✅ **100% COMPLETE** | 133rd largest economy ($0.06T), Honiara (capital), 900+ islands, Melanesia, 721K population | English (en-SB) + Pijin |
 
-**Total: 388 structured YAML files covering 30 countries across 5 continents!**
+**Total: 401 structured YAML files covering 31 countries across 5 continents!**
 
 ---
 
@@ -253,7 +254,7 @@ global-countries-data/
 │   └── italy/            # 🇮🇹 100% COMPLETE (13 files)
 │
 ├── africa/                # 🌍 1/54 countries (1.9%) - Comoros ✅ 100% COMPLETE!
-├── oceania/              # 🌏 0/14 countries (0%) - COMING SOON!
+├── oceania/              # 🌏 4/14 countries (28.6%) - Solomon Islands ✅ 100% COMPLETE!
 │
 ├── schemas/              # JSON Schema validation
 ├── scripts/              # Python validation scripts (not in git - local only)
