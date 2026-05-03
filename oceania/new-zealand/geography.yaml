@@ -1,10 +1,8 @@
-# Geography
-region: Oceania
-subregion: Australia and New Zealand
-landlocked: False
-area: 268838.0
-latlng: [-41.0, 174.0]
-continents: ['Oceania']
-maps:
-  googleMaps: https://goo.gl/maps/xXiDQo65dwdpw9iu8
-  openStreetMaps: https://www.openstreetmap.org/relation/556706#map=5/-46.710/172.046
+continent: "Oceania"
+region: "Australasia"
+coordinates: "41.2865° S, 174.7762° E"
+terrain: "Mostly mountains with some large coastal plains"
+highest_point: "Aoraki / Mount Cook (3,724 m)"
+lowest_point: "Pacific Ocean (0 m)"
+climate: "Temperate, with mild temperatures, moderate rainfall, and abundant sunshine"
+neighboring_countries: []

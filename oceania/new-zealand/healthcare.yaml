@@ -1,0 +1,8 @@
+healthcare_system: "Publicly funded system (Ministry of Health), with private options"
+life_expectancy: 82.5
+infant_mortality_rate: 3.8
+healthcare_spending_percent_gdp: 9.5
+major_hospitals:
+  - "Auckland City Hospital"
+  - "Wellington Hospital"
+  - "Christchurch Hospital"

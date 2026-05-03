@@ -1,0 +1,7 @@
+literacy_rate: 99
+education_system: "Compulsory from ages 6 to 16"
+tertiary_institutions:
+  - "University of Auckland"
+  - "University of Otago"
+  - "Victoria University of Wellington"
+education_spending_percent_gdp: 6.3

@@ -1,0 +1,16 @@
+country_name: "New Zealand"
+official_name: "New Zealand"
+capital: "Wellington"
+largest_city: "Auckland"
+population_2023: 5123760
+area_km2: 268021
+currency_code: "NZD"
+currency_name: "New Zealand dollar"
+languages:
+  - "English"
+  - "Māori"
+  - "New Zealand Sign Language"
+government_type: "Unitary parliamentary constitutional monarchy"
+iso_code: "NZ"
+calling_code: "+64"
+tld: ".nz"

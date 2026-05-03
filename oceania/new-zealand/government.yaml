@@ -1,4 +1,7 @@
-# Government
-independent: True
-unMember: True
-status: officially-assigned
+government_type: "Unitary parliamentary constitutional monarchy"
+head_of_state: "King Charles III (represented by Governor-General Dame Cindy Kiro)"
+head_of_government: "Prime Minister Christopher Luxon"
+legislature: "Unicameral House of Representatives (122 seats)"
+judiciary: "Supreme Court of New Zealand"
+last_election_date: "2023-10-14"
+next_election_date: "2026-10"

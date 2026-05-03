@@ -1,9 +1,6 @@
-# National Symbols
-flag_unicode: 🇳🇿
-flags:
-  png: https://flagcdn.com/w320/nz.png
-  svg: https://flagcdn.com/nz.svg
-  alt: The flag of New Zealand has a dark blue field with the flag of the United Kingdom — the Union Jack — in the canton and a representation of the Southern Cross constellation, made up of four five-pointed white-edged red stars, on the fly side of the field.
-coatOfArms:
-  png: https://mainfacts.com/media/images/coats_of_arms/nz.png
-  svg: https://mainfacts.com/media/images/coats_of_arms/nz.svg
+national_flag: "Blue ensign with the Union Jack in the canton and four red stars with white borders (Southern Cross) on the fly"
+national_emblem: "Shield with a quartering of the Southern Cross, a golden fleece, a wheat sheaf, and two hammers, supported by a Māori chief and a European woman, with a crown above"
+national_animal: "Kiwi"
+national_bird: "Kiwi"
+national_plant: "Silver fern (Cyathea dealbata)"
+national_colors: "Black, white, blue, red"

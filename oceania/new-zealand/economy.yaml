@@ -1,7 +1,12 @@
-# Economy
-gdp_trl: 0.06
-gdp_rank: 139
-currency:
-  code: NZD
-  name: New Zealand dollar
-  symbol: $
+gdp_2023_usd: 250000000000
+gdp_per_capita_usd: 48800
+main_industries:
+  - "Agriculture"
+  - "Tourism"
+  - "Forestry"
+  - "Mining"
+  - "Manufacturing"
+  - "Technology"
+currency: "New Zealand dollar (NZD)"
+inflation_rate_2023: 5.2
+unemployment_rate_2023: 3.4

@@ -1,29 +1,24 @@
-# New Zealand 🇳🇿
+# New Zealand
+
 ## Basic Information
 - **Official Name**: New Zealand
 - **Common Name**: New Zealand
-- **Native Names**: Aotearoa (Māori), New Zealand (English, NZ Sign Language)
-- **Country Codes**: NZ (cca2), NZL (cca3), 554 (ccn3)
-- **Region**: Oceania
-- **Subregion**: Australia and New Zealand
-- **Capital**: Wellington (-41.3, 174.78)
-- **Population**: 5,324,700 (2024)
-- **Area**: 268,838 km²
-- **Flag**: 🇳🇿 (Dark blue field with Union Jack canton and Southern Cross stars)
-- **Coat of Arms**: [Official SVG](https://mainfacts.com/media/images/coats_of_arms/nz.svg)
-- **Currency**: New Zealand Dollar (NZD, $)
+- **Capital**: Wellington
+- **Largest City**: Auckland
+- **Population**: 5,123,760 (2023 estimate)
+- **Area**: 268,021 km²
+- **Currency**: New Zealand dollar (NZD, $)
 - **Languages**: English, Māori, New Zealand Sign Language
-- **Timezones**: UTC-11:00, UTC-10:00, UTC+12:00, UTC+12:45, UTC+13:00
-- **Driving Side**: Left
+- **Government Type**: Unitary parliamentary constitutional monarchy
+- **Current Monarch**: King Charles III
+- **Prime Minister**: Christopher Luxon
+- **ISO 3166-1 Code**: NZ
 - **Calling Code**: +64
 - **Internet TLD**: .nz
-- **FIFA Code**: NZL
-- **UN Member**: Yes
-- **Independent**: Yes
 
-## API Source
-Data retrieved from [REST Countries API v3.1](https://restcountries.com/v3.1/alpha/NZ) on 2026-05-01.
-
-## GDP Information
-- **Global GDP Rank**: 139th
-- **GDP (2024)**: $0.06T USD
+## Key Facts
+- **Independence**: 1947 (full legislative independence from the United Kingdom)
+- **Treaty of Waitangi**: Signed 1840, founding document of the nation
+- **National Symbols**: Kiwi bird, silver fern, Southern Cross flag
+- **Main Industries**: Agriculture, tourism, forestry, technology
+- **Unique Feature**: One of the first countries to grant women the right to vote (1893)

@@ -1,7 +1,11 @@
-# Demographics
-population: 5324700
-demonyms:
-  eng:
-    m: New Zealander
-    f: New Zealander
-languages: {'eng': 'English', 'mri': 'Māori', 'nzs': 'New Zealand Sign Language'}
+population_2023: 5123760
+population_density: 19.1
+urban_population_percent: 86.9
+ethnic_groups:
+  - "European: 70.2%"
+  - "Māori: 16.5%"
+  - "Asian: 15.1%"
+  - "Pacific Peoples: 8.1%"
+  - "Other: 1.5%"
+median_age: 37.4
+life_expectancy: 82.5

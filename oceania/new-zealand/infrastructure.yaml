@@ -1,8 +1,10 @@
-# Infrastructure
-capital: ['Wellington']
-capitalInfo:
-  latlng: [-41.3, 174.78]
-timezones: ['UTC-11:00', 'UTC-10:00', 'UTC+12:00', 'UTC+12:45', 'UTC+13:00']
-car:
-  signs: ['NZ']
-  side: left
+transport:
+  - "State Highway network"
+  - "National rail network (KiwiRail)"
+  - "Major airports: Auckland Airport, Wellington Airport, Christchurch Airport"
+energy_sources:
+  - "Hydropower: 57%"
+  - "Geothermal: 18%"
+  - "Wind: 10%"
+  - "Fossil fuels: 15%"
+internet_penetration: 93
