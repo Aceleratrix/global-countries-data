@@ -35,9 +35,9 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (130 / 195 = 66.7%)
+## 📊 Coverage Progress (131 / 195 = 67.2%)
 
-### 🌎 South America (6/12 = 50.0%)
+### 🌎 South America (7/12 = 58.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇧🇷 **Brazil** | 17/17 | ✅ **100% COMPLETE** | PIX (76% adoption), LGPD, 4 cloud regions | Portuguese (pt-BR) + English |
@@ -46,6 +46,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇺🇾 **Uruguay** | 13/13 | ✅ **100% COMPLETE** | 95th largest economy ($0.10T), Montevideo (3.5M), Beef/soy exports, 98% renewable energy | Spanish (es-UY) + English |
 | 🇸🇷 **Suriname** | 13/13 | ✅ **100% COMPLETE** | 124th largest economy ($0.07T), Paramaribo (616K), Dutch-speaking, borders Brazil/French Guiana/Guyana | Dutch (nld) + English |
 | 🇵🇪 **Peru** | 13/13 | ✅ **100% COMPLETE** | 138th largest economy ($0.06T), Lima (10M), Machu Picchu, Andes/Amazon, 33M population | Spanish (es-PE) + English |
+| 🇧🇴 **Bolivia** | 13/13 | ✅ **100% COMPLETE** | 85th largest economy ($0.45T), Sucre (constitutional)/La Paz (administrative), Altiplano/Amazon, 12.5M population, natural gas exports | Spanish (es-BO) + Quechua/Aymara + English |
 
 ### 🌎 North America (12/23 = 52.2%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -221,7 +222,7 @@ print(japan['telecom']['phone-formats']['mobile_prefixes'])
 
 ```
 global-countries-data/
-├── south-america/          # 🌎 1/12 countries (8.3%)
+├── south-america/          # 🌎 7/12 countries (58.3%)
 │   └── brazil/             # 🇧🇷 100% COMPLETE (17 files)
 │       ├── COUNTRY.md
 │       ├── README.md

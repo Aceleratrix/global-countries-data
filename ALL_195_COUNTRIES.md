@@ -155,7 +155,7 @@
 - 🇦🇫 Afeganistão, 🇧🇩 Bangladesh, 🇱🇦 Laos, 🇳🇵 Nepal ✅ 100% COMPLETE (101st GDP, $0.09T), 🇸🇾 Síria, 🇱🇧 Líbano ✅ 100% COMPLETE, 🇾🇪 Yemen ✅ 100% COMPLETE (121st GDP, $0.07T), 🇰🇬 Quirguistão, 🇹🇯 Tajiquistão, 🇹🇲 Turcomenistão, 🇧🇳 Brunei, 🇹🇱 Timor-Leste, 🇵🇬 Papua Nova Guiné, 🇸🇧 Ilhas Salomão, 🇻🇺 Vanuatu, 🇫🇯 Fiji (127th GDP, $0.07T) ✅ 100% COMPLETE, 🇼🇸 Samoa, 🇹🇴 Tonga, 🇰🇮 Kiribati (171st GDP, $0.05T) ✅ 100% COMPLETE, 🇹🇻 Tuvalu (175th GDP, $0.05T) ✅ 100% COMPLETE, 🇫🇲 Micronésia, 🇵🇼 Palau (173rd GDP, $0.05T) ✅ 100% COMPLETE, 🇲🇭 Ilhas Marshall, 🇳🇷 Nauru
 
 **Américas (continuação):**
-- 🇸🇻 El Salvador (141st GDP, $0.06T) ✅ 100% COMPLETE, 🇳🇮 Nicarágua, 🇵🇦 Panamá (já listado), 🇺🇾 Uruguai (já listado), 🇧🇴 Bolívia, 🇻🇪 Venezuela, 🇬🇾 Guiana, 🇸🇷 Suriname (124th GDP, $0.07T) ✅ 100% COMPLETE, 🇬🇫 Guiana Francesa, 🇵🇷 Porto Rico, 🇩🇴 República Dominicana (já listado), 🇲🇶 Martinica, 🇬🇵 Guadalupe, 🇻🇬 Ilhas Virgens Americanas, 🇦🇼 Aruba, 🇸🇽 Sint Maarten, 🇨🇼 Curaçao, 🇻🇬 Ilhas Virgens Britânicas, 🇲🇸 Montserrat, 🇰🇳 São Cristóvão e Névis, 🇦🇬 Antígua e Barbuda, 🇩🇲 Dominica (168th GDP, $0.05T) ✅ 100% COMPLETE, 🇬🇩 Granada (165th GDP, $0.05T) ✅ 100% COMPLETE, 🇱🇨 Santa Lúcia (164th GDP, $0.05T) ✅ 100% COMPLETE, 🇻🇨 São Vicente e Granadinas (166th GDP, $0.05T) ✅ 100% COMPLETE, 🇧🇧 Barbados, 🇹🇹 Trinidad e Tobago, 🇯🇲 Jamaica, 🇧🇸 Bahamas (131st GDP, $0.06T) ✅ 100% COMPLETE, 🇨🇺 Cuba, 🇭🇹 Haiti (123rd GDP, $0.07T) ✅ 100% COMPLETE, 🇧🇿 Belize (132nd GDP, $0.06T) ✅ 100% COMPLETE, 🇩🇴 República Dominicana (já listado)
+- 🇸🇻 El Salvador (141st GDP, $0.06T) ✅ 100% COMPLETE, 🇳🇮 Nicarágua, 🇵🇦 Panamá (já listado), 🇺🇾 Uruguai (já listado), 🇧🇴 Bolívia ✅ 100% COMPLETE, 🇻🇪 Venezuela, 🇬🇾 Guiana, 🇸🇷 Suriname (124th GDP, $0.07T) ✅ 100% COMPLETE, 🇬🇫 Guiana Francesa, 🇵🇷 Porto Rico, 🇩🇴 República Dominicana (já listado), 🇲🇶 Martinica, 🇬🇵 Guadalupe, 🇻🇬 Ilhas Virgens Americanas, 🇦🇼 Aruba, 🇸🇽 Sint Maarten, 🇨🇼 Curaçao, 🇻🇬 Ilhas Virgens Britânicas, 🇲🇸 Montserrat, 🇰🇳 São Cristóvão e Névis, 🇦🇬 Antígua e Barbuda, 🇩🇲 Dominica (168th GDP, $0.05T) ✅ 100% COMPLETE, 🇬🇩 Granada (165th GDP, $0.05T) ✅ 100% COMPLETE, 🇱🇨 Santa Lúcia (164th GDP, $0.05T) ✅ 100% COMPLETE, 🇻🇨 São Vicente e Granadinas (166th GDP, $0.05T) ✅ 100% COMPLETE, 🇧🇧 Barbados, 🇹🇹 Trinidad e Tobago, 🇯🇲 Jamaica, 🇧🇸 Bahamas (131st GDP, $0.06T) ✅ 100% COMPLETE, 🇨🇺 Cuba, 🇭🇹 Haiti (123rd GDP, $0.07T) ✅ 100% COMPLETE, 🇧🇿 Belize (132nd GDP, $0.06T) ✅ 100% COMPLETE, 🇩🇴 República Dominicana (já listado)
 
 **Oceania (continuação):**
 - 🇫🇯 Fiji (127th GDP, $0.07T) ✅ 100% COMPLETE, 🇼🇸 Samoa, 🇹🇴 Tonga, 🇻🇺 Vanuatu, 🇸🇧 Ilhas Salomão, 🇵🇬 Papua Nova Guiné, 🇫🇲 Micronésia, 🇳🇷 Nauru (174th GDP, $0.05T) ✅ 100% COMPLETE, 🇲🇭 Ilhas Marshall, 🇰🇮 Kiribati (171st GDP, $0.05T) ✅ 100% COMPLETE, 🇹🇻 Tuvalu (175th GDP, $0.05T) ✅ 100% COMPLETE
@@ -169,10 +169,10 @@
 | 🌎 North America | 4 | 4 | 0 | **100%** ✅ |
 | 🌏 Asia | 50 | 7 | 43 | 14.0% |
 | 🌍 Europe | 44 | 9 | 35 | 20.5% |
-| 🌎 South America | 12 | 6 | 6 | 50.0% |
+| 🌎 South America | 12 | 7 | 5 | 58.3% |
 | 🌏 Oceania | 14 | 3 | 11 | 21.4% |
 | 🌍 Africa | 54 | 11 | 43 | 20.4% |
-| **TOTAL** | **195** | **108** | **87** | **55.4%** |
+| **TOTAL** | **195** | **109** | **86** | **55.9%** |
 
 ---
 
