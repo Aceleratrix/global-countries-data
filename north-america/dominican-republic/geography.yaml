@@ -1,0 +1,13 @@
+region: "North America"
+subregion: "Caribbean"
+island: "Hispaniola"
+border_countries:
+  - name: "Haiti"
+    border_length_km: 388
+coastline_km: 1288
+highest_point: "Pico Duarte"
+highest_point_elevation_m: 3098
+lowest_point: "Lago Enriquillo"
+lowest_point_elevation_m: -46
+climate: "Tropical rainforest (north coast), tropical savanna (south), mountainous interior with cooler temperatures"
+natural_resources: ["Gold", "Silver", "Nickel", "Bauxite", "Timber"]

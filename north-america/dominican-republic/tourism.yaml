@@ -1,0 +1,14 @@
+top_destinations:
+  - "Punta Cana (resort area)"
+  - "Santo Domingo (Colonial Zone, UNESCO World Heritage Site)"
+  - "Puerto Plata (beaches, Mount Isabel de Torres)"
+  - "Samaná (whale watching, beaches)"
+  - "Jarabacoa (mountain hiking, waterfalls)"
+annual_tourists: 10000000
+tourism_gdp_contribution_percent: 15.5
+unESCO_world_heritage_sites:
+  - "Colonial City of Santo Domingo (1990)"
+popular_activities:
+  - "Beach tourism"
+  - "Whale watching (January-March)"
+  - "Hiking Pico Duarte"

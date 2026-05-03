@@ -1,0 +1,12 @@
+major_airports:
+  - "Punta Cana International Airport (PUJ)"
+  - "Las Américas International Airport (SDQ, Santo Domingo)"
+  - "Gregorio Luperón International Airport (POP, Puerto Plata)"
+major_ports:
+  - "Port of Santo Domingo"
+  - "Port of Caucedo (largest container port)"
+highways_km: 19600
+railway_km: 142
+internet_penetration_percent: 85
+mobile_subscriptions_per_100: 110
+electricity_access_percent: 98

@@ -1,0 +1,21 @@
+key_events:
+  - year: 1492
+    event: "Christopher Columbus lands on Hispaniola, founding the first Spanish colony in the Americas (La Navidad)"
+  - year: 1697
+    event: "Treaty of Ryswick splits Hispaniola between Spain (east) and France (west)"
+  - year: 1821
+    event: "Brief independence from Spain as Spanish Haiti"
+  - year: 1822
+    event: "Annexed by Haiti"
+  - year: 1844
+    event: "Independence from Haiti, founding of the Dominican Republic"
+  - year: 1916
+    event: "US military occupation begins (ends 1924)"
+  - year: 1930
+    event: "Rafael Trujillo takes power in a coup"
+  - year: 1961
+    event: "Trujillo assassinated"
+  - year: 1965
+    event: "US military intervention amid civil war"
+  - year: 1978
+    event: "First peaceful transfer of power after decades of authoritarian rule"

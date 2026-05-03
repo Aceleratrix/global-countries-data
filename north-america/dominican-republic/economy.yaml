@@ -1,0 +1,21 @@
+gdp_nominal_usd: 113000000000
+gdp_per_capita_usd: 10000
+gdp_growth_rate_percent: 2.5
+inflation_rate_percent: 4.8
+unemployment_rate_percent: 5.7
+key_industries:
+  - "Tourism"
+  - "Mining (gold, silver)"
+  - "Agriculture (sugar, coffee, tobacco)"
+  - "Manufacturing (textiles, electronics)"
+major_exports:
+  - "Gold"
+  - "Medical instruments"
+  - "Sugar"
+  - "Coffee"
+  - "Tobacco"
+major_imports:
+  - "Foodstuffs"
+  - "Petroleum"
+  - "Machinery"
+  - "Chemicals"

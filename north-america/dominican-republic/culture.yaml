@@ -1,0 +1,14 @@
+national_holidays:
+  - "Independence Day (February 27)"
+  - "Restoration Day (August 16)"
+  - "Our Lady of Altagracia Day (January 21)"
+music_genres:
+  - "Merengue"
+  - "Bachata"
+  - "Salsa"
+national_sport: "Baseball"
+cuisine:
+  - "Sancocho (meat and vegetable stew)"
+  - "Mangú (mashed plantains)"
+  - "Chicharrón (fried pork rinds)"
+literacy_rate_percent: 93.8

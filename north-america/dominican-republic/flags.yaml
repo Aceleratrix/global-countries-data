@@ -1,0 +1,11 @@
+description: "A centered white cross divides the flag into four rectangles: blue (top left), red (top right), red (bottom left), blue (bottom right). The national coat of arms is centered on the cross."
+colors:
+  - name: "Blue"
+    hex: "#002D62"
+  - name: "Red"
+    hex: "#CE1126"
+  - name: "White"
+    hex: "#FFFFFF"
+adopted_year: 1844
+coat_of_arms: "Features a shield with a Bible, a cross, and six spears, surrounded by palm and laurel branches, with a blue ribbon reading 'Dios, Patria, Libertad' (God, Country, Liberty)"
+proportion: "2:3"

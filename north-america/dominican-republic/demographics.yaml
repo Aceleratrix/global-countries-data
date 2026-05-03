@@ -1,0 +1,25 @@
+population_density_km2: 232
+life_expectancy_years: 74.2
+infant_mortality_per_1000: 18.2
+urban_population_percent: 83.6
+ethnic_groups:
+  - name: "Mixed (Mulatto)"
+    percent: 73
+  - name: "Black"
+    percent: 16
+  - name: "White"
+    percent: 11
+religions:
+  - name: "Roman Catholic"
+    percent: 57
+  - name: "Protestant"
+    percent: 23
+  - name: "Other/None"
+    percent: 20
+age_structure:
+  - group: "0-14"
+    percent: 25
+  - group: "15-64"
+    percent: 67
+  - group: "65+"
+    percent: 8

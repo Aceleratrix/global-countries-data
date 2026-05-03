@@ -1,0 +1,14 @@
+government_type: "Unitary presidential constitutional republic"
+head_of_state: "President"
+current_president: "Luis Abinader"
+president_term_start: "2020-08-16"
+president_term_end: "2024-08-16"
+legislature: "Congress of the Dominican Republic"
+upper_house: "Senate"
+lower_house: "Chamber of Deputies"
+political_parties:
+  - "Modern Revolutionary Party (PRM)"
+  - "Dominican Liberation Party (PLD)"
+  - "Social Christian Reformist Party (PRSC)"
+military: "Dominican Armed Forces (Army, Navy, Air Force)"
+voting_age: 18
