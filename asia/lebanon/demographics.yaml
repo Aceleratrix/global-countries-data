@@ -1,19 +1,18 @@
-population: 5490000
-population_year: 2023
-population_density_km2: 525
-urban_population_percent: 89.2
-urban_population_year: 2023
-life_expectancy_years: 79.2
-life_expectancy_year: 2021
-birth_rate_per_1000: 13.4
-birth_rate_year: 2023
-death_rate_per_1000: 6.1
-death_rate_year: 2023
-ethnic_groups:
-  - Arab (95%)
-  - Armenian (4%)
-  - Other (1%)
+population:
+  total: 5817100
+  density_km2: 556
+  growth_rate_percent: -0.1
+age_structure:
+  "0-14": 22
+  "15-64": 70
+  "65+": 8
+urban_population_percent: 89
 religions:
-  - Muslim (60-65%: Shia, Sunni)
-  - Christian (30-35%: Maronite, Greek Orthodox, etc.)
-  - Druze (5%)
+  Islam: 61.1
+  Christianity: 33.7
+  Others: 5.2
+languages:
+  - Arabic (official)
+  - French (recognized)
+  - Armenian
+  - English (widely spoken)

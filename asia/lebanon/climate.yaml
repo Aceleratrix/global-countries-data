@@ -1,0 +1,12 @@
+climate_type: Mediterranean
+temperature_range_coastal_c:
+  winter: 15
+  summer: 32
+temperature_range_mountain_c:
+  winter: -5
+  summer: 25
+rainfall_mm:
+  coastal: 500-1000
+  mountains: 1000-1500
+snow: Common in mountainous regions (December-February)
+dry_season: May-September

@@ -1,11 +1,18 @@
-transportation:
-  airports: 8 (Beirut-Rafic Hariri International Airport is main)
-  railways: 401 km (mostly non-operational as of 2024)
-  roads: 7100 km (paved: 6800 km)
-telecommunications:
-  mobile_penetration_percent: 72
-  internet_penetration_percent: 85
-  main_providers: touch, Alfa
+transport:
+  airports:
+    - Beirut-Rafic Hariri International Airport (major)
+  seaports:
+    - Beirut
+    - Tripoli
+    - Sidon
+  roads_km: 7300
+  paved_roads_km: 6200
+  railways_km: 400
 energy:
-  electricity_access_percent: 99
-  main_sources: Oil, gas (imported), some renewables
+  electricity_access_percent:
+    urban: 99
+    rural: 90
+  sources: Oil, natural gas (imported), solar, wind
+telecommunications:
+  mobile_penetration_percent: 78
+  internet_penetration_percent: 82

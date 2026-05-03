@@ -1,0 +1,11 @@
+life_expectancy_years: 78.5
+infant_mortality_per_1000: 7.1
+healthcare_system: Mixed public-private
+hospitals: 150+
+  public: 40%
+  private: 60%
+common_diseases:
+  - Cardiovascular
+  - Diabetes
+  - Respiratory
+physicians_per_1000: 3.2

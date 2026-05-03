@@ -1,7 +1,12 @@
-literacy_rate_percent: 95.1
-literacy_year: 2022
-education_system: 6-3-3 (primary, intermediate, secondary)
-compulsory_education_age: 6-14
+compulsory_education_years: 6-15
+literacy_rate_percent: 93.9
+schools:
+  public: Free
+  private: Fee-based
 higher_education:
-  universities: 30+ (Lebanese University, American University of Beirut, Saint Joseph University)
-  enrollment_rate_percent: 55 (tertiary, 2023)
+  universities: 30+
+  notable: American University of Beirut, Saint Joseph University, Lebanese University
+enrollment_percent:
+  primary: 95
+  secondary: 80
+  tertiary: 45

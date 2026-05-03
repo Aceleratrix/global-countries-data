@@ -1,16 +1,16 @@
 country: Lebanon
-continent: Asia
-region: Middle East
+region: Asia
+subregion: Western Asia
 coordinates:
   latitude: 33.8547
   longitude: 35.8623
 area_km2: 10452
-area_sqmi: 4035
 borders:
-  - Syria (375 km)
-  - Israel (79 km)
-coastline: 225 km (Mediterranean Sea)
-terrain: Mountainous, with the Lebanon Mountains running north-south, Bekaa Valley in the east, coastal plain in the west
-highest_point: Qurnat as Sawda' (3,088 m)
+  - country: Syria
+    length_km: 375
+  - country: Israel
+    length_km: 79
+coastline_km: 225
+terrain: Mountainous interior, narrow coastal plain, Bekaa Valley
+highest_point: Qurnat as Sawda' (3088 m)
 lowest_point: Mediterranean Sea (0 m)
-climate: Mediterranean; mild to cool, wet winters and hot, dry summers

@@ -1,10 +1,8 @@
-tourist_arrivals_annual: 1200000
-tourist_arrivals_year: 2023
+visitors_2019_million: 2.1
 main_attractions:
-  - Beirut (nightlife, history)
-  - Byblos (UNESCO World Heritage Site)
-  - Baalbek (Roman ruins, UNESCO)
-  - Jeita Grotto (limestone caves)
-  - Cedars of God (Bsharri)
-tourism_contribution_gdp_percent: 12
-tourism_year: 2023
+  - Baalbek Roman Ruins
+  - Byblos (oldest continuously inhabited city)
+  - Qadisha Valley
+  - Jeita Grotto
+accommodation: 400+ star-rated hotels
+contribution_to_gdp_percent: 10

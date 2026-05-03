@@ -1,16 +1,21 @@
-Lebanon Data Directory
-This directory contains structured data about Lebanon, organized into YAML files and a main COUNTRY.md overview. All data is verified from official and reputable sources including the United Nations, World Bank, and Lebanese government.
+# Lebanon - Country Data
 
-Included files:
-- COUNTRY.md: Main country overview
-- geography.yaml: Geographic data
-- demographics.yaml: Population and demographic data
-- economy.yaml: Economic indicators
-- government.yaml: Government structure and politics
-- culture.yaml: Cultural information
-- history.yaml: Key historical events
-- infrastructure.yaml: Transportation and utilities
-- education.yaml: Education system statistics
-- healthcare.yaml: Healthcare data
-- environment.yaml: Environmental information
-- tourism.yaml: Tourism statistics
+This directory contains structured, verified data for Lebanon following the global-countries-data repository standard.
+
+## Files Included
+1. COUNTRY.md: Core country overview and quick facts
+2. README.md: This file, describing the directory contents
+3. 11 YAML files covering key sectors:
+   - geography.yaml
+   - demographics.yaml
+   - economy.yaml
+   - politics.yaml
+   - culture.yaml
+   - history.yaml
+   - climate.yaml
+   - infrastructure.yaml
+   - education.yaml
+   - health.yaml
+   - tourism.yaml
+
+All data is sourced from verified public sources including the World Bank, UN, and Lebanese government publications.
