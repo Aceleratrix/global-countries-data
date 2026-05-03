@@ -1,0 +1,13 @@
+military:
+  name: "Timor-Leste Defence Force (F-FDTL)"
+  personnel: 1500
+  branches:
+    - "Army"
+    - "Navy"
+    - "Air Force (limited)"
+  defense_budget_2023: 20000000
+police:
+  name: "National Police of Timor-Leste (PNTL)"
+  personnel: 3000
+  jurisdiction: "National law enforcement"
+peacekeeping_contributions: "Contributed personnel to UN peacekeeping missions in Lebanon, South Sudan, and elsewhere"

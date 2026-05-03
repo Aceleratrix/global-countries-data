@@ -1,0 +1,13 @@
+infant_mortality_rate: 25
+maternal_mortality_rate: 180
+physicians_per_1000: 0.5
+hospital_beds_per_1000: 1.2
+health_expenditure: 3
+major_diseases:
+  - "Malaria"
+  - "Dengue fever"
+  - "Tuberculosis"
+  - "Acute respiratory infections"
+vaccination_coverage:
+  measles: 85
+  DPT: 80

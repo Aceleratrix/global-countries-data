@@ -1,13 +1,15 @@
-country: "Timor-Leste"
-traditions:
-  - "Likurai dance (traditional women's dance)"
-  - "Tais weaving (traditional textile art)"
-  - "Crok crok (traditional music with bamboo instruments)"
+national_anthem: "Pátria"
+national_flag: "Red field with black triangle (base at hoist) edged in yellow, white star in black triangle"
+national_flower: "Hibiscus tiliaceus (hahat)"
+traditional_dances:
+  - "Likurai (war dance performed by women)"
+  - "Tebe (circle dance)"
+cuisine:
+  - "Bai koko (coconut rice)"
+  - "Tapai (fermented rice)"
+  - "Ikan saboko (grilled fish)"
+national_sport: "Football"
 public_holidays:
   - "May 20: Independence Day"
-  - "November 3: Proclamation of Independence Day"
-  - "December 25: Christmas"
-cuisine:
-  - "Batar daan (corn, mung beans, pumpkin stew)"
-  - "Ikan sabuko (grilled fish with spices)"
-  - "Tamarind-based sauces"
+  - "November 3: All Saints Day"
+  - "December 25: Christmas Day"

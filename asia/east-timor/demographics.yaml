@@ -1,13 +1,16 @@
-country: "Timor-Leste"
 population_2023: 1318445
-population_density: 88.4
-urban_population_percent: 32.5
-median_age: 19.1
-life_expectancy: 69.5
-birth_rate: 29.7
-death_rate: 6.2
-infant_mortality: 34.9
+population_growth_rate: 1.8
 ethnic_groups:
-  - "Austronesian (mainly Tetum, Mambai)"
-  - "Papuan"
-  - "Small Chinese and Portuguese minorities"
+  - "Austronesian (majority)"
+  - "Melanesian (minority)"
+religions:
+  - "Catholic: 96%"
+  - "Protestant: 2%"
+  - "Muslim: 1%"
+  - "Other: 1%"
+life_expectancy:
+  male: 68
+  female: 72
+literacy_rate: 80
+urban_population: 32
+median_age: 19.5

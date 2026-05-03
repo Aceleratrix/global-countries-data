@@ -1,0 +1,13 @@
+literacy_rate: 80
+primary_education:
+  enrollment_rate: 90
+  completion_rate: 85
+secondary_education:
+  enrollment_rate: 60
+  completion_rate: 50
+tertiary_education:
+  enrollment_rate: 15
+higher_education_institutions:
+  - "National University of Timor-Leste (UNTL)"
+  - "Dili Institute of Technology (DIT)"
+education_expenditure: 4

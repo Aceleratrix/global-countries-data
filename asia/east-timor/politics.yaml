@@ -1,0 +1,13 @@
+government_type: "Unitary semi-presidential republic"
+president:
+  name: "José Ramos-Horta"
+  term_start: "2022-05-20"
+  term_end: "2027-05-20"
+prime_minister:
+  name: "Xanana Gusmão"
+  term_start: "2023-07-01"
+legislative_body: "National Parliament"
+parliament_seats: 65
+last_election: "2023-05-21"
+independence_date: "2002-05-20"
+former_status: "Indonesian occupation (1975-1999), UN Transitional Administration (1999-2002)"

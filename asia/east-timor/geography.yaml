@@ -1,15 +1,18 @@
-country: "Timor-Leste"
 region: "Southeast Asia"
 subregion: "Maritime Southeast Asia"
-coordinates:
-  latitude: -8.8333
-  longitude: 125.9167
-area_sq_km: 14919
+location: "Eastern half of Timor island, plus Atauro and Jaco islands, and Oecusse exclave (western half of Timor)"
 borders:
-  - country: "Indonesia"
-    border_length_km: 228
-coastline_km: 706
-terrain: "Mountainous, rugged, with coastal plains and river valleys"
-highest_point: "Tatamailau (2,963 m)"
-lowest_point: "Timor Sea (0 m)"
-climate: "Tropical; hot, humid; distinct wet (December-March) and dry (April-November) seasons"
+  - "Indonesia (land, 228 km)"
+  - "Australia (maritime, 600 km south)"
+terrain: "Mountainous interior, narrow coastal plains"
+climate: "Tropical, wet season (December-March), dry season (June-October)"
+highest_point:
+  name: "Tatamailau (Mount Ramelau)"
+  elevation_m: 2963
+lowest_point: "Sea level (0 m)"
+natural_resources:
+  - "Oil and gas"
+  - "Gold"
+  - "Copper"
+  - "Sandalwood"
+  - "Coffee"

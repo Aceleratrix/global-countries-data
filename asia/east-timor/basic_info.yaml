@@ -1,0 +1,26 @@
+official_name: "Democratic Republic of Timor-Leste"
+common_names:
+  - "East Timor"
+  - "Timor-Leste"
+capital: "Dili"
+area_sq_km: 14874
+population_2023: 1318445
+languages:
+  official:
+    - "Tetum"
+    - "Portuguese"
+  spoken:
+    - "Indonesian"
+    - "English"
+currency:
+  code: "USD"
+  name: "United States Dollar"
+calling_code: "+670"
+iso:
+  alpha_2: "TL"
+  alpha_3: "TLS"
+  numeric: 626
+government_type: "Unitary semi-presidential representative democratic republic"
+independence_date: "2002-05-20"
+un_membership: 2002
+asean_membership: 2023
