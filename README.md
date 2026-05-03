@@ -67,7 +67,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇻🇨 **Saint Vincent and the Grenadines** | 13/13 | ✅ **100% COMPLETE** | 166th largest economy ($0.05T), Kingstown (capital), Caribbean archipelago of 32 islands, tourism 40% GDP | English (en-VC) + Vincentian Creole English |
 | 🇩🇲 **Dominica** | 13/13 | ✅ **100% COMPLETE** | 168th largest economy ($0.05T), Roseau (capital), Caribbean island nation, Morne Trois Pitons UNESCO site, Eastern Caribbean Dollar | English (en-DM) + Dominican Creole French |
 
-### 🌏 Asia (25/50 = 50.0%)
+### 🌏 Asia (26/50 = 52.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇮🇱 **Israel** | 13/13 | ✅ **100% COMPLETE** | 33rd largest economy ($0.39T), Startup Nation, 8K+ tech startups, 100+ unicorns | English (en-US) |
