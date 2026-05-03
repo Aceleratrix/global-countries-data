@@ -1,0 +1,16 @@
+gdp_nominal_usd: 59000000000
+gdp_nominal_year: 2023
+gdp_per_capita_usd: 28000
+unemployment_rate_percent: 3.8
+inflation_rate_percent: 4.2
+major_industries:
+  - Automotive
+  - Pharmaceuticals
+  - Electronics
+  - Tourism
+  - Agriculture
+main_exports:
+  - Motor vehicles and parts
+  - Pharmaceuticals
+  - Electrical machinery
+  - Furniture

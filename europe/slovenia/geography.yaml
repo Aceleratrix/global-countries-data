@@ -1,0 +1,19 @@
+continent: Europe
+region: Central Europe
+borders:
+  - Italy
+  - Austria
+  - Hungary
+  - Croatia
+highest_point: Triglav
+highest_point_elevation_m: 2864
+highest_point_elevation_ft: 9396
+lowest_point: Adriatic Sea (0 m)
+forest_cover_percent: 58
+major_rivers:
+  - Sava
+  - Drava
+  - Mura
+major_lakes:
+  - Lake Bled
+  - Lake Bohinj

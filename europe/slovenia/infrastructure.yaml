@@ -1,0 +1,7 @@
+motorways_km: 746
+railways_km: 1228
+airports:
+  - Ljubljana Jože Pučnik Airport (main international)
+  - Maribor Edvard Rusjan Airport
+internet_tld: .si
+internet_penetration_percent: 89
