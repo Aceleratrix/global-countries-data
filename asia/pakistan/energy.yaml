@@ -1,0 +1,9 @@
+total_electricity_production_2023_gwh: 115000
+energy_sources_2023:
+  - "Fossil fuels (63%)"
+  - "Hydropower (25%)"
+  - "Nuclear (5%)"
+  - "Renewables (wind/solar, 7%)"
+oil_production_2023_barrels_per_day: 88000
+natural_gas_production_2023_cubic_meters: 26500000000
+renewable_target_2030: "30% of total energy mix"

@@ -1,0 +1,8 @@
+health_expenditure_percent_gdp_2023: 1.2
+physicians_per_1000_people_2023: 1.0
+hospital_beds_per_1000_people_2023: 0.6
+life_expectancy_2023: 67.2
+major_health_issues:
+  - "Malnutrition"
+  - "Infectious diseases (tuberculosis, hepatitis)"
+  - "Non-communicable diseases (diabetes, cardiovascular)"

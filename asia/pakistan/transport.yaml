@@ -1,0 +1,10 @@
+road_network_km_2023: 263775
+railway_network_km_2023: 11661
+major_airports:
+  - "Jinnah International Airport (Karachi)"
+  - "Islamabad International Airport"
+  - "Allama Iqbal International Airport (Lahore)"
+ports:
+  - "Karachi Port"
+  - "Port Qasim"
+public_transport: "Buses, rickshaws, metro bus systems in major cities"

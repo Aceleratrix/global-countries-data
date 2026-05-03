@@ -1,0 +1,13 @@
+gdp_nominal_2024_usd: 374000000000
+gdp_per_capita_2024_usd: 1550
+gdp_growth_rate_2023: 0.3
+inflation_rate_2023: 29.2
+unemployment_rate_2023: 6.3
+major_industries:
+  - "Textiles"
+  - "Agriculture"
+  - "Construction"
+  - "Services"
+  - "Mining"
+currency: "Pakistani rupee (PKR)"
+exchange_rate_usd_2024: 280

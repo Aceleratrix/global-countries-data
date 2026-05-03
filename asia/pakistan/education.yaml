@@ -1,0 +1,9 @@
+literacy_rate_2023: 58.5
+primary_enrollment_rate_2023: 78
+secondary_enrollment_rate_2023: 44
+tertiary_enrollment_rate_2023: 12
+major_universities:
+  - "University of Punjab"
+  - "National University of Sciences and Technology (NUST)"
+  - "Aga Khan University"
+education_budget_percent_gdp_2023: 1.7
