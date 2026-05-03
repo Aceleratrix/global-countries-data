@@ -1,0 +1,13 @@
+country: Moldova
+gdp_2023_usd: 15200000000
+gdp_per_capita_2023: 5900
+major_industries:
+  - Agriculture (wine, fruits, vegetables)
+  - Food processing
+  - Textiles
+  - Machinery
+  - Electronics
+inflation_2023: 12.0%
+unemployment_2023: 3.8%
+currency: Moldovan Leu (MDL)
+exchange_rate_2024: 1 USD = ~18 MDL
