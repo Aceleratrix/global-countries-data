@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-|[![Status: 161/195 (82.6%) Complete](https://img.shields.io/badge/Status-161/195%20(82.6%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+|[![Status: 166/195 (85.1%) Complete](https://img.shields.io/badge/Status-166/195%20(85.1%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -181,6 +181,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇳🇷 **Nauru** | 13/13 | ✅ **100% COMPLETE** | 174th largest economy ($0.05T), Yaren (de facto capital), world's smallest island nation (21 km²), phosphate mining history | English (en-NR) + Nauru |
 | 🇸🇧 **Solomon Islands** | 13/13 | ✅ **100% COMPLETE** | 133rd largest economy ($0.06T), Honiara (capital), 900+ islands, Melanesia, 721K population | English (en-SB) + Pijin |
 | 🇻🇺 **Vanuatu** | 13/13 | ✅ **100% COMPLETE** | 127th largest economy ($0.07T), Port Vila (capital), 80+ islands, Melanesia, 324K population | English (en-VU) + Bislama/French |
+| 🇹🇴 **Tonga** | 13/13 | ✅ **100% COMPLETE** | 171 islands (45 inhabited), only sovereign monarchy in Oceania, Nuku'alofa (capital), 107K population | English (en-TO) + Tongan |
 
 **Total: 401 structured YAML files covering 31 countries across 5 continents!**
 
@@ -273,7 +274,7 @@ global-countries-data/
 │   └── italy/            # 🇮🇹 100% COMPLETE (13 files)
 │
 ├── africa/                # 🌍 2/54 countries (3.7%) - South Sudan ✅ 100% COMPLETE!
-├── oceania/              # 🌏 4/14 countries (28.6%) - Solomon Islands ✅ 100% COMPLETE!
+├── oceania/              # 🌏 5/14 countries (35.7%) - Tonga ✅ 100% COMPLETE!
 │
 ├── schemas/              # JSON Schema validation
 ├── scripts/              # Python validation scripts (not in git - local only)

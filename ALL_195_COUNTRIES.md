@@ -152,13 +152,13 @@
 |- 🇨🇲 Camarões (Cameroon) (104th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇱 Mali (105th GDP, $0.08T) ✅ 100% COMPLETE, 🇳🇦 Namibia (109th GDP, $0.08T) ✅ 100% COMPLETE, 🇧🇼 Botswana (110th GDP, $0.08T) ✅ 100% COMPLETE, 🇿🇲 Zambia (111th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇿 Mozambique (112th GDP, $0.08T) ✅ 100% COMPLETE, 🇿🇼 Zimbabwe (113th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇷 Mauritania (114th GDP, $0.08T) ✅ 100% COMPLETE, 🇹🇩 Chade (116th GDP, $0.08T) ✅ 100% COMPLETE, 🇧🇫 Burkina Faso (117th GDP, $0.08T) ✅ 100% COMPLETE, 🇲🇼 Malaui (Malawi) (118th GDP, $0.08T) ✅ 100% COMPLETE, 🇨🇫 República Centro-Africana (149th GDP, $0.05T) ✅ 100% COMPLETE, 🇸🇿 Eswatini (150th GDP, $0.05T) ✅ 100% COMPLETE, 🇨🇬 República do Congo, 🇸🇸 South Sudan (south-sudan) (162nd GDP, $0.05T) ✅ 100% COMPLETE, 🇸🇴 Somalia (142nd GDP, $0.06T) ✅ 100% COMPLETE, 🇧🇯 Benin (143rd GDP, $0.06T) ✅ 100% COMPLETE, 🇬🇲 Gambia (145th GDP, $0.05T) ✅ 100% COMPLETE, 🇬🇳 Guinea (146th GDP, $0.05T) ✅ 100% COMPLETE, 🇸🇱 Sierra Leone (147th GDP, $0.05T) ✅ 100% COMPLETE, 🇱🇷 Liberia (144th GDP, $0.05T) ✅ 100% COMPLETE, 🇹🇬 Togo (148th GDP, $0.05T) ✅ 100% COMPLETE, 🇱🇸 Lesotho (151st GDP, $0.05T) ✅ 100% COMPLETE, 🇬🇶 Equatorial Guinea (154th GDP, $0.05T) ✅ 100% COMPLETE, 🇰🇲 Comoros (157th GDP, $0.05T) ✅ 100% COMPLETE, 🇪🇷 Eritrea (160th GDP, $0.05T) ✅ 100% COMPLETE, 🇩🇯 Djibouti (159th GDP, $0.05T) ✅ 100% COMPLETE, 🇸🇨 Seychelles (161st GDP, $0.05T) ✅ 100% COMPLETE, 🇨🇻 Cabo Verde (Cape Verde) (158th GDP, $0.0022T) ✅ 100% COMPLETE
 
 **Ásia (continuação):**
-- 🇦🇫 Afeganistão, 🇧🇩 Bangladesh ✅ 100% COMPLETE, 🇱🇦 Laos ✅ 100% COMPLETE, 🇳🇵 Nepal ✅ 100% COMPLETE (101st GDP, $0.09T), 🇸🇾 Síria ✅ 100% COMPLETE, 🇱🇧 Líbano ✅ 100% COMPLETE, 🇾🇪 Yemen ✅ 100% COMPLETE (121st GDP, $0.07T), 🇰🇬 Quirguistão ✅ 100% COMPLETE, 🇹🇯 Tajiquistão ✅ 100% COMPLETE, 🇹🇲 Turcomenistão ✅ 100% COMPLETE, 🇧🇳 Brunei, 🇹🇱 Timor-Leste ✅ 100% COMPLETE, 🇵🇬 Papua Nova Guiné, 🇸🇧 Ilhas Salomão ✅ 100% COMPLETE, 🇻🇺 Vanuatu ✅ 100% COMPLETE, 🇫🇯 Fiji (127th GDP, $0.07T) ✅ 100% COMPLETE, 🇼🇸 Samoa, 🇹🇴 Tonga, 🇰🇮 Kiribati (171st GDP, $0.05T) ✅ 100% COMPLETE, 🇹🇻 Tuvalu (175th GDP, $0.05T) ✅ 100% COMPLETE, 🇫🇲 Micronésia, 🇵🇼 Palau (173rd GDP, $0.05T) ✅ 100% COMPLETE, 🇲🇭 Ilhas Marshall, 🇳🇷 Nauru
+- 🇦🇫 Afeganistão, 🇧🇩 Bangladesh ✅ 100% COMPLETE, 🇱🇦 Laos ✅ 100% COMPLETE, 🇳🇵 Nepal ✅ 100% COMPLETE (101st GDP, $0.09T), 🇸🇾 Síria ✅ 100% COMPLETE, 🇱🇧 Líbano ✅ 100% COMPLETE, 🇾🇪 Yemen ✅ 100% COMPLETE (121st GDP, $0.07T), 🇰🇬 Quirguistão ✅ 100% COMPLETE, 🇹🇯 Tajiquistão ✅ 100% COMPLETE, 🇹🇲 Turcomenistão ✅ 100% COMPLETE, 🇧🇳 Brunei, 🇹🇱 Timor-Leste ✅ 100% COMPLETE, 🇵🇬 Papua Nova Guiné, 🇸🇧 Ilhas Salomão ✅ 100% COMPLETE, 🇻🇺 Vanuatu ✅ 100% COMPLETE, 🇫🇯 Fiji (127th GDP, $0.07T) ✅ 100% COMPLETE, 🇼🇸 Samoa ✅ 100% COMPLETE, 🇹🇴 Tonga ✅ 100% COMPLETE, 🇰🇮 Kiribati (171st GDP, $0.05T) ✅ 100% COMPLETE, 🇹🇻 Tuvalu (175th GDP, $0.05T) ✅ 100% COMPLETE, 🇫🇲 Micronésia, 🇵🇼 Palau (173rd GDP, $0.05T) ✅ 100% COMPLETE, 🇲🇭 Ilhas Marshall, 🇳🇷 Nauru
 
 **Américas (continuação):**
 - 🇸🇻 El Salvador (141st GDP, $0.06T) ✅ 100% COMPLETE, 🇳🇮 Nicarágua, 🇵🇦 Panamá (já listado), 🇺🇾 Uruguai (já listado), 🇧🇴 Bolívia ✅ 100% COMPLETE, 🇻🇪 Venezuela ✅ 100% COMPLETE, 🇬🇾 Guiana, 🇸🇷 Suriname (124th GDP, $0.07T) ✅ 100% COMPLETE, 🇬🇫 Guiana Francesa, 🇵🇷 Porto Rico, 🇩🇴 República Dominicana (já listado), 🇲🇶 Martinica, 🇬🇵 Guadalupe, 🇻🇬 Ilhas Virgens Americanas, 🇦🇼 Aruba, 🇸🇽 Sint Maarten, 🇨🇼 Curaçao, 🇻🇬 Ilhas Virgens Britânicas, 🇲🇸 Montserrat, 🇰🇳 São Cristóvão e Névis, 🇦🇬 Antígua e Barbuda, 🇩🇲 Dominica (168th GDP, $0.05T) ✅ 100% COMPLETE, 🇬🇩 Granada (165th GDP, $0.05T) ✅ 100% COMPLETE, 🇱🇨 Santa Lúcia (164th GDP, $0.05T) ✅ 100% COMPLETE, 🇻🇨 São Vicente e Granadinas (166th GDP, $0.05T) ✅ 100% COMPLETE, 🇧🇧 Barbados, 🇹🇹 Trinidad e Tobago, 🇯🇲 Jamaica, 🇧🇸 Bahamas (131st GDP, $0.06T) ✅ 100% COMPLETE, 🇨🇺 Cuba, 🇭🇹 Haiti (123rd GDP, $0.07T) ✅ 100% COMPLETE, 🇧🇿 Belize (132nd GDP, $0.06T) ✅ 100% COMPLETE, 🇩🇴 República Dominicana (já listado)
 
 **Oceania (continuação):**
-- 🇫🇯 Fiji (127th GDP, $0.07T) ✅ 100% COMPLETE, 🇼🇸 Samoa, 🇹🇴 Tonga, 🇻🇺 Vanuatu ✅ 100% COMPLETE, 🇸🇧 Ilhas Salomão ✅ 100% COMPLETE, 🇵🇬 Papua Nova Guiné, 🇫🇲 Micronésia, 🇳🇷 Nauru (174th GDP, $0.05T) ✅ 100% COMPLETE, 🇲🇭 Ilhas Marshall, 🇰🇮 Kiribati (171st GDP, $0.05T) ✅ 100% COMPLETE, 🇹🇻 Tuvalu (175th GDP, $0.05T) ✅ 100% COMPLETE
+- 🇫🇯 Fiji (127th GDP, $0.07T) ✅ 100% COMPLETE, 🇼🇸 Samoa ✅ 100% COMPLETE, 🇹🇴 Tonga ✅ 100% COMPLETE, 🇻🇺 Vanuatu ✅ 100% COMPLETE, 🇸🇧 Ilhas Salomão ✅ 100% COMPLETE, 🇵🇬 Papua Nova Guiné, 🇫🇲 Micronésia, 🇳🇷 Nauru (174th GDP, $0.05T) ✅ 100% COMPLETE, 🇲🇭 Ilhas Marshall, 🇰🇮 Kiribati (171st GDP, $0.05T) ✅ 100% COMPLETE, 🇹🇻 Tuvalu (175th GDP, $0.05T) ✅ 100% COMPLETE
 
 ---
 
@@ -170,9 +170,9 @@
 | 🌏 Asia | 50 | 8 | 42 | 16.0% |
 | 🌍 Europe | 44 | 11 | 33 | 25.0% |
 | 🌎 South America | 12 | 7 | 5 | 58.3% |
-| 🌏 Oceania | 14 | 4 | 10 | 28.6% |
+| 🌏 Oceania | 14 | 5 | 9 | 35.7% |
 | 🌍 Africa | 54 | 13 | 41 | 24.1% |
-| **TOTAL** | **195** | **165** | **30** | **84.6%** |
+| **TOTAL** | **195** | **166** | **29** | **85.1%** |
 
 ---
 
