@@ -1,0 +1,9 @@
+gdp_nominal_usd_million: 45100
+gdp_per_capita_usd: 3720
+gdp_growth_rate_percent: 3.5
+inflation_rate_percent: 2.8
+unemployment_rate_percent: 4.2
+main_industries: ["mining", "natural gas", "soybeans", "coffee", "timber", "tourism"]
+exports: ["natural gas", "zinc", "tin", "gold", "soybeans", "coffee"]
+imports: ["machinery", "vehicles", "chemicals", "processed food"]
+poverty_rate_percent: 29.4

@@ -1,0 +1,11 @@
+transport:
+  - "Major airports: El Alto International (La Paz), Viru Viru International (Santa Cruz)"
+  - "Railway network: ~3,600 km"
+  - "Road network: ~80,000 km (paved: ~15%)"
+energy:
+  - "Electricity generation: Natural gas (60%), Hydroelectric (25%), Renewables (15%)"
+  - "Electrification rate: 97% (urban), 72% (rural)"
+telecommunications:
+  - "Mobile penetration: 95%"
+  - "Internet penetration: 65%"
+  - "Fixed broadband subscriptions: 8 per 100 inhabitants"

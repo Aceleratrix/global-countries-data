@@ -1,0 +1,8 @@
+region: "South America"
+subregion: "Andean/Central South America"
+borders: ["Argentina", "Brazil", "Chile", "Paraguay", "Peru"]
+terrain: ["Andes Mountains", "Altiplano plateau", "Amazon Basin lowlands"]
+highest_point: "Nevado Sajama (6,542 m)"
+lowest_point: "Paraguay River (90 m)"
+natural_resources: ["natural gas", "petroleum", "zinc", "tungsten", "tin", "lead", "gold", "silver", "copper", "lithium"]
+biomes: ["Andean alpine tundra", "tropical rainforest", "dry shrubland"]

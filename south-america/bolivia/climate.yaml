@@ -1,0 +1,9 @@
+climate_zones:
+  - "Tropical: Amazon Basin (hot, humid, 1,500-3,000 mm annual rainfall)"
+  - "Alpine: Andes highlands (cold, dry, 10-15°C annual average)"
+  - "Semi-arid: Altiplano plateau (200-800 mm annual rainfall)"
+average_temperatures:
+  - "Altiplano: 10-15°C"
+  - "Amazon Basin: 24-27°C"
+rainy_season: "November-April (most regions)"
+dry_season: "May-October"

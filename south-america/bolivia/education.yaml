@@ -1,0 +1,9 @@
+literacy_rate_percent: 92.5
+education_spending_percent_gdp: 7.2
+compulsory_education_ages: "6-18"
+higher_education_institutions:
+  - "University of San Andrés (UMSA, La Paz)"
+  - "University of San Simón (UMSS, Cochabamba)"
+  - "Autonomous University of Santa Cruz (UAGRM)"
+primary_school_enrollment_percent: 94
+secondary_school_enrollment_percent: 78

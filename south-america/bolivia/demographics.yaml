@@ -1,0 +1,15 @@
+population: 12465842
+population_growth_rate: 1.45
+urban_population_percent: 70.3
+ethnic_groups:
+  - "Mestizo: 68%"
+  - "Indigenous: 20% (Quechua, Aymara, Chiquitano, Guaraní)"
+  - "White: 5%"
+  - "Other: 7%"
+life_expectancy_years: 72.1
+religions:
+  - "Roman Catholic: 76.8%"
+  - "Protestant/Other Christian: 8.1%"
+  - "Traditional/Indigenous: 9.6%"
+  - "Non-religious: 5.5%"
+population_density: 11.3

@@ -1,0 +1,16 @@
+country_name: "Bolivia"
+official_name: "Plurinational State of Bolivia"
+capital:
+  constitutional: "Sucre"
+  administrative: "La Paz"
+population: 12465842
+area_km2: 1098581
+currency: "Boliviano (BOB)"
+languages: ["Spanish", "Quechua", "Aymara", "Guaraní"]
+independence_date: "1825-08-06"
+calling_code: "+591"
+tld: ".bo"
+iso_codes:
+  alpha2: "BO"
+  alpha3: "BOL"
+  numeric: "068"
