@@ -1,0 +1,11 @@
+country: "Democratic People's Republic of Korea"
+healthcare_system: "State-provided universal healthcare"
+life_expectancy: 72.3
+infant_mortality_rate: 18.5 per 1000 live births
+physicians_per_1000: 3.7
+hospital_beds_per_1000: 13.2
+common_diseases:
+  - "Tuberculosis"
+  - "Malnutrition (rural areas)"
+  - "Respiratory infections"
+healthcare_challenges: "Limited medical supplies, aging infrastructure, international sanctions"

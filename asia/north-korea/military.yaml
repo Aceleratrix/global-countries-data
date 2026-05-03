@@ -1,0 +1,13 @@
+country: "Democratic People's Republic of Korea"
+armed_forces_name: "Korean People's Army (KPA)"
+active_personnel: 1320000
+reserve_personnel: 5600000
+military_budget: 1500000000
+budget_year: 2023
+budget_percent_gdp: 22.0
+nuclear_status: "Declared nuclear-weapon state (six tests conducted 2006-2017)"
+main_branches:
+  - "Korean People's Army Ground Force"
+  - "Korean People's Navy"
+  - "Korean People's Air Force"
+  - "Strategic Rocket Forces"

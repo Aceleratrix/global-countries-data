@@ -1,0 +1,14 @@
+country: "Democratic People's Republic of Korea"
+protected_areas: 42
+protected_area_percent: 5.1
+major_issues:
+  - "Deforestation"
+  - "Soil erosion"
+  - "Water pollution (industrial, agricultural runoff)"
+  - "Air pollution (coal-fired power plants)"
+natural_resources:
+  - "Coal"
+  - "Iron ore"
+  - "Magnesite"
+  - "Forests (63% of land area)"
+climate_change_impact: "Increased frequency of floods and droughts"

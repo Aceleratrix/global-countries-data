@@ -1,0 +1,21 @@
+country: "Democratic People's Republic of Korea"
+area: 120540
+area_unit: "km²"
+terrain: "Mountainous interior, narrow coastal plains"
+highest_point: "Paektu Mountain (2,744 m)"
+lowest_point: "Sea level (coastline)"
+borders:
+  - country: "China"
+    length_km: 1416
+  - country: "Russia"
+    length_km: 19
+  - country: "South Korea"
+    length_km: 238
+    note: "Korean Demilitarized Zone (DMZ)"
+climate: "Temperate continental, with cold winters and hot, humid summers"
+natural_resources:
+  - "Coal"
+  - "Iron ore"
+  - "Limestone"
+  - "Magnesite"
+  - "Gold"

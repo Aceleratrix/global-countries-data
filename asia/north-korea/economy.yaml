@@ -1,0 +1,25 @@
+country: "Democratic People's Republic of Korea"
+gdp:
+  ppp: 40000000000
+  ppp_year: 2023
+  nominal: 18000000000
+  nominal_year: 2023
+currency: "North Korean won (KPW)"
+main_industries:
+  - "Military manufacturing"
+  - "Coal mining"
+  - "Iron ore extraction"
+  - "Agriculture (rice, corn)"
+  - "Textiles"
+exports:
+  - "Coal"
+  - "Iron ore"
+  - "Textiles"
+  - "Seafood"
+imports:
+  - "Petroleum"
+  - "Machinery"
+  - "Food grains"
+  - "Electronics"
+unemployment_rate: 3.5
+unemployment_year: 2022

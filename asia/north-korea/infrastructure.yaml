@@ -1,0 +1,16 @@
+country: "Democratic People's Republic of Korea"
+transport:
+  railways: 5234
+  railways_unit: "km"
+  roads: 25500
+  roads_unit: "km"
+  airports: 39
+  paved_airports: 24
+energy:
+  electricity_production: 25000
+  electricity_unit: "GWh"
+  primary_source: "Coal (70%)"
+telecommunications:
+  mobile_subscriptions: 6000000
+  mobile_year: 2023
+  internet_access: "Restricted, state-controlled Intranet (Kwangmyong)"

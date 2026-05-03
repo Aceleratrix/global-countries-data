@@ -1,0 +1,15 @@
+country: "Democratic People's Republic of Korea"
+population:
+  total: 25800000
+  year: 2023
+  density: 214 per km²
+  age_structure:
+    - "0-14 years: 20.1%"
+    - "15-64 years: 69.5%"
+    - "65+ years: 10.4%"
+  literacy_rate: 99.0
+  literacy_year: 2022
+  life_expectancy: 72.3
+  life_expectancy_year: 2023
+  urban_population: 62.0
+  urban_year: 2023

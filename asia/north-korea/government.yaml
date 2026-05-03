@@ -1,0 +1,15 @@
+country: "Democratic People's Republic of Korea"
+government_type: "Juche-oriented socialist republic, dynastic totalitarian regime"
+founding_date: "1948-09-09"
+head_of_state: "Kim Jong Un"
+head_of_state_title: "General Secretary of the Workers' Party of Korea, Chairman of the State Affairs Commission"
+legislature: "Supreme People's Assembly (unicameral, 687 seats)"
+administrative_divisions:
+  - "9 provinces"
+  - "3 special cities (Pyongyang, Rason, Nampo)"
+iso_codes:
+  alpha2: "KP"
+  alpha3: "PRK"
+  numeric: 408
+calling_code: "+850"
+time_zone: "UTC+9 (Pyongyang Time)"

@@ -1,0 +1,18 @@
+country: "Democratic People's Republic of Korea"
+key_events:
+  - year: 1945
+    event: "End of Japanese colonial rule (1910-1945)"
+  - year: 1948
+    event: "Founding of the DPRK on September 9"
+  - year: 1950
+    event: "Korean War begins (1950-1953)"
+  - year: 1953
+    event: "Korean Armistice Agreement signed (no formal peace treaty)"
+  - year: 1994
+    event: "Death of Kim Il Sung, Kim Jong Il succeeds"
+  - year: 2011
+    event: "Death of Kim Jong Il, Kim Jong Un succeeds"
+  - year: 2017
+    event: "Sixth nuclear test conducted"
+  - year: 2018
+    event: "Inter-Korean summits held"

@@ -1,0 +1,10 @@
+country: "Democratic People's Republic of Korea"
+education_system: "12-year compulsory education (ages 6-18)"
+literacy_rate: 99.0
+enrollment_rate_primary: 98.0
+enrollment_year: 2022
+higher_education:
+  - "Kim Il Sung University (Pyongyang)"
+  - "Pyongyang University of Science and Technology"
+  - "Military-focused institutions"
+education_content: "State-mandated curriculum including Juche ideology, Korean history, technical skills"
