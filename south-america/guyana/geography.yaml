@@ -1,18 +1,21 @@
 country: Guyana
 official_name: Co-operative Republic of Guyana
 region: South America
-subregion: South America
-area_km2: 214969
+subregion: Northern South America
+capital: Georgetown
+area_km2: 214970
 borders:
-  - code: BRA
-    name: Brazil
-  - code: SUR
-    name: Suriname
-  - code: VEN
-    name: Venezuela
-coordinates:
-  latitude: 4.0
-  longitude: -58.0
-timezones:
-  - UTC-04:00
-terrain: Coastal plains, interior highlands, tropical rainforest
+  - country: Venezuela
+    length_km: 743
+  - country: Brazil
+    length_km: 1119
+  - country: Suriname
+    length_km: 600
+coastline_km: 459
+highest_point: Mount Roraima (2772 m)
+major_rivers:
+  - Essequibo
+  - Demerara
+  - Berbice
+terrain: Coastal plain, rolling highlands, dense rainforests
+climate: Tropical, hot and humid with rainy seasons (May-July, November-January)

@@ -1,15 +1,30 @@
 country: Guyana
 national_symbols:
+  flag: Green, white, yellow, black, red horizontal stripes with white fimbriation
+  anthem: "Dear Land of Guyana, of Rivers and Plains"
   bird: Hoatzin
-  flower: Victoria regia
+  flower: Victoria amazonica (giant water lily)
   tree: Greenheart
-religions:
-  Christianity: 57%
-  Hinduism: 28%
-  Islam: 7%
-  Other: 8%
-festivals:
-  - Mashramani (Republic Day)
+cultural_influences:
+  - African
+  - Indian
+  - Amerindian
+  - European
+  - Chinese
+traditional_festivals:
   - Diwali
+  - Phagwah (Holi)
+  - Mashramani (Republic Day, February 23)
+  - Christmas
   - Eid al-Fitr
-cuisine: Curry, roti, pepperpot, cook-up rice
+cuisine:
+  - Curry dishes
+  - Roti
+  - Cook-up rice
+  - Metemgee (root vegetable stew)
+  - Pepperpot
+music_genres:
+  - Chutney
+  - Soca
+  - Reggae
+  - Calypso

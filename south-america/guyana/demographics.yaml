@@ -1,14 +1,22 @@
 country: Guyana
-population: 790681
-languages:
-  - English (official)
-  - Guyanese Creole
-  - Amerindian languages (Arawak, Carib)
+population_2023: 790326
+population_growth_rate_2023: 0.83%
+population_density_km2: 3.7
+urban_population_percent: 27.4
+median_age: 28.1
+life_expectancy_years: 69.5
 ethnic_groups:
-  - East Indian: 43%
-  - African: 30%
-  - Mixed: 17%
-  - Amerindian: 9%
-  - Other: 1%
-median_age: 26.1
-life_expectancy: 69.5
+  - East Indian: 39.8%
+  - African: 29.3%
+  - Mixed: 19.9%
+  - Amerindian: 10.5%
+  - Other: 0.5%
+religions:
+  - Christian: 62.7%
+  - Hindu: 24.8%
+  - Muslim: 6.7%
+  - Other/None: 5.8%
+official_language: English
+spoken_languages:
+  - Guyanese Creole
+  - Amerindian languages (Arawak, Carib, Wapishana)

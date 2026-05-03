@@ -1,7 +1,11 @@
 country: Guyana
-literacy_rate: 88.5%
+literacy_rate_2023: 88.5%
+education_system: 6-3-3-4 (primary, lower secondary, upper secondary, tertiary)
 compulsory_education_age: 5-16
-education_system: British model
-higher_education:
-  - University of Guyana
-enrollment_primary: 95%
+school_life_expectancy_years: 11.2
+tertiary_education_enrollment_percent: 18.7
+major_universities:
+  - University of Guyana (main campus: Georgetown)
+  - Texila American University
+  - Greenheart Medical University
+education_spending_percent_gdp: 3.8%

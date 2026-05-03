@@ -1,9 +1,13 @@
 country: Guyana
-transportation:
-  roads_km: 7970
-  paved_roads_km: 590
-  international_airports: 1 (Cheddi Jagan)
-  main_port: Georgetown
-telecommunications:
-  mobile_penetration: 90%
-  internet_users: 45%
+total_roads_km: 4500
+paved_roads_percent: 35
+railways_km: 0
+major_airports:
+  - Cheddi Jagan International Airport (GEO, Georgetown)
+  - Eugene F. Correia International Airport (OGL, Georgetown)
+major_ports:
+  - Georgetown Port
+  - New Amsterdam Port
+internet_penetration_percent_2023: 64.2
+mobile_phone_subscriptions_per_100_people: 98.3
+electricity_access_percent_population: 91.4

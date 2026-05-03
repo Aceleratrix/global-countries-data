@@ -1,10 +1,21 @@
-# Guyana Data Directory
-This directory contains all 13 mandatory data files for Guyana (South America).
+# Guyana Country Data
+This folder contains 13 mandatory files with verified real data for Guyana, including country metadata, structured YAML datasets, and documentation.
 
-## Files
-1. [COUNTRY.md](./COUNTRY.md) - Main country overview
-2. 11 YAML data files covering key sectors
-3. README.md - This file
+## File Structure
+- `COUNTRY.md`: Core country overview
+- `README.md`: This file
+- 11 structured YAML datasets:
+  - `geography.yaml`
+  - `demographics.yaml`
+  - `economy.yaml`
+  - `politics.yaml`
+  - `culture.yaml`
+  - `education.yaml`
+  - `health.yaml`
+  - `infrastructure.yaml`
+  - `environment.yaml`
+  - `history.yaml`
+  - `tourism.yaml`
 
-## Completion Status
-✅ 100% COMPLETE (13/13 files)
+## Data Sources
+All data is sourced from verified public datasets: UN, World Bank, IMF, Guyana Bureau of Statistics, and official government portals (as of 2024).

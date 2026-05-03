@@ -1,0 +1,14 @@
+country: Guyana
+life_expectancy_years: 69.5
+infant_mortality_rate_per_1000_live_births: 24.1
+healthcare_spending_percent_gdp: 5.2%
+physicians_per_1000_people: 0.8
+hospital_beds_per_1000_people: 3.1
+major_diseases:
+  - Diabetes
+  - Hypertension
+  - HIV/AIDS
+  - Malaria (interior regions)
+vaccination_coverage_percent:
+  measles: 92
+  DPT: 90

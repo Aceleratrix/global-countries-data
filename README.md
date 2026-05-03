@@ -37,7 +37,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ## 📊 Coverage Progress (167 / 195 = 85.6%)
 
-### 🌎 South America (9/12 = 75.0%)
+### 🌎 South America (10/12 = 83.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇧🇷 **Brazil** | 17/17 | ✅ **100% COMPLETE** | PIX (76% adoption), LGPD, 4 cloud regions | Portuguese (pt-BR) + English |
@@ -49,6 +49,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇧🇴 **Bolivia** | 13/13 | ✅ **100% COMPLETE** | 85th largest economy ($0.45T), Sucre (constitutional)/La Paz (administrative), Altiplano/Amazon, 12.5M population, natural gas exports | Spanish (es-BO) + Quechua/Aymara + English |
 | 🇻🇪 **Venezuela** | 13/13 | ✅ **100% COMPLETE** | 119th largest economy ($0.07T), Caracas (5M), Angel Falls (world's highest waterfall), largest oil reserves globally, 28.5M population, Caribbean coastline | Spanish (es-VE) + English |
 | 🇵🇾 **Paraguay** | 13/13 | ✅ **100% COMPLETE** | 82nd largest economy ($0.14T), Asunción (capital), landlocked, Itaipu Dam (shared with Brazil), Guaraní official language alongside Spanish, 7.45M population | Spanish (es-PY) + Guaraní + English |
+| 🇬🇾 **Guyana** | 13/13 | ✅ **100% COMPLETE** | 152nd largest economy ($0.05T), Georgetown (capital), only English-speaking South American country, offshore oil boom, Kaieteur Falls, 790K population | English (en-GY) + Guyanese Creole |
 
 ### 🌎 North America (13/23 = 56.5%)
 | Country | Files | Status | Key Highlights | Primary Language |

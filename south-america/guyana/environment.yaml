@@ -1,8 +1,14 @@
 country: Guyana
-forest_cover: 85% of total area
-protected_areas: 13% of land area
-biodiversity: 8000+ plant species, 1000+ bird species
-environmental_issues:
-  - Deforestation
+forest_cover_percent: 85
+protected_areas_percent_land: 8.4
+major_ecosystems:
+  - Tropical rainforests
+  - Coastal mangroves
+  - Savannas
+  - Mountain ecosystems (Pakaraima Mountains)
+key_environmental_issues:
+  - Deforestation for mining/agriculture
   - Water pollution from mining
-climate: Tropical with wet/dry seasons
+  - Climate change (sea level rise threatening coastal areas)
+carbon_emissions_mt_2022: 3.2
+renewable_energy_percent_total_energy: 12.7
