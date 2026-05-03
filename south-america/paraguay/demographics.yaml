@@ -1,12 +1,22 @@
-# Demographics data
-population: 6109644
-demonyms:
-  eng:
-    m: "Paraguayan"
-    f: "Paraguayan"
-  fra:
-    m: "Paraguayen"
-    f: "Paraguayenne"
+population_2023: 7450000
+population_density_km2: 18.3
+urban_population_percent: 62.5
+rural_population_percent: 37.5
+ethnic_groups:
+  - Mestizo (95%)
+  - Indigenous (1.5%)
+  - Other (3.5%)
 languages:
-  grn: "Guaraní"
-  spa: "Spanish"
+  official:
+    - Spanish
+    - Guaraní
+  spoken_languages:
+    - Guaraní (92% of population)
+    - Spanish (87% of population, often bilingual)
+religion:
+  - Roman Catholic (88%)
+  - Protestant (6%)
+  - Other (6%)
+life_expectancy_years: 74.2
+infant_mortality_per_1000: 16.5
+literacy_rate_percent: 94.1

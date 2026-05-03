@@ -1,16 +1,17 @@
-# Infrastructure Data for Paraguay
 transport:
-  road_network_km: 78000  # Estimated
-  paved_roads_percent: 35.0
-  major_airports: 2  # Silvio Pettirossi International Airport (Asunción), Guaraní International Airport (Ciudad del Este)
-  rail_network_km: 441
+  roads_km: 78000
+  paved_roads_percent: 25
+  airports:
+    - Silvio Pettirossi International Airport (Asunción, main international gateway)
+    - Guaraní International Airport (Ciudad del Este)
 energy:
   main_sources:
-    - Hydroelectric
-    - Biomass
-  hydroelectric_capacity_gw: 8.8  # Itaipu and Yacyretá dams
-  electricity_access_percent: 100.0  # Urban and rural
-internet:
-  users_percent: 68.0  # 2023 estimate
-  top_level_domain: .py
-  idd_code: +595
+    - Hydroelectric power (80% of electricity, from Itaipu and Yacyretá dams)
+    - Thermal power (20%)
+  itaipu_dam:
+    shared_with: Brazil
+    capacity_gw: 14
+    rank: 2nd largest hydroelectric plant in world by capacity
+telecommunications:
+  mobile_phone_subscriptions_per_100_population: 110
+  internet_penetration_percent: 68

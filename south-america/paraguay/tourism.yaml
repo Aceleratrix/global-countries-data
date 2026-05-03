@@ -1,12 +1,11 @@
-# Tourism Data for Paraguay
-international_tourists_annual: 1500000  # 2023 estimate
-top_attractions:
-  - Itaipu Dam (world's largest operational hydroelectric plant by energy generation)
-  - Jesuit Ruins of Trinidad and Jesús (UNESCO World Heritage Site)
-  - Asunción Historic Center
-  - Chaco National Park
-  - Ybycuí National Park
-tourism_contribution_gdp_percent: 3.2  # 2022 estimate
-unESCO_world_heritage_sites:
-  - Jesuit Missions of La Santísima Trinidad de Paraná and Jesús de Tavarangüé
-visa_policy: Visa-free access for citizens of 87 countries
+annual_visitors_2023: 1.8 million
+main_attractions:
+  - Jesuit Missions of the Guaranis (UNESCO World Heritage Site, 8 missions in total)
+  - Encarnación Carnaval (one of South America's largest carnival events)
+  - Itaipu Dam (tours available)
+  - Ybycuí National Park (hiking, waterfalls)
+  - Asunción historic center (colonial architecture)
+main_tourist_sources:
+  - Brazil (45%)
+  - Argentina (30%)
+  - Europe (15%)

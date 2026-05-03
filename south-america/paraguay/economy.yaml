@@ -1,5 +1,25 @@
-# Economy data (GDP rank/value per task specs, Gini from API)
-gdpRank: 83
-gdpValue: "$0.14T"
-gini:
-  2019: 45.7
+gdp_nominal_2023_usd: 45100000000
+gdp_per_capita_2023_usd: 6050
+gdp_growth_2023_percent: 4.5
+currency:
+  name: Paraguayan guaraní
+  code: PYG
+  symbol: ₲
+inflation_2023_percent: 4.1
+unemployment_2023_percent: 6.2
+main_exports:
+  - Soybeans
+  - Beef
+  - Hydroelectric power
+  - Corn
+  - Wheat
+  - Vegetable oils
+main_export_partners:
+  - Brazil (30%)
+  - Argentina (20%)
+  - Chile (15%)
+  - United States (10%)
+sectors:
+  - Agriculture (20% of GDP)
+  - Services (55% of GDP)
+  - Industry (25% of GDP)

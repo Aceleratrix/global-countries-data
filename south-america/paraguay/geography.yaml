@@ -1,16 +1,21 @@
-# Geography data
-region: "Americas"
-subregion: "South America"
-continent: "South America"
-landlocked: true
-area: 406752.0
-latlng:
-  - -23.0
-  - -58.0
-capitalInfo:
-  latlng:
-    - -25.28
-    - -57.57
-maps:
-  googleMaps: "https://goo.gl/maps/JtnqG73WJn1Gx6mz6"
-  openStreetMaps: "https://www.openstreetmap.org/relation/287077"
+country: Paraguay
+official_name: Republic of Paraguay
+area_km2: 406752
+area_sq_mi: 157006
+coordinates:
+  latitude: -23.50
+  longitude: -58.00
+borders:
+  - country: Argentina
+    border_length_km: 1880
+  - country: Bolivia
+    border_length_km: 750
+  - country: Brazil
+    border_length_km: 1370
+terrain:
+  - Chaco (dry lowland plains, 60% of territory)
+  - Paraneña region (rolling hills, forests, 40% of territory)
+climate:
+  - Subtropical in east
+  - Semi-arid in Chaco region
+  - Average annual temperature: 24°C

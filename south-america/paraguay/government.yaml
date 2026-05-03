@@ -1,13 +1,13 @@
-# Government data
-independent: true
-unMember: true
-officialName: "Republic of Paraguay"
-nativeName:
-  grn:
-    official: "Tetã Paraguái"
-    common: "Paraguái"
-  spa:
-    official: "República de Paraguay"
-    common: "Paraguay"
-capital:
-  - "Asunción"
+system: Presidential republic
+head_of_state: President Santiago Peña (since August 15, 2023)
+head_of_government: President Santiago Peña
+vice_president: Pedro Alliana
+legislature:
+  type: Bicameral Congress
+  upper_house: Chamber of Senators (45 seats, 5-year terms)
+  lower_house: Chamber of Deputies (80 seats, 5-year terms)
+judiciary:
+  highest_court: Supreme Court of Justice (9 members, appointed by president with congressional approval)
+independence:
+  date: May 14, 1811
+  from: Spain
