@@ -1,0 +1,6 @@
+energy_production_ktoe: 120
+energy_consumption_ktoe: 450
+main_energy_sources:
+  - Fossil fuels: 90%
+  - Renewables: 10% (solar, wind)
+renewable_target_percent: 30 by 2030

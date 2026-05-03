@@ -1,0 +1,12 @@
+gdp_usd: 5.7e9
+gdp_year: 2023
+gdp_per_capita_usd: 19800
+main_industries:
+  - Tourism
+  - Offshore banking
+  - Agriculture (sugarcane, vegetables)
+  - Light manufacturing
+unemployment_rate_percent: 9.5
+inflation_rate_percent: 4.2
+currency: Barbadian Dollar (BBD)
+exchange_rate_usd: 2.00 (pegged)

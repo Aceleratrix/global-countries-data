@@ -1,0 +1,12 @@
+road_network_km: 22000
+paved_roads_pct: 63%
+railway_km: 272
+major_airports:
+  - Norman Manley International Airport (Kingston)
+  - Sangster International Airport (Montego Bay)
+major_seaports:
+  - Kingston Container Terminal
+  - Montego Bay Port
+internet_penetration_pct: 82%
+mobile_subscriptions_per_100: 108
+electricity_access_pct: 98%

@@ -1,0 +1,10 @@
+healthcare_expenditure_pct_gdp: 5.2%
+life_expectancy_total: 74.9
+infant_mortality_rate: 12.1 per 1000 live births
+physicians_per_1000: 1.1
+hospital_beds_per_1000: 1.9
+major_health_issues:
+  - Non-communicable diseases (diabetes, hypertension)
+  - HIV/AIDS (prevalence 1.7%)
+  - Vector-borne diseases (dengue)
+healthcare_system: Mixed public-private system, publicly funded primary care

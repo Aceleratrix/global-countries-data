@@ -1,0 +1,13 @@
+population: 287025
+population_year: 2023
+density_per_km2: 653
+life_expectancy_years: 79
+urban_population_percent: 31
+ethnic_groups:
+  - Afro-Barbadian: 91%
+  - Mixed: 4%
+  - White: 3%
+  - Other: 2%
+religions:
+  - Christian: 95%
+  - Other: 5%

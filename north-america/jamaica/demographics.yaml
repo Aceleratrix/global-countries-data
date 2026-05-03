@@ -1,0 +1,17 @@
+population_total: 2825544
+population_density_km2: 257
+population_growth_rate: 0.08
+birth_rate: 16.2
+death_rate: 7.8
+life_expectancy_total: 74.9
+life_expectancy_male: 73.1
+life_expectancy_female: 76.7
+urban_population_pct: 56.2
+ethnic_groups:
+  - African: 92.1%
+  - Mixed: 6.1%
+  - Other: 1.8%
+religions:
+  - Christianity: 68.9%
+  - No religion: 21.3%
+  - Other: 9.8%
