@@ -1,0 +1,20 @@
+country: Solomon Islands
+continent: Oceania
+region: Melanesia
+coordinates:
+  latitude: -9.4456
+  longitude: 159.9723
+area_km2: 28896
+area_sq_mi: 11157
+highest_point: Mount Popomanaseu (2335 m)
+lowest_point: Pacific Ocean (0 m)
+major_islands:
+  - Guadalcanal
+  - Malaita
+  - Makira
+  - Santa Isabel
+  - Choiseul
+  - Rennell Island
+borders:
+  - Papua New Guinea (maritime)
+climate: Tropical monsoon, with high humidity and average temperatures of 27°C
