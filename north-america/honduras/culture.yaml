@@ -1,14 +1,23 @@
-languages:
-  - Spanish
-religions:
-  - Roman Catholic
-  - Protestant
-national_symbols:
-  flag: Three horizontal stripes (blue, white, blue) with five blue stars in the center
-  anthem: "Himno Nacional de Honduras"
-  national_bird: Scarlet Macaw
-  national_flower: Orchid (Brassavola digbyana)
+country: Honduras
+traditional_music:
+  - Punta (Garifuna rhythmic music/dance)
+  - Marimba (percussion instrument)
+  - Garifuna drumming
+traditional_dance:
+  - Punta
+  - Xica (folk dance)
+cuisine:
+  - Baleadas (flour tortillas with refried beans, cheese, sour cream)
+  - Tamales (corn dough stuffed with meat, wrapped in banana leaves)
+  - Sopa de caracol (conch soup, Garifuna specialty)
+  - Plato típico (rice, beans, plantains, meat)
 public_holidays:
-  - Independence Day: 15 September
-  - Labour Day: 1 May
-  - Christmas Day: 25 December
+  - Independence Day: September 15
+  - Semana Santa (Holy Week, movable date)
+  - Labor Day: May 1
+  - Christmas: December 25
+  - New Year's Day: January 1
+  - Morazán Day: October 3 (honors Francisco Morazán)
+unesco_cultural_heritage:
+  - Río Plátano Biosphere Reserve (mixed natural/cultural site)
+  - Garifuna language, dance and music (intangible heritage)

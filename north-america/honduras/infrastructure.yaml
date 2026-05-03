@@ -1,10 +1,22 @@
-roads_total_km: 14000
-paved_roads_km: 4000
-airports: 15
-international_airports: 2 (Toncontín International Airport, Ramón Villeda Morales International Airport)
-railways_km: 699
-major_ports:
-  - Puerto Cortés
-  - Puerto Castilla
-internet_users: 45% of population
-mobile_subscriptions: 98 per 100 people
+country: Honduras
+transport:
+  total_roads: 145000 km
+  paved_roads: 15000 km
+  major_airports:
+    - Toncontín International Airport (TGU, Tegucigalpa; known for short runway)
+    - Ramón Villeda Morales International Airport (SAP, San Pedro Sula)
+    - Juan Manuel Gálvez International Airport (RTB, Roatán)
+  seaports:
+    - Puerto Cortés (largest Caribbean port)
+    - Puerto Castilla (Caribbean)
+    - La Union (Gulf of Fonseca, Pacific)
+energy:
+  total_electricity_production_gwh: 12000 (2023)
+  energy_sources:
+    - Fossil fuels: 55%
+    - Hydropower: 30%
+    - Renewables (wind, solar): 15%
+telecommunications:
+  mobile_penetration: 85%
+  internet_penetration: 45%
+  fixed_broadband_penetration: 12%

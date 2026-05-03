@@ -1,8 +1,18 @@
-forest_area: 42% of total land area
-protected_areas: 20% of total land area
-co2_emissions: 12 million tons per year
-renewable_energy_share: 60% (hydro, wind, solar)
-environmental_agreements:
-  - Paris Agreement
-  - Convention on Biological Diversity
-  - Ramsar Convention on Wetlands
+country: Honduras
+ecosystems:
+  - Tropical rainforests (Mosquitia region)
+  - Mangroves (coastal areas)
+  - Coral reefs (Bay Islands, part of Mesoamerican Barrier Reef)
+  - Cloud forests (highlands)
+protected_areas_percent: 25% of total land area
+protected_sites:
+  - Pico Bonito National Park (cloud forest, wildlife)
+  - Río Plátano Biosphere Reserve (UNESCO, 1982)
+  - Celaque National Park (home to Cerro Las Minas)
+  - Copán Ruins National Park
+environmental_issues:
+  - Deforestation (2% annual loss, illegal logging)
+  - Water pollution (agricultural runoff, untreated sewage)
+  - Soil erosion
+  - Climate change (increased hurricane frequency, drought)
+carbon_emissions_million_tons: 12 (2023)

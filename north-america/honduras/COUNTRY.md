@@ -1,20 +1,20 @@
 # Honduras 🇭🇳
+Official Name: Republic of Honduras
+Capital: Tegucigalpa
+Population: 10,300,000 (2023 estimate)
+Area: 112,492 km²
+Currency: Honduran lempira (HNL)
+Official Language: Spanish
+Other Languages: Garifuna, Miskito, Pech, Tawahka
+Government: Presidential republic
+Current President: Xiomara Castro (since January 27, 2022)
+Independence: September 15, 1821 (from Spain)
+Neighboring Countries: Guatemala, El Salvador, Nicaragua
+Bodies of Water: Caribbean Sea, Gulf of Fonseca (Pacific Ocean)
 
-## Basic Information
-- **Official Name**: Republic of Honduras
-- **Common Name**: Honduras
-- **Capital**: Tegucigalpa
-- **Population**: 9,904,607 (2023)
-- **Area**: 112,492 km²
-- **Currency**: Honduran Lempira (HNL)
-- **Languages**: Spanish
-- **Region**: Americas
-- **Subregion**: Central America
-- **Borders**: Guatemala, El Salvador, Nicaragua
-- **GDP**: $0.14 Trillion (84th largest economy globally)
-
-## Key Facts
-- Independence from Spain: 15 September 1821
-- Government Type: Presidential Republic
-- Terrain: Mostly mountains in interior, narrow coastal plains
-- Climate: Tropical with more temperate conditions in highlands
+## Quick Facts
+- Central American nation with Caribbean and Pacific coastlines
+- Home to UNESCO World Heritage Site Copán Ruins (Mayan civilization)
+- First female president elected in 2021 (Xiomara Castro)
+- Major exports: coffee, bananas, apparel, palm oil
+- Bay Islands (Roatán, Utila) are premier scuba diving destinations

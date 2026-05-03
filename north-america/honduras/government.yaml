@@ -1,10 +1,18 @@
-government_type: Presidential Republic
-independence_date: 1821-09-15
-constitution_date: 1982-01-11
-head_of_state: President of Honduras
-head_of_government: President of Honduras
+country: Honduras
+government_type: Presidential republic
+constitution_adopted: 1982
+last_constitutional_amendment: 2023
+head_of_state: President Xiomara Castro
+head_of_government: President Xiomara Castro
+legislature: Unicameral National Congress (128 seats, members elected for 4-year terms)
+judiciary:
+  - Supreme Court of Justice (15 judges, elected by Congress for 7-year terms)
+  - Courts of Appeal
+  - First Instance Courts
+  - Justice of the Peace Courts
 political_parties:
-  - National Party of Honduras
-  - Liberal Party of Honduras
-  - Liberty and Refoundation (Libre)
+  - LIBRE (Liberty and Refoundation, left-wing)
+  - National Party of Honduras (right-wing)
+  - Liberal Party of Honduras (center)
+administrative_divisions: 18 departments, further divided into 298 municipalities
 suffrage: 18 years of age, universal

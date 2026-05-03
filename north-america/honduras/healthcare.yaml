@@ -1,0 +1,18 @@
+country: Honduras
+health_indicators:
+  infant_mortality_per_1000: 16 (2023)
+  maternal_mortality_per_100000: 68 (2023)
+  physicians_per_1000: 1.2
+  hospital_beds_per_1000: 1.5
+healthcare_system:
+  - Public: Secretaría de Salud (national health system)
+  - Private: Clinics and hospitals (higher cost)
+common_diseases:
+  - Dengue fever (seasonal outbreaks)
+  - Diabetes
+  - Hypertension
+  - COVID-19 (over 500,000 cases by 2023)
+vaccination_coverage:
+  DPT (diphtheria, pertussis, tetanus): 89%
+  Measles: 92%
+health_budget_percent_gdp: 7.1% (2023)

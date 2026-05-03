@@ -1,21 +1,33 @@
-gdp_total: 0.14 trillion USD
-gdp_global_rank: 84
-gdp_per_capita: 1400 USD (approx)
-currency:
-  name: Honduran Lempira
-  code: HNL
-  symbol: L
-major_industries:
-  - Agriculture (bananas, coffee, palm oil)
-  - Manufacturing (textiles, apparel)
-  - Mining (gold, silver, zinc)
-major_exports:
-  - Coffee
+country: Honduras
+gdp_nominal_usd: 31200000000
+gdp_year: 2023
+gdp_per_capita_usd: 3029
+gdp_growth_rate: 3.5% (2023)
+currency: Honduran lempira (HNL, subdivision: centavo)
+main_industries:
+  - Textiles and apparel (maquiladora sector)
+  - Agriculture (coffee, bananas, palm oil, sugarcane)
+  - Mining (gold, silver, zinc, lead)
+  - Tourism
+exports:
+  - Coffee (top agricultural export)
   - Bananas
-  - Apparel
+  - Apparel and textiles
   - Palm oil
-major_imports:
-  - Machinery
-  - Electronics
-  - Fuel
+  - Gold
+export_partners:
+  - United States (35%)
+  - Guatemala
+  - El Salvador
+  - Germany
+imports:
+  - Machinery and transport equipment
+  - Fuels
   - Food products
+  - Chemicals
+import_partners:
+  - United States (28%)
+  - China
+  - Guatemala
+  - Mexico
+unemployment_rate: 8.2% (2023)
