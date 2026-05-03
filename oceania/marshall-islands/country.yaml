@@ -1,0 +1,17 @@
+official_name: "Republic of the Marshall Islands"
+common_name: "Marshall Islands"
+capital: "Majuro"
+largest_city: "Majuro"
+iso_alpha2: "MH"
+iso_alpha3: "MHL"
+iso_numeric: 584
+calling_code: "+692"
+currency_code: "USD"
+currency_name: "United States Dollar"
+languages:
+  - "Marshallese"
+  - "English"
+government_type: "Unitary parliamentary republic in free association with the United States"
+independence_date: "1986-10-21"
+area_km2: 181
+population_2023: 42418

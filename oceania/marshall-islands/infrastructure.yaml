@@ -1,0 +1,12 @@
+transportation:
+  airports: 15
+  paved_airport_runways: 2
+  major_airport: "Marshall Islands International Airport (MAJ)"
+  seaports: ["Majuro Port", "Kwajalein Port"]
+  roads_km: 2028
+energy:
+  electricity_access_percent: 94.7
+  primary_source: "Diesel generators, growing solar adoption"
+telecommunications:
+  mobile_subscriptions_per_100: 89
+  internet_penetration_percent: 42.3

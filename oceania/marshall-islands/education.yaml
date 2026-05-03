@@ -1,0 +1,8 @@
+literacy_rate_percent: 98.3
+compulsory_education_age: "6-14"
+education_levels:
+  - "Primary (grades 1-8)"
+  - "Secondary (grades 9-12)"
+  - "Tertiary: College of the Marshall Islands (CMI)"
+primary_enrollment_percent: 92.1
+secondary_enrollment_percent: 78.4

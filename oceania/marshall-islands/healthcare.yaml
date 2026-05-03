@@ -1,0 +1,10 @@
+healthcare_system: "Public, funded by government and US aid"
+total_hospitals: 2
+healthcare_workers_per_1000: 3.2
+infant_mortality_per_1000: 21.5
+life_expectancy_years: 73.9
+major_health_issues:
+  - "Diabetes"
+  - "Obesity"
+  - "Tuberculosis"
+  - "Waterborne diseases"

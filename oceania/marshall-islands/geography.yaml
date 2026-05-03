@@ -1,0 +1,14 @@
+region: "Oceania"
+subregion: "Micronesia"
+coordinates: "7.1315° N, 171.1841° E"
+land_area_km2: 181
+eez_km2: 2131000
+terrain: "Coral atolls and low-lying islands"
+major_island_chains:
+  - "Ratak Chain (Sunrise)"
+  - "Ralik Chain (Sunset)"
+total_atolls: 29
+total_isolated_islands: 5
+highest_point_m: 10
+highest_point_location: "Likiep Atoll"
+climate: "Tropical, with little seasonal temperature variation"

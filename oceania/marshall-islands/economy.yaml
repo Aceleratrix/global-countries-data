@@ -1,0 +1,21 @@
+gdp_nominal_usd_2023: 244000000
+gdp_per_capita_usd_2023: 5760
+economy_type: "Developing, service-based"
+major_industries:
+  - "Fishing"
+  - "Agriculture"
+  - "Tourism"
+  - "Offshore banking"
+key_exports:
+  - "Copra"
+  - "Fish"
+  - "Seaweed"
+key_imports:
+  - "Foodstuffs"
+  - "Machinery"
+  - "Fuel"
+main_trading_partners:
+  - "United States"
+  - "Japan"
+  - "Australia"
+unemployment_rate_percent_2023: 12.8

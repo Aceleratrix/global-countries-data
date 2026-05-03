@@ -1,0 +1,14 @@
+population_2023: 42418
+population_density_km2: 234
+urban_population_percent: 77.3
+rural_population_percent: 22.7
+median_age: 24.5
+life_expectancy_years: 73.9
+infant_mortality_per_1000: 21.5
+ethnic_groups:
+  - "Marshallese (95%)"
+  - "Other (5%)"
+religions:
+  - "Protestant (54.2%)"
+  - "Roman Catholic (28.6%)"
+  - "Other (17.2%)"
