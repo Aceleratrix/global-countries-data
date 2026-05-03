@@ -1,0 +1,8 @@
+gdp_nominal: 406000000000
+gdp_per_capita: 68400
+gdp_growth: 1.8
+inflation_rate: 2.1
+unemployment_rate: 2.5
+major_industries: ["Wind turbines", "Pharmaceuticals", "Maritime shipping", "Agriculture", "Renewable energy", "Information technology"]
+exports: ["Wind turbines", "Pharmaceuticals", "Machinery", "Meat and dairy products", "Fish"]
+imports: ["Machinery", "Raw materials", "Chemicals", "Consumer goods", "Fuel"]

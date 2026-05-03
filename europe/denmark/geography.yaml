@@ -1,0 +1,9 @@
+region: "Europe"
+subregion: "Northern Europe"
+continent: "Europe"
+coordinates: "56.2639° N, 9.5018° E"
+border_countries: ["Germany"]
+coastline_km: 7314
+climate: "Temperate; humid and overcast; mild, windy winters and cool summers"
+terrain: "Low and flat or slightly rolling; highest point is Møllehøj at 171 meters"
+natural_resources: ["Petroleum", "Natural gas", "Fish", "Salt", "Limestone", "Chalk", "Stone", "Gravel", "Sand"]

@@ -1,0 +1,12 @@
+transportation:
+  roads_km: 74000
+  railways_km: 2667
+  airports: 28
+  major_ports: ["Copenhagen", "Aarhus", "Odense", "Aalborg"]
+energy:
+  renewable_energy_percent: 79.2
+  wind_energy_percent: 47.0
+  primary_energy_sources: ["Wind", "Biomass", "Natural gas", "Oil"]
+telecommunications:
+  internet_penetration: 98.0
+  mobile_subscriptions_per_100: 132.0

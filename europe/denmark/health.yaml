@@ -1,0 +1,7 @@
+health_spending_gdp_percent: 10.1
+life_expectancy: 81.3
+infant_mortality_rate: 3.1
+physicians_per_1000: 4.3
+hospital_beds_per_1000: 2.7
+vaccination_coverage_percent: 95.0
+major_health_issues: ["Cardiovascular diseases", "Cancer", "Mental health disorders"]

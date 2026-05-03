@@ -1,0 +1,11 @@
+flag:
+  name: "Dannebrog"
+  description: "Red field with a white Scandinavian cross extending to the edges"
+  adopted: 1625
+coat_of_arms:
+  description: "Three blue lions passant guardant with nine red hearts on a gold shield, topped by a royal crown"
+  adopted: 1819
+national_bird: "Mute swan"
+national_tree: "European beech"
+national_flower: "Marguerite daisy"
+national_animal: "None official, but the mute swan is widely recognized"
