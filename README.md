@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (164 / 195 = 84.1%)
+## 📊 Coverage Progress (165 / 195 = 84.6%)
 
 ### 🌎 South America (9/12 = 75.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -67,7 +67,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇻🇨 **Saint Vincent and the Grenadines** | 13/13 | ✅ **100% COMPLETE** | 166th largest economy ($0.05T), Kingstown (capital), Caribbean archipelago of 32 islands, tourism 40% GDP | English (en-VC) + Vincentian Creole English |
 | 🇩🇲 **Dominica** | 13/13 | ✅ **100% COMPLETE** | 168th largest economy ($0.05T), Roseau (capital), Caribbean island nation, Morne Trois Pitons UNESCO site, Eastern Caribbean Dollar | English (en-DM) + Dominican Creole French |
 
-### 🌏 Asia (26/50 = 52.0%)
+### 🌏 Asia (27/50 = 54.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇮🇱 **Israel** | 13/13 | ✅ **100% COMPLETE** | 33rd largest economy ($0.39T), Startup Nation, 8K+ tech startups, 100+ unicorns | English (en-US) |
@@ -94,6 +94,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇱🇰 **Sri Lanka** | 13/13 | ✅ **100% COMPLETE** | 77th largest economy ($0.14T), Colombo (commercial)/Sri Jayawardenepura Kotte (administrative), Ceylon tea, ancient Buddhist temples, 22.2M population | English (en-US) |
 | 🇲🇳 **Mongolia** | 13/13 | ✅ **100% COMPLETE** | 80th largest economy ($0.15T), Ulaanbaatar (capital), landlocked East Asia, Gobi Desert, 3.4M population | English (en-US) |
 | 🇧🇹 **Bhutan** | 13/13 | ✅ **100% COMPLETE** | 76th largest economy ($0.16T), Thimphu (capital), Himalayan nation, Gross National Happiness, 770K population | English (en-US) |
+| 🇰🇬 **Kyrgyzstan** | 13/13 | ✅ **100% COMPLETE** | 118th largest economy ($0.06T), Bishkek (capital), Tian Shan mountains, Issyk-Kul lake, 6.9M population | English (en-US) |
 
 ### 🌍 Europe (29/44 = 65.9%)
 ### 🌍 Europe (29/44 = 65.9%)
