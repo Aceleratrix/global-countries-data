@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (162 / 195 = 83.1%)
+## 📊 Coverage Progress (163 / 195 = 83.6%)
 
 ### 🌎 South America (9/12 = 75.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -133,7 +133,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇸🇮 **Slovenia** | 13/13 | ✅ **100% COMPLETE** | 66th largest economy ($0.19T), Ljubljana (capital), Alpine country, EU/Schengen/NATO member, Lake Bled | English (en-US) |
 | 🇲🇩 **Moldova** | 13/13 | ✅ **100% COMPLETE** | 93rd largest economy ($0.12T), Chișinău (capital), landlocked Eastern Europe, EU candidate since 2022, world-renowned wine cellars, 2.6M population | English (en-US) |
 
-### 🌍 Africa (31/54 = 57.4%)
+### 🌍 Africa (32/54 = 59.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇳🇬 **Nigeria** | 13/13 | ✅ **100% COMPLETE** | 28th largest economy ($0.48T), Africa's most populous (223M), fintech leader (4 unicorns), Nollywood | English (en-NG) |
@@ -167,6 +167,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇸🇨 **Seychelles** | 13/13 | ✅ **100% COMPLETE** | 161st largest economy ($0.05T), Victoria (capital), Indian Ocean archipelago, no land borders, 122.7K population | English (en-SC) + Seychellois Creole + French |
 | 🇸🇸 **South Sudan** | 13/13 | ✅ **100% COMPLETE** | 162nd largest economy ($0.05T), Juba (capital), youngest African country (2011 independence), oil exports 90% revenue, 11M population, Sudd wetland (Ramsar site) | English (en-SS) + 60+ indigenous languages |
 | 🇨🇻 **Cabo Verde** | 13/13 | ✅ **100% COMPLETE** | 158th largest economy ($0.0022T), Praia (capital), Atlantic island nation, SIDS status, tourism 25% GDP, Creole culture | Portuguese (pt-CV) + Cape Verdean Creole |
+| 🇳🇪 **Niger** | 13/13 | ✅ **100% COMPLETE** | 96th largest economy ($0.12T), Niamey (capital), Sahel region, uranium superpower (4th largest reserves), 26.3M population, 80% Sahara Desert | French (fr-NE) + English |
 
 ### 🌏 Oceania (5/14 = 35.7%)
 | Country | Files | Status | Key Highlights | Primary Language |

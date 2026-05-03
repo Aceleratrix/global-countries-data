@@ -133,7 +133,7 @@
 | 93 | 🇲🇻 Moldávia | moldova | Europe | $0.12T | ✅ 100% COMPLETE |
 | 108 | 🇦🇱 Albânia | albania | Europe | $0.08T | ✅ 100% COMPLETE |
 | 153 | 🇬🇦 Gabão | gabon | Africa | $0.05T | ✅ 100% COMPLETE |
-| 96 | 🇳🇵 Níger | niger | Africa | $0.12T |
+| 96 | 🇳🇪 Níger | niger | Africa | $0.12T | ✅ 100% COMPLETE |
 | 106 | 🇸🇳 Senegal | senegal | Africa | $0.08T | ✅ 100% COMPLETE |
 | 107 | 🇬🇪 Georgia | georgia | Europe | $0.08T | ✅ 100% COMPLETE |
 | 98 | 🇬🇭 Ghana | ghana | Africa | $0.10T | ✅ 100% COMPLETE |
