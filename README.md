@@ -100,9 +100,9 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇹🇲 **Turkmenistan** | 13/13 | ✅ **100% COMPLETE** | 93rd largest economy ($0.08T), Ashgabat (capital), Karakum Desert 80% territory, 4th largest natural gas reserves, Darvaza Gas Crater, permanent UN neutrality | English (en-US) |
 | 🇹🇱 **Timor-Leste (East Timor)** | 13/13 | ✅ **100% COMPLETE** | Asia's youngest nation (2002), ASEAN member (2023), oil/gas economy, Dili (capital), 1.3M population | English (en-US) |
 
-### 🌍 Europe (30/44 = 68.2%)
-### 🌍 Europe (30/44 = 68.2%)
-### 🌍 Europe (30/44 = 68.2%)
+### 🌍 Europe (31/44 = 70.5%)
+### 🌍 Europe (31/44 = 70.5%)
+### 🌍 Europe (31/44 = 70.5%)
 
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
@@ -140,6 +140,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇸🇮 **Slovenia** | 13/13 | ✅ **100% COMPLETE** | 66th largest economy ($0.19T), Ljubljana (capital), Alpine country, EU/Schengen/NATO member, Lake Bled | English (en-US) |
 | 🇲🇩 **Moldova** | 13/13 | ✅ **100% COMPLETE** | 93rd largest economy ($0.12T), Chișinău (capital), landlocked Eastern Europe, EU candidate since 2022, world-renowned wine cellars, 2.6M population | English (en-US) |
 | 🇵🇱 **Poland** | 13/13 | ✅ **100% COMPLETE** | 20th largest economy ($0.81T), Warsaw (1.8M), BLIK (60% transactions), 2.1M SMEs, EU member 2004 | Polish (pl-PL) + English |
+| 🇸🇲 **San Marino** | 13/13 | ✅ **100% COMPLETE** | 176th largest economy ($0.05T), microstate enclaved in Italy, Monte Titano (755m), 34K population | Italian (it-IT) + English |
 
 ### 🌍 Africa (33/54 = 61.1%)
 | Country | Files | Status | Key Highlights | Primary Language |
