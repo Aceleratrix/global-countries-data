@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-|[![Status: 166/195 (85.1%) Complete](https://img.shields.io/badge/Status-166/195%20(85.1%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+|[![Status: 167/195 (85.6%) Complete](https://img.shields.io/badge/Status-167/195%20(85.6%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (166 / 195 = 85.1%)
+## 📊 Coverage Progress (167 / 195 = 85.6%)
 
 ### 🌎 South America (9/12 = 75.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -173,7 +173,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇨🇻 **Cabo Verde** | 13/13 | ✅ **100% COMPLETE** | 158th largest economy ($0.0022T), Praia (capital), Atlantic island nation, SIDS status, tourism 25% GDP, Creole culture | Portuguese (pt-CV) + Cape Verdean Creole |
 | 🇳🇪 **Niger** | 13/13 | ✅ **100% COMPLETE** | 96th largest economy ($0.12T), Niamey (capital), Sahel region, uranium superpower (4th largest reserves), 26.3M population, 80% Sahara Desert | French (fr-NE) + English |
 
-### 🌏 Oceania (5/14 = 35.7%)
+### 🌏 Oceania (6/14 = 42.9%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇦🇺 **Australia** | 13/13 | ✅ **100% COMPLETE** | Big 4 banks, Canva $40B, AI Action Plan $124M, 92% digital banking, APEC | English (en-AU) |
@@ -182,6 +182,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇸🇧 **Solomon Islands** | 13/13 | ✅ **100% COMPLETE** | 133rd largest economy ($0.06T), Honiara (capital), 900+ islands, Melanesia, 721K population | English (en-SB) + Pijin |
 | 🇻🇺 **Vanuatu** | 13/13 | ✅ **100% COMPLETE** | 127th largest economy ($0.07T), Port Vila (capital), 80+ islands, Melanesia, 324K population | English (en-VU) + Bislama/French |
 | 🇹🇴 **Tonga** | 13/13 | ✅ **100% COMPLETE** | 171 islands (45 inhabited), only sovereign monarchy in Oceania, Nuku'alofa (capital), 107K population | English (en-TO) + Tongan |
+| 🇼🇸 **Samoa** | 13/13 | ✅ **100% COMPLETE** | 170th largest economy ($0.002T), Apia (capital), Upolu/Savai'i islands, 202k population, UTC+13 | English (en-WS) + Samoan |
 
 **Total: 401 structured YAML files covering 31 countries across 5 continents!**
 
