@@ -1,24 +1,25 @@
----
-country: Syria
-official_name: Syrian Arab Republic
-capital: Damascus
-population: 23,000,000 (2023 estimate)
-gdp: $0.13T (80th largest economy globally)
-currency: Syrian Pound (SYP)
-official_language: Arabic
-region: Asia
-subregion: Western Asia
-area: 185,180 km²
-timezone: UTC+2 (EET), UTC+3 (EEST)
----
+# Syrian Arab Republic (Syria)
+**ISO 3166-1 Codes:** SY (Alpha-2), SYR (Alpha-3), 760 (Numeric)
+**Capital:** Damascus
+**Largest City:** Aleppo
+**Population (2024 est.):** 21,932,000
+**Area:** 185,180 km² (71,500 sq mi)
+**Currency:** Syrian Pound (SYP, £S)
+**Official Language:** Arabic
+**Other Languages:** Kurdish, Armenian, Aramaic, Circassian
+**Government:** Unitary semi-presidential republic
+**Current President:** Bashar al-Assad
+**Independence:** April 17, 1946 (from France)
+**Time Zone:** UTC+2 (EET), UTC+3 (EEST, daylight saving)
+**Calling Code:** +963
+**Internet TLD:** .sy
 
-# Syria
-The Syrian Arab Republic, commonly known as Syria, is a country in Western Asia. It is bordered by Lebanon and the Mediterranean Sea to the west, Turkey to the north, Iraq to the east, Jordan to the south, and Israel to the southwest.
+## Overview
+Syria is a country in Western Asia, bordering Lebanon, the Mediterranean Sea, Turkey, Iraq, Jordan, and Israel. It has a rich history dating back to ancient civilizations like the Akkadians, Assyrians, and Phoenicians. The ongoing Syrian Civil War began in 2011.
 
 ## Key Facts
-- **GDP**: $0.13 trillion (80th largest economy globally)
-- **Population**: ~23 million (2023 estimate)
-- **Capital**: Damascus (population ~2.5 million)
-- **Currency**: Syrian Pound (SYP)
-- **Official Language**: Arabic
-- **Area**: 185,180 km²
+- Member of the United Nations since 1945
+- Arab League member state
+- Major allies: Russia, Iran
+- Subject to multiple international sanctions since 2011
+- 14 administrative governorates
