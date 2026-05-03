@@ -1,0 +1,40 @@
+# Sri Lanka Military Data
+country: Sri Lanka
+last_updated: 2024-05
+
+# Armed Forces Structure
+armed_forces:
+  - Sri Lanka Army
+  - Sri Lanka Navy
+  - Sri Lanka Air Force
+
+# Personnel
+personnel:
+  active: 300000
+  reserve: 200000
+  paramilitary: 80000
+
+# Budget
+budget:
+  2023_usd_billion: 1.2
+  gdp_percentage: 2.1
+
+# Key Facts
+key_facts:
+  - Civil war ended in 2009 after 26 years of conflict
+  - Active participant in UN peacekeeping missions (over 15,000 personnel deployed since 1960s)
+  - Major equipment suppliers: China, India, Russia
+  - Navy focuses on maritime security in Indian Ocean, anti-smuggling operations
+  - Air Force operates transport, surveillance, and limited combat aircraft
+
+# Equipment (Selected)
+equipment:
+  army:
+    main_battle_tanks: 150
+    armored_personnel_carriers: 800
+  navy:
+    patrol_vessels: 45
+    offshore_patrol_vessels: 12
+  air_force:
+    combat_aircraft: 24
+    transport_aircraft: 18

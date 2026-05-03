@@ -1,0 +1,36 @@
+# Sri Lanka Tourism Data
+country: Sri Lanka
+last_updated: 2024-05
+
+# Arrivals
+arrivals:
+  pre_pandemic_2019: 1919071
+  post_pandemic_2023: 1245210
+  top_source_countries:
+    - India
+    - United Kingdom
+    - Germany
+    - China
+    - Australia
+
+# Revenue
+revenue:
+  2023_usd_billion: 1.8
+  2019_usd_billion: 3.6
+
+# Top Attractions
+top_attractions:
+  - Sigiriya Rock Fortress
+  - Temple of the Sacred Tooth Relic (Kandy)
+  - Yala National Park
+  - Ella (Nine Arch Bridge, Little Adam's Peak)
+  - Galle Dutch Fort
+  - Polonnaruwa Ancient City
+  - Mirissa Beach (whale watching)
+
+# Tourism Infrastructure
+infrastructure:
+  unesco_world_heritage_sites: 8
+  registered_hotels_2023: 1200
+  international_airports: 3
+  major_airport: Bandaranaike International Airport (CMB)
