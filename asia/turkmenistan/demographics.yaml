@@ -1,0 +1,16 @@
+population_2023: 6202000
+population_density: 12.6 per km²
+ethnic_groups:
+  - Turkmen: 85%
+  - Uzbek: 5%
+  - Russian: 4%
+  - other: 6%
+religion:
+  - Muslim: 93% (mostly Sunni)
+  - Eastern Orthodox: 6%
+  - other: 1%
+life_expectancy_2023:
+  male: 67.2
+  female: 73.5
+literacy_rate: 99.7%
+urban_population: 52%

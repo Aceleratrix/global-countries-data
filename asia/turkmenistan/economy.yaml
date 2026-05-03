@@ -1,0 +1,19 @@
+gdp_nominal_2023: 81.5 billion USD
+gdp_per_capita_2023: 13150 USD
+main_industries:
+  - natural gas production and export
+  - petroleum
+  - textiles (cotton)
+  - agriculture (cotton, wheat)
+major_exports:
+  - natural gas
+  - petroleum products
+  - cotton
+  - textiles
+major_imports:
+  - machinery
+  - food products
+  - manufactured goods
+currency_code: TMT
+currency_name: Turkmenistani manat
+exchange_rate_2024: 3.5 TMT per USD (official)
