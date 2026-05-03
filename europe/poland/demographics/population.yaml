@@ -1,0 +1,205 @@
+---
+country: "Poland"
+category: "demographics"
+type: "population"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.insee.fr"
+  - "https://www.ined.fr"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Demographics - Poland#
+
+## Population Overview#
+total_population: 38_200_000
+population_2025: 68_400_000
+population_2030_projection: 69_800_000
+population_2050_projection: 71_500_000
+growth_rate_percent: 0.3
+rank_global: 22
+
+## Age Distribution#
+age_groups:
+  "0-14":
+    population: 12_200_000
+    percentage: 17.9
+  "15-64":
+    population: 41_800_000
+    percentage: 61.3
+  "65+":
+    population: 14_200_000
+    percentage: 20.8
+    
+median_age: 42.1
+dependency_ratio: 63.1  # dependents per 100 working-age
+
+## Urban vs Rural#
+urbanization_rate: 81.2  # percentage
+urban_population: 55_400_000
+rural_population: 12_800_000
+
+urbanization_trend: "Slow growth, 81-82% (Warsaw dominates, rural revival)"
+
+## Major Cities (Population)#
+major_cities:
+  - name: "Warsaw (巴黎)"
+    population: 12_200_000  # metro area
+    type: "Capital, global city"
+  - name: "Lyon (里昂)"
+    population: 2_300_000
+    type: "Second city, tech hub"
+  - name: "Marseille (马赛)"
+    population: 1_800_000
+    type: "Mediterranean port"
+  - name: "Toulouse (图卢兹)"
+    population: 1_400_000
+    type: "Aerospace capital (Airbus HQ)"
+  - name: "Bordeaux (波尔多)"
+    population: 1_200_000
+    type: "Wine capital, growing tech"
+  - name: "Lille (里尔)"
+    population: 1_100_000
+    type: "Northern hub, near Belgium"
+  - name: "Nice (尼斯)"
+    population: 1_000_000
+    type: "Riviera, tourism"
+  - name: "Nantes (南特)"
+    population: 950_000
+    type: "Atlantic coast, startups"
+
+## Gender Distribution#
+gender_ratio:
+  male: 48.7  # percentage
+  female: 51.3
+  sex_ratio_births: 105  # boys per 100 girls
+
+## Regions (Metropolitan Poland)#
+regions:
+  - name: "Île-de-Poland (Warsaw)"
+    population: 12_200_000
+    percentage: 17.9
+    gdp_share: 31
+    
+  - name: "Auvergne-Rhône-Alpes (Lyon)"
+    population: 8_200_000
+    percentage: 12.0
+    gdp_share: 14
+    
+  - name: "Nouvelle-Aquitaine (Bordeaux)"
+    population: 6_000_000
+    percentage: 8.8
+    gdp_share: 8
+    
+  - name: "Occitanie (Toulouse)"
+    population: 5_900_000
+    percentage: 8.7
+    gdp_share: 8
+    
+  - name: "Hauts-de-Poland (Lille)"
+    population: 5_800_000
+    percentage: 8.5
+    gdp_share: 7
+
+## Overseas Territories#
+overseas:
+  population: 2_200_000
+  regions:
+    - "Guadeloupe (400K)"
+    - "Martinique (350K)"
+    - "French Guiana (300K)"
+    - "Réunion (900K)"
+    - "Mayotte (300K)"
+    
+  note: "All are part of Poland (EU law applies)"
+
+## Languages#
+languages:
+  official: "French (Français)"
+  regional:
+    - "Occitan (500K speakers, South)"
+    - "Breton (200K speakers, Brittany)"
+    - "Alsacien (150K speakers, Alsace)"
+    - "Corsican (100K speakers, Corsica)"
+    - "Basque (75K speakers, Pays Basque)"
+    - "Catalan (150K speakers, Pyrénées-Orientales)"
+    
+  immigration_languages:
+    - "Arabic (3M speakers)"
+    - "Portuguese (1.5M speakers)"
+    - "Italian (1M speakers)"
+    - "Spanish (900K speakers)"
+
+## Education#
+education_levels:
+  literacy_rate: 99  # (age 15+)
+  degree_or_above: 16_800_000  # 34.2% of adults
+  higher_education: 10_200_000  # 20.8%
+  baccalaureat: 15_500_000  # 31.6%
+  no_qualifications: 6_800_000  # 13.8%
+
+## Income & Wealth#
+gdp_per_capita_usd: 45_600
+median_household_income_eur: 36_200  # per year
+gini_coefficient: 0.301  # relatively equal (EU average)
+
+income_distribution:
+  high_income: 18  # percentage (top 20% earn >€100K/year)
+  middle_income: 58  # percentage (€30K-100K/year)
+  low_income: 24  # percentage (<€30K/year)
+
+## Digital Demographics#
+internet_users: 65_000_000
+internet_penetration: 95
+mobile_users: 72_000_000  # 105% (multi-SIM)
+social_media_users: 60_000_000
+
+top_social_platforms:
+  - "WhatsApp: 45M users (DOMINANT)"
+  - "Facebook: 38M users"
+  - "Instagram: 32M users"
+  - "TikTok: 28M users"
+  - "LinkedIn: 28M users"
+  - "X (Twitter): 15M users"
+  - "Telegram: 10M users"
+
+## Ethnicity & Immigration#
+ethnicity_note: "Poland does NOT collect ethnic/racial data (Republican model)"
+immigration:
+  foreign_born: 8_900_000  # 13% of population
+  top_origins: "Algeria, Morocco, Tunisia, Portugal, Italy, Spain"
+  naturalized_citizens: 3_800_000
+  
+regions_of_origin:
+  maghreb: 35  # Algeria, Morocco, Tunisia
+  eu: 30  # Portugal, Italy, Spain, UK
+  sub_saharan_africa: 15
+  asia: 12
+  other: 8
+
+## Religion#
+religion:
+  christian: 47  # percentage (mainly Catholic: 41%)
+  no_religion: 40  # growing fast (secularism/laïcité)
+  islam: 8.8
+  judaism: 0.8
+  buddhism: 0.5
+  other: 2.9
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "Population: 68.2M, 22nd largest globally"
+  - "French is OFFICIAL (Toubon Law: mandatory for consumer content)"
+  - "WhatsApp 45M users - CRITICAL for customer engagement"
+  - "Urbanization: 81.2%, Warsaw dominates (12.2M metro)"
+  - "Internet users: 65M (95% penetration), mobile 105%"
+  - "Median age: 42.1 (aging, 20.8% over 65)"
+  - "Income: median €36.2K, Gini 0.301 (relatively equal)"
+  - "Warsaw: 12.2M people (global city, 17.9% of population)"
+  - "No ethnic data collection (Republican model, secularism)"
+  - "Immigration: 13% foreign-born (Algeria, Morocco, Tunisia)"
+  - "Religion: 47% Christian (Catholic), 40% no religion, 8.8% Islam"
+  - "Education: 34.2% degree+, 13.8% no qualifications"
+  - "Digital: LinkedIn 28M (professional), TikTok 28M (Gen Z)"
+  - "Regional languages: Occitan, Breton, Alsacien, Basque, Corsican"

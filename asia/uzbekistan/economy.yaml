@@ -1,0 +1,13 @@
+# Economy of Uzbekistan
+gdp_nominal_2024: 95.6 billion USD
+gdp_per_capita_2024: 2600 USD
+gdp_growth_rate_2024: 5.7%
+inflation_rate_2024: 9.2%
+unemployment_rate_2024: 7.1%
+main_industries:
+  - Agriculture (cotton, wheat, rice)
+  - Mining (gold, uranium, copper)
+  - Manufacturing (textiles, machinery)
+  - Energy (natural gas, oil)
+currency: Uzbekistani som (UZS)
+exchange_rate_usd_2024: 12400 UZS per USD

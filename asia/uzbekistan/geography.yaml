@@ -1,0 +1,17 @@
+# Geography of Uzbekistan
+country: Uzbekistan
+continent: Asia
+region: Central Asia
+coordinates:
+  latitude: 41.3775
+  longitude: 64.5853
+area_km2: 448978
+highest_point: Khazret Sultan (4643 m)
+lowest_point: Sariqamish Kuli (-12 m)
+borders:
+  - Kazakhstan
+  - Kyrgyzstan
+  - Tajikistan
+  - Afghanistan
+  - Turkmenistan
+climate: Arid continental, semi-arid in southeast

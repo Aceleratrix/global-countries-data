@@ -1,0 +1,17 @@
+# Demographics of Uzbekistan
+population_2024: 36817000
+population_growth_rate: 1.5%
+urban_population_percent: 50.8%
+rural_population_percent: 49.2%
+life_expectancy_years: 74.1
+ethnic_groups:
+  - Uzbek: 83.8%
+  - Tajik: 4.8%
+  - Kazakh: 2.5%
+  - Russian: 2.3%
+  - Karakalpak: 2.2%
+  - Other: 4.4%
+religions:
+  - Muslim: 96.3%
+  - Eastern Orthodox: 2.2%
+  - Other: 1.5%

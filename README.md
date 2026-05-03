@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-|[![Status: 167/195 (85.6%) Complete](https://img.shields.io/badge/Status-167/195%20(85.6%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+|[![Status: 168/195 (86.2%) Complete](https://img.shields.io/badge/Status-168/195%20(86.2%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (167 / 195 = 85.6%)
+## 📊 Coverage Progress (168 / 195 = 86.2%)
 
 ### 🌎 South America (10/12 = 83.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -138,6 +138,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇨🇭 **Switzerland** | 13/13 | ✅ **100% COMPLETE** | 20th largest economy ($0.91T), Zürich (434K), direct democracy, Swiss franc, 98% internet penetration, global wealth management hub | English (en-US) |
 | 🇸🇮 **Slovenia** | 13/13 | ✅ **100% COMPLETE** | 66th largest economy ($0.19T), Ljubljana (capital), Alpine country, EU/Schengen/NATO member, Lake Bled | English (en-US) |
 | 🇲🇩 **Moldova** | 13/13 | ✅ **100% COMPLETE** | 93rd largest economy ($0.12T), Chișinău (capital), landlocked Eastern Europe, EU candidate since 2022, world-renowned wine cellars, 2.6M population | English (en-US) |
+| 🇵🇱 **Poland** | 13/13 | ✅ **100% COMPLETE** | 20th largest economy ($0.81T), Warsaw (1.8M), BLIK (60% transactions), 2.1M SMEs, EU member 2004 | Polish (pl-PL) + English |
 
 ### 🌍 Africa (32/54 = 59.3%)
 | Country | Files | Status | Key Highlights | Primary Language |

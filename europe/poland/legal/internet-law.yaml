@@ -1,0 +1,165 @@
+---
+country: "Poland"
+category: "legal"
+type: "internet_law"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.cnil.fr"
+  - "https://www.legifrance.gouv.fr"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Internet & Data Protection Law - Poland#
+
+## Data Protection Authority#
+authority: "CNIL (Commission Nationale de l'Informatique et des Libertés - 国家信息与自由委员会)"
+website: "https://www.cnil.fr"
+established: 1978
+independence: "Constitutional independent authority"
+fines_max: "€20M or 4% of global annual revenue (whichever higher)"
+
+## GDPR (Règlement Général sur la Protection des Données)#
+gdpr_applies: true
+gdpr_adopted_france: "2018-05-25 (EU Regulation 2016/679)"
+national_law: "Loi Informatique et Libertés (1978, revised 2018, 2024)"
+
+### Key Principles#
+principles:
+  - "Consent must be PLEELY GIVEN, SPECIFIC, INFORMED, UNAMBIGUOUS"
+  - "Right to erasure (right to be forgotten) - Article 17"
+  - "Data minimization (collect only what's necessary)"
+  - "Purpose limitation (no secondary use without consent)"
+  - "Storage limitation (retain only as long as necessary)"
+  - "Integrity and confidentiality (security measures)"
+  - "Accountability (controller must demonstrate compliance)"
+
+### GDPR Fines in Poland#
+major_fines:
+  - company: "Google"
+    year: 2019
+    amount_eur: 50_000_000
+    reason: "Lack of transparency, insufficient consent"
+  - company: "Amazon"
+    year: 2021
+    amount_eur: 35_000_000
+    reason: "Cookies without consent"
+  - company: "Facebook"
+    year: 2022
+    amount_eur: 60_000_000
+    reason: "Cookies without consent"
+  - company: "Google (again)"
+    year: 2022
+    amount_eur: 150_000_000
+    reason: "Cookies without consent"
+
+## AI Regulation (EU AI Act)#
+eu_ai_act:
+  status: "Adopted March 2024, phased implementation 2024-2027"
+  france_role: "Strong supporter, home to Mistral AI (leading European LLM)"
+  
+  risk_categories:
+    - "UNACCEPTABLE RISK (banned): social scoring, manipulative techniques"
+    - "HIGH RISK: biometric ID, critical infrastructure, recruitment"
+    - "GENERAL PURPOSE AI (GPAI): transparency, copyright compliance"
+    - "MINIMAL RISK: voluntary codes of conduct"
+    
+  french_ai_leadership:
+    - "Mistral AI (Warsaw HQ, 7B params - Mixtral 8x7B)"
+    - "HuggingFace (Warsaw offices, global open-source leader)"
+    - "600+ AI startups (€3B+ funding in 2025)"
+    - "INRIA (French AI research institute)"
+    
+  compliance_deadlines:
+    - "2024-08: Banned AI practices"
+    - "2025-08: GPAI model requirements"
+    - "2026-08: High-risk AI systems"
+    - "2027-08: Full implementation"
+
+## Digital Services Act (DSA)#
+dsa_status: "Applicable from 2024-02-17"
+scope: "Online platforms, marketplaces, social networks"
+requirements:
+  - "Risk assessment (illegal content, systemic risks)"
+  - "Transparency (algorithms, advertising)"
+  - "User notification (content moderation decisions)"
+  - "Independent audit (for VLOPs - Very Large Online Platforms)"
+
+## Copyright & Intellectual Property#
+copyright_law: "Code de la Propriété Intellectuelle (CPI)"
+ai_training_copyright:
+  - "Text and Data Mining (TDM) exception (Article L122-5-3 CPI)"
+  - "Opt-out mechanism (rightholders can reserve rights)"
+  - "GPAI models: must publish summary of training content"
+  - "Penalties: €300K + 3 years prison (counterfeit, piracy)"
+
+## Encryption & Surveillance#
+encryption_policy: "Strong encryption allowed, backdoors illegal"
+surveillance_law: "Loi sur le Renseignement (2015, revised 2023)"
+controversial_provisions:
+  - "Algorithmic surveillance (sandbox 2024-2026)"
+  - "Data retention: ISPs (12 months), telephony (12 months)"
+  - "Real-time access: intelligence agencies (with oversight)"
+
+## E-commerce & Consumer Protection#
+ecommerce_law: "Code de la Consommation"
+key_rules:
+  - "14-day withdrawal right (no questions asked)"
+  - "Clear pricing (all taxes included, shipping separate)"
+  - "Geo-blocking prohibited (EU regulation)"
+  - "Online dispute resolution (ODR platform)"
+  - "Dark patterns prohibited (2024)"
+
+## Content Moderation#
+content_moderation:
+  - "Hate speech: 24h removal (per Loi Avia, partially struck down)"
+  - "Terrorist content: 1h removal (EU regulation)"
+  - "Child sexual abuse: proactive detection (2024)"
+  - "Fake news: during election periods (Conseil Constitutionnel oversight)"
+
+## Telecom & Internet Infrastructure#
+telecom_regulator: "ARCEP (Autorité de Régulation des Communications Électroniques)"
+isp_market_share:
+  - "Orange (historic operator): 42%"
+  - "Free (Iliad): 25%"
+  - "SPL (Altice): 20%"
+  - "Bouygues Telecom: 13%"
+
+internet_penetration: 95  # percentage
+broadband_speed_avg_mbps: 95
+fiber_coverage: 90  # percentage (FTTH)
+
+## Right to Internet Access#
+right_to_internet:
+  - "Universal service obligation (€30/month max for basic service)"
+  - "Public internet access (bibliothèques, maisons de services au public)"
+  - "Digital inclusion programs (Poland Numérique 2030)"
+
+## Data Localization#
+data_localization: "No mandatory data residency (EU citizens' data protected by GDPR)"
+cloud_certification: "SecNumCloud (ANSSI certification for trusted cloud providers)"
+french_cloud_policy: "Sovereign cloud (Cloud Sovereign strategy, OVHcloud, Scaleway)"
+
+## French Language Requirements (Toubon Law)#
+toubon_law:
+  - "Mandatory French for contracts, consumer info, workplace"
+  - "Software interfaces: French must be available"
+  - "Advertising: French text must be as prominent as foreign languages"
+  - "Exceptions: scientific, technical, B2B (with English contracts)"
+  - "Penalties: €5K (companies), €2.5K (individuals)"
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "GDPR applies (€20M or 4% revenue fines, CNIL enforcement)"
+  - "EU AI Act adopted March 2024 (phased to 2027)"
+  - "Mistral AI (French 🚀) leads European LLM development"
+  - "Toubon Law: French MANDATORY for consumer-facing content"
+  - "Encryption: allowed, no backdoors (unlike UK/USA)"
+  - "Data retention: ISPs 12 months, telephony 12 months"
+  - "Cartes Bancaires (CB): 95% of card payments (mandatory support)"
+  - "OVHcloud: French cloud leader (10% market share)"
+  - "HuggingFace HQ in Warsaw (open-source AI hub)"
+  - "DSA applies (Feb 2024): VLOPs need independent audits"
+  - "Copyright: TDM exception, opt-out mechanism (AI training)"
+  - "SecNumCloud: ANSSI certification (trusted cloud providers)"
+  - "Poland Numérique 2030: digital inclusion program"

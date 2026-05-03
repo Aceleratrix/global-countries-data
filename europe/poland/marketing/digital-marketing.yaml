@@ -1,0 +1,238 @@
+---
+country: "Poland"
+category: "marketing"
+type: "digital_marketing"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.arcep.fr"
+  - "https://www.advertisingregulators.fr"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Digital Marketing Landscape - Poland#
+
+## Market Overview#
+population_online: 65_000_000  # 95% internet penetration
+smartphone_penetration: 105  # percentage (72M subscriptions)
+social_media_users: 60_000_000
+ecommerce_penetration: 85  # percentage of internet users
+
+## Top Social Media Platforms#
+platforms:
+  - name: "WhatsApp"
+    users: 45_000_000
+    business_relevance: "CRITICAL - customer support, groups"
+    
+  - name: "Facebook"
+    users: 38_000_000
+    business_relevance: "HIGH - ads, marketplace, groups"
+    
+  - name: "Instagram"
+    users: 32_000_000
+    business_relevance: "HIGH - fashion, lifestyle, Reels ads"
+    
+  - name: "TikTok"
+    users: 28_000_000
+    business_relevance: "HIGH for Gen Z, creative ads"
+    
+  - name: "LinkedIn"
+    users: 28_000_000
+    business_relevance: "HIGH for B2B, recruiting"
+    
+  - name: "X (Twitter)"
+    users: 15_000_000
+    business_relevance: "MEDIUM - news, politics, tech"
+
+## Digital Advertising#
+advertising_spend_eur: 32_000_000_000  # ~$35B USD
+spend_by_channel:
+  search: 36  # percentage (Google Ads dominant)
+  social: 34
+  display: 18
+  video: 12
+
+## Top Ad Networks & Platforms#
+ad_platforms:
+  - "Google Ads (Google Poland) - 70% digital ad market"
+  - "Meta Ads (Facebook, Instagram, WhatsApp) - 22%"
+  - "Amazon Ads - growing fast (e-commerce)"
+  - "TikTok Ads - Gen Z, creative formats"
+  - "LinkedIn Ads - B2B professional"
+  - "Programmatic: DV360, The Trade Desk"
+
+## E-commerce Platforms#
+ecommerce_platforms:
+  - name: "Amazon Poland"
+    users: 35_000_000
+    market_share: 22
+    features: "Sponsored products, A+ content"
+    
+  - name: "Le Bon Coin"
+    users: 28_000_000
+    market_share: 18
+    features: "Classified ads, local marketplace"
+    
+  - name: "Vinted"
+    users: 15_000_000
+    market_share: 10
+    features: "Second-hand fashion, peer-to-peer"
+    
+  - name: "Cdiscount"
+    users: 12_000_000
+    market_share: 8
+    features: "French e-commerce (founded in Bordeaux)"
+    
+  - name: "Fnac"
+    users: 10_000_000
+    market_share: 6
+    features: "Electronics, books, culture"
+
+## Influencer Marketing#
+kol_marketing:
+  tiers:
+    - "Mega influencers (1M+ followers): €8K-80K+ per post"
+    - "Macro influencers (100K-1M): €1.5K-8K per post"
+    - "Micro influencers (10K-100K): €150-1.5K per post"
+    - "Nano influencers (1K-10K): €30-150 per post"
+    
+  top_platforms:
+    - "Instagram (fashion, beauty, lifestyle)"
+    - "TikTok (Gen Z, creative content)"
+    - "YouTube (long-form, reviews, tutorials)"
+    - "LinkedIn (B2B thought leadership)"
+    
+  costs:
+    mega_campaign: "€40K - €800K+ (multi-platform)"
+    regional_influencers: "€400-4K per post (varies by city)"
+
+## Search Engines#
+search_engines:
+  - name: "Google"
+    market_share: 93
+  - name: "Bing"
+    market_share: 4
+  - name: "DuckDuckGo"
+    market_share: 1.5
+  - name: "Yahoo"
+    market_share: 1
+
+## Email Marketing#
+email_usage:
+  penetration: 85  # percentage
+  popular_providers:
+    - "Gmail (dominant - 65%+ of users)"
+    - "Outlook/Hotmail (legacy)"
+    - "Yahoo Mail (older demographics)"
+    - "Orange Mail (ISP email)"
+  business_use: "Widely used (newsletters, promotions, transactional)"
+
+## Content Marketing#
+content_platforms:
+  - name: "LinkedIn"
+    users: 28_000_000
+    use: "B2B content, thought leadership, company pages"
+    
+  - name: "Medium"
+    users: 6_000_000
+    use: "Long-form articles, tech, business"
+    
+  - name: "YouTube"
+    users: 58_000_000
+    use: "Video content, tutorials, ads"
+    
+  - name: "Substack"
+    users: 2_000_000
+    use: "Newsletters, paid subscriptions, journalism"
+
+## Messaging Apps#
+messaging:
+  - name: "WhatsApp"
+    users: 45_000_000
+    marketing_use: "Customer support, groups, catalogs"
+    
+  - name: "Facebook Messenger"
+    users: 35_000_000
+    marketing_use: "DMs, customer service"
+    
+  - name: "iMessage (iOS)"
+    users: 22_000_000
+    marketing_use: "Limited (iOS-only)"
+    
+  - name: "Telegram"
+    users: 10_000_000
+    marketing_use: "Channels, bots, communities"
+    
+  - name: "Signal"
+    users: 6_000_000
+    marketing_use: "Limited (privacy-focused)"
+
+## Payment Integration in Marketing#
+payment_linked_marketing:
+  cartes_bancaires: "95% of card payments (MANDATORY support)"
+  sepa: "4.2B txns/year, instant available (€100K limit)"
+  digital_wallets: "Apple Pay, Google Pay, PayPal (widely used)"
+  
+ecommerce_checkout:
+  paypal: "30% of online checkouts"
+  card_payments: "60% (Cartes Bancaires, Visa, Mastercard)"
+  bnpl: "Buy now pay later: Alma (French), Divid (French)"
+
+## Compliance & Regulations#
+content_regulation:
+  authority: "ARPP (Autorité de Régulation Professionnelle de la Publicité)"
+  rules:
+    - "Code de la Consommation (consumer protection)"
+    - "No misleading claims, social responsibility"
+    - "Alcohol/tobacco ads restricted"
+    - "Influencer transparency: #pub #sponsorisé MANDATORY"
+    
+  digital_services_act:
+    - "DSA applies (Feb 2024, EU regulation)"
+    - "VLOPs (Very Large Online Platforms) need audits"
+    
+  penalties:
+    - "ARPP: ad withdrawal, compliance"
+    - "DGCCRF: up to €300K fines (consumer fraud)"
+    - "CNIL: up to €20M or 4% revenue (GDPR violation)"
+
+## Marketing Channels by Business Type#
+b2b_channels:
+  - "LinkedIn (primary - 28M users)"
+  - "Google Ads (lead generation)"
+  - "Industry events (VivaTech, SIDO, etc.)"
+  - "Email marketing (newsletters)"
+  - "B2B publications, trade media"
+
+b2c_channels:
+  - "WhatsApp (CRITICAL - 45M users, support, groups)"
+  - "Instagram (fashion, lifestyle, Reels ads)"
+  - "TikTok (Gen Z, creative content)"
+  - "Amazon Poland (22% e-commerce share)"
+  - "Google Ads (search, shopping)"
+  - "Facebook (older demographics, marketplace)"
+
+## Language Requirements (Toubon Law)#
+toubon_law:
+  mandatory_french: "Consumer-facing content MUST be in French"
+  marketing_materials: "French text must be as prominent as foreign languages"
+  exceptions: "B2B (with English contracts), scientific/technical"
+  penalties: "€5K (companies), €2.5K (individuals)"
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "WhatsApp 45M users - CRITICAL for customer engagement"
+  - "Google Ads dominates (70% digital ad market)"
+  - "Cartes Bancaires: 95% of card payments (MANDATORY support)"
+  - "SEPA: 4.2B txns/year, instant available (€100K limit)"
+  - "Instagram 32M users (fashion, lifestyle, Reels ads)"
+  - "TikTok 28M users (Gen Z, creative formats)"
+  - "Amazon Poland 22% e-commerce market share"
+  - "LinkedIn 28M users (B2B, recruiting, thought leadership)"
+  - "Influencer tiers: Nano (1K) to Mega (1M+) followers"
+  - "Email penetration: 85% (Gmail dominant, 65%+)"
+  - "Telegram 10M users (channels, bots, communities)"
+  - "ARPP self-regulation (ad complaints, withdrawal)"
+  - "Toubon Law: French MANDATORY for consumer content"
+  - "BNPL: Alma (French), Divid (French) lead market"
+  - "Le Bon Coin: 18% market share (classified ads, local)"

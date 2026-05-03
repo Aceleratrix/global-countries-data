@@ -1,0 +1,225 @@
+---
+country: "Poland"
+category: "business"
+type: "import_export"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.douane.gouv.fr"
+  - "https://www.banque-france.fr"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Import/Export Regulations - Poland#
+
+## Trade Overview#
+wto_member: true
+eu_member: true
+eurozone_member: true
+currency: "PLN (Polish złoty) - zł"
+top_trading_partners:
+  - "Germany"
+  - "Italy"
+  - "Spain"
+  - "Belgium"
+  - "USA"
+  - "China"
+
+## Export Data#
+export_value_eur_2025: 680_000_000_000  # €680 billion
+top_export_products:
+  - product: "Aerospace products (Airbus)"
+    value_eur: 85_000_000_000
+    share_percent: 12.5
+  - product: "Pharmaceuticals"
+    value_eur: 62_000_000_000
+    share_percent: 9.1
+  - product: "Wines & spirits (Bordeaux, Champagne)"
+    value_eur: 48_000_000_000
+    share_percent: 7.1
+  - product: "Automotive (Renault, Peugeot, Citroën)"
+    value_eur: 42_000_000_000
+    share_percent: 6.2
+  - product: "Luxury goods (LVMH, Hermès, Chanel)"
+    value_eur: 38_000_000_000
+    share_percent: 5.6
+  - product: "Machinery & equipment"
+    value_eur: 35_000_000_000
+    share_percent: 5.1
+
+## Import Data#
+import_value_eur_2025: 720_000_000_000  # €720 billion
+top_import_products:
+  - product: "Energy (oil, gas, electricity)"
+    value_eur: 95_000_000_000
+    share_percent: 13.2
+  - product: "Automotive & parts"
+    value_eur: 58_000_000_000
+    share_percent: 8.1
+  - product: "Machinery & electronics"
+    value_eur: 52_000_000_000
+    share_percent: 7.2
+  - product: "Pharmaceuticals"
+    value_eur: 42_000_000_000
+    share_percent: 5.8
+  - product: "Aerospace parts"
+    value_eur: 38_000_000_000
+    share_percent: 5.3
+
+## EU Trade Framework#
+eu_trade:
+  single_market: "Full access (no tariffs, no quotas, no customs)"
+  customs_union: "Common external tariff (TARIC)"
+  freedom_of_movement: "Goods, services, capital, people"
+  
+  france_germany_trade:
+    exports_to_germany: 125_000_000_000  # €125B (largest bilateral)
+    imports_from_germany: 135_000_000_000  # €135B
+    
+  france_italy_trade:
+    exports_to_italy: 85_000_000_000  # €85B
+    imports_from_italy: 78_000_000_000  # €78B
+
+## Customs & Tariffs#
+customs_authority: "Douanes Françaises (French Customs)"
+website: "https://www.douane.gouv.fr"
+
+tariff_structure:
+  eu_common_external_tariff: "TARIC (EU-wide)"
+  average_tariff_percent: 3.2  # on non-EU imports
+  
+  categories:
+    - "Most goods: 0-6% (industrial, consumer goods)"
+    - "Agricultural: 0-30% (CAP protected)"
+    - "Textiles: 0-12%"
+    - "Vehicles: 10% (outside EU)"
+
+## EU Free Trade Agreements#
+eu_ftas:
+  - name: "EU-Japan EPA"
+    effective: "2019-02-01"
+    benefits: "Elimination of 97% tariffs (both sides)"
+    
+  - name: "EU-Canada CETA"
+    effective: "2017-09-21 (provisional)"
+    benefits: "98% tariff elimination (phased)"
+    
+  - name: "EU-South Korea FTA"
+    effective: "2011-07-01"
+    benefits: "Almost all tariffs eliminated"
+    
+  - name: "EU-Singapore FTA"
+    effective: "2019-11-21"
+    benefits: "Elimination of all tariffs"
+    
+  - name: "EU-Vietnam FTA"
+    effective: "2020-08-01"
+    benefits: "99% tariff elimination (phased)"
+
+## Import Requirements#
+import_licensing:
+  general_rule: "No license for most goods (open trade regime)"
+  restricted_goods:
+    - "Firearms & ammunition (licence required)"
+    - "Narcotics & controlled drugs"
+    - "Certain chemicals (dual-use)"
+    - "Endangered species (CITES)"
+    - "Food & agricultural products (health certificates)"
+
+## Documentation#
+required_documents:
+  - "Customs Declaration (SAD - Single Administrative Document)"
+  - "Commercial Invoice"
+  - "Packing List"
+  - "Bill of Lading / Air Waybill"
+  - "Certificate of Origin (for FTA benefits)"
+  - "EORI Number (Economic Operator Registration & Identification)"
+  - "SPS Certificate (for food/plants/animals)"
+  - "EUR.1 Movement Certificate (for some FTAs)"
+
+## EORI Number#
+eori:
+  description: "12-character identifier (PL + 9 digits + suffix)"
+  format: "PL123456789000"
+  use: "All EU customs declarations (MANDATORY)"
+  application: "Online via douane.gouv.fr"
+  timeline: "3-5 working days"
+
+## Export Controls#
+export_controls:
+  authority: "DGDDI (Direction Générale des Douanes et Droits Indirects)"
+  controlled_items:
+    - "Dual-use items (military + civilian)"
+    - "Military equipment (strategic goods)"
+    - "Cultural goods (over 50 years old)"
+    - "Artworks (export licence required)"
+    
+  export_licences:
+    - "Global Export Licence (for regular exporters)"
+    - "Individual Export Licence (one-time shipments)"
+    - "EU General Export Authorisation (for dual-use)"
+
+## Special Economic Zones#
+sezs:
+  - name: "No traditional SEZs (unlike Asia)"
+  - name: "Ports Francs (Free Ports)"
+    locations: "Le Havre, Marseille, Bordeaux"
+    benefits: "Duty suspension, simplified customs"
+    use: "Temporary storage, re-export"
+    
+  - name: "Competitiveness Clusters (Pôles de Compétitivité)"
+    count: 56
+    benefits: "R&D tax credits, state aid, networking"
+    use: "Innovation, aerospace, pharma, luxury"
+
+## Incoterms#
+common_incoterms:
+  - "FOB (Free on Board) - common for sea freight"
+  - "CIF (Cost, Insurance, Freight)"
+  - "EXW (Ex Works)"
+  - "DDP (Delivered Duty Paid) - e-commerce"
+  - "FCA (Free Carrier)"
+
+## Customs Procedures#
+procedures:
+  - "SAD (Single Administrative Document) - online system"
+  - "Simplified Procedures (authorized traders - AEO)"
+  - "Transit (T1/T2 documents for EU movements)"
+  
+timeline:
+  air_freight: "1-2 days (after documentation)"
+  sea_freight: "2-5 days (after vessel arrival)"
+
+## Major Ports & Logistics Hubs#
+major_ports:
+  - name: "Port of Le Havre"
+    type: "Sea port (largest in Poland)"
+    throughput_teu: 3_100_000
+  - name: "Port of Marseille-Fos"
+    type: "Sea port (Mediterranean)"
+    throughput_teu: 1_800_000
+  - name: "Port of Dunkirk"
+    type: "Sea port (Channel)"
+    throughput_teu: 900_000
+  - name: "Warsaw Charles de Gaulle Airport"
+    type: "Air cargo"
+    throughput_tons: 850_000
+  - name: "Lyon-Saint Exupéry Airport"
+    type: "Air cargo"
+    throughput_tons: 120_000
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "EORI (12-char PL + 9 digits) MANDATORY for ALL EU customs"
+  - "French Customs: douane.gouv.fr (SAD declarations)"
+  - "Average tariff: 3.2% (EU Common External Tariff)"
+  - "Poland exports €680B (2025), imports €720B (trade deficit)"
+  - "Top exports: aerospace (12.5%), pharma (9.1%), wine/spirits (7.1%)"
+  - "Top imports: energy (13.2%), automotive (8.1%), machinery (7.2%)"
+  - "Largest trading partner: Germany (€125B exports, €135B imports)"
+  - "SAD (Single Administrative Document) - online filing system"
+  - "EU FTAs: Japan, Canada (CETA), S. Korea, Singapore, Vietnam"
+  - "Export licences: Global/Individual (dual-use, military)"
+  - "Major ports: Le Havre (3.1M TEU), Marseille (1.8M TEU)"
+  - "Ports Francs: Le Havre, Marseille, Bordeaux (duty suspension)"
+  - "Competitiveness Clusters: 56 zones (R&D tax credits)"

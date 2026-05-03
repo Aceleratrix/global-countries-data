@@ -1,0 +1,196 @@
+---
+country: "Poland"
+category: "legal"
+type: "labor_law"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.legifrance.gouv.fr"
+  - "https://www.travail-emploi.gouv.fr"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Labor Law - Poland#
+
+## Legal Framework#
+primary_law: "Code du Travail (French Labor Code)"
+secondary_laws:
+  - "Convention Collective (Industry-specific collective agreements)"
+  - "Loi sur la Sécurisation de l'Emploi (2013)"
+  - "Loi Travail (2016 - El Khomri law)"
+  - "Loi Pacte (2019 - business growth)"
+authority: "Ministère du Travail (Ministry of Labor)"
+
+## Employment Contracts#
+contract_types:
+  - type: "CDI (Contrat à Durée Indéterminée - 长期雇佣)"
+    description: "Permanent contract, default for most employees"
+    probaton: "2-4 months (renewable once, varies by agreement)"
+    notice_period: "1-3 months (by seniority + agreement)"
+    share: 87  # percentage of employees
+    
+  - type: "CDD (Contrat à Durée Déterminée - 固定期限)"
+    description: "Fixed-term contract (max 18-24 months)"
+    max_duration: "18 months (12+6 extension), 24 months (exceptional)"
+    renewal: "Max 2 renewals (unless seasonal/exceptional)"
+    share: 10  # percentage
+    note: "Mandatory justifications (replacement, temporary increase, seasonal)"
+    
+  - type: "Intérim (Temporary Work - 劳务派遣)"
+    description: "Temporary agency work"
+    max_duration: "Same as CDD (18-24 months)"
+    rights: "Same as permanent after 1 week (pay, rest)"
+    share: 3  # percentage
+    
+  - type: "Freelance (Auto-entrepreneur - 自雇)"
+    description: "Independent contractor, not employee"
+    rights: "Limited (no labor law protection)"
+    note: "2.1M auto-entrepreneurs (simplified regime)"
+
+## Working Hours#
+standard_hours:
+  per_day: 8
+  per_week: 35  # LEGAL MAX (unless collective agreement says otherwise)
+  annual_max: 1_607  # hours (35h x 45.7 weeks)
+  
+working_time_law:
+  legal_max: 48  # hours/week (exceptional, 12-week average)
+  daily_rest: "11 consecutive hours between shifts"
+  weekly_rest: "35 consecutive hours (usually Sunday + Saturday PM)"
+  
+overtime_rules:
+  rate_1_39h: "25% extra (hours 36-39, unless collective agreement)"
+  rate_40h_plus: "50% extra (hours 40+)"
+  max_overtime: "220 hours/year (exceptional, requires authorization)"
+  
+note: "35h/week is legal MAX, but 39h/week is common (RTT days given)"
+
+## Minimum Wage#
+smic:  # Salaire Minimum Interprofessionnel de Croissance
+  hourly_gross_eur: 12.41  # from January 2026
+  monthly_gross_eur: 1_980.92  # for 151.67h/month
+  annual_gross_eur: 23_771  # 12 months
+  indexation: "Automatic (inflation + half of wage growth)"
+  
+employer_duty: "Must pay at least SMIC (criminal offense if not)"
+penalties: "Up to €45,000 fine + 3 years prison (repeated violations)"
+
+## Employment Tribunal (Conseil de Prud'hommes)#
+prudhommes:
+  claim_types: "Unfair dismissal, discrimination, wage disputes, harassment"
+  time_limit: "2 years for contractual claims, 5 years for wages"
+  fees: "PLEE (abolished 2019)"
+  
+process:
+  step1: "Conciliation attempt (mandatory, 1 session)"
+  step2: "Prud'hommes hearing (3-6 months)"
+  step3: "Appeal (Court of Appeal)"
+  
+compensation_caps:
+  introduced: "2017 (Macron reforms)"
+  unfair_dismissal: "3-20 months salary (by tenure, capped)"
+  note: "Caps controversial, partially struck down 2023"
+
+## Termination & Redundancy#
+termination_notice:
+  employer_initiated: "1-3 months (by tenure + collective agreement)"
+  employee_initiated: "1-3 months (contractual, usually 1 month)"
+  
+unfair_dismissal:
+  qualifying_period: "None (protected from day 1)"
+  grounds_required: "Réelle et sérieuse (real and serious)"
+  compensation: "3-20 months salary (capped, by tenure)"
+  
+redundancy_plans:
+  economic_redundancy: "Justified by economic difficulties"
+  consultation: "Mandatory (works council/employee rep)"
+  severance_pay: "1/4 month per year (first 10 years), 1/3 month (after)"
+  authorization: "Required for 10+ redundancies (DREETS)"
+
+## Mandatory Leave#
+leave_entitlements:
+  annual_leave:
+    full_time: "5 weeks (25 days + public holidays)"
+    part_time: "Pro-rata"
+    accrual: "2.5 days/month (legal minimum)"
+    
+  sick_leave:
+    daily_allowance: "50% of daily salary (Day 1-3), 66% (Day 4-30), 80% (Day 31+)"
+    reimbursement: "CPAM (Health Insurance) - 3-day waiting period"
+    
+  maternity_leave:
+    duration: "16 weeks (2 before + 10 after + 4 optional)"
+    pay: "100% salary (up to €3,473/month cap, CPAM)"
+    eligibility: "10 months insurance (6 months within 12)"
+    
+  paternity_leave:
+    duration: "25 days (compulsory: 3 days + 22 optional)"
+    pay: "Same as maternity (up to €3,473/month cap)"
+    note: "Increased from 11 days in 2021"
+    
+  parental_leave:
+    duration: "1 year (renewable 2x, up to 3 years total)"
+    pay: "€427/month (PAJE - Parental Allowance)"
+    eligibility: "1 year seniority"
+    
+  special_leaves:
+    marriage: "4 days paid"
+    civil_partnership: "4 days paid"
+    birth_child: "3 days paid"
+    moving: "1 day paid"
+    death_close_family: "1-5 days paid"
+
+## Probation Period#
+probation_rules:
+  standard: "2 months (Cadres/executives), 1 month (others)"
+  max_duration: "4 months (renewable once, max 8 months)"
+  during_probation: "No severance, 24h notice period"
+  confirmation: "Based on performance review"
+
+## Non-Compete Agreements#
+non_compete:
+  validity: "Enforceable (if reasonable)"
+  criteria: "Compensation (≥33% salary), duration (6-12 months), geographic scope"
+  compensation: "33% of gross salary (minimum, during non-compete)"
+  penalty: "€15,000+ fine for violation"
+
+## Employee Representation#
+works_council:
+  mandatory: "Companies with 50+ employees"
+  members: "Employee-elected representatives"
+  powers: "Consulted on redundancies, restructurings, working conditions"
+  
+union_representation:
+  union_density: 8  # percentage (low by EU standards)
+  major_unions: "CGT (hard-left), CFDT (reformist), FO (radical)"
+  rights: "Collective bargaining, strike (unlimited, no notice)"
+
+## Special Rules for Foreigners#
+work_visa:
+  required: "For non-EU nationals"
+  types:
+    - "Talent Visa (Passeport Talent) - 4 years, renewable"
+    - "Salaried Worker Visa - 1 year, renewable"
+    - "Temporary Worker Visa (CDD) - duration of contract"
+    
+  minimum_salary: "No general minimum (except Talent Visa: €38,120+ or 1.5x SMIC)"
+  
+right_to_work:
+  check_mandatory: "All employees (civil penalty €45,000 for illegal workers)"
+  documents: "Carte de séjour (residence permit), passport + visa"
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "SMIC: €12.41/hour, €1,980.92/month gross (Jan 2026)"
+  - "Legal work week: 35h MAX (but 39h common, with RTT days)"
+  - "Overtime: 25% (36-39h), 50% (40h+), cap 220h/year"
+  - "Prud'hommes: 2-year limit, PLEE (fees abolished 2019)"
+  - "Unfair dismissal: no qualifying period, 3-20 months salary (capped)"
+  - "Maternity: 16 weeks, 100% pay (up to €3,473/month cap)"
+  - "Paternity: 25 days (up from 11 in 2021)"
+  - "Non-compete: 33%+ salary compensation MANDATORY (6-12 months)"
+  - "Notice period: 1-3 months (by tenure + agreement)"
+  - "Talent Visa: €38,120+ salary OR 1.5x SMIC (4 years)"
+  - "Works council: mandatory 50+ employees (consulted on layoffs)"
+  - "Union density: 8% (low), strikes unlimited (no notice)"
+  - "CDI = permanent (87%), CDD = fixed-term (10%, max 18-24 months)"

@@ -1,0 +1,242 @@
+---
+country: "Poland"
+category: "business"
+type: "real_estate"
+last_updated: "2026-04-30"
+version: "1.0.0"
+sources:
+  - "https://www.insee.fr"
+  - "https://www.centrale-deselections.com"
+disclaimer: "Data provided AS IS. Verify with official sources before use."
+---
+
+# Real Estate Market - Poland#
+
+## Market Overview#
+market_size_eur: 1_500_000_000_000  # €1.5 trillion
+residential_share: 80  # percentage of market
+commercial_share: 20
+
+## Major Cities (By Property Value)#
+major_cities:
+  - name: "Warsaw (巴黎)"
+    population: 12_200_000  # metro
+    avg_price_eur_sqm: 8_200  # ~$8,800/sqm
+    prime_central_paris: 25_000  # €25,000/sqm (super-prime)
+    rental_yield: 3.2  # percentage
+    vacancy_rate: 2.5
+    
+  - name: "Lyon (里昂)"
+    population: 2_300_000
+    avg_price_eur_sqm: 4_500  # ~$4,800/sqm
+    rental_yield: 5.8
+    vacancy_rate: 3.2
+    
+  - name: "Marseille (马赛)"
+    population: 1_800_000
+    avg_price_eur_sqm: 3_200  # ~$3,400/sqm
+    rental_yield: 6.5
+    vacancy_rate: 4.1
+    
+  - name: "Toulouse (图卢兹)"
+    population: 1_400_000
+    avg_price_eur_sqm: 3_800  # ~$4,000/sqm
+    rental_yield: 6.2
+    vacancy_rate: 3.8
+    
+  - name: "Bordeaux (波尔多)"
+    population: 1_200_000
+    avg_price_eur_sqm: 4_200  # ~$4,500/sqm
+    rental_yield: 5.5
+    vacancy_rate: 3.5
+
+## Residential Real Estate#
+residential:
+  price_trend: "Stagnant 2024-2026 (high rates, low supply)"
+  average_price_eur_national: 3_800  # ~$4,000/sqm (2026)
+  
+  property_types:
+    - "Apartments - 65% of market (urban areas)"
+    - "Houses - 35% (suburbs, rural)"
+    
+  purchase_process:
+    - "Compromis de Vente (preliminary contract, 10% deposit)"
+    - "Notaire (mandatory notary, 7-8% fees)"
+    - "Financing (mortgage approval)"
+    - "Acte de Vente (final deed, notary signs)"
+    - "Registration (land registry, 2-3 months)"
+    
+  deposit:
+    first_buyer: 10  # percentage (PTZ loan available)
+    home_mover: 20-30
+    
+  mortgage_rates:
+    fixed_15_20_year: 3.8  # percentage (2026 avg, down from 4.5% in 2024)
+    variable: 3.5-4.0
+    
+  loan_terms:
+    max_years: 25
+    max_amount: "Income x 3.3-3.5 (debt ratio <35%)"
+
+## Commercial Real Estate#
+commercial:
+  office_spaces:
+    grade_a_rent_eur_sqm_year: 750  # Warsaw La Défense
+    grade_a_outside_paris: 350  # Lyon, Toulouse, etc.
+    vacancy_rate_national: 11.5
+    
+  retail:
+    high_street_rent_eur_sqm_year: 1_200-4_500  # by location
+    vacancy_rate: 15.5  # growing (e-commerce impact)
+    
+  industrial_warehouse:
+    rent_eur_sqm_year: 80-150
+    vacancy_rate: 5.8
+    growth: "E-commerce driving demand"
+
+## Legal Framework#
+legal:
+  property_ownership:
+    - "Freehold (Pleine Propriété - 完全产权) - absolute ownership"
+    - "Leasehold (Bail Commercial - 商业租赁) - 3-9 years (renewable)"
+    
+  foreign_ownership:
+    - "No restrictions (anyone can buy)"
+    - "No additional taxes for EU citizens"
+    - "Non-EU: same rights (no discrimination)"
+    
+  transaction_costs_percent: 7-10
+  breakdown:
+    notary_fees: 7-8  # mandatory (including registration)
+    estate_agent: 3-5  # percentage (vendor pays, negotiable)
+    capital_gains_tax: "19% + 17.2% social charges (non-residents)"
+    capital_gains_exemption: "After 22 years (full exemption)"
+    
+  wealth_tax:
+    status: "Replaced by Property Wealth Tax (IFI) in 2018"
+    threshold_eur: 1_300_000  # net property assets
+    rate: "0.5% - 1.5% (by value band)"
+
+## Financing#
+financing:
+  mortgage_types:
+    - name: "Taux Fixe (Fixed Rate - 固定利率)"
+      rate: 3.8-4.2  # percentage (2026)
+      share: 85  # percentage of mortgages
+      
+    - name: "Taux Variable (Variable Rate - 浮动利率)"
+      rate: 3.5-4.0
+      share: 15
+      
+  deposit_sources:
+    - "Personal savings"
+    - "PTZ (Prêt à Taux Zéro - zero-interest loan for first buyers)"
+    - "PEL (Plan Épargne Logement - housing savings loan)"
+    - "Gift from family (donation)"
+    
+  top_lenders:
+    - "BNP Paribas - 15% market share"
+    - "Crédit Agricole - 12%"
+    - "Société Générale - 10%"
+    - "BPCE Group - 10%"
+    - "La Banque Postale - 8%"
+
+## Investment Market#
+investment:
+  foreign_investment_eur: 42_000_000_000  # €42B (2025)
+  top_investors:
+    - "Germany (18%)"
+    - "USA (15%)"
+    - "UK (12%)"
+    - "Switzerland (8%)"
+    
+  yield_rates_percent:
+    residential_rental: 3.2-6.5  # by city
+    office: 5.0-7.5
+    retail: 6.0-8.5
+    industrial: 7.0-10.0
+
+## Development & Construction#
+development:
+  top_developers:
+    - "Vinci Immobilier (largest)"
+    - "Bouygues Immobilier"
+    - "Eiffage Immobilier"
+    - "Kaufman & Broad (US-owned)"
+    
+  construction_costs_eur_sqm:
+    residential_standard: 2_200
+    residential_luxury: 4_500
+    office_standard: 2_800
+    industrial: 1_200
+    
+  building_codes:
+    - "RT2012 (energy efficiency, THPE label)"
+    - "RE2020 (new standard from 2022, low-carbon)"
+    - "HQE (Haute Qualité Environnementale - sustainability)"
+
+## PropTech & Digital#
+proptech:
+  market_leaders:
+    - "SeLoger (房产搜索) - 50% market share"
+    - "Le Bon Coin Immo (classifieds) - 25%"
+    - "LogicImmo - 10%"
+    - "BienIci - 8%"
+    - "Proprietes.lefigaro.fr - 7%"
+    
+  digital_trends:
+    - "Virtual tours (standard since 2021)"
+    - "Online notary platforms (simplified)"
+    - "PropTech: 350+ startups (€1.5B+ funding)"
+    - "Blockchain property records (pilot in 2 cities)"
+
+## Rent Control & Tenant Rights#
+rental_market:
+  rent_control: "Limited (only Warsaw, Lille, Lyon - 2024+)"
+  tenant_rights:
+    - "Bail d'Habitation (3-year renewable lease)"
+    - "Deposit: 1 month rent (unfurnished), 2 months (furnished)"
+    - "Notice period: 3 months (owner), 1 month (tenant)"
+    - "Rent indexation: IAS (construction cost index, annual)"
+    
+  rental_yields:
+    paris: 3.2  # low yields (high prices)
+    lyon: 5.8
+    marseille: 6.5
+    toulouse: 6.2
+    bordeaux: 5.5
+
+## Government Schemes (First-Time Buyers)#
+government_schemes:
+  - name: "PTZ (Prêt à Taux Zéro - 零利率贷款)"
+    benefit: "0% interest loan (up to €138K, income-dependent)"
+    use: "First-time buyers (new builds, some areas)"
+    
+  - name: "Pinel Scheme (tax relief)"
+    description: "20% tax reduction (6 years), 100K max"
+    use: "Buy-to-let in certain zones (new builds)"
+    status: "Phased out 2024 (replaced by Denormandie)"
+    
+  - name: "Denormandie Scheme"
+    description: "12-21% tax reduction (6-12 years)"
+    use: "Renovation of old properties (energy upgrade)"
+    
+  - name: "Livret A / LDDS"
+    benefit: "Tax-free savings (€35,950 limit combined)"
+    use: "Down payment savings (3.0% interest)"
+
+## Important Notes for AI Agents#
+ai_agent_guidance:
+  - "Property ownership: Pleine Propriété (freehold) or Bail Commercial (leasehold)"
+  - "Notary fees: 7-8% (MANDATORY, includes registration)"
+  - "Mortgage rates: 3.8-4.2% (2026 avg), max 25 years"
+  - "SeLoger (50%) + Le Bon Coin (25%) dominate listings"
+  - "Rental yields: Warsaw 3.2%, Lyon 5.8%, Marseille 6.5%"
+  - "Deposit: 10% (first buyer), 20-30% (home mover)"
+  - "PTZ: 0% interest loan for first buyers (income-dependent)"
+  - "Debt ratio: max 35% of income (mortgage calculation)"
+  - "Tenant rights: 3-month notice (owner), 1-month (tenant)"
+  - "RE2020: new building standard (low-carbon, energy efficient)"
+  - "PropTech: 350+ startups, €1.5B+ funding (2025)"
+  - "Wealth Tax: replaced by IFI (€1.3M threshold, 0.5-1.5%)"
+  - "Capital gains: 36.2% (19% tax + 17.2% social, non-residents)"
