@@ -1,14 +1,38 @@
-# Geographic data for Niger
-region: "Africa"
-subregion: "Western Africa"
+region: "West Africa"
+subregion: "Sahel"
 landlocked: true
-area_km2: 1267000.0
-borders: ["DZA", "BEN", "BFA", "TCD", "LBY", "MLI", "NGA"]
-latlng: [16.0, 8.0]
-capital: ["Niamey"]
-capital_latlng: [13.52, 2.12]
-timezones: ["UTC+01:00"]
-continents: ["Africa"]
-maps:
-  google_maps: "https://goo.gl/maps/VKNU2TLsZcgxM49c8"
-  open_street_maps: "https://www.openstreetmap.org/relation/192786"
+borders:
+  - country: "Algeria"
+    length_km: 956
+  - country: "Libya"
+    length_km: 342
+  - country: "Chad"
+    length_km: 1175
+  - country: "Nigeria"
+    length_km: 1497
+  - country: "Benin"
+    length_km: 266
+  - country: "Burkina Faso"
+    length_km: 622
+  - country: "Mali"
+    length_km: 838
+total_border_length_km: 5696
+terrain: "Mostly desert plains and sand dunes; flat to rolling plains in south; hills in north (Air Mountains)"
+climate: "Desert in north (hyper-arid), tropical in south (semi-arid Sahel); hot, dry, dusty; periodic severe droughts"
+lowest_point:
+  name: "Mékrou River"
+  elevation_m: 200
+highest_point:
+  name: "Mont Idoukal-n-Taghès (Air Mountains)"
+  elevation_m: 2022
+major_rivers:
+  - "Niger River (flows through southwest, 550 km in Niger)"
+  - "Mékrou River"
+  - "Sokoto River"
+natural_resources:
+  - "Uranium (world's 4th largest reserves)"
+  - "Gold"
+  - "Coal"
+  - "Salt"
+  - "Petroleum (small reserves)"
+  - "Phosphates"

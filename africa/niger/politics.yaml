@@ -1,0 +1,26 @@
+government_type: "Semi-presidential republic (de facto military junta since 26 July 2023)"
+constitution: "2010 constitution (suspended since 2023 coup)"
+head_of_state: "General Abdourahamane Tiani (Chair of National Council for the Safeguard of the Homeland, CNSP)"
+head_of_government: "Lamine Zeine (Prime Minister, appointed by CNSP)"
+legislature: "National Assembly (dissolved 2023, 171 seats pre-coup)"
+judiciary: "Supreme Court (Conseil Supérieur de la Magistrature)"
+administrative_divisions:
+  - "7 regions"
+  - "1 capital district (Niamey)"
+  - "63 departments"
+political_parties_pre_coup:
+  - "Nigerien Party for Democracy and Socialism (PNDS-Tarayya)"
+  - "National Movement for the Development of Society (MNSD-Nassara)"
+  - "Alliance for Democratic Renewal (ARD-Adaltchi)"
+  - "Nigerien Democratic Movement for an African Federation (MODEN/FA-Lumana)"
+recent_key_events:
+  - date: "2021-04-02"
+    event: "Mohamed Bazoum inaugurated as president (first peaceful transfer of power)"
+  - date: "2023-07-26"
+    event: "Military coup deposes President Bazoum, CNSP established"
+  - date: "2023-08-10"
+    event: "General Abdourahamane Tiani confirmed as CNSP Chair"
+elections_last_held:
+  presidential: "2021"
+  parliamentary: "2020"
+foreign_relations: "Member of UN, AU, ECOWAS (suspended post-2023 coup), CEN-SAD"

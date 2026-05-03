@@ -1,9 +1,33 @@
-# Environmental data for Niger
-climate: "Hot desert to semi-arid; mostly dry, hot, and dusty"
-terrain: "Predominantly desert plains and sand dunes; hills in north"
+ecosystems:
+  - "Sahara Desert (north, 80% of territory)"
+  - "Sahelian savanna (south, 20%)"
+  - "Niger River floodplain (southwest)"
+  - "Air Mountains (north, unique highland ecosystem)"
 protected_areas:
-  - "Aïr and Ténéré Natural Reserve (UNESCO World Heritage Site)"
-  - "W National Park (UNESCO Biosphere Reserve)"
-  - "Termit and Tin Toumma National Nature Reserve"
-environmental_challenges: ["Desertification", "Deforestation", "Soil erosion", "Water scarcity"]
-renewable_energy_potential: "High solar potential; small hydropower and wind potential"
+  - name: "W National Park"
+    type: "UNESCO World Heritage Site"
+    area_km2: 22000
+    wildlife: "Elephants, lions, leopards, antelopes, birds"
+  - name: "Air and Ténéré Natural Reserve"
+    type: "UNESCO World Heritage Site"
+    area_km2: 77000
+    note: "Largest protected area in Africa"
+  - name: "Tamou Reserve"
+    area_km2: 1000
+    wildlife: "Elephants, giraffes"
+environmental_issues:
+  - "Desertification (advancing south 5-10 km/year)"
+  - "Soil erosion (affects 80% of arable land)"
+  - "Deforestation (fuelwood collection, agriculture)"
+  - "Water scarcity (recurrent droughts)"
+  - "Overgrazing"
+  - "Air pollution (dust storms, vehicle emissions)"
+climate_change_impact: "Increased frequency/severity of droughts, reduced agricultural yields"
+conservation_efforts:
+  - "Participation in Great Green Wall initiative (Sahel reforestation)"
+  - "Community-based natural resource management"
+  - "Anti-poaching programs in protected areas"
+biodiversity:
+  - "Mammals: 132 species (including endangered addax, dama gazelle)"
+  - "Birds: 500+ species"
+  - "Plants: 1200+ species (adapted to arid conditions)"

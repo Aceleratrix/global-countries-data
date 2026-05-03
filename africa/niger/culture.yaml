@@ -1,9 +1,34 @@
-# Cultural data for Niger
-official_language: "French"
-religion_majority: "Islam (over 99% of population)"
-cultural_sites:
-  - "Aïr and Ténéré Natural Reserve (UNESCO World Heritage Site)"
-  - "W National Park (UNESCO Biosphere Reserve)"
-  - "Historic Centre of Agadez (UNESCO World Heritage Site)"
-traditional_groups: ["Hausa", "Zarma-Songhai", "Tuareg", "Fulani", "Kanuri"]
-cuisine_notes: "Staple foods include millet, rice, cassava; popular dishes: jollof rice, fufu"
+national_symbols:
+  flag: "Three horizontal stripes (orange, white, green) with orange circle in center"
+  motto: "Fraternité, Travail, Progrès (Fraternity, Work, Progress)"
+  anthem: "La Nigérienne"
+cultural_groups:
+  - "Hausa (dominant in south)"
+  - "Zarma-Songhai (southwest)"
+  - "Tuareg (north, nomadic)"
+  - "Fulani (pastoralists)"
+  - "Kanuri (southeast)"
+cuisine:
+  staples: "Millet, sorghum, rice, cassava"
+  popular_dishes:
+    - "Tuwo (millet or sorghum paste)"
+    - "Suya (grilled spiced meat)"
+    - "Masa (fermented rice cakes)"
+    - "Dambu (shredded spiced meat)"
+  beverages: "Bissap (hibiscus tea), ginger tea, millet beer (local)"
+festivals:
+  - "Eid al-Fitr (end of Ramadan)"
+  - "Eid al-Adha (Feast of Sacrifice)"
+  - "Mawlid (Prophet Muhammad's birthday)"
+  - "Independence Day (3 August)"
+  - "Tuareg Festival of the Desert (annual)"
+traditional_clothing:
+  men: "Boubou (long flowing robe), cap (filal)"
+  women: "Hijab, wrapper (pagne), boubou"
+music:
+  - "Traditional: Tuareg guitar (Desert Blues), Hausa griot music"
+  - "Modern: Afrobeat, hip-hop"
+sports:
+  - "Football (most popular)"
+  - "Wrestling (traditional, national sport)"
+  - "Basketball"

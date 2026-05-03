@@ -1,0 +1,28 @@
+country_name: "Niger"
+official_name: "Republic of Niger"
+iso_alpha2: "NE"
+iso_alpha3: "NER"
+iso_numeric: "562"
+capital: "Niamey"
+largest_city: "Niamey"
+area_km2: 1267000
+population_2024: 26342000
+population_density: 20.8 # per km²
+currency_code: "XOF"
+currency_name: "West African CFA franc"
+official_language: "French"
+lingua_franca: "Hausa"
+independence_date: "1960-08-03"
+independence_from: "France"
+government_type: "Semi-presidential republic (de facto military junta since 2023)"
+calling_code: "+227"
+internet_tld: ".ne"
+time_zone: "UTC+1"
+bordering_countries:
+  - "Algeria"
+  - "Libya"
+  - "Chad"
+  - "Nigeria"
+  - "Benin"
+  - "Burkina Faso"
+  - "Mali"

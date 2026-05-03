@@ -1,29 +1,37 @@
-# Demographic data for Niger
-population: 26312034
-demonyms:
-  eng:
-    m: "Nigerien"
-    f: "Nigerien"
-  fra:
-    m: "Nigérien"
-    f: "Nigérienne"
+population_2024: 26342000
+population_growth_rate: 3.66 # % (2024 est.)
+population_under_15: 49.8 # % (2024 est.)
+population_urban: 17.3 # % (2024 est.)
+ethnic_groups:
+  - group: "Hausa"
+    percentage: 53
+  - group: "Zarma-Songhai"
+    percentage: 21
+  - group: "Tuareg"
+    percentage: 11
+  - group: "Fulani (Peul)"
+    percentage: 6
+  - group: "Kanuri"
+    percentage: 5
+  - group: "Other (Arab, Toubou, etc.)"
+    percentage: 4
+religions:
+  - religion: "Islam"
+    percentage: 99.3
+    denomination: "Mostly Sunni"
+  - religion: "Christianity"
+    percentage: 0.2
+  - religion: "Traditional African beliefs"
+    percentage: 0.2
+  - religion: "Other"
+    percentage: 0.3
 languages:
-  fra: "French"
-native_names:
-  fra:
-    official: "République du Niger"
-    common: "Niger"
-translations:
-  ara:
-    official: "جمهورية النيجر"
-    common: "النيجر"
-  por:
-    official: "República do Níger"
-    common: "Níger"
-  rus:
-    official: "Республика Нигер"
-    common: "Нигер"
-  zho:
-    official: "尼日尔共和国"
-    common: "尼日尔"
-gini_index_2014: 34.3
+  - "French (official, used in administration/education)"
+  - "Hausa (lingua franca, spoken by 50%+ population)"
+  - "Zarma"
+  - "Fulfulde (Fulani)"
+  - "Tamajaq (Tuareg)"
+  - "Kanuri"
+literacy_rate_15_plus: 34.1 # % (2024 est.)
+life_expectancy_years: 62.5 # (2024 est.)
+infant_mortality_per_1000_live_births: 42.3 # (2024 est.)

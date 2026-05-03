@@ -1,6 +1,22 @@
-# Education data for Niger
-literacy_rate_percent: ~35% (2022 est., adults 15+)
-primary_school_enrollment_percent: ~70% (2021 est.)
-secondary_school_enrollment_percent: ~20% (2021 est.)
-education_challenges: ["Low enrollment rates", "Gender gaps (girls' enrollment lower)", "Limited infrastructure in rural areas"]
-official_education_language: "French"
+literacy_rate_15_plus: 34.1 # % (2024 est.)
+youth_literacy_15_24: 51.2 # % (2024 est.)
+gender_gap_literacy: "Male: 42.1%, Female: 26.8% (2024 est.)"
+education_spending_2023: 3.5 # % of GDP
+primary_school_enrollment: 72.3 # % (2023 est.)
+secondary_school_enrollment: 28.1 # % (2023 est.)
+tertiary_education_enrollment: 3.2 # % (2023 est.)
+education_system:
+  - "6 years primary (ages 6-12)"
+  - "4 years lower secondary (ages 13-16)"
+  - "3 years upper secondary (ages 17-19)"
+  - "University education (public and private)"
+higher_education_institutions:
+  - "University of Niamey (public, largest)"
+  - "Islamic University of Niger (public)"
+  - "University of Zinder (public)"
+  - "Several private universities (e.g., Université Catholique de l'Afrique de l'Ouest)"
+challenges:
+  - "Low enrollment rates, especially for girls"
+  - "Shortage of qualified teachers"
+  - "Insufficient school infrastructure in rural areas"
+  - "High dropout rates"

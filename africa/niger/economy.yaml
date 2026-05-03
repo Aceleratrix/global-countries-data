@@ -1,10 +1,48 @@
-# Economic data for Niger
-gdp_trilion_usd: 0.08
-gdp_global_rank: 115
-currencies:
-  XOF:
-    symbol: "Fr"
-    name: "West African CFA franc"
-economy_type: "Developing, agriculture and mining reliant"
-key_industries: ["Agriculture", "Uranium mining", "Livestock", "Gold mining"]
-economy_notes: "One of the world's poorest countries by GDP per capita; over 80% of population employed in agriculture"
+gdp_nominal_2023_usd: 18900000000
+gdp_per_capita_2023_usd: 720
+gdp_growth_rate_2023: 2.1 # %
+gdp_sectors_2023:
+  - sector: "Agriculture"
+    percentage: 40.1
+  - sector: "Industry"
+    percentage: 18.2
+  - sector: "Services"
+    percentage: 41.7
+main_industries:
+  - "Uranium mining (world's 4th largest producer)"
+  - "Gold mining"
+  - "Agriculture (subsistence)"
+  - "Livestock"
+  - "Salt mining"
+  - "Small-scale manufacturing"
+agricultural_products:
+  - "Millet"
+  - "Sorghum"
+  - "Cassava"
+  - "Rice"
+  - "Cowpeas"
+  - "Cattle"
+  - "Sheep"
+  - "Goats"
+  - "Camels"
+unemployment_rate_2023: 0.9 # % (note: undercounts subsistence workers)
+labor_force_2023: 8900000
+poverty_rate_2023: 42.9 # % below $2.15/day PPP
+exports_2023_usd: 1200000000
+main_exports:
+  - "Uranium"
+  - "Gold"
+  - "Livestock"
+  - "Niger River Basin agricultural products"
+imports_2023_usd: 3000000000
+main_imports:
+  - "Machinery"
+  - "Foodstuffs"
+  - "Fuel"
+  - "Consumer goods"
+trading_partners:
+  - "France"
+  - "China"
+  - "Nigeria"
+  - "United States"
+  - "Thailand"

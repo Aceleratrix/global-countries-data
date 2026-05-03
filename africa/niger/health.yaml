@@ -1,7 +1,24 @@
-# Health data for Niger
-life_expectancy_years: ~61 (2023 est.)
-infant_mortality_per_1000: ~42 (2023 est.)
-healthcare_access_percent: ~40% (2021 est.)
-malaria_prevalence: "High (seasonal transmission)"
-hiv_prevalence_percent: ~0.4% (2022 est.)
-major_health_challenges: ["Malnutrition", "Malaria", "Waterborne diseases", "Limited healthcare infrastructure"]
+life_expectancy_years: 62.5 # (2024 est.)
+infant_mortality_per_1000: 42.3 # (2024 est.)
+under_5_mortality_per_1000: 66.1 # (2024 est.)
+maternal_mortality_per_100k: 509 # (2020 est.)
+healthcare_spending_2023: 5.2 # % of GDP
+healthcare_access:
+  - "Physicians per 1000 people: 0.05 (2023)"
+  - "Hospital beds per 1000 people: 0.4 (2023)"
+  - "Population with access to basic healthcare: 42% (2023)"
+common_diseases:
+  - "Malaria (leading cause of death)"
+  - "Diarrheal diseases"
+  - "Lower respiratory infections"
+  - "Meningitis (periodic epidemics)"
+  - "Malnutrition (affects 30% of children under 5)"
+vaccination_coverage_2023:
+  - "DPT3: 68%"
+  - "Measles: 62%"
+  - "Polio: 71%"
+health_challenges:
+  - "Severe shortage of medical personnel"
+  - "Limited rural healthcare access"
+  - "High infectious disease burden"
+  - "Malnutrition and food insecurity"
