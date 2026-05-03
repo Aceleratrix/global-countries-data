@@ -1,0 +1,14 @@
+country: Republic of Congo
+iso_code: CG
+area_km2: 342000
+capital: Brazzaville
+region: Central Africa
+borders:
+  - Gabon
+  - Cameroon
+  - Central African Republic
+  - Democratic Republic of Congo
+  - Angola (Cabinda exclave)
+coastline_km: 170
+terrain: Coastal plains, southern basin, central plateau, northern basin
+climate: Tropical; rainy season (Mar-Jun, Sep-Nov), dry season (Jun-Sep, Dec-Feb)

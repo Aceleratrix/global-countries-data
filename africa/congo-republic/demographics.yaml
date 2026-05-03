@@ -1,0 +1,20 @@
+country: Republic of Congo
+population_2023: 6100000
+population_growth_rate: 2.3%
+population_density: 18 per km2
+urban_population_pct: 68%
+major_cities:
+  - Brazzaville (capital, ~2.4M)
+  - Pointe-Noire (~1.2M)
+  - Dolisie (~200k)
+life_expectancy: 62 years
+infant_mortality: 48 per 1000 live births
+languages:
+  - French (official)
+  - Kituba
+  - Lingala
+  - Kongo
+religions:
+  - Christianity (87%)
+  - Islam (5%)
+  - Traditional beliefs (8%)

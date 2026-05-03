@@ -1,0 +1,15 @@
+country: Republic of Congo
+health_expenditure_pct_gdp: 3.8%
+physicians_per_1000: 0.2
+hospital_beds_per_1000: 1.5
+life_expectancy: 62 years
+infant_mortality: 48 per 1000 live births
+major_diseases:
+  - Malaria (most common)
+  - HIV/AIDS (prevalence 3.2%)
+  - Diarrheal diseases
+  - Lower respiratory infections
+vaccination_coverage:
+  - DTP3: 75%
+  - Measles: 70%
+  - COVID-19: 15% (full vaccination)

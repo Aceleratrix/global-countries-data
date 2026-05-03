@@ -1,0 +1,15 @@
+country: Republic of Congo
+transport:
+  paved_roads_km: 1200
+  unpaved_roads_km: 15000
+  railways_km: 800 (mostly freight for oil transport)
+  major_ports: Pointe-Noire (main seaport), Brazzaville (river port)
+  airports: 29 total, 3 with paved runways (Maya-Maya Airport in Brazzaville, Pointe-Noire Airport)
+energy:
+  electricity_access_pct: 42%
+  primary_sources: Hydro (60%), oil (40%)
+  installed_capacity_mw: 600
+telecommunications:
+  mobile_penetration: 95%
+  internet_penetration: 35%
+  main_providers: MTN Congo, Airtel Congo

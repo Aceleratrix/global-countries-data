@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (175 / 195 = 89.7%)
+## 📊 Coverage Progress (176 / 195 = 90.3%)
 
 ### 🌎 South America (10/12 = 83.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -144,7 +144,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇵🇱 **Poland** | 13/13 | ✅ **100% COMPLETE** | 20th largest economy ($0.81T), Warsaw (1.8M), BLIK (60% transactions), 2.1M SMEs, EU member 2004 | Polish (pl-PL) + English |
 | 🇸🇲 **San Marino** | 13/13 | ✅ **100% COMPLETE** | 176th largest economy ($0.05T), microstate enclaved in Italy, Monte Titano (755m), 34K population | Italian (it-IT) + English |
 
-### 🌍 Africa (33/54 = 61.1%)
+### 🌍 Africa (34/54 = 63.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇳🇬 **Nigeria** | 13/13 | ✅ **100% COMPLETE** | 28th largest economy ($0.48T), Africa's most populous (223M), fintech leader (4 unicorns), Nollywood | English (en-NG) |
@@ -172,6 +172,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇬🇲 **Gambia** | 13/13 | ✅ **100% COMPLETE** | 145th largest economy ($0.05T), Banjul (capital), West Africa, smallest country on mainland Africa, borders only Senegal, Gambia River flows through country | English (en-GM) + English |
 | 🇹🇬 **Togo** | 13/13 | ✅ **100% COMPLETE** | 148th largest economy ($0.05T), Lomé (capital), West Africa, borders Benin/Burkina Faso/Ghana, Togolese Republic | French (fr-TG) + English |
 | 🇨🇫 **Central African Republic** | 13/13 | ✅ **100% COMPLETE** | 149th largest economy ($0.05T), Bangui (capital), landlocked Central Africa, borders 6 countries, Central African CFA franc | French (fr-CF) + Sango + English |
+| 🇨🇬 **Republic of Congo** | 13/13 | ✅ **100% COMPLETE** | 178th ISO numeric, Brazzaville (capital), Central Africa, oil-dependent economy (50% GDP), 6.1M population, Atlantic coastline | French (fr-CG) + Kituba/Lingala |
 | 🇸🇿 **Eswatini** | 13/13 | ✅ **100% COMPLETE** | 150th largest economy ($0.05T), Mbabane (administrative)/Lobamba (legislative), absolute monarchy, Swazi lilangeni currency | English (en-SZ) + Swati |
 | 🇬🇦 **Gabon** | 13/13 | ✅ **100% COMPLETE** | 153rd largest economy ($0.05T), Libreville (capital), Middle Africa, 85% forest cover, Central African CFA franc | French (fr-GA) + English |
 | 🇪🇷 **Eritrea** | 13/13 | ✅ **100% COMPLETE** | 160th largest economy ($0.05T), Asmara (capital, UNESCO World Heritage Site), borders Djibouti/Ethiopia/Sudan, 3.5M population | English (en-ER) + Tigrinya/Arabic |
