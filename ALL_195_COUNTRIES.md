@@ -119,7 +119,7 @@
 | # | País | Código | Continente | PIB (USD Trilhões) |
 |---|------|--------|-----------|-------------------|
 | 81 | 🇧🇹 Bielorrússia | belarus | Europe | $0.14T |
-| 82 | 🇨🇷 Paraguai | paraguay | South America | $0.14T |
+| 82 | 🇨🇷 Paraguai | paraguay | South America | $0.14T | ✅ 100% COMPLETE |
 | 83 | 🇭🇳 Honduras | honduras | North America | $0.14T | ✅ 100% COMPLETE |
 | 84 | 🇸🇻 Sudão | sudan | Africa | $0.14T |
 | 85 | 🇸🇪 Suécia | sweden | Europe | $0.58T (já listado) | ✅ 100% COMPLETE |
