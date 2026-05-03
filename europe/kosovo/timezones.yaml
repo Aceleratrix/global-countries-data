@@ -1,0 +1,11 @@
+# Kosovo Timezones
+timezones:
+  - name: "Central European Time (CET)"
+    utc_offset: "+01:00"
+    daylight_saving:
+      name: "Central European Summer Time (CEST)"
+      utc_offset: "+02:00"
+      observes: true
+      start: "Last Sunday in March"
+      end: "Last Sunday in October"
+standard_timezone_code: "Europe/Pristina"

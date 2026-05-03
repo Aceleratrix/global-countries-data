@@ -1,0 +1,12 @@
+# Kosovo Other Data
+iso_codes:
+  alpha2: "XK"
+  alpha3: "XKX"
+  numeric: "926"  # Provisional code assigned by ISO
+dialing_code: "+383"
+internet_tld: ".xk"
+currency_code: "EUR"
+capital: "Pristina"
+government_type: "Parliamentary Republic"
+independence_date: "2008-02-17"
+recognized_states: 97  # As of 2024

@@ -1,0 +1,12 @@
+# Kosovo Borders
+land_borders:
+  - country: "Albania"
+    border_length_km: 112
+  - country: "Montenegro"
+    border_length_km: 79
+  - country: "Serbia"
+    border_length_km: 352
+  - country: "North Macedonia"
+    border_length_km: 159
+total_land_border_km: 702
+sea_borders: []  # Kosovo is landlocked

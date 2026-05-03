@@ -1,0 +1,10 @@
+# Economy information for Kosovo
+economy:
+  gdp_rank: 147
+  gdp_billion_usd: 10.2
+  gini_index:
+    2022: 29.2
+  currencies:
+    EUR:
+      symbol: "€"
+      name: "Euro (de facto usage)"

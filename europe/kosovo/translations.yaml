@@ -1,0 +1,14 @@
+# Kosovo Translations
+translations:
+  official_name:
+    sq: "Republika e Kosovës"  # Albanian
+    sr: "Република Косово"      # Serbian
+    en: "Republic of Kosovo"     # English
+  common_name:
+    sq: "Kosova"
+    sr: "Косово"
+    en: "Kosovo"
+  demonym:
+    sq: "Kosovar"
+    sr: "Косовар"
+    en: "Kosovar"

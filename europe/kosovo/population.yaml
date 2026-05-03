@@ -1,0 +1,13 @@
+# Population information for Kosovo
+population:
+  total: 1732833
+  demonyms:
+    eng:
+      f: "Kosovar"
+      m: "Kosovar"
+    fra:
+      f: "Kosovare"
+      m: "Kosovar"
+    srp:
+      f: "Kosovka"
+      m: "Kosovac"

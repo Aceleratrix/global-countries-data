@@ -1,0 +1,11 @@
+# Kosovo Maps
+maps:
+  - type: "Political Map"
+    url: "https://www.openstreetmap.org/relation/947977"
+    source: "OpenStreetMap"
+  - type: "Administrative Divisions"
+    url: "https://www.gov.mk/en/kosovo-municipalities"
+    source: "Kosovo Government"
+  - type: "Geographical Map"
+    url: "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/"
+    source: "Natural Earth"

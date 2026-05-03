@@ -1,0 +1,21 @@
+# Basic country information for Kosovo
+country:
+  common_name: "Kosovo"
+  official_name: "Republic of Kosovo"
+  native_name:
+    sqi:
+      official: "Republika e Kosovës"
+      common: "Kosova"
+    srp:
+      official: "Republic of Kosovo (Српска република Косово)"
+      common: "Kosovo (Косово)"
+  codes:
+    cca2: "XK"
+    ccn3: "926"
+    cca3: "XKX"
+    cioc: "KOS"
+  independent: true
+  un_member: false
+  status: "user-assigned"
+  alt_spellings: ["XK", "Kosova", "Kosovë", "Kosovo"]
+  start_of_week: "monday"
