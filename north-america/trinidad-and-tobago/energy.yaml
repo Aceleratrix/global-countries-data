@@ -1,0 +1,9 @@
+energy_production_2023: 150000_terajoules
+energy_consumption_2023: 120000_terajoules
+electricity_production_kwh: 9000000000
+electricity_consumption_kwh: 8500000000
+renewable_energy_share: 1.5
+primary_energy_sources:
+  - "Natural gas (80%)"
+  - "Petroleum (18%)"
+  - "Renewables (1.5%)"

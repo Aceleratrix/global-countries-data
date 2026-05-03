@@ -1,0 +1,10 @@
+region: "North America"
+subregion: "Caribbean"
+coordinates: "10.6918° N, 61.2225° W"
+islands: ["Trinidad", "Tobago"]
+bordering_countries: ["Venezuela (11 km north)"]
+terrain: "plains on Trinidad, mountainous on Tobago"
+highest_point: "El Cerro del Aripo (940 m)"
+lowest_point: "Caribbean Sea (0 m)"
+climate: "tropical with wet (June-December) and dry (January-May) seasons"
+natural_resources: ["petroleum", "natural gas", "asphalt", "timber"]

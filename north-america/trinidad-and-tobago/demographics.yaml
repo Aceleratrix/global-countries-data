@@ -1,0 +1,18 @@
+population_2023: 1525663
+population_growth_rate: 0.31
+birth_rate: 11.6 per 1000
+death_rate: 8.2 per 1000
+life_expectancy_total: 74.4
+life_expectancy_male: 71.8
+life_expectancy_female: 77.1
+ethnic_groups:
+  - "East Indian (35.4%)"
+  - "African (34.2%)"
+  - "Mixed (22.8%)"
+  - "Other (7.6%)"
+religions:
+  - "Protestant (32.1%)"
+  - "Hindu (18.2%)"
+  - "Roman Catholic (21.6%)"
+  - "Muslim (5.0%)"
+  - "Other (23.1%)"

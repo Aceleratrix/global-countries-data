@@ -1,0 +1,8 @@
+total_roads_km: 8322
+paved_roads_km: 4128
+unpaved_roads_km: 4194
+railways_km: 0
+airports: 6
+major_airports: ["Piarco International Airport (Trinidad)", "Arthur Napoleon Raymond Robinson International Airport (Tobago)"]
+ports: ["Port of Spain", "Point Lisas", "Scarborough"]
+public_transport: "Maxi taxis, buses, ferries between islands"
