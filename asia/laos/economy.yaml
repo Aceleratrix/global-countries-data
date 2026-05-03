@@ -1,0 +1,21 @@
+gdp_usd: 20000000000
+gdp_growth_percent: 4.2
+gdp_year: 2023
+gdp_per_capita_usd: 2660
+inflation_percent: 4.5
+unemployment_percent: 1.1
+main_exports:
+  - Electricity
+  - Garments
+  - Coffee
+  - Copper ore
+  - Wood products
+main_imports:
+  - Machinery
+  - Vehicles
+  - Fuel
+  - Construction materials
+  - Food products
+currency: Lao kip (LAK)
+exchange_rate_usd_lak: 17500
+exchange_rate_year: 2024

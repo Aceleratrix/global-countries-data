@@ -1,0 +1,16 @@
+population_estimate: 7500000
+population_year: 2023
+population_density_km2: 31.5
+urban_population_percent: 37
+median_age: 24.1
+life_expectancy_years: 69.4
+ethnic_groups:
+  - Lao Tai: 53.2%
+  - Mon-Khmer: 11%
+  - Hmong-Mien: 9.2%
+  - Sino-Tibetan: 3.4%
+  - other: 23.2%
+religions:
+  - Theravada Buddhism: 66.8%
+  - Christianity: 1.5%
+  - Other/None: 31.7%

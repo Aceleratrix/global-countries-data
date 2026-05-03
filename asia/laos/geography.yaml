@@ -1,0 +1,19 @@
+region: Southeast Asia
+subregion: Indochina
+landlocked: true
+borders:
+  - country: China
+    border_length_km: 423
+  - country: Vietnam
+    border_length_km: 2069
+  - country: Cambodia
+    border_length_km: 435
+  - country: Thailand
+    border_length_km: 1754
+  - country: Myanmar
+    border_length_km: 236
+highest_point: Phou Bia
+highest_point_elevation_m: 2817
+lowest_point: Mekong River
+lowest_point_elevation_m: 70
+climate: Tropical monsoon; rainy season May–October, dry season November–April

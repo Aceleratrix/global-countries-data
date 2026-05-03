@@ -1,0 +1,11 @@
+total_roads_km: 39000
+paved_roads_km: 12000
+railways_km: 422
+railways_note: Boten–Vientiane railway, opened 2021
+airports:
+  - Wattay International Airport (Vientiane)
+  - Luang Prabang International Airport
+  - Pakse International Airport
+internet_penetration_percent: 52
+mobile_subscriptions_per_100: 135
+electricity_access_percent: 95
