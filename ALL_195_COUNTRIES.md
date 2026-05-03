@@ -122,7 +122,7 @@
 | 82 | 🇨🇷 Paraguai | paraguay | South America | $0.14T |
 | 83 | 🇧🇭 Honduras | honduras | North America | $0.14T |
 | 84 | 🇸🇻 Sudão | sudan | Africa | $0.14T |
-| 85 | 🇸🇪 Suécia | sweden | Europe | $0.58T (já listado) | 
+| 85 | 🇸🇪 Suécia | sweden | Europe | $0.58T (já listado) | ✅ 100% COMPLETE |
 | 86 | 🇱🇾 Líbia | libya | Africa | $0.13T | ✅ 100% COMPLETE |
 | 87 | 🇱🇹 Lituânia | lithuania | Europe | $0.12T | ✅ 100% COMPLETE |
 | 88 | 🇪🇱 Jordânia | jordan | Asia | ✅ 100% COMPLETE |
