@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-[![Status: 133/195 (68.2%) Complete](https://img.shields.io/badge/Status-133/195%20(68.2%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+[![Status: 134/195 (68.7%) Complete](https://img.shields.io/badge/Status-134/195%20(68.7%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -93,7 +93,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 | 🇵🇭 **Philippines** | 13/13 | ✅ **100% COMPLETE** | 38th largest economy ($0.36T), Manila (14M metro), 7,641 islands, BPO industry $30B, 114M population | English (en-US) |
 ### 🌍 Europe (25/44 = 56.8%)
-### 🌍 Europe (26/44 = 59.1%)
+### 🌍 Europe (27/44 = 61.4%)
 
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
@@ -126,6 +126,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇩🇰 **Denmark** | 13/13 | ✅ **100% COMPLETE** | 37th largest economy ($0.37T), Copenhagen (2.1M), wind energy leader (47% of power), LEGO, EU/NATO founding member, high welfare state | English (en-US) |
 | 🇦🇩 **Andorra** | 13/13 | ✅ **100% COMPLETE** | 177th largest economy ($0.05T), Andorra la Vella (capital), landlocked Pyrenees microstate, 79K population, Catalan official language | English (en-US) |
 | 🇲🇨 **Monaco** | 13/13 | ✅ **100% COMPLETE** | 179th largest economy ($0.05T), Monaco (capital), city-state on French Riviera, 36K population, highest population density globally | English (en-US) |
+| 🇨🇭 **Switzerland** | 13/13 | ✅ **100% COMPLETE** | 20th largest economy ($0.91T), Zürich (434K), direct democracy, Swiss franc, 98% internet penetration, global wealth management hub | English (en-US) |
 
 ### 🌍 Africa (31/54 = 57.4%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -374,8 +375,7 @@ global-countries-data/
 |---------|----------|--------|
 | 🇪🇸 Spain | High | 14th largest economy, Satispay growth |
 | 🇳🇱 Netherlands | Medium | 2nd largest port, fintech hub |
-| 🇵🇪 Switzerland | Medium | Not EU, strong banking, high wages |
-| 🇵🇰 Sweden | Medium | Unicorns per capita leader |
+| 🇸🇪 Sweden | Medium | Unicorns per capita leader |
 
 ### 🌍 Africa (Priority: Medium)
 | Country | Priority | Reason |
@@ -495,7 +495,7 @@ This project is licensed under the **MIT License** — see [LICENSE](LICENSE) fo
 
 **Created by**: [@mtorresbr](https://github.com/mtorresbr)  
 **Organization**: [Aceleratrix](https://github.com/Aceleratrix)  
-**Last Updated**: 2026-04-30  
+**Last Updated**: 2026-05-03  
 **Status**: 🚧 Constantly expanding (15 countries 100% complete, many more coming!)  
 
 ---
