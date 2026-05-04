@@ -1,0 +1,16 @@
+country: Brunei Darussalam
+population: 445000 # 2023 estimate
+population_density: 77 # per km² (2023)
+median_age: 31.2 # 2023
+life_expectancy: 76.1 years # 2023
+ethnic_groups:
+  - Malay: 66.0%
+  - Chinese: 10.0%
+  - Indigenous (Iban, Dusun, Murut, etc.): 24.0%
+religions:
+  - Islam: 78.8% (official religion)
+  - Christianity: 8.7%
+  - Buddhism: 7.8%
+  - Others (Hinduism, folk religions, etc.): 4.7%
+urban_population: 78.2% # 2023
+literacy_rate: 98.0% # Aged 15+

@@ -1,0 +1,14 @@
+country: Brunei Darussalam
+total_area: 5765 # km²
+land_area: 5265 # km²
+water_area: 500 # km² (coastal waters)
+coordinates: 4.5353° N, 114.7277° E
+terrain: Flat coastal plains, low hills inland, mountainous eastern region
+highest_point: Bukit Pagon (1,850 m)
+lowest_point: Sea level (0 m)
+climate: Tropical equatorial (hot, humid, heavy rainfall year-round)
+average_temperature: 27.5°C
+annual_rainfall: 3000 mm
+neighboring_countries:
+  - Malaysia (Sarawak state, surrounds Brunei on three sides)
+  - South China Sea (north)
