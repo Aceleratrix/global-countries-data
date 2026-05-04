@@ -1,0 +1,11 @@
+# Banks - Sérvia
+country: "Sérvia"
+code: "RS"
+central_bank: "Banco Nacional da Sérvia (NBS)"
+top_commercial_banks:
+  - "Banca Intesa Beograd"
+  - "UniCredit Bank Serbia"
+  - "Raiffeisen Bank Serbia"
+  - "Komercijalna Banka"
+currency: "Dinar sérvio (RSD)"
+exchange_rate_eur: "1 EUR ≈ 117 RSD (2024)"

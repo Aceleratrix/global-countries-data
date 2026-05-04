@@ -1,0 +1,13 @@
+# Population Data - Sérvia
+country: "Sérvia"
+code: "RS"
+total_population: "6,700,000 (2023)"
+age_groups:
+  "0-14": "14%"
+  "15-64": "65%"
+  "65+": "21%"
+urban_population: "56%"
+largest_cities:
+  - "Belgrado (1.2M)"
+  - "Novi Sad (250k)"
+  - "Niš (180k)"

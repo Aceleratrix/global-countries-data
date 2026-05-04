@@ -1,0 +1,10 @@
+# Phone Formats - Sérvia
+country: "Sérvia"
+code: "RS"
+country_code: "+381"
+phone_number_length: "9 dígitos (sem código de área)"
+area_codes:
+  belgrade: "11"
+  novi_sad: "21"
+  nis: "18"
+valid_format: "+381 XX XXX XXXX"

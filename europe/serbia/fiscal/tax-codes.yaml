@@ -1,0 +1,10 @@
+# Tax Codes - Sérvia
+country: "Sérvia"
+code: "RS"
+corporate_tax_rate: "15%"
+vat_rate: "20% (padrão), 10% (reduzido)"
+personal_income_tax: "10% (flat tax)"
+tax_id_format: "9 dígitos"
+other_taxes:
+  - "Imposto sobre propriedade: 0.4%"
+  - "Imposto sobre herança: 2.5%"

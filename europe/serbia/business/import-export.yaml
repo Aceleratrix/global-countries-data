@@ -1,0 +1,23 @@
+# Import/Export Data - Sérvia
+country: "Sérvia"
+code: "RS"
+import_partners:
+  - "Alemanha"
+  - "Itália"
+  - "China"
+  - "Rússia"
+export_partners:
+  - "Alemanha"
+  - "Itália"
+  - "Bósnia e Herzegovina"
+  - "Romênia"
+main_exports:
+  - "Veículos e peças"
+  - "Trigo"
+  - "Framboesas"
+  - "Borracha e artigos"
+main_imports:
+  - "Máquinas e equipamentos"
+  - "Combustíveis"
+  - "Produtos químicos"
+  - "Veículos"

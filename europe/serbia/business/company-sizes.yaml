@@ -1,0 +1,13 @@
+# Company Sizes - Sérvia
+country: "Sérvia"
+code: "RS"
+size_categories:
+  micro: "Até 9 funcionários"
+  small: "10-49 funcionários"
+  medium: "50-249 funcionários"
+  large: "250+ funcionários"
+largest_companies:
+  - "NIS (Petróleo)"
+  - "Telekom Srbija"
+  - "Delta Holding"
+  - "MK Group"

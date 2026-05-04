@@ -1,0 +1,13 @@
+# Digital Marketing Data - Sérvia
+country: "Sérvia"
+code: "RS"
+internet_penetration: "82% (2023)"
+social_media_users:
+  facebook: "3.2 milhões"
+  instagram: "1.8 milhões"
+  tiktok: "1.2 milhões"
+top_digital_channels:
+  - "Facebook Ads"
+  - "Google Ads"
+  - "Instagram Influencers"
+  - "TikTok Ads"

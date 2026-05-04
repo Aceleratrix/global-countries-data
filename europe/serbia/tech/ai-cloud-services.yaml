@@ -1,0 +1,12 @@
+# AI & Cloud Services - Sérvia
+country: "Sérvia"
+code: "RS"
+ai_adoption_rate: "18% (empresas)"
+top_cloud_providers:
+  - "AWS"
+  - "Microsoft Azure"
+  - "Google Cloud"
+  - "Local: BeotelNet"
+ai_initiatives:
+  - "Centro de IA da Universidade de Belgrado"
+  - "Incentivos fiscais para startups de IA"
