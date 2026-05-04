@@ -1,0 +1,7 @@
+gdp_usd: 2700000000
+gdp_per_capita_usd: 25200
+main_industries: ["Tourism", "Aloe production", "Petroleum transshipment", "Banking"]
+unemployment_rate: 6.8
+inflation_rate: 3.2
+main_exports: ["Aloe products", "Petroleum products", "Fish"]
+main_imports: ["Machinery", "Food", "Chemicals"]

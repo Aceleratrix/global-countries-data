@@ -51,7 +51,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇵🇾 **Paraguay** | 13/13 | ✅ **100% COMPLETE** | 82nd largest economy ($0.14T), Asunción (capital), landlocked, Itaipu Dam (shared with Brazil), Guaraní official language alongside Spanish, 7.45M population | Spanish (es-PY) + Guaraní + English |
 | 🇬🇾 **Guyana** | 13/13 | ✅ **100% COMPLETE** | 152nd largest economy ($0.05T), Georgetown (capital), only English-speaking South American country, offshore oil boom, Kaieteur Falls, 790K population | English (en-GY) + Guyanese Creole |
 
-### 🌎 North America (18/23 = 78.3%)
+### 🌎 North America (19/23 = 82.6%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇺🇸 **USA** | 13/13 | ✅ **100% COMPLETE** | Silicon Valley, Section 230, 20+ cloud regions | English (en-US) |
@@ -74,6 +74,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇻🇬 **British Virgin Islands** | 13/13 | ✅ **100% COMPLETE** | British Overseas Territory, 153 km², Road Town capital, tourism/financial services economy, 30K population | English (en-VG) |
 | 🇲🇸 **Montserrat** | 13/13 | ✅ **100% COMPLETE** | British Overseas Territory, Soufrière Hills volcano (active since 1995), "Emerald Isle of the Caribbean", 5K population | English (en-MS) + Montserrat Creole |
 | 🇰🇳 **São Cristóvão e Névis** | 13/13 | ✅ **100% COMPLETE** | 167th largest economy ($0.05T), Basseterre (capital), Caribbean island nation, two-island federation, Citizenship by Investment program, 53K population | English (en-KN) |
+| 🇦🇼 **Aruba** | 13/13 | ✅ **100% COMPLETE** | Constituent country of Kingdom of the Netherlands, Caribbean island, Oranjestad capital, tourism/aloe economy, 107K population | Dutch (nl-AW) + Papiamento + English |
 
 ### 🌏 Asia (29/50 = 58.0%)
 | Country | Files | Status | Key Highlights | Primary Language |

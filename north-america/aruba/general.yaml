@@ -1,0 +1,13 @@
+name: "Aruba"
+iso_code: "AW"
+capital: "Oranjestad"
+population: 107000
+area_km2: 178.91
+currency: "Aruban florin (AWG)"
+official_languages:
+  - "Dutch"
+  - "Papiamento"
+  - "English"
+  - "Spanish"
+government_type: "Constituent country of the Kingdom of the Netherlands"
+independence_status: "Autonomous within the Kingdom of the Netherlands"

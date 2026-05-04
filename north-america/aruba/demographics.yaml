@@ -1,0 +1,12 @@
+population: 107000
+population_density: 598
+ethnic_groups:
+  - "Mixed (70%)"
+  - "Dutch (15%)"
+  - "Other (15%)"
+religions:
+  - "Roman Catholic (85%)"
+  - "Protestant (5%)"
+  - "Other (10%)"
+life_expectancy: 76.5
+median_age: 39.2

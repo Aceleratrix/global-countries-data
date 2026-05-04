@@ -1,0 +1,5 @@
+healthcare_system: "Universal healthcare system funded by social security and taxes"
+hospitals: ["Dr. Horacio E. Oduber Hospital (main public hospital)"]
+life_expectancy: 76.5
+infant_mortality_rate: 5.8
+common_diseases: ["Diabetes", "Hypertension", "Cardiovascular diseases"]
