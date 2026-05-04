@@ -1,0 +1,11 @@
+country: Sint Maarten
+healthcare_system: Mixed public-private
+number_of_hospitals: 1 (Sint Maarten Medical Center)
+physicians_per_1000_population: 2.1
+infant_mortality_per_1000_live_births: 7.5
+life_expectancy_years: 75.2
+healthcare_budget_percent_gdp: 8.1
+major_health_issues:
+  - Cardiovascular disease
+  - Diabetes
+  - Hypertension

@@ -1,0 +1,10 @@
+country: Sint Maarten
+airports:
+  - Princess Juliana International Airport (main hub)
+seaports:
+  - Philipsburg Port (cruise + cargo)
+roads_total_km: 67
+paved_roads_percent: 100
+electricity_access_percent: 100
+internet_penetration_percent: 89
+telecommunications: 4G LTE coverage, underwater fiber cables

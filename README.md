@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-|[![Status: 187/195 (95.9%) Complete](https://img.shields.io/badge/Status-187/195%20(95.9%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+|[![Status: 188/195 (96.4%) Complete](https://img.shields.io/badge/Status-188/195%20(96.4%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (187 / 195 = 95.9%)
+## 📊 Coverage Progress (188 / 195 = 96.4%)
 
 ### 🌎 South America (11/12 = 91.7%)
 | Country | Files | Status | Key Highlights | Primary Language |

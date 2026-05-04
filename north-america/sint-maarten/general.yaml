@@ -1,0 +1,15 @@
+country: Sint Maarten
+official_name: Sint Maarten
+iso_alpha2: SX
+iso_alpha3: SXM
+capital: Philipsburg
+area_km2: 34
+population: 42000
+currency_code: ANG
+currency_name: Antillian Guilder
+official_languages:
+  - Dutch
+  - English
+government_type: Parliamentary representative democracy under constitutional monarchy
+sovereign_state: Kingdom of the Netherlands
+autonomy_date: 2010-10-10

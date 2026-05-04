@@ -1,0 +1,13 @@
+country: Sint Maarten
+population: 42000
+population_density_km2: 1235
+life_expectancy_years: 75.2
+median_age: 38.4
+urban_population_percent: 100
+ethnic_groups:
+  - Afro-Caribbean: 85%
+  - Mixed: 10%
+  - Other: 5%
+religions:
+  - Christianity: 82%
+  - Other: 18%
