@@ -1,0 +1,11 @@
+education_system: "Based on British system"
+literacy_rate: 97.5
+schools:
+  - "Primary (ages 5-11)"
+  - "Secondary (ages 11-16)"
+  - "Sixth form (ages 16-18)"
+higher_education: "H. Lavity Stoutt Community College"
+enrollment_rate:
+  primary: 98
+  secondary: 95
+government_spending_education_percent_gdp: 5.2

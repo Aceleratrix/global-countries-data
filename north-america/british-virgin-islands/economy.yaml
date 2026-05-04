@@ -1,0 +1,19 @@
+gdp_usd: 1500000000
+gdp_per_capita_usd: 50000
+major_industries:
+  - "Tourism"
+  - "Financial services"
+  - "Agriculture (fruits, vegetables)"
+  - "Fishing"
+exports:
+  - "Fish"
+  - "Rum"
+  - "Fruits"
+imports:
+  - "Machinery"
+  - "Food"
+  - "Fuel"
+unemployment_rate: 8.7
+inflation_rate: 3.2
+currency: "USD"
+exchange_rate: "Fixed to USD"

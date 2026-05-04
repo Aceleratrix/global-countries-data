@@ -1,0 +1,10 @@
+transport:
+  airports: "Terrance B. Lettsome International Airport"
+  seaports: "Road Town Port, West End Port"
+  roads_km: 200
+  paved_roads_percent: 70
+utilities:
+  electricity_access_percent: 95
+  water_access_percent: 90
+  internet_penetration_percent: 85
+telecommunications: "Mobile coverage 95%, fiber available in urban areas"

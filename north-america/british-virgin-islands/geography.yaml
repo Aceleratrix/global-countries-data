@@ -1,0 +1,14 @@
+region: "Caribbean"
+subregion: "North America"
+coordinates:
+  latitude: 18.4207
+  longitude: -64.6399
+terrain: "Coral islands, hilly, volcanic in some areas"
+highest_point: "Mount Sage (521m)"
+climate: "Tropical, moderated by trade winds"
+natural_resources: "Fish, coral reefs, sunny beaches"
+land_use:
+  agricultural: "20%"
+  forest: "30%"
+  other: "50%"
+coastline_km: 80

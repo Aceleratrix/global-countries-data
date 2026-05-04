@@ -1,0 +1,9 @@
+healthcare_system: "Public and private providers"
+life_expectancy: 79
+infant_mortality_rate: 12.1
+hospitals:
+  - "Peebles Hospital (main public hospital)"
+  - "Private clinics"
+physicians_per_1000: 2.1
+health_expenditure_percent_gdp: 6.8
+common_diseases: "Non-communicable diseases (diabetes, hypertension)"

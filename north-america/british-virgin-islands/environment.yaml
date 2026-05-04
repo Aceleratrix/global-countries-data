@@ -1,0 +1,14 @@
+ecosystems: "Coral reefs, tropical dry forests, mangroves"
+protected_areas_percent: 35
+national_parks:
+  - "Sage Mountain National Park"
+  - "Virgin Islands National Park (part)"
+biodiversity:
+  - "Over 500 fish species"
+  - "Sea turtles (hawksbill, green)"
+  - "Migratory birds"
+environmental_issues:
+  - "Coral bleaching due to warming"
+  - "Coastal erosion"
+  - "Waste management"
+renewable_energy_percent: 15

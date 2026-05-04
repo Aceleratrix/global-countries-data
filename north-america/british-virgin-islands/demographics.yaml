@@ -1,0 +1,17 @@
+population: 30000
+population_growth_rate: 0.5
+density_per_km2: 196
+ethnic_groups:
+  - "African descent (76%)"
+  - "European (12%)"
+  - "Mixed (6%)"
+  - "Other (6%)"
+religions:
+  - "Christian (90%, mostly Protestant)"
+  - "Other (10%)"
+languages:
+  - "English (official)"
+  - "Creole (common)"
+life_expectancy: 79
+literacy_rate: 97.5
+urban_population: 46

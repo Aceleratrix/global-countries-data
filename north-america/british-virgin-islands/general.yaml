@@ -1,0 +1,17 @@
+country_name: "British Virgin Islands"
+official_name: "British Virgin Islands"
+common_name: "BVI"
+flag_emoji: "🇻🇬"
+iso_code: "VG"
+capital: "Road Town"
+population: 30000
+area_km2: 153
+currency: "USD"
+currency_symbol: "$"
+languages:
+  - "English"
+government_type: "British Overseas Territory"
+head_of_state: "King Charles III"
+head_of_state_representative: "Governor"
+prime_minister_title: "Premier"
+current_premier: "Natalio Wheatley"

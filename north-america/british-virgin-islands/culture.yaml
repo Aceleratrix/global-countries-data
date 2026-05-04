@@ -1,0 +1,18 @@
+national_symbols:
+  flag: "Blue ensign with coat of arms"
+  anthem: "God Save the King"
+  flower: "White cedar"
+festivals:
+  - "BVI Emancipation Festival (August)"
+  - "Virgin Islands Food Fete (November)"
+  - "BVI Spring Regatta (March/April)"
+cuisine:
+  - "Seafood (fish, lobster)"
+  - "Callaloo"
+  - "Roti"
+  - "Rum-based drinks"
+music: "Calypso, reggae, fungi"
+sports:
+  - "Sailing (popular due to regattas)"
+  - "Cricket"
+  - "Football"
