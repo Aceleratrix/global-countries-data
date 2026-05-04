@@ -73,6 +73,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇨🇼 **Curaçao** | 13/13 | ✅ **100% COMPLETE** | Constituent country of Kingdom of the Netherlands, Caribbean island, Willemstad capital, tourism/petroleum economy, 158K population | Dutch (nl-CW) + Papiamento + English |
 | 🇻🇬 **British Virgin Islands** | 13/13 | ✅ **100% COMPLETE** | British Overseas Territory, 153 km², Road Town capital, tourism/financial services economy, 30K population | English (en-VG) |
 | 🇲🇸 **Montserrat** | 13/13 | ✅ **100% COMPLETE** | British Overseas Territory, Soufrière Hills volcano (active since 1995), "Emerald Isle of the Caribbean", 5K population | English (en-MS) + Montserrat Creole |
+| 🇰🇳 **São Cristóvão e Névis** | 13/13 | ✅ **100% COMPLETE** | 167th largest economy ($0.05T), Basseterre (capital), Caribbean island nation, two-island federation, Citizenship by Investment program, 53K population | English (en-KN) |
 
 ### 🌏 Asia (29/50 = 58.0%)
 | Country | Files | Status | Key Highlights | Primary Language |
