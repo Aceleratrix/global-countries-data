@@ -35,9 +35,9 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (180 / 195 = 92.3%)
+## 📊 Coverage Progress (181 / 195 = 92.8%)
 
-### 🌎 South America (10/12 = 83.3%)
+### 🌎 South America (11/12 = 91.7%)
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
 | 🇧🇷 **Brazil** | 17/17 | ✅ **100% COMPLETE** | PIX (76% adoption), LGPD, 4 cloud regions | Portuguese (pt-BR) + English |
