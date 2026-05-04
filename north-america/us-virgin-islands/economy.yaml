@@ -1,0 +1,21 @@
+# Economia - Ilhas Virgens Americanas
+gdp_2023: 4.5 billion USD
+gdp_per_capita: 43000 USD
+gdp_real_growth_rate: 1.2%
+inflation_rate: 3.8%
+unemployment_rate: 10.4%
+main_industries:
+  - Tourism
+  - Rum distilling
+  - Construction
+  - Agriculture (fruits, vegetables, livestock)
+  - Refining of crude oil
+exports: 3.5 billion USD
+exports_partners:
+  - United States: 85%
+  - Puerto Rico: 10%
+  - Other: 5%
+imports: 4.2 billion USD
+imports_partners:
+  - United States: 90%
+  - Other: 10%

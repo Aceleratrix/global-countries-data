@@ -1,0 +1,12 @@
+# Saúde - Ilhas Virgens Americanas
+life_expectancy_total: 79.8 years
+infant_mortality_rate: 7.2 deaths/1000 live births
+health_expenditure: 12% of GDP
+physicians_per_1000: 2.1
+hospital_beds_per_1000: 3.4
+major_diseases:
+  - Cardiovascular diseases
+  - Diabetes
+  - Cancer
+  - Zika virus (rare)
+vaccination_rate_children: 95%

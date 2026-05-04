@@ -1,0 +1,15 @@
+# Infraestrutura - Ilhas Virgens Americanas
+airports_paved: 2
+airports_unpaved: 0
+major_airports:
+  - Cyril E. King Airport (St. Thomas)
+  - Henry E. Rohlsen Airport (St. Croix)
+ports:
+  - Charlotte Amalie (St. Thomas)
+  - Frederiksted (St. Croix)
+  - Cruz Bay (St. John)
+roadways_total: 856 km
+roadways_paved: 856 km
+roadways_unpaved: 0 km
+internet_users: 98% of population
+mobile_subscriptions: 120 per 100 people

@@ -1,0 +1,18 @@
+# Demografia - Ilhas Virgens Americanas
+population_2023: 104425
+population_growth_rate: 0.67%
+birth_rate: 10.3 births/1000 population
+death_rate: 8.5 deaths/1000 population
+life_expectancy_total: 79.8 years
+life_expectancy_male: 76.2 years
+life_expectancy_female: 83.5 years
+ethnic_groups:
+  - African descent: 76%
+  - White: 15.6%
+  - Hispanic: 5.4%
+  - Asian: 1.4%
+  - Other: 1.6%
+religions:
+  - Protestant: 59%
+  - Catholic: 34%
+  - Other: 7%
