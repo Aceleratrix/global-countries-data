@@ -1,0 +1,9 @@
+# Government - Isle of Man
+system: "Parliamentary constitutional monarchy"
+head_of_state: "King Charles III (represented by Lieutenant Governor)"
+head_of_government: "Chief Minister (Alfred Cannan)"
+legislature: "Tynwald (oldest continuous parliament in the world)"
+tynwald_components:
+  - "House of Keys (directly elected)"
+  - "Legislative Council (appointed)"
+judiciary: "Independent, based on English common law"

@@ -1,0 +1,16 @@
+# Basic Info - Isle of Man
+name: "Isle of Man"
+native_name: "Ellan Vannin"
+iso_code: "IM"
+capital: "Douglas"
+population: 84000
+area_km2: 572
+currency: "Manx pound"
+currency_code: "IMP"
+languages:
+  - "English"
+  - "Manx Gaelic"
+government: "Parliamentary constitutional monarchy (British Crown dependency)"
+monarch: "King Charles III"
+lieutenant_governor: "Sir John Lorimer"
+chief_minister: "Alfred Cannan"

@@ -1,0 +1,11 @@
+# Education - Isle of Man
+system: "Based on UK model, compulsory education from age 5 to 16"
+schools:
+  - "Primary schools"
+  - "Secondary schools"
+  - "Special schools"
+further_education:
+  - "Isle of Man College (vocational and academic courses)"
+higher_education:
+  - "No university; students often study in UK or elsewhere"
+literacy_rate: "99%"

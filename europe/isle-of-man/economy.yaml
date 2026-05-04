@@ -1,0 +1,13 @@
+# Economy - Isle of Man
+gdp_nominal: 8.0
+gdp_nominal_unit: "billion USD"
+gdp_per_capita: 95000
+gdp_per_capita_unit: "USD"
+main_industries:
+  - "Offshore banking"
+  - "Tourism"
+  - "Information technology"
+  - "Manufacturing (aerospace, electronics)"
+  - "Agriculture (sheep farming, fisheries)"
+unemployment_rate: "1.2% (2023 est.)"
+currency: "Manx pound (pegged to GBP)"

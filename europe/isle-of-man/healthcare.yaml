@@ -1,0 +1,8 @@
+# Healthcare - Isle of Man
+system: "Public healthcare system funded by general taxation, similar to UK NHS"
+providers:
+  - "Noble's Hospital (main acute hospital in Douglas)"
+  - "Community health services"
+  - "Private healthcare options available"
+life_expectancy: "80.5 years (2023 est.)"
+infant_mortality: "2.1 deaths per 1,000 live births (2023 est.)"
