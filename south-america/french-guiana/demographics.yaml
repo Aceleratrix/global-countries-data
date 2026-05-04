@@ -1,0 +1,17 @@
+name: "Demographics of French Guiana"
+country: "French Guiana"
+iso_code: "GF"
+population: 290000
+population_density: 3.5
+languages:
+  - "French (official)"
+  - "Guianese Creole"
+  - "English"
+ethnic_groups:
+  - "Creole (mixed)"
+  - "Black"
+  - "White"
+  - "Amerindian"
+  - "Chinese"
+  - "Haitian"
+life_expectancy: 78.5

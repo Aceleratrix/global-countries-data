@@ -1,0 +1,11 @@
+name: "Economy of French Guiana"
+country: "French Guiana"
+iso_code: "GF"
+gdp_usd: 5.2e9
+currency: "EUR"
+main_sectors:
+  - "Space industry (Guiana Space Centre)"
+  - "Agriculture"
+  - "Fishing"
+  - "Tourism"
+unemployment_rate: 18.5

@@ -1,0 +1,10 @@
+name: "Politics of French Guiana"
+country: "French Guiana"
+iso_code: "GF"
+status: "Overseas department/region of France"
+government_type: "French presidential representative democracy"
+head_of_state: "President of France (Emmanuel Macron)"
+head_of_government:
+  name: "Thierry Queffelec"
+  title: "Prefect of French Guiana"
+  term_start: "2024"

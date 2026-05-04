@@ -1,0 +1,8 @@
+name: "Education in French Guiana"
+country: "French Guiana"
+iso_code: "GF"
+literacy_rate: 92
+education_system: "French education system"
+universities:
+  - "University of French Guiana"
+high_school_graduation_rate: 85

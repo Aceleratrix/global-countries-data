@@ -1,0 +1,14 @@
+name: "Geography of French Guiana"
+country: "French Guiana"
+iso_code: "GF"
+area_km2: 83534
+capital: "Cayenne"
+largest_city: "Cayenne"
+borders:
+  - country: "Brazil"
+    length_km: 730
+  - country: "Suriname"
+    length_km: 520
+coastline_km: 378
+terrain: "Mostly low-lying plains, with hills in the south"
+climate: "Tropical rainforest climate"

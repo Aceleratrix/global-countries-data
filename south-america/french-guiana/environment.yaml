@@ -1,0 +1,9 @@
+name: "Environment of French Guiana"
+country: "French Guiana"
+iso_code: "GF"
+forest_coverage: 95%
+biodiversity: "High (Amazon rainforest)"
+protected_areas:
+  - "Guiana Amazonian Park"
+  - "Kaw Mountain Protected Area"
+endangered_species: "Jaguar, giant otter, green turtle"
