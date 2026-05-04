@@ -1,0 +1,24 @@
+country: Curaçao
+gdp_usd: 5.6 billion (2023 estimate)
+gdp_per_capita_usd: 35400
+main_industries:
+  - Tourism
+  - Petroleum refining
+  - Financial services
+  - Aloe cultivation
+  - Salt production
+unemployment_rate: 10.2%
+inflation_rate: 4.1% (2024)
+major_exports:
+  - Refined petroleum
+  - Aloe products
+  - Financial services
+  - Seafood
+major_imports:
+  - Crude oil
+  - Foodstuffs
+  - Machinery
+  - Consumer goods
+currency: Caribbean guilder (XCG)
+exchange_rate: 1 XCG = 1.79 USD (fixed)
+tourism_contribution_gdp: 30%

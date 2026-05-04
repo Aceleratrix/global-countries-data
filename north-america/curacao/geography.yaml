@@ -1,0 +1,21 @@
+country: Curaçao
+continent: North America
+region: Caribbean
+coordinates:
+  latitude: 12.1696
+  longitude: -68.9900
+terrain: Hilly, volcanic origin with limestone cliffs along south coast
+highest_point: Christoffelberg (372m)
+lowest_point: Caribbean Sea (0m)
+climate: Tropical savanna, warm year-round with average 27°C
+natural_resources:
+  - White sand beaches
+  - Coral reefs
+  - Aloe vera
+  - Salt pans
+neighboring_countries:
+  - Venezuela (48km south)
+  - Bonaire (30km east)
+  - Aruba (120km west)
+land_boundaries: 0
+coastline_km: 364

@@ -1,0 +1,22 @@
+country: Curaçao
+education_compulsory_ages: 4 to 18
+literacy_rate: 98%
+education_system: Based on Dutch system
+languages_of_instruction:
+  - Dutch
+  - Papiamento
+  - English
+school_levels:
+  - Preschool (4-6 years)
+  - Primary (6-12 years)
+  - Secondary (12-18 years)
+  - Vocational training
+higher_education_institutions:
+  - University of Curaçao (UoC)
+  - Caribbean International University (CIU)
+  - Karel Doorman Institute (vocational)
+public_schools: 42
+private_schools: 18
+vocational_schools: 5
+higher_education_students: ~3000
+government_education_spending_percent_gdp: 5.2

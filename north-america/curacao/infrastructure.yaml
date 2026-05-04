@@ -1,0 +1,24 @@
+country: Curaçao
+transportation:
+  airports:
+    - Hato International Airport (CUR)
+  seaports:
+    - Port of Willemstad (main cargo/passenger)
+    - Fuik Bay (tourism)
+  public_transport: Bus system (Autobus di Kòrsou), taxi, rental cars
+  road_network_km: 550 (paved)
+  ferry_services: To Venezuela (suspended periodically)
+utilities:
+  electricity_access: 100%
+  electricity_sources:
+    - Diesel generators (85%)
+    - Solar power (15%)
+  water_access: 99%
+  water_sources: Desalination plants (90%), groundwater (10%)
+  waste_management: Landfill (70%), recycling (30%)
+telecommunications:
+  mobile_coverage: 4G (99% population)
+  internet_penetration: 85%
+  fixed_broadband_subscriptions: 32 per 100 people
+  mobile_subscriptions: 142 per 100 people
+energy_consumption_kwh_per_capita: 6500

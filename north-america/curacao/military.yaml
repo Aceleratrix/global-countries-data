@@ -1,0 +1,18 @@
+country: Curaçao
+military: No standing army
+defense_responsibility: Kingdom of the Netherlands
+kingdom_defense_forces_present:
+  - Royal Netherlands Navy (stationed at Parera Naval Base)
+  - Netherlands Marine Corps (detachment)
+  - Dutch Caribbean Coast Guard (joint with Aruba, Sint Maarten)
+local_security:
+  - Curaçao Police Force (Korps Politie Curaçao, KPC)
+  - Immigration service
+  - Customs service
+military_personnel: 0 (local)
+kingdom_personnel_stationed: ~400
+defense_spending: Funded by Kingdom of the Netherlands
+security_partnerships:
+  - NATO (via Netherlands)
+  - CARICOM
+  - Interpol

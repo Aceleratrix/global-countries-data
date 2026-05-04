@@ -1,0 +1,24 @@
+country: Curaçao
+environmental_issues:
+  - Coral bleaching due to warming seas
+  - Plastic pollution on beaches
+  - Water scarcity (limited freshwater resources)
+  - Deforestation (small scale)
+protected_areas:
+  - Christoffel National Park (2300 hectares)
+  - Shete Boka National Park (1200 hectares)
+  - Curaçao Underwater Park (marine protected area)
+protected_land_percent: 20
+protected_marine_percent: 30
+biodiversity:
+  - Coral reefs (60+ species)
+  - 200+ bird species
+  - 100+ plant species endemic
+renewable_energy_target: 50% by 2035
+current_renewable_energy_percent: 15
+waste_recycling_rate: 30%
+water_treatment: 90% of wastewater treated
+carbon_emissions_per_capita_tons: 8.2
+environmental_agencies:
+  - Ministry of Health, Environment and Nature (GMN)
+  - Curaçao Nature Foundation (DCNA)

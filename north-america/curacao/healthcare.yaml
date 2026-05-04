@@ -1,0 +1,19 @@
+country: Curaçao
+healthcare_system: Mixed public-private, mandatory health insurance
+life_expectancy_years: 77.2
+infant_mortality_per_1000: 7.5
+physicians_per_1000: 2.1
+hospital_beds_per_1000: 3.4
+main_hospitals:
+  - Curaçao Medical Center (CMC)
+  - Sehos Hospital (public)
+  - Adventist Health Care
+health_insurance: Mandatory for all residents (SVB - Social Security Bank)
+common_diseases:
+  - Diabetes
+  - Hypertension
+  - Cardiovascular disease
+government_health_spending_percent_gdp: 6.8
+vaccination_coverage: 95% (childhood vaccines)
+water_supply_access: 99%
+sanitation_access: 99%

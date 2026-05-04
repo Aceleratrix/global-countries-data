@@ -1,0 +1,23 @@
+country: Curaçao
+population: 158665
+population_density_km2: 357
+ethnic_groups:
+  - Afro-Caribbean (76%)
+  - Dutch (12%)
+  - Latin American (8%)
+  - Other (4%)
+religions:
+  - Roman Catholic (72.8%)
+  - Pentecostal (6.6%)
+  - Protestant (5.2%)
+  - Other (15.4%)
+median_age: 36.5
+life_expectancy_years: 77.2
+urban_population_percent: 91
+birth_rate: 12.8 per 1000
+death_rate: 8.2 per 1000
+net_migration_rate: 1.7 per 1000
+major_cities:
+  - Willemstad (capital, 136,660)
+  - Sint Michiel (pop. ~5,000)
+  - Barber (pop. ~3,000)
