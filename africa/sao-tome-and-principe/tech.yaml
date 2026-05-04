@@ -1,0 +1,10 @@
+country: Sao Tome and Principe
+internet_penetration_percent: 35
+mobile_penetration_percent: 85
+broadband_subscriptions_per_100: 2
+tech_sector_development: Emerging
+digital_government_rank: Low
+main_tech_challenges:
+  - Limited infrastructure
+  - High connectivity costs
+  - Low digital literacy

@@ -1,0 +1,22 @@
+country: Sao Tome and Principe
+gdp_usd: 500000000
+gdp_per_capita_usd: 2200
+gdp_growth_rate: 2.1
+inflation_rate: 8.5
+unemployment_rate: 12.2
+currency: Sao Tome and Principe Dobra (STN)
+main_industries:
+  - Agriculture (cocoa, coffee, palm oil)
+  - Tourism
+  - Fisheries
+  - Construction
+main_exports:
+  - Cocoa
+  - Coffee
+  - Palm oil
+  - Fish products
+main_imports:
+  - Machinery
+  - Food products
+  - Fuel
+  - Textiles

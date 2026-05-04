@@ -1,0 +1,9 @@
+country: Sao Tome and Principe
+education_spending_percent_gdp: 5.2
+primary_education_completion_rate: 89.5
+secondary_education_completion_rate: 65.3
+literacy_rate_adult: 92.8
+higher_education_institutions:
+  - University of Sao Tome and Principe
+  - National Institute of Public Administration
+education_system: 6 years primary, 3 years lower secondary, 3 years upper secondary

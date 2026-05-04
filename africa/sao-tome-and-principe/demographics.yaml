@@ -1,0 +1,22 @@
+country: Sao Tome and Principe
+population:
+  total: 223368
+  year: 2023
+  density_per_sq_km: 223
+  growth_rate: 1.5
+age_structure:
+  under_15: 40.2
+ 15_to_64: 56.3
+  over_65: 3.5
+urban_population_percent: 73.7
+life_expectancy_years: 67.8
+ethnic_groups:
+  - Mestizo (mixed European and African)
+  - Angolares (descendants of Angolan slaves)
+  - Forros (descendants of freed slaves)
+  - Servicais (contract laborers from Angola, Mozambique, Cape Verde)
+  - Tongas (children of servicais born on the islands)
+religions:
+  - Roman Catholic (55.7%)
+  - Protestant (38.2%)
+  - Other (6.1%)

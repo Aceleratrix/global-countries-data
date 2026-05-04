@@ -1,0 +1,10 @@
+country: Sao Tome and Principe
+road_network_km: 320
+paved_roads_percent: 40
+airports: 2 (Sao Tome International Airport, Principe Airport)
+seaports: 2 (Port of Sao Tome, Port of Principe)
+telecommunications:
+  mobile_penetration_percent: 85
+  internet_penetration_percent: 35
+water_access_percent: 85
+sanitation_access_percent: 60

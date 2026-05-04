@@ -1,0 +1,11 @@
+country: Sao Tome and Principe
+health_spending_percent_gdp: 4.8
+life_expectancy_years: 67.8
+infant_mortality_rate_per_1000: 24.5
+physicians_per_1000_population: 0.2
+hospital_beds_per_1000_population: 1.7
+main_health_issues:
+  - Malaria
+  - HIV/AIDS
+  - Respiratory infections
+  - Diarrheal diseases

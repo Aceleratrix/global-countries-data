@@ -1,0 +1,11 @@
+country: Sao Tome and Principe
+energy_production:
+  - Fossil fuels (diesel generators)
+  - Hydropower (small scale)
+electrification_rate_percent: 70
+renewable_energy_share: 15
+main_energy_sources:
+  - Imported diesel
+  - Small hydropower plants
+  - Solar (emerging)
+energy_consumption_per_capita_kwh: 550

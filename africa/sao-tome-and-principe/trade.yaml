@@ -1,0 +1,18 @@
+country: Sao Tome and Principe
+main_export_partners:
+  - Netherlands
+  - Portugal
+  - Spain
+  - Angola
+main_import_partners:
+  - Portugal
+  - Angola
+  - China
+  - US
+trade_balance_usd: -150000000
+main_exports:
+  - Cocoa
+  - Coffee
+  - Palm oil
+  - Fish products
+trade_policy: Member of ECOWAS, CPLP, African Continental Free Trade Area
