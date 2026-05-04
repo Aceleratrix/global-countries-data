@@ -1,0 +1,22 @@
+country: "Federated States of Micronesia"
+population: 115000
+population_year: 2023
+population_growth_rate: 0.28
+density_per_sq_km: 164
+ethnic_groups:
+  - "Chuukese (49%)"
+  - "Pohnpeian (29%)"
+  - "Kosraean (7%)"
+  - "Yapese (6%)"
+  - "Other (9%)"
+languages:
+  - "English (official)"
+  - "Chuukese"
+  - "Pohnpeian"
+  - "Kosraean"
+  - "Yapese"
+religions:
+  - "Christian (99%, mostly Roman Catholic and Protestant)"
+life_expectancy: 71.3
+literacy_rate: 89
+urban_population_percent: 23

@@ -1,0 +1,10 @@
+country: "Federated States of Micronesia"
+biomes: ["Tropical rainforests", "Coral reefs", "Mangroves"]
+protected_areas_percent: 12
+key_issues:
+  - "Sea level rise (threatens low-lying atolls)"
+  - "Coral bleaching due to warming oceans"
+  - "Deforestation from agriculture expansion"
+  - "Waste management challenges"
+climate_commitments: ["Paris Agreement signatory", "Pacific Islands Climate Action Framework"]
+endangered_species: ["Hawksbill turtle", "Dugong", "Micronesian pigeon"]

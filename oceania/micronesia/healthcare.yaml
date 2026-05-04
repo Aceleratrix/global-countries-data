@@ -1,0 +1,12 @@
+country: "Federated States of Micronesia"
+life_expectancy: 71.3
+infant_mortality_rate: 20.1
+healthcare_system: "Public healthcare system supported by US aid"
+hospitals: 4
+clinics: 60
+main_challenges:
+  - "Limited medical personnel"
+  - "Non-communicable diseases (diabetes, obesity)"
+  - "Limited access in remote atolls"
+  - "Malaria risk in some areas"
+health_expenditure_percent_gdp: 9.5

@@ -1,0 +1,11 @@
+country: "Federated States of Micronesia"
+literacy_rate: 89
+education_system: "Based on US model, compulsory from ages 6-14"
+school_levels:
+  - "Elementary (K-8)"
+  - "Secondary (9-12)"
+  - "Post-secondary: College of Micronesia-FSM (main campus in Pohnpei)"
+enrollment_rate_primary: 95
+enrollment_rate_secondary: 75
+higher_education_institutions: ["College of Micronesia-FSM"]
+challenges: ["Teacher shortages", "Limited resources in outer islands", "Low retention rates"]

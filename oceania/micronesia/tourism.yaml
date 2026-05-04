@@ -1,0 +1,11 @@
+country: "Federated States of Micronesia"
+annual_tourists: 15000
+tourism_contribution_gdp_percent: 5
+main_attractions:
+  - "Chuuk Lagoon (world-class wreck diving)"
+  - "Nan Madol (ancient ruins on Pohnpei)"
+  - "Yap stone money villages"
+  - "Kosrae pristine forests and dive sites"
+  - "Traditional cultural festivals"
+accommodation: "Small hotels, guesthouses, dive resorts"
+challenges: ["Remote location", "Limited flight connections", "High travel costs"]

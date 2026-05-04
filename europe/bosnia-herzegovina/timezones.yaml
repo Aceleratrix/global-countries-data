@@ -1,0 +1,7 @@
+timezones:
+  - name: "Central European Time (CET)"
+    utc_offset: "+01:00"
+    daylight_saving:
+      name: "Central European Summer Time (CEST)"
+      utc_offset: "+02:00"
+      observes_dst: true

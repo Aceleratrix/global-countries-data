@@ -1,0 +1,14 @@
+country: "Federated States of Micronesia"
+government_type: "Federal presidential representative democratic republic"
+head_of_state: "President"
+head_of_government: "President"
+legislature: "Congress of the Federated States of Micronesia (unicameral, 14 seats)"
+political_parties: "None formally recognized"
+independence_date: "1986-11-03"
+constitution_date: "1979-05-10"
+administrative_divisions:
+  - "Yap State"
+  - "Chuuk State"
+  - "Pohnpei State"
+  - "Kosrae State"
+international_organizations: ["United Nations", "Pacific Islands Forum", "World Bank", "IMF"]

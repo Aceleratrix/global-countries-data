@@ -1,0 +1,20 @@
+gdp_nominal_usd: 23000000000
+gdp_per_capita_usd: 6500
+gdp_growth_rate: 2.1
+inflation_rate: 5.2
+unemployment_rate: 15.7
+major_industries:
+  - "Steel production"
+  - "Coal mining"
+  - "Automotive parts manufacturing"
+  - "Textiles"
+  - "Furniture production"
+  - "Tourism"
+exports: ["Metals", "Clothing", "Wood products", "Electricity"]
+imports: ["Machinery", "Fuel", "Foodstuffs", "Chemicals"]
+major_trading_partners:
+  - "Germany"
+  - "Croatia"
+  - "Serbia"
+  - "Italy"
+  - "Slovenia"

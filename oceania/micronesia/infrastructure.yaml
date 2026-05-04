@@ -1,0 +1,10 @@
+country: "Federated States of Micronesia"
+transportation:
+  - "4 major airports: Pohnpei, Chuuk, Yap, Kosrae"
+  - "Inter-island ships and small boats"
+  - "Limited road networks (mostly in urban areas)"
+energy: "Diesel generators (main source), increasing solar power adoption"
+internet_access_percent: 35
+mobile_penetration_percent: 60
+water_supply: "Rainwater harvesting, groundwater (limited in atolls)"
+sanitation_access_percent: 78

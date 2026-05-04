@@ -1,0 +1,19 @@
+country_name: "Bosnia and Herzegovina"
+local_names:
+  bosnian: "Bosna i Hercegovina"
+  serbian_cyrillic: "Босна и Херцеговина"
+  croatian: "Bosna i Hercegovina"
+capital: "Sarajevo"
+iso_alpha2: "BA"
+iso_alpha3: "BIH"
+iso_numeric: "070"
+calling_code: "+387"
+tld: ".ba"
+currency_code: "BAM"
+currency_name: "Bosnia and Herzegovina convertible mark"
+population: 3500000
+area_km2: 51197
+continent: "Europe"
+subregion: "Southeastern Europe"
+landlocked: false
+coastline_km: 20

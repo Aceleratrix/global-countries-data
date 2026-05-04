@@ -1,0 +1,17 @@
+official_languages:
+  - "Bosnian"
+  - "Serbian"
+  - "Croatian"
+language_codes:
+  bosnian: "bs"
+  serbian: "sr"
+  croatian: "hr"
+script_usage:
+  bosnian: "Latin (primary), Cyrillic (secondary)"
+  serbian: "Cyrillic (primary), Latin (secondary)"
+  croatian: "Latin"
+spoken_languages_percent:
+  bosnian: 52.1
+  serbian: 32.6
+  croatian: 14.6
+  other: 0.7

@@ -1,0 +1,22 @@
+total_population: 3500000
+population_density_km2: 68.4
+urban_population_percent: 48.4
+rural_population_percent: 51.6
+median_age: 43.1
+population_growth_rate: -0.6
+life_expectancy:
+  total: 77.3
+  male: 74.6
+  female: 80.1
+major_cities:
+  - name: "Sarajevo"
+    population: 275524
+  - name: "Banja Luka"
+    population: 185042
+  - name: "Tuzla"
+    population: 110311
+ethnic_groups:
+  - "Bosniaks: 50.1%"
+  - "Serbs: 30.8%"
+  - "Croats: 15.4%"
+  - "Others: 3.7%"

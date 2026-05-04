@@ -1,0 +1,10 @@
+map_references:
+  - type: "Political map"
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Bosnia_and_Herzegovina_in_Europe_%28mini_map%29.svg/200px-Bosnia_and_Herzegovina_in_Europe_%28mini_map%29.svg.png"
+  - type: "Topographic map"
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Bosnia_and_Herzegovina_topographic_map.svg/200px-Bosnia_and_Herzegovina_topographic_map.svg.png"
+coordinates_bounding_box:
+  north: 45.2667
+  south: 42.5667
+  east: 19.6167
+  west: 15.7333

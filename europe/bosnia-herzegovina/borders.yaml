@@ -1,0 +1,11 @@
+borders:
+  - country: "Croatia"
+    border_length_km: 956
+  - country: "Serbia"
+    border_length_km: 302
+  - country: "Montenegro"
+    border_length_km: 225
+total_border_length_km: 1483
+maritime_borders:
+  - body: "Adriatic Sea"
+    length_km: 20

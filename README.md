@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (177 / 195 = 90.8%)
+## 📊 Coverage Progress (178 / 195 = 91.3%)
 
 ### 🌎 South America (10/12 = 83.3%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -101,9 +101,9 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇹🇲 **Turkmenistan** | 13/13 | ✅ **100% COMPLETE** | 93rd largest economy ($0.08T), Ashgabat (capital), Karakum Desert 80% territory, 4th largest natural gas reserves, Darvaza Gas Crater, permanent UN neutrality | English (en-US) |
 | 🇹🇱 **Timor-Leste (East Timor)** | 13/13 | ✅ **100% COMPLETE** | Asia's youngest nation (2002), ASEAN member (2023), oil/gas economy, Dili (capital), 1.3M population | English (en-US) |
 
-### 🌍 Europe (32/44 = 72.7%)
-### 🌍 Europe (32/44 = 72.7%)
-### 🌍 Europe (32/44 = 72.7%)
+### 🌍 Europe (33/44 = 75.0%)
+### 🌍 Europe (33/44 = 75.0%)
+### 🌍 Europe (33/44 = 75.0%)
 
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
@@ -128,6 +128,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇺🇦 **Ukraine** | 13/13 | ✅ **100% COMPLETE** | 50th largest economy ($0.27T), Kyiv (3M), agricultural superpower, 37M population, IT sector growth | English (en-US) |
 | 🇭🇺 **Hungary** | 13/13 | ✅ **100% COMPLETE** | 52nd largest economy ($0.26T), Budapest (3M), thermal springs, EU/NATO member | English (en-US) |
 | 🇧🇾 **Belarus** | 13/13 | ✅ **100% COMPLETE** | 61st largest economy ($0.20T), Minsk (2M), Białowieża Forest (UNESCO), eastern Europe | English (en-US) |
+| 🇧🇦 **Bosnia and Herzegovina** | 13/13 | ✅ **100% COMPLETE** | 90th largest economy ($0.13T), Sarajevo (275K), Balkan country, 3.5M population, 2 entities + Brčko District | English (en-US) |
 | 🇪🇪 **Estonia** | 13/13 | ✅ **100% COMPLETE** | 93rd largest economy ($0.10T), Tallinn (capital), NATO/EU/Eurozone member, e-residency program | English (en-US) |
 | 🇭🇷 **Croatia** | 13/13 | ✅ **100% COMPLETE** | 85th largest economy ($0.13T), Zagreb (0.8M), Adriatic coastline, 8 UNESCO sites, EU/NATO/Eurozone member | English (en-US) |
 | 🇱🇹 **Lithuania** | 13/13 | ✅ **100% COMPLETE** | 87th largest economy ($0.12T), Vilnius (0.6M), EU/NATO/Eurozone member, 3 UNESCO sites, Baltic state |

@@ -1,0 +1,16 @@
+coordinates:
+  latitude: 43.9167
+  longitude: 17.6833
+terrain: "Mountains, valleys, plateaus"
+highest_point:
+  name: "Maglić"
+  elevation_m: 2386
+lowest_point:
+  name: "Adriatic Sea coast"
+  elevation_m: 0
+climate: "Hot summers, cold winters; mild in coastal areas"
+natural_resources: ["Coal", "Iron ore", "Bauxite", "Copper", "Timber", "Hydropower potential"]
+land_use:
+  agricultural: 42.2
+  forest: 42.8
+  other: 15.0

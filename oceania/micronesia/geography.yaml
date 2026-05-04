@@ -1,0 +1,12 @@
+country: "Federated States of Micronesia"
+code: "FM"
+region: "Oceania"
+coordinates:
+  latitude: 7.4256
+  longitude: 150.5500
+area_sq_km: 702
+terrain: "Volcanic islands and atolls, mostly low-lying coral islands"
+climate: "Tropical marine, hot and humid year-round with little seasonal variation"
+natural_resources: ["Fish", "Forests", "Minerals (limited)", "Marine resources"]
+bordering_countries: []
+maritime_borders: ["Palau", "Marshall Islands", "Papua New Guinea", "Nauru"]
