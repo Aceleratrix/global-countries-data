@@ -1,0 +1,20 @@
+country: Guernsey
+official_name: Bailiwick of Guernsey
+type: British Crown Dependency
+region: Europe
+subregion: Western Europe
+iso_code: GG
+capital: St. Peter Port
+area_km2: 78
+population: 63000
+currency:
+  code: GGP
+  name: Guernsey pound
+  alternative: GBP (British pound sterling)
+languages:
+  - English
+  - French
+  - Guernésiais
+time_zone:
+  standard: UTC+0 (GMT)
+  daylight: UTC+1 (BST)

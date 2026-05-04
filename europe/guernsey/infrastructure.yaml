@@ -1,0 +1,11 @@
+name: Guernsey
+infrastructure:
+  transport:
+    airports: Guernsey Airport (GCI)
+    ports: St. Peter Port (main ferry terminal)
+    roads: 199 km total (all paved)
+  energy:
+    sources: Imported from France (70%), solar/wind (30%)
+  telecom:
+    mobile_coverage: 99% 4G
+    internet_penetration: 95%

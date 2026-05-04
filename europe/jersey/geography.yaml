@@ -1,0 +1,12 @@
+# Geography data for Jersey
+geography:
+  area: 118  # km²
+  area_units: "square kilometers"
+  region: "Europe"
+  subregion: "Northern Europe"
+  continent: "Europe"
+  coordinates:
+    lat: 49.2144
+    lon: -2.1313
+  landlocked: false
+  island: true

@@ -1,0 +1,14 @@
+iso_code: "FO"
+name: "Faroe Islands"
+official_name: "Faroe Islands"
+local_name: "Føroyar"
+capital: "Tórshavn"
+continent: "Europe"
+subregion: "Northern Europe"
+area_km2: 1396
+population: 54000
+independent: false
+sovereign_state: "Kingdom of Denmark"
+currency: "Danish Krone (DKK)"
+calling_code: "+298"
+tld: ".fo"

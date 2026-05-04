@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![GitHub forks](https://img.shields.io/github/forks/Aceleratrix/global-countries-data?style=social)](https://github.com/Aceleratrix/global-countries-data)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Aceleratrix/global-countries-data/blob/main/LICENSE)
-|[![Status: 183/195 (93.8%) Complete](https://img.shields.io/badge/Status-183/195%20(93.8%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
+|[![Status: 184/195 (94.4%) Complete](https://img.shields.io/badge/Status-184/195%20(94.4%25)%20Complete-green)](https://github.com/Aceleratrix/global-countries-data)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
 [![Powered by YAML](https://img.shields.io/badge/Powered_by-YAML-blue)](https://yaml.org/)
 
@@ -35,7 +35,7 @@ A structured, machine-readable database of country-specific data designed for **
 
 ---
 
-## 📊 Coverage Progress (183 / 195 = 93.8%)
+## 📊 Coverage Progress (184 / 195 = 94.4%)
 
 ### 🌎 South America (11/12 = 91.7%)
 | Country | Files | Status | Key Highlights | Primary Language |
@@ -101,7 +101,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇹🇲 **Turkmenistan** | 13/13 | ✅ **100% COMPLETE** | 93rd largest economy ($0.08T), Ashgabat (capital), Karakum Desert 80% territory, 4th largest natural gas reserves, Darvaza Gas Crater, permanent UN neutrality | English (en-US) |
 | 🇹🇱 **Timor-Leste (East Timor)** | 13/13 | ✅ **100% COMPLETE** | Asia's youngest nation (2002), ASEAN member (2023), oil/gas economy, Dili (capital), 1.3M population | English (en-US) |
 
-### 🌍 Europe (35/44 = 79.5%)
+### 🌍 Europe (36/44 = 81.8%)
 
 | Country | Files | Status | Key Highlights | Primary Language |
 |---------|-------|--------|-----------------|-----------------|
@@ -144,6 +144,7 @@ A structured, machine-readable database of country-specific data designed for **
 | 🇲🇩 **Moldova** | 13/13 | ✅ **100% COMPLETE** | 93rd largest economy ($0.12T), Chișinău (capital), landlocked Eastern Europe, EU candidate since 2022, world-renowned wine cellars, 2.6M population | English (en-US) |
 | 🇵🇱 **Poland** | 13/13 | ✅ **100% COMPLETE** | 20th largest economy ($0.81T), Warsaw (1.8M), BLIK (60% transactions), 2.1M SMEs, EU member 2004 | Polish (pl-PL) + English |
 | 🇸🇲 **San Marino** | 13/13 | ✅ **100% COMPLETE** | 176th largest economy ($0.05T), microstate enclaved in Italy, Monte Titano (755m), 34K population | Italian (it-IT) + English |
+| 🇫🇴 **Faroe Islands** | 13/13 | ✅ **100% COMPLETE** | Autonomous territory of Denmark, North Atlantic, 18 islands, fishing economy | English (en-US) |
 
 ### 🌍 Africa (34/54 = 63.0%)
 | Country | Files | Status | Key Highlights | Primary Language |

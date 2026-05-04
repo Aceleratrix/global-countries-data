@@ -1,0 +1,11 @@
+total_population: 54000
+population_year: 2023
+density_per_km2: 38.7
+urban_population_percent: 43.2
+major_cities:
+  - name: "Tórshavn"
+    population: 14000
+  - name: "Klaksvík"
+    population: 5000
+  - name: "Fuglafjørður"
+    population: 1600

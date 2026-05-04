@@ -1,0 +1,9 @@
+emoji: "🇫🇴"
+name: "Flag of the Faroe Islands"
+description: "A blue field with a red Nordic cross outlined in white"
+colors:
+  - "Blue"
+  - "Red"
+  - "White"
+ratio: "5:8"
+adopted: "1940"

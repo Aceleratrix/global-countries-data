@@ -1,0 +1,7 @@
+land_borders: []
+maritime_borders:
+  - "Norway"
+  - "Iceland"
+  - "United Kingdom"
+  - "Denmark"
+note: "Island territory with no land borders, only maritime boundaries"

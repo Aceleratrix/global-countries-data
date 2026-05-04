@@ -1,0 +1,10 @@
+name: Guernsey
+education:
+  literacy_rate: 99%
+  system: Based on UK model
+  compulsory_age: 5-16
+  schools:
+    primary: 12
+    secondary: 3
+    tertiary: Guernsey College of Further Education
+  language_of_instruction: English

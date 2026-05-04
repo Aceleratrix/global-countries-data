@@ -1,0 +1,12 @@
+region: "North Atlantic Ocean"
+coordinates: "61.8926° N, 6.9118° W"
+terrain: "Rugged, rocky, coastal cliffs, some glacial features"
+highest_point: "Slættaratindur (882 m)"
+lowest_point: "Atlantic Ocean (0 m)"
+climate: "Subpolar oceanic (Cfc)"
+natural_resources:
+  - "Fish"
+  - "Hydropower"
+  - "Bird populations"
+number_of_islands: 18
+inhabited_islands: 17

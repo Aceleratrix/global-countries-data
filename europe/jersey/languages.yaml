@@ -1,0 +1,12 @@
+# Languages spoken in Jersey
+languages:
+  eng:
+    name: "English"
+    official: true
+  fra:
+    name: "French"
+    official: true
+  jje:
+    name: "Jèrriais"
+    official: false
+    regional: true

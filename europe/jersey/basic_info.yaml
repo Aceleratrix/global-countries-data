@@ -1,0 +1,17 @@
+# Basic country information for Jersey
+country:
+  common_name: "Jersey"
+  official_name: "Bailiwick of Jersey"
+  native_name:
+    jje:
+      common: "Jèrri"
+  codes:
+    cca2: "JE"
+    ccn3: "832"
+    cca3: "JEY"
+    cioc: ""
+  independent: false
+  un_member: false
+  status: "officially-assigned"
+  alt_spellings: ["Jersey", "Bailiwick of Jersey"]
+  start_of_week: "monday"

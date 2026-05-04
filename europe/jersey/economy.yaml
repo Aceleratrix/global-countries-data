@@ -1,0 +1,8 @@
+# Economy data for Jersey
+economy:
+  gdp_nominal: 5.6e9  # Estimated 2023
+  currency:
+    code: "GBP"
+    name: "British Pound Sterling"
+    symbol: "£"
+  industries: ["Financial services", "Tourism", "Agriculture", "Retail"]

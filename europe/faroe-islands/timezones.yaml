@@ -1,0 +1,4 @@
+timezone: "UTC+0 (Western European Time)"
+daylight_saving: "UTC+1 (Western European Summer Time)"
+iana_timezone: "Atlantic/Faroe"
+note: "Same timezone as Ireland and Portugal"

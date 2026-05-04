@@ -1,0 +1,13 @@
+name: Guernsey
+demographics:
+  population: 63000
+  population_growth: 0.2%
+  density_per_km2: 807
+  life_expectancy: 82 years
+  ethnicity:
+    - Guernsey-born: 49%
+    - UK-born: 26%
+    - Other: 25%
+  religion:
+    - Christian: 84%
+    - Other/None: 16%

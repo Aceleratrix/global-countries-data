@@ -1,0 +1,11 @@
+gdp_nominal_usd: 3200000000
+gdp_per_capita_usd: 59000
+main_industries:
+  - "Fishing"
+  - "Aquaculture"
+  - "Tourism"
+  - "Sheep farming"
+currency: "Danish Krone (DKK)"
+inflation_rate: 2.1
+unemployment_rate: 1.8
+note: "High GDP per capita due to fishing industry and subsidies from Denmark"

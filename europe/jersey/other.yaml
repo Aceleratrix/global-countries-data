@@ -1,0 +1,7 @@
+# Miscellaneous data for Jersey
+other:
+  calling_code: "+44 1534"
+  tld: ".je"
+  car:
+    side: "left"
+    sign: "GBJ"

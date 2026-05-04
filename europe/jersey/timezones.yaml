@@ -1,0 +1,10 @@
+# Timezone data for Jersey
+timezones:
+  - timezone: "UTC+0"
+    name: "Greenwich Mean Time"
+    abbreviation: "GMT"
+    daylight_saving: false
+  - timezone: "UTC+1"
+    name: "British Summer Time"
+    abbreviation: "BST"
+    daylight_saving: true

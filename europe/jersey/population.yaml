@@ -1,0 +1,5 @@
+# Population data for Jersey
+population:
+  total: 103267  # 2023 estimate
+  year: 2023
+  density: 875  # people per km²

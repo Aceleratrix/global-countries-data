@@ -1,0 +1,12 @@
+name: Guernsey
+economy:
+  gdp_nominal: $3.2 billion (2023 estimate)
+  gdp_per_capita: $51,000
+  main_sectors:
+    - Financial services (40%)
+    - Tourism (20%)
+    - Agriculture (5%)
+    - Manufacturing (10%)
+    - Other (25%)
+  currency: Guernsey pound (GGP), pegged to GBP
+  unemployment_rate: 1.2%
