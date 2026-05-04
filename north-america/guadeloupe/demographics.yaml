@@ -1,0 +1,12 @@
+# Demographics data for Guadeloupe
+population: 395000
+population_year: 2023
+population_density: 243
+ethnic_groups:
+  - Black/Afro-Caribbean: 75%
+  - Mulatto: 15%
+  - White: 7%
+  - Other: 3%
+religions:
+  - Christian (mostly Catholic): 85%
+  - Other: 15%

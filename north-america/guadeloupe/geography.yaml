@@ -1,0 +1,14 @@
+# Geography data for Guadeloupe
+area_km2: 1628
+capital: Basse-Terre
+largest_city: Pointe-à-Pitre
+islands:
+  - Basse-Terre
+  - Grande-Terre
+  - Marie-Galante
+  - La Désirade
+  - Îles des Saintes
+highest_point: Soufrière (1467m)
+coordinates:
+  latitude: 16.25
+  longitude: -61.5833

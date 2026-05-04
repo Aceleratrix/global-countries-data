@@ -1,0 +1,14 @@
+# Culture data for Guadeloupe
+languages:
+  official: French
+  colloquial: Antillean Creole
+cuisine:
+  - Accras (fried cod fritters)
+  - Colombo (curry-style stew)
+  - Bokit (fried bread sandwich)
+music:
+  - Gwo ka (traditional drum music)
+  - Zouk
+public_holidays:
+  - Bastille Day (July 14)
+  - Slavery Abolition Day (May 27)

@@ -1,0 +1,9 @@
+# Tourism data for Guadeloupe
+annual_visitors: 800000
+main_attractions:
+  - La Soufrière volcano
+  - Plage de la Caravelle
+  - Grand Cul-de-Sac Marin Nature Reserve
+  - Îles des Saintes
+accommodation: 120 hotels
+tourism_revenue_usd: 1.2e9

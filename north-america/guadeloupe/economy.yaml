@@ -1,0 +1,11 @@
+# Economy data for Guadeloupe
+gdp_usd: 9.5e9
+gdp_year: 2023
+main_industries:
+  - Tourism
+  - Agriculture (bananas, sugarcane)
+  - Light manufacturing
+  - Rum production
+unemployment_rate: 17.5
+currency: Euro
+currency_code: EUR

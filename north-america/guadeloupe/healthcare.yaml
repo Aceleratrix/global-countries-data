@@ -1,0 +1,6 @@
+# Healthcare data for Guadeloupe
+healthcare_system: French social security system
+hospitals: 5
+doctors_per_1000: 2.8
+life_expectancy: 79
+infant_mortality_rate: 6.2 per 1000 live births

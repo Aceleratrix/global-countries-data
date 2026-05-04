@@ -1,0 +1,8 @@
+# Climate data for Guadeloupe
+climate_type: Tropical maritime
+average_temperature_c:
+  - winter: 24
+  - summer: 28
+rainy_season: June to November
+hurricane_season: June to November
+average_rainfall_mm: 1500-2000

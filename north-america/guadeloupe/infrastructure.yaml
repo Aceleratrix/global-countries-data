@@ -1,0 +1,10 @@
+# Infrastructure data for Guadeloupe
+airports:
+  - Pointe-à-Pitre International Airport (PTP)
+  - Basse-Terre Airport
+ports:
+  - Pointe-à-Pitre
+  - Basse-Terre
+road_network_km: 2070
+electricity: 220V/50Hz
+mobile_coverage: 99% population

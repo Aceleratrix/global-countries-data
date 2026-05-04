@@ -1,0 +1,8 @@
+# Education data for Guadeloupe
+literacy_rate: 95%
+education_system: French education system
+schools:
+  - Primary: 120
+  - Secondary: 45
+  - Higher education: University of the Antilles (Guadeloupe campus)
+compulsory_education_age: 6-16
